@@ -24,5 +24,7 @@ Algemeen (algemene opmerkingen)
 
 [Waardelijsten](https://github.com/Geonovum/imkl2015-review/tree/master/3.%20waardelijsten)
 
+[XML schema](https://github.com/Geonovum/imkl2015-review/tree/master/4.%20XML%20schema)
+
 [Meer uitleg](https://github.com/Geonovum/imkl2015-review/blob/master/1.%20dataspecificatie/meerToelichting.txt)
 
