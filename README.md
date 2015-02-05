@@ -8,6 +8,9 @@ De review is gestructureerd rond de IMKL2015 documentatie. Elk onderdeel bevat e
 
 Issues worden geplaatst door eerst naar onderstaande links te gaan. Eventueel het document te openen in een apart scherm, en de issue knop te gebruiken om een issue te plaatsen. Geef bij nieuwe issues ook een label middels de label knop.
 
+Issue knop: immage
+Label knop: immage
+
 Ook kan er gereageerd worden op bestaande issues.
 
 Volg de volgende links voor specifieke onderdelen.
