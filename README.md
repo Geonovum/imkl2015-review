@@ -8,11 +8,11 @@ De review is gestructureerd rond de IMKL2015 documentatie. Elk onderdeel bevat e
 
 Algemeen
 
-Dataspecificatie
+[Dataspecificatie](https://github.com/Geonovum/imkl2015-review/tree/master/1.%20dataspecificatie)
 
-Objectcatalogus
+[Objectcatalogus](https://github.com/Geonovum/imkl2015-review/tree/master/2.%20objectcatalogus)
 
-Waardelijsten
+[Waardelijsten](https://github.com/Geonovum/imkl2015-review/tree/master/3.%20waardelijsten)
 
 [klik hier](https://github.com/Geonovum/imkl2015-review/blob/master/1.%20dataspecificatie/dummy.txt)
 
