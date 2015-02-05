@@ -1,5 +1,5 @@
-Klik [hier](https://github.com/Geonovum/imkl2015-review/blob/master/1.%20dataspecificatie/IMKL2015_Dataspecificatie_095.docx?raw=true) om de dataspecificatie te downloaden.
+Klik [hier](https://github.com/Geonovum/imkl2015-review/blob/master/3.%20waardelijsten/IMKL2015%20-%200.6%20waardelijsten.xlsxe) om de waardelijsten te downloaden.
 
-Klik [hier](https://github.com/Geonovum/imkl2015-review/issues?q=is%3Aopen+is%3Aissue+label%3Awaardelijsten) om issues over de dataspecificatie te sturen.
+Klik [hier](https://github.com/Geonovum/imkl2015-review/issues?q=is%3Aopen+is%3Aissue+label%3Awaardelijsten) om issues over de waardelijsten te sturen.
 
 [Voorbeeldissues](https://github.com/Geonovum/imkl2015-review/issues?q=voorbeeld+label%3Awaardelijsten)
