@@ -1,6 +1,6 @@
 # Toelichting - begin hier
 
-Review toelichting.
+**Review toelichting.**
 
 Het Informatiemodel Kabels en Leidingen 2015 (IMKL2015) is in ontwikkeling. Via deze site kan er actief meegedacht worden en op de documentatie worden gereageerd. In deze fase is er een continue en open review. Voor attendering van stakeholders (netbeheerders, grondroerders, dienstenaanbieders en softwareleveranciers) is er een emailnotificatie.
 
@@ -16,7 +16,7 @@ Issues worden geplaatst door eerst naar onderstaande links te gaan. Eventueel he
 
 Ook kan er gereageerd worden op bestaande issues. Volg de volgende links voor specifieke onderdelen.
 
-Algemeen (algemene opmerkingen)
+[Algemeen (algemene opmerkingen)](https://github.com/Geonovum/imkl2015-review/tree/master/0.%20algemeen)
 
 [Dataspecificatie](https://github.com/Geonovum/imkl2015-review/tree/master/1.%20dataspecificatie)
 
@@ -26,5 +26,4 @@ Algemeen (algemene opmerkingen)
 
 [XML schema](https://github.com/Geonovum/imkl2015-review/tree/master/4.%20XML%20schema)
 
-[Meer uitleg](https://github.com/Geonovum/imkl2015-review/blob/master/1.%20dataspecificatie/meerToelichting.txt)
 
