@@ -6,6 +6,8 @@ Het Informatiemodel Kabels en Leidingen 2015 (IMKL2015) is in ontwikkeling. Via 
 
 De review is gestructureerd rond de IMKL2015 documentatie. Elk onderdeel bevat een link naar het document. Opmerkingen en vragen moeten in het github platform middels issues worden geplaatst. Elk onderdeel heeft daarvoor een voorbeeldtemplate.
 
+In principe zijn er 4 handelingen. 1. Document downloaden; 2. issues aanmaken per onderdeel; 3. issue een label geven; 4. issue bewaren. 
+
 Issues worden geplaatst door eerst naar onderstaande links te gaan. Eventueel het document te openen in een apart scherm, en de issue knop te gebruiken om de issuelijst te openen en een nieuw issue te plaatsen. Geef bij nieuwe issues ook een label middels de label knop.
 
 Issue knop: image
