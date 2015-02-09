@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:imkl2015="http://www.geonovum.nl/imkl/2015/1.0" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/3.0" xmlns:us-net-el="http://inspire.ec.europa.eu/schemas/us-net-el/3.0" xmlns:us-net-ogc="http://inspire.ec.europa.eu/schemas/us-net-ogc/3.0" xmlns:us-net-sw="http://inspire.ec.europa.eu/schemas/us-net-sw/3.0" xmlns:us-net-tc="http://inspire.ec.europa.eu/schemas/us-net-tc/3.0" xmlns:us-net-th="http://inspire.ec.europa.eu/schemas/us-net-th/3.0" xmlns:us-net-wa="http://inspire.ec.europa.eu/schemas/us-net-wa/3.0" elementFormDefault="qualified" targetNamespace="http://www.geonovum.nl/imkl/2015/1.0" version="2015-01">
+	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-common/3.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-common/3.0/UtilityNetworksCommon.xsd"/>
+	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-el/3.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-el/3.0/ElectricityNetwork.xsd"/>
+	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-ogc/3.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-ogc/3.0/OilGasChemicalsNetwork.xsd"/>
+	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-sw/3.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-sw/3.0/SewerNetwork.xsd"/>
+	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-tc/3.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-tc/3.0/TelecommunicationsNetwork.xsd"/>
+	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-th/3.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-th/3.0/ThermalNetwork.xsd"/>
+	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-wa/3.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-wa/3.0/WaterNetwork.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.3/exr" schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <element name="AanduidingEisVoorzorgsmaatregel" substitutionGroup="imkl2015:ExtraInformatie" type="imkl2015:AanduidingEisVoorzorgsmaatregelType"/>
+  <complexType name="AanduidingEisVoorzorgsmaatregelType">
+    <complexContent>
+      <extension base="imkl2015:ExtraInformatieType">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="eisVoorzorgsmaatregel" type="string"/>
+          <element minOccurs="0" name="geometrie" type="gml:SurfacePropertyType"/>
+          <element minOccurs="0" name="geometriebegrenzingFictief" type="boolean"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AanduidingEisVoorzorgsmaatregelPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:AanduidingEisVoorzorgsmaatregel"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Aansluitschets" substitutionGroup="imkl2015:ExtraDetailinfo" type="imkl2015:AansluitschetsType"/>
+  <complexType name="AansluitschetsType">
+    <complexContent>
+      <extension base="imkl2015:ExtraDetailinfoType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AansluitschetsPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Aansluitschets"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Adres" substitutionGroup="gml:AbstractObject" type="imkl2015:AdresType"/>
+  <complexType name="AdresType">
+    <sequence>
+      <element minOccurs="0" name="huisletter" type="string"/>
+      <element name="huisnummer" type="string"/>
+      <element minOccurs="0" name="huisnummertoevoeging" type="integer"/>
+      <element name="landcode" type="string"/>
+      <element name="naamOpenbareRuimte" type="string"/>
+      <element name="postcode" type="string"/>
+      <element name="woonplaatsNaam" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="AdresPropertyType">
+    <sequence>
+      <element ref="imkl2015:Adres"/>
+    </sequence>
+  </complexType>
+  <element name="Annotatie" substitutionGroup="imkl2015:ExtraInformatie" type="imkl2015:AnnotatieType"/>
+  <complexType name="AnnotatieType">
+    <complexContent>
+      <extension base="imkl2015:ExtraInformatieType">
+        <sequence>
+          <element name="annotatieType" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">AnnotatieTypeValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="rotatiehoek" type="gml:MeasureType"/>
+          <element name="ligging" type="gml:GeometryPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AnnotatiePropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Annotatie"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Appurtenance" substitutionGroup="us-net-common:Appurtenance" type="imkl2015:AppurtenanceType"/>
+  <complexType name="AppurtenanceType">
+    <complexContent>
+      <extension base="us-net-common:AppurtenanceType">
+        <sequence>
+          <element minOccurs="0" name="bovengrondsZichtbaar" type="boolean"/>
+          <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="extraGeometrie" type="imkl2015:ExtraGeometriePropertyType"/>
+          <element minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Diepte</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftLeidingelement</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraInformatie" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:ExtraInformatie</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:opLeidingelementen</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="hoogte" type="gml:LengthType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AppurtenancePropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Appurtenance"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Belang" substitutionGroup="gml:AbstractFeature" type="imkl2015:BelangType"/>
+  <complexType name="BelangType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="gebied" type="imkl2015:GebiedBelangPropertyType"/>
+          <element name="gegevens" type="imkl2015:GegevensBelangPropertyType"/>
+          <element name="thema" type="imkl2015:ThemaType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="BelangPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Belang"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="Buis" substitutionGroup="us-net-common:Pipe" type="imkl2015:BuisType"/>
+  <complexType abstract="true" name="BuisType">
+    <complexContent>
+      <extension base="us-net-common:PipeType">
+        <sequence>
+          <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="isBovengrondsZichtbaar" type="boolean"/>
+          <element minOccurs="0" name="toelichting" type="string"/>
+          <element minOccurs="0" name="aantalKabelsLeidingen" type="integer"/>
+          <element minOccurs="0" name="extraGeometrie" type="imkl2015:ExtraGeometriePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Diepte</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftKabelEnLeidingContainer</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraInformatie" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:ExtraInformatie</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:opKabelEnLeidingContainers</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="buismateriaalType" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">PipeMaterialTypeValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="BuisPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Buis"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <complexType name="ContainerLeidingelementPropertyType">
+    <choice minOccurs="0">
+      <element ref="imkl2015:Kast"/>
+      <element ref="imkl2015:Mangat"/>
+      <element ref="imkl2015:Mast"/>
+      <element ref="imkl2015:TechnischGebouw"/>
+      <element ref="imkl2015:Toren"/>
+    </choice>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="Diepte" substitutionGroup="gml:AbstractFeature" type="imkl2015:DiepteType"/>
+  <complexType abstract="true" name="DiepteType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+          <element name="identificatie" type="imkl2015:NEN3610IDPropertyType"/>
+          <element name="beginLifespanVersion" type="dateTime"/>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
+          <element name="diepteNauwkeurigheid" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidDiepteValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="dieptePeil" type="gml:MeasureType"/>
+          <element minOccurs="0" name="datumOpmetingDieptePeil" type="dateTime"/>
+          <element minOccurs="0" name="ligging" type="gml:GeometryPropertyType"/>
+          <element minOccurs="0" name="heeftKabelOfLeiding" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:KabelOfLeiding</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:dieptelegging</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="heeftKabelEnLeidingContainer" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:KabelEnLeidingContainer</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:dieptelegging</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="heeftLeidingelement" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Leidingelement</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:dieptelegging</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="heeftContainerLeidingelement" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:ContainerLeidingelement</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:dieptelegging</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="inNetwork" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Utiliteitsnet</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftDieptes</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="DieptePropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Diepte"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="DiepteNAP" substitutionGroup="imkl2015:Diepte" type="imkl2015:DiepteNAPType"/>
+  <complexType name="DiepteNAPType">
+    <complexContent>
+      <extension base="imkl2015:DiepteType">
+        <sequence>
+          <element minOccurs="0" name="maaiveldPeil" type="gml:MeasureType"/>
+          <element minOccurs="0" name="datumOpmetingMaaiveldPeil" type="dateTime"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="DiepteNAPPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:DiepteNAP"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="DiepteTovMaaiveld" substitutionGroup="imkl2015:Diepte" type="imkl2015:DiepteTovMaaiveldType"/>
+  <complexType name="DiepteTovMaaiveldType">
+    <complexContent>
+      <extension base="imkl2015:DiepteType">
+        <sequence>
+          <element minOccurs="0" name="heeftUtilityNetwork" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Utiliteitsnet</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:standaardDieptelegging</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="DiepteTovMaaiveldPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:DiepteTovMaaiveld"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Duct" substitutionGroup="us-net-common:Duct" type="imkl2015:DuctType"/>
+  <complexType name="DuctType">
+    <complexContent>
+      <extension base="us-net-common:DuctType">
+        <sequence>
+          <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="isBovengrondsZichtbaar" type="boolean"/>
+          <element minOccurs="0" name="toelichting" type="string"/>
+          <element minOccurs="0" name="aantalKabelsLeidingen" type="integer"/>
+          <element minOccurs="0" name="extraGeometrie" type="imkl2015:ExtraGeometriePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Diepte</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftKabelEnLeidingContainer</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraInformatie" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:ExtraInformatie</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:opKabelEnLeidingContainers</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="DuctPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Duct"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Elektriciteitskabel" substitutionGroup="us-net-el:ElectricityCable" type="imkl2015:ElektriciteitskabelType"/>
+  <complexType name="ElektriciteitskabelType">
+    <complexContent>
+      <extension base="us-net-el:ElectricityCableType">
+        <sequence>
+          <element minOccurs="0" name="kabelDiameter" type="gml:MeasureType"/>
+          <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="toelichting" type="string"/>
+          <element minOccurs="0" name="extraGeometrie" type="imkl2015:ExtraGeometriePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Diepte</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftKabelOfLeiding</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraInformatie" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:ExtraInformatie</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:opKabelEnLeidingen</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="ElektriciteitskabelPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Elektriciteitskabel"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="ExtraDetailinfo" substitutionGroup="imkl2015:ExtraInformatie" type="imkl2015:ExtraDetailinfoType"/>
+  <complexType name="ExtraDetailinfoType">
+    <complexContent>
+      <extension base="imkl2015:ExtraInformatieType">
+        <sequence>
+          <element minOccurs="0" name="adres" type="imkl2015:AdresPropertyType"/>
+          <element maxOccurs="unbounded" name="extraInfoType" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">ExtraDetailInfoTypeValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="bestandLocatie" type="anyURI"/>
+          <element name="bestandMediaType" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">BestandMediaTypeValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="bestandIdentificator" type="anyURI"/>
+          <element name="ligging" type="gml:GeometryPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="ExtraDetailinfoPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:ExtraDetailinfo"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="ExtraGeometrie" substitutionGroup="gml:AbstractFeature" type="imkl2015:ExtraGeometrieType"/>
+  <complexType name="ExtraGeometrieType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identificatie" type="imkl2015:NEN3610IDPropertyType"/>
+          <element name="beginLifespanVersion" type="dateTime"/>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
+          <element minOccurs="0" name="vlakgeometrie2D" type="gml:SurfacePropertyType"/>
+          <element minOccurs="0" name="puntgeometrie2.5D" type="gml:PointPropertyType"/>
+          <element minOccurs="0" name="lijngeometrie2.5D" type="gml:CurvePropertyType"/>
+          <element minOccurs="0" name="vlakgeometrie2.5D" type="gml:SurfacePropertyType"/>
+          <element minOccurs="0" name="geometrie3D" type="gml:SolidPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="ExtraGeometriePropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:ExtraGeometrie"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="ExtraInformatie" substitutionGroup="gml:AbstractFeature" type="imkl2015:ExtraInformatieType"/>
+  <complexType abstract="true" name="ExtraInformatieType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+          <element name="identificatie" type="imkl2015:NEN3610IDPropertyType"/>
+          <element name="beginLifespanVersion" type="dateTime"/>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="opKabelEnLeidingen" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:KabelOfLeiding</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftExtraInformatie</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="opKabelEnLeidingContainers" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:KabelEnLeidingContainer</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftExtraInformatie</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="inNetwork" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Utiliteitsnet</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftExtraInformatie</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="opLeidingelementen" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Leidingelement</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftExtraInformatie</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="opContainerLeidingelementen" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:ContainerLeidingelement</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftExtraInformatie</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="ExtraInformatiePropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:ExtraInformatie"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="ExtraTopografie" substitutionGroup="gml:AbstractFeature" type="imkl2015:ExtraTopografieType"/>
+  <complexType name="ExtraTopografieType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+          <element name="identificatie" type="imkl2015:NEN3610IDPropertyType"/>
+          <element name="beginLifespanVersion" type="dateTime"/>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
+          <element name="extraTopografieType" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">ExtraTopografieTypeValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="typeTopografischObject" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">TopografischObjectTypeValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="ligging" type="gml:GeometryPropertyType"/>
+          <element maxOccurs="unbounded" name="inNetwork" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Utiliteitsnet</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftExtraTopografieen</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="ExtraTopografiePropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:ExtraTopografie"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="GebiedBelang" substitutionGroup="gml:AbstractObject" type="imkl2015:GebiedBelangType"/>
+  <complexType name="GebiedBelangType">
+    <choice>
+      <element name="strook" type="gml:SurfacePropertyType"/>
+      <element name="gebied" type="gml:SurfacePropertyType"/>
+      <element name="eigenBestand" type="anyURI"/>
+      <element name="gemeente" type="string"/>
+    </choice>
+  </complexType>
+  <complexType name="GebiedBelangPropertyType">
+    <sequence>
+      <element ref="imkl2015:GebiedBelang"/>
+    </sequence>
+  </complexType>
+  <element name="GegevensBelang" substitutionGroup="gml:AbstractObject" type="imkl2015:GegevensBelangType"/>
+  <complexType name="GegevensBelangType">
+    <sequence/>
+  </complexType>
+  <complexType name="GegevensBelangPropertyType">
+    <sequence>
+      <element ref="imkl2015:GegevensBelang"/>
+    </sequence>
+  </complexType>
+  <complexType name="IMKLBasisPropertyType">
+    <choice minOccurs="0">
+      <element ref="imkl2015:Diepte"/>
+      <element ref="imkl2015:ExtraGeometrie"/>
+      <element ref="imkl2015:ExtraInformatie"/>
+      <element ref="imkl2015:ExtraTopografie"/>
+      <element ref="imkl2015:TransportrouteRisico"/>
+      <element ref="imkl2015:Utiliteitsnet"/>
+    </choice>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType>
+  <complexType name="KabelEnLeidingContainerPropertyType">
+    <choice minOccurs="0">
+      <element ref="imkl2015:Buis"/>
+      <element ref="imkl2015:Duct"/>
+    </choice>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType>
+  <complexType name="KabelOfLeidingPropertyType">
+    <choice minOccurs="0">
+      <element ref="imkl2015:Elektriciteitskabel"/>
+      <element ref="imkl2015:OlieGasChemicalienPijpleiding"/>
+      <element ref="imkl2015:Rioolleiding"/>
+      <element ref="imkl2015:Telecommunicatiekabel"/>
+      <element ref="imkl2015:ThermischePijpleiding"/>
+    </choice>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType>
+  <complexType name="KabelSpecifiekPropertyType">
+    <choice minOccurs="0">
+      <element ref="imkl2015:Elektriciteitskabel"/>
+      <element ref="imkl2015:Telecommunicatiekabel"/>
+    </choice>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType>
+  <element name="Kabelbed" substitutionGroup="imkl2015:Duct" type="imkl2015:KabelbedType"/>
+  <complexType name="KabelbedType">
+    <complexContent>
+      <extension base="imkl2015:DuctType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="KabelbedPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Kabelbed"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Kast" substitutionGroup="us-net-common:Cabinet" type="imkl2015:KastType"/>
+  <complexType name="KastType">
+    <complexContent>
+      <extension base="us-net-common:CabinetType">
+        <sequence>
+          <element minOccurs="0" name="bovengrondsZichtbaar" type="boolean"/>
+          <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="BGT_ID" type="string"/>
+          <element minOccurs="0" name="extraGeometrie" type="imkl2015:ExtraGeometriePropertyType"/>
+          <element minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Diepte</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftContainerLeidingelement</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" name="inNetwork" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Utiliteitsnet</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:elements</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraInformatie" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:ExtraInformatie</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:opContainerLeidingelementen</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="KastPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Kast"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="KunstwerkDetailschets" substitutionGroup="imkl2015:ExtraDetailinfo" type="imkl2015:KunstwerkDetailschetsType"/>
+  <complexType name="KunstwerkDetailschetsType">
+    <complexContent>
+      <extension base="imkl2015:ExtraDetailinfoType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="KunstwerkDetailschetsPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:KunstwerkDetailschets"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <complexType name="LabelPropertyType">
+    <choice minOccurs="0">
+      <element ref="imkl2015:Appurtenance"/>
+      <element ref="imkl2015:Buis"/>
+      <element ref="imkl2015:Diepte"/>
+      <element ref="imkl2015:Duct"/>
+      <element ref="imkl2015:Elektriciteitskabel"/>
+      <element ref="imkl2015:ExtraInformatie"/>
+      <element ref="imkl2015:ExtraTopografie"/>
+      <element ref="imkl2015:Kast"/>
+      <element ref="imkl2015:Mangat"/>
+      <element ref="imkl2015:Mast"/>
+      <element ref="imkl2015:OlieGasChemicalienPijpleiding"/>
+      <element ref="imkl2015:Rioolleiding"/>
+      <element ref="imkl2015:TechnischGebouw"/>
+      <element ref="imkl2015:Telecommunicatiekabel"/>
+      <element ref="imkl2015:ThermischePijpleiding"/>
+      <element ref="imkl2015:Toren"/>
+      <element ref="imkl2015:Utiliteitsnet"/>
+    </choice>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType>
+  <complexType name="LeidingelementPropertyType">
+    <choice minOccurs="0">
+      <element ref="imkl2015:Appurtenance"/>
+    </choice>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType>
+  <element name="Maatvoering" substitutionGroup="imkl2015:ExtraInformatie" type="imkl2015:MaatvoeringType"/>
+  <complexType name="MaatvoeringType">
+    <complexContent>
+      <extension base="imkl2015:ExtraInformatieType">
+        <sequence>
+          <element name="maatvoeringsType" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">MaatvoeringsTypeValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="rotatiehoek" type="gml:MeasureType"/>
+          <element name="ligging" type="gml:GeometryPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="MaatvoeringPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Maatvoering"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Mangat" substitutionGroup="us-net-common:Manhole" type="imkl2015:MangatType"/>
+  <complexType name="MangatType">
+    <complexContent>
+      <extension base="us-net-common:ManholeType">
+        <sequence>
+          <element minOccurs="0" name="bovengrondsZichtbaar" type="boolean"/>
+          <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="BGT_ID" type="string"/>
+          <element minOccurs="0" name="extraGeometrie" type="imkl2015:ExtraGeometriePropertyType"/>
+          <element minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Diepte</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftContainerLeidingelement</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" name="inNetwork" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Utiliteitsnet</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:elements</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraInformatie" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:ExtraInformatie</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:opContainerLeidingelementen</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="MangatPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Mangat"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Mantelbuis" substitutionGroup="imkl2015:Buis" type="imkl2015:MantelbuisType"/>
+  <complexType name="MantelbuisType">
+    <complexContent>
+      <extension base="imkl2015:BuisType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="MantelbuisPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Mantelbuis"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Mast" substitutionGroup="us-net-common:Pole" type="imkl2015:MastType"/>
+  <complexType name="MastType">
+    <complexContent>
+      <extension base="us-net-common:PoleType">
+        <sequence>
+          <element minOccurs="0" name="bovengrondsZichtbaar" type="boolean"/>
+          <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="BGT_ID" type="string"/>
+          <element minOccurs="0" name="extraGeometrie" type="imkl2015:ExtraGeometriePropertyType"/>
+          <element minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Diepte</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftContainerLeidingelement</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" name="inNetwork" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Utiliteitsnet</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:elements</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraInformatie" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:ExtraInformatie</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:opContainerLeidingelementen</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="MastPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Mast"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NEN3610ID" substitutionGroup="gml:AbstractObject" type="imkl2015:NEN3610IDType"/>
+  <complexType name="NEN3610IDType">
+    <sequence>
+      <element name="namespace" type="string"/>
+      <element name="lokaalID" type="string"/>
+      <element minOccurs="0" name="versie" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="NEN3610IDPropertyType">
+    <sequence>
+      <element ref="imkl2015:NEN3610ID"/>
+    </sequence>
+  </complexType>
+  <element name="OlieGasChemicalienPijpleiding" substitutionGroup="us-net-ogc:OilGasChemicalsPipe" type="imkl2015:OlieGasChemicalienPijpleidingType"/>
+  <complexType name="OlieGasChemicalienPijpleidingType">
+    <complexContent>
+      <extension base="us-net-ogc:OilGasChemicalsPipeType">
+        <sequence>
+          <element name="wanddikte" type="integer"/>
+          <element minOccurs="0" name="maatgevendScenarioDodelijk" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">EffectScenarioType</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="transportrouteNaam" type="string"/>
+          <element name="casnummerMaatgevendeStof" type="string"/>
+          <element name="buisleidingtype" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">BuisleidingtypeType</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="toelichting" type="string"/>
+          <element minOccurs="0" name="extraGeometrie" type="imkl2015:ExtraGeometriePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Diepte</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftKabelOfLeiding</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraInformatie" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:ExtraInformatie</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:opKabelEnLeidingen</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="OlieGasChemicalienPijpleidingPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:OlieGasChemicalienPijpleiding"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="PuntLijnVlak" substitutionGroup="gml:AbstractObject" type="imkl2015:PuntLijnVlakType"/>
+  <complexType name="PuntLijnVlakType">
+    <choice>
+      <element name="punt" type="gml:PointPropertyType"/>
+      <element name="lijn" type="gml:CurvePropertyType"/>
+      <element name="vlak" type="gml:SurfacePropertyType"/>
+    </choice>
+  </complexType>
+  <complexType name="PuntLijnVlakPropertyType">
+    <sequence>
+      <element ref="imkl2015:PuntLijnVlak"/>
+    </sequence>
+  </complexType>
+  <complexType name="RRGSbuisleidingSpecifiekPropertyType">
+    <choice minOccurs="0">
+      <element ref="imkl2015:OlieGasChemicalienPijpleiding"/>
+    </choice>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType>
+  <element name="Rioolleiding" substitutionGroup="us-net-sw:SewerPipe" type="imkl2015:RioolleidingType"/>
+  <complexType name="RioolleidingType">
+    <complexContent>
+      <extension base="us-net-sw:SewerPipeType">
+        <sequence>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+          <element name="typeRioolleiding" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">RioolleidingTypeWaarde</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="toelichting" type="string"/>
+          <element minOccurs="0" name="extraGeometrie" type="imkl2015:ExtraGeometriePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Diepte</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftKabelOfLeiding</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraInformatie" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:ExtraInformatie</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:opKabelEnLeidingen</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="RioolleidingPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Rioolleiding"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <complexType name="StedelijkWaterSpecifiekPropertyType">
+    <choice minOccurs="0">
+      <element ref="imkl2015:Rioolleiding"/>
+    </choice>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType>
+  <element name="TechnischContactpersoon" substitutionGroup="gml:AbstractObject" type="imkl2015:TechnischContactpersoonType"/>
+  <complexType name="TechnischContactpersoonType">
+    <sequence>
+      <element name="naam"/>
+      <element name="telefoon"/>
+      <element name="email"/>
+    </sequence>
+  </complexType>
+  <complexType name="TechnischContactpersoonPropertyType">
+    <sequence>
+      <element ref="imkl2015:TechnischContactpersoon"/>
+    </sequence>
+  </complexType>
+  <element name="TechnischGebouw" substitutionGroup="gml:AbstractFeature" type="imkl2015:TechnischGebouwType"/>
+  <complexType name="TechnischGebouwType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="bovengrondsZichtbaar" type="boolean"/>
+          <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="BGT_ID" type="string"/>
+          <element minOccurs="0" name="extraGeometrie" type="imkl2015:ExtraGeometriePropertyType"/>
+          <element minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Diepte</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftContainerLeidingelement</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" name="inNetwork" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Utiliteitsnet</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:elements</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraInformatie" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:ExtraInformatie</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:opContainerLeidingelementen</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="TechnischGebouwPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:TechnischGebouw"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Telecommunicatiekabel" substitutionGroup="us-net-tc:TelecommunicationsCable" type="imkl2015:TelecommunicatiekabelType"/>
+  <complexType name="TelecommunicatiekabelType">
+    <complexContent>
+      <extension base="us-net-tc:TelecommunicationsCableType">
+        <sequence>
+          <element minOccurs="0" name="kabelDiameter" type="gml:MeasureType"/>
+          <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="toelichting" type="string"/>
+          <element minOccurs="0" name="extraGeometrie" type="imkl2015:ExtraGeometriePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Diepte</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftKabelOfLeiding</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraInformatie" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:ExtraInformatie</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:opKabelEnLeidingen</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="TelecommunicatiekabelPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Telecommunicatiekabel"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="ThemaType">
+    <restriction base="string">
+      <enumeration value="buisleiding gevaarlijke inhoud"/>
+      <enumeration value="datatransport"/>
+      <enumeration value="gas hoge druk"/>
+      <enumeration value="gas lage druk"/>
+      <enumeration value="(petro)chemie"/>
+      <enumeration value="laagspanning"/>
+      <enumeration value="middenspanning"/>
+      <enumeration value="hoogspanning"/>
+      <enumeration value="landelijk hoogspanningsnet"/>
+      <enumeration value="water"/>
+      <enumeration value="warmte"/>
+      <enumeration value="riool onder over- of onderdruk"/>
+      <enumeration value="riool vrijverval"/>
+      <enumeration value="wees"/>
+      <enumeration value="overig"/>
+    </restriction>
+  </simpleType>
+  <element name="ThermischePijpleiding" substitutionGroup="us-net-th:ThermalPipe" type="imkl2015:ThermischePijpleidingType"/>
+  <complexType name="ThermischePijpleidingType">
+    <complexContent>
+      <extension base="us-net-th:ThermalPipeType">
+        <sequence>
+          <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="toelichting" type="string"/>
+          <element minOccurs="0" name="extraGeometrie" type="imkl2015:ExtraGeometriePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Diepte</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftKabelOfLeiding</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraInformatie" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:ExtraInformatie</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:opKabelEnLeidingen</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="ThermischePijpleidingPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:ThermischePijpleiding"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Toren" substitutionGroup="us-net-common:Tower" type="imkl2015:TorenType"/>
+  <complexType name="TorenType">
+    <complexContent>
+      <extension base="us-net-common:TowerType">
+        <sequence>
+          <element minOccurs="0" name="bovengrondsZichtbaar" type="boolean"/>
+          <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="BGT_ID" type="string"/>
+          <element minOccurs="0" name="extraGeometrie" type="imkl2015:ExtraGeometriePropertyType"/>
+          <element minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Diepte</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftContainerLeidingelement</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" name="inNetwork" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Utiliteitsnet</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:elements</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraInformatie" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:ExtraInformatie</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:opContainerLeidingelementen</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="TorenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Toren"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="TransportrouteRisico" substitutionGroup="gml:AbstractFeature" type="imkl2015:TransportrouteRisicoType"/>
+  <complexType name="TransportrouteRisicoType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identificatie" type="imkl2015:NEN3610IDPropertyType"/>
+          <element name="beginLifespanVersion" type="dateTime"/>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
+          <element name="risicocontour10_6" type="gml:MultiSurfacePropertyType"/>
+          <element name="effectcontourDodelijk" type="gml:MultiSurfacePropertyType"/>
+          <element maxOccurs="unbounded" name="bijBuisleiding" type="imkl2015:OlieGasChemicalienPijpleidingPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="TransportrouteRisicoPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:TransportrouteRisico"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Utiliteitsnet" substitutionGroup="us-net-common:UtilityNetwork" type="imkl2015:UtiliteitsnetType"/>
+  <complexType name="UtiliteitsnetType">
+    <complexContent>
+      <extension base="us-net-common:UtilityNetworkType">
+        <sequence>
+          <element minOccurs="0" name="label"/>
+          <element minOccurs="0" name="omschrijving"/>
+          <element name="identificatie" type="imkl2015:NEN3610IDPropertyType"/>
+          <element name="beginLifespanVersion" type="dateTime"/>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
+          <element name="technischContactpersoon" type="imkl2015:TechnischContactpersoonPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="eisVoorzorgsmaatregelHoogstePrioriteit" type="string"/>
+          <element name="thema" type="imkl2015:ThemaType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftDieptes" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Diepte</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:inNetwork</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraTopografieen" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:ExtraTopografie</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:inNetwork</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="standaardDieptelegging" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:DiepteTovMaaiveld</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftUtilityNetwork</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraInformatie" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:ExtraInformatie</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:inNetwork</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="UtiliteitsnetPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Utiliteitsnet"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Waterleiding" substitutionGroup="us-net-wa:WaterPipe" type="imkl2015:WaterleidingType"/>
+  <complexType name="WaterleidingType">
+    <complexContent>
+      <extension base="us-net-wa:WaterPipeType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="WaterleidingPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Waterleiding"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+</schema>
