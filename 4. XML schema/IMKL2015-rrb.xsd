@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:imkl2015="http://www.geonovum.nl/imkl/2015/1.0" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/3.0" xmlns:us-net-ogc="http://inspire.ec.europa.eu/schemas/us-net-ogc/3.0" elementFormDefault="qualified" targetNamespace="http://www.geonovum.nl/imkl/2015/1.0" version="2015-01">
+  <import namespace="http://inspire.ec.europa.eu/schemas/us-net-common/3.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-common/3.0/UtilityNetworksCommon.xsd"/>
+  <import namespace="http://inspire.ec.europa.eu/schemas/us-net-ogc/3.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-ogc/3.0/OilGasChemicalsNetwork.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.3/exr" schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <element name="Adres" substitutionGroup="gml:AbstractObject" type="imkl2015:AdresType"/>
+  <complexType name="AdresType">
+    <sequence>
+      <element name="naamOpenbareRuimte" type="string"/>
+      <element name="huisnummer" type="string"/>
+      <element minOccurs="0" name="huisletter"/>
+      <element minOccurs="0" name="huisnummertoevoeging" type="integer"/>
+      <element name="woonplaatsNaam" type="string"/>
+      <element name="postcode" type="string"/>
+      <element name="landcode" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="AdresPropertyType">
+    <sequence>
+      <element ref="imkl2015:Adres"/>
+    </sequence>
+  </complexType>
+  <element abstract="true" name="Diepte" substitutionGroup="gml:AbstractFeature" type="imkl2015:DiepteType"/>
+  <complexType abstract="true" name="DiepteType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identificatie" type="imkl2015:NEN3610IDPropertyType"/>
+          <element name="beginLifespanVersion" type="dateTime"/>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
+          <element name="diepteNauwkeurigheid" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidDiepteValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="dieptePeil" type="gml:MeasureType"/>
+          <element minOccurs="0" name="datumOpmetingDieptePeil" type="dateTime"/>
+          <element minOccurs="0" name="ligging" type="gml:GeometryPropertyType"/>
+          <element minOccurs="0" name="heeftKabelOfLeiding" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:KabelOfLeiding</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:dieptelegging</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="inNetwork" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Utiliteitsnet</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftDieptes</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="DieptePropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Diepte"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="DiepteNAP" substitutionGroup="imkl2015:Diepte" type="imkl2015:DiepteNAPType"/>
+  <complexType name="DiepteNAPType">
+    <complexContent>
+      <extension base="imkl2015:DiepteType">
+        <sequence>
+          <element minOccurs="0" name="maaiveldPeil" type="gml:MeasureType"/>
+          <element minOccurs="0" name="datumOpmetingMaaiveldPeil" type="dateTime"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="DiepteNAPPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:DiepteNAP"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="DiepteTovMaaiveld" substitutionGroup="imkl2015:Diepte" type="imkl2015:DiepteTovMaaiveldType"/>
+  <complexType name="DiepteTovMaaiveldType">
+    <complexContent>
+      <extension base="imkl2015:DiepteType">
+        <sequence>
+          <element minOccurs="0" name="heeftUtilityNetwork" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Utiliteitsnet</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:standaardDieptelegging</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="DiepteTovMaaiveldPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:DiepteTovMaaiveld"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="EffectcontourDodelijk" substitutionGroup="gml:AbstractFeature" type="imkl2015:EffectcontourDodelijkType"/>
+  <complexType name="EffectcontourDodelijkType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identificatie" type="imkl2015:NEN3610IDPropertyType"/>
+          <element name="beginLifespanVersion" type="dateTime"/>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
+          <element name="effectafstandDodelijk" type="gml:MeasureType"/>
+          <element minOccurs="0" name="maatgevendScenarioDodelijk" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">EffectScenarioType</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="bijBuisleiding" type="imkl2015:OlieGasChemicalienPijpleidingPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="EffectcontourDodelijkPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:EffectcontourDodelijk"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="ExtraGeometrie" substitutionGroup="gml:AbstractFeature" type="imkl2015:ExtraGeometrieType"/>
+  <complexType name="ExtraGeometrieType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identificatie" type="imkl2015:NEN3610IDPropertyType"/>
+          <element name="beginLifespanVersion" type="dateTime"/>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
+          <element minOccurs="0" name="vlakgeometrie2D" type="gml:SurfacePropertyType"/>
+          <element minOccurs="0" name="puntgeometrie2.5D" type="gml:PointPropertyType"/>
+          <element minOccurs="0" name="lijngeometrie2.5D" type="gml:CurvePropertyType"/>
+          <element minOccurs="0" name="vlakgeometrie2.5D" type="gml:SurfacePropertyType"/>
+          <element minOccurs="0" name="geometrie3D" type="gml:SolidPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="ExtraGeometriePropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:ExtraGeometrie"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <complexType name="IMKLBasisPropertyType">
+    <choice minOccurs="0">
+      <element ref="imkl2015:Diepte"/>
+      <element ref="imkl2015:EffectcontourDodelijk"/>
+      <element ref="imkl2015:ExtraGeometrie"/>
+      <element ref="imkl2015:TransportrouteRisico"/>
+      <element ref="imkl2015:Utiliteitsnet"/>
+    </choice>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType>
+  <complexType name="KabelOfLeidingPropertyType">
+    <choice minOccurs="0">
+      <element ref="imkl2015:OlieGasChemicalienPijpleiding"/>
+    </choice>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType>
+  <element name="NEN3610ID" substitutionGroup="gml:AbstractObject" type="imkl2015:NEN3610IDType"/>
+  <complexType name="NEN3610IDType">
+    <sequence>
+      <element name="namespace" type="string"/>
+      <element name="lokaalID" type="string"/>
+      <element minOccurs="0" name="versie" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="NEN3610IDPropertyType">
+    <sequence>
+      <element ref="imkl2015:NEN3610ID"/>
+    </sequence>
+  </complexType>
+  <element name="OlieGasChemicalienPijpleiding" substitutionGroup="us-net-ogc:OilGasChemicalsPipe" type="imkl2015:OlieGasChemicalienPijpleidingType"/>
+  <complexType name="OlieGasChemicalienPijpleidingType">
+    <complexContent>
+      <extension base="us-net-ogc:OilGasChemicalsPipeType">
+        <sequence>
+          <element name="wanddikte" type="gml:MeasureType"/>
+          <element name="transportrouteNaam" type="string"/>
+          <element name="materiaalsoort" type="string"/>
+          <element name="casnummerMaatgevendeStof" type="string"/>
+          <element name="buisleidingtype" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">BuisleidingtypeType</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="toelichting" type="string"/>
+          <element minOccurs="0" name="extraGeometrie" type="imkl2015:ExtraGeometriePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Diepte</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftKabelOfLeiding</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="OlieGasChemicalienPijpleidingPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:OlieGasChemicalienPijpleiding"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="PuntLijnVlak" substitutionGroup="gml:AbstractObject" type="imkl2015:PuntLijnVlakType"/>
+  <complexType name="PuntLijnVlakType">
+    <choice>
+      <element name="punt" type="gml:PointPropertyType"/>
+      <element name="lijn" type="gml:CurvePropertyType"/>
+      <element name="vlak" type="gml:SurfacePropertyType"/>
+    </choice>
+  </complexType>
+  <complexType name="PuntLijnVlakPropertyType">
+    <sequence>
+      <element ref="imkl2015:PuntLijnVlak"/>
+    </sequence>
+  </complexType>
+  <complexType name="RRGSbuisleidingSpecifiekPropertyType">
+    <choice minOccurs="0">
+      <element ref="imkl2015:OlieGasChemicalienPijpleiding"/>
+    </choice>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType>
+  <element name="TechnischContactpersoon" substitutionGroup="gml:AbstractObject" type="imkl2015:TechnischContactpersoonType"/>
+  <complexType name="TechnischContactpersoonType">
+    <sequence>
+      <element name="naam"/>
+      <element name="telefoon"/>
+      <element name="email"/>
+    </sequence>
+  </complexType>
+  <complexType name="TechnischContactpersoonPropertyType">
+    <sequence>
+      <element ref="imkl2015:TechnischContactpersoon"/>
+    </sequence>
+  </complexType>
+  <element name="TransportrouteRisico" substitutionGroup="gml:AbstractFeature" type="imkl2015:TransportrouteRisicoType"/>
+  <complexType name="TransportrouteRisicoType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identificatie" type="imkl2015:NEN3610IDPropertyType"/>
+          <element name="beginLifespanVersion" type="dateTime"/>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
+          <element name="risicocontour10_6" type="gml:MultiSurfacePropertyType"/>
+          <element name="effectcontourDodelijk" type="gml:MultiSurfacePropertyType"/>
+          <element maxOccurs="unbounded" name="bijBuisleiding" type="imkl2015:OlieGasChemicalienPijpleidingPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="TransportrouteRisicoPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:TransportrouteRisico"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Utiliteitsnet" substitutionGroup="us-net-common:UtilityNetwork" type="imkl2015:UtiliteitsnetType"/>
+  <complexType name="UtiliteitsnetType">
+    <complexContent>
+      <extension base="us-net-common:UtilityNetworkType">
+        <sequence>
+          <element name="identificatie" type="imkl2015:NEN3610IDPropertyType"/>
+          <element name="beginLifespanVersion" type="dateTime"/>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
+          <element name="technischContactpersoon" type="imkl2015:TechnischContactpersoonPropertyType"/>
+          <element name="thema" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">Thema</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftDieptes" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:Diepte</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:inNetwork</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="standaardDieptelegging" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">imkl2015:DiepteTovMaaiveld</targetElement>
+                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">imkl2015:heeftUtilityNetwork</reversePropertyName>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="UtiliteitsnetPropertyType">
+    <sequence minOccurs="0">
+      <element ref="imkl2015:Utiliteitsnet"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+</schema>
