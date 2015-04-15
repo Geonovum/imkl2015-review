@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<gml:FeatureCollection xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="ID_1c0c5554-5c4a-467a-a9ef-9f36b5af2bf7" xsi:schemaLocation="http://www.geonovum.nl/wion/2015/1.0 ../../../IMKL2015-wion.xsd">
+	<gml:featureMember>
+		<imkl:Appurtenance xmlns:imkl="http://www.geonovum.nl/wion/2015/1.0" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/3.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" gml:id="ID_f7091406-a508-4a3f-afc0-cc725d8b400c">
+			<net:beginLifespanVersion>2001-12-17T09:30:47.0Z</net:beginLifespanVersion>
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>001</base:localId>
+					<base:namespace>interstroom-be</base:namespace>
+					<base:versionId>v2</base:versionId>
+				</base:Identifier>
+			</net:inspireId>
+			<net:endLifespanVersion>2001-12-17T09:30:47.0Z</net:endLifespanVersion>
+			<net:inNetwork xlink:href="http://mir.agiv.be/data/IMKL/v2.2/UtilityNetwork/interstroom-be:001"/>
+			<net:geometry>
+				<gml:Point gml:id="ID_c162014f-5554-47f2-9973-a9bb8bbec7ed" srsName="http://spatialreference.org/ref/epsg/31370/">
+					<gml:pos>103572.468 192239.637</gml:pos>
+				</gml:Point>
+			</net:geometry>
+			<us-net-common:currentStatus xlink:href="http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/functional"/>
+			<us-net-common:validFrom>2001-12-17T09:30:47.0Z</us-net-common:validFrom>
+			<us-net-common:validTo>2001-12-17T09:30:47.0Z</us-net-common:validTo>
+			<us-net-common:verticalPosition>onGroundSurface</us-net-common:verticalPosition>
+			<us-net-common:appurtenanceType xlink:href="http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeExtendedValue/deliveryPoint"/>
+			<imkl:hoogte uom="urn:ogc:def:uom:OGC::cm">10</imkl:hoogte>
+		</imkl:Appurtenance>
+	</gml:featureMember>
+	<gml:featureMember>
+		<imkl:Appurtenance xmlns:imkl="http://www.geonovum.nl/wion/2015/1.0" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/3.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" gml:id="ID_197d3b4a-92b7-486b-984d-9882d47ec9b2">
+			<net:beginLifespanVersion>2001-12-17T09:30:47.0Z</net:beginLifespanVersion>
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>002</base:localId>
+					<base:namespace>interstroom-be</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:endLifespanVersion>2001-12-17T09:30:47.0Z</net:endLifespanVersion>
+			<net:inNetwork xlink:href="http://mir.agiv.be/data/IMKL/v2.2/UtilityNetwork/interstroom-be:001"/>
+			<net:geometry>
+				<gml:Point gml:id="ID_9a56c74c-0b94-4c02-8bb1-e68be16a849f" srsName="http://spatialreference.org/ref/epsg/31370/">
+					<gml:pos>103519.132 192183.796</gml:pos>
+				</gml:Point>
+			</net:geometry>
+			<us-net-common:currentStatus xlink:href="http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/disused"/>
+			<us-net-common:validFrom>2001-12-17T09:30:47.0Z</us-net-common:validFrom>
+			<us-net-common:validTo>2001-12-17T09:30:47.0Z</us-net-common:validTo>
+			<us-net-common:verticalPosition>onGroundSurface</us-net-common:verticalPosition>
+			<us-net-common:appurtenanceType xlink:href="http://mir.agiv.be/cl/IMKL/v2/ElectricityAppurtenanceTypeIMKLValue/aarding"/>
+			<imkl:hoogte uom="urn:ogc:def:uom:OGC::cm">10</imkl:hoogte>
+		</imkl:Appurtenance>
+	</gml:featureMember>
+	<gml:featureMember>
+		<imkl:Appurtenance xmlns:imkl="http://www.geonovum.nl/wion/2015/1.0" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/3.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" gml:id="ID_a2b70e5f-cc19-49f1-bad1-c25f8253abc0">
+			<net:beginLifespanVersion>2001-12-17T09:30:47.0Z</net:beginLifespanVersion>
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>003</base:localId>
+					<base:namespace>interstroom-be</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:endLifespanVersion>2001-12-17T09:30:47.0Z</net:endLifespanVersion>
+			<net:inNetwork xlink:href="http://mir.agiv.be/data/IMKL/v2.2/UtilityNetwork/interstroom-be:001"/>
+			<net:geometry>
+				<gml:Point gml:id="ID_108bc395-61d9-42cd-9c11-4ec378cac394" srsName="http://spatialreference.org/ref/epsg/31370/">
+					<gml:pos>103769.539 192092.397</gml:pos>
+				</gml:Point>
+			</net:geometry>
+			<us-net-common:currentStatus xlink:href="http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/functional"/>
+			<us-net-common:validFrom>2001-12-17T09:30:47.0Z</us-net-common:validFrom>
+			<us-net-common:validTo>2001-12-17T09:30:47.0Z</us-net-common:validTo>
+			<us-net-common:verticalPosition>onGroundSurface</us-net-common:verticalPosition>
+			<us-net-common:appurtenanceType xlink:href="http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeExtendedValue/streetLight"/>
+			<imkl:hoogte uom="urn:ogc:def:uom:OGC::cm">10</imkl:hoogte>
+		</imkl:Appurtenance>
+	</gml:featureMember>
+	<gml:featureMember>
+		<imkl:Appurtenance xmlns:imkl="http://www.geonovum.nl/wion/2015/1.0" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/3.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" gml:id="ID_a2b70e5f-cc19-49f1-bad1-c25f8253abc2">
+			<net:beginLifespanVersion>2001-12-17T09:30:47.0Z</net:beginLifespanVersion>
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>004</base:localId>
+					<base:namespace>interstroom-be</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:endLifespanVersion>2001-12-17T09:30:47.0Z</net:endLifespanVersion>
+			<net:inNetwork xlink:href="http://mir.agiv.be/data/IMKL/v2.2/UtilityNetwork/interstroom-be:001"/>
+			<net:geometry>
+				<gml:Point gml:id="ID_108bc395-61d9-42cd-9c11-4ec378cac395" srsName="http://spatialreference.org/ref/epsg/31370/">
+					<gml:pos>103580.982 192161.009</gml:pos>
+				</gml:Point>
+			</net:geometry>
+			<us-net-common:currentStatus xlink:href="http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/projected"/>
+			<us-net-common:validFrom>2001-12-17T09:30:47.0Z</us-net-common:validFrom>
+			<us-net-common:validTo>2001-12-17T09:30:47.0Z</us-net-common:validTo>
+			<us-net-common:verticalPosition>onGroundSurface</us-net-common:verticalPosition>
+			<us-net-common:appurtenanceType xlink:href="http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeExtendedValue/streetLight"/>
+			<imkl:hoogte uom="urn:ogc:def:uom:OGC::cm">10</imkl:hoogte>
+		</imkl:Appurtenance>
+	</gml:featureMember>
+	<gml:featureMember>
+		<us-net-common:UtilityLink xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/3.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" gml:id="ID_2d6e1e45-75c5-457a-ab1c-3fb4bb3694a6">
+			<net:beginLifespanVersion>2001-12-17T09:30:47.0Z</net:beginLifespanVersion>
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>001</base:localId>
+					<base:namespace>interstroom-be</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:endLifespanVersion nilReason="inapplicable">2001-12-17T09:30:47.0Z</net:endLifespanVersion>
+			<net:inNetwork xlink:href="http://mir.agiv.be/data/IMKL/v2.2/UtilityNetwork/interstroom-be:001"/>
+			<net:centrelineGeometry>
+				<gml:LineString gml:id="ID_f5a5de6b-6a32-48e8-8600-819a475985ef" srsName="http://spatialreference.org/ref/epsg/31370/">
+					<gml:posList>103572.468 192239.637 103580.231 192165.767</gml:posList>
+				</gml:LineString>
+			</net:centrelineGeometry>
+			<net:fictitious>false</net:fictitious>
+			<!--verplicht element, wordt niet gebruikt de status van de kabel of leiding geldt-->
+			<us-net-common:currentStatus xlink:href="http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/functional"/>
+			<us-net-common:validFrom nilReason="inapplicable" xsi:nil="true"/>
+			<us-net-common:verticalPosition nilReason="missing" xsi:nil="true"/>
+		</us-net-common:UtilityLink>
+	</gml:featureMember>
+	<gml:featureMember>
+		<us-net-common:UtilityLink xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/3.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" gml:id="ID_bafdfd5f-8163-45f6-a2f6-decaeb8d8664">
+			<net:beginLifespanVersion>2001-12-17T09:30:47.0Z</net:beginLifespanVersion>
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>002</base:localId>
+					<base:namespace>interstroom-be</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:endLifespanVersion>2001-12-17T09:30:47.0Z</net:endLifespanVersion>
+			<net:inNetwork xlink:href="http://mir.agiv.be/data/IMKL/v2.2/UtilityNetwork/interstroom-be:001"/>
+			<net:centrelineGeometry>
+				<gml:LineString gml:id="ID_7fdbc52d-18e3-4df6-8b40-5221d339dc31" srsName="http://spatialreference.org/ref/epsg/31370/">
+					<gml:posList>103519.132 192183.796 103578.729 192162.261</gml:posList>
+				</gml:LineString>
+			</net:centrelineGeometry>
+			<net:fictitious>false</net:fictitious>
+			<us-net-common:currentStatus xlink:href="http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/functional"/>
+			<us-net-common:validFrom nilReason="inapplicable" xsi:nil="true"/>
+			<us-net-common:verticalPosition nilReason="missing" xsi:nil="true"/>
+		</us-net-common:UtilityLink>
+	</gml:featureMember>
+	<gml:featureMember>
+		<us-net-common:UtilityLink xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/3.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" gml:id="ID_c979bd8e-1f5d-4143-b69c-1fe66694350d">
+			<net:beginLifespanVersion>2001-12-17T09:30:47.0Z</net:beginLifespanVersion>
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>003</base:localId>
+					<base:namespace>interstroom-be</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:endLifespanVersion>2001-12-17T09:30:47.0Z</net:endLifespanVersion>
+			<net:inNetwork xlink:href="http://mir.agiv.be/data/IMKL/v2.2/UtilityNetwork/interstroom-be:001"/>
+			<net:centrelineGeometry>
+				<gml:LineString gml:id="ID_969dd2e9-b401-4dac-a6fa-5ba424cfe3ea" srsName="http://spatialreference.org/ref/epsg/31370/">
+					<gml:posList>103578.729 192162.261 103769.539 192092.397</gml:posList>
+				</gml:LineString>
+			</net:centrelineGeometry>
+			<!--verplicht inspire element, voor Utilities moet dit op false staan-->
+			<net:fictitious>false</net:fictitious>
+			<us-net-common:currentStatus xlink:href="http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/projected"/>
+			<us-net-common:validFrom nilReason="inapplicable" xsi:nil="true"/>
+			<us-net-common:verticalPosition nilReason="missing" xsi:nil="true"/>
+		</us-net-common:UtilityLink>
+	</gml:featureMember>
+	<gml:featureMember>
+		<imkl:Elektriciteitskabel xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/3.0" xmlns:us-net-el="http://inspire.ec.europa.eu/schemas/us-net-el/3.0" xmlns:imkl="http://www.geonovum.nl/wion/2015/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" gml:id="ID_1">
+			<net:beginLifespanVersion>2001-12-17T09:30:47.0Z</net:beginLifespanVersion>
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>001</base:localId>
+					<base:namespace>interstroom-be</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:inNetwork xlink:href="http://mir.agiv.be/data/IMKL/v2.2/UtilityNetwork/interstroom-be:001"/>
+			<net:link xlink:href="http://mir.agiv.be/data/INSPIRE-US/v3/UtilityLink/interstroom-be:001"/>
+			<us-net-common:currentStatus xlink:href="http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/disused"/>
+			<us-net-common:validFrom>2005-03-13T09:30:47.0Z</us-net-common:validFrom>
+			<us-net-common:verticalPosition>underground</us-net-common:verticalPosition>
+			<us-net-common:utilityDeliveryType xlink:href="http://inspire.ec.europa.eu/codelist/UtilityDeliveryTypeExtendedValue/distribution"/>
+			<us-net-common:warningType xlink:href="http://inspire.ec.europa.eu/codelist/WarningTypeExtendedValue/net"/>
+			<us-net-el:operatingVoltage uom="urn:ogc:def:uom:OGC::V">220</us-net-el:operatingVoltage>
+			<us-net-el:nominalVoltage uom="urn:ogc:def:uom:OGC::V">220</us-net-el:nominalVoltage>
+		</imkl:Elektriciteitskabel>
+	</gml:featureMember>
+	<gml:featureMember>
+		<imkl:Elektriciteitskabel xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/3.0" xmlns:us-net-el="http://inspire.ec.europa.eu/schemas/us-net-el/3.0" xmlns:imkl="http://www.geonovum.nl/wion/2015/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" gml:id="ID_2">
+			<net:beginLifespanVersion>2001-12-17T09:30:47.0Z</net:beginLifespanVersion>
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>002</base:localId>
+					<base:namespace>interstroom-be</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:inNetwork xlink:href="http://mir.agiv.be/data/IMKL/v2.2/UtilityNetwork/interstroom-be:001"/>
+			<net:link xlink:href="http://mir.agiv.be/data/INSPIRE-US/v3/UtilityLink/interstroom-be:002"/>
+			<net:link xlink:href="http://mir.agiv.be/data/INSPIRE-US/v3/UtilityLink/interstroom-be:003"/>
+			<us-net-common:currentStatus xlink:href="http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/projected"/>
+			<us-net-common:validFrom nilReason="inapplicable" xsi:nil="true"/>
+			<!--wanneer voor verticalposition geen waarde wordt meegegeven dan wordt aangenomen dat het underground is-->
+			<us-net-common:verticalPosition nilReason="inapplicable" xsi:nil="true"/>
+			<us-net-common:utilityDeliveryType xlink:href="http://inspire.ec.europa.eu/codelist/UtilityDeliveryTypeExtendedValue/distribution"/>
+			<us-net-common:warningType xlink:href="http://inspire.ec.europa.eu/codelist/WarningTypeExtendedValue/net"/>
+			<us-net-el:operatingVoltage uom="urn:ogc:def:uom:OGC::V">220</us-net-el:operatingVoltage>
+			<us-net-el:nominalVoltage uom="urn:ogc:def:uom:OGC::V">220</us-net-el:nominalVoltage>
+		</imkl:Elektriciteitskabel>
+	</gml:featureMember>
+	<gml:featureMember>
+		<imkl:Mangat xmlns:imkl="http://www.geonovum.nl/wion/2015/1.0" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/3.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3" gml:id="ID_8eccae00-a0d4-46cb-b47c-d02b9313133f">
+			<us-net-common:currentStatus xlink:href="http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/functional"/>
+			<us-net-common:validFrom>2001-12-17T09:30:47.0Z</us-net-common:validFrom>
+			<us-net-common:verticalPosition nilReason="missing" xsi:nil="true"/>
+			<us-net-common:geometry>
+				<gml:Point gml:id="ID_f0806ddd-52e9-41f0-a9bb-855503100855" srsName="http://spatialreference.org/ref/epsg/31370/">
+					<gml:pos>103674.885 192127.454</gml:pos>
+				</gml:Point>
+			</us-net-common:geometry>
+			<us-net-common:inspireId>
+				<base:Identifier>
+					<base:localId>M0001</base:localId>
+					<base:namespace>interstroom-be</base:namespace>
+				</base:Identifier>
+			</us-net-common:inspireId>
+			<imkl:inNetwork xlink:href="http://mir.agiv.be/data/IMKL/v2.2/UtilityNetwork/interstroom-be:001"/>
+		</imkl:Mangat>
+	</gml:featureMember>
+	<gml:featureMember>
+		<imkl:ExtraTopografie xmlns:imkl="http://www.geonovum.nl/wion/2015/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3" gml:id="ID_11">
+			<imkl:identificatie><imkl:NEN3610ID><imkl:namespace>hallo</imkl:namespace><imkl:lokaalID>xxyyzz</imkl:lokaalID></imkl:NEN3610ID></imkl:identificatie>
+			<imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
+			<imkl:extraTopografieType xlink:href="http://mir.agiv.be/cl/IMKL/v2/ExtraTopografieTypeValue/eigen"/>
+			<imkl:typeTopografischObject/><imkl:ligging>
+				<gml:Polygon gml:id="ID_1891a479-cf92-468e-b71a-ea5862add5b0" srsName="http://www.opengis.net/def/crs/EPSG/0/31370">
+					<gml:exterior>
+						<gml:LinearRing>
+							<gml:posList>103503.105 192197.318 103518.881 192206.333 103502.104 192193.562 103509.366 192172.528 103503.105 192197.318</gml:posList>
+						</gml:LinearRing>
+					</gml:exterior>
+				</gml:Polygon>
+			</imkl:ligging>
+			<imkl:inNetwork xlink:href="http://mir.agiv.be/data/IMKL/v2.2/UtilityNetwork/interstroom-be:001"/>
+		</imkl:ExtraTopografie>
+	</gml:featureMember>
+	<gml:featureMember>
+		<imkl:ExtraTopografie xmlns:imkl="http://www.geonovum.nl/wion/2015/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3" gml:id="ID_12">
+			<imkl:identificatie><imkl:NEN3610ID><imkl:namespace>hallo</imkl:namespace><imkl:lokaalID>xxyyzz</imkl:lokaalID></imkl:NEN3610ID></imkl:identificatie>
+			<imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
+			<imkl:extraTopografieType xlink:href="http://mir.agiv.be/cl/IMKL/v2/ExtraTopografieTypeValue/eigen"/>
+			<imkl:typeTopografischObject/><imkl:ligging>
+				<gml:LineString gml:id="ID_1520c760-002f-42de-8fbb-196260939b1A" srsName="http://spatialreference.org/ref/epsg/31370/">
+					<gml:posList>103575.724 192151.243 103638.326 192123.197 103727.471 192100.41</gml:posList>
+				</gml:LineString>
+			</imkl:ligging>
+			<imkl:inNetwork xlink:href="http://mir.agiv.be/data/IMKL/v2.2/UtilityNetwork/interstroom-be:001"/>
+		</imkl:ExtraTopografie>
+	</gml:featureMember>
+	<gml:featureMember>
+		<imkl:ExtraTopografie xmlns:imkl="http://www.geonovum.nl/wion/2015/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3" gml:id="ID_3">
+			<imkl:identificatie><imkl:NEN3610ID><imkl:namespace>hallo</imkl:namespace><imkl:lokaalID>xxyyzz</imkl:lokaalID></imkl:NEN3610ID></imkl:identificatie>
+			<imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
+			<imkl:extraTopografieType xlink:href="http://mir.agiv.be/cl/IMKL/v2/ExtraTopografieTypeValue/eigen"/>
+			<imkl:typeTopografischObject/><imkl:ligging>
+				<gml:Point gml:id="ID_abec22f7-3dae-4d0d-839c-a39c20ab1990" srsName="http://spatialreference.org/ref/epsg/31370/">
+					<gml:pos>103585.74 192177.286</gml:pos>
+				</gml:Point>
+			</imkl:ligging>
+			<imkl:inNetwork xlink:href="http://mir.agiv.be/data/IMKL/v2.2/UtilityNetwork/interstroom-be:001"/>
+		</imkl:ExtraTopografie>
+	</gml:featureMember>
+	<gml:featureMember>
+		<imkl:Utiliteitsnet xmlns:imkl="http://www.geonovum.nl/wion/2015/1.0" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/3.0" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3" gml:id="ID_230dbcf3-4fbd-4118-9f57-b2f370f04107">
+			<net:elements xlink:href="http://mir.agiv.be/data/IMKL/v2.2/ElectricityCable/interstroom-be:001"/>
+			<net:elements xlink:href="http://mir.agiv.be/data/IMKL/v2.2/ElectricityCable/interstroom-be:002"/>
+			<net:elements xlink:href="http://mir.agiv.be/data/INSPIRE-US/v3/UtilityLink/interstroom-be:001"/>
+			<net:elements xlink:href="http://mir.agiv.be/data/INSPIRE-US/v3/UtilityLink/interstroom-be:002"/>
+			<net:elements xlink:href="http://mir.agiv.be/data/INSPIRE-US/v3/UtilityLink/interstroom-be:003"/>
+			<net:elements xlink:href="http://mir.agiv.be/data/IMKL/v2.2/Appurtenance/interstroom-be:001:v2"/>
+			<net:elements xlink:href="http://mir.agiv.be/data/IMKL/v2.2/Appurtenance/interstroom-be:002"/>
+			<net:elements xlink:href="http://mir.agiv.be/data/IMKL/v2.2/Appurtenance/interstroom-be:003"/>
+			<net:elements xlink:href="http://mir.agiv.be/data/IMKL/v2.2/Appurtenance/interstroom-be:004"/>
+			<net:elements xlink:href="http://mir.agiv.be/data/IMKL/v2.2/Manhole/interstroom-be:M0001"/>
+			<us-net-common:utilityNetworkType xlink:href="http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeExtendedValue/electricity"/>
+			<us-net-common:authorityRole/>
+			<us-net-common:disclaimer>
+				<gmd:PT_FreeText>
+					<gmd:textGroup>
+						<gmd:LocalisedCharacterString>Als een KLB een disclaimer heeft die geldt voor heel het utility network dan kan die hier geplaatst worden. Alle data in dit voorbeeldpakket zijn fictief, elke gelijkenis met bestaande situaties is puur toeval.</gmd:LocalisedCharacterString>
+					</gmd:textGroup>
+				</gmd:PT_FreeText>
+			</us-net-common:disclaimer>
+			<imkl:identificatie><imkl:NEN3610ID><imkl:namespace>hallo</imkl:namespace><imkl:lokaalID>xxyyzz</imkl:lokaalID></imkl:NEN3610ID></imkl:identificatie>
+			<imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
+			<imkl:endLifespanVersion>2001-12-17T09:30:47.0Z</imkl:endLifespanVersion>
+			<imkl:technischContactpersoon>
+				<imkl:TechnischContactpersoon>
+					<imkl:naam>text</imkl:naam>
+					<imkl:telefoon>text</imkl:telefoon>
+					<imkl:email>text</imkl:email>
+				</imkl:TechnischContactpersoon>
+			</imkl:technischContactpersoon><imkl:thema/>
+			<imkl:heeftExtraTopografieen xlink:href="http://mir.agiv.be/data/IMKL/v2.2/ExtraTopografie/interstroom-be:ET001"/>
+			<imkl:heeftExtraTopografieen xlink:href="http://mir.agiv.be/data/IMKL/v2.2/ExtraTopografie/interstroom-be:ET002"/>
+			<imkl:heeftExtraTopografieen xlink:href="http://mir.agiv.be/data/IMKL/v2.2/ExtraTopografie/interstroom-be:ET003"/>
+		</imkl:Utiliteitsnet>
+	</gml:featureMember>
+</gml:FeatureCollection>
