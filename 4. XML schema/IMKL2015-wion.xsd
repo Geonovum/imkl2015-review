@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:wion="http://www.geonovum.nl/wion/2015/1.0" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/3.0" xmlns:us-net-el="http://inspire.ec.europa.eu/schemas/us-net-el/3.0" xmlns:us-net-ogc="http://inspire.ec.europa.eu/schemas/us-net-ogc/3.0" xmlns:us-net-sw="http://inspire.ec.europa.eu/schemas/us-net-sw/3.0" xmlns:us-net-tc="http://inspire.ec.europa.eu/schemas/us-net-tc/3.0" xmlns:us-net-th="http://inspire.ec.europa.eu/schemas/us-net-th/3.0" xmlns:us-net-wa="http://inspire.ec.europa.eu/schemas/us-net-wa/3.0" elementFormDefault="qualified" targetNamespace="http://www.geonovum.nl/wion/2015/1.0" version="2015-01">
-  <import namespace="http://inspire.ec.europa.eu/schemas/us-net-common/3.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-common/3.0/UtilityNetworksCommon.xsd"/>
-  <import namespace="http://inspire.ec.europa.eu/schemas/us-net-el/3.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-el/3.0/ElectricityNetwork.xsd"/>
-  <import namespace="http://inspire.ec.europa.eu/schemas/us-net-ogc/3.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-ogc/3.0/OilGasChemicalsNetwork.xsd"/>
-  <import namespace="http://inspire.ec.europa.eu/schemas/us-net-sw/3.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-sw/3.0/SewerNetwork.xsd"/>
-  <import namespace="http://inspire.ec.europa.eu/schemas/us-net-tc/3.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-tc/3.0/TelecommunicationsNetwork.xsd"/>
-  <import namespace="http://inspire.ec.europa.eu/schemas/us-net-th/3.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-th/3.0/ThermalNetwork.xsd"/>
-  <import namespace="http://inspire.ec.europa.eu/schemas/us-net-wa/3.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-wa/3.0/WaterNetwork.xsd"/>
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:wion="http://www.geonovum.nl/wion/2015/1.0" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" xmlns:us-net-el="http://inspire.ec.europa.eu/schemas/us-net-el/4.0" xmlns:us-net-ogc="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0" xmlns:us-net-sw="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0" xmlns:us-net-tc="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0" xmlns:us-net-th="http://inspire.ec.europa.eu/schemas/us-net-th/4.0" xmlns:us-net-wa="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0" elementFormDefault="qualified" targetNamespace="http://www.geonovum.nl/wion/2015/1.0" version="2015-01">
+  <import namespace="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-common/4.0/UtilityNetworksCommon.xsd"/>
+  <import namespace="http://inspire.ec.europa.eu/schemas/us-net-el/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-el/4.0/ElectricityNetwork.xsd"/>
+  <import namespace="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0/OilGasChemicalsNetwork.xsd"/>
+  <import namespace="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0/SewerNetwork.xsd"/>
+  <import namespace="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0/TelecommunicationsNetwork.xsd"/>
+  <import namespace="http://inspire.ec.europa.eu/schemas/us-net-th/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-th/4.0/ThermalNetwork.xsd"/>
+  <import namespace="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0/WaterNetwork.xsd"/>
   <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
   <import namespace="http://www.opengis.net/gml/3.3/exr" schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
   <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
@@ -15,8 +15,9 @@
       <extension base="wion:ExtraInformatieType">
         <sequence>
           <element maxOccurs="unbounded" minOccurs="0" name="eisVoorzorgsmaatregel" type="string"/>
-          <element minOccurs="0" name="geometrie" type="gml:SurfacePropertyType"/>
-          <element minOccurs="0" name="geometriebegrenzingFictief"/>
+          <element minOccurs="0" name="netRisicoOmschrijving" type="string"/>
+          <element minOccurs="0" name="geometriebegrenzingFictief" type="boolean"/>
+          <element name="geometrie" type="gml:SurfacePropertyType"/>
         </sequence>
       </extension>
     </complexContent>
@@ -48,7 +49,7 @@
     <sequence>
       <element name="naamOpenbareRuimte" type="string"/>
       <element name="huisnummer" type="string"/>
-      <element minOccurs="0" name="huisletter"/>
+      <element minOccurs="0" name="huisletter" type="string"/>
       <element minOccurs="0" name="huisnummertoevoeging" type="integer"/>
       <element name="woonplaatsNaam" type="string"/>
       <element name="postcode" type="string"/>
@@ -115,8 +116,8 @@
               </appinfo>
             </annotation>
           </element>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="label" type="gml:stringOrNilReason"/>
+          <element minOccurs="0" name="omschrijving" type="gml:stringOrNilReason"/>
           <element minOccurs="0" name="hoogte" type="gml:LengthType"/>
         </sequence>
       </extension>
@@ -125,6 +126,41 @@
   <complexType name="AppurtenancePropertyType">
     <sequence minOccurs="0">
       <element ref="wion:Appurtenance"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Bijlage" substitutionGroup="gml:AbstractFeature" type="wion:BijlageType"/>
+  <complexType name="BijlageType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identificatie" type="wion:NEN3610IDPropertyType"/>
+          <element name="beginLifespanVersion" type="dateTime"/>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
+          <element maxOccurs="unbounded" name="bijlageType" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">BijlageTypeValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="bestandLocatie" type="anyURI"/>
+          <element name="bestandMediaType" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">BestandMediaTypeValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="bestandIdentificator" type="anyURI"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="BijlagePropertyType">
+    <sequence minOccurs="0">
+      <element ref="wion:Bijlage"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
@@ -161,8 +197,8 @@
               </appinfo>
             </annotation>
           </element>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="label" type="gml:stringOrNilReason"/>
+          <element minOccurs="0" name="omschrijving" type="gml:stringOrNilReason"/>
           <element minOccurs="0" name="buismateriaalType" type="gml:ReferenceType">
             <annotation>
               <appinfo>
@@ -186,7 +222,6 @@
       <element ref="wion:Kast"/>
       <element ref="wion:Mangat"/>
       <element ref="wion:Mast"/>
-      <element ref="wion:TechnischGebouw"/>
       <element ref="wion:Toren"/>
     </choice>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
@@ -196,8 +231,8 @@
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="label" type="gml:stringOrNilReason"/>
+          <element minOccurs="0" name="omschrijving" type="gml:stringOrNilReason"/>
           <element name="identificatie" type="wion:NEN3610IDPropertyType"/>
           <element name="beginLifespanVersion" type="dateTime"/>
           <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
@@ -210,7 +245,7 @@
           </element>
           <element name="dieptePeil" type="gml:MeasureType"/>
           <element minOccurs="0" name="datumOpmetingDieptePeil" type="dateTime"/>
-          <element minOccurs="0" name="ligging" type="gml:GeometryPropertyType"/>
+          <element minOccurs="0" name="ligging" type="gml:PointPropertyType"/>
           <element minOccurs="0" name="heeftKabelOfLeiding" type="gml:ReferenceType">
             <annotation>
               <appinfo>
@@ -284,16 +319,7 @@
   <complexType name="DiepteTovMaaiveldType">
     <complexContent>
       <extension base="wion:DiepteType">
-        <sequence>
-          <element minOccurs="0" name="heeftUtilityNetwork" type="gml:ReferenceType">
-            <annotation>
-              <appinfo>
-                <targetElement xmlns="http://www.opengis.net/gml/3.2">wion:Utiliteitsnet</targetElement>
-                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">wion:standaardDieptelegging</reversePropertyName>
-              </appinfo>
-            </annotation>
-          </element>
-        </sequence>
+        <sequence/>
       </extension>
     </complexContent>
   </complexType>
@@ -336,8 +362,8 @@
               </appinfo>
             </annotation>
           </element>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="label" type="gml:stringOrNilReason"/>
+          <element minOccurs="0" name="omschrijving" type="gml:stringOrNilReason"/>
         </sequence>
       </extension>
     </complexContent>
@@ -345,6 +371,24 @@
   <complexType name="DuctPropertyType">
     <sequence minOccurs="0">
       <element ref="wion:Duct"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="EisVoorzorgsmaatregelBijlage" substitutionGroup="wion:Bijlage" type="wion:EisVoorzorgsmaatregelBijlageType"/>
+  <complexType name="EisVoorzorgsmaatregelBijlageType">
+    <complexContent>
+      <extension base="wion:BijlageType">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="eisVoorzorgsmaatregel" type="string"/>
+          <element minOccurs="0" name="toelichting" type="string"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="EisVoorzorgsmaatregelBijlagePropertyType">
+    <sequence minOccurs="0">
+      <element ref="wion:EisVoorzorgsmaatregelBijlage"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
@@ -380,8 +424,8 @@
               </appinfo>
             </annotation>
           </element>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="label" type="gml:stringOrNilReason"/>
+          <element minOccurs="0" name="omschrijving" type="gml:stringOrNilReason"/>
         </sequence>
       </extension>
     </complexContent>
@@ -456,8 +500,8 @@
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="label" type="gml:stringOrNilReason"/>
+          <element minOccurs="0" name="omschrijving" type="gml:stringOrNilReason"/>
           <element name="identificatie" type="wion:NEN3610IDPropertyType"/>
           <element name="beginLifespanVersion" type="dateTime"/>
           <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
@@ -517,8 +561,8 @@
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="label" type="gml:stringOrNilReason"/>
+          <element minOccurs="0" name="omschrijving" type="gml:stringOrNilReason"/>
           <element name="identificatie" type="wion:NEN3610IDPropertyType"/>
           <element name="beginLifespanVersion" type="dateTime"/>
           <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
@@ -558,6 +602,7 @@
   </complexType>
   <complexType name="IMKLBasisPropertyType">
     <choice minOccurs="0">
+      <element ref="wion:Bijlage"/>
       <element ref="wion:Diepte"/>
       <element ref="wion:ExtraGeometrie"/>
       <element ref="wion:ExtraInformatie"/>
@@ -611,6 +656,13 @@
     <complexContent>
       <extension base="us-net-common:CabinetType">
         <sequence>
+          <element name="containerLeidingelementType" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">ContainerLeidingelementTypeValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
           <element minOccurs="0" name="bovengrondsZichtbaar" type="boolean"/>
           <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
             <annotation>
@@ -619,7 +671,7 @@
               </appinfo>
             </annotation>
           </element>
-          <element minOccurs="0" name="BGT_ID" type="string"/>
+          <element minOccurs="0" name="BGT_ID" type="wion:NEN3610IDPropertyType"/>
           <element minOccurs="0" name="extraGeometrie" type="wion:ExtraGeometriePropertyType"/>
           <element minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
             <annotation>
@@ -645,8 +697,8 @@
               </appinfo>
             </annotation>
           </element>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="label" type="gml:stringOrNilReason"/>
+          <element minOccurs="0" name="omschrijving" type="gml:stringOrNilReason"/>
         </sequence>
       </extension>
     </complexContent>
@@ -687,7 +739,6 @@
       <element ref="wion:Mast"/>
       <element ref="wion:OlieGasChemicalienPijpleiding"/>
       <element ref="wion:Rioolleiding"/>
-      <element ref="wion:TechnischGebouw"/>
       <element ref="wion:Telecommunicatiekabel"/>
       <element ref="wion:ThermischePijpleiding"/>
       <element ref="wion:Toren"/>
@@ -732,6 +783,13 @@
     <complexContent>
       <extension base="us-net-common:ManholeType">
         <sequence>
+          <element name="containerLeidingelementType" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">ContainerLeidingelementTypeValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
           <element minOccurs="0" name="bovengrondsZichtbaar" type="boolean"/>
           <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
             <annotation>
@@ -740,7 +798,7 @@
               </appinfo>
             </annotation>
           </element>
-          <element minOccurs="0" name="BGT_ID" type="string"/>
+          <element minOccurs="0" name="BGT_ID" type="wion:NEN3610IDPropertyType"/>
           <element minOccurs="0" name="extraGeometrie" type="wion:ExtraGeometriePropertyType"/>
           <element minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
             <annotation>
@@ -766,8 +824,8 @@
               </appinfo>
             </annotation>
           </element>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="label" type="gml:stringOrNilReason"/>
+          <element minOccurs="0" name="omschrijving" type="gml:stringOrNilReason"/>
         </sequence>
       </extension>
     </complexContent>
@@ -799,6 +857,13 @@
     <complexContent>
       <extension base="us-net-common:PoleType">
         <sequence>
+          <element name="containerLeidingelementType" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">ContainerLeidingelementTypeValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
           <element minOccurs="0" name="bovengrondsZichtbaar" type="boolean"/>
           <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
             <annotation>
@@ -807,7 +872,7 @@
               </appinfo>
             </annotation>
           </element>
-          <element minOccurs="0" name="BGT_ID" type="string"/>
+          <element minOccurs="0" name="BGT_ID" type="wion:NEN3610IDPropertyType"/>
           <element minOccurs="0" name="extraGeometrie" type="wion:ExtraGeometriePropertyType"/>
           <element minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
             <annotation>
@@ -833,8 +898,8 @@
               </appinfo>
             </annotation>
           </element>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="label" type="gml:stringOrNilReason"/>
+          <element minOccurs="0" name="omschrijving" type="gml:stringOrNilReason"/>
         </sequence>
       </extension>
     </complexContent>
@@ -889,8 +954,8 @@
               </appinfo>
             </annotation>
           </element>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="label" type="gml:stringOrNilReason"/>
+          <element minOccurs="0" name="omschrijving" type="gml:stringOrNilReason"/>
         </sequence>
       </extension>
     </complexContent>
@@ -945,8 +1010,8 @@
               </appinfo>
             </annotation>
           </element>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="label" type="gml:stringOrNilReason"/>
+          <element minOccurs="0" name="omschrijving" type="gml:stringOrNilReason"/>
         </sequence>
       </extension>
     </complexContent>
@@ -961,67 +1026,15 @@
   <element name="TechnischContactpersoon" substitutionGroup="gml:AbstractObject" type="wion:TechnischContactpersoonType"/>
   <complexType name="TechnischContactpersoonType">
     <sequence>
-      <element name="naam"/>
-      <element name="telefoon"/>
-      <element name="email"/>
+      <element name="naam" type="gml:stringOrNilReason"/>
+      <element name="telefoon" type="gml:stringOrNilReason"/>
+      <element name="email" type="gml:stringOrNilReason"/>
     </sequence>
   </complexType>
   <complexType name="TechnischContactpersoonPropertyType">
     <sequence>
       <element ref="wion:TechnischContactpersoon"/>
     </sequence>
-  </complexType>
-  <element name="TechnischGebouw" substitutionGroup="gml:AbstractFeature" type="wion:TechnischGebouwType"/>
-  <complexType name="TechnischGebouwType">
-    <complexContent>
-      <extension base="gml:AbstractFeatureType">
-        <sequence>
-          <element minOccurs="0" name="bovengrondsZichtbaar" type="boolean"/>
-          <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
-            <annotation>
-              <appinfo>
-                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
-              </appinfo>
-            </annotation>
-          </element>
-          <element minOccurs="0" name="BGT_ID" type="string"/>
-          <element minOccurs="0" name="extraGeometrie" type="wion:ExtraGeometriePropertyType"/>
-          <element minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
-            <annotation>
-              <appinfo>
-                <targetElement xmlns="http://www.opengis.net/gml/3.2">wion:Diepte</targetElement>
-                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">wion:heeftContainerLeidingelement</reversePropertyName>
-              </appinfo>
-            </annotation>
-          </element>
-          <element maxOccurs="unbounded" name="inNetwork" type="gml:ReferenceType">
-            <annotation>
-              <appinfo>
-                <targetElement xmlns="http://www.opengis.net/gml/3.2">wion:Utiliteitsnet</targetElement>
-                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">wion:elements</reversePropertyName>
-              </appinfo>
-            </annotation>
-          </element>
-          <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraInformatie" type="gml:ReferenceType">
-            <annotation>
-              <appinfo>
-                <targetElement xmlns="http://www.opengis.net/gml/3.2">wion:ExtraInformatie</targetElement>
-                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">wion:opContainerLeidingelementen</reversePropertyName>
-              </appinfo>
-            </annotation>
-          </element>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
-        </sequence>
-      </extension>
-    </complexContent>
-  </complexType>
-  <complexType name="TechnischGebouwPropertyType">
-    <sequence minOccurs="0">
-      <element ref="wion:TechnischGebouw"/>
-    </sequence>
-    <attributeGroup ref="gml:AssociationAttributeGroup"/>
-    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
   <element name="Telecommunicatiekabel" substitutionGroup="us-net-tc:TelecommunicationsCable" type="wion:TelecommunicatiekabelType"/>
   <complexType name="TelecommunicatiekabelType">
@@ -1054,8 +1067,8 @@
               </appinfo>
             </annotation>
           </element>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="label" type="gml:stringOrNilReason"/>
+          <element minOccurs="0" name="omschrijving" type="gml:stringOrNilReason"/>
         </sequence>
       </extension>
     </complexContent>
@@ -1097,8 +1110,8 @@
               </appinfo>
             </annotation>
           </element>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="label" type="gml:stringOrNilReason"/>
+          <element minOccurs="0" name="omschrijving" type="gml:stringOrNilReason"/>
         </sequence>
       </extension>
     </complexContent>
@@ -1115,6 +1128,13 @@
     <complexContent>
       <extension base="us-net-common:TowerType">
         <sequence>
+          <element name="containerLeidingelementType" type="gml:ReferenceType">
+            <annotation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">ContainerLeidingelementTypeValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
           <element minOccurs="0" name="bovengrondsZichtbaar" type="boolean"/>
           <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
             <annotation>
@@ -1123,7 +1143,7 @@
               </appinfo>
             </annotation>
           </element>
-          <element minOccurs="0" name="BGT_ID" type="string"/>
+          <element minOccurs="0" name="BGT_ID" type="wion:NEN3610IDPropertyType"/>
           <element minOccurs="0" name="extraGeometrie" type="wion:ExtraGeometriePropertyType"/>
           <element minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
             <annotation>
@@ -1149,8 +1169,8 @@
               </appinfo>
             </annotation>
           </element>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="label" type="gml:stringOrNilReason"/>
+          <element minOccurs="0" name="omschrijving" type="gml:stringOrNilReason"/>
         </sequence>
       </extension>
     </complexContent>
@@ -1167,13 +1187,11 @@
     <complexContent>
       <extension base="us-net-common:UtilityNetworkType">
         <sequence>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="label" type="gml:stringOrNilReason"/>
+          <element minOccurs="0" name="omschrijving" type="gml:stringOrNilReason"/>
           <element name="identificatie" type="wion:NEN3610IDPropertyType"/>
           <element name="beginLifespanVersion" type="dateTime"/>
           <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
-          <element name="technischContactpersoon" type="wion:TechnischContactpersoonPropertyType"/>
-          <element maxOccurs="unbounded" minOccurs="0" name="eisVoorzorgsmaatregelHoogstePrioriteit" type="string"/>
           <element name="thema" type="gml:ReferenceType">
             <annotation>
               <appinfo>
@@ -1181,6 +1199,9 @@
               </appinfo>
             </annotation>
           </element>
+          <element name="technischContactpersoon" type="wion:TechnischContactpersoonPropertyType"/>
+          <element minOccurs="0" name="standaardDieptelegging" type="gml:MeasureType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="bijlage" type="wion:BijlagePropertyType"/>
           <element maxOccurs="unbounded" minOccurs="0" name="heeftDieptes" type="gml:ReferenceType">
             <annotation>
               <appinfo>
@@ -1194,14 +1215,6 @@
               <appinfo>
                 <targetElement xmlns="http://www.opengis.net/gml/3.2">wion:ExtraTopografie</targetElement>
                 <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">wion:inNetwork</reversePropertyName>
-              </appinfo>
-            </annotation>
-          </element>
-          <element minOccurs="0" name="standaardDieptelegging" type="gml:ReferenceType">
-            <annotation>
-              <appinfo>
-                <targetElement xmlns="http://www.opengis.net/gml/3.2">wion:DiepteTovMaaiveld</targetElement>
-                <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">wion:heeftUtilityNetwork</reversePropertyName>
               </appinfo>
             </annotation>
           </element>
@@ -1254,8 +1267,8 @@
               </appinfo>
             </annotation>
           </element>
-          <element minOccurs="0" name="label"/>
-          <element minOccurs="0" name="omschrijving"/>
+          <element minOccurs="0" name="label" type="gml:stringOrNilReason"/>
+          <element minOccurs="0" name="omschrijving" type="gml:stringOrNilReason"/>
         </sequence>
       </extension>
     </complexContent>
