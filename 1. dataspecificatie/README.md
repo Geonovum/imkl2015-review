@@ -1,7 +1,7 @@
 # Dataspecificatie
 
 
-Klik [hier](https://github.com/Geonovum/imkl2015-review/blob/master/1.%20dataspecificatie/IMKL2015_Dataspecificatie_095.docx?raw=true) om de dataspecificatie te downloaden.
+Klik hier [word](https://github.com/Geonovum/imkl2015-review/blob/master/1.%20dataspecificatie/IMKL2015_Dataspecificatie_096.docx?raw=true) , [pdf](https://github.com/Geonovum/imkl2015-review/blob/master/1.%20dataspecificatie/IMKL2015_Dataspecificatie_096.pdf?raw=true) om de dataspecificatie te downloaden.
 
 Klik [hier](https://github.com/Geonovum/imkl2015-review/issues?q=is%3Aopen+is%3Aissue+label%3Adataspecificatie) om issues over de dataspecificatie te sturen.
 
