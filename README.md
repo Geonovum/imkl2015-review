@@ -14,7 +14,7 @@ Issues worden geplaatst door eerst naar onderstaande links te gaan. Eventueel he
 
 Ook kan er gereageerd worden op bestaande issues. Volg de volgende links voor specifieke onderdelen.
 
-[Verwerking Maart Review](https://github.com/Geonovum/imkl2015-review/blob/master/1.%20dataspecificatie/20150619_Consultatie%20095%20en%20verwerking%20in%20096.docx?raw=true) 
+[Verwerking Maart Review in 096 versie](https://github.com/Geonovum/imkl2015-review/blob/master/1.%20dataspecificatie/20150619_Consultatie%20095%20en%20verwerking%20in%20096.docx?raw=true) 
 
 [Algemeen (algemene opmerkingen)](https://github.com/Geonovum/imkl2015-review/tree/master/0.%20algemeen)
 
