@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+    <NamedLayer>
+        <Name>maatvoering</Name>
+        <UserStyle>
+            <Title>Visualisatie van de Maatvoering met puntgeometrie</Title>
+            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van het objecttype Maatvoering met puntgeometrie</Abstract>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>maatvoeringslijn</Name>
+                    <Title>Maatvoeringslijn</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>maatvoeringsType</ogc:PropertyName>
+                            <ogc:Literal>maatvoeringpijl</ogc:Literal>
+                            <!-- Voor nu pijl, maar eigenlijk: lijn -->
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#535353</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-linejoin">mitre</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>maatvoerings-hulp-lijn</Name>
+                    <Title>Maatvoeringslijn en maatvoeringshulplijn</Title>
+                    <ogc:Filter>
+                        <ogc:Or>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>maatvoeringsType</ogc:PropertyName>
+                                <ogc:Literal>maatvoeringslijn</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>maatvoeringsType</ogc:PropertyName>
+                                <ogc:Literal>maatvoeringshulplijn</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
+                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#535353</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-linejoin">mitre</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>
