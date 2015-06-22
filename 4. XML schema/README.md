@@ -16,4 +16,4 @@ _Wat gaat er niet meer veranderena aan het schema:_
 * De manier van vertalen van UML naar XML-Schema blijft gehandhaafd. Alleen wijzigingen
   in het UML model zullen resulteren in een nieuw schema.
 
-Klik [hier](https://github.com/Geonovum/imkl2015-review/blob/master/4.%20XML%20schema/IMKL2015.xsd) om het schema te downloaded. Klik [hier](https://github.com/Geonovum/imkl2015-review/issues?q=is%3Aopen+is%3Aissue+label%3Axmlschema) om issues over het schema te sturen.
+Klik [hier](https://github.com/Geonovum/imkl2015-review/blob/master/4.%20XML%20schema/IMKL2015-wion.xsd) om het schema te downloaded. Klik [hier](https://github.com/Geonovum/imkl2015-review/issues?q=is%3Aopen+is%3Aissue+label%3Axmlschema) om issues over het schema te sturen.
