@@ -4,4 +4,4 @@ Klik hier [Word versie](https://github.com/Geonovum/imkl2015-review/blob/master/
 
 Klik [hier](https://github.com/Geonovum/imkl2015-review/issues?q=is%3Aopen+is%3Aissue+label%3Adataspecificatie) om issues over het visualisatiemodel te sturen.
 
-[Voorbeeldissues](https://github.com/Geonovum/imkl2015-review/issues?q=voorbeeld+label%3Adataspecificatie)
+[Voorbeeldissues](https://github.com/Geonovum/imkl2015-review/issues?q=is%3Aopen+is%3Aissue+label%3Aalgemeen+label%3Avisualisatie)
