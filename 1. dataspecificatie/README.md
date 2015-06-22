@@ -5,7 +5,7 @@ Klik hier [Word versie](https://github.com/Geonovum/imkl2015-review/blob/master/
 
 Klik [hier](https://github.com/Geonovum/imkl2015-review/blob/master/1.%20dataspecificatie/20150619_Consultatie%20095%20en%20verwerking%20in%20096.docx?raw=true) om de aanpassingen nav review versie 095 te downloaden.
 
-Klik [hier](https://github.com/Geonovum/imkl2015-review/issues?q=is%3Aopen+is%3Aissue+label%3Adataspecificatie) om issues over de dataspecificatie te sturen.
+Klik [hier](https://github.com/Geonovum/imkl2015-review/issues?q=is%3Aopen+is%3Aissue+label%3Adataspecificatie) om issues over de dataspecificatie te sturen. Maak een new issue aan.
 
 [Voorbeeldissues](https://github.com/Geonovum/imkl2015-review/issues?q=voorbeeld+label%3Adataspecificatie)
 
