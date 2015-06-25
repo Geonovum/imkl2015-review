@@ -7,6 +7,7 @@
         <UserStyle>
             <Title>Thema's</Title>
             <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle appurtenances obv thema</Abstract>
+            <!--
             <FeatureTypeStyle>
                 <Rule>
                     <Name>appurtenances</Name>
@@ -26,15 +27,92 @@
                     </PointSymbolizer>
                 </Rule>
             </FeatureTypeStyle>
+            -->
             <FeatureTypeStyle>
                 <Rule>
                     <Name>buisleidinggevaarlijkeinhoud</Name>
                     <Title>Buisleiding Gevaarlijke Inhoud (BGI)</Title>
                     <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>BGI</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>BGI</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>afsluiter</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>shape://vertline</WellKnownName>
+                                 <Stroke>
+                                    <CssParameter name="stroke">#ff7f00</CssParameter>
+                                    <CssParameter name="stroke-width">2</CssParameter>
+                                </Stroke>
+                            </Mark>
+                            <Size>10</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>buisleidinggevaarlijkeinhoud</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI)</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>BGI</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>ontluchting</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="ontluchting_BGI.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>buisleidinggevaarlijkeinhoud</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI)</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>BGI</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                    <ogc:Literal>Tstuk</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                    <ogc:Literal>Gasstation</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                    <ogc:Literal>algemeen (gas) transport onderdeel</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                    <ogc:Literal>bocht</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                            </ogc:Or>
+                        </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
