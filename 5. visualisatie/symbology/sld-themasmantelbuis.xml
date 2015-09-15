@@ -18,7 +18,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>BGI</ogc:Literal>
+                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -26,8 +26,8 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
-                            <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">7.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -40,16 +40,16 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>BGI</ogc:Literal>
+                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#ffdcb9</CssParameter>
-                            <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke">#ffffff</CssParameter>
+                            <CssParameter name="stroke-width">4.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -62,7 +62,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>DT</ogc:Literal>
+                            <ogc:Literal>datatransport</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -70,8 +70,8 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
-                            <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">7.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -84,16 +84,16 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>DT</ogc:Literal>
+                            <ogc:Literal>datatransport</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#b9ffb9</CssParameter>
-                            <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke">#ffffff</CssParameter>
+                            <CssParameter name="stroke-width">4.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -106,7 +106,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>gas hoge druk</ogc:Literal>
+                            <ogc:Literal>gasHogeDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -114,8 +114,8 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
-                            <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">7.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -128,16 +128,16 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>gas hoge druk</ogc:Literal>
+                            <ogc:Literal>gasHogeDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#ffe2b9</CssParameter>
-                            <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke">#ffffff</CssParameter>
+                            <CssParameter name="stroke-width">4.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -150,7 +150,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>LD</ogc:Literal>
+                            <ogc:Literal>gasLageDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -158,8 +158,8 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
-                            <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">7.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -172,16 +172,16 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>LD</ogc:Literal>
+                            <ogc:Literal>gasLageDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#ffefb9</CssParameter>
-                            <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke">#ffffff</CssParameter>
+                            <CssParameter name="stroke-width">4.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -202,8 +202,8 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
-                            <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">7.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -224,8 +224,8 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffd5b9</CssParameter>
-                            <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">4.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -238,7 +238,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>LS</ogc:Literal>
+                            <ogc:Literal>laagspanning</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -246,8 +246,8 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
-                            <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">7.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -260,16 +260,16 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>LS</ogc:Literal>
+                            <ogc:Literal>laagspanning</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#ffb9b9</CssParameter>
-                            <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke">#ffffff</CssParameter>
+                            <CssParameter name="stroke-width">4.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -290,8 +290,8 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
-                            <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">7.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -311,9 +311,9 @@
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#ffb9b9</CssParameter>
-                            <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke">#ffffff</CssParameter>
+                            <CssParameter name="stroke-width">4.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -334,8 +334,8 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">7.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -355,9 +355,9 @@
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#ffb9b9</CssParameter>
-                            <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke">#ffffff</CssParameter>
+                            <CssParameter name="stroke-width">4.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -378,8 +378,8 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">7.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -400,8 +400,8 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffb9b9</CssParameter>
-                            <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">4.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -422,8 +422,8 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
-                            <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">7.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -443,9 +443,9 @@
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#b9b9ff</CssParameter>
-                            <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke">#ffffff</CssParameter>
+                            <CssParameter name="stroke-width">4.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -466,8 +466,8 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
-                            <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">7.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -487,9 +487,9 @@
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#b9ffff</CssParameter>
-                            <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke">#ffffff</CssParameter>
+                            <CssParameter name="stroke-width">4.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -502,7 +502,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>riool onder over- of onderdruk</ogc:Literal>
+                            <ogc:Literal>rioolOnderDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -510,8 +510,8 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
-                            <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">7.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -524,16 +524,16 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>riool onder over- of onderdruk</ogc:Literal>
+                            <ogc:Literal>rioolOnderDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#ffb9ff</CssParameter>
-                            <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke">#ffffff</CssParameter>
+                            <CssParameter name="stroke-width">4.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -546,7 +546,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>riool vrij verval</ogc:Literal>
+                            <ogc:Literal>rioolVrijverval</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -554,8 +554,8 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
-                            <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">7.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -568,16 +568,16 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>riool vrij verval</ogc:Literal>
+                            <ogc:Literal>rioolVrijverval</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#efc9ea</CssParameter>
-                            <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke">#ffffff</CssParameter>
+                            <CssParameter name="stroke-width">4.5</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -598,9 +598,9 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.2</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">7.5</CssParameter>
+                            <CssParameter name="stroke-opacity">1.0</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -620,10 +620,10 @@
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#dcdcdc</CssParameter>
-                            <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.2</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke">#ffffff</CssParameter>
+                            <CssParameter name="stroke-width">4.5</CssParameter>
+                            <CssParameter name="stroke-opacity">1.0</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -644,9 +644,9 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.2</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">7.5</CssParameter>
+                            <CssParameter name="stroke-opacity">1.0</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -667,9 +667,9 @@
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#dcdcdc</CssParameter>
-                            <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.2</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">4.5</CssParameter>
+                            <CssParameter name="stroke-opacity">1.0</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                             <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
