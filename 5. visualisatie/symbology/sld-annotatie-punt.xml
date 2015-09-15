@@ -11,21 +11,25 @@
                 <Rule>
                     <Name>annotatiepijl</Name>
                     <Title>Annotatiepijl</Title>
-                                             <!--
                     <ogc:Filter>
+                        <!--
                         <ogc:And>
+                        -->
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>annotatieType</ogc:PropertyName>
                                 <ogc:Literal>annotatiepijl</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
+                            <!--
                             <ogc:Not>
                                 <ogc:PropertyIsNull>
                                     <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
                                 </ogc:PropertyIsNull>
                             </ogc:Not>
+                            -->
+                        <!--
                         </ogc:And>
+                        -->
                     </ogc:Filter>
-                                            -->
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
@@ -47,14 +51,13 @@
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
-<!--
                 <Rule>
                     <Name>annotatielabel</Name>
                     <Title>Annotatielabel</Title>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>annotatieType</ogc:PropertyName>
-                            <ogc:Literal>annottielabel</ogc:Literal>
+                            <ogc:Literal>annotatieLabel</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
@@ -78,9 +81,11 @@
                                         <ogc:Literal>0.5</ogc:Literal>
                                     </AnchorPointY>
                                 </AnchorPoint>
+                                <!--
                                 <Rotation>
                                     <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
                                 </Rotation>
+                                -->
                             </PointPlacement>
                         </LabelPlacement>
                         <Fill>
@@ -88,7 +93,6 @@
                         </Fill>
                     </TextSymbolizer>
                 </Rule>
-                    -->
             </FeatureTypeStyle>
         </UserStyle>
     </NamedLayer>
