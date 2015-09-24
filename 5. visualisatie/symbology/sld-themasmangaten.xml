@@ -7,27 +7,6 @@
         <UserStyle>
             <Title>Thema's</Title>
             <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle mangaten obv thema</Abstract>
-            <!--
-            <FeatureTypeStyle>
-                <Rule>
-                    <Name>mangaten</Name>
-                    <Title>Mangaten</Title>
-                    <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
-                    <PointSymbolizer>
-                        <Graphic>
-                            <Mark>
-                                <WellKnownName>square</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">#333333</CssParameter>
-                                </Fill>
-                            </Mark>
-                            <Size>5</Size>
-                        </Graphic>
-                    </PointSymbolizer>
-                </Rule>
-            </FeatureTypeStyle>
-            -->
             <FeatureTypeStyle>
                 <Rule>
                     <Name>buisleidinggevaarlijkeinhoud</Name>
@@ -35,7 +14,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>BGI</ogc:Literal>
+                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -58,7 +37,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>DT</ogc:Literal>
+                            <ogc:Literal>datatransport</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -81,7 +60,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>HD</ogc:Literal>
+                            <ogc:Literal>gasHogeDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -104,7 +83,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>LD</ogc:Literal>
+                            <ogc:Literal>gasLageDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -150,7 +129,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>LS</ogc:Literal>
+                            <ogc:Literal>laagspanning</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -170,7 +149,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>MS</ogc:Literal>
+                            <ogc:Literal>middenspanning</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -190,7 +169,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>HS</ogc:Literal>
+                            <ogc:Literal>hoogspanning</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -279,7 +258,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>rioolOD</ogc:Literal>
+                            <ogc:Literal>rioolOnderDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -299,7 +278,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>riool</ogc:Literal>
+                            <ogc:Literal>rioolVrijverval</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
