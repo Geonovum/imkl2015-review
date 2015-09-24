@@ -3,7 +3,7 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
     <NamedLayer>
-        <Name>themakabelsleidingen</Name>
+        <Name>themascontainers</Name>
         <UserStyle>
             <Title>Thema's</Title>
             <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle kabels en leidingen obv thema</Abstract>
@@ -14,7 +14,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>BGI</ogc:Literal>
+                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -54,7 +54,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>gas hoge druk</ogc:Literal>
+                            <ogc:Literal>gasHogeDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -74,7 +74,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>LD</ogc:Literal>
+                            <ogc:Literal>gasLageDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -114,7 +114,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>LS</ogc:Literal>
+                            <ogc:Literal>laagspanning</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -234,7 +234,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>riool onder over- of onderdruk</ogc:Literal>
+                            <ogc:Literal>rioolOnderDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -254,7 +254,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>thema</ogc:PropertyName>
-                            <ogc:Literal>riool vrij verval</ogc:Literal>
+                            <ogc:Literal>rioolVrijverval</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
