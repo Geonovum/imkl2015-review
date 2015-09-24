@@ -14,7 +14,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>maatvoeringsType</ogc:PropertyName>
-                            <ogc:Literal>maatvoeringpijl</ogc:Literal>
+                            <ogc:Literal>maatvoeringspijl</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
@@ -51,10 +51,10 @@
                             <ogc:PropertyName>label</ogc:PropertyName>
                         </Label>
                         <Font>
-                            <CssParameter name="font-family">Arial Bold</CssParameter>
+                            <CssParameter name="font-family">Arial</CssParameter>
                             <CssParameter name="font-size">12</CssParameter>
-                            <CssParameter name="font-style">Normal</CssParameter>
-                            <CssParameter name="font-weight">normal</CssParameter>
+                            <CssParameter name="font-style">Bold</CssParameter>
+                            <CssParameter name="font-weight">bold</CssParameter>
                         </Font>
                         <LabelPlacement>
                             <PointPlacement>
