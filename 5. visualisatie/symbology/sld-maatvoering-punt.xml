@@ -14,7 +14,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>maatvoeringsType</ogc:PropertyName>
-                            <ogc:Literal>maatvoeringspijl</ogc:Literal>
+                            <ogc:Literal>maatvoeringspijlpunt</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
