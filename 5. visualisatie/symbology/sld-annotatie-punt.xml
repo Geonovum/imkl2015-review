@@ -12,23 +12,17 @@
                     <Name>annotatiepijl</Name>
                     <Title>Annotatiepijl</Title>
                     <ogc:Filter>
-                        <!--
                         <ogc:And>
-                        -->
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>annotatieType</ogc:PropertyName>
-                                <ogc:Literal>annotatiepijl</ogc:Literal>
+                                <ogc:Literal>annotatiepijlpunt</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <!--
                             <ogc:Not>
                                 <ogc:PropertyIsNull>
                                     <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
                                 </ogc:PropertyIsNull>
                             </ogc:Not>
-                            -->
-                        <!--
                         </ogc:And>
-                        -->
                     </ogc:Filter>
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
                     <PointSymbolizer>
@@ -40,14 +34,12 @@
                                 </Fill>
                             </Mark>
                             <Size>10</Size>
-                            <!--
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
                                     <ogc:Literal>90</ogc:Literal>
                                 </ogc:Add>
                             </Rotation>
-                            -->
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -81,11 +73,9 @@
                                         <ogc:Literal>0.5</ogc:Literal>
                                     </AnchorPointY>
                                 </AnchorPoint>
-                                <!--
                                 <Rotation>
                                     <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
                                 </Rotation>
-                                -->
                             </PointPlacement>
                         </LabelPlacement>
                         <Fill>
