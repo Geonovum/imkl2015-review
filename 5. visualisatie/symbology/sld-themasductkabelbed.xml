@@ -3,14 +3,14 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
     <NamedLayer>
-        <Name>kabelsleidingen</Name>
+        <Name>ductenkabelbed</Name>
         <UserStyle>
-            <Title>Kabels en Leidingen met ExtraGeometrie</Title>
-            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle kabels en leidingen obv thema en currentStatus zonder ExtraGeometrrie</Abstract>
+            <Title>Ducten en Kabelbedden zonder ExtraGeometrie</Title>
+            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle ducten en kabelbedden obv thema en currentStatus zonder ExtraGeometrrie</Abstract>
             <FeatureTypeStyle>
                 <Rule>
                     <Name>buisleidinggevaarlijkeinhoud-geprojecteerd-z15-16-geen-extrageometrie</Name>
-                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) geprojecteerd op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -25,20 +25,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff7f00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>buisleidinggevaarlijkeinhoud-geprojecteerd-z11-14-geen-extrageometrie</Name>
-                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) geprojecteerd op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) geprojecteerd op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -53,20 +51,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff7f00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>buisleidinggevaarlijkeinhoud-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) geprojecteerd op zoomniveau 0 t/m 11 met ExtraGeometrie</Title>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) geprojecteerd op zoomniveau 0 t/m 11 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -80,20 +76,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff7f00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-dasharray">6 14</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>buisleidinggevaarlijkeinhoud-in-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) in gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) in gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -108,19 +102,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff7f00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>buisleidinggevaarlijkeinhoud-in-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) in gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) in gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -135,19 +127,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff7f00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>buisleidinggevaarlijkeinhoud-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) in gebruik op zoomniveau 0 t/m 11 met ExtraGeometrie</Title>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) in gebruik op zoomniveau 0 t/m 11 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -161,19 +151,17 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff7f00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>buisleidinggevaarlijkeinhoud-buiten-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) buiten gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) buiten gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -188,20 +176,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff7f00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>buisleidinggevaarlijkeinhoud-buiten-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) buiten gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) buiten gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -216,20 +202,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff7f00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>buisleidinggevaarlijkeinhoud-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) buiten gebruik op zoomniveau 0 t/m 11 met ExtraGeometrie</Title>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) buiten gebruik op zoomniveau 0 t/m 11 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -243,20 +227,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff7f00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>datatransport-geprojecteerd-z15-16-geen-extrageometrie</Name>
-                    <Title>Datatransport (DT) geprojecteerd op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Datatransport (DT) geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -271,20 +253,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#00ff00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>datatransport-geprojecteerd-z11-14-geen-extrageometrie</Name>
-                    <Title>Datatransport (DT) geprojecteerd op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Datatransport (DT) geprojecteerd op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -299,20 +279,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#00ff00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>datatransport-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Datatransport (DT) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Datatransport (DT) geprojecteerd op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -326,20 +304,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#00ff00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-dasharray">6 14</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>datatransport-in-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Datatransport (DT) in gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Datatransport (DT) in gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -354,19 +330,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#00ff00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>datatransport-in-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Datatransport (DT) in gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Datatransport (DT) in gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -381,19 +355,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#00ff00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>datatransport-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Datatransport (DT) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Datatransport (DT) in gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -407,19 +379,17 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#00ff00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>datatransport-buiten-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Datatransport (DT) buiten gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Datatransport (DT) buiten gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -434,20 +404,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#00ff00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>datatransport-buiten-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Datatransport (DT) buiten gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Datatransport (DT) buiten gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -462,20 +430,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#00ff00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>datatransport-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Datatransport (DT) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Datatransport (DT) buiten gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -489,20 +455,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#00ff00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gashogedruk-geprojecteerd-z15-16-geen-extrageometrie</Name>
-                    <Title>Gas Hoge Druk (HD) geprojecteerd op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Gas Hoge Druk (HD) geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -517,20 +481,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffaf3c</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gashogedruk-geprojecteerd-z11-14-geen-extrageometrie</Name>
-                    <Title>Gas Hoge Druk (HD) geprojecteerd op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Gas Hoge Druk (HD) geprojecteerd op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -545,20 +507,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffaf3c</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gashogedruk-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Gas Hoge Druk (HD) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Gas Hoge Druk (HD) geprojecteerd op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -572,20 +532,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffaf3c</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-dasharray">6 14</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gashogedruk-in-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Gas Hoge Druk (HD) in gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Gas Hoge Druk (HD) in gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -600,19 +558,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffaf3c</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gashogedruk-in-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Gas Hoge Druk (HD) in gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Gas Hoge Druk (HD) in gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -627,19 +583,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffaf3c</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gashogedruk-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Gas Hoge Druk (HD) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Gas Hoge Druk (HD) in gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -653,19 +607,17 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffaf3c</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gashogedruk-buiten-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Gas Hoge Druk (HD) buiten gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Gas Hoge Druk (HD) buiten gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -680,20 +632,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffaf3c</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gashogedruk-buiten-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Gas Hoge Druk (HD) buiten gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Gas Hoge Druk (HD) buiten gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -708,20 +658,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffaf3c</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gashogedruk-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Gas Hoge Druk (HD) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Gas Hoge Druk (HD) buiten gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -735,20 +683,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffaf3c</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gaslagedruk-geprojecteerd-z15-16-geen-extrageometrie</Name>
-                    <Title>Gas Lage Druk (LD) geprojecteerd op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Gas Lage Druk (LD) geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -763,20 +709,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffd750</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gaslagedruk-geprojecteerd-z11-14-geen-extrageometrie</Name>
-                    <Title>Gas Lage Druk (LD) geprojecteerd op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Gas Lage Druk (LD) geprojecteerd op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -791,20 +735,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffd750</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gaslagedruk-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Gas Lage Druk (LD) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Gas Lage Druk (LD) geprojecteerd op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -818,20 +760,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffd750</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-dasharray">6 14</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gaslagedruk-in-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Gas Lage Druk (LD) in gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Gas Lage Druk (LD) in gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -846,19 +786,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffd750</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gaslagedruk-in-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Gas Lage Druk (LD) in gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Gas Lage Druk (LD) in gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -873,19 +811,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffd750</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gaslagedruk-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Gas Lage Druk (LD) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Gas Lage Druk (LD) in gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -899,19 +835,17 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffd750</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gaslagedruk-buiten-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Gas Lage Druk (LD) buiten gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Gas Lage Druk (LD) buiten gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -926,20 +860,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffd750</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gaslagedruk-buiten-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Gas Lage Druk (LD) buiten gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Gas Lage Druk (LD) buiten gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -954,20 +886,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffd750</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>gaslagedruk-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Gas Lage Druk (LD) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Gas Lage Druk (LD) buiten gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -981,20 +911,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ffd750</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>petrochemie-geprojecteerd-z15-16-geen-extrageometrie</Name>
-                    <Title>(Petro-) chemie (PT) geprojecteerd op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>(Petro-) chemie (PT) geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1009,20 +937,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#b64a00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>petrochemie-geprojecteerd-z11-14-geen-extrageometrie</Name>
-                    <Title>(Petro-) chemie (PT) geprojecteerd op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>(Petro-) chemie (PT) geprojecteerd op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1037,20 +963,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#b64a00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>petrochemie-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>(Petro-) chemie (PT) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>(Petro-) chemie (PT) geprojecteerd op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1064,20 +988,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#b64a00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-dasharray">6 14</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>petrochemie-in-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>(Petro-) chemie (PT) in gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>(Petro-) chemie (PT) in gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1092,19 +1014,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#b64a00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>petrochemie-in-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>(Petro-) chemie (PT) in gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>(Petro-) chemie (PT) in gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1119,19 +1039,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#b64a00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>petrochemie-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>(Petro-) chemie (PT) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>(Petro-) chemie (PT) in gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1145,19 +1063,17 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#b64a00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>petrochemie-buiten-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>(Petro-) chemie (PT) buiten gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>(Petro-) chemie (PT) buiten gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1172,20 +1088,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#b64a00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>petrochemie-buiten-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>(Petro-) chemie (PT) buiten gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>(Petro-) chemie (PT) buiten gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1200,20 +1114,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#b64a00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>petrochemie-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>(Petro-) chemie (PT) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>(Petro-) chemie (PT) buiten gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1227,20 +1139,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#b64a00</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>laagspanning-geprojecteerd-z15-16-geen-extrageometrie</Name>
-                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1255,20 +1165,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#960000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>laagspanning-geprojecteerd-z11-14-geen-extrageometrie</Name>
-                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1283,20 +1191,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#960000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>laagspanning-geprojecteerd-z15-16-geen-extrageometrie</Name>
-                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1310,20 +1216,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#960000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-dasharray">6 14</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>laagspanning-in-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Laagspanning (LS) in gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Laagspanning (LS) in gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1338,19 +1242,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#960000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>laagspanning-in-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Laagspanning (LS) in gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Laagspanning (LS) in gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1365,19 +1267,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#960000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>laagspanning-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1391,19 +1291,17 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#960000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>laagspanning-geprojecteerd-z15-16-geen-extrageometrie</Name>
-                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1418,20 +1316,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#960000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>laagspanning-buiten-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Laagspanning (LS) buiten gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Laagspanning (LS) buiten gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1446,20 +1342,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#960000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>laagspanning-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Laagspanning (LS) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Laagspanning (LS) buiten gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1473,20 +1367,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#960000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>middenspanning-geprojecteerd-z15-16-geen-extrageometrie</Name>
-                    <Title>Middenspanning (MS) geprojecteerd op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Middenspanning (MS) geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1501,20 +1393,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#c80000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>middenspanning-geprojecteerd-z11-14-geen-extrageometrie</Name>
-                    <Title>Middenspanning (MS) geprojecteerd op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Middenspanning (MS) geprojecteerd op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1529,20 +1419,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#c80000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>middenspanning-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Middenspanning (MS) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Middenspanning (MS) geprojecteerd op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1556,20 +1444,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#c80000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-dasharray">6 10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>middenspanning-in-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Middenspanning (MS) in gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Middenspanning (MS) in gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1584,19 +1470,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#c80000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>middenspanning-in-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Middenspanning (MS) in gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Middenspanning (MS) in gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1611,19 +1495,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#c80000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>middenspanning-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Middenspanning (MS) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Middenspanning (MS) in gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1637,19 +1519,17 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#c80000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>middenspanning-buiten-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Middenspanning (MS) buiten gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Middenspanning (MS) buiten gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1664,20 +1544,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#c80000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>middenspanning-buiten-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Middenspanning (MS) buiten gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Middenspanning (MS) buiten gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1692,20 +1570,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#c80000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>middenspanning-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Middenspanning (MS) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Middenspanning (MS) buiten gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1719,20 +1595,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#c80000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>hoogspanning-geprojecteerd-z15-16-geen-extrageometrie</Name>
-                    <Title>Hoogspanning (HS) geprojecteerd op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Hoogspanning (HS) geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1747,20 +1621,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>hoogspanning-geprojecteerd-z11-14-geen-extrageometrie</Name>
-                    <Title>Hoogspanning (HS) geprojecteerd op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Hoogspanning (HS) geprojecteerd op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1775,20 +1647,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>hoogspanning-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Hoogspanning (HS) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Hoogspanning (HS) geprojecteerd op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1802,20 +1672,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-dasharray">6 14</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>hoogspanning-in-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Hoogspanning (HS) in gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Hoogspanning (HS) in gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1830,19 +1698,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>hoogspanning-in-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Hoogspanning (HS) in gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Hoogspanning (HS) in gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1857,19 +1723,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>hoogspanning-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Hoogspanning (HS) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Hoogspanning (HS) in gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1883,19 +1747,17 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>hoogspanning-buiten-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Hoogspanning (HS) buiten gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Hoogspanning (HS) buiten gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1910,20 +1772,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>hoogspanning-buiten-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Hoogspanning (HS) buiten gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Hoogspanning (HS) buiten gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1938,20 +1798,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>hoogspanning-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Hoogspanning (HS) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Hoogspanning (HS) buiten gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1965,21 +1823,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
-                        
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>landelijkhoogspanningsnet-geprojecteerd-z15-16-geen-extrageometrie</Name>
-                    <Title>Landelijk hoogspanningsnet (ZHS) geprojecteerd op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Landelijk hoogspanningsnet (ZHS) geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1994,20 +1849,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>landelijkhoogspanningsnet-geprojecteerd-z11-14-geen-extrageometrie</Name>
-                    <Title>Landelijk hoogspanningsnet (ZHS) geprojecteerd op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Landelijk hoogspanningsnet (ZHS) geprojecteerd op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2022,20 +1875,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>landelijkhoogspanningsnet-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Landelijk hoogspanningsnet (ZHS) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Landelijk hoogspanningsnet (ZHS) geprojecteerd op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2049,20 +1900,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10000</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-dasharray">6 14</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>landelijkhoogspanningsnet-in-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Landelijk hoogspanningsnet (ZHS) in gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Landelijk hoogspanningsnet (ZHS) in gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2077,19 +1926,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>landelijkhoogspanningsnet-in-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Landelijk hoogspanningsnet (ZHS) in gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Landelijk hoogspanningsnet (ZHS) in gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2104,19 +1951,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>landelijkhoogspanningsnet-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Landelijk hoogspanningsnet (ZHS) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Landelijk hoogspanningsnet (ZHS) in gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2130,19 +1975,17 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>landelijkhoogspanningsnet-buiten-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Landelijk hoogspanningsnet (ZHS) buiten gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Landelijk hoogspanningsnet (ZHS) buiten gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2157,20 +2000,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>landelijkhoogspanningsnet-buiten-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Landelijk hoogspanningsnet (ZHS) buiten gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Landelijk hoogspanningsnet (ZHS) buiten gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2185,20 +2026,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>landelijkhoogspanningsnet-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Landelijk hoogspanningsnet (ZHS) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Landelijk hoogspanningsnet (ZHS) buiten gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2212,20 +2051,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>water-geprojecteerd-z15-16-geen-extrageometrie</Name>
-                    <Title>Water geprojecteerd op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Water geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2240,20 +2077,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#0000ff</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>water-geprojecteerd-z11-14-geen-extrageometrie</Name>
-                    <Title>Water geprojecteerd op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Water geprojecteerd op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2268,20 +2103,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#0000ff</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>water-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Water geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Water geprojecteerd op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2295,20 +2128,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#0000ff</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-dasharray">6 14</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>water-in-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Water in gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Water in gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2323,19 +2154,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#0000ff</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>water-in-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Water in gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Water in gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2350,19 +2179,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#0000ff</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>water-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Water in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Water in gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2376,19 +2203,17 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#0000ff</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>water-buiten-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Water buiten gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Water buiten gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2403,20 +2228,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#0000ff</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>water-buiten-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Water buiten gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Water buiten gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2431,20 +2254,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#0000ff</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>water-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Water buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Water buiten gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2458,20 +2279,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#0000ff</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>warmte-geprojecteerd-z15-16-geen-extrageometrie</Name>
-                    <Title>Warmte geprojecteerd op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Warmte geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2486,20 +2305,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#008080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>warmte-geprojecteerd-z11-14-geen-extrageometrie</Name>
-                    <Title>Warmte geprojecteerd op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Warmte geprojecteerd op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2514,20 +2331,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#008080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter> 
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>warmte-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Warmte geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Warmte geprojecteerd op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2541,20 +2356,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#008080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-dasharray">6 14</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>warmte-in-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Warmte in gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Warmte in gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2569,19 +2382,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#008080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>warmte-in-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Warmte in gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Warmte in gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2596,19 +2407,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#008080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>warmte-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Warmte in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Warmte in gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2622,19 +2431,17 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#008080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>warmte-buiten-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Warmte buiten gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Warmte buiten gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2649,20 +2456,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#008080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>warmte-buiten-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Warmte buiten gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Warmte buiten gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2677,20 +2482,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#008080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>warmte-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Warmte buiten-gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Warmte buiten-gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2704,20 +2507,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#008080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolonderoverofonderdruk-geprojecteerd-z15-16-geen-extrageometrie</Name>
-                    <Title>Riool onder over- of onderdruk geprojecteerd op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Riool onder over- of onderdruk geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2732,20 +2533,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#800080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolonderoverofonderdruk-geprojecteerd-z11-14-geen-extrageometrie</Name>
-                    <Title>Riool onder over- of onderdruk geprojecteerd op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Riool onder over- of onderdruk geprojecteerd op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2760,20 +2559,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#800080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolonderoverofonderdruk-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Riool onder over- of onderdruk geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Riool onder over- of onderdruk geprojecteerd op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2787,20 +2584,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#800080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-dasharray">6 14</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolonderoverofonderdruk-in-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Riool onder over- of onderdruk in gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Riool onder over- of onderdruk in gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2815,19 +2610,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#800080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolonderoverofonderdruk-in-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Riool onder over- of onderdruk in gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Riool onder over- of onderdruk in gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2842,19 +2635,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#800080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolonderoverofonderdruk-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Riool onder over- of onderdruk in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Riool onder over- of onderdruk in gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2868,19 +2659,17 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#800080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolonderoverofonderdruk-buiten-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Riool onder over- of onderdruk buiten gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Riool onder over- of onderdruk buiten gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2895,20 +2684,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#800080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolonderoverofonderdruk-buiten-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Riool onder over- of onderdruk buiten gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Riool onder over- of onderdruk buiten gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2923,20 +2710,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#800080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolonderoverofonderdruk-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Riool onder over- of onderdruk buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Riool onder over- of onderdruk buiten gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2950,20 +2735,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#800080</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolvrijverval-geprojecteerd-z15-16-geen-extrageometrie</Name>
-                    <Title>Riool vrijverval (VV) geprojecteerd op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Riool vrijverval (VV) geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2978,20 +2761,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ba38a8</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolvrijverval-geprojecteerd-z11-14-geen-extrageometrie</Name>
-                    <Title>Riool vrijverval (VV) geprojecteerd op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Riool vrijverval (VV) geprojecteerd op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3006,20 +2787,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ba38a8</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolvrijverval-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Riool vrijverval (VV) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Riool vrijverval (VV) geprojecteerd op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3033,20 +2812,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ba38a8</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-dasharray">6 14</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolvrijverval-in-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Riool vrijverval (VV) in gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Riool vrijverval (VV) in gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3061,19 +2838,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ba38a8</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolvrijverval-in-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Riool vrijverval (VV) in gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Riool vrijverval (VV) in gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3088,19 +2863,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ba38a8</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolvrijverval-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Riool vrijverval (VV) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Riool vrijverval (VV) in gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3114,19 +2887,17 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ba38a8</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolvrijverval-buiten-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Riool vrijverval (VV) buiten gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Riool vrijverval (VV) buiten gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3141,20 +2912,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ba38a8</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolvrijverval-buiten-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Riool vrijverval (VV) buiten gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Riool vrijverval (VV) buiten gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3169,20 +2938,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ba38a8</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>rioolvrijverval-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Riool vrijverval (VV) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Riool vrijverval (VV) buiten gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3196,20 +2963,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#ba38a8</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>wees-geprojecteerd-z15-16-geen-extrageometrie</Name>
-                    <Title>Wees geprojecteerd op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Wees geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3224,20 +2989,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>wees-geprojecteerd-z11-14-geen-extrageometrie</Name>
-                    <Title>Wees geprojecteerd op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Wees geprojecteerd op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3252,20 +3015,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>wees-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Wees geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Wees geprojecteerd op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3279,20 +3040,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-dasharray">6 14</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>wees-in-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Wees in gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Wees in gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3307,19 +3066,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>wees-in-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Wees in gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Wees in gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3334,19 +3091,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>wees-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Wees in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Wees in gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3360,19 +3115,17 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>wees-buiten-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Wees buiten gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Wees buiten gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3387,20 +3140,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>wees-buiten-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Wees buiten gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Wees buiten gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3415,20 +3166,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>wees-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Wees buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Wees buiten gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3442,20 +3191,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>overig-geprojecteerd-z15-16-geen-extrageometrie</Name>
-                    <Title>Overig geprojecteerd op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Overig geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3470,20 +3217,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>overig-geprojecteerd-z11-14-geen-extrageometrie</Name>
-                    <Title>Overig geprojecteerd op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Overig geprojecteerd op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3498,20 +3243,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>overig-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Overig geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Overig geprojecteerd op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3525,20 +3268,18 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-dasharray">6 14</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>overig-in-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Overig in gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Overig in gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3553,19 +3294,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>overig-in-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Overig in gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Overig in gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3580,19 +3319,17 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>overig-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Overig in-gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Overig in-gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3606,19 +3343,17 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>overig-buiten-gebruik-z15-16-geen-extrageometrie</Name>
-                    <Title>Overig buiten gebruik op zoomniveau 15 en 16 met ExtraGeometrie</Title>
+                    <Title>Overig buiten gebruik op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3633,20 +3368,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>overig-buiten-gebruik-z11-14-geen-extrageometrie</Name>
-                    <Title>Overig buiten gebruik op zoomniveau 11 t/m 14 met ExtraGeometrie</Title>
+                    <Title>Overig buiten gebruik op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3661,20 +3394,18 @@
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>overig-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Overig buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Title>Overig buiten gebruik op zoomniveau 0 t/m 10 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3688,16 +3419,14 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
             </FeatureTypeStyle>
         </UserStyle>

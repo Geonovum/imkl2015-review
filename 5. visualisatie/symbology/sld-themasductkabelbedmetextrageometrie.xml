@@ -1,0 +1,2611 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+    <NamedLayer>
+        <Name>ductenkabelbedmetextrageometrie</Name>
+        <UserStyle>
+            <Title>Ducten en Kabelbedden met ExtraGeometrie</Title>
+            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle ducten en kabelbedden obv thema en currentStatus met ExtraGeometrie</Abstract>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>buisleidinggevaarlijkeinhoud-geprojecteerd-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) geprojecteerd op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff7f00</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>buisleidinggevaarlijkeinhoud-geprojecteerd-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) geprojecteerd op zoomniveau 0 t/m 11 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff7f00</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>buisleidinggevaarlijkeinhoud-in-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) in gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff7f00</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>buisleidinggevaarlijkeinhoud-in-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) in gebruik op zoomniveau 0 t/m 11 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff7f00</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>buisleidinggevaarlijkeinhoud-buiten-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) buiten gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff7f00</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>buisleidinggevaarlijkeinhoud-buiten-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) buiten gebruik op zoomniveau 0 t/m 11 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff7f00</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>datatransport-geprojecteerd-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Datatransport (DT) geprojecteerd op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>datatransport</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#00ff00</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>datatransport-geprojecteerd-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Datatransport (DT) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>datatransport</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#00ff00</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>datatransport-in-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Datatransport (DT) in gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>datatransport</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#00ff00</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>datatransport-in-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Datatransport (DT) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>datatransport</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#00ff00</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>datatransport-buiten-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Datatransport (DT) buiten gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>datatransport</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#00ff00</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>datatransport-buiten-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Datatransport (DT) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>datatransport</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#00ff00</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gashogedruk-geprojecteerd-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Gas Hoge Druk (HD) geprojecteerd op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasHogeDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ffaf3c</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gashogedruk-geprojecteerd-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Gas Hoge Druk (HD) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasHogeDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ffaf3c</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gashogedruk-in-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Gas Hoge Druk (HD) in gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasHogeDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ffaf3c</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gashogedruk-in-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Gas Hoge Druk (HD) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasHogeDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ffaf3c</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gashogedruk-buiten-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Gas Hoge Druk (HD) buiten gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasHogeDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ffaf3c</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gashogedruk-buiten-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Gas Hoge Druk (HD) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasHogeDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ffaf3c</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gaslagedruk-geprojecteerd-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Gas Lage Druk (LD) geprojecteerd op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasLageDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ffd750</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gaslagedruk-geprojecteerd-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Gas Lage Druk (LD) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasLageDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ffd750</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gaslagedruk-in-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Gas Lage Druk (LD) in gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasLageDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ffd750</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gaslagedruk-in-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Gas Lage Druk (LD) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasLageDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ffd750</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gaslagedruk-buiten-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Gas Lage Druk (LD) buiten gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasLageDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ffd750</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gaslagedruk-buiten-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Gas Lage Druk (LD) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasLageDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ffd750</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>petrochemie-geprojecteerd-z11-16-met-extrageometrie-onder</Name>
+                    <Title>(Petro-) chemie (PT) geprojecteerd op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>petrochemie</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#b64a00</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>petrochemie-geprojecteerd-z0-10-met-extrageometrie-onder</Name>
+                    <Title>(Petro-) chemie (PT) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>petrochemie</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#b64a00</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>petrochemie-in-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>(Petro-) chemie (PT) in gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>petrochemie</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#b64a00</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>petrochemie-in-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>(Petro-) chemie (PT) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>petrochemie</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#b64a00</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>petrochemie-buiten-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>(Petro-) chemie (PT) buiten gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>petrochemie</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#b64a00</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>petrochemie-buiten-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>(Petro-) chemie (PT) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>petrochemie</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#b64a00</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>laagspanning-geprojecteerd-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>laagspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#960000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>laagspanning-geprojecteerd-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>laagspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#960000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>laagspanning-in-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Laagspanning (LS) in gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>laagspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#960000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>laagspanning-in-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>laagspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#960000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>laagspanning-buiten-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Laagspanning (LS) buiten gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>laagspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#960000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>laagspanning-buiten-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Laagspanning (LS) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>laagspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#960000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>middenspanning-geprojecteerd-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Middenspanning (MS) geprojecteerd op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>middenspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#c80000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>middenspanning-geprojecteerd-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Middenspanning (MS) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>middenspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#c80000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">6 10</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>middenspanning-in-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Middenspanning (MS) in gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>middenspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#c80000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>middenspanning-in-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Middenspanning (MS) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>middenspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#c80000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>middenspanning-buiten-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Middenspanning (MS) buiten gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>middenspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#c80000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>middenspanning-buiten-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Middenspanning (MS) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>middenspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#c80000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>hoogspanning-geprojecteerd-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Hoogspanning (HS) geprojecteerd op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>hoogspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff0000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>hoogspanning-geprojecteerd-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Hoogspanning (HS) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>hoogspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff0000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>hoogspanning-in-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Hoogspanning (HS) in gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>hoogspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff0000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>hoogspanning-in-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Hoogspanning (HS) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>hoogspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff0000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>hoogspanning-buiten-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Hoogspanning (HS) buiten gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>hoogspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff0000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>hoogspanning-buiten-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Hoogspanning (HS) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>hoogspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff0000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>landelijkhoogspanningsnet-geprojecteerd-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) geprojecteerd op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff0000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>landelijkhoogspanningsnet-geprojecteerd-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10000</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff0000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>landelijkhoogspanningsnet-in-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) in gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff0000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>landelijkhoogspanningsnet-in-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff0000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>landelijkhoogspanningsnet-buiten-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) buiten gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff0000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>landelijkhoogspanningsnet-buiten-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ff0000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-geprojecteerd-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Water geprojecteerd op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-geprojecteerd-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Water geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-in-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Water in gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-in-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Water in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-buiten-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Water buiten gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-buiten-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Water buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>warmte-geprojecteerd-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Warmte geprojecteerd op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>warmte</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#008080</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter> 
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>warmte-geprojecteerd-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Warmte geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>warmte</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#008080</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>warmte-in-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Warmte in gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>warmte</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#008080</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>warmte-in-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Warmte in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>warmte</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#008080</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>warmte-buiten-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Warmte buiten gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>warmte</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#008080</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>warmte-buiten-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Warmte buiten-gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>warmte</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#008080</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolonderoverofonderdruk-geprojecteerd-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Riool onder over- of onderdruk geprojecteerd op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolOnderDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#800080</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolonderoverofonderdruk-geprojecteerd-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Riool onder over- of onderdruk geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolOnderDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#800080</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolonderoverofonderdruk-in-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Riool onder over- of onderdruk in gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolOnderDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#800080</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolonderoverofonderdruk-in-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Riool onder over- of onderdruk in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolOnderDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#800080</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolonderoverofonderdruk-buiten-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Riool onder over- of onderdruk buiten gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolOnderDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#800080</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolonderoverofonderdruk-buiten-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Riool onder over- of onderdruk buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolOnderDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#800080</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolvrijverval-geprojecteerd-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Riool vrijverval (VV) geprojecteerd op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolVrijverval</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ba38a8</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolvrijverval-geprojecteerd-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Riool vrijverval (VV) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolVrijverval</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ba38a8</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolvrijverval-in-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Riool vrijverval (VV) in gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolVrijverval</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ba38a8</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolvrijverval-in-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Riool vrijverval (VV) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolVrijverval</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ba38a8</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolvrijverval-buiten-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Riool vrijverval (VV) buiten gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolVrijverval</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ba38a8</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolvrijverval-buiten-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Riool vrijverval (VV) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolVrijverval</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ba38a8</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>wees-geprojecteerd-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Wees geprojecteerd op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>wees</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>wees-geprojecteerd-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Wees geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>wees</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>wees-in-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Wees in gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>wees</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>wees-in-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Wees in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>wees</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>wees-buiten-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Wees buiten gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>wees</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>wees-buiten-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Wees buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>wees</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>overig-geprojecteerd-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Overig geprojecteerd op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>overig</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>overig-geprojecteerd-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Overig geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>overig</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>overig-in-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Overig in gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>overig</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>overig-in-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Overig in-gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>overig</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>overig-buiten-gebruik-z11-16-met-extrageometrie-onder</Name>
+                    <Title>Overig buiten gebruik op zoomniveau 11 t/m 16 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>overig</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>1</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>overig-buiten-gebruik-z0-10-met-extrageometrie-onder</Name>
+                    <Title>Overig buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>overig</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                            <CssParameter name="stroke-opacity">0.5</CssParameter>
+                        </Stroke>
+                        <PerpendicularOffset>0.5</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>buisleidinggevaarlijkeinhoud-met-extrageometrie-top</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) met ExtraGeometrie - top</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>thema</ogc:PropertyName>
+                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">#ff7f00</CssParameter>
+                            <CssParameter name="fill-opacity">0.5</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>datatransport-met-extrageometrie-top</Name>
+                    <Title>Datatransport (DT) met ExtraGeometrie - top</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>thema</ogc:PropertyName>
+                            <ogc:Literal>datatransport</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">#00ff00</CssParameter>
+                            <CssParameter name="fill-opacity">0.5</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gashogedruk-met-extrageometrie-top</Name>
+                    <Title>Gas Hoge Druk (HD) met ExtraGeometrie - top</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>thema</ogc:PropertyName>
+                            <ogc:Literal>gasHogeDruk</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">#ffaf3c</CssParameter>
+                            <CssParameter name="fill-opacity">0.5</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gaslagedruk-met-extrageometrie-top</Name>
+                    <Title>Gas Lage Druk (LD) met ExtraGeometrie - top</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>thema</ogc:PropertyName>
+                            <ogc:Literal>gasLageDruk</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">#ffd750</CssParameter>
+                            <CssParameter name="fill-opacity">0.5</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>petrochemie-met-extrageometrie-top</Name>
+                    <Title>(Petro-) chemie (PT) met ExtraGeometrie - top</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>thema</ogc:PropertyName>
+                            <ogc:Literal>petrochemie</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">#b64a00</CssParameter>
+                            <CssParameter name="fill-opacity">0.5</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>laagspanning-met-extrageometrie-top</Name>
+                    <Title>Laagspanning (LS) met ExtraGeometrie - top</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>thema</ogc:PropertyName>
+                            <ogc:Literal>laagspanning</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">#960000</CssParameter>
+                            <CssParameter name="fill-opacity">0.5</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>middenspanning-met-extrageometrie-top</Name>
+                    <Title>Middenspanning (MS) met ExtraGeometrie - top</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>thema</ogc:PropertyName>
+                            <ogc:Literal>middenspanning</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">#c80000</CssParameter>
+                            <CssParameter name="fill-opacity">0.5</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>hoogspanning-met-extrageometrie-top</Name>
+                    <Title>Hoogspanning (HS) met ExtraGeometrie - top</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>thema</ogc:PropertyName>
+                            <ogc:Literal>hoogspanning</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">#ff0000</CssParameter>
+                            <CssParameter name="fill-opacity">0.5</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>landelijkhoogspanningsnet-met-extrageometrie-top</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) met ExtraGeometrie - top</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>thema</ogc:PropertyName>
+                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">#ff0000</CssParameter>
+                            <CssParameter name="fill-opacity">0.5</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-met-extrageometrie-top</Name>
+                    <Title>Water met ExtraGeometrie - top</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>thema</ogc:PropertyName>
+                            <ogc:Literal>water</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">#0000ff</CssParameter>
+                            <CssParameter name="fill-opacity">0.5</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>warmte-met-extrageometrie-top</Name>
+                    <Title>Warmte met ExtraGeometrie - top</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>thema</ogc:PropertyName>
+                            <ogc:Literal>warmte</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">#008080</CssParameter>
+                            <CssParameter name="fill-opacity">0.5</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolonderoverofonderdruk-met-extrageometrie-top</Name>
+                    <Title>Riool onder over- of onderdruk met ExtraGeometrie - top</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>thema</ogc:PropertyName>
+                            <ogc:Literal>rioolOnderDruk</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">#800080</CssParameter>
+                            <CssParameter name="fill-opacity">0.5</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolvrijverval-met-extrageometrie-top</Name>
+                    <Title>Riool vrijverval (VV) met ExtraGeometrie - top</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>thema</ogc:PropertyName>
+                            <ogc:Literal>rioolVrijverval</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">#ba38a8</CssParameter>
+                            <CssParameter name="fill-opacity">0.5</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>wees-met-extrageometrie-top</Name>
+                    <Title>Wees met ExtraGeometrie - top</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>thema</ogc:PropertyName>
+                            <ogc:Literal>wees</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">#000000</CssParameter>
+                            <CssParameter name="fill-opacity">0.5</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>overig-met-extrageometrie-top</Name>
+                    <Title>Overig met ExtraGeometrie - top</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>thema</ogc:PropertyName>
+                            <ogc:Literal>overig</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">#000000</CssParameter>
+                            <CssParameter name="fill-opacity">0.5</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>
