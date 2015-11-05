@@ -1154,8 +1154,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>laagspanning-geprojecteerd-z15-16-geen-extrageometrie-onder</Name>
-                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <Name>laagspanning-geprojecteerd-z0-10-geen-extrageometrie-onder</Name>
+                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 0 t/m 10 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2245,7 +2245,6 @@
                             <CssParameter name="stroke">#008080</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">10 10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter> 
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
