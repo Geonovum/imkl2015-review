@@ -30,7 +30,6 @@
                             <CssParameter name="stroke">#ff7f00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">16 16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -56,7 +55,6 @@
                             <CssParameter name="stroke">#ff7f00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">10 10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -81,7 +79,6 @@
                             <CssParameter name="stroke">#ff7f00</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">6 14</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -106,7 +103,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -131,7 +127,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -155,7 +150,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -181,7 +175,6 @@
                             <CssParameter name="stroke">#ff7f00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -207,7 +200,6 @@
                             <CssParameter name="stroke">#ff7f00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -232,7 +224,6 @@
                             <CssParameter name="stroke">#ff7f00</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -258,7 +249,6 @@
                             <CssParameter name="stroke">#00ff00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">16 16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -284,7 +274,6 @@
                             <CssParameter name="stroke">#00ff00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">10 10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -309,7 +298,6 @@
                             <CssParameter name="stroke">#00ff00</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">6 14</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -334,7 +322,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -359,7 +346,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -383,7 +369,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -409,7 +394,6 @@
                             <CssParameter name="stroke">#00ff00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -435,7 +419,6 @@
                             <CssParameter name="stroke">#00ff00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -460,7 +443,6 @@
                             <CssParameter name="stroke">#00ff00</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -486,7 +468,6 @@
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">16 16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -512,7 +493,6 @@
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">10 10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -537,7 +517,6 @@
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">6 14</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -562,7 +541,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -587,7 +565,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -611,7 +588,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -637,7 +613,6 @@
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -663,7 +638,6 @@
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -688,7 +662,6 @@
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -714,7 +687,6 @@
                             <CssParameter name="stroke">#ffd750</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">16 16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -740,7 +712,6 @@
                             <CssParameter name="stroke">#ffd750</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">10 10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -765,7 +736,6 @@
                             <CssParameter name="stroke">#ffd750</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">6 14</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -790,7 +760,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -815,7 +784,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -839,7 +807,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -865,7 +832,6 @@
                             <CssParameter name="stroke">#ffd750</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -891,7 +857,6 @@
                             <CssParameter name="stroke">#ffd750</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -916,7 +881,6 @@
                             <CssParameter name="stroke">#ffd750</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -942,7 +906,6 @@
                             <CssParameter name="stroke">#b64a00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">16 16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -968,7 +931,6 @@
                             <CssParameter name="stroke">#b64a00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">10 10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -993,7 +955,6 @@
                             <CssParameter name="stroke">#b64a00</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">6 14</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1018,7 +979,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1043,7 +1003,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1067,7 +1026,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1093,7 +1051,6 @@
                             <CssParameter name="stroke">#b64a00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1119,7 +1076,6 @@
                             <CssParameter name="stroke">#b64a00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1144,7 +1100,6 @@
                             <CssParameter name="stroke">#b64a00</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1170,7 +1125,6 @@
                             <CssParameter name="stroke">#960000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">16 16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1196,7 +1150,6 @@
                             <CssParameter name="stroke">#960000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">10 10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1221,7 +1174,6 @@
                             <CssParameter name="stroke">#960000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">6 14</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1246,7 +1198,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1271,7 +1222,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1295,7 +1245,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1321,7 +1270,6 @@
                             <CssParameter name="stroke">#960000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1347,7 +1295,6 @@
                             <CssParameter name="stroke">#960000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1372,7 +1319,6 @@
                             <CssParameter name="stroke">#960000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1398,7 +1344,6 @@
                             <CssParameter name="stroke">#c80000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">16 16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1424,7 +1369,6 @@
                             <CssParameter name="stroke">#c80000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">10 10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1449,7 +1393,6 @@
                             <CssParameter name="stroke">#c80000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">6 10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1474,7 +1417,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1499,7 +1441,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1523,7 +1464,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1549,7 +1489,6 @@
                             <CssParameter name="stroke">#c80000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1575,7 +1514,6 @@
                             <CssParameter name="stroke">#c80000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1600,7 +1538,6 @@
                             <CssParameter name="stroke">#c80000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1626,7 +1563,6 @@
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">16 16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1652,7 +1588,6 @@
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">10 10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1677,7 +1612,6 @@
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">6 14</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1702,7 +1636,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1727,7 +1660,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1751,7 +1683,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1777,7 +1708,6 @@
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1803,7 +1733,6 @@
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1828,7 +1757,6 @@
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1854,7 +1782,6 @@
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">16 16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1880,7 +1807,6 @@
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">10 10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1905,7 +1831,6 @@
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">6 14</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1930,7 +1855,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1955,7 +1879,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1979,7 +1902,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2005,7 +1927,6 @@
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2031,7 +1952,6 @@
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2056,7 +1976,6 @@
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2082,7 +2001,6 @@
                             <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">16 16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2108,7 +2026,6 @@
                             <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">10 10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2133,7 +2050,6 @@
                             <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">6 14</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2158,7 +2074,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2183,7 +2098,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2207,7 +2121,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2233,7 +2146,6 @@
                             <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2259,7 +2171,6 @@
                             <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2284,7 +2195,6 @@
                             <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2310,7 +2220,6 @@
                             <CssParameter name="stroke">#008080</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">16 16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2361,7 +2270,6 @@
                             <CssParameter name="stroke">#008080</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">6 14</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2386,7 +2294,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2411,7 +2318,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2435,7 +2341,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2461,7 +2366,6 @@
                             <CssParameter name="stroke">#008080</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2487,7 +2391,6 @@
                             <CssParameter name="stroke">#008080</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2512,7 +2415,6 @@
                             <CssParameter name="stroke">#008080</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2538,7 +2440,6 @@
                             <CssParameter name="stroke">#800080</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">16 16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2564,7 +2465,6 @@
                             <CssParameter name="stroke">#800080</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">10 10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2589,7 +2489,6 @@
                             <CssParameter name="stroke">#800080</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">6 14</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2614,7 +2513,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2639,7 +2537,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2663,7 +2560,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2689,7 +2585,6 @@
                             <CssParameter name="stroke">#800080</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2715,7 +2610,6 @@
                             <CssParameter name="stroke">#800080</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2740,7 +2634,6 @@
                             <CssParameter name="stroke">#800080</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2766,7 +2659,6 @@
                             <CssParameter name="stroke">#ba38a8</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">16 16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2792,7 +2684,6 @@
                             <CssParameter name="stroke">#ba38a8</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">10 10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2817,7 +2708,6 @@
                             <CssParameter name="stroke">#ba38a8</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">6 14</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2842,7 +2732,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2867,7 +2756,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2891,7 +2779,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2917,7 +2804,6 @@
                             <CssParameter name="stroke">#ba38a8</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2943,7 +2829,6 @@
                             <CssParameter name="stroke">#ba38a8</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2968,7 +2853,6 @@
                             <CssParameter name="stroke">#ba38a8</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2994,7 +2878,6 @@
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">16 16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3020,7 +2903,6 @@
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">10 10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3045,7 +2927,6 @@
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">6 14</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3070,7 +2951,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3095,7 +2975,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3119,7 +2998,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3145,7 +3023,6 @@
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3171,7 +3048,6 @@
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3196,7 +3072,6 @@
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3222,7 +3097,6 @@
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">16 16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3248,7 +3122,6 @@
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">10 10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3273,7 +3146,6 @@
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">6 14</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3298,7 +3170,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3323,7 +3194,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3347,7 +3217,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3373,7 +3242,6 @@
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3399,7 +3267,6 @@
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3424,7 +3291,6 @@
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3446,7 +3312,6 @@
                             <CssParameter name="stroke">#ffffff</CssParameter>
                             <CssParameter name="stroke-width">12</CssParameter>
                             <CssParameter name="stroke-dasharray">16 16</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3466,7 +3331,6 @@
                             <CssParameter name="stroke">#ffffff</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">10 10</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3485,7 +3349,6 @@
                             <CssParameter name="stroke">#ffffff</CssParameter>
                             <CssParameter name="stroke-width">4</CssParameter>
                             <CssParameter name="stroke-dasharray">6 14</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3504,7 +3367,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffffff</CssParameter>
                             <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3523,7 +3385,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffffff</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3541,7 +3402,6 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffffff</CssParameter>
                             <CssParameter name="stroke-width">4</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3561,7 +3421,6 @@
                             <CssParameter name="stroke">#ffffff</CssParameter>
                             <CssParameter name="stroke-width">12</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3581,7 +3440,6 @@
                             <CssParameter name="stroke">#ffffff</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
                             <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -3600,7 +3458,6 @@
                             <CssParameter name="stroke">#ffffff</CssParameter>
                             <CssParameter name="stroke-width">4</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
-                            <CssParameter name="stroke-opacity">0.5</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
