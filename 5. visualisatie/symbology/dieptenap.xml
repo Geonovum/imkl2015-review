@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+    <NamedLayer>
+        <Name>dieptetovmaaiveld</Name>
+        <UserStyle>
+            <Title>Visualisatie van de DiepteTovMaaiveld</Title>
+            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van het objecttype DiepteTovMaaiveld</Abstract>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>diepteTovMaaiveld</Name>
+                    <Title>diepteTovMaaiveld</Title>
+                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>circle</WellKnownName>
+                                <Fill>
+                                  <CssParameter name="fill">#000000</CssParameter>
+                                </Fill>
+                            </Mark>
+                            <Size>3</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                    <TextSymbolizer>
+                        <Label>
+                            <ogc:PropertyName>dieptePeil</ogc:PropertyName> <ogc:PropertyName>uom</ogc:PropertyName>
+                        </Label>
+                        <Font>
+                            <CssParameter name="font-family">Arial</CssParameter>
+                            <CssParameter name="font-size">11</CssParameter>
+                        </Font>
+                        <LabelPlacement>
+                            <PointPlacement>
+                                <AnchorPoint>
+                                    <AnchorPointX>
+                                        <ogc:Literal>0.5</ogc:Literal>
+                                    </AnchorPointX>
+                                    <AnchorPointY>
+                                        <ogc:Literal>1</ogc:Literal>
+                                    </AnchorPointY>
+                                </AnchorPoint>
+                                <Displacement>
+                                    <DisplacementX>0</DisplacementX>
+                                    <DisplacementY>20</DisplacementY>
+                                </Displacement>
+                            </PointPlacement>
+                        </LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#000000</CssParameter>
+                        </Fill>
+                    </TextSymbolizer>
+                    <TextSymbolizer>
+                        <Label>
+                            (<ogc:PropertyName>maaiveldPeil</ogc:PropertyName> <ogc:PropertyName>uom</ogc:PropertyName>)
+                        </Label>
+                        <Font>
+                            <CssParameter name="font-family">Arial</CssParameter>
+                            <CssParameter name="font-size">11</CssParameter>
+                        </Font>
+                        <LabelPlacement>
+                            <PointPlacement>
+                                <AnchorPoint>
+                                    <AnchorPointX>
+                                        <ogc:Literal>0.5</ogc:Literal>
+                                    </AnchorPointX>
+                                    <AnchorPointY>
+                                        <ogc:Literal>1</ogc:Literal>
+                                    </AnchorPointY>
+                                </AnchorPoint>
+                                <Displacement>
+                                    <DisplacementX>0</DisplacementX>
+                                    <DisplacementY>-20</DisplacementY>
+                                </Displacement>
+                            </PointPlacement>
+                        </LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#000000</CssParameter>
+                        </Fill>
+                    </TextSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>
