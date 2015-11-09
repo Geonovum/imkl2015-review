@@ -3,7 +3,7 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
     <NamedLayer>
-        <Name>maatvoering</Name>
+        <Name>dieptetovmaaiveld</Name>
         <UserStyle>
             <Title>Visualisatie van de DiepteTovMaaiveld</Title>
             <Abstract>Deze stylesheet bevat de regels voor de visualisatie van het objecttype DiepteTovMaaiveld</Abstract>
@@ -20,18 +20,16 @@
                                   <CssParameter name="fill">#000000</CssParameter>
                                 </Fill>
                             </Mark>
-                            <Size>5</Size>
+                            <Size>3</Size>
                         </Graphic>
                     </PointSymbolizer>
                     <TextSymbolizer>
                         <Label>
-                            <ogc:PropertyName>dieptePeil</ogc:PropertyName> cm
+                            <ogc:PropertyName>dieptePeil</ogc:PropertyName> <ogc:PropertyName>uom</ogc:PropertyName>
                         </Label>
                         <Font>
                             <CssParameter name="font-family">Arial</CssParameter>
-                            <CssParameter name="font-size">12</CssParameter>
-                            <CssParameter name="font-style">Bold</CssParameter>
-                            <CssParameter name="font-weight">bold</CssParameter>
+                            <CssParameter name="font-size">11</CssParameter>
                         </Font>
                         <LabelPlacement>
                             <PointPlacement>
@@ -50,7 +48,7 @@
                             </PointPlacement>
                         </LabelPlacement>
                         <Fill>
-                            <CssParameter name="fill">#535353</CssParameter>
+                            <CssParameter name="fill">#000000</CssParameter>
                         </Fill>
                     </TextSymbolizer>
                 </Rule>
