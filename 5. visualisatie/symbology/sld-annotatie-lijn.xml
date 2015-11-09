@@ -3,7 +3,7 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
     <NamedLayer>
-        <Name>annotatie</Name>
+        <Name>annotatielijn</Name>
         <UserStyle>
             <Title>Visualisatie van de Annotatie met lijngeometrie</Title>
             <Abstract>Deze stylesheet bevat de regels voor de visualisatie van het objecttype Annotatie met lijngeometrie</Abstract>
@@ -11,21 +11,17 @@
                 <Rule>
                     <Name>annotatielijn</Name>
                     <Title>Annotatielijn</Title>
-                    <!--
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>annotatieType</ogc:PropertyName>
                             <ogc:Literal>annotatielijn</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    -->
                     <MaxScaleDenominator>5000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#535353</CssParameter>
                             <CssParameter name="stroke-width">1</CssParameter>
-                            <CssParameter name="stroke-linecap">butt</CssParameter>
-                            <CssParameter name="stroke-linejoin">mitre</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
