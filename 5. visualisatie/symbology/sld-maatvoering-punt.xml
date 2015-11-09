@@ -9,15 +9,15 @@
             <Abstract>Deze stylesheet bevat de regels voor de visualisatie van het objecttype Maatvoering met puntgeometrie</Abstract>
             <FeatureTypeStyle>
                 <Rule>
-                    <Name>maatvoeringspijl</Name>
-                    <Title>Maatvoeringspijl</Title>
+                    <Name>maatvoeringspijl-z15-16</Name>
+                    <Title>Maatvoeringspijl op zoomniveau 15 en 16</Title>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>maatvoeringsType</ogc:PropertyName>
                             <ogc:Literal>maatvoeringspijlpunt</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -28,10 +28,33 @@
                             </Mark>
                             <Size>10</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                            </Rotation>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>maatvoeringspijl-z14</Name>
+                    <Title>Maatvoeringspijl op zoomniveau 14</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>maatvoeringsType</ogc:PropertyName>
+                            <ogc:Literal>maatvoeringspijlpunt</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>triangle</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill">#535353</CssParameter>
+                                </Fill>
+                            </Mark>
+                            <Size>5</Size>
+                            <Rotation>
+                                <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
                             </Rotation>
                         </Graphic>
                     </PointSymbolizer>
@@ -52,9 +75,7 @@
                         </Label>
                         <Font>
                             <CssParameter name="font-family">Arial</CssParameter>
-                            <CssParameter name="font-size">12</CssParameter>
-                            <CssParameter name="font-style">Bold</CssParameter>
-                            <CssParameter name="font-weight">bold</CssParameter>
+                            <CssParameter name="font-size">11</CssParameter>
                         </Font>
                         <LabelPlacement>
                             <PointPlacement>
@@ -72,7 +93,7 @@
                             </PointPlacement>
                         </LabelPlacement>
                         <Fill>
-                            <CssParameter name="fill">#535353</CssParameter>
+                            <CssParameter name="fill">#000000</CssParameter>
                         </Fill>
                     </TextSymbolizer>
                 </Rule>
