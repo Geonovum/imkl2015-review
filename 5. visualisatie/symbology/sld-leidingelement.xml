@@ -33,9 +33,9 @@
                                     <CssParameter name="fill">#ff7f00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff7f00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -67,9 +67,9 @@
                                     <CssParameter name="fill">#ff7f00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff7f00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -101,9 +101,9 @@
                                     <CssParameter name="fill">#ff7f00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff7f00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -135,9 +135,9 @@
                                     <CssParameter name="fill">#ff7f00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff7f00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -169,8 +169,8 @@
                                     <CssParameter name="fill">#ff7f00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff7f00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -202,8 +202,8 @@
                                     <CssParameter name="fill">#ff7f00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff7f00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -235,8 +235,8 @@
                                     <CssParameter name="fill">#ff7f00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff7f00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -268,8 +268,8 @@
                                     <CssParameter name="fill">#ff7f00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff7f00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -301,9 +301,9 @@
                                     <CssParameter name="fill">#ff7f00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff7f00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -335,9 +335,9 @@
                                     <CssParameter name="fill">#ff7f00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff7f00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -369,9 +369,9 @@
                                     <CssParameter name="fill">#ff7f00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff7f00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -403,9 +403,9 @@
                                     <CssParameter name="fill">#ff7f00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff7f00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -437,9 +437,9 @@
                                     <CssParameter name="fill">#00ff00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#00ff00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -471,9 +471,9 @@
                                     <CssParameter name="fill">#00ff00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#00ff00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -505,9 +505,9 @@
                                     <CssParameter name="fill">#00ff00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#00ff00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -539,9 +539,9 @@
                                     <CssParameter name="fill">#00ff00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#00ff00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -573,8 +573,8 @@
                                     <CssParameter name="fill">#00ff00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#00ff00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -606,8 +606,8 @@
                                     <CssParameter name="fill">#00ff00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#00ff00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -639,8 +639,8 @@
                                     <CssParameter name="fill">#00ff00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#00ff00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -672,8 +672,8 @@
                                     <CssParameter name="fill">#00ff00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#00ff00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -705,9 +705,9 @@
                                     <CssParameter name="fill">#00ff00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#00ff00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -739,9 +739,9 @@
                                     <CssParameter name="fill">#00ff00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#00ff00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -773,9 +773,9 @@
                                     <CssParameter name="fill">#00ff00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#00ff00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -807,9 +807,9 @@
                                     <CssParameter name="fill">#00ff00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#00ff00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -841,9 +841,9 @@
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffaf3c</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -875,9 +875,9 @@
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffaf3c</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -909,9 +909,9 @@
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffaf3c</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -943,9 +943,9 @@
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffaf3c</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -977,8 +977,8 @@
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffaf3c</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -1010,8 +1010,8 @@
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffaf3c</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -1043,8 +1043,8 @@
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffaf3c</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -1076,8 +1076,8 @@
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffaf3c</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -1109,9 +1109,9 @@
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffaf3c</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -1143,9 +1143,9 @@
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffaf3c</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -1177,9 +1177,9 @@
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffaf3c</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -1211,9 +1211,9 @@
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffaf3c</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -1245,9 +1245,9 @@
                                     <CssParameter name="fill">#ffd750</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffd750</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -1279,9 +1279,9 @@
                                     <CssParameter name="fill">#ffd750</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffd750</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -1313,9 +1313,9 @@
                                     <CssParameter name="fill">#ffd750</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffd750</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -1347,9 +1347,9 @@
                                     <CssParameter name="fill">#ffd750</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffd750</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -1381,8 +1381,8 @@
                                     <CssParameter name="fill">#ffd750</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffd750</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -1414,8 +1414,8 @@
                                     <CssParameter name="fill">#ffd750</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffd750</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -1447,8 +1447,8 @@
                                     <CssParameter name="fill">#ffd750</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffd750</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -1480,8 +1480,8 @@
                                     <CssParameter name="fill">#ffd750</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffd750</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -1513,9 +1513,9 @@
                                     <CssParameter name="fill">#ffd750</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffd750</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -1547,9 +1547,9 @@
                                     <CssParameter name="fill">#ffd750</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffd750</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -1581,9 +1581,9 @@
                                     <CssParameter name="fill">#ffd750</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffd750</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -1615,9 +1615,9 @@
                                     <CssParameter name="fill">#ffd750</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ffd750</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -1649,9 +1649,9 @@
                                     <CssParameter name="fill">#b64a00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#b64a00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -1683,9 +1683,9 @@
                                     <CssParameter name="fill">#b64a00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#b64a00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -1717,9 +1717,9 @@
                                     <CssParameter name="fill">#b64a00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#b64a00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -1751,9 +1751,9 @@
                                     <CssParameter name="fill">#b64a00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#b64a00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -1785,8 +1785,8 @@
                                     <CssParameter name="fill">#b64a00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#b64a00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -1818,8 +1818,8 @@
                                     <CssParameter name="fill">#b64a00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#b64a00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -1851,8 +1851,8 @@
                                     <CssParameter name="fill">#b64a00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#b64a00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -1884,8 +1884,8 @@
                                     <CssParameter name="fill">#b64a00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#b64a00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -1917,9 +1917,9 @@
                                     <CssParameter name="fill">#b64a00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#b64a00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -1951,9 +1951,9 @@
                                     <CssParameter name="fill">#b64a00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#b64a00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -1985,9 +1985,9 @@
                                     <CssParameter name="fill">#b64a00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#b64a00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -2019,9 +2019,9 @@
                                     <CssParameter name="fill">#b64a00</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#b64a00</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -2053,9 +2053,9 @@
                                     <CssParameter name="fill">#960000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#960000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -2087,9 +2087,9 @@
                                     <CssParameter name="fill">#960000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#960000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -2121,9 +2121,9 @@
                                     <CssParameter name="fill">#960000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#960000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -2155,9 +2155,9 @@
                                     <CssParameter name="fill">#960000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#960000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -2189,8 +2189,8 @@
                                     <CssParameter name="fill">#960000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#960000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -2222,8 +2222,8 @@
                                     <CssParameter name="fill">#960000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#960000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -2255,8 +2255,8 @@
                                     <CssParameter name="fill">#960000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#960000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -2288,8 +2288,8 @@
                                     <CssParameter name="fill">#960000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#960000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -2321,9 +2321,9 @@
                                     <CssParameter name="fill">#960000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#960000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -2355,9 +2355,9 @@
                                     <CssParameter name="fill">#960000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#960000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -2389,9 +2389,9 @@
                                     <CssParameter name="fill">#960000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#960000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -2423,9 +2423,9 @@
                                     <CssParameter name="fill">#960000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#960000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -2457,9 +2457,9 @@
                                     <CssParameter name="fill">#c80000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#c80000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -2491,9 +2491,9 @@
                                     <CssParameter name="fill">#c80000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#c80000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -2525,9 +2525,9 @@
                                     <CssParameter name="fill">#c80000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#c80000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -2559,9 +2559,9 @@
                                     <CssParameter name="fill">#c80000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#c80000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -2593,8 +2593,8 @@
                                     <CssParameter name="fill">#c80000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#c80000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -2626,8 +2626,8 @@
                                     <CssParameter name="fill">#c80000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#c80000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -2659,8 +2659,8 @@
                                     <CssParameter name="fill">#c80000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#c80000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -2692,8 +2692,8 @@
                                     <CssParameter name="fill">#c80000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#c80000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -2725,9 +2725,9 @@
                                     <CssParameter name="fill">#c80000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#c80000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -2759,9 +2759,9 @@
                                     <CssParameter name="fill">#c80000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#c80000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -2793,9 +2793,9 @@
                                     <CssParameter name="fill">#c80000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#c80000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -2827,9 +2827,9 @@
                                     <CssParameter name="fill">#c80000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#c80000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -2861,9 +2861,9 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -2895,9 +2895,9 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -2929,9 +2929,9 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -2963,9 +2963,9 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -2997,8 +2997,8 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -3030,8 +3030,8 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -3063,8 +3063,8 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -3096,8 +3096,8 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -3129,9 +3129,9 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -3163,9 +3163,9 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -3197,9 +3197,9 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -3231,9 +3231,9 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -3265,9 +3265,9 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -3299,9 +3299,9 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -3333,9 +3333,9 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -3367,9 +3367,9 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -3401,8 +3401,8 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -3434,8 +3434,8 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -3467,8 +3467,8 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -3500,8 +3500,8 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -3533,9 +3533,9 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -3567,9 +3567,9 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -3601,9 +3601,9 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -3635,9 +3635,9 @@
                                     <CssParameter name="fill">#ff0000</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ff0000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -3669,9 +3669,9 @@
                                     <CssParameter name="fill">#0000ff</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#0000ff</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -3703,9 +3703,9 @@
                                     <CssParameter name="fill">#0000ff</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#0000ff</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -3737,9 +3737,9 @@
                                     <CssParameter name="fill">#0000ff</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#0000ff</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -3771,9 +3771,9 @@
                                     <CssParameter name="fill">#0000ff</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#0000ff</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -3805,8 +3805,8 @@
                                     <CssParameter name="fill">#0000ff</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#0000ff</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -3838,8 +3838,8 @@
                                     <CssParameter name="fill">#0000ff</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#0000ff</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -3871,8 +3871,8 @@
                                     <CssParameter name="fill">#0000ff</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#0000ff</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -3904,8 +3904,8 @@
                                     <CssParameter name="fill">#0000ff</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#0000ff</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -3937,9 +3937,9 @@
                                     <CssParameter name="fill">#0000ff</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#0000ff</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -3971,9 +3971,9 @@
                                     <CssParameter name="fill">#0000ff</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#0000ff</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -4005,9 +4005,9 @@
                                     <CssParameter name="fill">#0000ff</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#0000ff</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -4039,9 +4039,9 @@
                                     <CssParameter name="fill">#0000ff</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#0000ff</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -4073,9 +4073,9 @@
                                     <CssParameter name="fill">#008080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#008080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -4107,9 +4107,9 @@
                                     <CssParameter name="fill">#008080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#008080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -4141,9 +4141,9 @@
                                     <CssParameter name="fill">#008080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#008080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -4175,9 +4175,9 @@
                                     <CssParameter name="fill">#008080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#008080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -4209,8 +4209,8 @@
                                     <CssParameter name="fill">#008080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#008080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -4242,8 +4242,8 @@
                                     <CssParameter name="fill">#008080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#008080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -4275,8 +4275,8 @@
                                     <CssParameter name="fill">#008080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#008080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -4308,8 +4308,8 @@
                                     <CssParameter name="fill">#008080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#008080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -4341,9 +4341,9 @@
                                     <CssParameter name="fill">#008080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#008080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -4375,9 +4375,9 @@
                                     <CssParameter name="fill">#008080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#008080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -4409,9 +4409,9 @@
                                     <CssParameter name="fill">#008080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#008080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -4443,9 +4443,9 @@
                                     <CssParameter name="fill">#008080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#008080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -4477,9 +4477,9 @@
                                     <CssParameter name="fill">#800080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#800080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -4511,9 +4511,9 @@
                                     <CssParameter name="fill">#800080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#800080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -4545,9 +4545,9 @@
                                     <CssParameter name="fill">#800080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#800080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -4579,9 +4579,9 @@
                                     <CssParameter name="fill">#800080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#800080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -4613,8 +4613,8 @@
                                     <CssParameter name="fill">#800080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#800080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -4646,8 +4646,8 @@
                                     <CssParameter name="fill">#800080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#800080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -4679,8 +4679,8 @@
                                     <CssParameter name="fill">#800080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#800080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -4712,8 +4712,8 @@
                                     <CssParameter name="fill">#800080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#800080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -4745,9 +4745,9 @@
                                     <CssParameter name="fill">#800080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#800080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -4779,9 +4779,9 @@
                                     <CssParameter name="fill">#800080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#800080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -4813,9 +4813,9 @@
                                     <CssParameter name="fill">#800080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#800080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -4847,9 +4847,9 @@
                                     <CssParameter name="fill">#800080</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#800080</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -4881,9 +4881,9 @@
                                     <CssParameter name="fill">#ba38a8</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ba38a8</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -4915,9 +4915,9 @@
                                     <CssParameter name="fill">#ba38a8</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ba38a8</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -4949,9 +4949,9 @@
                                     <CssParameter name="fill">#ba38a8</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ba38a8</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -4983,9 +4983,9 @@
                                     <CssParameter name="fill">#ba38a8</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ba38a8</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -5017,8 +5017,8 @@
                                     <CssParameter name="fill">#ba38a8</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ba38a8</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -5050,8 +5050,8 @@
                                     <CssParameter name="fill">#ba38a8</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ba38a8</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -5083,8 +5083,8 @@
                                     <CssParameter name="fill">#ba38a8</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ba38a8</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -5116,8 +5116,8 @@
                                     <CssParameter name="fill">#ba38a8</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ba38a8</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -5149,9 +5149,9 @@
                                     <CssParameter name="fill">#ba38a8</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ba38a8</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -5183,9 +5183,9 @@
                                     <CssParameter name="fill">#ba38a8</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ba38a8</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -5217,9 +5217,9 @@
                                     <CssParameter name="fill">#ba38a8</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ba38a8</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -5251,9 +5251,9 @@
                                     <CssParameter name="fill">#ba38a8</CssParameter>
                                 </Fill>
                                 <Stroke>
-                                    <CssParameter name="stroke">#ba38a8</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -5286,8 +5286,8 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -5320,8 +5320,8 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -5354,8 +5354,8 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -5388,8 +5388,8 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -5422,7 +5422,7 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -5455,7 +5455,7 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -5488,7 +5488,7 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -5521,7 +5521,7 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -5554,8 +5554,8 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -5588,8 +5588,8 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -5622,8 +5622,8 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -5656,8 +5656,8 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -5690,8 +5690,8 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -5724,8 +5724,8 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -5758,8 +5758,8 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -5792,8 +5792,8 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -5826,7 +5826,7 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -5859,7 +5859,7 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -5892,7 +5892,7 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -5925,7 +5925,7 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
@@ -5958,8 +5958,8 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>25</Size>
@@ -5992,8 +5992,8 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>11</Size>
@@ -6026,8 +6026,8 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
@@ -6060,8 +6060,8 @@
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">2</CssParameter>
-                                    <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 2 2 2</CssParameter>
                                 </Stroke>
                             </Mark>
                             <Size>5</Size>
