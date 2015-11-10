@@ -29,7 +29,9 @@
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <TextSymbolizer>
-                        <Label>i</Label>
+                        <Label>
+                            <ogc:Literal>i</ogc:Literal>
+                        </Label>
                         <Font>
                             <CssParameter name="font-family">Arial</CssParameter>
                             <CssParameter name="font-size">10</CssParameter>

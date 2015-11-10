@@ -28,7 +28,10 @@
                             </Mark>
                             <Size>10</Size>
                             <Rotation>
-                                <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
                             </Rotation>
                         </Graphic>
                     </PointSymbolizer>
@@ -54,7 +57,10 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
                             </Rotation>
                         </Graphic>
                     </PointSymbolizer>

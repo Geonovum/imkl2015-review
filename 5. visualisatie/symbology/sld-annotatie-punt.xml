@@ -12,17 +12,10 @@
                     <Name>annotatiepijlpunt-z15-16</Name>
                     <Title>Annotatiepijlpunt op zoomniveau 15 en 16</Title>
                     <ogc:Filter>
-                        <ogc:And>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>annotatieType</ogc:PropertyName>
-                                <ogc:Literal>annotatiepijlpunt</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:Not>
-                                <ogc:PropertyIsNull>
-                                    <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
-                                </ogc:PropertyIsNull>
-                            </ogc:Not>
-                        </ogc:And>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>annotatieType</ogc:PropertyName>
+                            <ogc:Literal>annotatiepijlpunt</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
@@ -35,7 +28,10 @@
                             </Mark>
                             <Size>10</Size>
                             <Rotation>
-                                <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
                             </Rotation>
                         </Graphic>
                     </PointSymbolizer>
@@ -44,17 +40,10 @@
                     <Name>annotatiepijlpunt-z14</Name>
                     <Title>Annotatiepijlpunt op zoomniveau 14</Title>
                     <ogc:Filter>
-                        <ogc:And>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>annotatieType</ogc:PropertyName>
-                                <ogc:Literal>annotatiepijlpunt</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:Not>
-                                <ogc:PropertyIsNull>
-                                    <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
-                                </ogc:PropertyIsNull>
-                            </ogc:Not>
-                        </ogc:And>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>annotatieType</ogc:PropertyName>
+                            <ogc:Literal>annotatiepijlpunt</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>1250</MaxScaleDenominator>
@@ -68,7 +57,10 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
                             </Rotation>
                         </Graphic>
                     </PointSymbolizer>
