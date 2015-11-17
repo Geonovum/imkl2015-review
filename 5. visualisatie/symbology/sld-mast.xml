@@ -6249,6 +6249,29 @@
                     </PointSymbolizer>
                 </Rule>
             </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>aangrijpingspunt-z15-16</Name>
+                    <Title>Aangrijpingspunt geometrie op schaalniveau 15 en 16</Title>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>circle</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill">#535353</CssParameter>
+                                </Fill>
+                                <Stroke>
+                                    <CssParameter name="stroke">#ffffff</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                </Stroke>
+                            </Mark>
+                            <Size>3</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
         </UserStyle>
     </NamedLayer>
 </StyledLayerDescriptor>
