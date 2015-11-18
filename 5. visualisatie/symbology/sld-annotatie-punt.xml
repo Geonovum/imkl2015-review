@@ -87,10 +87,10 @@
                             <PointPlacement>
                                 <AnchorPoint>
                                     <AnchorPointX>
-                                        <ogc:Literal>0.5</ogc:Literal>
+                                        <ogc:PropertyName>aangrijpingHorizontaal</ogc:PropertyName>
                                     </AnchorPointX>
                                     <AnchorPointY>
-                                        <ogc:Literal>0.5</ogc:Literal>
+                                        <ogc:PropertyName>aangrijpingVerticaal</ogc:PropertyName>
                                     </AnchorPointY>
                                 </AnchorPoint>
                                 <Rotation>
