@@ -43,7 +43,7 @@
                                 </AnchorPoint>
                                 <Displacement>
                                     <DisplacementX>0</DisplacementX>
-                                    <DisplacementY>20</DisplacementY>
+                                    <DisplacementY>5</DisplacementY>
                                 </Displacement>
                             </PointPlacement>
                         </LabelPlacement>
