@@ -3,10 +3,10 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
     <NamedLayer>
-        <Name>eigentopografie-vlak</Name>
+        <Name>eigentopografie-lijn</Name>
         <UserStyle>
-            <Title>Eigen Topografie met vlakgeometrie</Title>
-            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle objecten uit de objectklasse EigenTopografie met een vlakgeometrie obv status en typeTopografischObject</Abstract>
+            <Title>Eigen Topografie</Title>
+            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle objecten uit de objectklasse EigenTopografie met een lijngeometrie obv status en typeTopografischObject</Abstract>
             <FeatureTypeStyle>
                 <Rule>
                     <Name>gepland</Name>
@@ -17,16 +17,13 @@
                             <ogc:Literal>plan</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <PolygonSymbolizer>
-                        <Fill>
-                              <CssParameter name="fill">#666666</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#666666</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
                             <CssParameter name="stroke-dasharray">4 16</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>bestaand</Name>
@@ -37,15 +34,12 @@
                             <ogc:Literal>bestaand</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <PolygonSymbolizer>
-                        <Fill>
-                              <CssParameter name="fill">#666666</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#666666</CssParameter>
                             <CssParameter name="stroke-width">1</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
             </FeatureTypeStyle>
             <FeatureTypeStyle>
@@ -64,16 +58,13 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <PolygonSymbolizer>
-                        <Fill>
-                              <CssParameter name="fill">#73E9FF</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#73E9FF</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
                             <CssParameter name="stroke-dasharray">4 16</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>waterloop-gepland</Name>
@@ -90,16 +81,13 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <PolygonSymbolizer>
-                        <Fill>
-                              <CssParameter name="fill">#73E9FF</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#73E9FF</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
                             <CssParameter name="stroke-dasharray">4 16</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>sloot-bestaand</Name>
@@ -116,15 +104,12 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <PolygonSymbolizer>
-                        <Fill>
-                              <CssParameter name="fill">#73E9FF</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#73E9FF</CssParameter>
                             <CssParameter name="stroke-width">1</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
                 <Rule>
                     <Name>waterloop-bestaand</Name>
@@ -141,15 +126,12 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <PolygonSymbolizer>
-                        <Fill>
-                              <CssParameter name="fill">#73E9FF</CssParameter>
-                        </Fill>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#73E9FF</CssParameter>
                             <CssParameter name="stroke-width">1</CssParameter>
                         </Stroke>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
             </FeatureTypeStyle>
         </UserStyle>

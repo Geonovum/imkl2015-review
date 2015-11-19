@@ -36,7 +36,7 @@
                     </ogc:Filter>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#535353</CssParameter>
+                            <CssParameter name="stroke">#666666</CssParameter>
                             <CssParameter name="stroke-width">1</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
