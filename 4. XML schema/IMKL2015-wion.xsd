@@ -353,27 +353,6 @@
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="EffectcontourDodelijk" substitutionGroup="gml:AbstractFeature" type="wion:EffectcontourDodelijkType"/>
-  <complexType name="EffectcontourDodelijkType">
-    <complexContent>
-      <extension base="gml:AbstractFeatureType">
-        <sequence>
-          <element name="identificatie" type="wion:NEN3610IDPropertyType"/>
-          <element name="beginLifespanVersion" type="dateTime"/>
-          <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
-          <element name="effectcontourDodelijk" type="gml:MultiSurfacePropertyType"/>
-          <element name="bijTransportroute" type="wion:TransportroutePropertyType"/>
-        </sequence>
-      </extension>
-    </complexContent>
-  </complexType>
-  <complexType name="EffectcontourDodelijkPropertyType">
-    <sequence minOccurs="0">
-      <element ref="wion:EffectcontourDodelijk"/>
-    </sequence>
-    <attributeGroup ref="gml:AssociationAttributeGroup"/>
-    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
-  </complexType>
   <element name="EigenTopografie" substitutionGroup="gml:AbstractFeature" type="wion:EigenTopografieType"/>
   <complexType name="EigenTopografieType">
     <complexContent>
@@ -610,12 +589,9 @@
     <choice minOccurs="0">
       <element ref="wion:Bijlage"/>
       <element ref="wion:Diepte"/>
-      <element ref="wion:EffectcontourDodelijk"/>
       <element ref="wion:EigenTopografie"/>
       <element ref="wion:ExtraGeometrie"/>
       <element ref="wion:ExtraInformatie"/>
-      <element ref="wion:Transportroute"/>
-      <element ref="wion:TransportrouteRisico"/>
       <element ref="wion:Utiliteitsnet"/>
     </choice>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
@@ -1090,13 +1066,6 @@
               </appinfo>
             </annotation>
           </element>
-          <element name="typeRioolleiding" type="gml:ReferenceType">
-            <annotation>
-              <appinfo>
-                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">RioolleidingTypeValue</targetCodeList>
-              </appinfo>
-            </annotation>
-          </element>
           <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
             <annotation>
               <appinfo>
@@ -1146,12 +1115,6 @@
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
-  </complexType>
-  <complexType name="StedelijkWaterSpecifiekPropertyType">
-    <choice minOccurs="0">
-      <element ref="wion:Rioolleiding"/>
-    </choice>
-    <attributeGroup ref="gml:AssociationAttributeGroup"/>
   </complexType>
   <element name="TechnischContactpersoon" substitutionGroup="gml:AbstractObject" type="wion:TechnischContactpersoonType"/>
   <complexType name="TechnischContactpersoonType">
@@ -1354,67 +1317,6 @@
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
-  </complexType>
-  <element name="Transportroute" substitutionGroup="gml:AbstractFeature" type="wion:TransportrouteType"/>
-  <complexType name="TransportrouteType">
-    <complexContent>
-      <extension base="gml:AbstractFeatureType">
-        <sequence>
-          <element name="identificatie" type="wion:NEN3610IDPropertyType"/>
-          <element name="beginLifespanVersion" type="dateTime"/>
-          <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
-          <element name="transportrouteNaam" type="string"/>
-          <element name="omschrijving" type="string"/>
-          <element name="buisleidingtype" type="gml:ReferenceType">
-            <annotation>
-              <appinfo>
-                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">BuisleidingTypeValue</targetCodeList>
-              </appinfo>
-            </annotation>
-          </element>
-          <element minOccurs="0" name="maatgevendScenarioDodelijk" type="gml:ReferenceType">
-            <annotation>
-              <appinfo>
-                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">EffectScenarioType</targetCodeList>
-              </appinfo>
-            </annotation>
-          </element>
-          <element name="casNrMaatgevendeStof" type="string"/>
-        </sequence>
-      </extension>
-    </complexContent>
-  </complexType>
-  <complexType name="TransportroutePropertyType">
-    <sequence minOccurs="0">
-      <element ref="wion:Transportroute"/>
-    </sequence>
-    <attributeGroup ref="gml:AssociationAttributeGroup"/>
-    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
-  </complexType>
-  <element name="TransportrouteRisico" substitutionGroup="gml:AbstractFeature" type="wion:TransportrouteRisicoType"/>
-  <complexType name="TransportrouteRisicoType">
-    <complexContent>
-      <extension base="gml:AbstractFeatureType">
-        <sequence>
-          <element name="identificatie" type="wion:NEN3610IDPropertyType"/>
-          <element name="beginLifespanVersion" type="dateTime"/>
-          <element minOccurs="0" name="endLifespanVersion" type="dateTime"/>
-          <element name="risicocontour10_6" type="gml:MultiSurfacePropertyType"/>
-          <element name="bijTransportroute" type="wion:TransportroutePropertyType"/>
-        </sequence>
-      </extension>
-    </complexContent>
-  </complexType>
-  <complexType name="TransportrouteRisicoPropertyType">
-    <sequence minOccurs="0">
-      <element ref="wion:TransportrouteRisico"/>
-    </sequence>
-    <attributeGroup ref="gml:AssociationAttributeGroup"/>
-    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
-  </complexType>
-  <complexType name="TransportroutedeelPropertyType">
-    <choice minOccurs="0"/>
-    <attributeGroup ref="gml:AssociationAttributeGroup"/>
   </complexType>
   <element name="Utiliteitsnet" substitutionGroup="us-net-common:UtilityNetwork" type="wion:UtiliteitsnetType"/>
   <complexType name="UtiliteitsnetType">
