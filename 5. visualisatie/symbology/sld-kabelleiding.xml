@@ -2135,7 +2135,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>currentStatus</ogc:PropertyName>
-                                <ogc:Literal>projected</ogc:Literal>
+                                <ogc:Literal>disused</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
