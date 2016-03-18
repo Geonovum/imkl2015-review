@@ -821,8 +821,8 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <MinScaleDenominator>1251</MinScaleDenominator>
-                    <MaxScaleDenominator>2500</MaxScaleDenominator>
+                    <MinScaleDenominator>2501</MinScaleDenominator>
+                    <MaxScaleDenominator>5000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
