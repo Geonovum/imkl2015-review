@@ -9,6 +9,20 @@
             <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle objecten uit de objectklasse ExtraDetailinfo met een puntgeometrie obv status en typeTopografischObject</Abstract>
             <FeatureTypeStyle>
                 <Rule>
+                    <Name>extradetailinfo-vlak</Name>
+                    <Title>ExtraDetailinfo als vlakken op zoomniveaus 12-16</Title>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
                     <Name>extradetailinfo-z15-16</Name>
                     <Title>ExtraDetailinfo op zoomniveau 15 en 16</Title>
                     <MinScaleDenominator>0</MinScaleDenominator>
