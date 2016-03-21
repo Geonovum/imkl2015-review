@@ -11,7 +11,7 @@
                 <Rule>
                     <Name>diepteTovMaaiveld</Name>
                     <Title>diepteTovMaaiveld</Title>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -25,7 +25,7 @@
                     </PointSymbolizer>
                     <TextSymbolizer>
                         <Label>
-                            <ogc:PropertyName>dieptePeil</ogc:PropertyName> <ogc:PropertyName>uom</ogc:PropertyName>
+                            <ogc:PropertyName>dieptePeil</ogc:PropertyName>
                         </Label>
                         <Font>
                             <CssParameter name="font-family">Arial</CssParameter>

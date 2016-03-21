@@ -93,34 +93,6 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>gepland-z12</Name>
-                    <Title>Geplande Eigen Topografie op zoomniveau 12</Title>
-                    <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>status</ogc:PropertyName>
-                            <ogc:Literal>plan</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
-                    <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
-                    <PointSymbolizer>
-                        <Graphic>
-                            <Mark>
-                                <WellKnownName>circle</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill-opacity">0</CssParameter>
-                                </Fill>
-                                <Stroke>
-                                    <CssParameter name="stroke">#666666</CssParameter>
-                                    <CssParameter name="stroke-width">1</CssParameter>
-                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
-                                </Stroke>
-                            </Mark>
-                            <Size>5</Size>
-                        </Graphic>
-                    </PointSymbolizer>
-                </Rule>
-                <Rule>
                     <Name>bestaand-z15-16</Name>
                     <Title>Bestaande Eigen Topografie op zoomniveau 15 en 16</Title>
                     <ogc:Filter>
@@ -198,33 +170,6 @@
                                 </Stroke>
                             </Mark>
                             <Size>8</Size>
-                        </Graphic>
-                    </PointSymbolizer>
-                </Rule>
-                <Rule>
-                    <Name>bestaand-z12</Name>
-                    <Title>Bestaande Eigen Topografie op zoomniveau 12</Title>
-                    <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>status</ogc:PropertyName>
-                            <ogc:Literal>bestaand</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
-                    <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
-                    <PointSymbolizer>
-                        <Graphic>
-                            <Mark>
-                                <WellKnownName>circle</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill-opacity">0</CssParameter>
-                                </Fill>
-                                <Stroke>
-                                    <CssParameter name="stroke">#666666</CssParameter>
-                                    <CssParameter name="stroke-width">1</CssParameter>
-                                </Stroke>
-                            </Mark>
-                            <Size>5</Size>
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>

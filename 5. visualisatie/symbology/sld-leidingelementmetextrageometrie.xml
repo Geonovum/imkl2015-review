@@ -24,7 +24,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
@@ -49,7 +49,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
@@ -73,7 +73,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
@@ -98,7 +98,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
@@ -123,7 +123,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
@@ -147,7 +147,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
@@ -172,7 +172,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
@@ -197,7 +197,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
@@ -221,7 +221,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
@@ -246,7 +246,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
@@ -271,7 +271,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
@@ -295,7 +295,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
@@ -320,7 +320,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
@@ -345,7 +345,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
@@ -369,7 +369,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
@@ -394,7 +394,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
@@ -419,7 +419,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
@@ -443,7 +443,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
@@ -468,7 +468,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
@@ -493,7 +493,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
@@ -517,7 +517,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
@@ -542,7 +542,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
@@ -567,7 +567,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
@@ -591,7 +591,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
@@ -616,7 +616,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
@@ -641,7 +641,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
@@ -665,7 +665,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
@@ -690,7 +690,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
@@ -715,7 +715,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
@@ -739,7 +739,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
@@ -764,7 +764,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
@@ -789,7 +789,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
@@ -813,7 +813,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
@@ -838,7 +838,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
@@ -863,7 +863,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
@@ -887,7 +887,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
@@ -912,7 +912,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
@@ -937,7 +937,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
@@ -961,7 +961,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
@@ -986,7 +986,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
@@ -1011,7 +1011,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
@@ -1035,7 +1035,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
@@ -1060,7 +1060,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
@@ -1085,7 +1085,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
@@ -1109,7 +1109,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>

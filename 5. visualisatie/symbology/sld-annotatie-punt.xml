@@ -37,35 +37,6 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>annotatiepijlpunt-z14</Name>
-                    <Title>Annotatiepijlpunt op zoomniveau 14</Title>
-                    <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>annotatieType</ogc:PropertyName>
-                            <ogc:Literal>annotatiepijlpunt</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
-                    <MinScaleDenominator>501</MinScaleDenominator>
-                    <MaxScaleDenominator>1250</MaxScaleDenominator>
-                    <PointSymbolizer>
-                        <Graphic>
-                            <Mark>
-                                <WellKnownName>triangle</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">#535353</CssParameter>
-                                </Fill>
-                            </Mark>
-                            <Size>5</Size>
-                            <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
-                            </Rotation>
-                        </Graphic>
-                    </PointSymbolizer>
-                </Rule>
-                <Rule>
                     <Name>annotatielabel</Name>
                     <Title>Annotatielabel</Title>
                     <ogc:Filter>
@@ -74,7 +45,7 @@
                             <ogc:Literal>annotatieLabel</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
                     <TextSymbolizer>
                         <Label>
                             <ogc:PropertyName>label</ogc:PropertyName>

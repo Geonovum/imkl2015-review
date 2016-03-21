@@ -17,6 +17,7 @@
                             <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <MaxScaleDenominator>25000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ff7f00</CssParameter>
@@ -37,6 +38,7 @@
                             <ogc:Literal>datatransport</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <MaxScaleDenominator>25000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#00ff00</CssParameter>
@@ -57,6 +59,7 @@
                             <ogc:Literal>gasHogeDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <MaxScaleDenominator>25000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ffaf3c</CssParameter>
@@ -77,6 +80,7 @@
                             <ogc:Literal>gasLageDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <MaxScaleDenominator>25000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ffd750</CssParameter>
@@ -97,6 +101,7 @@
                             <ogc:Literal>petrochemie</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <MaxScaleDenominator>25000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#b64a00</CssParameter>
@@ -117,6 +122,7 @@
                             <ogc:Literal>laagspanning</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <MaxScaleDenominator>25000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#960000</CssParameter>
@@ -137,6 +143,7 @@
                             <ogc:Literal>middenspanning</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <MaxScaleDenominator>25000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#c80000</CssParameter>
@@ -157,6 +164,7 @@
                             <ogc:Literal>hoogspanning</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <MaxScaleDenominator>25000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ff0000</CssParameter>
@@ -177,6 +185,7 @@
                             <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <MaxScaleDenominator>25000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ff0000</CssParameter>
@@ -197,6 +206,7 @@
                             <ogc:Literal>water</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <MaxScaleDenominator>25000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#0000ff</CssParameter>
@@ -217,6 +227,7 @@
                             <ogc:Literal>warmte</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <MaxScaleDenominator>25000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#008080</CssParameter>
@@ -237,6 +248,7 @@
                             <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <MaxScaleDenominator>25000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#800080</CssParameter>
@@ -257,6 +269,7 @@
                             <ogc:Literal>rioolVrijverval</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <MaxScaleDenominator>25000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ba38a8</CssParameter>
@@ -277,6 +290,7 @@
                             <ogc:Literal>wees</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <MaxScaleDenominator>25000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#000000</CssParameter>
@@ -297,6 +311,7 @@
                             <ogc:Literal>overig</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <MaxScaleDenominator>25000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#000000</CssParameter>

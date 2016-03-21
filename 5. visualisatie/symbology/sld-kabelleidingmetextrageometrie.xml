@@ -65,8 +65,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>buisleidinggevaarlijkeinhoud-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) geprojecteerd op zoomniveau 0 t/m 11 met ExtraGeometrie</Title>
+                    <Name>buisleidinggevaarlijkeinhoud-geprojecteerd-z5-10-geen-extrageometrie</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) geprojecteerd op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -80,6 +80,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ff7f00</CssParameter>
@@ -146,8 +147,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>buisleidinggevaarlijkeinhoud-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) in gebruik op zoomniveau 0 t/m 11 met ExtraGeometrie</Title>
+                    <Name>buisleidinggevaarlijkeinhoud-in-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) in gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -161,6 +162,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ff7f00</CssParameter>
@@ -228,8 +230,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>buisleidinggevaarlijkeinhoud-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) buiten gebruik op zoomniveau 0 t/m 11 met ExtraGeometrie</Title>
+                    <Name>buisleidinggevaarlijkeinhoud-buiten-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) buiten gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -243,6 +245,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ff7f00</CssParameter>
@@ -311,8 +314,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>datatransport-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Datatransport (DT) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>datatransport-geprojecteerd-z5-10-geen-extrageometrie</Name>
+                    <Title>Datatransport (DT) geprojecteerd op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -326,6 +329,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#00ff00</CssParameter>
@@ -392,8 +396,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>datatransport-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Datatransport (DT) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>datatransport-in-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Datatransport (DT) in gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -407,6 +411,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#00ff00</CssParameter>
@@ -474,8 +479,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>datatransport-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Datatransport (DT) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>datatransport-buiten-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Datatransport (DT) buiten gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -489,6 +494,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#00ff00</CssParameter>
@@ -557,8 +563,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>gashogedruk-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Gas Hoge Druk (HD) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>gashogedruk-geprojecteerd-z5-10-geen-extrageometrie</Name>
+                    <Title>Gas Hoge Druk (HD) geprojecteerd op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -572,6 +578,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ffaf3c</CssParameter>
@@ -638,8 +645,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>gashogedruk-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Gas Hoge Druk (HD) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>gashogedruk-in-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Gas Hoge Druk (HD) in gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -653,6 +660,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ffaf3c</CssParameter>
@@ -720,8 +728,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>gashogedruk-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Gas Hoge Druk (HD) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>gashogedruk-buiten-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Gas Hoge Druk (HD) buiten gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -735,6 +743,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ffaf3c</CssParameter>
@@ -803,8 +812,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>gaslagedruk-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Gas Lage Druk (LD) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>gaslagedruk-geprojecteerd-z5-10-geen-extrageometrie</Name>
+                    <Title>Gas Lage Druk (LD) geprojecteerd op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -818,6 +827,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ffd750</CssParameter>
@@ -884,8 +894,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>gaslagedruk-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Gas Lage Druk (LD) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>gaslagedruk-in-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Gas Lage Druk (LD) in gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -899,6 +909,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ffd750</CssParameter>
@@ -966,8 +977,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>gaslagedruk-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Gas Lage Druk (LD) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>gaslagedruk-buiten-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Gas Lage Druk (LD) buiten gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -981,6 +992,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ffd750</CssParameter>
@@ -1049,8 +1061,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>petrochemie-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>(Petro-) chemie (PT) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>petrochemie-geprojecteerd-z5-10-geen-extrageometrie</Name>
+                    <Title>(Petro-) chemie (PT) geprojecteerd op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1064,6 +1076,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#b64a00</CssParameter>
@@ -1130,8 +1143,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>petrochemie-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>(Petro-) chemie (PT) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>petrochemie-in-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>(Petro-) chemie (PT) in gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1145,6 +1158,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#b64a00</CssParameter>
@@ -1212,8 +1226,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>petrochemie-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>(Petro-) chemie (PT) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>petrochemie-buiten-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>(Petro-) chemie (PT) buiten gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1227,6 +1241,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#b64a00</CssParameter>
@@ -1310,6 +1325,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#960000</CssParameter>
@@ -1376,8 +1392,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>laagspanning-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>laagspanning-in-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1391,6 +1407,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#960000</CssParameter>
@@ -1458,8 +1475,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>laagspanning-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Laagspanning (LS) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>laagspanning-buiten-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Laagspanning (LS) buiten gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1473,6 +1490,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#960000</CssParameter>
@@ -1541,8 +1559,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>middenspanning-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Middenspanning (MS) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>middenspanning-geprojecteerd-z5-10-geen-extrageometrie</Name>
+                    <Title>Middenspanning (MS) geprojecteerd op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1556,6 +1574,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#c80000</CssParameter>
@@ -1622,8 +1641,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>middenspanning-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Middenspanning (MS) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>middenspanning-in-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Middenspanning (MS) in gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1637,6 +1656,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#c80000</CssParameter>
@@ -1704,8 +1724,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>middenspanning-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Middenspanning (MS) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>middenspanning-buiten-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Middenspanning (MS) buiten gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1719,6 +1739,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#c80000</CssParameter>
@@ -1787,8 +1808,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>hoogspanning-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Hoogspanning (HS) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>hoogspanning-geprojecteerd-z5-10-geen-extrageometrie</Name>
+                    <Title>Hoogspanning (HS) geprojecteerd op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1802,6 +1823,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ff0000</CssParameter>
@@ -1868,8 +1890,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>hoogspanning-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Hoogspanning (HS) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>hoogspanning-in-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Hoogspanning (HS) in gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1883,6 +1905,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ff0000</CssParameter>
@@ -1950,8 +1973,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>hoogspanning-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Hoogspanning (HS) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>hoogspanning-buiten-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Hoogspanning (HS) buiten gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1965,6 +1988,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ff0000</CssParameter>
@@ -2034,8 +2058,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>landelijkhoogspanningsnet-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Landelijk hoogspanningsnet (ZHS) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>landelijkhoogspanningsnet-geprojecteerd-z5-10-geen-extrageometrie</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) geprojecteerd op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2115,8 +2139,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>landelijkhoogspanningsnet-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Landelijk hoogspanningsnet (ZHS) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>landelijkhoogspanningsnet-in-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) in gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2130,6 +2154,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ff0000</CssParameter>
@@ -2197,8 +2222,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>landelijkhoogspanningsnet-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Landelijk hoogspanningsnet (ZHS) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>landelijkhoogspanningsnet-buiten-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) buiten gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2212,6 +2237,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ff0000</CssParameter>
@@ -2280,8 +2306,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>water-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Water geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>water-geprojecteerd-z5-10-geen-extrageometrie</Name>
+                    <Title>Water geprojecteerd op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2295,6 +2321,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#0000ff</CssParameter>
@@ -2361,8 +2388,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>water-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Water in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>water-in-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Water in gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2376,6 +2403,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#0000ff</CssParameter>
@@ -2443,8 +2471,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>water-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Water buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>water-buiten-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Water buiten gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2458,6 +2486,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#0000ff</CssParameter>
@@ -2526,8 +2555,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>warmte-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Warmte geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>warmte-geprojecteerd-z5-10-geen-extrageometrie</Name>
+                    <Title>Warmte geprojecteerd op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2541,6 +2570,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#008080</CssParameter>
@@ -2607,8 +2637,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>warmte-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Warmte in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>warmte-in-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Warmte in gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2622,6 +2652,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#008080</CssParameter>
@@ -2689,8 +2720,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>warmte-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Warmte buiten-gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>warmte-buiten-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Warmte buiten-gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2704,6 +2735,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#008080</CssParameter>
@@ -2772,8 +2804,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>rioolonderoverofonderdruk-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Riool onder over- of onderdruk geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>rioolonderoverofonderdruk-geprojecteerd-z5-10-geen-extrageometrie</Name>
+                    <Title>Riool onder over- of onderdruk geprojecteerd op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2787,6 +2819,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#800080</CssParameter>
@@ -2853,8 +2886,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>rioolonderoverofonderdruk-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Riool onder over- of onderdruk in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>rioolonderoverofonderdruk-in-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Riool onder over- of onderdruk in gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2868,6 +2901,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#800080</CssParameter>
@@ -2935,8 +2969,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>rioolonderoverofonderdruk-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Riool onder over- of onderdruk buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>rioolonderoverofonderdruk-buiten-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Riool onder over- of onderdruk buiten gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2950,6 +2984,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#800080</CssParameter>
@@ -3018,8 +3053,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>rioolvrijverval-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Riool vrijverval (VV) geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>rioolvrijverval-geprojecteerd-z5-10-geen-extrageometrie</Name>
+                    <Title>Riool vrijverval (VV) geprojecteerd op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3033,6 +3068,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ba38a8</CssParameter>
@@ -3099,8 +3135,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>rioolvrijverval-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Riool vrijverval (VV) in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>rioolvrijverval-in-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Riool vrijverval (VV) in gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3114,6 +3150,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ba38a8</CssParameter>
@@ -3181,8 +3218,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>rioolvrijverval-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Riool vrijverval (VV) buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>rioolvrijverval-buiten-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Riool vrijverval (VV) buiten gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3196,6 +3233,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#ba38a8</CssParameter>
@@ -3264,8 +3302,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>wees-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Wees geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>wees-geprojecteerd-z5-10-geen-extrageometrie</Name>
+                    <Title>Wees geprojecteerd op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3279,6 +3317,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#000000</CssParameter>
@@ -3345,8 +3384,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>wees-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Wees in gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>wees-in-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Wees in gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3360,6 +3399,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#000000</CssParameter>
@@ -3427,8 +3467,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>wees-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Wees buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>wees-buiten-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Wees buiten gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3442,6 +3482,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#000000</CssParameter>
@@ -3510,8 +3551,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>overig-geprojecteerd-z0-10-geen-extrageometrie</Name>
-                    <Title>Overig geprojecteerd op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>overig-geprojecteerd-z5-10-geen-extrageometrie</Name>
+                    <Title>Overig geprojecteerd op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3525,6 +3566,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#000000</CssParameter>
@@ -3591,8 +3633,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>overig-in-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Overig in-gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>overig-in-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Overig in-gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3606,6 +3648,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#000000</CssParameter>
@@ -3673,8 +3716,8 @@
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>overig-buiten-gebruik-z0-10-geen-extrageometrie</Name>
-                    <Title>Overig buiten gebruik op zoomniveau 0 t/m 10 met ExtraGeometrie</Title>
+                    <Name>overig-buiten-gebruik-z5-10-geen-extrageometrie</Name>
+                    <Title>Overig buiten gebruik op zoomniveau 5 t/m 10 met ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3688,6 +3731,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <CssParameter name="fill">#000000</CssParameter>

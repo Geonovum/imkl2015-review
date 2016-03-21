@@ -73,42 +73,6 @@
                         </Graphic>
                     </TextSymbolizer>
                 </Rule>
-                <Rule>
-                    <Name>extradetailinfo-z13</Name>
-                    <Title>ExtraDetailinfo op zoomniveau 13</Title>
-                    <MinScaleDenominator>1251</MinScaleDenominator>
-                    <MaxScaleDenominator>2500</MaxScaleDenominator>
-                    <PointSymbolizer>
-                        <Graphic>
-                            <Mark>
-                                <WellKnownName>square</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="stroke">#666666</CssParameter>
-                                </Fill>
-                            </Mark>
-                            <Size>8</Size>
-                            <Rotation>45</Rotation>
-                        </Graphic>
-                    </PointSymbolizer>
-                </Rule>
-                <Rule>
-                    <Name>extradetailinfo-z12</Name>
-                    <Title>ExtraDetailinfo op zoomniveau 12</Title>
-                    <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
-                    <PointSymbolizer>
-                        <Graphic>
-                            <Mark>
-                                <WellKnownName>square</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="stroke">#000000</CssParameter>
-                                </Fill>
-                            </Mark>
-                            <Size>5</Size>
-                            <Rotation>45</Rotation>
-                        </Graphic>
-                    </PointSymbolizer>
-                </Rule>
             </FeatureTypeStyle>
         </UserStyle>
     </NamedLayer>

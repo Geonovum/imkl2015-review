@@ -23,7 +23,7 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:Or>
                     </ogc:Filter>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#535353</CssParameter>

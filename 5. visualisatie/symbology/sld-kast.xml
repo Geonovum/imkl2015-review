@@ -120,8 +120,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>buisleidinggevaarlijkeinhoud-geprojecteerd-z12-geen-extrageometrie</Name>
-                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) geprojecteerd op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>buisleidinggevaarlijkeinhoud-geprojecteerd-z11-12-geen-extrageometrie</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) geprojecteerd op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -135,7 +135,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -247,8 +247,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>buisleidinggevaarlijkeinhoud-in-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) in gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>buisleidinggevaarlijkeinhoud-in-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) in gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -262,7 +262,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -391,8 +391,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>buisleidinggevaarlijkeinhoud-buiten-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) buiten gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>buisleidinggevaarlijkeinhoud-buiten-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) buiten gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -536,8 +536,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>datatransport-geprojecteerd-z12-geen-extrageometrie</Name>
-                    <Title>Datatransport (DT) geprojecteerd op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>datatransport-geprojecteerd-z11-12-geen-extrageometrie</Name>
+                    <Title>Datatransport (DT) geprojecteerd op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -551,7 +551,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -663,8 +663,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>datatransport-in-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Datatransport (DT) in gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>datatransport-in-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Datatransport (DT) in gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -678,7 +678,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -807,8 +807,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>datatransport-buiten-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Datatransport (DT) buiten gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>datatransport-buiten-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Datatransport (DT) buiten gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -952,8 +952,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>gashogedruk-geprojecteerd-z12-geen-extrageometrie</Name>
-                    <Title>Gas Hoge Druk (HD) geprojecteerd op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>gashogedruk-geprojecteerd-z11-12-geen-extrageometrie</Name>
+                    <Title>Gas Hoge Druk (HD) geprojecteerd op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -967,7 +967,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -1079,8 +1079,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>gashogedruk-in-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Gas Hoge Druk (HD) in gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>gashogedruk-in-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Gas Hoge Druk (HD) in gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1094,7 +1094,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -1223,8 +1223,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>gashogedruk-buiten-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Gas Hoge Druk (HD) buiten gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>gashogedruk-buiten-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Gas Hoge Druk (HD) buiten gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1368,8 +1368,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>gaslagedruk-geprojecteerd-z12-geen-extrageometrie</Name>
-                    <Title>Gas Lage Druk (LD) geprojecteerd op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>gaslagedruk-geprojecteerd-z11-12-geen-extrageometrie</Name>
+                    <Title>Gas Lage Druk (LD) geprojecteerd op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1383,7 +1383,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -1495,8 +1495,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>gaslagedruk-in-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Gas Lage Druk (LD) in gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>gaslagedruk-in-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Gas Lage Druk (LD) in gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1510,7 +1510,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -1639,8 +1639,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>gaslagedruk-buiten-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Gas Lage Druk (LD) buiten gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>gaslagedruk-buiten-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Gas Lage Druk (LD) buiten gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1784,8 +1784,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>petrochemie-geprojecteerd-z12-geen-extrageometrie</Name>
-                    <Title>(Petro-) chemie (PT) geprojecteerd op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>petrochemie-geprojecteerd-z11-12-geen-extrageometrie</Name>
+                    <Title>(Petro-) chemie (PT) geprojecteerd op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1799,7 +1799,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -1911,8 +1911,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>petrochemie-in-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>(Petro-) chemie (PT) in gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>petrochemie-in-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>(Petro-) chemie (PT) in gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1926,7 +1926,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -2055,8 +2055,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>petrochemie-buiten-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>(Petro-) chemie (PT) buiten gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>petrochemie-buiten-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>(Petro-) chemie (PT) buiten gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2200,8 +2200,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>laagspanning-geprojecteerd-z12-geen-extrageometrie</Name>
-                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>laagspanning-geprojecteerd-z11-12-geen-extrageometrie</Name>
+                    <Title>Laagspanning (LS) geprojecteerd op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2215,7 +2215,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -2327,8 +2327,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>laagspanning-in-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Laagspanning (LS) in gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>laagspanning-in-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Laagspanning (LS) in gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2342,7 +2342,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -2471,8 +2471,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>laagspanning-buiten-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Laagspanning (LS) buiten gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>laagspanning-buiten-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Laagspanning (LS) buiten gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2616,8 +2616,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>middenspanning-geprojecteerd-z12-geen-extrageometrie</Name>
-                    <Title>Middenspanning (MS) geprojecteerd op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>middenspanning-geprojecteerd-z11-12-geen-extrageometrie</Name>
+                    <Title>Middenspanning (MS) geprojecteerd op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2631,7 +2631,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -2743,8 +2743,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>middenspanning-in-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Middenspanning (MS) in gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>middenspanning-in-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Middenspanning (MS) in gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2758,7 +2758,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -2887,8 +2887,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>middenspanning-buiten-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Middenspanning (MS) buiten gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>middenspanning-buiten-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Middenspanning (MS) buiten gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3032,8 +3032,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>hoogspanning-geprojecteerd-z12-geen-extrageometrie</Name>
-                    <Title>Hoogspanning (HS) geprojecteerd op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>hoogspanning-geprojecteerd-z11-12-geen-extrageometrie</Name>
+                    <Title>Hoogspanning (HS) geprojecteerd op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3047,7 +3047,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -3159,8 +3159,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>hoogspanning-in-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Hoogspanning (HS) in gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>hoogspanning-in-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Hoogspanning (HS) in gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3174,7 +3174,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -3303,8 +3303,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>hoogspanning-buiten-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Hoogspanning (HS) buiten gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>hoogspanning-buiten-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Hoogspanning (HS) buiten gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3448,8 +3448,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>landelijkhoogspanningsnet-geprojecteerd-z12-geen-extrageometrie</Name>
-                    <Title>Landelijk hoogspanningsnet (ZHS) geprojecteerd op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>landelijkhoogspanningsnet-geprojecteerd-z11-12-geen-extrageometrie</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) geprojecteerd op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3463,7 +3463,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -3575,8 +3575,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>landelijkhoogspanningsnet-in-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Landelijk hoogspanningsnet (ZHS) in gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>landelijkhoogspanningsnet-in-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) in gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3590,7 +3590,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -3719,8 +3719,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>landelijkhoogspanningsnet-buiten-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Landelijk hoogspanningsnet (ZHS) buiten gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>landelijkhoogspanningsnet-buiten-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) buiten gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3864,8 +3864,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>water-geprojecteerd-z12-geen-extrageometrie</Name>
-                    <Title>Water geprojecteerd op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>water-geprojecteerd-z11-12-geen-extrageometrie</Name>
+                    <Title>Water geprojecteerd op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3879,7 +3879,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -3991,8 +3991,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>water-in-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Water in gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>water-in-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Water in gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4006,7 +4006,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -4135,8 +4135,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>water-buiten-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Water buiten gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>water-buiten-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Water buiten gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4280,8 +4280,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>warmte-geprojecteerd-z12-geen-extrageometrie</Name>
-                    <Title>Warmte geprojecteerd op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>warmte-geprojecteerd-z11-12-geen-extrageometrie</Name>
+                    <Title>Warmte geprojecteerd op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4295,7 +4295,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -4407,8 +4407,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>warmte-in-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Warmte in gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>warmte-in-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Warmte in gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4422,7 +4422,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -4551,8 +4551,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>warmte-buiten-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Warmte buiten gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>warmte-buiten-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Warmte buiten gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4696,8 +4696,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>rioolonderoverofonderdruk-geprojecteerd-z12-geen-extrageometrie</Name>
-                    <Title>Riool onder over- of onderdruk geprojecteerd op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>rioolonderoverofonderdruk-geprojecteerd-z11-12-geen-extrageometrie</Name>
+                    <Title>Riool onder over- of onderdruk geprojecteerd op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4711,7 +4711,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -4823,8 +4823,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>rioolonderoverofonderdruk-in-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Riool onder over- of onderdruk in gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>rioolonderoverofonderdruk-in-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Riool onder over- of onderdruk in gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4838,7 +4838,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -4967,8 +4967,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>rioolonderoverofonderdruk-buiten-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Riool onder over- of onderdruk buiten gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>rioolonderoverofonderdruk-buiten-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Riool onder over- of onderdruk buiten gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5112,8 +5112,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>rioolvrijverval-geprojecteerd-z12-geen-extrageometrie</Name>
-                    <Title>Riool vrijverval (VV) geprojecteerd op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>rioolvrijverval-geprojecteerd-z11-12-geen-extrageometrie</Name>
+                    <Title>Riool vrijverval (VV) geprojecteerd op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5127,7 +5127,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -5239,8 +5239,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>rioolvrijverval-in-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Riool vrijverval (VV) in gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>rioolvrijverval-in-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Riool vrijverval (VV) in gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5254,7 +5254,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -5383,8 +5383,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>rioolvrijverval-buiten-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Riool vrijverval (VV) buiten gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>rioolvrijverval-buiten-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Riool vrijverval (VV) buiten gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5528,8 +5528,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>wees-geprojecteerd-z12-geen-extrageometrie</Name>
-                    <Title>Wees geprojecteerd op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>wees-geprojecteerd-z11-12-geen-extrageometrie</Name>
+                    <Title>Wees geprojecteerd op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5543,7 +5543,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -5655,8 +5655,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>wees-in-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Wees in gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>wees-in-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Wees in gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5670,7 +5670,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -5799,8 +5799,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>wees-buiten-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Wees buiten gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>wees-buiten-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Wees buiten gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5944,8 +5944,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>overig-geprojecteerd-z12-geen-extrageometrie</Name>
-                    <Title>Overig geprojecteerd op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>overig-geprojecteerd-z11-12-geen-extrageometrie</Name>
+                    <Title>Overig geprojecteerd op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5959,7 +5959,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -6071,8 +6071,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>overig-in-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Overig in gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>overig-in-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Overig in gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -6086,7 +6086,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -6215,8 +6215,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>overig-buiten-gebruik-z12-geen-extrageometrie</Name>
-                    <Title>Overig buiten gebruik op zoomniveau 12 zonder ExtraGeometrie</Title>
+                    <Name>overig-buiten-gebruik-z11-12-geen-extrageometrie</Name>
+                    <Title>Overig buiten gebruik op zoomniveau 11 en 12 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -6230,7 +6230,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>2501</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
