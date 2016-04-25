@@ -11,46 +11,16 @@
                 <Rule>
                     <Name>diepteTovMaaiveld</Name>
                     <Title>diepteTovMaaiveld</Title>
-                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>circle</WellKnownName>
-                                <Fill>
-                                  <CssParameter name="fill">#000000</CssParameter>
-                                </Fill>
-                            </Mark>
-                            <Size>3</Size>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="dieptetovmaaiveld.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
+                            <Size>25</Size>
                         </Graphic>
                     </PointSymbolizer>
-                    <TextSymbolizer>
-                        <Label>
-                            <ogc:PropertyName>dieptePeil</ogc:PropertyName>
-                        </Label>
-                        <Font>
-                            <CssParameter name="font-family">Arial</CssParameter>
-                            <CssParameter name="font-size">11</CssParameter>
-                        </Font>
-                        <LabelPlacement>
-                            <PointPlacement>
-                                <AnchorPoint>
-                                    <AnchorPointX>
-                                        <ogc:Literal>0.5</ogc:Literal>
-                                    </AnchorPointX>
-                                    <AnchorPointY>
-                                        <ogc:Literal>1</ogc:Literal>
-                                    </AnchorPointY>
-                                </AnchorPoint>
-                                <Displacement>
-                                    <DisplacementX>0</DisplacementX>
-                                    <DisplacementY>5</DisplacementY>
-                                </Displacement>
-                            </PointPlacement>
-                        </LabelPlacement>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
-                    </TextSymbolizer>
                 </Rule>
             </FeatureTypeStyle>
         </UserStyle>

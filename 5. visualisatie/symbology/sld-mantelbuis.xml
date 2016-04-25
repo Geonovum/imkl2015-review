@@ -29,7 +29,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 31</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -54,7 +55,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 19</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -79,6 +81,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -103,6 +106,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -127,7 +131,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -152,7 +157,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -177,7 +183,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 31</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -202,7 +209,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 19</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -227,6 +235,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -251,6 +260,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -275,7 +285,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -300,7 +311,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -325,7 +337,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 31</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -350,7 +363,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 19</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -375,6 +389,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -399,6 +414,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -423,7 +439,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -448,7 +465,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -473,7 +491,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 31</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -498,7 +517,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 19</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -523,6 +543,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -547,6 +568,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -571,7 +593,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -596,7 +619,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -621,7 +645,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 31</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -646,7 +671,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 19</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -671,6 +697,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -695,6 +722,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -719,7 +747,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -744,7 +773,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -769,7 +799,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 31</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -794,7 +825,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 19</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -819,6 +851,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -843,6 +876,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -867,7 +901,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -892,7 +927,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -917,7 +953,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 31</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -942,7 +979,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 19</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -967,6 +1005,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -991,6 +1030,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1015,7 +1055,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1040,7 +1081,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1065,7 +1107,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 31</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1090,7 +1133,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 19</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1115,6 +1159,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1139,6 +1184,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1163,7 +1209,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1188,7 +1235,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1213,7 +1261,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 31</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1238,7 +1287,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 19</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1263,6 +1313,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1287,6 +1338,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1311,7 +1363,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1336,7 +1389,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1361,7 +1415,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 31</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1386,7 +1441,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 19</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1411,6 +1467,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1435,6 +1492,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1459,7 +1517,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1484,7 +1543,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1509,7 +1569,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 31</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1534,7 +1595,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 19</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1559,6 +1621,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1583,6 +1646,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1607,7 +1671,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1632,7 +1697,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1657,7 +1723,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 31</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1682,7 +1749,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 19</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1707,6 +1775,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1731,6 +1800,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1755,7 +1825,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1780,7 +1851,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1805,7 +1877,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 31</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1830,7 +1903,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 19</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1855,6 +1929,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1879,6 +1954,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1903,7 +1979,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1928,7 +2005,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1953,7 +2031,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 31</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -1978,7 +2057,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 19</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2003,6 +2083,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2027,6 +2108,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2051,7 +2133,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2076,7 +2159,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2101,7 +2185,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 31</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2126,7 +2211,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 19</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2151,6 +2237,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2175,6 +2262,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2199,7 +2287,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2224,7 +2313,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2245,7 +2335,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffffff</CssParameter>
                             <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 31</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2264,7 +2355,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffffff</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                            <CssParameter name="stroke-dasharray">1 19</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2283,6 +2375,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffffff</CssParameter>
                             <CssParameter name="stroke-width">12</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2301,6 +2394,7 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffffff</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2319,7 +2413,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffffff</CssParameter>
                             <CssParameter name="stroke-width">12</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 12 16 12</CssParameter>
+                            <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
@@ -2338,7 +2433,8 @@
                         <Stroke>
                             <CssParameter name="stroke">#ffffff</CssParameter>
                             <CssParameter name="stroke-width">6</CssParameter>
-                            <CssParameter name="stroke-dasharray">40 11 10 11</CssParameter>
+                            <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
+                            <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
