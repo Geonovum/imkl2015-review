@@ -18,7 +18,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="dieptetovmaaiveld.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>34</Size>
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
