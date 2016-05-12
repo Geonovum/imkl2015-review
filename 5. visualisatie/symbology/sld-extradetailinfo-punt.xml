@@ -33,7 +33,7 @@
                             <ogc:Literal>i</ogc:Literal>
                         </Label>
                         <Font>
-                            <CssParameter name="font-family">Arial</CssParameter>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
                             <CssParameter name="font-size">10</CssParameter>
                         </Font>
                         <LabelPlacement>
