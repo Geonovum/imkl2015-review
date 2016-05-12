@@ -6,7 +6,7 @@
         <Name>kabelsleidingen</Name>
         <UserStyle>
             <Title>Kabels en Leidingen met ExtraGeometrie</Title>
-            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle kabels en leidingen obv thema en currentStatus zonder ExtraGeometrrie</Abstract>
+            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle kabels en leidingen obv thema en currentStatus met ExtraGeometrrie</Abstract>
             <FeatureTypeStyle>
                 <Rule>
                     <Name>buisleidinggevaarlijkeinhoud-geprojecteerd-z15-16-geen-extrageometrie</Name>
