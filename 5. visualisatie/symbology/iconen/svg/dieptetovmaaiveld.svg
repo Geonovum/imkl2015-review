@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" height="34" width="34" version="1.1">
- <path d="m34,3.094,0-2.588-23.611,0,6.281,16.748,5.31-14.16z" fill="#000"/>
+<svg xmlns="http://www.w3.org/2000/svg" height="44" width="34" version="1.1">
+ <path fill="#000" d="M34,8.6269,34,6,10.389,6,16.67,23,21.98,8.6269z"/>
+ <path style="enable-background:accumulate;color:#000000;" d="m28.958-1.9237a3.1695,3.1695,0,1,1,-6.339,0,3.1695,3.1695,0,1,1,6.339,0z" fill-rule="nonzero" transform="matrix(0.47326203,0,0,0.47326203,14.184455,13.910428)" fill="#000"/>
 </svg>
