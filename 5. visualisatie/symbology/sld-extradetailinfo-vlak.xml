@@ -3,16 +3,16 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
     <NamedLayer>
-        <Name>extradetailinfo-punt</Name>
+        <Name>extradetailinfo-vlak</Name>
         <UserStyle>
-            <Title>ExtraDetailinfo Punt</Title>
-            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle objecten uit de objectklasse ExtraDetailinfo met een puntgeometrie obv status en typeTopografischObject</Abstract>
+            <Title>ExtraDetailinfo Vlak</Title>
+            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle objecten uit de objectklasse ExtraDetailinfo met een vlakgeometrie obv status en typeTopografischObject</Abstract>
             <FeatureTypeStyle>
                 <Rule>
                     <Name>extradetailinfo-vlak</Name>
-                    <Title>ExtraDetailinfo als vlakken op zoomniveaus 12-16</Title>
+                    <Title>ExtraDetailinfo als vlakken op zoomniveaus 14-16</Title>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>5000</MaxScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
@@ -23,7 +23,7 @@
             </FeatureTypeStyle>
             <FeatureTypeStyle>
                 <Rule>
-                    <Name>extradetailinfo-z15-16</Name>
+                    <Name>extradetailinfo-vlak-z15-16</Name>
                     <Title>ExtraDetailinfo op zoomniveau 15 en 16</Title>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
@@ -38,7 +38,7 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>extradetailfino-z14</Name>
+                    <Name>extradetailinfo-vlak-z14</Name>
                     <Title>ExtraDetailinfo op zoomniveau 14</Title>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>1250</MaxScaleDenominator>
