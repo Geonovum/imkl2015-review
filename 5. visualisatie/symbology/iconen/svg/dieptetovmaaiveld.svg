@@ -1,4 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="44" width="34" version="1.1">
- <path fill="#000" d="M34,8.6269,34,6,10.389,6,16.67,23,21.98,8.6269z"/>
- <path style="enable-background:accumulate;color:#000000;" d="m28.958-1.9237a3.1695,3.1695,0,1,1,-6.339,0,3.1695,3.1695,0,1,1,6.339,0z" fill-rule="nonzero" transform="matrix(0.47326203,0,0,0.47326203,14.184455,13.910428)" fill="#000"/>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="44" width="34" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <path style="color:#000000;enable-background:accumulate;" d="m28.958-1.9237a3.1695,3.1695,0,1,1,-6.339,0,3.1695,3.1695,0,1,1,6.339,0z" fill-rule="nonzero" transform="matrix(0.47326203,0,0,0.47326203,14.184455,13.910428)" fill="#000"/>
+ <g stroke="#000" fill="none" transform="translate(20.249791,20.711864)">
+  <path style="enable-background:accumulate;color:#000000;" d="M-71.22,21.441-81.796,3.1229-92.372-15.195h21.152l21.152-0.000001-10.576,18.318z" transform="matrix(0.24820853,0,0,0.39578996,14.427704,-7.9478694)" stroke-width="4.78575516"/>
+  <path stroke-linejoin="miter" d="m13-13.962-22.272,0" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1.5"/>
+ </g>
 </svg>
