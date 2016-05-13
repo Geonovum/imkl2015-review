@@ -40,11 +40,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -55,11 +53,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -95,11 +91,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -135,11 +129,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -175,11 +167,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -208,11 +198,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -247,11 +235,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -286,11 +272,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -325,11 +309,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -365,11 +347,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -380,11 +360,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -420,11 +398,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -460,11 +436,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -500,11 +474,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -540,11 +512,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -555,11 +525,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -595,11 +563,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -635,11 +601,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -675,11 +639,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -708,11 +670,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -747,11 +707,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -786,11 +744,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -825,11 +781,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -865,11 +819,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -880,11 +832,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -920,11 +870,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -960,11 +908,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1000,11 +946,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1040,11 +984,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -1055,11 +997,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1095,11 +1035,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1135,11 +1073,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1175,11 +1111,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1208,11 +1142,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1247,11 +1179,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1286,11 +1216,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1325,11 +1253,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1365,11 +1291,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -1380,11 +1304,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1420,11 +1342,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1460,11 +1380,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1500,11 +1418,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1540,11 +1456,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -1555,11 +1469,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1595,11 +1507,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1635,11 +1545,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1675,11 +1583,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1708,11 +1614,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1747,11 +1651,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1786,11 +1688,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1825,11 +1725,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1865,11 +1763,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -1880,11 +1776,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1920,11 +1814,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1960,11 +1852,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2000,11 +1890,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2040,11 +1928,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -2055,11 +1941,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2095,11 +1979,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2135,11 +2017,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2175,11 +2055,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2208,11 +2086,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2247,11 +2123,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2286,11 +2160,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2325,11 +2197,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2365,11 +2235,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -2380,11 +2248,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2420,11 +2286,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2460,11 +2324,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2500,11 +2362,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2540,11 +2400,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -2555,11 +2413,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2595,11 +2451,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2635,11 +2489,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2675,11 +2527,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2708,11 +2558,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2747,11 +2595,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2786,11 +2632,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2825,11 +2669,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2865,11 +2707,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -2880,11 +2720,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2920,11 +2758,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2960,11 +2796,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3000,11 +2834,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3040,11 +2872,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -3055,11 +2885,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3095,11 +2923,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3135,11 +2961,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3175,11 +2999,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3208,11 +3030,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3247,11 +3067,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3286,11 +3104,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3325,11 +3141,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3365,11 +3179,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -3380,11 +3192,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3420,11 +3230,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3460,11 +3268,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3500,11 +3306,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3540,11 +3344,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -3555,11 +3357,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3595,11 +3395,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3635,11 +3433,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3675,11 +3471,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3708,11 +3502,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3747,11 +3539,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3786,11 +3576,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3825,11 +3613,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3865,11 +3651,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -3880,11 +3664,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3920,11 +3702,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3960,11 +3740,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4000,11 +3778,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4040,11 +3816,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -4055,11 +3829,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4095,11 +3867,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4135,11 +3905,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4175,11 +3943,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4208,11 +3974,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4247,11 +4011,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4286,11 +4048,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4325,11 +4085,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4365,11 +4123,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -4380,11 +4136,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4420,11 +4174,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4460,11 +4212,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4500,11 +4250,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4540,11 +4288,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -4555,11 +4301,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4595,11 +4339,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4635,11 +4377,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4675,11 +4415,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4708,11 +4446,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4747,11 +4483,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4786,11 +4520,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4825,11 +4557,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4865,11 +4595,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -4880,11 +4608,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4920,11 +4646,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4960,11 +4684,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5000,11 +4722,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5040,11 +4760,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -5055,11 +4773,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5095,11 +4811,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5135,11 +4849,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5175,11 +4887,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5208,11 +4918,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5247,11 +4955,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5286,11 +4992,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5325,11 +5029,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5365,11 +5067,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -5380,11 +5080,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5420,11 +5118,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5460,11 +5156,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5500,11 +5194,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5540,11 +5232,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -5555,11 +5245,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5595,11 +5283,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5635,11 +5321,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5675,11 +5359,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5708,11 +5390,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5747,11 +5427,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5786,11 +5464,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5825,11 +5501,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5865,11 +5539,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -5880,11 +5552,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5920,11 +5590,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5960,11 +5628,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6000,11 +5666,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6040,11 +5704,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -6055,11 +5717,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6095,11 +5755,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6135,11 +5793,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6175,11 +5831,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6208,11 +5862,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6247,11 +5899,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6286,11 +5936,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6325,11 +5973,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6365,11 +6011,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -6380,11 +6024,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6420,11 +6062,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6460,11 +6100,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6500,11 +6138,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6540,11 +6176,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -6555,11 +6189,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6595,11 +6227,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6635,11 +6265,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6675,11 +6303,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6708,11 +6334,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6747,11 +6371,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6786,11 +6408,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6825,11 +6445,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6865,11 +6483,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -6880,11 +6496,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6920,11 +6534,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6960,11 +6572,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -7000,11 +6610,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -7040,11 +6648,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -7055,11 +6661,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -7095,11 +6699,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -7135,11 +6737,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -7175,11 +6775,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -7208,10 +6806,7 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
                         </Graphic>
                     </PointSymbolizer>
@@ -7247,11 +6842,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -7286,11 +6879,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -7325,11 +6916,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -7365,11 +6954,9 @@
                             </Mark>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -7380,11 +6967,9 @@
                             </ExternalGraphic>
                             <Size>25</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -7420,11 +7005,9 @@
                             </Mark>
                             <Size>11</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -7460,11 +7043,9 @@
                             </Mark>
                             <Size>8</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -7500,11 +7081,9 @@
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
+
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
