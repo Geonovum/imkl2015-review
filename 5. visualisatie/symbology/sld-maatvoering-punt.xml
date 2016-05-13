@@ -23,7 +23,7 @@
                             <Mark>
                                 <WellKnownName>triangle</WellKnownName>
                                 <Fill>
-                                    <CssParameter name="fill">#535353</CssParameter>
+                                    <CssParameter name="fill">#000000</CssParameter>
                                 </Fill>
                             </Mark>
                             <Size>10</Size>
