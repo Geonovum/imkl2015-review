@@ -38,7 +38,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -51,7 +51,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-buisleidinggevaarlijkeinhoud.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -196,7 +196,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-buisleidinggevaarlijkeinhoud.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -345,7 +345,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -358,7 +358,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-buisleidinggevaarlijkeinhoud.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -510,7 +510,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -523,7 +523,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-datatransport.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -668,7 +668,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-datatransport.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -817,7 +817,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -830,7 +830,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-datatransport.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -982,7 +982,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -995,7 +995,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-gashogedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1140,7 +1140,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-gashogedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1289,7 +1289,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1302,7 +1302,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-gashogedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1454,7 +1454,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1467,7 +1467,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-gaslagedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1612,7 +1612,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-gaslagedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1761,7 +1761,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1774,7 +1774,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-gaslagedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1926,7 +1926,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1939,7 +1939,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-petrochemie.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2084,7 +2084,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-petrochemie.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2233,7 +2233,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2246,7 +2246,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-petrochemie.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2398,7 +2398,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2411,7 +2411,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-laagspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2556,7 +2556,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-laagspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2705,7 +2705,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2718,7 +2718,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-laagspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2870,7 +2870,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2883,7 +2883,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-middenspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3028,7 +3028,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-middenspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3177,7 +3177,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3190,7 +3190,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-middenspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3342,7 +3342,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3355,7 +3355,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-hoogspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3500,7 +3500,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-hoogspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3649,7 +3649,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3662,7 +3662,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-hoogspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3814,7 +3814,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3827,7 +3827,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-landelijkhoogspanningsnet.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3972,7 +3972,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-landelijkhoogspanningsnet.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4121,7 +4121,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4134,7 +4134,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-landelijkhoogspanningsnet.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4286,7 +4286,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4299,7 +4299,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-water.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4444,7 +4444,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-water.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4593,7 +4593,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4606,7 +4606,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-water.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4758,7 +4758,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4771,7 +4771,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-warmte.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4916,7 +4916,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-warmte.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5065,7 +5065,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5078,7 +5078,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-warmte.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5230,7 +5230,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5243,7 +5243,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-rioolonderoverofonderdruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5388,7 +5388,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-rioolonderoverofonderdruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5537,7 +5537,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5550,7 +5550,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-rioolonderoverofonderdruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5702,7 +5702,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5715,7 +5715,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-rioolvrijverval.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5860,7 +5860,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-rioolvrijverval.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6009,7 +6009,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6022,7 +6022,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-rioolvrijverval.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6174,7 +6174,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6187,7 +6187,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-wees.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6332,7 +6332,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-wees.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6481,7 +6481,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6494,7 +6494,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-wees.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6646,7 +6646,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6659,7 +6659,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-overig.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6804,7 +6804,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-overig.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6844,7 +6844,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6952,7 +6951,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6965,7 +6964,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-overig.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>

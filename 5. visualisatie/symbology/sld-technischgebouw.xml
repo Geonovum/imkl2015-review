@@ -38,7 +38,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -50,7 +50,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-buisleidinggevaarlijkeinhoud.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -191,7 +191,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-buisleidinggevaarlijkeinhoud.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -336,7 +336,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -348,7 +348,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-buisleidinggevaarlijkeinhoud.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -496,7 +496,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -508,7 +508,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-datatransport.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -649,7 +649,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-datatransport.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -794,7 +794,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -806,7 +806,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-datatransport.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -954,7 +954,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -966,7 +966,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-gashogedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1107,7 +1107,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-gashogedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1252,7 +1252,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1264,7 +1264,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-gashogedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1412,7 +1412,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1424,7 +1424,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-gaslagedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1565,7 +1565,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-gaslagedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1710,7 +1710,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1722,7 +1722,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-gaslagedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1870,7 +1870,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -1882,7 +1882,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-petrochemie.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2023,7 +2023,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-petrochemie.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2168,7 +2168,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2180,7 +2180,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-petrochemie.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2328,7 +2328,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2340,7 +2340,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-laagspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2481,7 +2481,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-laagspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2626,7 +2626,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2638,7 +2638,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-laagspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2786,7 +2786,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2798,7 +2798,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-middenspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -2939,7 +2939,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-middenspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3084,7 +3084,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3096,7 +3096,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-middenspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3244,7 +3244,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3256,7 +3256,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-hoogspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3397,7 +3397,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-hoogspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3542,7 +3542,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3554,7 +3554,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-hoogspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3702,7 +3702,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3714,7 +3714,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-landelijkhoogspanningsnet.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -3855,7 +3855,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-landelijkhoogspanningsnet.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4000,7 +4000,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4012,7 +4012,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-landelijkhoogspanningsnet.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4160,7 +4160,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4172,7 +4172,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-water.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4313,7 +4313,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-water.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4458,7 +4458,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4470,7 +4470,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-water.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4618,7 +4618,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4630,7 +4630,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-warmte.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4771,7 +4771,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-warmte.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4916,7 +4916,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -4928,7 +4928,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-warmte.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5076,7 +5076,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5088,7 +5088,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-rioolonderoverofonderdruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5229,7 +5229,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-rioolonderoverofonderdruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5374,7 +5374,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5386,7 +5386,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-rioolonderoverofonderdruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5534,7 +5534,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5546,7 +5546,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-rioolvrijverval.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5687,7 +5687,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-rioolvrijverval.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5832,7 +5832,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5844,7 +5844,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-rioolvrijverval.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5992,7 +5992,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6004,7 +6004,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-wees.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6145,7 +6145,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-wees.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6290,7 +6290,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6302,7 +6302,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-wees.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6450,7 +6450,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6462,7 +6462,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-overig.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6603,7 +6603,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-overig.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6748,7 +6748,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6760,7 +6760,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="technischgebouw-overig.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>25</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
