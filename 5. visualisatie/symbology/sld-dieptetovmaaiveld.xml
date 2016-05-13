@@ -18,12 +18,9 @@
                                 <OnlineResource xlink:type="simple" xlink:href="dieptetovmaaiveld.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>44</Size>
+                            <Size>88</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
                         </Graphic>
                     </PointSymbolizer>

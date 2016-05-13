@@ -53,7 +53,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-buisleidinggevaarlijkeinhoud.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -206,7 +206,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-buisleidinggevaarlijkeinhoud.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -378,7 +378,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-buisleidinggevaarlijkeinhoud.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -553,7 +553,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-datatransport.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -706,7 +706,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-datatransport.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -878,7 +878,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-datatransport.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -1053,7 +1053,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-gashogedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -1206,7 +1206,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-gashogedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -1378,7 +1378,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-gashogedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -1553,7 +1553,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-gaslagedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -1706,7 +1706,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-gaslagedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -1878,7 +1878,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-gaslagedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -2053,7 +2053,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-petrochemie.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -2206,7 +2206,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-petrochemie.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -2378,7 +2378,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-petrochemie.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -2553,7 +2553,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-laagspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -2706,7 +2706,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-laagspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -2878,7 +2878,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-laagspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -3053,7 +3053,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-middenspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -3206,7 +3206,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-middenspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -3378,7 +3378,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-middenspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -3553,7 +3553,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-hoogspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -3706,7 +3706,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-hoogspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -3878,7 +3878,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-hoogspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -4053,7 +4053,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-landelijkhoogspanningsnet.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -4206,7 +4206,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-landelijkhoogspanningsnet.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -4378,7 +4378,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-landelijkhoogspanningsnet.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -4553,7 +4553,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-water.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -4706,7 +4706,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-water.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -4878,7 +4878,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-water.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -5053,7 +5053,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-warmte.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -5206,7 +5206,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-warmte.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -5378,7 +5378,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-warmte.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -5553,7 +5553,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-rioolonderoverofonderdruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -5706,7 +5706,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-rioolonderoverofonderdruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -5878,7 +5878,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-rioolonderoverofonderdruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -6053,7 +6053,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-rioolvrijverval.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -6206,7 +6206,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-rioolvrijverval.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -6378,7 +6378,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-rioolvrijverval.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -6553,7 +6553,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-wees.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -6706,7 +6706,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-wees.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -6878,7 +6878,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-wees.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -7053,7 +7053,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-overig.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -7206,7 +7206,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-overig.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -7378,7 +7378,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="toren-overig.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>36</Size>
+                            <Size>72</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
@@ -7529,10 +7529,7 @@
                             </Mark>
                             <Size>3</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
-                                    <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
                         </Graphic>
                     </PointSymbolizer>
