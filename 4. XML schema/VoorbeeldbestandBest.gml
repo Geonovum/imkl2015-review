@@ -11007,8 +11007,7 @@
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
       <imkl:inNetwork xlink:href="nl.imkl.gasunie.gasunie"/>
       <imkl:eisVoorzorgsmaatregel/>
-      <imkl:netRisicoKlasse>TODO</imkl:netRisicoKlasse>
-      <imkl:geometriebegrenzingFictief>false</imkl:geometriebegrenzingFictief>
+      <imkl:netbeheerderNetAanduiding>TODO</imkl:netbeheerderNetAanduiding>
       <imkl:geometrie>
         <gml:Polygon srsName="EPSG:28992" gml:id="geoid.nl.imkl.gasunie.a-6">
           <gml:exterior>
@@ -11031,8 +11030,7 @@
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
       <imkl:inNetwork xlink:href="nl.imkl.gasunie.gasunie"/>
       <imkl:eisVoorzorgsmaatregel/>
-      <imkl:netRisicoKlasse>TODO</imkl:netRisicoKlasse>
-      <imkl:geometriebegrenzingFictief>false</imkl:geometriebegrenzingFictief>
+      <imkl:netbeheerderNetAanduiding>TODO</imkl:netbeheerderNetAanduiding>
       <imkl:geometrie>
         <gml:Polygon srsName="EPSG:28992" gml:id="geoid.nl.imkl.gasunie.a-5">
           <gml:exterior>
@@ -11055,8 +11053,7 @@
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
       <imkl:inNetwork xlink:href="nl.imkl.gasunie.gasunie"/>
       <imkl:eisVoorzorgsmaatregel/>
-      <imkl:netRisicoKlasse>TODO</imkl:netRisicoKlasse>
-      <imkl:geometriebegrenzingFictief>false</imkl:geometriebegrenzingFictief>
+      <imkl:netbeheerderNetAanduiding>TODO</imkl:netbeheerderNetAanduiding>
       <imkl:geometrie>
         <gml:Polygon srsName="EPSG:28992" gml:id="geoid.nl.imkl.gasunie.a-4">
           <gml:exterior>
@@ -11079,8 +11076,7 @@
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
       <imkl:inNetwork xlink:href="nl.imkl.gasunie.gasunie"/>
       <imkl:eisVoorzorgsmaatregel/>
-      <imkl:netRisicoKlasse>TODO</imkl:netRisicoKlasse>
-      <imkl:geometriebegrenzingFictief>false</imkl:geometriebegrenzingFictief>
+      <imkl:netbeheerderNetAanduiding>TODO</imkl:netbeheerderNetAanduiding>
       <imkl:geometrie>
         <gml:Polygon srsName="EPSG:28992" gml:id="geoid.nl.imkl.gasunie.a-3">
           <gml:exterior>
@@ -11103,8 +11099,7 @@
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
       <imkl:inNetwork xlink:href="nl.imkl.gasunie.gasunie"/>
       <imkl:eisVoorzorgsmaatregel/>
-      <imkl:netRisicoKlasse>TODO</imkl:netRisicoKlasse>
-      <imkl:geometriebegrenzingFictief>false</imkl:geometriebegrenzingFictief>
+      <imkl:netbeheerderNetAanduiding>TODO</imkl:netbeheerderNetAanduiding>
       <imkl:geometrie>
         <gml:Polygon srsName="EPSG:28992" gml:id="geoid.nl.imkl.gasunie.a-2">
           <gml:exterior>
@@ -11127,8 +11122,7 @@
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
       <imkl:inNetwork xlink:href="nl.imkl.endinet.endinet_gh"/>
       <imkl:eisVoorzorgsmaatregel>HD bebouwdekom</imkl:eisVoorzorgsmaatregel>
-      <imkl:netRisicoKlasse>TODO</imkl:netRisicoKlasse>
-      <imkl:geometriebegrenzingFictief>true</imkl:geometriebegrenzingFictief>
+      <imkl:netbeheerderNetAanduiding>TODO</imkl:netbeheerderNetAanduiding>
       <imkl:geometrie>
         <gml:Polygon srsName="EPSG:28992" gml:id="geoid.nl.imkl.endinet.a-1">
           <gml:exterior>

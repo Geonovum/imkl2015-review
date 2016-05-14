@@ -10,74 +10,17 @@
   <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
   <import namespace="http://www.opengis.net/gml/3.3/exr" schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
   <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
-  <element name="AanduidingVerzoekContact" substitutionGroup="gml:AbstractFeature" type="sw:AanduidingVerzoekContactType">
-    <annotation>
-      <documentation>-- Name --
--- Definition --
-Aanduiding van een netelement waarbij een verzoek tot opnemen contact met de beheerder geldt dat buiten de wettelijke eis van een voorzorgsmaatregel valt.
--- Description --
--- Source --</documentation>
-    </annotation>
-  </element>
-  <complexType name="AanduidingVerzoekContactType">
-    <complexContent>
-      <extension base="gml:AbstractFeatureType">
-        <sequence>
-          <element maxOccurs="unbounded" minOccurs="0" name="maatregel" type="string">
-            <annotation>
-              <documentation>-- Name --
--- Definition --
-Vermelding van de maatregel.</documentation>
-            </annotation>
-          </element>
-          <element minOccurs="0" name="netRisicoOmschrijving" type="string">
-            <annotation>
-              <documentation>-- Name --
--- Definition --
-Omschrijving bij een risico classificering die aan (onderdeel van een) kabel- of leiding netwerk gegeven kan worden.</documentation>
-            </annotation>
-          </element>
-          <element name="netRisicoKlasse" type="string">
-            <annotation>
-              <documentation>-- Name --
--- Definition --
-Classificering van het risico dat aan een utiliteitsnet of netelement gegeven kan worden ten behoeve van de bepaling of en welke voorzorgsmaatregelen getroffen dienen te worden.</documentation>
-            </annotation>
-          </element>
-          <element minOccurs="0" name="werkRisicoKlasse" type="string">
-            <annotation>
-              <documentation>-- Name --
--- Definition --
-Classificering van het risico dat aan de soort werkzaamheden gegeven is bij de bepaling van de te nemen eis voorzorgsmaatregelen.</documentation>
-            </annotation>
-          </element>
-          <element maxOccurs="unbounded" minOccurs="0" name="aanvraagSoort">
-            <annotation>
-              <documentation>-- Name --
--- Definition --
-Aanduiding van het soort Klic-aanvraag (Klic-melding) waarvoor de bepaling van de voorzorgsmaatregel van toepassing is. Als deze niet is ingevuld, geldt de aanduiding ongeacht de soort Klic-aanvraag.</documentation>
-            </annotation>
-          </element>
-          <element name="geometrie" type="gml:SurfacePropertyType">
-            <annotation>
-              <documentation>-- Name --
--- Definition --
-Geometrie die aangeeft bij welk element of gebied een verzoek tot contact van toepassing is.
--- Description --
--- Source --</documentation>
-            </annotation>
-          </element>
-        </sequence>
-      </extension>
-    </complexContent>
-  </complexType>
-  <complexType name="AanduidingVerzoekContactPropertyType">
-    <sequence minOccurs="0">
-      <element ref="sw:AanduidingVerzoekContact"/>
-    </sequence>
-    <attributeGroup ref="gml:AssociationAttributeGroup"/>
-    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
-  </complexType>
+  <simpleType name="AanvraagSoortType">
+    <union memberTypes="sw:AanvraagSoortEnumerationType sw:AanvraagSoortOtherType"/>
+  </simpleType>
+  <simpleType name="AanvraagSoortEnumerationType">
+    <restriction base="string"/>
+  </simpleType>
+  <simpleType name="AanvraagSoortOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
   <element name="Adres" substitutionGroup="gml:AbstractObject" type="sw:AdresType">
     <annotation>
       <documentation>-- Name --
@@ -315,8 +258,7 @@ De hoogte betreft de lengte van het hele leidingelement in verticale richting on
 -- Definition --
 Abstract data object dat de gemeenschappelijke attributen en associaties bevat voor de diepte objecten.
 -- Description --
--- Source --
-IMKL-Be</documentation>
+-- Source --</documentation>
     </annotation>
   </element>
   <complexType abstract="true" name="DiepteType">
@@ -339,7 +281,7 @@ NEN 3610:2011</documentation>
 -- Definition --
 De begindatum waarop een data object in de registratie werd aangemaakt, het begin van de levenscyclus van een data object.
 -- Description --
-Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten.
+Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten. Voor niet INSPIRE plichtige datasets kan hier een dummy waarde worden ingevuld.
 Dit attribuut heeft DateTime als data type.
 -- Source --</documentation>
             </annotation>
@@ -398,6 +340,23 @@ Bijvoorbeeld bovenkant, onderkant, binnenkant.
               <appinfo>
                 <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">DiepteAangrijpingspuntValue</targetCodeList>
               </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="rotatiehoekSymbool" type="gml:MeasureType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Hoek waaronder een puntsymbool wordt weergegeven.
+-- Description --
+Voor een symbool dat gekoppeld is aan een puntgeometrie, geeft dit attribuut aan onder welke hoek een puntsymbool moet worden weergegeven. 
+
+Eenheid:  booggraad; één booggraad is een 360e deel van een cirkelomtrek.
+Oriëntering: met de klok mee (positief) t.o.v. normale tekstrichting (horizontaal = 0 graden; voor een kaart die noord georiënteerd is.).
+Decimale precisie: 1 (= 1 cijfer achter de komma, ofwel 1/10 booggraad).
+Bereik (minimale/maximale waarden): [-180, +180].].
+
+Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via de volgende OGC URN code: urn:ogc:def:uom:OGC::deg
+-- Source --</documentation>
             </annotation>
           </element>
           <element minOccurs="0" name="ligging" type="gml:PointPropertyType">
@@ -601,7 +560,7 @@ NEN 3610:2011</documentation>
 -- Definition --
 De begindatum waarop een data object in de registratie werd aangemaakt, het begin van de levenscyclus van een data object.
 -- Description --
-Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten.
+Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten. Voor niet INSPIRE plichtige datasets kan hier een dummy waarde worden ingevuld.
 Dit attribuut heeft DateTime als data type.
 -- Source --</documentation>
             </annotation>
@@ -1124,7 +1083,7 @@ Persoon die gecontacteerd kan worden voor technisch-inhoudelijke informatie over
   </element>
   <complexType name="TechnischContactpersoonType">
     <sequence>
-      <element name="naam" type="gml:stringOrNilReason">
+      <element name="naam" type="string">
         <annotation>
           <documentation>-- Name --
 -- Definition --
@@ -1132,7 +1091,7 @@ Persoon die gecontacteerd kan worden voor technisch-inhoudelijke informatie over
 -- Source --</documentation>
         </annotation>
       </element>
-      <element name="telefoon" type="gml:stringOrNilReason">
+      <element name="telefoon" type="string">
         <annotation>
           <documentation>-- Name --
 -- Definition --
@@ -1140,7 +1099,7 @@ Persoon die gecontacteerd kan worden voor technisch-inhoudelijke informatie over
 -- Source --</documentation>
         </annotation>
       </element>
-      <element name="email" type="gml:stringOrNilReason">
+      <element name="email" type="string">
         <annotation>
           <documentation>-- Name --
 -- Definition --
@@ -1209,7 +1168,7 @@ NEN 3610:2011</documentation>
 -- Definition --
 De begindatum waarop een data object in de registratie werd aangemaakt, het begin van de levenscyclus van een data object.
 -- Description --
-Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten.
+Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten. Voor niet INSPIRE plichtige datasets kan hier een dummy waarde worden ingevuld.
 Dit attribuut heeft DateTime als data type.
 -- Source --</documentation>
             </annotation>
