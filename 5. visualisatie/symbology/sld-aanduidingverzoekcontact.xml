@@ -293,11 +293,11 @@
                     <MaxScaleDenominator>25000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
+                            <CssParameter name="fill">#918a6f</CssParameter>
                             <CssParameter name="fill-opacity">0.2</CssParameter>
                         </Fill>
                         <Stroke>
-                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke">#918a6f</CssParameter>
                             <CssParameter name="stroke-width">1</CssParameter>
                         </Stroke>
                     </PolygonSymbolizer>
@@ -314,11 +314,11 @@
                     <MaxScaleDenominator>25000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
+                            <CssParameter name="fill">#6f5c10</CssParameter>
                             <CssParameter name="fill-opacity">0.2</CssParameter>
                         </Fill>
                         <Stroke>
-                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke">#6f5c10</CssParameter>
                             <CssParameter name="stroke-width">1</CssParameter>
                         </Stroke>
                     </PolygonSymbolizer>

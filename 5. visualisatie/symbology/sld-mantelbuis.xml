@@ -2029,7 +2029,7 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke">#918a6f</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">1 31</CssParameter>
                             <CssParameter name="stroke-linecap">square</CssParameter>
@@ -2055,7 +2055,7 @@
                     <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke">#918a6f</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">1 19</CssParameter>
                             <CssParameter name="stroke-linecap">square</CssParameter>
@@ -2081,7 +2081,7 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke">#918a6f</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
@@ -2106,7 +2106,7 @@
                     <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke">#918a6f</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
@@ -2131,7 +2131,7 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke">#918a6f</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
                             <CssParameter name="stroke-linecap">square</CssParameter>
@@ -2157,7 +2157,7 @@
                     <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke">#918a6f</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
                             <CssParameter name="stroke-linecap">square</CssParameter>
@@ -2183,7 +2183,7 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke">#6f5c10</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">1 31</CssParameter>
                             <CssParameter name="stroke-linecap">square</CssParameter>
@@ -2209,7 +2209,7 @@
                     <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke">#6f5c10</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">1 19</CssParameter>
                             <CssParameter name="stroke-linecap">square</CssParameter>
@@ -2235,7 +2235,7 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke">#6f5c10</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
@@ -2260,7 +2260,7 @@
                     <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke">#6f5c10</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-linecap">square</CssParameter>
                         </Stroke>
@@ -2285,7 +2285,7 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke">#6f5c10</CssParameter>
                             <CssParameter name="stroke-width">16</CssParameter>
                             <CssParameter name="stroke-dasharray">24 27 2 27</CssParameter>
                             <CssParameter name="stroke-linecap">square</CssParameter>
@@ -2311,7 +2311,7 @@
                     <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke">#6f5c10</CssParameter>
                             <CssParameter name="stroke-width">10</CssParameter>
                             <CssParameter name="stroke-dasharray">30 20 2 20</CssParameter>
                             <CssParameter name="stroke-linecap">square</CssParameter>
