@@ -60,7 +60,7 @@ Aanduiding van het risico dat aan een utiliteitsnet of netelement gegeven kan wo
 Aanduiding van het risico dat aan de soort werkzaamheden gegeven is bij de bepaling van de te nemen eis voorzorgsmaatregelen.</documentation>
             </annotation>
           </element>
-          <element maxOccurs="unbounded" minOccurs="0" name="aanvraagSoort" type="wion:AanvraagSoortType">
+          <element maxOccurs="unbounded" minOccurs="0" name="aanvraagSoort">
             <annotation>
               <documentation>-- Name --
 -- Definition --
@@ -88,17 +88,6 @@ Als de geometrie alleen dient om het leidingelement aan te duiden is er een stan
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <simpleType name="AanvraagSoortType">
-    <union memberTypes="wion:AanvraagSoortEnumerationType wion:AanvraagSoortOtherType"/>
-  </simpleType>
-  <simpleType name="AanvraagSoortEnumerationType">
-    <restriction base="string"/>
-  </simpleType>
-  <simpleType name="AanvraagSoortOtherType">
-    <restriction base="string">
-      <pattern value="other: \w{2,}"/>
-    </restriction>
-  </simpleType>
   <element name="Adres" substitutionGroup="gml:AbstractObject" type="wion:AdresType">
     <annotation>
       <documentation>-- Name --
@@ -391,7 +380,7 @@ Extra geometrie naast de verplichte arc/node.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>
@@ -605,7 +594,7 @@ Dit attribuut heeft DateTime als data type.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>
@@ -878,7 +867,7 @@ Extra geometrie naast de verplichte arc/node.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>
@@ -956,7 +945,7 @@ Dit attribuut heeft DateTime als data type.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>
@@ -1145,7 +1134,7 @@ Extra geometrie naast de verplichte arc/node.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>
@@ -1438,7 +1427,7 @@ Dit attribuut heeft DateTime als data type.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>
@@ -1658,7 +1647,7 @@ Extra geometrie naast de verplichte arc/node.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>
@@ -1949,7 +1938,7 @@ Extra geometrie naast de verplichte arc/node.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>
@@ -2071,7 +2060,7 @@ Extra geometrie naast de verplichte arc/node.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>
@@ -2225,7 +2214,7 @@ Extra geometrie naast de verplichte arc/node.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>
@@ -2383,7 +2372,7 @@ Extra geometrie naast de verplichte arc/node.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>
@@ -2538,7 +2527,7 @@ Extra geometrie naast de verplichte arc/node.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>
@@ -2732,7 +2721,7 @@ Extra geometrie naast de verplichte arc/node.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>
@@ -2763,10 +2752,10 @@ Kan toegevoegd worden als het label meer uitleg behoeft.
       <documentation>TelecommunicationsCable: -- Name --
 Telecommunicatiekabel
 -- Definition --
-Een aansluiting of reeks aansluitingen van een nutsvoorzieningennet voor het overbrengen van signaalinformatie van de ene locatie naar een andere.
+Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van data.
 -- Description --
-Is de definitie ok?
--- Source --</documentation>
+-- Source --
+IMKL2015</documentation>
     </annotation>
   </element>
   <complexType name="TelecommunicatiekabelType">
@@ -2834,7 +2823,7 @@ Extra geometrie naast de verplichte arc/node.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>
@@ -2946,7 +2935,7 @@ Extra geometrie naast de verplichte arc/node.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>
@@ -3100,7 +3089,7 @@ Extra geometrie naast de verplichte arc/node.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>
@@ -3177,7 +3166,7 @@ Dit attribuut heeft DateTime als data type.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>
@@ -3361,7 +3350,7 @@ Extra geometrie naast de verplichte arc/node.
             <annotation>
               <documentation>-- Name --
 -- Definition --
-Tekst of getal dat een eigenschap omschrijft of kwantificeert.
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
 -- Description --
 -- Source --</documentation>
             </annotation>

@@ -10,17 +10,6 @@
   <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
   <import namespace="http://www.opengis.net/gml/3.3/exr" schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
   <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
-  <simpleType name="AanvraagSoortType">
-    <union memberTypes="sw:AanvraagSoortEnumerationType sw:AanvraagSoortOtherType"/>
-  </simpleType>
-  <simpleType name="AanvraagSoortEnumerationType">
-    <restriction base="string"/>
-  </simpleType>
-  <simpleType name="AanvraagSoortOtherType">
-    <restriction base="string">
-      <pattern value="other: \w{2,}"/>
-    </restriction>
-  </simpleType>
   <element name="Adres" substitutionGroup="gml:AbstractObject" type="sw:AdresType">
     <annotation>
       <documentation>-- Name --
