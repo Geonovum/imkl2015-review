@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:rrb="http://www.geostandaarden.nl/imkl/2015/rrb/1.1" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" xmlns:us-net-ogc="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0" elementFormDefault="qualified" targetNamespace="http://www.geostandaarden.nl/imkl/2015/rrb/1.1" version="2015-02">
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:rrb="http://www.geostandaarden.nl/imkl/2015/rrb/1.1" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" xmlns:us-net-ogc="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0" elementFormDefault="qualified" targetNamespace="http://www.geostandaarden.nl/imkl/2015/rrb/1.1" version="1.1">
   <annotation>
     <documentation>-- Name --
 -- Definition --
@@ -215,7 +215,7 @@ De datum waarop het dieptepeil werd opgemeten.
 -- Definition --
 Benoeming van welk aangrijpingspunt van het object de diepte is bepaald.
 -- Description --
-Bijvoorbeeld bovenkant, onderkant, binnenkant.
+Bijvoorbeeld bovenkant of binnen onderkant buis.
 -- Source --</documentation>
               <appinfo>
                 <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">DiepteAangrijpingspuntValue</targetCodeList>
@@ -848,6 +848,35 @@ Heeft iemand een definitie?
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
+  <simpleType name="ThermalProductTypeIMKLValueType">
+    <annotation>
+      <documentation>-- Name --
+Thermal Product Type IMKL
+-- Definition --
+IMKL waardelijst voor toepassing INSPIRE Thermal Product Type.
+-- Description --
+Kan zowel uitbreiding als beperking op INSPIRE waardelijst betreffen.
+-- Source --</documentation>
+    </annotation>
+    <union memberTypes="rrb:ThermalProductTypeIMKLValueEnumerationType rrb:ThermalProductTypeIMKLValueOtherType"/>
+  </simpleType>
+  <simpleType name="ThermalProductTypeIMKLValueEnumerationType">
+    <annotation>
+      <documentation>-- Name --
+Thermal Product Type IMKL
+-- Definition --
+IMKL waardelijst voor toepassing INSPIRE Thermal Product Type.
+-- Description --
+Kan zowel uitbreiding als beperking op INSPIRE waardelijst betreffen.
+-- Source --</documentation>
+    </annotation>
+    <restriction base="string"/>
+  </simpleType>
+  <simpleType name="ThermalProductTypeIMKLValueOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
   <element name="Transportroute" substitutionGroup="gml:AbstractFeature" type="rrb:TransportrouteType">
     <annotation>
       <documentation>-- Name --
@@ -1122,30 +1151,6 @@ Voor WION is de eenheid altijd meter en een getal met ten hoogste 2 decimalen.
   <complexType name="UtiliteitsnetPropertyType">
     <sequence minOccurs="0">
       <element ref="rrb:Utiliteitsnet"/>
-    </sequence>
-    <attributeGroup ref="gml:AssociationAttributeGroup"/>
-    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
-  </complexType>
-  <element name="WaterTypeIMKLValue" substitutionGroup="gml:AbstractGML" type="rrb:WaterTypeIMKLValueType">
-    <annotation>
-      <documentation>-- Name --
--- Definition --
-IMKL waardelijst voor toepassing INSPIRE WaterTypeValue.
--- Description --
-Kan zowel uitbreiding als beperking op INSPIRE waardelijst betreffen.
--- Source --</documentation>
-    </annotation>
-  </element>
-  <complexType name="WaterTypeIMKLValueType">
-    <complexContent>
-      <extension base="gml:AbstractGMLType">
-        <sequence/>
-      </extension>
-    </complexContent>
-  </complexType>
-  <complexType name="WaterTypeIMKLValuePropertyType">
-    <sequence minOccurs="0">
-      <element ref="rrb:WaterTypeIMKLValue"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:wion="http://www.geostandaarden.nl/imkl/2015/wion/1.1" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" xmlns:us-net-el="http://inspire.ec.europa.eu/schemas/us-net-el/4.0" xmlns:us-net-ogc="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0" xmlns:us-net-sw="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0" xmlns:us-net-tc="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0" xmlns:us-net-th="http://inspire.ec.europa.eu/schemas/us-net-th/4.0" xmlns:us-net-wa="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0" elementFormDefault="qualified" targetNamespace="http://www.geostandaarden.nl/imkl/2015/wion/1.1" version="2015-02">
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:wion="http://www.geostandaarden.nl/imkl/2015/wion/1.1" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" xmlns:us-net-el="http://inspire.ec.europa.eu/schemas/us-net-el/4.0" xmlns:us-net-ogc="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0" xmlns:us-net-sw="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0" xmlns:us-net-tc="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0" xmlns:us-net-th="http://inspire.ec.europa.eu/schemas/us-net-th/4.0" xmlns:us-net-wa="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0" elementFormDefault="qualified" targetNamespace="http://www.geostandaarden.nl/imkl/2015/wion/1.1" version="1.1">
   <annotation>
     <documentation>-- Name --
 -- Definition --
@@ -60,11 +60,14 @@ Aanduiding van het risico dat aan een utiliteitsnet of netelement gegeven kan wo
 Aanduiding van het risico dat aan de soort werkzaamheden gegeven is bij de bepaling van de te nemen eis voorzorgsmaatregelen.</documentation>
             </annotation>
           </element>
-          <element maxOccurs="unbounded" minOccurs="0" name="aanvraagSoort">
+          <element maxOccurs="unbounded" minOccurs="0" name="aanvraagSoort" type="gml:ReferenceType">
             <annotation>
               <documentation>-- Name --
 -- Definition --
 Aanduiding van het soort Klic-aanvraag (Klic-melding) waarvoor de bepaling van de voorzorgsmaatregel van toepassing is. Als deze niet is ingevuld, geldt de aanduiding ongeacht de soort Klic-aanvraag.</documentation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">AanvraagSoort</targetCodeList>
+              </appinfo>
             </annotation>
           </element>
           <element name="geometrie" type="gml:SurfacePropertyType">
@@ -647,7 +650,7 @@ De datum waarop het dieptepeil werd opgemeten.
 -- Definition --
 Benoeming van welk aangrijpingspunt van het object de diepte is bepaald.
 -- Description --
-Bijvoorbeeld bovenkant, onderkant, binnenkant.
+Bijvoorbeeld bovenkant of binnen onderkant buis.
 -- Source --</documentation>
               <appinfo>
                 <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">DiepteAangrijpingspuntValue</targetCodeList>
@@ -1033,7 +1036,7 @@ Alleen de eis voorzorgsmaatregel met de hoogste prioriteit binnen dit thema word
     <complexContent>
       <extension base="wion:BijlageType">
         <sequence>
-          <element maxOccurs="unbounded" minOccurs="0" name="eisVoorzorgsmaatregel" type="string">
+          <element name="eisVoorzorgsmaatregel" type="string">
             <annotation>
               <documentation>-- Name --
 -- Definition --
@@ -2859,6 +2862,35 @@ Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via één
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
+  <simpleType name="ThermalProductTypeIMKLValueType">
+    <annotation>
+      <documentation>-- Name --
+Thermal Product Type IMKL
+-- Definition --
+IMKL waardelijst voor toepassing INSPIRE Thermal Product Type.
+-- Description --
+Kan zowel uitbreiding als beperking op INSPIRE waardelijst betreffen.
+-- Source --</documentation>
+    </annotation>
+    <union memberTypes="wion:ThermalProductTypeIMKLValueEnumerationType wion:ThermalProductTypeIMKLValueOtherType"/>
+  </simpleType>
+  <simpleType name="ThermalProductTypeIMKLValueEnumerationType">
+    <annotation>
+      <documentation>-- Name --
+Thermal Product Type IMKL
+-- Definition --
+IMKL waardelijst voor toepassing INSPIRE Thermal Product Type.
+-- Description --
+Kan zowel uitbreiding als beperking op INSPIRE waardelijst betreffen.
+-- Source --</documentation>
+    </annotation>
+    <restriction base="string"/>
+  </simpleType>
+  <simpleType name="ThermalProductTypeIMKLValueOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
   <element name="ThermischePijpleiding" substitutionGroup="us-net-th:ThermalPipe" type="wion:ThermischePijpleidingType">
     <annotation>
       <documentation>ThermalPipe: -- Name --
@@ -3246,30 +3278,6 @@ Bij het utiliteitsnet betreft dit de algemene informatie die bij het utiliteitsn
   <complexType name="UtiliteitsnetPropertyType">
     <sequence minOccurs="0">
       <element ref="wion:Utiliteitsnet"/>
-    </sequence>
-    <attributeGroup ref="gml:AssociationAttributeGroup"/>
-    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
-  </complexType>
-  <element name="WaterTypeIMKLValue" substitutionGroup="gml:AbstractGML" type="wion:WaterTypeIMKLValueType">
-    <annotation>
-      <documentation>-- Name --
--- Definition --
-IMKL waardelijst voor toepassing INSPIRE WaterTypeValue.
--- Description --
-Kan zowel uitbreiding als beperking op INSPIRE waardelijst betreffen.
--- Source --</documentation>
-    </annotation>
-  </element>
-  <complexType name="WaterTypeIMKLValueType">
-    <complexContent>
-      <extension base="gml:AbstractGMLType">
-        <sequence/>
-      </extension>
-    </complexContent>
-  </complexType>
-  <complexType name="WaterTypeIMKLValuePropertyType">
-    <sequence minOccurs="0">
-      <element ref="wion:WaterTypeIMKLValue"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
