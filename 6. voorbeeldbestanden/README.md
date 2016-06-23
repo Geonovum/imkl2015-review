@@ -1,4 +1,4 @@
-#XML Schema toelichting.
+#Voorbeeldbestanden: Toelichting.
 
 Het GML-Applicatieschema van IMKL2015 is volledig automatisch afgeleid van het
 IMKL2015 UML Diagram.
