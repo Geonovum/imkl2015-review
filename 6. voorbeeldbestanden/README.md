@@ -10,6 +10,8 @@ Klik [hier](https://github.com/Geonovum/imkl2015-review/issues?q=is%3Aopen+is%3A
 
 Daarnaast staan hier twee voorbeelbestanden:
 
+Deze zijn nog niet gevalideerd op de in het UML opgenomen constraints en het "extra regels document".
+
 VoorbeeldbestandBest.gml - Dit voorbeeldbestand heeft van allerlei kabel- en
    leidingen 1 voorbeeld.
 VoorbeeldbestandTopologie.gml - Dit is voorbeeldstand van imkl2015 bestand met topologie. Het zijn
