@@ -6,7 +6,7 @@ IMKL2015 UML Diagram.
 versie 1.1 is gepubliceerd op: http://register.geostandaarden.nl/imkl2015/index.html
 
 
-Klik [hier](http://register.geostandaarden.nl/imkl2015/index.html?q=is%3Aopen+is%3Aissue+label%3Axmlschema) om issues over het schema te sturen.
+Klik [hier](https://github.com/Geonovum/imkl2015-review/issues?q=is%3Aopen+is%3Aissue+label%3Axmlschema) om issues over het schema te sturen.
 
 Daarnaast staan hier twee voorbeelbestanden:
 
