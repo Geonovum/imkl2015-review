@@ -3,7 +3,7 @@
 Het GML-Applicatieschema van IMKL2015 is volledig automatisch afgeleid van het
 IMKL2015 UML Diagram.
 
-versie 1.1 is gepubliceerd op: https://register.geostandaarden.nl/imkl/index.html
+versie 1.1 is gepubliceerd op: http://register.geostandaarden.nl/imkl2015/index.html
 
 
 Klik [hier](http://register.geostandaarden.nl/imkl2015/index.html?q=is%3Aopen+is%3Aissue+label%3Axmlschema) om issues over het schema te sturen.
