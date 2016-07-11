@@ -11760,6 +11760,15 @@
       </imkl:identificatie>
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
       <imkl:inNetwork xlink:href="nl.imkl.snetten.snetten_ld"/>
+      <imkl:adres>
+							<imkl:Adres>
+								<imkl:openbareRuimteNaam>kabelstraat</imkl:openbareRuimteNaam>
+								<imkl:huisnummer>1</imkl:huisnummer>
+								<imkl:woonplaatsNaam>Kabelstad</imkl:woonplaatsNaam>
+								<imkl:postcode>1111AB</imkl:postcode>
+								<imkl:landcode>NL</imkl:landcode>
+							</imkl:Adres>
+						</imkl:adres>
       <imkl:extraInfoType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/ExtraDetailInfoTypeValue/huisaansluiting"/>
       <imkl:bestandLocatie>gas_aansluitschets_snetten.tiff</imkl:bestandLocatie>
       <imkl:bestandMediaType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/BestandMediaTypeValue/PDF"/>

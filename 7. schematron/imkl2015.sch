@@ -86,7 +86,7 @@
         </sch:rule>
         
         <sch:rule context="imkl:Mantelbuis">
-            <sch:assert test="us-net-common:pressure/@xsi:nil='true'">Het INSPIRE attribuut pressure wordt niet ingevuld bij <sch:value-of select="local-name()"/>.</sch:assert>
+            <sch:assert test="not(us-net-common:pressure)'">Het INSPIRE attribuut pressure wordt niet ingevuld bij <sch:value-of select="local-name()"/>.</sch:assert>
             <sch:assert test="not(us-net-common:governmentalServiceReference)">Het INSPIRE attribuut governmental service reference wordt niet gebruikt bij <sch:value-of select="local-name()"/>.</sch:assert>
         </sch:rule>
         
