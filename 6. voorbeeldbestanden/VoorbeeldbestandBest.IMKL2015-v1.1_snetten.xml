@@ -1,89 +1,11 @@
 <?xml version="1.0"?>
+<!-- alle verwijzingen van het net naar de onderdelen zijn verwijderd:<net:elements xlink:href="nl.imkl.snetten.xx"/> . De netonderdelen verwijzen al naar het net via: net:inNetwork -->
 <gml:FeatureCollection xmlns:imkl="http://www.geostandaarden.nl/imkl/2015/wion/1.1" xmlns:us-net-wa="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0" xmlns:us-net-sw="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" xmlns:us-net-el="http://inspire.ec.europa.eu/schemas/us-net-el/4.0" xmlns:us-net-ogc="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0" xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3" xmlns:base2="http://inspire.ec.europa.eu/schemas/base2/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" gml:id="ID_1c0c5554-5c4a-467a-a9ef-9f36b5af2bfq" xsi:schemaLocation="http://www.geostandaarden.nl/imkl/2015/wion/1.1 https://register.geostandaarden.nl/gmlapplicatieschema/imkl2015/1.1/IMKL2015-wion.xsd">
   <!-- File created by Wilko Quak via the sql2gml.php script on 2016-03-23 -->
+  
   <gml:featureMember>
     <imkl:Utiliteitsnet gml:id="nl.imkl.snetten.snetten_ri">
-      <net:elements xlink:href="nl.imkl.snetten.e-13"/>
-      <net:elements xlink:href="nl.imkl.snetten.e-12"/>
-      <net:elements xlink:href="nl.imkl.snetten.e-11"/>
-      <net:elements xlink:href="nl.imkl.snetten.e-10"/>
-      <net:elements xlink:href="nl.imkl.snetten.e-8"/>
-      <net:elements xlink:href="nl.imkl.snetten.e-7"/>
-      <net:elements xlink:href="nl.imkl.snetten.e-6"/>
-      <net:elements xlink:href="nl.imkl.snetten.e-5"/>
-      <net:elements xlink:href="nl.imkl.snetten.e-4"/>
-      <net:elements xlink:href="nl.imkl.snetten.i-8"/>
-      <net:elements xlink:href="nl.imkl.snetten.i-7"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-47"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-48"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-49"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-50"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-51"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-52"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-53"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-54"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-55"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-56"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-57"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-58"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-59"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-60"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-61"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-62"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-63"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-64"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-65"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-66"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-67"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-68"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-69"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-70"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-71"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-72"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-73"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-74"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-75"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-76"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-77"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-81"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-1"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-2"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-3"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-4"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-24"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-5"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-6"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-7"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-8"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-9"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-10"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-11"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-12"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-13"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-15"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-16"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-17"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-18"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-19"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-20"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-21"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-22"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-23"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-25"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-26"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-27"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-28"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-29"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-30"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-31"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-32"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-33"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-34"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-35"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-36"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-37"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-38"/>
-      <net:elements xlink:href="nl.imkl.snetten.t-39"/>
+     
       <us-net-common:utilityNetworkType xlink:href="http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/sewer"/>
       <us-net-common:authorityRole xlink:href="http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/operator"/>
       <imkl:identificatie>
@@ -105,31 +27,7 @@
   </gml:featureMember>
   <gml:featureMember>
     <imkl:Utiliteitsnet gml:id="nl.imkl.snetten.snetten">
-      <net:elements xlink:href="nl.imkl.snetten.a-6"/>
-      <net:elements xlink:href="nl.imkl.snetten.a-5"/>
-      <net:elements xlink:href="nl.imkl.snetten.a-4"/>
-      <net:elements xlink:href="nl.imkl.snetten.a-3"/>
-      <net:elements xlink:href="nl.imkl.snetten.a-2"/>
-      <net:elements xlink:href="nl.imkl.snetten.d-5"/>
-      <net:elements xlink:href="nl.imkl.snetten.d-4"/>
-      <net:elements xlink:href="nl.imkl.snetten.d-3"/>
-      <net:elements xlink:href="nl.imkl.snetten.d-2"/>
-      <net:elements xlink:href="nl.imkl.snetten.d-1"/>
-      <net:elements xlink:href="nl.imkl.snetten.l-3"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-25"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-26"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-27"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-28"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-29"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-30"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-31"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-32"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-116"/>
-      <net:elements xlink:href="nl.imkl.snetten.x-bgv1"/>
-      <net:elements xlink:href="nl.imkl.snetten.x-bgv2"/>
-      <net:elements xlink:href="nl.imkl.snetten.x-bgv3"/>
-      <net:elements xlink:href="nl.imkl.snetten.x-bgv4"/>
-      <net:elements xlink:href="nl.imkl.snetten.x-bgv5"/>
+     
       <us-net-common:utilityNetworkType xlink:href="http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/oilGasChemical"/>
       <us-net-common:authorityRole xlink:href="http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/operator"/>
       <imkl:identificatie>
@@ -151,23 +49,7 @@
   </gml:featureMember>
   <gml:featureMember>
     <imkl:Utiliteitsnet gml:id="nl.imkl.snetten.snetten2">
-      <net:elements xlink:href="nl.imkl.snetten.n-99"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-100"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-101"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-102"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-103"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-104"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-105"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-106"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-1"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-11"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-12"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-13"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-14"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-15"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-16"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-17"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-18"/>
+      
       <us-net-common:utilityNetworkType xlink:href="http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/telecommunications"/>
       <us-net-common:authorityRole xlink:href="http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/operator"/>
       <imkl:identificatie>
@@ -189,99 +71,7 @@
   </gml:featureMember>
   <gml:featureMember>
     <imkl:Utiliteitsnet gml:id="nl.imkl.snetten.snetten3">
-      <net:elements xlink:href="nl.imkl.snetten.l-7"/>
-      <net:elements xlink:href="nl.imkl.snetten.l-6"/>
-      <net:elements xlink:href="nl.imkl.snetten.l-5"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-82"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-83"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-84"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-85"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-86"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-87"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-88"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-89"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-90"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-91"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-92"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-93"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-94"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-95"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-96"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-97"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-107"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-108"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-109"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-110"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-111"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-67"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-1"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-2"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-3"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-4"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-5"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-52"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-53"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-6"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-7"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-8"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-9"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-10"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-11"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-23"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-24"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-25"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-26"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-27"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-12"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-13"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-14"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-15"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-16"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-17"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-18"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-19"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-20"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-21"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-22"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-28"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-29"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-30"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-31"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-32"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-33"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-34"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-35"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-36"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-37"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-38"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-39"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-40"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-41"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-42"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-43"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-44"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-45"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-46"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-47"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-48"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-49"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-50"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-51"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-54"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-55"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-56"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-57"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-58"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-59"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-60"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-61"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-62"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-63"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-64"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-65"/>
-      <net:elements xlink:href="nl.imkl.snetten.v-66"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ls9"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ls10"/>
+     
       <us-net-common:utilityNetworkType xlink:href="http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/water"/>
       <us-net-common:authorityRole xlink:href="http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/operator"/>
       <imkl:identificatie>
@@ -303,24 +93,7 @@
   </gml:featureMember>
   <gml:featureMember>
     <imkl:Utiliteitsnet gml:id="nl.imkl.snetten.snetten_ls">
-      <net:elements xlink:href="nl.imkl.snetten.f-2"/>
-      <net:elements xlink:href="nl.imkl.snetten.f-1"/>
-      <net:elements xlink:href="nl.imkl.snetten.i-1"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-1"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-36"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-37"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-38"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-41"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-42"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-43"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-44"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-45"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-46"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ls1"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ls2"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ls6"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ls7"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ls8"/>
+     
       <us-net-common:utilityNetworkType xlink:href="http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/electricity"/>
       <us-net-common:authorityRole xlink:href="http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/operator"/>
       <imkl:identificatie>
@@ -342,20 +115,7 @@
   </gml:featureMember>
   <gml:featureMember>
     <imkl:Utiliteitsnet gml:id="nl.imkl.snetten.snetten_ld2">
-      <net:elements xlink:href="nl.imkl.snetten.n-15"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-16"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-17"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-18"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-19"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-20"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-21"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-22"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-23"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-24"/>
-      <net:elements xlink:href="nl.imkl.snetten.x-ld1"/>
-      <net:elements xlink:href="nl.imkl.snetten.x-ld2"/>
-      <net:elements xlink:href="nl.imkl.snetten.x-ld3"/>
-      <net:elements xlink:href="nl.imkl.snetten.x-ld4"/>
+      
       <us-net-common:utilityNetworkType xlink:href="http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/oilGasChemical"/>
       <us-net-common:authorityRole xlink:href="http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/operator"/>
       <imkl:identificatie>
@@ -398,19 +158,7 @@
   </gml:featureMember>
   <gml:featureMember>
     <imkl:Utiliteitsnet gml:id="nl.imkl.snetten.snetten_ms">
-      <net:elements xlink:href="nl.imkl.snetten.b-1"/>
-      <net:elements xlink:href="nl.imkl.snetten.c-2"/>
-      <net:elements xlink:href="nl.imkl.snetten.c-1"/>
-      <net:elements xlink:href="nl.imkl.snetten.j-2"/>
-      <net:elements xlink:href="nl.imkl.snetten.j-1"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-7"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-8"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-9"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-98"/>
-      <net:elements xlink:href="nl.imkl.snetten.p-3"/>
-      <net:elements xlink:href="nl.imkl.snetten.p-2"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ms7"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ms11"/>
+     
       <us-net-common:utilityNetworkType xlink:href="http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/electricity"/>
       <us-net-common:authorityRole xlink:href="http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/operator"/>
       <imkl:identificatie>
@@ -432,7 +180,7 @@
   </gml:featureMember>
   <gml:featureMember>
     <imkl:Utiliteitsnet gml:id="nl.imkl.snetten.snetten_rh">
-      <net:elements xlink:href="nl.imkl.snetten.t-14"/>
+     
       <us-net-common:utilityNetworkType xlink:href="http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/sewer"/>
       <us-net-common:authorityRole xlink:href="http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/operator"/>
       <imkl:identificatie>
@@ -454,26 +202,7 @@
   </gml:featureMember>
   <gml:featureMember>
     <imkl:Utiliteitsnet gml:id="nl.imkl.snetten.snetten_gh">
-      <net:elements xlink:href="nl.imkl.snetten.a-1"/>
-      <net:elements xlink:href="nl.imkl.snetten.i-4"/>
-      <net:elements xlink:href="nl.imkl.snetten.i-3"/>
-      <net:elements xlink:href="nl.imkl.snetten.l-4"/>
-      <net:elements xlink:href="nl.imkl.snetten.l-2"/>
-      <net:elements xlink:href="nl.imkl.snetten.m-1"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-13"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-14"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-33"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-34"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-35"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-112"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-113"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-114"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-115"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ls11"/>
-      <net:elements xlink:href="nl.imkl.snetten.x-hd1"/>
-      <net:elements xlink:href="nl.imkl.snetten.x-hd2"/>
-      <net:elements xlink:href="nl.imkl.snetten.x-hd3"/>
-      <net:elements xlink:href="nl.imkl.snetten.x-hd4"/>
+     
       <us-net-common:utilityNetworkType xlink:href="http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/oilGasChemical"/>
       <us-net-common:authorityRole xlink:href="http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/operator"/>
       <imkl:identificatie>
@@ -516,25 +245,7 @@
   </gml:featureMember>
   <gml:featureMember>
     <imkl:Utiliteitsnet gml:id="nl.imkl.snetten.snetten_ls3">
-      <net:elements xlink:href="nl.imkl.snetten.n-2"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-3"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-4"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-5"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-6"/>
-      <net:elements xlink:href="nl.imkl.snetten.p-4"/>
-      <net:elements xlink:href="nl.imkl.snetten.p-1"/>
-      <net:elements xlink:href="nl.imkl.snetten.k-4"/>
-      <net:elements xlink:href="nl.imkl.snetten.k-3"/>
-      <net:elements xlink:href="nl.imkl.snetten.k-2"/>
-      <net:elements xlink:href="nl.imkl.snetten.k-1"/>
-      <net:elements xlink:href="nl.imkl.snetten.q-4"/>
-      <net:elements xlink:href="nl.imkl.snetten.q-3"/>
-      <net:elements xlink:href="nl.imkl.snetten.q-2"/>
-      <net:elements xlink:href="nl.imkl.snetten.q-1"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ls3"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ls4"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ls5"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-2"/>
+      
       <us-net-common:utilityNetworkType xlink:href="http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/electricity"/>
       <us-net-common:authorityRole xlink:href="http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/operator"/>
       <imkl:identificatie>
@@ -556,33 +267,7 @@
   </gml:featureMember>
   <gml:featureMember>
     <imkl:Utiliteitsnet gml:id="nl.imkl.snetten.snetten_ms2">
-      <net:elements xlink:href="nl.imkl.snetten.i-6"/>
-      <net:elements xlink:href="nl.imkl.snetten.i-2"/>
-      <net:elements xlink:href="nl.imkl.snetten.l-1"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-10"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-11"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-12"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-40"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-117"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-118"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ms1"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ms2"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ms3"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ms4"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ms5"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ms6"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ms8"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ms9"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ms10"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-ms12"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-3"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-4"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-5"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-6"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-7"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-8"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-9"/>
-      <net:elements xlink:href="nl.imkl.snetten.y-10"/>
+     
       <us-net-common:utilityNetworkType xlink:href="http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/electricity"/>
       <us-net-common:authorityRole xlink:href="http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/operator"/>
       <imkl:identificatie>
@@ -604,13 +289,7 @@
   </gml:featureMember>
   <gml:featureMember>
     <imkl:Utiliteitsnet gml:id="nl.imkl.snetten.snetten4">
-      <net:elements xlink:href="nl.imkl.snetten.e-3"/>
-      <net:elements xlink:href="nl.imkl.snetten.e-2"/>
-      <net:elements xlink:href="nl.imkl.snetten.e-1"/>
-      <net:elements xlink:href="nl.imkl.snetten.i-5"/>
-      <net:elements xlink:href="nl.imkl.snetten.n-39"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-hs1"/>
-      <net:elements xlink:href="nl.imkl.snetten.w-hs2"/>
+     
       <us-net-common:utilityNetworkType xlink:href="http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/electricity"/>
       <us-net-common:authorityRole xlink:href="http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/operator"/>
       <imkl:identificatie>
@@ -632,7 +311,7 @@
   </gml:featureMember>
   <gml:featureMember>
     <imkl:Utiliteitsnet gml:id="nl.imkl.snetten.snetten_ld">
-      <net:elements xlink:href="nl.imkl.snetten.h-1"/>
+     
       <us-net-common:utilityNetworkType xlink:href="http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/oilGasChemical"/>
       <us-net-common:authorityRole xlink:href="http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/operator"/>
       <imkl:identificatie>
@@ -11144,7 +10823,7 @@
       </imkl:identificatie>
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
       <imkl:diepteNauwkeurigheid xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/NauwkeurigheidDiepteValue/tot50cm"/>
-      <imkl:dieptePeil uom="urn:ogc:def:uom:OGC::cm">2</imkl:dieptePeil>
+      <imkl:dieptePeil uom="urn:ogc:def:uom:OGC::m">2</imkl:dieptePeil>
       <imkl:diepteAangrijpingspunt xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/DiepteAangrijpingspuntValue/bovenkant"/>
       <imkl:ligging>
         <gml:Point srsName="EPSG:28992" gml:id="geomid.nl.imkl.snetten.f-2">
@@ -11164,7 +10843,7 @@
       </imkl:identificatie>
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
       <imkl:diepteNauwkeurigheid xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/NauwkeurigheidDiepteValue/tot50cm"/>
-      <imkl:dieptePeil uom="urn:ogc:def:uom:OGC::cm">2</imkl:dieptePeil>
+      <imkl:dieptePeil uom="urn:ogc:def:uom:OGC::m">2</imkl:dieptePeil>
       <imkl:diepteAangrijpingspunt xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/DiepteAangrijpingspuntValue/bovenkant"/>
       <imkl:ligging>
         <gml:Point srsName="EPSG:28992" gml:id="geomid.nl.imkl.snetten.f-1">
@@ -11397,6 +11076,7 @@
         </imkl:NEN3610ID>
       </imkl:identificatie>
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
+      <imkl:label>testwaarde</imkl:label>
       <imkl:inNetwork xlink:href="nl.imkl.snetten.snetten_ms"/>
       <imkl:annotatieType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AnnotatieTypeValue/annotatielabel"/>
       <imkl:ligging>
@@ -11415,6 +11095,7 @@
         </imkl:NEN3610ID>
       </imkl:identificatie>
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
+      <imkl:label>testwaarde</imkl:label>
       <imkl:inNetwork xlink:href="nl.imkl.snetten.snetten_ms"/>
       <imkl:annotatieType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AnnotatieTypeValue/annotatielabel"/>
       <imkl:ligging>
@@ -11531,6 +11212,7 @@
         </imkl:NEN3610ID>
       </imkl:identificatie>
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
+      <imkl:label>testwaarde</imkl:label>
       <imkl:inNetwork xlink:href="nl.imkl.snetten.snetten_ms"/>
       <imkl:maatvoeringsType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringslabel"/>
       <imkl:ligging>
@@ -11549,6 +11231,7 @@
         </imkl:NEN3610ID>
       </imkl:identificatie>
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
+      <imkl:label>testwaarde</imkl:label>
       <imkl:inNetwork xlink:href="nl.imkl.snetten.snetten_ms"/>
       <imkl:maatvoeringsType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringslabel"/>
       <imkl:ligging>
@@ -11567,6 +11250,7 @@
         </imkl:NEN3610ID>
       </imkl:identificatie>
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
+       <imkl:label>testwaarde</imkl:label>
       <imkl:inNetwork xlink:href="nl.imkl.snetten.snetten_ls"/>
       <imkl:maatvoeringsType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringslabel"/>
       <imkl:ligging>
@@ -11585,6 +11269,7 @@
         </imkl:NEN3610ID>
       </imkl:identificatie>
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
+       <imkl:label>testwaarde</imkl:label>
       <imkl:inNetwork xlink:href="nl.imkl.snetten.snetten_ls"/>
       <imkl:maatvoeringsType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringslabel"/>
       <imkl:ligging>
@@ -12075,6 +11760,15 @@
       </imkl:identificatie>
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
       <imkl:inNetwork xlink:href="nl.imkl.snetten.snetten_ld"/>
+      <imkl:adres>
+							<imkl:Adres>
+								<imkl:openbareRuimteNaam>kabelstraat</imkl:openbareRuimteNaam>
+								<imkl:huisnummer>1</imkl:huisnummer>
+								<imkl:woonplaatsNaam>Kabelstad</imkl:woonplaatsNaam>
+								<imkl:postcode>1111AB</imkl:postcode>
+								<imkl:landcode>NL</imkl:landcode>
+							</imkl:Adres>
+						</imkl:adres>
       <imkl:extraInfoType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/ExtraDetailInfoTypeValue/huisaansluiting"/>
       <imkl:bestandLocatie>gas_aansluitschets_snetten.tiff</imkl:bestandLocatie>
       <imkl:bestandMediaType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/BestandMediaTypeValue/PDF"/>
