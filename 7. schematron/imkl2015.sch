@@ -20,16 +20,18 @@
      Asserts kunnen bij meerdere rules herhaald worden. Deze zijn gewoon gekopieerd. 
     -->
     
+    <!-- door LvdB, Geonovum, juli 2016 -->
+    
     <sch:pattern>
         <sch:rule context="imkl:Annotatie">
             <sch:assert test="imkl:ligging[gml:Point|gml:Curve]">De geometrie bij een <sch:value-of select="local-name()"/> moet een lijn of punt zijn.</sch:assert>
-            <sch:assert test="not(normalize-space(imkl:rotatiehoek)) or ((imkl:annotatieType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waardelijst/AnnotatieTypeValue/annotatiepijlpunt' or
-                imkl:annotatieTYpe/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waardelijst/AnnotatieTypeValue/annotatielabel') and normalize-space(imkl:rotatiehoek))">
+            <sch:assert test="not(normalize-space(imkl:rotatiehoek)) or ((imkl:annotatieType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/AnnotatieTypeValue/annotatiepijlpunt' or
+                imkl:annotatieTYpe/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/AnnotatieTypeValue/annotatielabel') and normalize-space(imkl:rotatiehoek))">
                 Alleen een Annotatie met annotatieType 'annotatiepijlpunt' of 'annotatielabel' heeft een rotatiehoek. </sch:assert>
            <sch:assert test="(
-                 not(imkl:annotatieType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waardelijst/AnnotatieTypeValue/annotatielabel') 
+                 not(imkl:annotatieType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/AnnotatieTypeValue/annotatielabel') 
                 and not(normalize-space(label)))
-                or (imkl:annotatieType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waardelijst/AnnotatieTypeValue/annotatielabel'
+                or (imkl:annotatieType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/AnnotatieTypeValue/annotatielabel'
                 and normalize-space(imkl:label))">Bij een annotatielabel hoort verplicht een labelwaarde</sch:assert>
         </sch:rule>
               
@@ -53,8 +55,8 @@
         <sch:rule context="imkl:ExtraDetailinfo">
             <sch:assert test="imkl:ligging[gml:Point|gml:Curve|gml:Surface]">Geometrie van <sch:value-of select="local-name()"/> is punt, lijn of vlak</sch:assert>
             <sch:assert test="(not
-                (imkl:extraInfoType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waardelijst/ExtraDetailInfoTypeValue/huisaansluiting') 
-                or (imkl:extraInfoType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waardelijst/ExtraDetailInfoTypeValue/huisaansluiting' and imkl:adres))">
+                (imkl:extraInfoType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/ExtraDetailInfoTypeValue/huisaansluiting') 
+                or (imkl:extraInfoType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/ExtraDetailInfoTypeValue/huisaansluiting' and imkl:adres))">
                 Een huisaansluiting heeft verplicht een attribuut adres
             </sch:assert>
         </sch:rule>
@@ -64,22 +66,22 @@
         </sch:rule>
         
         <sch:rule context="imkl:Maatvoering">
-            <sch:assert test="((imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waardelijst/MaatvoeringsTypeValue/maatvoeringslijn' or
-                imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waardelijst/MaatvoeringsTypeValue/maatvoeringshulplijn') and 
+            <sch:assert test="((imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringslijn' or
+                imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringshulplijn') and 
                 imkl:ligging/gml:Curve) or 
-                ((imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waardelijst/MaatvoeringsTypeValue/maatvoeringspijlpunt' or
-                imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waardelijst/MaatvoeringsTypeValue/maatvoeringslabel') and 
+                ((imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringspijlpunt' or
+                imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringslabel') and 
                 imkl:ligging/gml:Point)">De geometrie bij een <sch:value-of select="local-name()"/> moet een lijn zijn als het een maatvoeringslijn of - hulplijn is, 
-                en moet een punt zijn als het een pijlpunt of label is.</sch:assert>
+                en moet een punt zijn als het een pijlpunt of label is. </sch:assert>
             <sch:assert test="not(normalize-space(imkl:rotatiehoek)) or 
-                ((imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waardelijst/MaatvoeringsTypeValue/maatvoeringspijlpunt' or
-                imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waardelijst/MaatvoeringsTypeValue/maatvoeringslabel') 
+                ((imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringspijlpunt' or
+                imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringslabel') 
                 and normalize-space(imkl:rotatiehoek))">
                 Alleen een <sch:value-of select="local-name()"/> met maatvoeringsType 'maatvoeringspijlpunt' of 'maatvoeringslabel' heeft een rotatiehoek. </sch:assert>
             <sch:assert test="(
-                not(imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waardelijst/MaatvoeringsTypeValue/maatvoeringslabel') 
+                not(imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringslabel') 
                 and not(normalize-space(label)))
-                or (imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waardelijst/MaatvoeringsTypeValue/maatvoeringslabel'
+                or (imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringslabel'
                 and normalize-space(imkl:label))">Bij een annotatielabel hoort verplicht een labelwaarde</sch:assert>
         </sch:rule>
         
@@ -91,11 +93,9 @@
         <sch:rule context="imkl:Utiliteitsnet/net:elements">
             <sch:assert test="count(/gml:FeatureCollection/gml:featureMember/*[@gml:id = current()/@xlink:href][self::imkl:Utiliteitsnet]) = 0">Een netwerk kan niet naar een andere netwerk verwijzen.</sch:assert>
         </sch:rule>
-        <!--
-                Laatste constraint van Utililteitsnet nog niet geimplementeerd. 
-        <sch:rule>
-            <sch:assert test="">er is geen verwijzing van een netwerk naar de netelementen daarvan</sch:assert>
-        </sch:rule>-->
+
+        <sch:rule context="imkl:Utiliteitsnet">
+            <sch:assert test="not(net:elements)">Er is geen verwijzing van een netwerk naar de netelementen daarvan.</sch:assert>
+        </sch:rule>
     </sch:pattern>
 </sch:schema>
-<!-- or -->
