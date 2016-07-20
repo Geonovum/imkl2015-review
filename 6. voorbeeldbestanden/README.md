@@ -12,9 +12,9 @@ Daarnaast staan hier twee voorbeelbestanden:
 
 Deze zijn nog niet gevalideerd op de in het UML opgenomen constraints en het "extra regels document".
 
-VoorbeeldbestandBest.gml - Dit voorbeeldbestand heeft van allerlei kabel- en
-   leidingen 1 voorbeeld.
-VoorbeeldbestandTopologie.gml - Dit is voorbeeldstand van imkl2015 bestand met topologie. Het zijn
+VoorbeeldbestandBest.IMKL2015-v1.1_snetten.gml - Dit voorbeeldbestand heeft van allerlei kabel- en
+   leidingen.
+VoorbeeldbestandTopologie_snetten.gml - Dit is voorbeeldstand van imkl2015 bestand met topologie. Het zijn
 gasleidinging uit het open data bestand van Enexis. De gasleidingen zijn
 gecodeerd as links en als er twee gasleidingen op hetzelfde punt eindigen is
 op die plek een Appurtenance van het type connectionBox neergezet. Dit klopt
