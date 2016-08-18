@@ -16,89 +16,88 @@
     OCL:
     -->
     
-    <!-- LET OP bij beheer vna dit schematron bestand 
+    <!-- LET OP bij beheer van dit schematron bestand 
      Asserts kunnen bij meerdere rules herhaald worden. Deze zijn gewoon gekopieerd. 
     -->
     
     <!-- door LvdB, Geonovum, juli 2016 -->
-    
-    <!-- opmerking: zet gml:id in de foutmelding -->
-    
-    <sch:pattern>
-        <sch:rule context="imkl:Annotatie">
-            <sch:assert test="imkl:ligging[gml:Point|gml:Curve]">De geometrie bij een <sch:value-of select="local-name()"/> moet een lijn of punt zijn.</sch:assert>
-            <!-- opmerking: werkt niet voor een annotatielabel die foutief geen rotatiehoek heeft -->
-            <sch:assert test="not(normalize-space(imkl:rotatiehoek)) or ((imkl:annotatieType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/AnnotatieTypeValue/annotatiepijlpunt' or
+        
+    <sch:pattern id="IMKL2015BusinessRules">
+        <sch:rule context="imkl:Annotatie" id="RegelsVoorAnnotaties">
+            <sch:assert id="AnnotatieGeometrie" test="imkl:ligging[gml:Point|gml:Curve]">Element met gml:id <sch:value-of select="@gml:id"/>: De geometrie bij een <sch:value-of select="local-name()"/> moet een lijn of punt zijn.</sch:assert>
+            <sch:assert id="AnnotatieRotatiehoek" test="(not(normalize-space(imkl:rotatiehoek)) and not(imkl:annotatieType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/AnnotatieTypeValue/annotatiepijlpunt' or
+                imkl:annotatieType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/AnnotatieTypeValue/annotatielabel')) or ((imkl:annotatieType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/AnnotatieTypeValue/annotatiepijlpunt' or
                 imkl:annotatieType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/AnnotatieTypeValue/annotatielabel') and normalize-space(imkl:rotatiehoek))">
-                Alleen een Annotatie met annotatieType 'annotatiepijlpunt' of 'annotatielabel' heeft een rotatiehoek. </sch:assert>
-           <sch:assert test="(
+                Element met gml:id <sch:value-of select="@gml:id"/>: Een Annotatie met annotatieType 'annotatiepijlpunt' of 'annotatielabel' heeft verplicht een rotatiehoek. Andere notatietypen hebben geen rotatiehoek.</sch:assert>
+           <sch:assert id="AnnotatieLabel" test="(
                  not(imkl:annotatieType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/AnnotatieTypeValue/annotatielabel') 
                 and not(normalize-space(label)))
                 or (imkl:annotatieType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/AnnotatieTypeValue/annotatielabel'
-                and normalize-space(imkl:label))">Bij een annotatielabel hoort verplicht een labelwaarde</sch:assert>
+                and normalize-space(imkl:label))">Element met gml:id <sch:value-of select="@gml:id"/>: Bij een annotatielabel hoort verplicht een labelwaarde</sch:assert>
         </sch:rule>
               
-        <sch:rule context="imkl:rotatiehoekSymbool|imkl:rotatiehoek">
-            <sch:assert test="@uom='urn:ogc:def:uom:OGC::deg'">Rotatiehoek moet in graden zijn</sch:assert>
+        <sch:rule id="RegelsVoorRotatiehoek" context="imkl:rotatiehoekSymbool|imkl:rotatiehoek">
+            <sch:assert id="RotatiehoekGraden" test="@uom='urn:ogc:def:uom:OGC::deg'">Element met gml:id <sch:value-of select="../@gml:id"/>: Rotatiehoek moet in graden zijn</sch:assert>
         </sch:rule>
         
-        <sch:rule context="imkl:dieptePeil|imkl:maaiveldPeil|imkl:standaardDieptelegging">
-            <sch:assert test="@uom='urn:ogc:def:uom:OGC::m'">Voor WION is diepte in meters met maximaal 2 decimalen</sch:assert>
-            <!-- opmerking: nog test op 2 decimalen toevoegen -->
+        <sch:rule id="RegelsVoorDieptepeil" context="imkl:dieptePeil|imkl:maaiveldPeil|imkl:standaardDieptelegging">
+            <sch:assert id="StandaardDiepteLeggingMeters" test="@uom='urn:ogc:def:uom:OGC::m' and string-length(substring-after(., '.')) &lt; 3">Element met gml:id <sch:value-of select="../@gml:id"/>: Voor WION is diepte in meters met maximaal 2 decimalen</sch:assert>
         </sch:rule>
                 
-        <sch:rule context="imkl:Duct|imkl:Elektriciteitskabel|imkl:Kast|imkl:Mangat|imkl:Mast|imkl:OlieGasChemicalienPijpleiding|imkl:Rioolleiding|imkl:TechnischGebouw
+        <sch:rule id="RegelsINSPIRE" context="imkl:Duct|imkl:Elektriciteitskabel|imkl:Kast|imkl:Mangat|imkl:Mast|imkl:OlieGasChemicalienPijpleiding|imkl:Rioolleiding|imkl:TechnischGebouw
             |imkl:Telecommunicatiekabel|imkl:ThermischePijpleiding|imkl:Toren|imkl:Waterleiding">
-            <sch:assert test="not(us-net-common:governmentalServiceReference)">Het INSPIRE attribuut governmental service reference wordt niet gebruikt bij <sch:value-of select="local-name()"/>.</sch:assert>
+            <sch:assert id="GovernmentalServiceReference" test="not(us-net-common:governmentalServiceReference)">Element met gml:id <sch:value-of select="@gml:id"/>: Het INSPIRE attribuut governmental service reference wordt niet gebruikt bij <sch:value-of select="local-name()"/>.</sch:assert>
         </sch:rule>
         
-        <sch:rule context="imkl:EigenTopografie">
-            <sch:assert test="imkl:ligging[gml:Point|gml:Curve|gml:Surface]">Geometrie van <sch:value-of select="local-name()"/> is punt, lijn of vlak</sch:assert>
+        <sch:rule id="RegelsEigenTopografie" context="imkl:EigenTopografie">
+            <sch:assert id="GeometrieEigenTopografie" test="imkl:ligging[gml:Point|gml:Curve|gml:Surface]">Element met gml:id <sch:value-of select="@gml:id"/>: Geometrie van <sch:value-of select="local-name()"/> is punt, lijn of vlak</sch:assert>
         </sch:rule>
         
-        <sch:rule context="imkl:ExtraDetailinfo">
-            <sch:assert test="imkl:ligging[gml:Point|gml:Curve|gml:Surface]">Geometrie van <sch:value-of select="local-name()"/> is punt, lijn of vlak</sch:assert>
-            <sch:assert test="(not
+        <sch:rule id="RegelsExtraDetailInfo" context="imkl:ExtraDetailinfo">
+            <sch:assert id="GeometrieExtraDetailInfo" test="imkl:ligging[gml:Point|gml:Curve|gml:Surface]">Element met gml:id <sch:value-of select="@gml:id"/>: Geometrie van <sch:value-of select="local-name()"/> is punt, lijn of vlak</sch:assert>
+            <sch:assert id="Huisaansluiting" test="(not
                 (imkl:extraInfoType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/ExtraDetailInfoTypeValue/huisaansluiting') 
                 or (imkl:extraInfoType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/ExtraDetailInfoTypeValue/huisaansluiting' and imkl:adres))">
-                Een huisaansluiting heeft verplicht een attribuut adres
+                Element met gml:id <sch:value-of select="@gml:id"/>: Een huisaansluiting heeft verplicht een attribuut adres
             </sch:assert>
         </sch:rule>
         
-        <sch:rule context="imkl:NEN3610ID">
-            <sch:assert test="not(imkl:versie)">Het versie attribuut is niet toegestaan</sch:assert>
+        <sch:rule id="RegelsNEN3610" context="imkl:NEN3610ID">
+            <sch:assert id="VersieAttribuut" test="not(imkl:versie)">Element met gml:id <sch:value-of select="../../@gml:id"/>: Het versie attribuut is niet toegestaan</sch:assert>
         </sch:rule>
         
-        <sch:rule context="imkl:Maatvoering">
-            <sch:assert test="((imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringslijn' or
+        <sch:rule id="RegelsMaatvoering" context="imkl:Maatvoering">
+            <sch:assert id="GeometrieMaatvoering" test="((imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringslijn' or
                 imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringshulplijn') and 
                 imkl:ligging/gml:Curve) or 
                 ((imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringspijlpunt' or
                 imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringslabel') and 
-                imkl:ligging/gml:Point)">De geometrie bij een <sch:value-of select="local-name()"/> moet een lijn zijn als het een maatvoeringslijn of - hulplijn is, 
+                imkl:ligging/gml:Point)">Element met gml:id <sch:value-of select="@gml:id"/>: De geometrie bij een <sch:value-of select="local-name()"/> moet een lijn zijn als het een maatvoeringslijn of - hulplijn is, 
                 en moet een punt zijn als het een pijlpunt of label is. </sch:assert>
-                <!-- Opemrking: werkt niet, bij maatvoeringspijlpunt die geen foutief geen rotatiehoek heeft --> 
-            <sch:assert test="not(normalize-space(imkl:rotatiehoek)) or 
+            <sch:assert id="MaatvoeringRotatiehoek" test="(not(normalize-space(imkl:rotatiehoek)) and not(imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringspijlpunt' or
+                imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringslabel')) or 
                 ((imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringspijlpunt' or
                 imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringslabel') 
                 and normalize-space(imkl:rotatiehoek))">
-                Alleen een <sch:value-of select="local-name()"/> met maatvoeringsType 'maatvoeringspijlpunt' of 'maatvoeringslabel' heeft een rotatiehoek. </sch:assert>
-            <sch:assert test="(
+                Element met gml:id <sch:value-of select="@gml:id"/>: Een <sch:value-of select="local-name()"/> met maatvoeringsType 'maatvoeringspijlpunt' of 'maatvoeringslabel' heeft verplicht een rotatiehoek. Andere maatvoeringstypen hebben geen rotatiehoek.</sch:assert>
+            <sch:assert id="MaatvoeringLabel" test="(
                 not(imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringslabel') 
                 and not(normalize-space(imkl:label)))
                 or (imkl:maatvoeringsType/@xlink:href='http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringslabel'
-                and normalize-space(imkl:label))">Bij een maatvoeringslabel hoort verplicht een labelwaarde</sch:assert>
+                and normalize-space(imkl:label))">Element met gml:id <sch:value-of select="@gml:id"/>: Bij een maatvoeringslabel hoort verplicht een labelwaarde</sch:assert>
         </sch:rule>
         
-        <sch:rule context="imkl:Mantelbuis">
-            <sch:assert test="not(us-net-common:pressure)">Het INSPIRE attribuut pressure wordt niet ingevuld bij <sch:value-of select="local-name()"/>.</sch:assert>
-            <sch:assert test="not(us-net-common:governmentalServiceReference)">Het INSPIRE attribuut governmental service reference wordt niet gebruikt bij <sch:value-of select="local-name()"/>.</sch:assert>
+        <sch:rule id="RegelsMantelbuis" context="imkl:Mantelbuis">
+            <sch:assert id="PressureMantelbuis" test="not(us-net-common:pressure)">Element met gml:id <sch:value-of select="@gml:id"/>: Het INSPIRE attribuut pressure wordt niet ingevuld bij <sch:value-of select="local-name()"/>.</sch:assert>
+            <sch:assert id="GovernmentalServiceReferenceMantelbuis" test="not(us-net-common:governmentalServiceReference)">Element met gml:id <sch:value-of select="@gml:id"/>: Het INSPIRE attribuut governmental service reference wordt niet gebruikt bij <sch:value-of select="local-name()"/>.</sch:assert>
         </sch:rule>
         
-        <sch:rule context="imkl:Utiliteitsnet">
-        <sch:assert test="not(us-net-common:networks)">Associatie 'networks' voor verwijzing naar subnetwerken is niet toegestaan.</sch:assert>
-          <!--  <sch:assert test="count(/gml:FeatureCollection/gml:featureMember/*[@gml:id = current()/@xlink:href][self::imkl:Utiliteitsnet]) = 0">Een netwerk kan niet naar een andere netwerk verwijzen.</sch:assert> -->
-        <sch:assert test="not(net:elements)">Associatie 'elements' voor verwijzing van een netwerk naar de netelementen daarvan is niet toegestaan.</sch:assert>
+        <sch:rule id="RegelsNetElements" context="imkl:Utiliteitsnet">
+            <sch:assert test="not(us-net-common:networks)">Element met gml:id <sch:value-of select="@gml:id"/>: Associatie 'networks' voor verwijzing naar subnetwerken is niet toegestaan.</sch:assert>
+        </sch:rule>
+
+        <sch:rule id="RegelsUtiliteitsnet" context="imkl:Utiliteitsnet">
+            <sch:assert id="LinksNaarElements" test="not(net:elements)">Element met gml:id <sch:value-of select="@gml:id"/>: Associatie 'elements' voor verwijzing van een netwerk naar de netelementen daarvan is niet toegestaan.</sch:assert>
         </sch:rule>
 
     </sch:pattern>

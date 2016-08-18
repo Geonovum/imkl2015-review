@@ -10862,7 +10862,8 @@
       </imkl:identificatie>
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
       <imkl:diepteNauwkeurigheid xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/NauwkeurigheidDiepteValue/tot50cm"/>
-      <imkl:dieptePeil uom="urn:ogc:def:uom:OGC::m">2</imkl:dieptePeil>
+      <!-- fout diepte moet met max 2 decimalen :OK -->
+      <imkl:dieptePeil uom="urn:ogc:def:uom:OGC::m">2.555</imkl:dieptePeil>
       <imkl:diepteAangrijpingspunt xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/DiepteAangrijpingspuntValue/bovenkant"/>
       <imkl:ligging>
         <gml:Point srsName="EPSG:28992" gml:id="geomid.nl.imkl.snetten.f-1">
@@ -11113,7 +11114,7 @@
       <imkl:label>testwaarde</imkl:label>
       <imkl:inNetwork xlink:href="nl.imkl.snetten.snetten_ms"/>
       <imkl:annotatieType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AnnotatieTypeValue/annotatielabel"/>
-      <!-- fout rotatiehoek is niet gebruikt -->
+      <!-- fout rotatiehoek is niet gebruikt OK -->
       <imkl:ligging>
       <!-- fout Annotatie als surface: OK-->
       <gml:MultiPoint gml:id="geomid.nl.imkl.snetten.c-x2">
@@ -11182,7 +11183,7 @@
       <imkl:beginLifespanVersion>2001-12-17T09:30:47.0Z</imkl:beginLifespanVersion>
       <imkl:inNetwork xlink:href="nl.imkl.snetten.snetten_ls"/>
       <imkl:maatvoeringsType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/maatvoeringspijlpunt"/>
-<!-- fout, pijlpunt heeft verplicht een rotatiehoek -->
+<!-- fout, pijlpunt heeft verplicht een rotatiehoek OK -->
      
      <!--
       <imkl:rotatiehoek uom="urn:ogc:def:uom:OGC::deg">91</imkl:rotatiehoek> -->
