@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 	Schematron regels gebaseerd op de OCL constraints van IMKL2015 -->
+<!-- 	door LvdB, Geonovum, 2016 -->
+<!--	versie info:
+		20160819: getest aan de hand voorbeeldfouten en aangepast 
+		201607xx: eerste initiele versie  -->
+<!-- ================================================================== -->
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">    
     <sch:ns prefix="gml" uri="http://www.opengis.net/gml/3.2"/>
     <sch:ns uri="http://www.geostandaarden.nl/imkl/2015/wion/1.1" prefix="imkl"/>
@@ -20,7 +26,7 @@
      Asserts kunnen bij meerdere rules herhaald worden. Deze zijn gewoon gekopieerd. 
     -->
     
-    <!-- door LvdB, Geonovum, juli 2016 -->
+   
         
     <sch:pattern id="IMKL2015BusinessRules">
         <sch:rule context="imkl:Annotatie" id="RegelsVoorAnnotaties">
