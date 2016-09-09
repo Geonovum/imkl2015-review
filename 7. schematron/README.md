@@ -7,4 +7,5 @@ Zie hoofdstuk 8 van IMKL2015_Dataspecificatie.
 Versie informatie:
 
 20160819: 20160819imkl.sch:	Datum is in bestandsnaam opgenomen. Fouten in bestand zijn gecorrigeerd. Aan de hand van een voorbeeldbestand waarin alle fouttypen zijn opgenomen is de vorige versie getest. Een aantal rules bleken niet technisch correct toegepast. Dat is gecorrigeerd in deze versie.
+
 201607xx: imkl2015.sch: 	eerste initiele versie
