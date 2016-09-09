@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 	Schematron regels gebaseerd op de OCL constraints van IMKL2015 -->
 <!-- 	door LvdB, Geonovum, 2016 -->
+<!--   Deze schematronregels zijn de implementatie van de businessrules die bij imkl2015 zijn gedefinieerd. Met het schematron bestand kunnen de imkl bestanden worden gevalideerd op correcte toepassing van de businessrules.
+Zie hoofdstuk 8 van IMKL2015_Dataspecificatie. -->
+<!-- ================================================================== -->
 <!--	versie info:
-		20160819: getest aan de hand voorbeeldfouten en aangepast 
+		20160819: Datum is in bestandsnaam opgenomen. Fouten in bestand zijn gecorrigeerd. Aan de hand van een voorbeeldbestand waarin alle fouttypen zijn opgenomen is de vorige versie getest. Een aantal rules bleken niet technisch correct toegepast. Dat is gecorrigeerd in deze versie.
 		201607xx: eerste initiele versie  -->
 <!-- ================================================================== -->
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">    
