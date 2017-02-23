@@ -31,6 +31,76 @@
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
+                <Rule>
+                    <Name>maatvoeringspijl</Name>
+                    <Title>Maatvoeringspijl</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>maatvoeringsType</ogc:PropertyName>
+                            <ogc:Literal>maatvoeringspijl</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                    <PointSymbolizer>
+                        <Geometry>
+                            <ogc:Function name="startPoint">
+                                <ogc:PropertyName>geometrie</ogc:PropertyName>
+                            </ogc:Function>
+                        </Geometry>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>shape://oarrow</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill">#000000</CssParameter>
+                                </Fill>
+                                <Stroke>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                </Stroke>
+                            </Mark>
+                            <Size>10</Size>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:Function name="startAngle">
+                                        <ogc:PropertyName>geometrie</ogc:PropertyName>
+                                    </ogc:Function>
+                                    <ogc:Literal>180</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
+                        </Graphic>
+                    </PointSymbolizer>
+                    <PointSymbolizer>
+                        <Geometry>
+                            <ogc:Function name="endPoint">
+                                <ogc:PropertyName>geometrie</ogc:PropertyName>
+                            </ogc:Function>
+                        </Geometry>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>shape://oarrow</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill">#000000</CssParameter>
+                                </Fill>
+                                <Stroke>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                </Stroke>
+                            </Mark>
+                            <Size>10</Size>
+                            <Rotation>
+                                <ogc:Function name="endAngle">
+                                    <ogc:PropertyName>geometrie</ogc:PropertyName>
+                                </ogc:Function>
+                            </Rotation>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
             </FeatureTypeStyle>
         </UserStyle>
     </NamedLayer>
