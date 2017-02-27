@@ -113,7 +113,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -183,7 +188,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -269,7 +279,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -343,7 +358,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -407,7 +427,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -471,7 +496,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -541,7 +571,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -605,7 +640,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -675,7 +715,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -749,7 +794,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -813,7 +863,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -877,7 +932,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -955,7 +1015,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -1025,7 +1090,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -1089,7 +1159,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -1167,7 +1242,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -1241,7 +1321,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -1331,7 +1416,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -1395,7 +1485,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -1459,7 +1554,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -1523,7 +1623,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
@@ -1587,7 +1692,12 @@
                                     </CssParameter>
                                 </Fill>
                             </Mark>
-                            <Opacity>1</Opacity>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
                             <Size>16</Size>
                         </Graphic>
                     </PointSymbolizer>
