@@ -603,6 +603,69 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
+                    <Name>mof-z15-16-geen-extrageometrie</Name>
+                    <Title>Mof op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                            <ogc:Literal>ElectricityAppurtenanceTypeIMKLValue/geulmof</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>ttf://IMKL Icons#108</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill">
+                                        <ogc:Function name="Recode">
+                                        <ogc:PropertyName>thema</ogc:PropertyName>
+                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
+                                            <ogc:Literal>#ff7f00</ogc:Literal>
+                                            <ogc:Literal>datatransport</ogc:Literal>
+                                            <ogc:Literal>#00ff00</ogc:Literal>
+                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
+                                            <ogc:Literal>#ffaf3c</ogc:Literal>
+                                            <ogc:Literal>gasLageDruk</ogc:Literal>
+                                            <ogc:Literal>#ffd750</ogc:Literal>
+                                            <ogc:Literal>petrochemie</ogc:Literal>
+                                            <ogc:Literal>#b64a00</ogc:Literal>
+                                            <ogc:Literal>laagspanning</ogc:Literal>
+                                            <ogc:Literal>#960000</ogc:Literal>
+                                            <ogc:Literal>middenspanning</ogc:Literal>
+                                            <ogc:Literal>#c80000</ogc:Literal>
+                                            <ogc:Literal>hoogspanning</ogc:Literal>
+                                            <ogc:Literal>#ff0000</ogc:Literal>
+                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
+                                            <ogc:Literal>#ff0000</ogc:Literal>
+                                            <ogc:Literal>water</ogc:Literal>
+                                            <ogc:Literal>#0000ff</ogc:Literal>
+                                            <ogc:Literal>warmte</ogc:Literal>
+                                            <ogc:Literal>#008080</ogc:Literal>
+                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
+                                            <ogc:Literal>#800080</ogc:Literal>
+                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
+                                            <ogc:Literal>#ba38a8</ogc:Literal>
+                                            <ogc:Literal>wees</ogc:Literal>
+                                            <ogc:Literal>#918a6f</ogc:Literal>
+                                            <ogc:Literal>overig</ogc:Literal>
+                                            <ogc:Literal>#6f5c10</ogc:Literal>
+                                        </ogc:Function>
+                                    </CssParameter>
+                                </Fill>
+                            </Mark>
+                            <Rotation>
+                                <ogc:Add>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    <ogc:Literal>90</ogc:Literal>
+                                </ogc:Add>
+                            </Rotation>
+                            <Size>16</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+                <Rule>
                     <Name>infiltratievoorziening-z15-16-geen-extrageometrie</Name>
                     <Title>Infiltratievoorziening op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
@@ -875,10 +938,6 @@
                     <Title>Mof op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:Or>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
-                                <ogc:Literal>ElectricityAppurtenanceTypeIMKLValue/geulmof</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>ElectricityAppurtenanceTypeIMKLValue/mof</ogc:Literal>
