@@ -9,7 +9,7 @@
         <Name>informatiepolygoon</Name>
         <UserStyle>
             <Title>Informatiepolygoon</Title>
-            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van de informtatiepolygoon</Abstract>
+            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van de informatiepolygoon</Abstract>
             <FeatureTypeStyle>
                 <Rule>
                     <Name>informatiepolygoon</Name>
