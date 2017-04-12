@@ -9,8 +9,8 @@
             <Abstract>Deze stylesheet bevat de regels voor de visualisatie van de oriëntatiepolygoon</Abstract>
             <FeatureTypeStyle>
                 <Rule>
-                    <Name>graafpolygoon</Name>
-                    <Title>Graafpolygoon</Title>
+                    <Name>orientatiepolygoon</Name>
+                    <Title>Oriëntatiepolygoon</Title>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff00ff</CssParameter>
