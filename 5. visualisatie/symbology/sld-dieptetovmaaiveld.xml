@@ -20,7 +20,13 @@
                             </ExternalGraphic>
                             <Size>88</Size>
                             <Rotation>
-                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                <ogc:Function name="if_then_else">
+                                    <ogc:Function name="isNull">
+                                        <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    </ogc:Function>
+                                    <ogc:Literal>0</ogc:Literal>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                </ogc:Function>
                             </Rotation>
                         </Graphic>
                     </PointSymbolizer>

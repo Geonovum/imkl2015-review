@@ -3,10 +3,10 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
     <NamedLayer>
-        <Name>dieptetovmaaiveld</Name>
+        <Name>dieptenap</Name>
         <UserStyle>
-            <Title>Visualisatie van de DiepteTovMaaiveld</Title>
-            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van het objecttype DiepteTovMaaiveld</Abstract>
+            <Title>Visualisatie van de DiepteNAP</Title>
+            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van het objecttype DiepteNAP</Abstract>
             <FeatureTypeStyle>
                 <Rule>
                     <Name>diepteTovMaaiveld</Name>
@@ -20,7 +20,13 @@
                             </ExternalGraphic>
                             <Size>88</Size>
                             <Rotation>
-                                <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                <ogc:Function name="if_then_else">
+                                    <ogc:Function name="isNull">
+                                        <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    </ogc:Function>
+                                    <ogc:Literal>0</ogc:Literal>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                </ogc:Function>
                             </Rotation>
                         </Graphic>
                     </PointSymbolizer>
