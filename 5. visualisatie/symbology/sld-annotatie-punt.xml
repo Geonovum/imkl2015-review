@@ -28,10 +28,16 @@
                             </Mark>
                             <Size>10</Size>
                             <Rotation>
-                                <ogc:Add>
-                                    <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                <ogc:Function name="if_then_else">
+                                    <ogc:Function name="isNull">
+                                        <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                    </ogc:Function>
                                     <ogc:Literal>90</ogc:Literal>
-                                </ogc:Add>
+                                    <ogc:Add>
+                                        <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                    `    <ogc:Literal>90</ogc:Literal>
+                                    </ogc:Add>
+                                </ogc:Function>
                             </Rotation>
                         </Graphic>
                     </PointSymbolizer>
@@ -65,7 +71,13 @@
                                     </AnchorPointY>
                                 </AnchorPoint>
                                 <Rotation>
-                                    <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                    <ogc:Function name="if_then_else">
+                                        <ogc:Function name="isNull">
+                                            <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                        </ogc:Function>
+                                        <ogc:Literal>0</ogc:Literal>
+                                        <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                    </ogc:Function>
                                 </Rotation>
                             </PointPlacement>
                         </LabelPlacement>
