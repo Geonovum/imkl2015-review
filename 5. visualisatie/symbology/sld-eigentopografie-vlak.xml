@@ -6,7 +6,7 @@
         <Name>eigentopografie-lijn</Name>
         <UserStyle>
             <Title>Eigen Topografie</Title>
-            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle objecten uit de objectklasse EigenTopografie met een lijngeometrie obv status en typeTopografischObject</Abstract>
+            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle objecten uit de objectklasse EigenTopografie met een vlakgeometrie obv status en typeTopografischObject</Abstract>
             <FeatureTypeStyle>
                 <Rule>
                     <Name>gepland</Name>
