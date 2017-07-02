@@ -357,13 +357,16 @@ Contactinformatie bij opgetreden beschadiging.
 -- Source --</documentation>
             </annotation>
           </element>
-          <element minOccurs="0" name="netbeheerder" type="wionbr:BeheerderPropertyType">
+          <element minOccurs="0" name="netbeheerder" type="gml:ReferenceType">
             <annotation>
               <documentation>-- Name --
 -- Definition --
 Gegevens van de belanghebbende beheerder.
 -- Description --
 -- Source --</documentation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">wionbr:Beheerder</targetElement>
+              </appinfo>
             </annotation>
           </element>
         </sequence>
@@ -895,13 +898,16 @@ Een veiligheidsgebied is een door de Minister aangewezen gebied waarvan om veili
     <complexContent>
       <extension base="wionbr:BelangGeneriekType">
         <sequence>
-          <element name="beheerderVeiligheidsgebied" type="wionbr:BeheerderPropertyType">
+          <element name="beheerderVeiligheidsgebied" type="gml:ReferenceType">
             <annotation>
               <documentation>-- Name --
 -- Definition --
 Gegevens van de  beheerder van het veiligheidsgebied.
 -- Description --
 -- Source --</documentation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">wionbr:Beheerder</targetElement>
+              </appinfo>
             </annotation>
           </element>
         </sequence>
