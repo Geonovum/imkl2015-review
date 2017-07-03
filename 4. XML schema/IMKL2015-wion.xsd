@@ -1,9 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:wion="http://www.geostandaarden.nl/imkl/2015/wion/1.1" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" xmlns:us-net-el="http://inspire.ec.europa.eu/schemas/us-net-el/4.0" xmlns:us-net-ogc="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0" xmlns:us-net-sw="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0" xmlns:us-net-tc="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0" xmlns:us-net-th="http://inspire.ec.europa.eu/schemas/us-net-th/4.0" xmlns:us-net-wa="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0" elementFormDefault="qualified" targetNamespace="http://www.geostandaarden.nl/imkl/2015/wion/1.1" version="1.1">
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:wion="http://www.geostandaarden.nl/imkl/2015/wion/1.2" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" xmlns:us-net-el="http://inspire.ec.europa.eu/schemas/us-net-el/4.0" xmlns:us-net-ogc="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0" xmlns:us-net-sw="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0" xmlns:us-net-tc="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0" xmlns:us-net-th="http://inspire.ec.europa.eu/schemas/us-net-th/4.0" xmlns:us-net-wa="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0" elementFormDefault="qualified" targetNamespace="http://www.geostandaarden.nl/imkl/2015/wion/1.2" version="1.2.1">
   <annotation>
     <documentation>-- Name --
+IMKL2015 versie 1.2.1
 -- Definition --
 -- Description --
--- Source --</documentation>
+4 profielen:
+wion: IMKL2015-wion.xsd
+wionBR: IMKL2015-wionbr.xsd
+sw: IMKL2015-sw.xsd
+rrb: IMKL2015-rrb.xsd
+-- Source --
+Geonovum-IMKL2015</documentation>
   </annotation>
   <import namespace="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-common/4.0/UtilityNetworksCommon.xsd"/>
   <import namespace="http://inspire.ec.europa.eu/schemas/us-net-el/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-el/4.0/ElectricityNetwork.xsd"/>
@@ -39,6 +46,13 @@ Dit attribuut is bij de aanlevering aan de LV niet ingevuld.
 Dit attribuut is verplicht bij de uitlevering.</documentation>
             </annotation>
           </element>
+          <element name="contactVoorzorgsmaatregel" type="wion:ContactPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Contactgegevens behorende bij EV.</documentation>
+            </annotation>
+          </element>
           <element minOccurs="0" name="netbeheerderNetOmschrijving" type="string">
             <annotation>
               <documentation>-- Name --
@@ -58,16 +72,6 @@ Aanduiding van het risico dat aan een utiliteitsnet of netelement gegeven kan wo
               <documentation>-- Name --
 -- Definition --
 Aanduiding van het risico dat aan de soort werkzaamheden gegeven is bij de bepaling van de te nemen eis voorzorgsmaatregelen.</documentation>
-            </annotation>
-          </element>
-          <element maxOccurs="unbounded" minOccurs="0" name="aanvraagSoort" type="gml:ReferenceType">
-            <annotation>
-              <documentation>-- Name --
--- Definition --
-Aanduiding van het soort Klic-aanvraag (Klic-melding) waarvoor de bepaling van de voorzorgsmaatregel van toepassing is. Als deze niet is ingevuld, geldt de aanduiding ongeacht de soort Klic-aanvraag.</documentation>
-              <appinfo>
-                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">AanvraagSoort</targetCodeList>
-              </appinfo>
             </annotation>
           </element>
           <element name="geometrie" type="gml:SurfacePropertyType">
@@ -91,6 +95,147 @@ Als de geometrie alleen dient om het leidingelement aan te duiden is er een stan
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
+  <element name="AanvraagSoortContact" substitutionGroup="gml:AbstractObject" type="wion:AanvraagSoortContactType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+Het contactadres (meldadres) bij de netbeheerder waar de grondroerder contact mee kan opnemen voor informatie over (het) geraakte belang(en).
+-- Description --
+-- Source --</documentation>
+    </annotation>
+  </element>
+  <complexType name="AanvraagSoortContactType">
+    <sequence>
+      <element name="aanvraagSoort" type="gml:ReferenceType">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Typering van contact in relatie tot het type melding of verzoek.
+-- Description --
+-- Source --</documentation>
+          <appinfo>
+            <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">AanvraagSoortValue</targetCodeList>
+          </appinfo>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="naam" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Naam van het contact.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="telefoon" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Telefoon van het contact.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="email" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+E-mail adres van het contact.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="AanvraagSoortContactPropertyType">
+    <sequence>
+      <element ref="wion:AanvraagSoortContact"/>
+    </sequence>
+  </complexType>
+  <element name="Aanvrager" substitutionGroup="gml:AbstractObject" type="wion:AanvragerType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+Een aanvrager van gebiedsinformatie is een persoon die of bedrijf dat wil weten welke kabels en leidingen er in een bepaald gebied onder de grond liggen.
+-- Description --
+-- Source --</documentation>
+    </annotation>
+  </element>
+  <complexType name="AanvragerType">
+    <sequence>
+      <element minOccurs="0" name="contactpersoon" type="wion:ContactPropertyType">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Persoon als aanspreekpunt namens aanvrager.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="organisatie" type="wion:OrganisatiePropertyType">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Organisatie die aanvraag doet.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="extraEmail" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Extra email naast het emailadres van de contactpersoon.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="AanvragerPropertyType">
+    <sequence>
+      <element ref="wion:Aanvrager"/>
+    </sequence>
+  </complexType>
+  <element name="Achtergrondkaart" substitutionGroup="gml:AbstractObject" type="wion:AchtergrondkaartType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+Referentie naar achtergrondkaart met grootschalige topografie (bestaand of gepland) behorend bij het aangevraagde gebied.
+-- Description --
+-- Source --</documentation>
+    </annotation>
+  </element>
+  <complexType name="AchtergrondkaartType">
+    <sequence>
+      <element name="achtergrondkaartSoort" type="gml:ReferenceType">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Soort achtergrondkaart (Kadaster: bgtBestaand/bgtPlan; netbeheerder: eigenTopoBestaand/eigenTopoPlan).
+-- Description --
+-- Source --</documentation>
+          <appinfo>
+            <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">AchtergrondkaartSoortValue</targetCodeList>
+          </appinfo>
+        </annotation>
+      </element>
+      <element name="kaartreferentie" type="anyURI">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Referentie naar een achtergrondkaart.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="AchtergrondkaartPropertyType">
+    <sequence>
+      <element ref="wion:Achtergrondkaart"/>
+    </sequence>
+  </complexType>
   <element name="Adres" substitutionGroup="gml:AbstractObject" type="wion:AdresType">
     <annotation>
       <documentation>-- Name --
@@ -109,7 +254,6 @@ Adresgegevens van Panden, Ligplaatsen en Staanplaatsen zijn beschreven in de BAG
           <documentation>-- Name --
 openbare ruimte naam
 -- Definition --
--- Definition --
 Een naam die aan een OPENBARE RUIMTE is toegekend in een daartoe strekkend formeel gemeentelijk besluit.
 -- Source --
 BAG</documentation>
@@ -119,7 +263,6 @@ BAG</documentation>
         <annotation>
           <documentation>-- Name --
 huisnummer
--- Definition --
 -- Definition --
 Een door of namens het gemeentebestuur ten aanzien
 van een adresseerbaar object toegekende nummering.
@@ -140,7 +283,7 @@ teken.
 BAG</documentation>
         </annotation>
       </element>
-      <element minOccurs="0" name="huisnummertoevoeging" type="integer">
+      <element minOccurs="0" name="huisnummertoevoeging" type="string">
         <annotation>
           <documentation>-- Name --
 -- Definition --
@@ -176,7 +319,7 @@ De volgende regulier expressie beschrijft het format van een valide volledige po
 BAG. http://www.digitaleoverheid.nl/onderwerpen/stelselinformatiepunt/stelsel-van-basisregistraties/stelselvoorzieningen/stelselcatalogus/begrippen/Adres/BAG/Nummeraanduiding/Postcode-Nummeraanduiding</documentation>
         </annotation>
       </element>
-      <element name="landcode" type="string">
+      <element minOccurs="0" name="landcode" type="string">
         <annotation>
           <documentation>-- Name --
 -- Definition --
@@ -184,18 +327,14 @@ Tweeletterige afkorting van de landsnaam conform ISO 3166 - Country codes
 -- Source --</documentation>
         </annotation>
       </element>
-      <element minOccurs="0" name="identificatieBAG" type="string">
+      <element minOccurs="0" name="BAGidAdresseerbaarObject" type="string">
         <annotation>
           <documentation>-- Name --
-identificatie BAG
+BAGidAdresseerbaarObject
 -- Definition --
-BAG identifier van de nummeraanduiding van het adres zoals geregistreerd bij de BAG.
+BAG identifier van het adresseerbaar object waar een adres aan is toegekend zoals geregistreerd bij de BAG.
 -- Description --
-Adresgegevens van Verblijfsobjecten, Ligplaatsen en Staanplaatsen zijn als nummeraanduiding beschreven in de BAG. En complete nummeraanduiding bestaat uit de volgende 3 componenten:
-• Nummeraanduiding
-• Naam van een openbare ruimte
-• Naam van een woonplaats
-Alleen de identificatie van de nummeraanduiding hoeft te worden opgenomen omdat de andere twee daaruit af te leiden zijn
+De adresseerbare objecten  Verblijfsobjecten, Ligplaatsen en Staanplaatsen zijn via de nummeraanduiding gekoppeld aan een adres. De identificatie van het adresseerbare object wordt genomen omdat dit het meest aansluit bij de registratie van de netbeheerders.
 -- Source --</documentation>
         </annotation>
       </element>
@@ -419,6 +558,427 @@ De hoogte betreft de lengte van het hele leidingelement in verticale richting on
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
+  <element name="Beheerder" substitutionGroup="gml:AbstractFeature" type="wion:BeheerderType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+Een persoon of een organisatie die een net of een veiligheidsgebied beheert.
+-- Description --
+-- Source --</documentation>
+    </annotation>
+  </element>
+  <complexType name="BeheerderType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identificatie" type="wion:NEN3610IDPropertyType">
+            <annotation>
+              <documentation>identificatie: -- Name --
+identificatie
+-- Definition --
+Unieke identificatie van het object binnen het domein van NEN 3610.
+-- Source --
+NEN 3610:2011</documentation>
+            </annotation>
+          </element>
+          <element name="beginLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De begindatum waarop een data object in de registratie werd aangemaakt, het begin van de levenscyclus van een data object.
+-- Description --
+Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten. Voor niet INSPIRE plichtige datasets kan hier een dummy waarde worden ingevuld.
+Dit attribuut heeft DateTime als data type.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De datum die het einde van een levenscyclus van een data object aangeeft. 
+-- Description --
+Het moment vanaf wanneer het geen onderdeel meer is van de actuele registratie. Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten.
+Dit attribuut heeft DateTime als data type.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="bronhoudercode" type="string">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Code van de beheerder.
+-- Description --
+De code bestaat uit zes alfanumerieke posities. Dit is afgestemd met het format van  CBS codes voor gemeenten en provincies.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="websiteKlic" type="string">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Startpagina van de website van de (net)beheerder met specifieke informatie voor de Klic-sector (graafsector).
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="organisatie" type="wion:OrganisatiePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="BeheerderPropertyType">
+    <sequence minOccurs="0">
+      <element ref="wion:Beheerder"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Belang" substitutionGroup="wion:BelangGeneriek" type="wion:BelangType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+Een gebied waarin een netbeheerder een of meerdere netten heeft.
+-- Description --
+-- Source --
+Bron: belangenregistratie.</documentation>
+    </annotation>
+  </element>
+  <complexType name="BelangType">
+    <complexContent>
+      <extension base="wion:BelangGeneriekType">
+        <sequence>
+          <element maxOccurs="unbounded" name="thema" type="gml:ReferenceType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Het thema geeft aan welk type leiding het betreft en welke functie de leidingen hebben. Bijvoorbeeld datatransport, gas lage druk, laagspanning, riool etc. Gekozen kan worden uit een lijst van thema’s.
+-- Description --
+Opmerking: Signaleringskabels die data vervoeren vallen onder datatransport.
+-- Source --</documentation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">Thema</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="3" minOccurs="0" name="contactNetinformatie" type="wion:AanvraagSoortContactPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Contactgegevens voor netinformatie.
+-- Description --
+Netinformatie is informatie over een utiliteitsnet
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="contactStoring" type="wion:ContactPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Contactinformatie bij optreden storing.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="contactBeschadiging" type="wion:ContactPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Contactinformatie bij opgetreden beschadiging.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="netbeheerder" type="wion:BeheerderPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Gegevens van de belanghebbende beheerder.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="BelangPropertyType">
+    <sequence minOccurs="0">
+      <element ref="wion:Belang"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="BelangGeneriek" substitutionGroup="gml:AbstractFeature" type="wion:BelangGeneriekType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+Een gebied waarin een netbeheerder een of meerdere netten heeft. Of het is een veiligheidsgebied.
+-- Description --
+-- Source --
+Bron: belangenregistratie.</documentation>
+    </annotation>
+  </element>
+  <complexType abstract="true" name="BelangGeneriekType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identificatie" type="wion:NEN3610IDPropertyType">
+            <annotation>
+              <documentation>identificatie: -- Name --
+identificatie
+-- Definition --
+Unieke identificatie van het object binnen het domein van NEN 3610.
+-- Source --
+NEN 3610:2011</documentation>
+            </annotation>
+          </element>
+          <element name="beginLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De begindatum waarop een data object in de registratie werd aangemaakt, het begin van de levenscyclus van een data object.
+-- Description --
+Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten. Voor niet INSPIRE plichtige datasets kan hier een dummy waarde worden ingevuld.
+Dit attribuut heeft DateTime als data type.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De datum die het einde van een levenscyclus van een data object aangeeft. 
+-- Description --
+Het moment vanaf wanneer het geen onderdeel meer is van de actuele registratie. Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten.
+Dit attribuut heeft DateTime als data type.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element name="omschrijving" type="string">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+In tekst omschreven belang dat een netbeheerder in dit gebied heeft.
+-- Description --
+-- Source --
+IMKL2015</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="gewensteIngangsdatum" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Gewenste datum vanaf wanneer een belang van toepassing is.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="ingangsdatum" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Datum vanaf wanneer een belang van toepassing is.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="gewensteEinddatum" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Gewenste datum tot wanneer het belang van toepassing is.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="einddatum" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Datum tot wanneer het belang van toepassing is.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="beheerpolygoon" type="gml:MultiSurfacePropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Locatie waar een netbeheerder een belang heeft gerelateerd aan de uitvoering van de wet WION.
+-- Description --
+-- Source --
+IMKL2015</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="3" minOccurs="0" name="contactAanvraag" type="wion:AanvraagSoortContactPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Het contactadres bij de netbeheerder waar de grondroerder contact mee kan opnemen voor informatie over (het) geraakte belang(en) bij een aangegeven aanvraagsoort.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="BelangGeneriekPropertyType">
+    <sequence minOccurs="0">
+      <element ref="wion:BelangGeneriek"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Belanghebbende" substitutionGroup="gml:AbstractFeature" type="wion:BelanghebbendeType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+Een belanghebbende beheerder is een beheerder met een beheerpolygoon dat geheel of gedeeltelijk ligt in de aangevraagde polygoon.
+-- Description --
+Bij een belanghebbende beheerder heeft zijn beheergebied een overlap met het aangevraagde gebied. Een beheergebied hoort altijd groter te zijn dan het gebied waar de netbeheerder informatie over kabels en leidingen wil leveren. Daarom hoeft een belanghebbende beheerder niet altijd een betrokken beheerder te zijn. Ook een beheerder veiligheidsgebied heeft een beheerpolygoon en kan een belanghebbende beheerder zijn.
+-- Source --</documentation>
+    </annotation>
+  </element>
+  <complexType name="BelanghebbendeType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identificatie" type="wion:NEN3610IDPropertyType">
+            <annotation>
+              <documentation>identificatie: -- Name --
+identificatie
+-- Definition --
+Unieke identificatie van het object binnen het domein van NEN 3610.
+-- Source --
+NEN 3610:2011</documentation>
+            </annotation>
+          </element>
+          <element name="beginLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De begindatum waarop een data object in de registratie werd aangemaakt, het begin van de levenscyclus van een data object.
+-- Description --
+Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten. Voor niet INSPIRE plichtige datasets kan hier een dummy waarde worden ingevuld.
+Dit attribuut heeft DateTime als data type.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De datum die het einde van een levenscyclus van een data object aangeeft. 
+-- Description --
+Het moment vanaf wanneer het geen onderdeel meer is van de actuele registratie. Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten.
+Dit attribuut heeft DateTime als data type.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="beheerdersinformatieGeleverd" type="boolean">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Indicator die aangeeft of de belanghebbende al (correcte) beheerdersinformatie heeft aangeleverd voor de betreffende aanvraag.
+-- Description --
+Wordt door KLICWIN ingevuld.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="betrokkenBijAanvraag" type="boolean">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Indien binnen de gevraagde polygoon géén kabels/leidingen liggen, en er daarom geen netinformatie geleverd kan worden, wordt deze indicator op “Nee” gezet, in alle andere gevallen is deze “Ja”.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="eisVoorzorgsmaatregel" type="boolean">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Is er bij deze belanghebbende sprake van een eisVoorzorgmaatregel bij één van de aangeleverde thema's (J/N).
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="utiliteitsnet" type="wion:UtiliteitsnetPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Informatie over ligging van utiliteitsnet en de onderdelen daarvan.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="eigenTopografie" type="wion:EigenTopografiePropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Topografie die door netbeheerder wordt toegevoegd voor relatieve plaatsbepaling van objecten.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="bijlage" type="wion:BijlagePropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Documentbijlage bij gebiedsinformatie.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="geraaktBelangBijInformatiepolygoon" type="wion:BelangPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Verwijzing naar gebied waar een belang is geraak door een informatiepolygoon.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="geraaktBelangBijGraafpolygoon" type="wion:BelangPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Verwijzing naar gebied waar een belang is geraak door een graafpolygoon.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="geraaktBelangBijOrientatiepolygoon" type="wion:BelangPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Verwijzing naar gebied waar een belang is geraak door een orientatiepolygoon.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element name="netbeheerder" type="wion:BeheerderPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Gegevens van de belanghebbende beheerder.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="BelanghebbendePropertyType">
+    <sequence minOccurs="0">
+      <element ref="wion:Belanghebbende"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
   <element name="Bijlage" substitutionGroup="gml:AbstractFeature" type="wion:BijlageType">
     <annotation>
       <documentation>-- Name --
@@ -508,13 +1068,6 @@ Deze identificator wordt beschreven via een URI.
 -- Source --</documentation>
             </annotation>
           </element>
-          <element name="inNetwork" type="gml:ReferenceType">
-            <annotation>
-              <appinfo>
-                <targetElement xmlns="http://www.opengis.net/gml/3.2">wion:Utiliteitsnet</targetElement>
-              </appinfo>
-            </annotation>
-          </element>
         </sequence>
       </extension>
     </complexContent>
@@ -530,12 +1083,59 @@ Deze identificator wordt beschreven via een URI.
     <choice minOccurs="0">
       <element ref="wion:Mantelbuis"/>
       <element ref="wion:OlieGasChemicalienPijpleiding"/>
+      <element ref="wion:Overig"/>
       <element ref="wion:Rioolleiding"/>
       <element ref="wion:ThermischePijpleiding"/>
       <element ref="wion:Waterleiding"/>
     </choice>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Contact" substitutionGroup="gml:AbstractObject" type="wion:ContactType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+Het contactadres (meldadres) bij de netbeheerder waar de grondroerder contact mee kan opnemen voor informatie over (het) geraakte belang(en).
+-- Description --
+-- Source --
+Bron: belangenregistratie.</documentation>
+    </annotation>
+  </element>
+  <complexType name="ContactType">
+    <sequence>
+      <element minOccurs="0" name="naam" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Naam van het contact.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="telefoon" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Telefoon van het contact.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="email" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+E-mail adres van het contact.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="ContactPropertyType">
+    <sequence>
+      <element ref="wion:Contact"/>
+    </sequence>
   </complexType>
   <complexType name="ContainerLeidingelementPropertyType">
     <choice minOccurs="0">
@@ -684,7 +1284,7 @@ Locatie waar de diepte-informatie van toepassing is. Eén leiding kan meerdere d
 -- Source --</documentation>
             </annotation>
           </element>
-          <element name="inNetwork" type="gml:ReferenceType">
+          <element maxOccurs="unbounded" name="inNetwork" type="gml:ReferenceType">
             <annotation>
               <documentation>-- Name --
 -- Definition --
@@ -998,19 +1598,6 @@ In geval van een geografisch object worden deze topografieën gesitueerd via het
 -- Source --</documentation>
             </annotation>
           </element>
-          <element maxOccurs="unbounded" name="inNetwork" type="gml:ReferenceType">
-            <annotation>
-              <documentation>-- Name --
--- Definition --
-Verwijzing naar het utiliteitsnet.
--- Description --
-ExtraTopografie kan bij meerdere utliliteitsnetten horen.
--- Source --</documentation>
-              <appinfo>
-                <targetElement xmlns="http://www.opengis.net/gml/3.2">wion:Utiliteitsnet</targetElement>
-              </appinfo>
-            </annotation>
-          </element>
         </sequence>
       </extension>
     </complexContent>
@@ -1036,6 +1623,19 @@ Alleen de eis voorzorgsmaatregel met de hoogste prioriteit binnen dit thema word
     <complexContent>
       <extension base="wion:BijlageType">
         <sequence>
+          <element name="thema" type="gml:ReferenceType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Het thema geeft aan welk type leiding het betreft en welke functie de leidingen hebben. Bijvoorbeeld datatransport, gas lage druk, laagspanning, riool etc. Gekozen kan worden uit een lijst van thema’s
+-- Description --
+Opmerking: Signaleringskabels die data vervoeren vallen onder datatransport.
+-- Source --</documentation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">Thema</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
           <element name="eisVoorzorgsmaatregel" type="string">
             <annotation>
               <documentation>-- Name --
@@ -1208,7 +1808,7 @@ Beschrijft het type detailinformatie.
               </appinfo>
             </annotation>
           </element>
-          <element name="bestandLocatie" type="anyURI">
+          <element minOccurs="0" name="bestandLocatie" type="anyURI">
             <annotation>
               <documentation>-- Name --
 -- Definition --
@@ -1218,7 +1818,7 @@ De bestandsnaam omvat ook de locatie van het bestand.
 -- Source --</documentation>
             </annotation>
           </element>
-          <element name="bestandMediaType" type="gml:ReferenceType">
+          <element minOccurs="0" name="bestandMediaType" type="gml:ReferenceType">
             <annotation>
               <documentation>-- Name --
 -- Definition --
@@ -1357,7 +1957,7 @@ Representatie van het netwerkelement als 3D volume.
 -- Source --</documentation>
             </annotation>
           </element>
-          <element name="inNetwork" type="gml:ReferenceType">
+          <element maxOccurs="unbounded" name="inNetwork" type="gml:ReferenceType">
             <annotation>
               <documentation>-- Name --
 -- Definition --
@@ -1445,7 +2045,7 @@ Kan toegevoegd worden als het label meer uitleg behoeft.
 -- Source --</documentation>
             </annotation>
           </element>
-          <element name="inNetwork" type="gml:ReferenceType">
+          <element maxOccurs="unbounded" name="inNetwork" type="gml:ReferenceType">
             <annotation>
               <documentation>-- Name --
 -- Definition --
@@ -1468,15 +2068,492 @@ Verwijzing naar het utiliteitsnet.
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
+  <element name="GebiedsinformatieAanvraag" substitutionGroup="gml:AbstractFeature" type="wion:GebiedsinformatieAanvraagType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+Aanvraag van gebiedsinformatie.
+-- Description --
+Een gebiedsinformatie-aanvraag is een aanvraag om informatie over een bepaald gebied in het kader van een graafmelding, oriëntatieverzoek, calamiteitenmelding of de agrariërsregeling te ontvangen.
+-- Source --</documentation>
+    </annotation>
+  </element>
+  <complexType name="GebiedsinformatieAanvraagType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identificatie" type="wion:NEN3610IDPropertyType">
+            <annotation>
+              <documentation>identificatie: -- Name --
+identificatie
+-- Definition --
+Unieke identificatie van het object binnen het domein van NEN 3610.
+-- Source --
+NEN 3610:2011</documentation>
+            </annotation>
+          </element>
+          <element name="beginLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De begindatum waarop een data object in de registratie werd aangemaakt, het begin van de levenscyclus van een data object.
+-- Description --
+Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten. Voor niet INSPIRE plichtige datasets kan hier een dummy waarde worden ingevuld.
+Dit attribuut heeft DateTime als data type.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De datum die het einde van een levenscyclus van een data object aangeeft. 
+-- Description --
+Het moment vanaf wanneer het geen onderdeel meer is van de actuele registratie. Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten.
+Dit attribuut heeft DateTime als data type.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="ordernummer" type="string">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Het nummer van de verkooporder van de aanvraag zoals deze bij KLIC bekend is.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="positienummer" type="string">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Het regelnummer (positienummer) van de verkooporder waarbij de aanvraag van het Klic-product is vastgelegd.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="klicMeldnummer" type="string">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Een unieke identificatie die al sinds jaar en dag aan een gebiedsinformatie-aanvraag (Klic-melding) wordt toegekend en nog steeds veel in de graafsector wordt gebruikt.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element name="aanvrager" type="wion:AanvragerPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De gegevens van de aanvrager van gebiedsinformatie.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="referentie" type="string">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De eigen referentie die de aanvrager aan de gebiedsinformatie-aanvraag heeft gegeven.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="opdrachtgever" type="wion:OpdrachtgeverPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Gegevens van de opdrachtgever voor de aanvraag van gebiedsinformatie.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element name="aanvraagSoort" type="gml:ReferenceType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Soort gebiedsinformatie-aanvraag.
+-- Description --
+-- Source --</documentation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">AanvraagSoortValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="aanvraagDatum" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De datumtijd waarop de gebiedsinformatie-aanvraag is aangevraagd.-
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="soortWerkzaamheden" type="gml:ReferenceType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Soort graafwerkzaamheden (zie codelijst).
+-- Description --
+-- Source --</documentation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">SoortWerkzaamhedenValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="omschrijvingWerkzaamheden" type="string">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Een toelichtende omschrijving van de werkzaamheden.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element name="locatieWerkzaamheden" type="string">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De locatie van de werkzaamheden waar de gebiedsinformatie-aanvraag voor is ingediend.
+Dit kan bijvoorbeeld het dichtstbijzijnd adres zijn. 
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="startDatum" type="date">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De geplande startdatum van de werkzaamheden waarvoor de gebiedsinformatie-aanvraag is ingediend.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="eindDatum" type="date">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De geplande einddatum van de werkzaamheden waarvoor de gebiedsinformatie-aanvraag is ingediend.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="huisaansluitingAdressen" type="wion:AdresPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Lijst van adressen waarvoor huisaansluitschetsen (extra detailinformatie, type huisaansluiting) gevraagd wordt.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="informatiepolygoon" type="wion:InformatiepolygoonPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Verwijzing naar informatiepolygoon.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="graafpolygoon" type="wion:GraafpolygoonPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Verwijzing naar graafpolygoon.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="orientatiepolygoon" type="wion:OrientatiepolygoonPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Verwijzing naar orientatiepolygoon
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="GebiedsinformatieAanvraagPropertyType">
+    <sequence minOccurs="0">
+      <element ref="wion:GebiedsinformatieAanvraag"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="GebiedsinformatieLevering" substitutionGroup="gml:AbstractFeature" type="wion:GebiedsinformatieLeveringType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+Gebiedsinformatie is het geheel van informatie dat door beheerders, via de Dienst wordt verstrekt over de betrokken orientatiepolygoon dan wel graafpolygoon.
+-- Description --
+-- Source --</documentation>
+    </annotation>
+  </element>
+  <complexType name="GebiedsinformatieLeveringType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identificatie" type="wion:NEN3610IDPropertyType">
+            <annotation>
+              <documentation>identificatie: -- Name --
+identificatie
+-- Definition --
+Unieke identificatie van het object binnen het domein van NEN 3610.
+-- Source --
+NEN 3610:2011</documentation>
+            </annotation>
+          </element>
+          <element name="beginLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De begindatum waarop een data object in de registratie werd aangemaakt, het begin van de levenscyclus van een data object.
+-- Description --
+Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten. Voor niet INSPIRE plichtige datasets kan hier een dummy waarde worden ingevuld.
+Dit attribuut heeft DateTime als data type.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De datum die het einde van een levenscyclus van een data object aangeeft. 
+-- Description --
+Het moment vanaf wanneer het geen onderdeel meer is van de actuele registratie. Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten.
+Dit attribuut heeft DateTime als data type.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element name="leveringsvolgnummer" type="integer">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Volgnummer van de levering (binnen de aanvraag). Indien de gebiedsinformatie in meerdere keren wordt uitgeleverd (bijv. omdat 1 of meer netbeheerders te laat leveren) wordt dit nummer steeds opgehoogd.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element name="datumLeveringSamengesteld" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Het moment waarop de betreffende levering met gebiedsinformatie is samengesteld.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element name="indicatieLeveringCompleet" type="boolean">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Indicator die aangeeft of de levering compleet is (dus, of alle netbeheerders al hebben geleverd).
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="2" name="achtergrondkaart" type="wion:AchtergrondkaartPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Kaart ter oriëntering met behulp van topografie.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="belanghebbende" type="wion:BelanghebbendePropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Verwijzing naar belanghebbende beheerder(s).
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element name="aanvraag" type="wion:GebiedsinformatieAanvraagPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De gegevens van de gebiedsinformatie-aanvraag.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="GebiedsinformatieLeveringPropertyType">
+    <sequence minOccurs="0">
+      <element ref="wion:GebiedsinformatieLevering"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Graafpolygoon" substitutionGroup="gml:AbstractFeature" type="wion:GraafpolygoonType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+Een graafpolygoon is de weergave door een grondroerder van het gebied, waarbinnen de graaflocatie zich bevindt.
+-- Description --
+-- Source --
+Artikel 1 WION</documentation>
+    </annotation>
+  </element>
+  <complexType name="GraafpolygoonType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identificatie" type="wion:NEN3610IDPropertyType">
+            <annotation>
+              <documentation>identificatie: -- Name --
+identificatie
+-- Definition --
+Unieke identificatie van het object binnen het domein van NEN 3610.
+-- Source --
+NEN 3610:2011</documentation>
+            </annotation>
+          </element>
+          <element name="beginLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De begindatum waarop een data object in de registratie werd aangemaakt, het begin van de levenscyclus van een data object.
+-- Description --
+Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten. Voor niet INSPIRE plichtige datasets kan hier een dummy waarde worden ingevuld.
+Dit attribuut heeft DateTime als data type.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De datum die het einde van een levenscyclus van een data object aangeeft. 
+-- Description --
+Het moment vanaf wanneer het geen onderdeel meer is van de actuele registratie. Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten.
+Dit attribuut heeft DateTime als data type.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element name="geometrie" type="gml:SurfacePropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De geometrie van het gebied (een polygoon) waarbinnen gegraven gaat worden.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="GraafpolygoonPropertyType">
+    <sequence minOccurs="0">
+      <element ref="wion:Graafpolygoon"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
   <complexType name="IMKLBasisPropertyType">
     <choice minOccurs="0">
+      <element ref="wion:Beheerder"/>
+      <element ref="wion:BelangGeneriek"/>
+      <element ref="wion:Belanghebbende"/>
       <element ref="wion:Bijlage"/>
       <element ref="wion:Diepte"/>
       <element ref="wion:EigenTopografie"/>
       <element ref="wion:ExtraGeometrie"/>
       <element ref="wion:ExtraInformatie"/>
+      <element ref="wion:GebiedsinformatieAanvraag"/>
+      <element ref="wion:GebiedsinformatieLevering"/>
+      <element ref="wion:Graafpolygoon"/>
+      <element ref="wion:Informatiepolygoon"/>
+      <element ref="wion:Orientatiepolygoon"/>
       <element ref="wion:Utiliteitsnet"/>
     </choice>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Informatiepolygoon" substitutionGroup="gml:AbstractFeature" type="wion:InformatiepolygoonType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+-- Description --
+-- Source --</documentation>
+    </annotation>
+  </element>
+  <complexType name="InformatiepolygoonType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identificatie" type="wion:NEN3610IDPropertyType">
+            <annotation>
+              <documentation>identificatie: -- Name --
+identificatie
+-- Definition --
+Unieke identificatie van het object binnen het domein van NEN 3610.
+-- Source --
+NEN 3610:2011</documentation>
+            </annotation>
+          </element>
+          <element name="beginLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De begindatum waarop een data object in de registratie werd aangemaakt, het begin van de levenscyclus van een data object.
+-- Description --
+Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten. Voor niet INSPIRE plichtige datasets kan hier een dummy waarde worden ingevuld.
+Dit attribuut heeft DateTime als data type.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De datum die het einde van een levenscyclus van een data object aangeeft. 
+-- Description --
+Het moment vanaf wanneer het geen onderdeel meer is van de actuele registratie. Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten.
+Dit attribuut heeft DateTime als data type.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element name="geometrie" type="gml:SurfacePropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De geometrie van het gebied (een polygoon) waarover informatie gevraagd wordt, niet zijnde het graafgebied.
+Een eventueel opgegeven informatiegebied moet een graafgebied volledig omvatten.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element name="geometrieVoorVisualisatie" type="gml:SurfacePropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Geometrie die specifiek is gecreeerd voor de visualisatie van het gebied tussen de graafpolygoon en de informatiepolygoon. 
+-- Description --
+De graafpolygoon bevindt zich in de orientatiepolygoon. Voor het apart visualiseren van het gebied dat in de informatiepolgoon zit maar niet in de graafpolygoon is deze geometrie gegenereerd. Het heeft als buitenring de contour van de informatiepolygoon en als binnenring de contour van de graafpolygoon.
+-- Source --
+IMKL</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="InformatiepolygoonPropertyType">
+    <sequence minOccurs="0">
+      <element ref="wion:Informatiepolygoon"/>
+    </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
@@ -1492,6 +2569,7 @@ Verwijzing naar het utiliteitsnet.
     <choice minOccurs="0">
       <element ref="wion:Elektriciteitskabel"/>
       <element ref="wion:OlieGasChemicalienPijpleiding"/>
+      <element ref="wion:Overig"/>
       <element ref="wion:Rioolleiding"/>
       <element ref="wion:Telecommunicatiekabel"/>
       <element ref="wion:ThermischePijpleiding"/>
@@ -1503,6 +2581,7 @@ Verwijzing naar het utiliteitsnet.
   <complexType name="KabelSpecifiekPropertyType">
     <choice minOccurs="0">
       <element ref="wion:Elektriciteitskabel"/>
+      <element ref="wion:Overig"/>
       <element ref="wion:Telecommunicatiekabel"/>
     </choice>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
@@ -1689,6 +2768,7 @@ Kan toegevoegd worden als het label meer uitleg behoeft.
       <element ref="wion:Mantelbuis"/>
       <element ref="wion:Mast"/>
       <element ref="wion:OlieGasChemicalienPijpleiding"/>
+      <element ref="wion:Overig"/>
       <element ref="wion:Rioolleiding"/>
       <element ref="wion:TechnischGebouw"/>
       <element ref="wion:Telecommunicatiekabel"/>
@@ -1831,7 +2911,6 @@ Mangat
 -- Definition --
 Eenvoudig omhullingsobject dat een of meer nutsvoorzieningennetobjecten kan bevatten.
 -- Description --
-Graag voorbeelden......
 -- Source --
 Inspire</documentation>
     </annotation>
@@ -2413,6 +3492,423 @@ Materiaal waaruit de buis bestaat.
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
+  <element name="Opdrachtgever" substitutionGroup="gml:AbstractObject" type="wion:OpdrachtgeverType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+Een opdrachtgever is een persoon die opdracht geeft om te graven in een bepaald gebied.
+-- Description --
+-- Source --</documentation>
+    </annotation>
+  </element>
+  <complexType name="OpdrachtgeverType">
+    <sequence>
+      <element minOccurs="0" name="contactpersoon" type="wion:ContactPropertyType">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Persoon als aanspreekpunt namens opdrachtgever.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="organisatie" type="wion:OrganisatiePropertyType">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Organisatie die als opdrachtgever optreedt.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="OpdrachtgeverPropertyType">
+    <sequence>
+      <element ref="wion:Opdrachtgever"/>
+    </sequence>
+  </complexType>
+  <element name="Organisatie" substitutionGroup="gml:AbstractObject" type="wion:OrganisatieType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+Gegevens van de aanvrager van gebiedsinformatie.
+-- Description --
+-- Source --</documentation>
+    </annotation>
+  </element>
+  <complexType name="OrganisatieType">
+    <sequence>
+      <element maxOccurs="2" minOccurs="0" name="naam" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+De naam van de organisatie.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="kvkNummer" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+KvK nummer van de aanvrager van gebiedsinformatie.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="bezoekAdres" type="wion:AdresPropertyType">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Het bezoekadres van de organisatie.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="postbusAdres" type="wion:PostbusAdresPropertyType">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Het postbusadres van de organisatie.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="telefoon" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Het vaste telefoonnummer van de organiatie.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="mobiel" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Het mobiele telefoonnummer van de organisatie.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="fax" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Het faxnummer van de organisatie.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+      <element maxOccurs="2" minOccurs="0" name="email" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Het e-mail adres van de organisatie.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="website" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Website van de organisatie.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="OrganisatiePropertyType">
+    <sequence>
+      <element ref="wion:Organisatie"/>
+    </sequence>
+  </complexType>
+  <element name="Orientatiepolygoon" substitutionGroup="gml:AbstractFeature" type="wion:OrientatiepolygoonType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+Gebied dat een persoon of organisatie tekent om daar informatie over kabels en leidingen van te ontvangen.
+-- Description --
+-- Source --</documentation>
+    </annotation>
+  </element>
+  <complexType name="OrientatiepolygoonType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identificatie" type="wion:NEN3610IDPropertyType">
+            <annotation>
+              <documentation>identificatie: -- Name --
+identificatie
+-- Definition --
+Unieke identificatie van het object binnen het domein van NEN 3610.
+-- Source --
+NEN 3610:2011</documentation>
+            </annotation>
+          </element>
+          <element name="beginLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De begindatum waarop een data object in de registratie werd aangemaakt, het begin van de levenscyclus van een data object.
+-- Description --
+Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten. Voor niet INSPIRE plichtige datasets kan hier een dummy waarde worden ingevuld.
+Dit attribuut heeft DateTime als data type.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De datum die het einde van een levenscyclus van een data object aangeeft. 
+-- Description --
+Het moment vanaf wanneer het geen onderdeel meer is van de actuele registratie. Dit attribuut is afkomstig van INSPIRE maar wordt ook gebruikt in de IMKL-specieke objecten.
+Dit attribuut heeft DateTime als data type.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element name="geometrie" type="gml:SurfacePropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+De geometrie van het gebied (een polygoon) dat een persoon of organisatie tekent om daar informatie over kabels en leidingen van te ontvangen.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="OrientatiepolygoonPropertyType">
+    <sequence minOccurs="0">
+      <element ref="wion:Orientatiepolygoon"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Overig" substitutionGroup="us-net-common:UtilityLinkSet" type="wion:OverigType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+Een type kabel of leiding die niet onder de andere benoemde typen valt.
+-- Description --
+Bijvoorbeeld een weesleiding maar ook leidingen voor voedingsmiddelen, landbouwproducten vallen hieronder. Een weesleiding valt bij INSPIRE onder de waarde utilityNetworkType = 'overig'.
+-- Source --
+IMKL</documentation>
+    </annotation>
+  </element>
+  <complexType name="OverigType">
+    <complexContent>
+      <extension base="us-net-common:UtilityLinkSetType">
+        <sequence>
+          <element minOccurs="0" name="geoNauwkeurigheidXY" type="gml:ReferenceType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Indicatie van de nauwkeurigheid in horizontaal vlak (x,y) waarmee de geometrie van de ligging van de leiding is aangegeven.
+-- Description --
+De WION nauwkeurigheid is minimaal +/- 1 meter.
+-- Source --</documentation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="toelichting" type="string">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Extra informatie in de vorm van een toelichting.</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="dieptelegging" type="gml:ReferenceType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Diepte waarop het object is gelegd.
+-- Description --
+Wordt alleen opgenomen indien er sprake is van een legging die afwijkt van de gangbare (standaard) dieptelegging.
+-- Source --</documentation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">wion:Diepte</targetElement>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraInformatie" type="gml:ReferenceType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Extra informatie over dit object.
+-- Description --
+-- Source --</documentation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">wion:ExtraInformatie</targetElement>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="extraGeometrie" type="gml:ReferenceType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Extra geometrie naast de verplichte arc/node.
+-- Description --
+-- Source --</documentation>
+              <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">wion:ExtraGeometrie</targetElement>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="label" type="string">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="omschrijving" type="string">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Gedetailleerde omschrijving van het informatieobject.
+-- Description --
+Kan toegevoegd worden als het label meer uitleg behoeft.
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="kabelDiameter" type="gml:MeasureType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Diameter van een kabel of leiding uitgedrukt in een Unit of Measure (UOM).
+-- Description --
+Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via één van de volgende OGC URN codes: • urn:ogc:def:uom:OGC::m •	urn:ogc:def:uom:OGC::cm •	urn:ogc:def:uom:OGC::mm
+-- Source --</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="buismateriaalType" type="gml:ReferenceType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Materiaal waaruit de buis bestaat.
+-- Description --
+-- Source --</documentation>
+              <appinfo>
+                <targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">PipeMaterialTypeIMKLValue</targetCodeList>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="pipeDiameter" type="gml:MeasureType">
+            <annotation>
+              <documentation>-- Name --
+pipe diameter
+
+-- Definition --
+Pipe outer diameter.
+
+-- Description --
+For convex shaped objects (e.g. a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="pressure" type="gml:MeasureType">
+            <annotation>
+              <documentation>-- Name --
+pressure
+
+-- Definition --
+The maximum allowable operating pressure at which a product is conveyed through a pipe.
+
+-- Description --
+The unit of measure for pressure is commonly expressed in "bar".</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="producttype" type="string">
+            <annotation>
+              <documentation>-- Name --
+producttype
+-- Definition --</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="OverigPropertyType">
+    <sequence minOccurs="0">
+      <element ref="wion:Overig"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <complexType name="OverigSpecifiekPropertyType">
+    <choice minOccurs="0">
+      <element ref="wion:Overig"/>
+    </choice>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="PostbusAdres" substitutionGroup="gml:AbstractObject" type="wion:PostbusAdresType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+De gegevens van een adres voor een bus of vak in een postkantoor.
+-- Description --
+-- Source --</documentation>
+    </annotation>
+  </element>
+  <complexType name="PostbusAdresType">
+    <sequence>
+      <element name="postbusnummer" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Het postbusnummer van het postbusadres.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+      <element name="postcode" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+De postcode van het postbusadres.
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+      <element name="woonplaatsNaam" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+De benaming van een door het gemeentebestuur
+aangewezen WOONPLAATS.
+-- Source --
+BAG</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="landcode" type="string">
+        <annotation>
+          <documentation>-- Name --
+-- Definition --
+Landcode van het postbusadres (zie codelijst).
+-- Description --
+-- Source --</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="PostbusAdresPropertyType">
+    <sequence>
+      <element ref="wion:PostbusAdres"/>
+    </sequence>
+  </complexType>
   <element name="PuntLijnVlak" substitutionGroup="gml:AbstractObject" type="wion:PuntLijnVlakType">
     <annotation>
       <documentation>-- Name --
@@ -2568,53 +4064,11 @@ Materiaal waaruit de buis bestaat.
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <element name="TechnischContactpersoon" substitutionGroup="gml:AbstractObject" type="wion:TechnischContactpersoonType">
-    <annotation>
-      <documentation>-- Name --
--- Definition --
-Persoon die gecontacteerd kan worden voor technisch-inhoudelijke informatie over deze dataset.
--- Description --
--- Source --</documentation>
-    </annotation>
-  </element>
-  <complexType name="TechnischContactpersoonType">
-    <sequence>
-      <element name="naam" type="string">
-        <annotation>
-          <documentation>-- Name --
--- Definition --
--- Description --
--- Source --</documentation>
-        </annotation>
-      </element>
-      <element name="telefoon" type="string">
-        <annotation>
-          <documentation>-- Name --
--- Definition --
--- Description --
--- Source --</documentation>
-        </annotation>
-      </element>
-      <element name="email" type="string">
-        <annotation>
-          <documentation>-- Name --
--- Definition --
--- Description --
--- Source --</documentation>
-        </annotation>
-      </element>
-    </sequence>
-  </complexType>
-  <complexType name="TechnischContactpersoonPropertyType">
-    <sequence>
-      <element ref="wion:TechnischContactpersoon"/>
-    </sequence>
-  </complexType>
   <element name="TechnischGebouw" substitutionGroup="us-net-common:Cabinet" type="wion:TechnischGebouwType">
     <annotation>
       <documentation>-- Name --
 -- Definition --
-Heeft iemand een definitie?
+Besloten onderkomen voor het huisvesten van nutsvoorzieningenobjecten die tot een of meer nutsvoorzieningennetwerken behoren.
 -- Description --
 -- Source --</documentation>
     </annotation>
@@ -2862,35 +4316,6 @@ Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via één
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
   </complexType>
-  <simpleType name="ThermalProductTypeIMKLValueType">
-    <annotation>
-      <documentation>-- Name --
-Thermal Product Type IMKL
--- Definition --
-IMKL waardelijst voor toepassing INSPIRE Thermal Product Type.
--- Description --
-Kan zowel uitbreiding als beperking op INSPIRE waardelijst betreffen.
--- Source --</documentation>
-    </annotation>
-    <union memberTypes="wion:ThermalProductTypeIMKLValueEnumerationType wion:ThermalProductTypeIMKLValueOtherType"/>
-  </simpleType>
-  <simpleType name="ThermalProductTypeIMKLValueEnumerationType">
-    <annotation>
-      <documentation>-- Name --
-Thermal Product Type IMKL
--- Definition --
-IMKL waardelijst voor toepassing INSPIRE Thermal Product Type.
--- Description --
-Kan zowel uitbreiding als beperking op INSPIRE waardelijst betreffen.
--- Source --</documentation>
-    </annotation>
-    <restriction base="string"/>
-  </simpleType>
-  <simpleType name="ThermalProductTypeIMKLValueOtherType">
-    <restriction base="string">
-      <pattern value="other: \w{2,}"/>
-    </restriction>
-  </simpleType>
   <element name="ThermischePijpleiding" substitutionGroup="us-net-th:ThermalPipe" type="wion:ThermischePijpleidingType">
     <annotation>
       <documentation>ThermalPipe: -- Name --
@@ -3226,15 +4651,6 @@ Opmerking: Signaleringskabels die data vervoeren vallen onder datatransport.
               </appinfo>
             </annotation>
           </element>
-          <element name="technischContactpersoon" type="wion:TechnischContactpersoonPropertyType">
-            <annotation>
-              <documentation>-- Name --
--- Definition --
-Persoon die gecontacteerd kan worden voor technisch-inhoudelijke informatie over deze dataset.
--- Description --
--- Source --</documentation>
-            </annotation>
-          </element>
           <element minOccurs="0" name="standaardDieptelegging" type="gml:MeasureType">
             <annotation>
               <documentation>-- Name --
@@ -3243,19 +4659,6 @@ Gangbare dieptelegging behorend bij dit utiliteitsnet. Diepte is ten opzichte va
 Voor WION is de eenheid altijd meter en een getal met ten hoogste 2 decimalen.
 -- Description --
 -- Source --</documentation>
-            </annotation>
-          </element>
-          <element maxOccurs="unbounded" minOccurs="0" name="bijlage" type="gml:ReferenceType">
-            <annotation>
-              <documentation>-- Name --
--- Definition --
-Verwijzing naar bijlage document.
--- Description --
-Onder andere verwijzing naar de eventueel gekoppelde tekst van de eis voorzorgsmaatregel voor dit utiliteitsnet.
--- Source --</documentation>
-              <appinfo>
-                <targetElement xmlns="http://www.opengis.net/gml/3.2">wion:Bijlage</targetElement>
-              </appinfo>
             </annotation>
           </element>
           <element maxOccurs="unbounded" minOccurs="0" name="heeftExtraInformatie" type="gml:ReferenceType">
@@ -3278,6 +4681,39 @@ Bij het utiliteitsnet betreft dit de algemene informatie die bij het utiliteitsn
   <complexType name="UtiliteitsnetPropertyType">
     <sequence minOccurs="0">
       <element ref="wion:Utiliteitsnet"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Veiligheidsgebied" substitutionGroup="wion:BelangGeneriek" type="wion:VeiligheidsgebiedType">
+    <annotation>
+      <documentation>-- Name --
+-- Definition --
+Een veiligheidsgebied is een door de Minister aangewezen gebied waarvan om veiligheidsredenen kan worden afgeweken van de voorschriften zoals gesteld bij of krachtens hoofstuk 4 WION: Informatie-uitwisseling ten behoeve van graafwerkzaamheden.
+-- Description --
+-- Source --</documentation>
+    </annotation>
+  </element>
+  <complexType name="VeiligheidsgebiedType">
+    <complexContent>
+      <extension base="wion:BelangGeneriekType">
+        <sequence>
+          <element name="beheerderVeiligheidsgebied" type="wion:BeheerderPropertyType">
+            <annotation>
+              <documentation>-- Name --
+-- Definition --
+Gegevens van de  beheerder van het veiligheidsgebied.
+-- Description --
+-- Source --</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="VeiligheidsgebiedPropertyType">
+    <sequence minOccurs="0">
+      <element ref="wion:Veiligheidsgebied"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
     <attributeGroup ref="gml:OwnershipAttributeGroup"/>
