@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
-  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor version="1.0.0"
+    xmlns="http://www.opengis.net/sld"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
     <NamedLayer>
-        <Name>leidingelement</Name>
+        <Name>Leidingelement</Name>
         <UserStyle>
             <Title>Leidingelementen zonder ExtraGeometrie</Title>
             <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle leidingelementen obv thema en currentStatus zonder ExtraGeometrrie</Abstract>
@@ -627,8 +630,8 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>mof-z15-16-geen-extrageometrie</Name>
-                    <Title>Mof op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <Name>geulmof-z15-16-geen-extrageometrie</Name>
+                    <Title>Geulmof op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
@@ -696,16 +699,10 @@
                     <Name>infiltratievoorziening-z15-16-geen-extrageometrie</Name>
                     <Title>Infiltratievoorziening op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
-                        <ogc:Or>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
-                                <ogc:Literal>OilGasChemicalsAppurtenanceTypeValue/pump</ogc:Literal>
+                                <ogc:Literal>SewerAppurtenanceTypeIMKLValue/infiltratievoorziening</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
-                                <ogc:Literal>infiltratievoorziening</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                        </ogc:Or>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
@@ -1343,7 +1340,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
-                                <ogc:Literal>gemaal</ogc:Literal>
+                                <ogc:Literal>SewerAppurtenanceTypeIMKLValue/gemaal</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
@@ -1415,19 +1412,19 @@
                         <ogc:Or>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>SewerAppurtenanceTypeIMKLValue/kolk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>SewerAppurtenanceTypeIMKLValue/overstort</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
-                                <ogc:Literal>put</ogc:Literal>
+                                <ogc:Literal>SewerAppurtenanceTypeIMKLValue/reservoir</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
-                                <ogc:Literal>reservoir</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
-                                <ogc:Literal>uitlaatconstructie</ogc:Literal>
+                                <ogc:Literal>SewerAppurtenanceTypeIMKLValue/uitlaatconstructie</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
@@ -1911,7 +1908,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
-                                <ogc:Literal>kunstwerk</ogc:Literal>
+                                <ogc:Literal>SewerAppurtenanceTypeIMKLValue/kunstwerk</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
