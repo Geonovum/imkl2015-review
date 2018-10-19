@@ -34,6 +34,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -41,11 +42,10 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -54,11 +54,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-buisleidinggevaarlijkeinhoud.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -85,6 +85,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff7f00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -96,7 +97,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -123,6 +123,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff7f00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -134,7 +135,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -161,6 +161,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff7f00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -172,7 +173,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -199,11 +199,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-buisleidinggevaarlijkeinhoud.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -230,6 +230,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff7f00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -240,7 +241,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -267,6 +267,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff7f00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -277,7 +278,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -304,6 +304,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff7f00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -314,7 +315,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -341,6 +341,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -348,11 +349,10 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -361,11 +361,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-buisleidinggevaarlijkeinhoud.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -392,6 +392,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff7f00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -403,7 +404,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -430,6 +430,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff7f00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -441,7 +442,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -460,14 +460,15 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <MinScaleDenominator>1251</MinScaleDenominator>
-                    <MaxScaleDenominator>2500</MaxScaleDenominator>
+                    <MinScaleDenominator>2501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff7f00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -479,7 +480,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -506,6 +506,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#000000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -513,11 +514,10 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -526,11 +526,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-datatransport.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -557,6 +557,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#00ff00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -568,7 +569,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -595,6 +595,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#00ff00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -606,7 +607,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -633,6 +633,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#00ff00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -644,7 +645,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -671,11 +671,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-datatransport.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -702,6 +702,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#00ff00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -712,7 +713,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -739,6 +739,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#00ff00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -749,7 +750,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -776,6 +776,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#00ff00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -786,7 +787,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -813,6 +813,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -820,11 +821,10 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -833,11 +833,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-datatransport.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -864,6 +864,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#00ff00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -875,7 +876,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -902,6 +902,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#00ff00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -913,7 +914,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -932,14 +932,15 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <MinScaleDenominator>1251</MinScaleDenominator>
-                    <MaxScaleDenominator>2500</MaxScaleDenominator>
+                    <MinScaleDenominator>2501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#00ff00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -951,7 +952,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -978,6 +978,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -985,11 +986,10 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -998,11 +998,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-gashogedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1029,6 +1029,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1040,7 +1041,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1067,6 +1067,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1078,7 +1079,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1105,6 +1105,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1116,7 +1117,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1143,11 +1143,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-gashogedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1174,6 +1174,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1184,7 +1185,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1211,6 +1211,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1221,7 +1222,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1248,6 +1248,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1258,7 +1259,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1285,6 +1285,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1292,11 +1293,10 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -1305,11 +1305,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-gashogedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1336,6 +1336,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1347,7 +1348,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1374,6 +1374,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1385,7 +1386,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1404,14 +1404,15 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <MinScaleDenominator>1251</MinScaleDenominator>
-                    <MaxScaleDenominator>2500</MaxScaleDenominator>
+                    <MinScaleDenominator>2501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffaf3c</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1423,7 +1424,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1450,6 +1450,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1457,11 +1458,10 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -1470,11 +1470,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-gaslagedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1501,6 +1501,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffd750</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1512,7 +1513,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1539,6 +1539,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffd750</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1550,7 +1551,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1577,6 +1577,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffd750</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1588,7 +1589,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1615,11 +1615,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-gaslagedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1646,6 +1646,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffd750</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1656,7 +1657,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1683,6 +1683,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffd750</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1693,7 +1694,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1720,6 +1720,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffd750</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1730,7 +1731,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1757,6 +1757,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1764,11 +1765,10 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -1777,11 +1777,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-gaslagedruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1808,6 +1808,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffd750</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1819,7 +1820,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1846,6 +1846,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffd750</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1857,7 +1858,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1876,14 +1876,15 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <MinScaleDenominator>1251</MinScaleDenominator>
-                    <MaxScaleDenominator>2500</MaxScaleDenominator>
+                    <MinScaleDenominator>2501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffd750</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1895,7 +1896,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1922,6 +1922,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1929,11 +1930,10 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -1942,11 +1942,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-petrochemie.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1973,6 +1973,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#b64a00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -1984,7 +1985,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2011,6 +2011,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#b64a00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2022,7 +2023,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2049,6 +2049,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#b64a00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2060,7 +2061,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2087,11 +2087,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-petrochemie.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2118,6 +2118,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#b64a00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2128,7 +2129,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2155,6 +2155,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#b64a00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2165,7 +2166,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2192,6 +2192,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#b64a00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2202,7 +2203,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2229,6 +2229,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2236,11 +2237,10 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -2249,11 +2249,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-petrochemie.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2280,6 +2280,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#b64a00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2291,7 +2292,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2318,6 +2318,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#b64a00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2329,7 +2330,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2348,14 +2348,15 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <MinScaleDenominator>1251</MinScaleDenominator>
-                    <MaxScaleDenominator>2500</MaxScaleDenominator>
+                    <MinScaleDenominator>2501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#b64a00</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2367,7 +2368,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2394,6 +2394,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2401,11 +2402,10 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -2414,11 +2414,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-laagspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2445,6 +2445,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#960000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2456,7 +2457,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2483,6 +2483,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#960000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2494,7 +2495,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2521,6 +2521,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#960000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2532,7 +2533,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2559,11 +2559,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-laagspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2590,6 +2590,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#960000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2600,7 +2601,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2627,6 +2627,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#960000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2637,7 +2638,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2664,6 +2664,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#960000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2674,7 +2675,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2701,6 +2701,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2708,11 +2709,10 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -2721,11 +2721,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-laagspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2752,6 +2752,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#960000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2763,7 +2764,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2790,6 +2790,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#960000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2801,7 +2802,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2820,14 +2820,15 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <MinScaleDenominator>1251</MinScaleDenominator>
-                    <MaxScaleDenominator>2500</MaxScaleDenominator>
+                    <MinScaleDenominator>2501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#960000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2839,7 +2840,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2866,6 +2866,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2873,11 +2874,10 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -2886,11 +2886,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-middenspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2917,6 +2917,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#c80000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2928,7 +2929,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2955,6 +2955,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#c80000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -2966,7 +2967,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -2993,6 +2993,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#c80000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3004,7 +3005,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3031,11 +3031,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-middenspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3062,6 +3062,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#c80000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3072,7 +3073,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3099,6 +3099,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#c80000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3109,7 +3110,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3136,6 +3136,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#c80000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3146,7 +3147,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3173,6 +3173,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3180,11 +3181,10 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -3193,11 +3193,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-middenspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3224,6 +3224,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#c80000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3235,7 +3236,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3262,6 +3262,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#c80000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3273,7 +3274,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3292,14 +3292,15 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <MinScaleDenominator>1251</MinScaleDenominator>
-                    <MaxScaleDenominator>2500</MaxScaleDenominator>
+                    <MinScaleDenominator>2501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#c80000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3311,7 +3312,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3338,6 +3338,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3345,11 +3346,10 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -3358,11 +3358,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-hoogspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3389,6 +3389,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3400,7 +3401,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3427,6 +3427,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3438,7 +3439,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3465,6 +3465,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3476,7 +3477,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3503,11 +3503,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-hoogspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3534,6 +3534,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3544,7 +3545,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3571,6 +3571,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3581,7 +3582,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3608,6 +3608,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3618,7 +3619,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3645,6 +3645,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3652,11 +3653,10 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -3665,11 +3665,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-hoogspanning.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3696,6 +3696,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3707,7 +3708,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3734,6 +3734,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3745,7 +3746,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3764,14 +3764,15 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <MinScaleDenominator>1251</MinScaleDenominator>
-                    <MaxScaleDenominator>2500</MaxScaleDenominator>
+                    <MinScaleDenominator>2501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3783,7 +3784,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3810,6 +3810,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3817,11 +3818,10 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -3830,11 +3830,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-landelijkhoogspanningsnet.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3861,6 +3861,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3872,7 +3873,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3899,6 +3899,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3910,7 +3911,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3937,6 +3937,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -3948,7 +3949,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -3975,11 +3975,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-landelijkhoogspanningsnet.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4006,6 +4006,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4016,7 +4017,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4043,6 +4043,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4053,7 +4054,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4080,6 +4080,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4090,7 +4091,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4117,6 +4117,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4124,11 +4125,10 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -4137,11 +4137,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-landelijkhoogspanningsnet.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4168,6 +4168,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4179,7 +4180,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4206,6 +4206,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4217,7 +4218,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4236,14 +4236,15 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <MinScaleDenominator>1251</MinScaleDenominator>
-                    <MaxScaleDenominator>2500</MaxScaleDenominator>
+                    <MinScaleDenominator>2501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ff0000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4255,7 +4256,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4282,6 +4282,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4289,11 +4290,10 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -4302,11 +4302,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-water.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4333,6 +4333,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#0000ff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4344,7 +4345,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4371,6 +4371,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#0000ff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4382,7 +4383,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4409,6 +4409,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#0000ff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4420,7 +4421,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4447,11 +4447,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-water.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4478,6 +4478,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#0000ff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4488,7 +4489,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4515,6 +4515,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#0000ff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4525,7 +4526,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4552,6 +4552,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#0000ff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4562,7 +4563,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4589,6 +4589,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4596,11 +4597,10 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -4609,11 +4609,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-water.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4640,6 +4640,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#0000ff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4651,7 +4652,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4678,6 +4678,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#0000ff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4689,7 +4690,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4708,14 +4708,15 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <MinScaleDenominator>1251</MinScaleDenominator>
-                    <MaxScaleDenominator>2500</MaxScaleDenominator>
+                    <MinScaleDenominator>2501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#0000ff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4727,7 +4728,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4754,6 +4754,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4761,11 +4762,10 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -4774,11 +4774,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-warmte.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4805,6 +4805,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#008080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4816,7 +4817,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4843,6 +4843,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#008080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4854,7 +4855,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4881,6 +4881,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#008080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4892,7 +4893,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4919,11 +4919,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-warmte.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4950,6 +4950,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#008080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4960,7 +4961,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -4987,6 +4987,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#008080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -4997,7 +4998,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5024,6 +5024,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#008080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5034,7 +5035,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5061,6 +5061,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#000000</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5068,11 +5069,10 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -5081,11 +5081,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-warmte.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5112,6 +5112,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#008080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5123,7 +5124,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5150,6 +5150,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#008080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5161,7 +5162,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5180,14 +5180,15 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <MinScaleDenominator>1251</MinScaleDenominator>
-                    <MaxScaleDenominator>2500</MaxScaleDenominator>
+                    <MinScaleDenominator>2501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#008080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5199,7 +5200,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5226,6 +5226,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5233,11 +5234,10 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -5246,11 +5246,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-rioolonderoverofonderdruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5277,6 +5277,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#800080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5288,7 +5289,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5315,6 +5315,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#800080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5326,7 +5327,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5353,6 +5353,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#800080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5364,7 +5365,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5391,11 +5391,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-rioolonderoverofonderdruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5422,6 +5422,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#800080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5432,7 +5433,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5459,6 +5459,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#800080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5469,7 +5470,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5496,6 +5496,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#800080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5506,7 +5507,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5533,6 +5533,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5540,11 +5541,10 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -5553,11 +5553,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-rioolonderoverofonderdruk.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5584,6 +5584,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#800080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5595,7 +5596,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5622,6 +5622,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#800080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5633,7 +5634,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5652,14 +5652,15 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <MinScaleDenominator>1251</MinScaleDenominator>
-                    <MaxScaleDenominator>2500</MaxScaleDenominator>
+                    <MinScaleDenominator>2501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#800080</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5671,7 +5672,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5698,6 +5698,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5705,7 +5706,7 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -5717,11 +5718,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-rioolvrijverval.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5748,6 +5749,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ba38a8</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5759,7 +5761,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5786,6 +5787,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ba38a8</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5797,7 +5799,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5824,6 +5825,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ba38a8</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5835,7 +5837,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5862,11 +5863,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-rioolvrijverval.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5893,6 +5894,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ba38a8</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5903,7 +5905,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5930,6 +5931,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ba38a8</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5940,7 +5942,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -5967,6 +5968,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ba38a8</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -5977,7 +5979,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6004,6 +6005,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6011,11 +6013,10 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -6024,11 +6025,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-rioolvrijverval.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6055,6 +6056,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ba38a8</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6066,7 +6068,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6093,6 +6094,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ba38a8</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6104,7 +6106,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6123,14 +6124,15 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <MinScaleDenominator>1251</MinScaleDenominator>
-                    <MaxScaleDenominator>2500</MaxScaleDenominator>
+                    <MinScaleDenominator>2501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ba38a8</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6142,7 +6144,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6169,6 +6170,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6176,11 +6178,10 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -6189,11 +6190,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-wees.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6220,6 +6221,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#918a6f</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6231,7 +6233,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6258,6 +6259,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#918a6f</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6269,7 +6271,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6296,6 +6297,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#918a6f</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6307,7 +6309,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6334,11 +6335,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-wees.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6365,6 +6366,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#918a6f</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6375,7 +6377,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6402,6 +6403,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#918a6f</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6438,6 +6440,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#918a6f</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6474,6 +6477,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6481,7 +6485,7 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6493,7 +6497,8 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-wees.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6523,6 +6528,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#918a6f</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6534,7 +6540,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6561,6 +6566,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#918a6f</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6572,7 +6578,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6591,14 +6596,15 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <MinScaleDenominator>1251</MinScaleDenominator>
-                    <MaxScaleDenominator>2500</MaxScaleDenominator>
+                    <MinScaleDenominator>2501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#918a6f</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6636,6 +6642,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6643,11 +6650,10 @@
                                     <CssParameter name="stroke-dasharray">4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -6656,11 +6662,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-overig.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6687,6 +6693,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#6f5c10</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6698,7 +6705,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6725,6 +6731,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#6f5c10</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6736,7 +6743,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6763,6 +6769,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#6f5c10</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6774,7 +6781,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6801,7 +6807,8 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-overig.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
@@ -6831,6 +6838,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#6f5c10</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6867,6 +6875,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#6f5c10</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6903,6 +6912,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#6f5c10</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6939,6 +6949,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -6946,11 +6957,10 @@
                                     <CssParameter name="stroke-dasharray">12 4 4 4</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>50</Size>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                     <PointSymbolizer>
@@ -6959,11 +6969,11 @@
                                 <OnlineResource xlink:type="simple" xlink:href="kast-overig.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>50</Size>
+                            <Opacity>0.4</Opacity>
+                            <Size>25</Size>
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -6990,6 +7000,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#6f5c10</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -7001,7 +7012,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -7028,6 +7038,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#6f5c10</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -7039,7 +7050,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -7066,6 +7076,7 @@
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#6f5c10</CssParameter>
+                                    <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
@@ -7077,7 +7088,6 @@
                             <Rotation>
                                 <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
                             </Rotation>
-
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
