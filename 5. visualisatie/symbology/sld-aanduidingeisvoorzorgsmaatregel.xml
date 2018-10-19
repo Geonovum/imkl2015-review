@@ -20,11 +20,18 @@
                             <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MaxScaleDenominator>25000</MaxScaleDenominator>
+                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
-                            <CssParameter name="fill">#ff7f00</CssParameter>
-                            <CssParameter name="fill-opacity">0.4</CssParameter>
+                            <GraphicFill>
+                                <Graphic>
+                                    <ExternalGraphic>
+                                        <OnlineResource xlink:type="simple" xlink:href="patronen/buisleidingevaarlijkeinhoud.svg"/>
+                                        <Format>image/svg+xml</Format>
+                                    </ExternalGraphic>
+                                    <Size>7</Size>
+                                </Graphic>
+                            </GraphicFill>
                         </Fill>
                         <Stroke>
                             <CssParameter name="stroke">#ff7f00</CssParameter>
@@ -41,11 +48,18 @@
                             <ogc:Literal>datatransport</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MaxScaleDenominator>25000</MaxScaleDenominator>
+                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
-                            <CssParameter name="fill">#00ff00</CssParameter>
-                            <CssParameter name="fill-opacity">0.4</CssParameter>
+                            <GraphicFill>
+                                <Graphic>
+                                    <ExternalGraphic>
+                                        <OnlineResource xlink:type="simple" xlink:href="patronen/datatransport.svg"/>
+                                        <Format>image/svg+xml</Format>
+                                    </ExternalGraphic>
+                                    <Size>7</Size>
+                                </Graphic>
+                            </GraphicFill>
                         </Fill>
                         <Stroke>
                             <CssParameter name="stroke">#00ff00</CssParameter>
@@ -62,11 +76,18 @@
                             <ogc:Literal>gasHogeDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MaxScaleDenominator>25000</MaxScaleDenominator>
+                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
-                            <CssParameter name="fill">#ffaf3c</CssParameter>
-                            <CssParameter name="fill-opacity">0.4</CssParameter>
+                            <GraphicFill>
+                                <Graphic>
+                                    <ExternalGraphic>
+                                        <OnlineResource xlink:type="simple" xlink:href="patronen/gashogedruk.svg"/>
+                                        <Format>image/svg+xml</Format>
+                                    </ExternalGraphic>
+                                    <Size>7</Size>
+                                </Graphic>
+                            </GraphicFill>
                         </Fill>
                         <Stroke>
                             <CssParameter name="stroke">#ffaf3c</CssParameter>
@@ -83,11 +104,18 @@
                             <ogc:Literal>gasLageDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MaxScaleDenominator>25000</MaxScaleDenominator>
+                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
-                            <CssParameter name="fill">#ffd750</CssParameter>
-                            <CssParameter name="fill-opacity">0.4</CssParameter>
+                            <GraphicFill>
+                                <Graphic>
+                                    <ExternalGraphic>
+                                        <OnlineResource xlink:type="simple" xlink:href="patronen/gaslagedruk.svg"/>
+                                        <Format>image/svg+xml</Format>
+                                    </ExternalGraphic>
+                                    <Size>7</Size>
+                                </Graphic>
+                            </GraphicFill>
                         </Fill>
                         <Stroke>
                             <CssParameter name="stroke">#ffd750</CssParameter>
@@ -104,11 +132,18 @@
                             <ogc:Literal>petrochemie</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MaxScaleDenominator>25000</MaxScaleDenominator>
+                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
-                            <CssParameter name="fill">#b64a00</CssParameter>
-                            <CssParameter name="fill-opacity">0.4</CssParameter>
+                            <GraphicFill>
+                                <Graphic>
+                                    <ExternalGraphic>
+                                        <OnlineResource xlink:type="simple" xlink:href="patronen/petrochemie.svg"/>
+                                        <Format>image/svg+xml</Format>
+                                    </ExternalGraphic>
+                                    <Size>7</Size>
+                                </Graphic>
+                            </GraphicFill>
                         </Fill>
                         <Stroke>
                             <CssParameter name="stroke">#b64a00</CssParameter>
@@ -125,11 +160,18 @@
                             <ogc:Literal>laagspanning</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MaxScaleDenominator>25000</MaxScaleDenominator>
+                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
-                            <CssParameter name="fill">#960000</CssParameter>
-                            <CssParameter name="fill-opacity">0.4</CssParameter>
+                            <GraphicFill>
+                                <Graphic>
+                                    <ExternalGraphic>
+                                        <OnlineResource xlink:type="simple" xlink:href="patronen/laagspanning.svg"/>
+                                        <Format>image/svg+xml</Format>
+                                    </ExternalGraphic>
+                                    <Size>7</Size>
+                                </Graphic>
+                            </GraphicFill>
                         </Fill>
                         <Stroke>
                             <CssParameter name="stroke">#960000</CssParameter>
@@ -146,11 +188,18 @@
                             <ogc:Literal>middenspanning</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MaxScaleDenominator>25000</MaxScaleDenominator>
+                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
-                            <CssParameter name="fill">#c80000</CssParameter>
-                            <CssParameter name="fill-opacity">0.4</CssParameter>
+                            <GraphicFill>
+                                <Graphic>
+                                    <ExternalGraphic>
+                                        <OnlineResource xlink:type="simple" xlink:href="patronen/middenspanning.svg"/>
+                                        <Format>image/svg+xml</Format>
+                                    </ExternalGraphic>
+                                    <Size>7</Size>
+                                </Graphic>
+                            </GraphicFill>
                         </Fill>
                         <Stroke>
                             <CssParameter name="stroke">#c80000</CssParameter>
@@ -167,11 +216,18 @@
                             <ogc:Literal>hoogspanning</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MaxScaleDenominator>25000</MaxScaleDenominator>
+                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                            <CssParameter name="fill-opacity">0.4</CssParameter>
+                            <GraphicFill>
+                                <Graphic>
+                                    <ExternalGraphic>
+                                        <OnlineResource xlink:type="simple" xlink:href="patronen/hoogspanning.svg"/>
+                                        <Format>image/svg+xml</Format>
+                                    </ExternalGraphic>
+                                    <Size>7</Size>
+                                </Graphic>
+                            </GraphicFill>
                         </Fill>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
@@ -188,11 +244,18 @@
                             <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MaxScaleDenominator>25000</MaxScaleDenominator>
+                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
-                            <CssParameter name="fill">#ff0000</CssParameter>
-                            <CssParameter name="fill-opacity">0.4</CssParameter>
+                            <GraphicFill>
+                                <Graphic>
+                                    <ExternalGraphic>
+                                        <OnlineResource xlink:type="simple" xlink:href="patronen/landelijkhoogspanningsnet.svg"/>
+                                        <Format>image/svg+xml</Format>
+                                    </ExternalGraphic>
+                                    <Size>7</Size>
+                                </Graphic>
+                            </GraphicFill>
                         </Fill>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>
@@ -209,11 +272,18 @@
                             <ogc:Literal>water</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MaxScaleDenominator>25000</MaxScaleDenominator>
+                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
-                            <CssParameter name="fill">#0000ff</CssParameter>
-                            <CssParameter name="fill-opacity">0.4</CssParameter>
+                            <GraphicFill>
+                                <Graphic>
+                                    <ExternalGraphic>
+                                        <OnlineResource xlink:type="simple" xlink:href="patronen/water.svg"/>
+                                        <Format>image/svg+xml</Format>
+                                    </ExternalGraphic>
+                                    <Size>7</Size>
+                                </Graphic>
+                            </GraphicFill>
                         </Fill>
                         <Stroke>
                             <CssParameter name="stroke">#0000ff</CssParameter>
@@ -230,11 +300,18 @@
                             <ogc:Literal>warmte</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MaxScaleDenominator>25000</MaxScaleDenominator>
+                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
-                            <CssParameter name="fill">#008080</CssParameter>
-                            <CssParameter name="fill-opacity">0.4</CssParameter>
+                            <GraphicFill>
+                                <Graphic>
+                                    <ExternalGraphic>
+                                        <OnlineResource xlink:type="simple" xlink:href="patronen/warmte.svg"/>
+                                        <Format>image/svg+xml</Format>
+                                    </ExternalGraphic>
+                                    <Size>7</Size>
+                                </Graphic>
+                            </GraphicFill>
                         </Fill>
                         <Stroke>
                             <CssParameter name="stroke">#008080</CssParameter>
@@ -251,11 +328,18 @@
                             <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MaxScaleDenominator>25000</MaxScaleDenominator>
+                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
-                            <CssParameter name="fill">#800080</CssParameter>
-                            <CssParameter name="fill-opacity">0.4</CssParameter>
+                            <GraphicFill>
+                                <Graphic>
+                                    <ExternalGraphic>
+                                        <OnlineResource xlink:type="simple" xlink:href="patronen/rioolonderoverofonderdruk.svg"/>
+                                        <Format>image/svg+xml</Format>
+                                    </ExternalGraphic>
+                                    <Size>7</Size>
+                                </Graphic>
+                            </GraphicFill>
                         </Fill>
                         <Stroke>
                             <CssParameter name="stroke">#800080</CssParameter>
@@ -272,11 +356,18 @@
                             <ogc:Literal>rioolVrijverval</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MaxScaleDenominator>25000</MaxScaleDenominator>
+                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
-                            <CssParameter name="fill">#ba38a8</CssParameter>
-                            <CssParameter name="fill-opacity">0.4</CssParameter>
+                            <GraphicFill>
+                                <Graphic>
+                                    <ExternalGraphic>
+                                        <OnlineResource xlink:type="simple" xlink:href="patronen/rioolvrijverval.svg"/>
+                                        <Format>image/svg+xml</Format>
+                                    </ExternalGraphic>
+                                    <Size>7</Size>
+                                </Graphic>
+                            </GraphicFill>
                         </Fill>
                         <Stroke>
                             <CssParameter name="stroke">#ba38a8</CssParameter>
@@ -293,11 +384,18 @@
                             <ogc:Literal>wees</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MaxScaleDenominator>25000</MaxScaleDenominator>
+                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
-                            <CssParameter name="fill">#918a6f</CssParameter>
-                            <CssParameter name="fill-opacity">0.4</CssParameter>
+                            <GraphicFill>
+                                <Graphic>
+                                    <ExternalGraphic>
+                                        <OnlineResource xlink:type="simple" xlink:href="patronen/wees.svg"/>
+                                        <Format>image/svg+xml</Format>
+                                    </ExternalGraphic>
+                                    <Size>7</Size>
+                                </Graphic>
+                            </GraphicFill>
                         </Fill>
                         <Stroke>
                             <CssParameter name="stroke">#918a6f</CssParameter>
@@ -314,11 +412,18 @@
                             <ogc:Literal>overig</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MaxScaleDenominator>25000</MaxScaleDenominator>
+                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
-                            <CssParameter name="fill">#6f5c10</CssParameter>
-                            <CssParameter name="fill-opacity">0.4</CssParameter>
+                            <GraphicFill>
+                                <Graphic>
+                                    <ExternalGraphic>
+                                        <OnlineResource xlink:type="simple" xlink:href="patronen/overig.svg"/>
+                                        <Format>image/svg+xml</Format>
+                                    </ExternalGraphic>
+                                    <Size>7</Size>
+                                </Graphic>
+                            </GraphicFill>
                         </Fill>
                         <Stroke>
                             <CssParameter name="stroke">#6f5c10</CssParameter>
