@@ -70,46 +70,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#97</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-97.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -142,46 +106,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#98</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-98.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -230,46 +158,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#100</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-100.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -306,46 +198,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#101</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-101.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -372,46 +228,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#102</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-102.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -438,46 +258,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#103</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-103.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -510,46 +294,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#104</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-104.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -576,46 +324,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#105</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-105.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -642,46 +354,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#108</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-108.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -708,46 +384,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#109</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-109.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -784,46 +424,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#110</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-110.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -850,46 +454,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#111</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-111.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -916,46 +484,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#112</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-112.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -992,46 +524,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#105</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-113.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -1064,46 +560,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#114</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-114.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -1130,46 +590,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#115</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-115.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -1210,46 +634,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#106</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-106.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -1276,46 +664,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#99</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-99.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -1352,46 +704,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#116</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-116.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -1444,46 +760,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#117</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-117.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -1510,46 +790,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#118</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-118.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -1576,46 +820,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#119</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-119.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -1642,46 +850,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#120</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-120.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
@@ -1708,46 +880,10 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
-                            <Mark>
-                                <WellKnownName>ttf://IMKL Icons#121</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">
-                                        <ogc:Function name="Recode">
-                                        <ogc:PropertyName>thema</ogc:PropertyName>
-                                            <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
-                                            <ogc:Literal>#ff7f00</ogc:Literal>
-                                            <ogc:Literal>datatransport</ogc:Literal>
-                                            <ogc:Literal>#00ff00</ogc:Literal>
-                                            <ogc:Literal>gasHogeDruk</ogc:Literal>
-                                            <ogc:Literal>#ffaf3c</ogc:Literal>
-                                            <ogc:Literal>gasLageDruk</ogc:Literal>
-                                            <ogc:Literal>#ffd750</ogc:Literal>
-                                            <ogc:Literal>petrochemie</ogc:Literal>
-                                            <ogc:Literal>#b64a00</ogc:Literal>
-                                            <ogc:Literal>laagspanning</ogc:Literal>
-                                            <ogc:Literal>#960000</ogc:Literal>
-                                            <ogc:Literal>middenspanning</ogc:Literal>
-                                            <ogc:Literal>#c80000</ogc:Literal>
-                                            <ogc:Literal>hoogspanning</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
-                                            <ogc:Literal>#ff0000</ogc:Literal>
-                                            <ogc:Literal>water</ogc:Literal>
-                                            <ogc:Literal>#0000ff</ogc:Literal>
-                                            <ogc:Literal>warmte</ogc:Literal>
-                                            <ogc:Literal>#008080</ogc:Literal>
-                                            <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
-                                            <ogc:Literal>#800080</ogc:Literal>
-                                            <ogc:Literal>rioolVrijverval</ogc:Literal>
-                                            <ogc:Literal>#ba38a8</ogc:Literal>
-                                            <ogc:Literal>wees</ogc:Literal>
-                                            <ogc:Literal>#918a6f</ogc:Literal>
-                                            <ogc:Literal>overig</ogc:Literal>
-                                            <ogc:Literal>#6f5c10</ogc:Literal>
-                                        </ogc:Function>
-                                    </CssParameter>
-                                </Fill>
-                            </Mark>
+                            <ExternalGraphic>
+                                <WellKnownName>file://imkl-icon-121.svg</WellKnownName>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
                             <Size>16</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
