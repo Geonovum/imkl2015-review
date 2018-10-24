@@ -74,7 +74,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-97.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -110,7 +110,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-98.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -162,7 +162,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-100.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -202,7 +202,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-101.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -232,7 +232,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-102.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -262,7 +262,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-103.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -298,7 +298,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-104.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -328,7 +328,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-105.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -358,7 +358,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-108.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -388,7 +388,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-109.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -428,7 +428,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-110.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -458,7 +458,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-111.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -488,7 +488,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-112.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -528,7 +528,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-113.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -564,7 +564,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-114.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -594,7 +594,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-115.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -638,7 +638,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-106.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -668,7 +668,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-99.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -708,7 +708,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-116.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -764,7 +764,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-117.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -794,7 +794,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-118.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -824,7 +824,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-119.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -854,7 +854,7 @@
                                 <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-120.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -884,7 +884,7 @@
                                 <WellKnownName>file://imkl-icon-121.svg</WellKnownName>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
-                            <Size>16</Size>
+                            <Size>50</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
@@ -1236,7 +1236,7 @@
                                     <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>25</Size>
+                            <Size>9</Size>
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1297,7 +1297,7 @@
                                     <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>11</Size>
+                            <Size>9</Size>
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
