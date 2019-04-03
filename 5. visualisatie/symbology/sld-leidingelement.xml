@@ -784,6 +784,10 @@
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>WaterAppurtenanceTypeValue/junction</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>WaterAppurtenanceTypeValue/put</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
                         </ogc:Or>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
