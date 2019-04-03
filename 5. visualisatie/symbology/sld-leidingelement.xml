@@ -934,6 +934,10 @@
                         <ogc:Or>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>ElectricityAppurtenanceTypeValue/afdekplaten</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>ElectricityAppurtenanceTypeValue/connectionBox</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
@@ -967,6 +971,10 @@
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>ElectricityAppurtenanceTypeIMKLValue/kbEindpunt</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>OilGasChemicalsAppurtenanceTypeValue/afdekplaten</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
@@ -1050,6 +1058,10 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>SewerAppurtenanceTypeValue/afdekplaten</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>SewerAppurtenanceTypeValue/barrel</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
@@ -1106,6 +1118,10 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>ThermalAppurtenanceTypeIMKLValue/afdekplaten</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>ThermalAppurtenanceTypeIMKLValue/gestuurdeBoring</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
@@ -1127,6 +1143,10 @@
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>ThermalAppurtenanceTypeIMKLValue/zinker</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>WaterAppurtenanceTypeValue/afdekplaten</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
