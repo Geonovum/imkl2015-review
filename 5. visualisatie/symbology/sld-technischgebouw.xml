@@ -505,7 +505,7 @@
                             <Mark>
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
-                                    <CssParameter name="fill">#000000</CssParameter>
+                                    <CssParameter name="fill">#ffffff</CssParameter>
                                     <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>
@@ -5060,7 +5060,7 @@
                             <Mark>
                                 <WellKnownName>square</WellKnownName>
                                 <Fill>
-                                    <CssParameter name="fill">#000000</CssParameter>
+                                    <CssParameter name="fill">#ffffff</CssParameter>
                                     <CssParameter name="fill-opacity">0.4</CssParameter>
                                 </Fill>
                                 <Stroke>

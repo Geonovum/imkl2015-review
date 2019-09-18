@@ -342,6 +342,36 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
+                    <Name>drukregelaar-z15-16-geen-extrageometrie</Name>
+                    <Title>Drukregelaar op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                            <ogc:Literal>WaterAppurtenanceTypeValue/pressureController</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-107.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
+                            <Size>50</Size>
+                            <Rotation>
+                                <ogc:Function name="if_then_else">
+                                    <ogc:Function name="isNull">
+                                        <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                    </ogc:Function>
+                                    <ogc:Literal>0</ogc:Literal>
+                                    <ogc:PropertyName>rotatiehoekSymbool</ogc:PropertyName>
+                                </ogc:Function>
+                            </Rotation>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+                <Rule>
                     <Name>geulmof-z15-16-geen-extrageometrie</Name>
                     <Title>Geulmof op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
                     <ogc:Filter>
@@ -754,6 +784,10 @@
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>WaterAppurtenanceTypeValue/junction</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>WaterAppurtenanceTypeValue/put</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
                         </ogc:Or>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -904,6 +938,10 @@
                         <ogc:Or>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>ElectricityAppurtenanceTypeValue/afdekplaten</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>ElectricityAppurtenanceTypeValue/connectionBox</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
@@ -937,6 +975,10 @@
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>ElectricityAppurtenanceTypeIMKLValue/kbEindpunt</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>OilGasChemicalsAppurtenanceTypeValue/afdekplaten</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
@@ -1020,6 +1062,10 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>SewerAppurtenanceTypeValue/afdekplaten</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>SewerAppurtenanceTypeValue/barrel</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
@@ -1076,6 +1122,10 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>ThermalAppurtenanceTypeIMKLValue/afdekplaten</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>ThermalAppurtenanceTypeIMKLValue/gestuurdeBoring</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
@@ -1097,6 +1147,10 @@
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>ThermalAppurtenanceTypeIMKLValue/zinker</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>WaterAppurtenanceTypeValue/afdekplaten</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
