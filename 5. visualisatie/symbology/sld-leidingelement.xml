@@ -915,7 +915,7 @@
                     <PointSymbolizer>
                         <Graphic>
                             <ExternalGraphic>
-                                <WellKnownName>file://imkl-icon-121.svg</WellKnownName>
+                                <OnlineResource xlink:type="simple" xlink:href="iconen/${thema}/imkl-icon-121.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
                             <Size>50</Size>
