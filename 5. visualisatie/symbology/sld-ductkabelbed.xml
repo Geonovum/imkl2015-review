@@ -1852,7 +1852,8 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <MinScaleDenominator>10000</MinScaleDenominator>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <MaxScaleDenominator>400000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#ff0000</CssParameter>

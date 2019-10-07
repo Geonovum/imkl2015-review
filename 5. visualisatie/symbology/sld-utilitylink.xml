@@ -1125,7 +1125,7 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#00000ff</CssParameter>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">4</CssParameter>
                             <CssParameter name="stroke-dasharray">4 16</CssParameter>
                         </Stroke>
@@ -1150,7 +1150,7 @@
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#00000ff</CssParameter>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">2</CssParameter>
                             <CssParameter name="stroke-dasharray">4 16</CssParameter>
                         </Stroke>
@@ -1174,7 +1174,7 @@
                     <MinScaleDenominator>10001</MinScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#00000ff</CssParameter>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">1</CssParameter>
                             <CssParameter name="stroke-dasharray">4 16</CssParameter>
                         </Stroke>
@@ -1199,7 +1199,7 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#00000ff</CssParameter>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">4</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -1223,7 +1223,7 @@
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#00000ff</CssParameter>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">2</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -1246,7 +1246,7 @@
                     <MinScaleDenominator>10001</MinScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#00000ff</CssParameter>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">1</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
@@ -1270,7 +1270,7 @@
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#00000ff</CssParameter>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">4</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
                         </Stroke>
@@ -1295,7 +1295,7 @@
                     <MaxScaleDenominator>10000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#00000ff</CssParameter>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">2</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
                         </Stroke>
@@ -1319,7 +1319,7 @@
                     <MinScaleDenominator>10001</MinScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#00000ff</CssParameter>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
                             <CssParameter name="stroke-width">1</CssParameter>
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
                         </Stroke>
