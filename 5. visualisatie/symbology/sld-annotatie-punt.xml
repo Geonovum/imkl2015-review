@@ -29,7 +29,7 @@
                                     <CssParameter name="fill">#000000</CssParameter>
                                 </Fill>
                             </Mark>
-                            <Size>10</Size>
+                            <Size>5</Size>
                             <Rotation>
                                 <ogc:Function name="if_then_else">
                                     <ogc:Function name="isNull">
