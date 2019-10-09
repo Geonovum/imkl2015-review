@@ -786,7 +786,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
-                                <ogc:Literal>WaterAppurtenanceTypeValue/put</ogc:Literal>
+                                <ogc:Literal>WaterAppurtenanceTypeIMKLValue/put</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:Or>
                     </ogc:Filter>
@@ -938,10 +938,6 @@
                         <ogc:Or>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
-                                <ogc:Literal>ElectricityAppurtenanceTypeValue/afdekplaten</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>ElectricityAppurtenanceTypeValue/connectionBox</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
@@ -966,6 +962,10 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>ElectricityAppurtenanceTypeIMKLValue/afdekplaten</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>ElectricityAppurtenanceTypeIMKLValue/hoogteligging</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
@@ -975,10 +975,6 @@
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>ElectricityAppurtenanceTypeIMKLValue/kbEindpunt</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
-                                <ogc:Literal>OilGasChemicalsAppurtenanceTypeValue/afdekplaten</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
@@ -1007,6 +1003,10 @@
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>OilGasChemicalsAppurtenanceTypeIMKLValue/adrespunt</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>OilGasChemicalsAppurtenanceTypeIMKLValue/afdekplaten</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
@@ -1062,10 +1062,6 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
-                                <ogc:Literal>SewerAppurtenanceTypeValue/afdekplaten</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>SewerAppurtenanceTypeValue/barrel</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
@@ -1087,6 +1083,10 @@
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>SewerAppurtenanceTypeValue/watertankOrChamber</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>SewerAppurtenanceTypeIMKLValue/afdekplaten</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
@@ -1150,10 +1150,6 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
-                                <ogc:Literal>WaterAppurtenanceTypeValue/afdekplaten</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>WaterAppurtenanceTypeValue/lateralPoint</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
@@ -1179,6 +1175,10 @@
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>WaterAppurtenanceTypeValue/treatmentPlant</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>WaterAppurtenanceTypeIMKLValue/afdekplaten</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
