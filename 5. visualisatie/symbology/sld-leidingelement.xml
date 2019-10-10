@@ -1038,6 +1038,10 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>OilGasChemicalsAppurtenanceTypeIMKLValue/gasstopper</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>OilGasChemicalsAppurtenanceTypeIMKLValue/hoogteligging</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
