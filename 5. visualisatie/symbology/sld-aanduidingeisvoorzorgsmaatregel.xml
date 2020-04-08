@@ -26,7 +26,7 @@
                             <GraphicFill>
                                 <Graphic>
                                     <ExternalGraphic>
-                                        <OnlineResource xlink:type="simple" xlink:href="patronen/buisleidingevaarlijkeinhoud.svg"/>
+                                        <OnlineResource xlink:type="simple" xlink:href="patronen/buisleidinggevaarlijkeinhoud.svg"/>
                                         <Format>image/svg+xml</Format>
                                     </ExternalGraphic>
                                     <Size>7</Size>
