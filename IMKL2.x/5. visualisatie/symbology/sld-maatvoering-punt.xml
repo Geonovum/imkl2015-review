@@ -24,10 +24,14 @@
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
-                                <WellKnownName>triangle</WellKnownName>
+                                <WellKnownName>shape://oarrow</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#000000</CssParameter>
                                 </Fill>
+                                <Stroke>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                </Stroke>
                             </Mark>
                             <Size>5</Size>
                             <Rotation>
@@ -35,11 +39,8 @@
                                     <ogc:Function name="isNull">
                                         <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
                                     </ogc:Function>
-                                    <ogc:Literal>90</ogc:Literal>
-                                    <ogc:Add>
-                                        <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
-                                        <ogc:Literal>90</ogc:Literal>
-                                    </ogc:Add>
+                                    <ogc:Literal>0</ogc:Literal>
+                                    <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
                                 </ogc:Function>
                             </Rotation>
                         </Graphic>
