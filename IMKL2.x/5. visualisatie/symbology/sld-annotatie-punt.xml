@@ -87,6 +87,7 @@
                         <Fill>
                             <CssParameter name="fill">#000000</CssParameter>
                         </Fill>
+                        <VendorOption name="conflictResolution">false</VendorOption>
                     </TextSymbolizer>
                 </Rule>
             </FeatureTypeStyle>
