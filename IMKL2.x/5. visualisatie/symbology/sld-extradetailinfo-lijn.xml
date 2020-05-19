@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor version="1.0.0"
+    xmlns="http://www.opengis.net/sld"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+    <NamedLayer>
+        <Name>ExtraDetailinfo - lijn</Name>
+        <UserStyle>
+            <Title>ExtraDetailinfo Lijn</Title>
+            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle objecten uit de objectklasse ExtraDetailinfo met een lijngeometrie obv status en typeTopografischObject</Abstract>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>extradetailinfo-lijn</Name>
+                    <Title>ExtraDetailinfo als lijnen op zoomniveaus 14-16</Title>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#000000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>extradetailinfo-lijn-z15-16</Name>
+                    <Title>ExtraDetailinfo op zoomniveau 15 en 16</Title>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="extradetailinfo.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
+                            <Size>25</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>extradetailfino-lijn-z14</Name>
+                    <Title>ExtraDetailinfo op zoomniveau 14</Title>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <TextSymbolizer>
+                        <Label>
+                            <ogc:Literal>i</ogc:Literal>
+                        </Label>
+                        <Font>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
+                            <CssParameter name="font-size">10</CssParameter>
+                        </Font>
+                        <LabelPlacement>
+                            <PointPlacement>
+                                <AnchorPoint>
+                                    <AnchorPointX>0.5</AnchorPointX>
+                                    <AnchorPointY>0.5</AnchorPointY>
+                                </AnchorPoint>
+                            </PointPlacement>
+                        </LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#ffffff</CssParameter>
+                        </Fill>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>square</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                </Fill>
+                            </Mark>
+                            <Size>11</Size>
+                            <Rotation>45</Rotation>
+                        </Graphic>
+                    </TextSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

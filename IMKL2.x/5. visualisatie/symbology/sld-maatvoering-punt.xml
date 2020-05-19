@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor version="1.0.0"
+    xmlns="http://www.opengis.net/sld"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+    <NamedLayer>
+        <Name>Maatvoering - punt</Name>
+        <UserStyle>
+            <Title>Visualisatie van de Maatvoering met puntgeometrie</Title>
+            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van het objecttype Maatvoering met puntgeometrie</Abstract>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>maatvoeringspijl-z15-16</Name>
+                    <Title>Maatvoeringspijl op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>maatvoeringsType</ogc:PropertyName>
+                            <ogc:Literal>maatvoeringspijlpunt</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>triangle</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill">#000000</CssParameter>
+                                </Fill>
+                            </Mark>
+                            <Size>5</Size>
+                            <Rotation>
+                                <ogc:Function name="if_then_else">
+                                    <ogc:Function name="isNull">
+                                        <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                    </ogc:Function>
+                                    <ogc:Literal>90</ogc:Literal>
+                                    <ogc:Add>
+                                        <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                        <ogc:Literal>90</ogc:Literal>
+                                    </ogc:Add>
+                                </ogc:Function>
+                            </Rotation>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>maatvoeringslabel</Name>
+                    <Title>Maatvoeringslabel</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>maatvoeringsType</ogc:PropertyName>
+                            <ogc:Literal>maatvoeringslabel</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <TextSymbolizer>
+                        <Label>
+                            <ogc:PropertyName>label</ogc:PropertyName>
+                        </Label>
+                        <Font>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
+                            <CssParameter name="font-size">13</CssParameter>
+                        </Font>
+                        <LabelPlacement>
+                            <PointPlacement>
+                                <AnchorPoint>
+                                    <AnchorPointX>
+                                        <ogc:PropertyName>aangrijpingHorizontaal</ogc:PropertyName>
+                                    </AnchorPointX>
+                                    <AnchorPointY>
+                                        <ogc:PropertyName>aangrijpingVerticaal</ogc:PropertyName>
+                                    </AnchorPointY>
+                                </AnchorPoint>
+                                <Rotation>
+                                    <ogc:Function name="if_then_else">
+                                        <ogc:Function name="isNull">
+                                            <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                        </ogc:Function>
+                                        <ogc:Literal>0</ogc:Literal>
+                                        <ogc:PropertyName>rotatiehoek</ogc:PropertyName>
+                                    </ogc:Function>
+                                </Rotation>
+                            </PointPlacement>
+                        </LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#000000</CssParameter>
+                        </Fill>
+                    </TextSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

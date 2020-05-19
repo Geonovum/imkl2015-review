@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+ <line x1="25" x2="25" y1="22.084" y2="32.087" fill="none" stroke="#0000ff" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.417"/>
+ <line x1="19.331" x2="30.67" y1="22.085" y2="22.085" fill="none" stroke="#0000ff" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.4173"/>
+ <path fill="#0000ff" d="m25 19.331c3.126 0 5.669 2.543 5.669 5.669s-2.543 5.669-5.669 5.669-5.669-2.543-5.669-5.669 2.543-5.669 5.669-5.669m0-1.418c-3.914 0-7.087 3.173-7.087 7.087s3.173 7.087 7.087 7.087 7.087-3.173 7.087-7.087-3.173-7.087-7.087-7.087z"/>
+</svg>

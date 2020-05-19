@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor version="1.0.0"
+    xmlns="http://www.opengis.net/sld"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+    <NamedLayer>
+        <Name>EigenTopografie - punt</Name>
+        <UserStyle>
+            <Title>Eigen Topografie</Title>
+            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle objecten uit de objectklasse EigenTopografie met een puntgeometrie obv status en typeTopografischObject</Abstract>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>gepland-z15-16</Name>
+                    <Title>Geplande Eigen Topografie op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>status</ogc:PropertyName>
+                            <ogc:Literal>plan</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>circle</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill-opacity">0</CssParameter>
+                                </Fill>
+                                <Stroke>
+                                    <CssParameter name="stroke">#666666</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">4 4</CssParameter>
+                                </Stroke>
+                            </Mark>
+                            <Size>25</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gepland-z14</Name>
+                    <Title>Geplande Eigen Topografie op zoomniveau 14</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>status</ogc:PropertyName>
+                            <ogc:Literal>plan</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>circle</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill-opacity">0</CssParameter>
+                                </Fill>
+                                <Stroke>
+                                    <CssParameter name="stroke">#666666</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
+                                </Stroke>
+                            </Mark>
+                            <Size>11</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gepland-z13</Name>
+                    <Title>Geplande Eigen Topografie op zoomniveau 13</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>status</ogc:PropertyName>
+                            <ogc:Literal>plan</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <MinScaleDenominator>1251</MinScaleDenominator>
+                    <MaxScaleDenominator>2500</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>circle</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill-opacity">0</CssParameter>
+                                </Fill>
+                                <Stroke>
+                                    <CssParameter name="stroke">#666666</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                    <CssParameter name="stroke-dasharray">1 1</CssParameter>
+                                </Stroke>
+                            </Mark>
+                            <Size>8</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>bestaand-z15-16</Name>
+                    <Title>Bestaande Eigen Topografie op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>status</ogc:PropertyName>
+                            <ogc:Literal>bestaand</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>circle</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill-opacity">0</CssParameter>
+                                </Fill>
+                                <Stroke>
+                                    <CssParameter name="stroke">#666666</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                </Stroke>
+                            </Mark>
+                            <Size>25</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>bestaand-z14</Name>
+                    <Title>Bestaande Eigen Topografie op zoomniveau 14</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>status</ogc:PropertyName>
+                            <ogc:Literal>bestaand</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>circle</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill-opacity">0</CssParameter>
+                                </Fill>
+                                <Stroke>
+                                    <CssParameter name="stroke">#666666</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                </Stroke>
+                            </Mark>
+                            <Size>11</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>bestaand-z13</Name>
+                    <Title>Bestaande Eigen Topografie op zoomniveau 13</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>status</ogc:PropertyName>
+                            <ogc:Literal>bestaand</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <MinScaleDenominator>1251</MinScaleDenominator>
+                    <MaxScaleDenominator>2500</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>circle</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill-opacity">0</CssParameter>
+                                </Fill>
+                                <Stroke>
+                                    <CssParameter name="stroke">#666666</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                </Stroke>
+                            </Mark>
+                            <Size>8</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>
