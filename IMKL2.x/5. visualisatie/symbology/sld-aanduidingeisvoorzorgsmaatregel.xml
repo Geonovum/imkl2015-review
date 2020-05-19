@@ -20,7 +20,6 @@
                             <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <GraphicFill>
@@ -44,7 +43,6 @@
                             <ogc:Literal>datatransport</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <GraphicFill>
@@ -68,7 +66,6 @@
                             <ogc:Literal>gasHogeDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <GraphicFill>
@@ -92,7 +89,6 @@
                             <ogc:Literal>gasLageDruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <GraphicFill>
@@ -116,7 +112,6 @@
                             <ogc:Literal>petrochemie</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <GraphicFill>
@@ -140,7 +135,6 @@
                             <ogc:Literal>laagspanning</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <GraphicFill>
@@ -164,7 +158,6 @@
                             <ogc:Literal>middenspanning</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <GraphicFill>
@@ -188,7 +181,6 @@
                             <ogc:Literal>hoogspanning</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <GraphicFill>
@@ -212,7 +204,6 @@
                             <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <GraphicFill>
@@ -236,7 +227,6 @@
                             <ogc:Literal>water</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <GraphicFill>
@@ -260,7 +250,6 @@
                             <ogc:Literal>warmte</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <GraphicFill>
@@ -284,7 +273,6 @@
                             <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <GraphicFill>
@@ -308,7 +296,6 @@
                             <ogc:Literal>rioolVrijverval</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <GraphicFill>
@@ -332,7 +319,6 @@
                             <ogc:Literal>wees</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <GraphicFill>
@@ -356,7 +342,6 @@
                             <ogc:Literal>overig</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <MinScaleDenominator>0</MinScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <GraphicFill>
