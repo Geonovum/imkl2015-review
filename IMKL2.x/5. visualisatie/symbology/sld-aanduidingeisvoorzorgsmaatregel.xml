@@ -33,10 +33,6 @@
                                 </Graphic>
                             </GraphicFill>
                         </Fill>
-                        <Stroke>
-                            <CssParameter name="stroke">#ff7f00</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                        </Stroke>
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
@@ -61,10 +57,6 @@
                                 </Graphic>
                             </GraphicFill>
                         </Fill>
-                        <Stroke>
-                            <CssParameter name="stroke">#00ff00</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                        </Stroke>
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
@@ -89,10 +81,6 @@
                                 </Graphic>
                             </GraphicFill>
                         </Fill>
-                        <Stroke>
-                            <CssParameter name="stroke">#ffaf3c</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                        </Stroke>
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
@@ -117,10 +105,6 @@
                                 </Graphic>
                             </GraphicFill>
                         </Fill>
-                        <Stroke>
-                            <CssParameter name="stroke">#ffd750</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                        </Stroke>
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
@@ -145,10 +129,6 @@
                                 </Graphic>
                             </GraphicFill>
                         </Fill>
-                        <Stroke>
-                            <CssParameter name="stroke">#b64a00</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                        </Stroke>
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
@@ -173,10 +153,6 @@
                                 </Graphic>
                             </GraphicFill>
                         </Fill>
-                        <Stroke>
-                            <CssParameter name="stroke">#960000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                        </Stroke>
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
@@ -201,10 +177,6 @@
                                 </Graphic>
                             </GraphicFill>
                         </Fill>
-                        <Stroke>
-                            <CssParameter name="stroke">#c80000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                        </Stroke>
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
@@ -229,10 +201,6 @@
                                 </Graphic>
                             </GraphicFill>
                         </Fill>
-                        <Stroke>
-                            <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                        </Stroke>
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
@@ -257,10 +225,6 @@
                                 </Graphic>
                             </GraphicFill>
                         </Fill>
-                        <Stroke>
-                            <CssParameter name="stroke">#ff0000</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                        </Stroke>
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
@@ -285,10 +249,6 @@
                                 </Graphic>
                             </GraphicFill>
                         </Fill>
-                        <Stroke>
-                            <CssParameter name="stroke">#0000ff</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                        </Stroke>
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
@@ -313,10 +273,6 @@
                                 </Graphic>
                             </GraphicFill>
                         </Fill>
-                        <Stroke>
-                            <CssParameter name="stroke">#008080</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                        </Stroke>
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
@@ -341,10 +297,6 @@
                                 </Graphic>
                             </GraphicFill>
                         </Fill>
-                        <Stroke>
-                            <CssParameter name="stroke">#800080</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                        </Stroke>
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
@@ -369,10 +321,6 @@
                                 </Graphic>
                             </GraphicFill>
                         </Fill>
-                        <Stroke>
-                            <CssParameter name="stroke">#ba38a8</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                        </Stroke>
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
@@ -397,10 +345,6 @@
                                 </Graphic>
                             </GraphicFill>
                         </Fill>
-                        <Stroke>
-                            <CssParameter name="stroke">#918a6f</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                        </Stroke>
                     </PolygonSymbolizer>
                 </Rule>
                 <Rule>
@@ -425,10 +369,6 @@
                                 </Graphic>
                             </GraphicFill>
                         </Fill>
-                        <Stroke>
-                            <CssParameter name="stroke">#6f5c10</CssParameter>
-                            <CssParameter name="stroke-width">1</CssParameter>
-                        </Stroke>
                     </PolygonSymbolizer>
                 </Rule>
             </FeatureTypeStyle>
