@@ -58,16 +58,12 @@
                         </Geometry>
                         <Graphic>
                             <Mark>
-                                <WellKnownName>shape://oarrow</WellKnownName>
+                                <WellKnownName>shape://carrow</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#000000</CssParameter>
                                 </Fill>
-                                <Stroke>
-                                    <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">1</CssParameter>
-                                </Stroke>
                             </Mark>
-                            <Size>5</Size>
+                            <Size>10</Size>
                             <Rotation>
                                 <ogc:Add>
                                     <ogc:Function name="startAngle">
@@ -86,16 +82,12 @@
                         </Geometry>
                         <Graphic>
                             <Mark>
-                                <WellKnownName>shape://oarrow</WellKnownName>
+                                <WellKnownName>shape://carrow</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#000000</CssParameter>
                                 </Fill>
-                                <Stroke>
-                                    <CssParameter name="stroke">#000000</CssParameter>
-                                    <CssParameter name="stroke-width">1</CssParameter>
-                                </Stroke>
                             </Mark>
-                            <Size>5</Size>
+                            <Size>10</Size>
                             <Rotation>
                                 <ogc:Function name="endAngle">
                                     <ogc:PropertyName>geometrie</ogc:PropertyName>
