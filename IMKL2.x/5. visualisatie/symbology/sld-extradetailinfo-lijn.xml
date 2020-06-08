@@ -60,7 +60,7 @@
                               <Size>28</Size>
                             </Graphic>
                           </GraphicStroke>
-                          <CssParameter name="stroke-dasharray">18 2</CssParameter>
+                          <CssParameter name="stroke-dasharray">16.5 3.5</CssParameter>
                         </Stroke>
                       </LineSymbolizer>
                       <PointSymbolizer>
