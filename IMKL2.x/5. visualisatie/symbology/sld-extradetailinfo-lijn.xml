@@ -18,42 +18,116 @@
                     <MaxScaleDenominator>1250</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
-                            <CssParameter name="stroke">#000000</CssParameter>
-                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke">#000</CssParameter>
+                            <CssParameter name="stroke-width">30</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
                 </Rule>
             </FeatureTypeStyle>
             <FeatureTypeStyle>
                 <Rule>
-                    <Name>extradetailinfo-lijn-z15-16</Name>
-                    <Title>ExtraDetailinfo op zoomniveau 15 en 16</Title>
+                    <Name>extradetailinfo-lijn</Name>
+                    <Title>ExtraDetailinfo als lijnen op zoomniveaus 14-16</Title>
                     <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>500</MaxScaleDenominator>
-                    <PointSymbolizer>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#fff</CssParameter>
+                            <CssParameter name="stroke-width">28</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>extradetailinfo-lijn</Name>
+                    <Title>ExtraDetailinfo als lijnen op zoomniveaus 14-16</Title>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                          <GraphicStroke>
+                            <Graphic>
+                              <Mark>
+                                <WellKnownName>shape://slash</WellKnownName>
+                                <Stroke>
+                                  <CssParameter name="stroke">#ccc</CssParameter>
+                                  <CssParameter name="stroke-width">3.5</CssParameter>
+                                </Stroke>
+                              </Mark>
+                              <Size>28</Size>
+                            </Graphic>
+                          </GraphicStroke>
+                          <CssParameter name="stroke-dasharray">18 2</CssParameter>
+                        </Stroke>
+                      </LineSymbolizer>
+                      <PointSymbolizer>
+                        <Geometry>
+                            <ogc:Function name="startPoint">
+                                <ogc:PropertyName>geom</ogc:PropertyName>
+                            </ogc:Function>
+                        </Geometry>
                         <Graphic>
-                            <ExternalGraphic>
-                                <OnlineResource xlink:type="simple" xlink:href="extradetailinfo.svg"/>
-                                <Format>image/svg+xml</Format>
-                            </ExternalGraphic>
-                            <Size>25</Size>
+                            <Mark>
+                                <WellKnownName>shape://vertline</WellKnownName>
+                                <Stroke>
+                                    <CssParameter name="stroke">#000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                </Stroke>
+                            </Mark>
+                            <Size>30</Size>
+                            <Rotation>
+                                <ogc:Function name="startAngle">
+                                    <ogc:PropertyName>geom</ogc:PropertyName>
+                                </ogc:Function>
+                            </Rotation>
+                        </Graphic>
+                    </PointSymbolizer>
+                    <PointSymbolizer>
+                        <Geometry>
+                            <ogc:Function name="endPoint">
+                                <ogc:PropertyName>geom</ogc:PropertyName>
+                            </ogc:Function>
+                        </Geometry>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>shape://vertline</WellKnownName>
+                                <Stroke>
+                                    <CssParameter name="stroke">#000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                </Stroke>
+                            </Mark>
+                            <Size>30</Size>
+                            <Rotation>
+                                <ogc:Function name="endAngle">
+                                    <ogc:PropertyName>geom</ogc:PropertyName>
+                                </ogc:Function>
+                            </Rotation>
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
                 <Rule>
-                    <Name>extradetailfino-lijn-z14</Name>
-                    <Title>ExtraDetailinfo op zoomniveau 14</Title>
-                    <MinScaleDenominator>501</MinScaleDenominator>
-                    <MaxScaleDenominator>1250</MaxScaleDenominator>
-                    <PointSymbolizer>
-                        <Graphic>
-                            <ExternalGraphic>
-                                <OnlineResource xlink:type="simple" xlink:href="extradetailinfo.svg"/>
-                                <Format>image/svg+xml</Format>
-                            </ExternalGraphic>
-                            <Size>11</Size>
-                        </Graphic>
-                    </PointSymbolizer>
+                    <Name>utilitynetwork</Name>
+                    <Title>geometrie van de leidingen</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                            <ogc:Literal>functional</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#cccccc</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
                 </Rule>
             </FeatureTypeStyle>
         </UserStyle>
