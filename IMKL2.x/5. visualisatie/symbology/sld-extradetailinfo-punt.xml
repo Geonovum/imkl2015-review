@@ -9,7 +9,7 @@
         <Name>ExtraDetailinfo - punt</Name>
         <UserStyle>
             <Title>ExtraDetailinfo Punt</Title>
-            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle objecten uit de objectklasse ExtraDetailinfo met een puntgeometrie obv status en typeTopografischObject</Abstract>
+            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle objecten uit de objectklasse ExtraDetailinfo</Abstract>
             <FeatureTypeStyle>
                 <Rule>
                     <Name>extradetailinfo-punt-z15-16</Name>
