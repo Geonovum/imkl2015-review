@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor version="1.0.0"
+    xmlns="http://www.opengis.net/sld"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+    <NamedLayer>
+        <Name>UtilityLink</Name>
+        <UserStyle>
+            <Title>UtilityLinks</Title>
+            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle utilitylinks obv UtilityNetworkTypeValue en currentStatus</Abstract>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>electricity-geprojecteerd-z15-16</Name>
+                    <Title>Electricity geprojecteerd op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>electricity</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#c80000</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>electricity-geprojecteerd-z11-14</Name>
+                    <Title>Electricity geprojecteerd op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>electricity</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#c80000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>electricity-geprojecteerd-z0-10</Name>
+                    <Title>Electricity geprojecteerd op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>electricity</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#c80000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>electricity-in-gebruik-z15-16</Name>
+                    <Title>Electricity in gebruik op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>electricity</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#c80000</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>electricity-in-gebruik-z11-14</Name>
+                    <Title>Electricity in gebruik op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>electricity</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#c80000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>electricity-in-gebruik-z0-10</Name>
+                    <Title>Electricity in gebruik op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>electricity</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#c80000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>electricity-buiten-gebruik-z15-16</Name>
+                    <Title>Electricity buiten gebruik op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>electricity</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#c80000</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>electricity-buiten-gebruik-z11-14</Name>
+                    <Title>Electricity buiten gebruik op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>electricity</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#c80000</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>electricity-buiten-gebruik-z0-10</Name>
+                    <Title>Electricity buiten gebruik op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>electricity</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#c80000</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>oilgaschemical-geprojecteerd-z15-16</Name>
+                    <Title>OilGasChemical geprojecteerd op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>oilGasChemical</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#b64a00</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>oilgaschemical-geprojecteerd-z11-14</Name>
+                    <Title>OilGasChemical geprojecteerd op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>oilGasChemical</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#b64a00</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>oilgaschemical-geprojecteerd-z0-10</Name>
+                    <Title>OilGasChemical geprojecteerd op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>oilGasChemical</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#b64a00</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>oilgaschemical-in-gebruik-z15-16</Name>
+                    <Title>OilGasChemical in gebruik op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>oilGasChemical</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#b64a00</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>oilgaschemical-in-gebruik-z11-14</Name>
+                    <Title>OilGasChemical in gebruik op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>oilGasChemical</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#b64a00</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>oilgaschemical-in-gebruik-z0-10</Name>
+                    <Title>OilGasChemical in gebruik op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>oilGasChemical</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#b64a00</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>oilgaschemical-buiten-gebruik-z15-16</Name>
+                    <Title>OilGasChemical buiten gebruik op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>oilGasChemical</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#b64a00</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>oilgaschemical-buiten-gebruik-z11-14</Name>
+                    <Title>OilGasChemical buiten gebruik op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>oilGasChemical</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#b64a00</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>oilgaschemical-buiten-gebruik-z0-10</Name>
+                    <Title>OilGasChemical buiten gebruik op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>oilGasChemical</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#b64a00</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>sewer-geprojecteerd-z15-16</Name>
+                    <Title>Sewer geprojecteerd op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>sewer</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ba38a8</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>sewer-geprojecteerd-z11-14</Name>
+                    <Title>Sewer geprojecteerd op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>sewer</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ba38a8</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>sewer-geprojecteerd-z0-10</Name>
+                    <Title>Sewer geprojecteerd op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>sewer</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ba38a8</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>sewer-in-gebruik-z15-16</Name>
+                    <Title>Sewer in gebruik op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>sewer</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ba38a8</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>sewer-in-gebruik-z11-14</Name>
+                    <Title>Sewer in gebruik op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>sewer</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ba38a8</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>sewer-in-gebruik-z0-10</Name>
+                    <Title>Sewer in gebruik op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>sewer</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ba38a8</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>sewer-buiten-gebruik-z15-16</Name>
+                    <Title>Sewer buiten gebruik op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>sewer</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ba38a8</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>sewer-buiten-gebruik-z11-14</Name>
+                    <Title>Sewer buiten gebruik op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>sewer</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ba38a8</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>sewer-buiten-gebruik-z0-10</Name>
+                    <Title>Sewer buiten gebruik op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>sewer</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#ba38a8</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>telecommunications-geprojecteerd-z15-16</Name>
+                    <Title>Telecommunications geprojecteerd op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>telecommunications</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#00ff00</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>telecommunications-geprojecteerd-z11-14</Name>
+                    <Title>Telecommunications geprojecteerd op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>telecommunications</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#00ff00</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>telecommunications-geprojecteerd-z0-10</Name>
+                    <Title>Telecommunications geprojecteerd op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>telecommunications</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#00ff00</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>telecommunications-in-gebruik-z15-16</Name>
+                    <Title>Telecommunications in gebruik op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>telecommunications</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#00ff00</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>telecommunications-in-gebruik-z11-14</Name>
+                    <Title>Telecommunications in gebruik op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>telecommunications</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#00ff00</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>telecommunications-in-gebruik-z0-10</Name>
+                    <Title>Telecommunications in gebruik op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>telecommunications</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#00ff00</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>telecommunications-buiten-gebruik-z15-16</Name>
+                    <Title>Telecommunications buiten gebruik op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>telecommunications</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#00ff00</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>telecommunications-buiten-gebruik-z11-14</Name>
+                    <Title>Telecommunications buiten gebruik op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>telecommunications</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#00ff00</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>telecommunications-buiten-gebruik-z0-10</Name>
+                    <Title>Telecommunications buiten gebruik op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>telecommunications</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#00ff00</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>thermal-geprojecteerd-z15-16</Name>
+                    <Title>Thermal geprojecteerd op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>thermal</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#008080</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>thermal-geprojecteerd-z11-14</Name>
+                    <Title>Thermal geprojecteerd op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>thermal</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#008080</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>thermal-geprojecteerd-z0-10</Name>
+                    <Title>Thermal geprojecteerd op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>thermal</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#008080</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>thermal-in-gebruik-z15-16</Name>
+                    <Title>Thermal in gebruik op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>thermal</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#008080</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>thermal-in-gebruik-z11-14</Name>
+                    <Title>Thermal in gebruik op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>thermal</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#008080</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>thermal-in-gebruik-z0-10</Name>
+                    <Title>Thermal in gebruik op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>thermal</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#008080</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>thermal-buiten-gebruik-z15-16</Name>
+                    <Title>Thermal buiten gebruik op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>thermal</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#008080</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>thermal-buiten-gebruik-z11-14</Name>
+                    <Title>Thermal buiten gebruik op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>thermal</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#008080</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>thermal-buiten-gebruik-z0-10</Name>
+                    <Title>Thermal buiten gebruik op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>thermal</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#008080</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-geprojecteerd-z15-16</Name>
+                    <Title>Water geprojecteerd op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-geprojecteerd-z11-14</Name>
+                    <Title>Water geprojecteerd op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-geprojecteerd-z0-10</Name>
+                    <Title>Water geprojecteerd op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>projected</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">4 16</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-in-gebruik-z15-16</Name>
+                    <Title>Water in gebruik op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-in-gebruik-z11-14</Name>
+                    <Title>Water in gebruik op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-in-gebruik-z0-10</Name>
+                    <Title>Water in gebruik op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>functional</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-buiten-gebruik-z15-16</Name>
+                    <Title>Water buiten gebruik op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
+                            <CssParameter name="stroke-width">4</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-buiten-gebruik-z11-14</Name>
+                    <Title>Water buiten gebruik op zoomniveau 11 t/m 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>10000</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
+                            <CssParameter name="stroke-width">2</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-buiten-gebruik-z0-10</Name>
+                    <Title>Water buiten gebruik op zoomniveau 0 t/m 11</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>UtilityNetworkTypeValue</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                <ogc:Literal>disused</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>10001</MinScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <CssParameter name="stroke">#0000ff</CssParameter>
+                            <CssParameter name="stroke-width">1</CssParameter>
+                            <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>
