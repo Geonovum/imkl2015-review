@@ -1206,6 +1206,10 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>OverigAppurtenanceTypeIMKLValue/onbekend</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>SewerAppurtenanceTypeIMKLValue/onbekend</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
@@ -1227,6 +1231,10 @@
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>OilGasChemicalsAppurtenanceTypeIMKLValue/overig</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>OverigAppurtenanceTypeIMKLValue/overig</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
