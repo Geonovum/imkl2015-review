@@ -1,0 +1,4 @@
+De IMKL2.0 XSD's zijn gemaakt op basis van de IMKL2015 xsd's.
+Ze zijn niet op basis van het UML gegenereerd. De aanpassingen naar 2.0 waren zo beperkt dat daar niet voor is gekozen. De 2.x XSD's zijn wel de exacte representatie van het IMKL2.0 UML.
+
+Voor de changelog zie: IMKL-UML-XSD-Objectcatalogus-changelog.xls
