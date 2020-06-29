@@ -30,7 +30,7 @@
                     <Name>extradetailfino-punt-z14</Name>
                     <Title>ExtraDetailinfo op zoomniveau 14</Title>
                     <MinScaleDenominator>501</MinScaleDenominator>
-                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <MaxScaleDenominator>640000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <ExternalGraphic>
