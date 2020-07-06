@@ -7,10 +7,9 @@
             <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle objecten uit de objectklasse ExtraDetailinfo met een vlakgeometrie</Abstract>
             <FeatureTypeStyle>
                 <Rule>
-                    <Name>extradetailinfo-vlak</Name>
-                    <Title>ExtraDetailinfo als vlakken op zoomniveaus 14-16</Title>
-                    <MinScaleDenominator>0</MinScaleDenominator>
-                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <Name>extradetailinfo-vlak-5-16</Name>
+                    <Title>ExtraDetailinfo als vlakken op zoomniveaus 5-16</Title>
+                    <MaxScaleDenominator>640000</MaxScaleDenominator>
                     <PolygonSymbolizer>
                         <Fill>
                             <GraphicFill>
@@ -23,12 +22,19 @@
                                 </Graphic>
                             </GraphicFill>
                         </Fill>
+                        <VendorOption name="graphic-margin">-1</VendorOption>
+                    </PolygonSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>extradetailinfo-vlak-14-16</Name>
+                    <Title>ExtraDetailinfo als vlakken op zoomniveaus 14-16</Title>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
                         <Stroke>
                             <CssParameter name="stroke">#000000</CssParameter>
                             <CssParameter name="stroke-width">1</CssParameter>
                         </Stroke>
-                        <VendorOption name="graphic-margin">-1</VendorOption>
-                    </PolygonSymbolizer>
+                    </LineSymbolizer>
                 </Rule>
             </FeatureTypeStyle>
         </UserStyle>
