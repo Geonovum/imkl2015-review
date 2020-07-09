@@ -1,4 +1,4 @@
-# niet meer toepassing (Toelichting - begin hier)
+# niet meer van toepassing (Toelichting - begin hier)
 
 **Review toelichting.**
 
