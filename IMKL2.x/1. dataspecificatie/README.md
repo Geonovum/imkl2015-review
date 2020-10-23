@@ -1,10 +1,10 @@
-MIM-Werkomgeving
-================
+IMKL-Werkomgeving-Dataspecificatie
+==================================
 
->   Dit is de MIM (Metamodel Informatie Modellering) map waarin de werkversies
->   van de MIM staan.
+>   Dit is de IMKL map waarin de werkversies
+>   van  IMKL staan.
 
-In deze map staan de bestanden die horen bij de werkversie van MIM.
+In deze map staan de bestanden die horen bij de werkversie van IMKL dataspecificatie.
 
 De webversie staat hier:
 <https://geonovum.github.io/imkl2015-review/IMKL2.x/dataspecificatie>

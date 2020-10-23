@@ -14,9 +14,9 @@
 var respecConfig =
 {
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  //specStatus: "GN-WV",              // Werk Versie
+  specStatus: "GN-WV",              // Werk Versie
   //specStatus: "GN-CV",              // Consultatie Versie
-  specStatus: "GN-VV",              // Vaststellings Versie
+ // specStatus: "GN-VV",              // Vaststellings Versie
   //specStatus: "GN-DEF",             // Definitieve Versie
   //-- specType is verplicht! (activeer 1 van de volgende) ----------------------------
   //specType: "NO",                   // Norm
@@ -31,99 +31,54 @@ var respecConfig =
   format: "markdown",                 // altijd "markdown"
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2020-02-25",  	      // Format is "YYY-MM-DD"
+  publishDate: "2020-09-30",  	      // Format is "YYY-MM-DD"
   //-- de namen van de Editor(s) ------------------------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
-  editors:
-  [
+  editors: [
     {
-      name:       "Dick Krijtenburg",
-      company:    "Geonovum",
-      companyURL: "https://www.geonovum.nl"
-    },
-    {
-      name:       "Jan van Gelder",
-      company:    "Geonovum",
-      companyURL: "https://www.geonovum.nl"
-    },
+      name: "Paul Janssen",
+      url: "https://www.geonovum.nl",
+    }
   ],
   //-- de namen van de Author(s) ------------------------------------------------------
   //-- vul in: per Author: name:, company:, companyURL: -------------------------------
-  authors:
+   authors:
   [
-    {
-      name:       "Lennart van Bergen",
-      company:    "Kadaster",
-      companyURL: "https://www.kadaster.nl"
-    },
-    {
-      name:       "Thies Mesdag",
-      company:    "Kadaster",
-      companyURL: "https://www.kadaster.nl"
-    },
-    {
-      name:       "Marco Brattinga",
-      company:    "Kadaster",
-      companyURL: "https://www.kadaster.nl"
-    },
     {
       name:       "Paul Janssen",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
     },
     {
-      name:       "Aan eerdere versies van MIM werkten mee:",
-      company:    "",
-      companyURL: ""
-    },
-	  {
-      name:       "Ellen Debats",
-      company:    "KING",
-      companyURL: "https://www.vng.nl"
-    },
-    {
-      name:       "Arjan C. Kloosterboer",
-      company:    "KING",
-      companyURL: "https://www.vng.nl"
-    },
-    {
       name:       "Wilko Quak",
-      company:    "TU Delft",
-      companyURL: "https://www.tudelft.nl"
+      company:    "KOOP",
+      companyURL: "https://www.koopoverheid.nl"
     },
-    {
-      name:       "Peter Lentjens",
-      company:    "Kadaster",
-      companyURL: "https://www.kadaster.nl"
-	  },
-	  {
-      name:       "Linda van den Brink",
-      company:    "Geonovum",
-      companyURL: "https://www.geonovum.nl"
-	  },
+
   ],
   //-- shortName is verplicht! (komt in de URL: kies logische naam) --------------------
-  shortName: "mim", 	              // Wordt gebruikt in de document URL
+  shortName: "basisgeometrie", 	              // Wordt gebruikt in de document URL
   //-- pubDomain is verplicht! (komt in de URL: Activeer 1 van de volgende) ------------
-  pubDomain: "mim", 	              // Metamodel Informatie Modellering
+ // pubDomain: "mim", 	              // Metamodel Informatie Modellering
   //pubDomain: "bor", 	            // Beheer Openbare Ruimte
   //pubDomain: "bro", 	            // Basisregistratie Ondergrond
   //pubDomain: "imgeo", 	          // IMGeo / BGT
   //pubDomain: "kl", 	              // Kabels en Leidingen
   //pubDomain: "liv", 	            // Landelijke Informatievoorziening Vastgoedgebruik
   //pubDomain: "md", 	              // Metadata
-  //pubDomain: "nen3610", 	        // Basismodel NEN3610
+  pubDomain: "nen3610", 	        // Basismodel NEN3610
   //pubDomain: "oov", 	            // Openbare Orde en Veiligheid
   //pubDomain: "ro", 	              // Ruimtelijke Ordening
   //pubDomain: "serv", 	            // Services
   //pubDomain: "visu", 	            // Visualisatie
   //pubDomain: "wp", 	              // White Paper
   //-- Repositorynaam op GitHub -------------------------------------------------------
-  github: "https://github.com/Geonovum/MIM-Werkomgeving",
+  github: "https://github.com/Geonovum/Basisgeometrie-Werkomgeving",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
-  issueBase: "https://github.com/Geonovum/MIM-Werkomgeving/issues/",
+  issueBase: "https://github.com/Geonovum/Basisgeometrie-Werkomgeving/issues/",
   //-- edDraftURI: de URI van de werkversie van het document
-  edDraftURI: "https://geonovum.github.io/MIM-Werkomgeving/",
+  edDraftURI: "https://geonovum.github.io/Basisgeometrie-Werkomgeving",
+
   //-- license: voor de geldende gebruiksvoorwaarden
   licence: "cc-by-nd",              //-- bronvermelding, geen afgeleide werken (default)
   // licence: "cc0",                //-- Public Domain Dedication
@@ -131,134 +86,21 @@ var respecConfig =
 
   //-- localBiblio: lokale bibliografie, voor verwijzigingen
   //-- NB: kijk eerst naar de beschikbare www.specref.org voor verwijziging
-  localBiblio:
-  {
-    "MDA":
-    {
-      title:      "Model Driven Architecture (MDA) Guide",
-      href:       "",
-      status:     "rev. 2.0, 1-6-2014",
-      publisher:  "",
-      company:    "Object Management Group",
-    },
-    "UML":
-    {
-      title:      "Unified Modeling Language (UML)",
-      href:       "http://uml.org",
-      status:     "",
-      publisher:  "",
-      company:    "",
-    },
-    "ODM":
-    {
-      title:      "Ontology Definition Metamodel",
-      href:       "https://www.omg.org/spec/ODM/1.1",
-      status:     "versie 1.1, September 2014",
-      publisher:  "",
-      company:    "Object Management Group",
-    },
-    "OMG":
-    {
-      title:      "OMG Unified Modeling Language TM",
-      href:       "http://www.omg.org/spec/UML/2.5",
-      status:     "versie 2.5",
-      publisher:  "",
-      company:    "",
-    },
-    "SCAT":
-    {
-      title:      "Stelselcatalogus",
-      href:       "http://www.stelselcatalogus.nl",
-      status:     "",
-      publisher:  "",
-      company:    "",
-    },
-    "GAB":
-    {
-      title:      "GAB",
-      href:       "https://www.noraonline.nl/wiki/Gemeenschappelijke_Afspraken_Berichten",
-      status:     "",
-      publisher:  "",
-      company:    "",
-    },
-	"Linked-Data":
-    {
-      title:      "Linked Data",
-      href:       "https://www.noraonline.nl/wiki/Linked_Data",
-      status:     "",
-      publisher:  "",
-      company:    "",
-    },
-    "iso-8601":
-    {
-      title:      "Representation of dates and times. ISO 8601:2004.",
-      href:       "http://www.iso.org/iso/catalogue_detail?csnumber=40874",
-      publisher:  "International Organization for Standardization (ISO)",
-      date:       "2004",
-      status:     "ISO 8601:2004",
-    },
-    "NORA":
-    {
-      title:      "Handreiking gegevensbeschrijving (NORA)",
-      href:       "http://noraonline.nl/wiki/Gegevensbeschrijvingen/Handreiking",
-      status:     "",
-      publisher:  "",
-      company:    "",
-    },
-    "iso-11404":
-    {
-      title:      "11404:2008 Information technology – General Purpose Datatypes (GPD)",
-      href:       "http://noraonline.nl/wiki/Gegevensbeschrijvingen/Handreiking",
-      status:     "",
-      publisher:  "",
-      company:    "NEN-ISO/IEC",
-    },
-    "REGEXP":
-    {
-      title:      "Formeel patroon (Reguliere Expressies)",
-      href:       "http://perldoc.perl.org/perlre.html",
-      status:     "",
-      publisher:  "",
-      company:    "",
-    },
-    "OCL":
-    {
-      title:      "OCL",
-      href:       "http://www.omg.org/spec/OCL/2.4/",
-      status:     "",
-      publisher:  "",
-      company:    "",
-    },
-    "NEN3610":
-    {
-      title:      "NEN-3610 Basismodel geo-informatie",
-      href:       "https://www.nen.nl/NEN-Shop/Norm/NEN-36102011-nl.htm",
-      status:     "2016",
-      publisher:  "",
-      company:    "",
-    },
-	 "GeoJSON":
-    {
-      title:      "GeoJSON",
-      href:       "https://geojson.org/",
-      publisher:  "",
-      status:     "",
-      company:    "",
-    },
-	 "SOAP":
-    {
-      title:      "SOAP Specifications",
-      href:       "https://www.w3.org/TR/SOAP/",
-      publisher:  "",
-      status:     "",
-      company:    "",
-    },
-  },
+  //localBiblio:
+  //{
+  //  "MDA":
+  //  {
+  //   title:      "Model Driven Architecture (MDA) Guide",
+  //    href:       "",
+  //    status:     "rev. 2.0, 1-6-2014",
+  //    publisher:  "",
+  //     company:    "Object Management Group",
+  //  },
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit!
-  previousPublishDate: "2019-06-19",    	    // Format is "YYY-MM-DD"
-  previousMaturity: "GN-DEF",                 // kies 1 van deze 3 regels
+  previousPublishDate: "2020-04-01",    	    // Format is "YYY-MM-DD"
+  //previousMaturity: "GN-DEF",                 // kies 1 van deze 3 regels
   //previousMaturity: "CV",                   // kies 1 van deze 3 regels
-  //previousMaturity: "VV",  	                // kies 1 van deze 3 regels
+  previousMaturity: "GN-VV",  	                // kies 1 van deze 3 regels
 
   //-- Optionele parameters:
   //emailComments: "mim@geonovum.nl",         // reactie mailadres, alleen bij CV!
