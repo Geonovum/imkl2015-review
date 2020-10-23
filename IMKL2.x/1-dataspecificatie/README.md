@@ -7,7 +7,7 @@ In deze map staan de bestanden die horen bij de werkversie van IMKL
 dataspecificatie.
 
 De webversie staat hier:
-<https://geonovum.github.io/IMKL2015-review/IMKL2.x/1-dataspecificatie>
+<https://geonovum.github.io/imkl2015-review/IMKL2.x/1-dataspecificatie>
 
 Publicatie definitieve versies
 ------------------------------
