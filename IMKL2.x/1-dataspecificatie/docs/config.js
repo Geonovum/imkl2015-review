@@ -31,7 +31,7 @@ var respecConfig =
   format: "markdown",                 // altijd "markdown"
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2020-09-30",  	      // Format is "YYY-MM-DD"
+ //-- publishDate: "2020-09-30",  	      // Format is "YYY-MM-DD"
   //-- de namen van de Editor(s) ------------------------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
   editors: [
@@ -44,40 +44,40 @@ var respecConfig =
   //-- vul in: per Author: name:, company:, companyURL: -------------------------------
    authors:
   [
+      {
+      name:       "Herman van den Berg",
+      company:    "Kadaster",
+      companyURL: "https://www.kadaster.nl"
+    },
     {
       name:       "Paul Janssen",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
     },
-    {
-      name:       "Wilko Quak",
-      company:    "KOOP",
-      companyURL: "https://www.koopoverheid.nl"
-    },
 
   ],
   //-- shortName is verplicht! (komt in de URL: kies logische naam) --------------------
-  shortName: "basisgeometrie", 	              // Wordt gebruikt in de document URL
+  shortName: "imkl", 	              // Wordt gebruikt in de document URL
   //-- pubDomain is verplicht! (komt in de URL: Activeer 1 van de volgende) ------------
  // pubDomain: "mim", 	              // Metamodel Informatie Modellering
   //pubDomain: "bor", 	            // Beheer Openbare Ruimte
   //pubDomain: "bro", 	            // Basisregistratie Ondergrond
   //pubDomain: "imgeo", 	          // IMGeo / BGT
-  //pubDomain: "kl", 	              // Kabels en Leidingen
+  pubDomain: "kl", 	              // Kabels en Leidingen
   //pubDomain: "liv", 	            // Landelijke Informatievoorziening Vastgoedgebruik
   //pubDomain: "md", 	              // Metadata
-  pubDomain: "nen3610", 	        // Basismodel NEN3610
+  //pubDomain: "nen3610", 	        // Basismodel NEN3610
   //pubDomain: "oov", 	            // Openbare Orde en Veiligheid
   //pubDomain: "ro", 	              // Ruimtelijke Ordening
   //pubDomain: "serv", 	            // Services
   //pubDomain: "visu", 	            // Visualisatie
   //pubDomain: "wp", 	              // White Paper
   //-- Repositorynaam op GitHub -------------------------------------------------------
-  github: "https://github.com/Geonovum/Basisgeometrie-Werkomgeving",
+  github: "https://github.com/Geonovum/IMKL2015-review/IMKL2.x/1-dataspecificatie/",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
-  issueBase: "https://github.com/Geonovum/Basisgeometrie-Werkomgeving/issues/",
+  issueBase: "https://github.com/Geonovum/IMKL2015-review/issues/",
   //-- edDraftURI: de URI van de werkversie van het document
-  edDraftURI: "https://geonovum.github.io/Basisgeometrie-Werkomgeving",
+  edDraftURI: "https://geonovum.github.io/IMKL2015-review/IMKL2.x/1-dataspecificatie",
 
   //-- license: voor de geldende gebruiksvoorwaarden
   licence: "cc-by-nd",              //-- bronvermelding, geen afgeleide werken (default)
@@ -97,10 +97,10 @@ var respecConfig =
   //     company:    "Object Management Group",
   //  },
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit!
-  previousPublishDate: "2020-04-01",    	    // Format is "YYY-MM-DD"
+ //-- previousPublishDate: "2020-04-01",    	    // Format is "YYY-MM-DD"
   //previousMaturity: "GN-DEF",                 // kies 1 van deze 3 regels
   //previousMaturity: "CV",                   // kies 1 van deze 3 regels
-  previousMaturity: "GN-VV",  	                // kies 1 van deze 3 regels
+//--  previousMaturity: "GN-VV",  	                // kies 1 van deze 3 regels
 
   //-- Optionele parameters:
   //emailComments: "mim@geonovum.nl",         // reactie mailadres, alleen bij CV!
