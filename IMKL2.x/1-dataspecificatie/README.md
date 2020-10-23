@@ -1,14 +1,13 @@
 IMKL-Werkomgeving-Dataspecificatie
 ==================================
 
->   Dit is de IMKL map waarin de werkversies
->   van  IMKL staan.
+>   Dit is de IMKL map waarin de werkversies van IMKL staan.
 
-In deze map staan de bestanden die horen bij de werkversie van IMKL dataspecificatie.
+In deze map staan de bestanden die horen bij de werkversie van IMKL
+dataspecificatie.
 
 De webversie staat hier:
-<https://geonovum.github.io/imkl2015-review/IMKL2.x/dataspecificatie>
-
+<https://geonovum.github.io/imkl2015-review/IMKL2.x/1-dataspecificatie>
 
 Publicatie definitieve versies
 ------------------------------
