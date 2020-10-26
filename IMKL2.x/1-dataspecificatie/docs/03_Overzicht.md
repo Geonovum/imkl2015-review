@@ -59,7 +59,14 @@ onderdelen daarvan. IMKL integreert de begrippenkaders voor deze verschillende
 processen en creëert hiermee een basis voor synergie in de
 data-uitwisselingsprocessen.
 
-![](media/2d104aab4bf4bcf7f08c51f2274af36f.png)
+<!-- Jouw manier ![Plaatje](./media/2d104aab4bf4bcf7f08c51f2274af36f.png) -->
+
+<!-- Mijn manier -->
+<figure id="afb_overzicht">
+    <img src="media/Data-uitwisseling in IMKL-formaat.jpg" alt="Afbeelding Overzicht">
+    <figcaption>Overzicht</figcaption>
+</figure>
+
 
 Figuur 3.1: IMKL beschrijft het totaal aan informatie die voorziet in een aantal
 dataleveringsprocessen: WIBON, INSPIRE utilities, Topografie Stedelijk Water,
