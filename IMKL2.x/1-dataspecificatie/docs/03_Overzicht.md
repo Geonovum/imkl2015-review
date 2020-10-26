@@ -150,12 +150,12 @@ gegevensuitwisseltrajecten zijn:
     (graafpolygoon e.d.) inclusief bijbehorende aanvraag en leveringsinformatie
     .
 
-![](./docs/media/3c03285e59ef328ead24d95055a637a8.jpg)
+![](docs/media/3c03285e59ef328ead24d95055a637a8.jpg)
 
 
 
 jpg
-![](./docs/media/10.IMKL-Leidingelement.jpg)
+![](docs/media/10.IMKL-Leidingelement.jpg)
 
 png
 ![](./docs/media/10.IMKL-Leidingelement.png)
