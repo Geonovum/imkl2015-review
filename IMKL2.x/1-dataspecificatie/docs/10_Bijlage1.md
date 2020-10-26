@@ -1,4 +1,4 @@
-Inleiding
-=========
+Bijlage 1: IMKL waardelijsten.
+==============================
 
-Dit model ….
+OPMERKING: Opgenomen in apart document.

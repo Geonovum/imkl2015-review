@@ -64,7 +64,7 @@ data-uitwisselingsprocessen.
 
 <!-- Mijn manier -->
 <figure id="afb_overzicht">
-    <img src="docs/media/2d104aab4bf4bcf7f08c51f2274af36f.png" alt="Afbeelding Overzicht">
+    <img src="docs/media/Figuur3.1.png" alt="Afbeelding Overzicht">
     <figcaption>Overzicht</figcaption>
 </figure>
 
@@ -150,7 +150,7 @@ gegevensuitwisseltrajecten zijn:
 4.  **WIBON Uitlevering:** Uitleveren van gebiedsinformatie aan grondroerder.
     (graafpolygoon e.d.) inclusief bijbehorende aanvraag en leveringsinformatie.
 
-![](docs/media/3c03285e59ef328ead24d95055a637a8.jpg)
+![](docs/media/Figuur3.2.png)
 
 Figuur 3.2: Data-uitwisselarchitectuur. Illustratief figuur van
 data-uitwisseling voor realisatie van WIBON en INSPIRE voorziening. IMKL

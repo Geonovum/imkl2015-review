@@ -66,7 +66,7 @@ unieke aanduiding voor het domein waarbinnen de informatie-elementen
 gedefinieerd zijn. In IMKL zijn afspraken gemaakt over te gebruiken namespaces
 en afkortingen hiervoor. De namespace voor IMKL is ‘IMKL’.
 
-![](media/0a968eed2ecc5fbedd87b81994ba91fc.wmf)
+![](docs/media/IMKL-Klicwin.jpg)
 
 Figuur 5.1: Een UML package diagram van de relatie tussen IMKL en de INSPIRE
 dataspecificaties. Elk pakket bevat de informatie die op dat niveau wordt
@@ -124,7 +124,7 @@ Kleurgebruik in diagrammen:
 
 >   Voorbeeld: cardinaliteit aangepast en constraint toegevoegd:
 
-![](docs/media/15e528e543f15d86707540512486bd31.png)
+![](docs/media/voorbeeldAangepasteKlasse.png)
 
 Voor WIBON geldt dat er een verschil is tussen het dataverkeer tussen de
 centrale voorziening en de afnemers, de uitlevering, en het dataverkeer tussen
@@ -539,7 +539,7 @@ Voor 3D IMKL wordt het ruimtelijk Referentie systeem EPSG:7415 gehanteerd. Dit
 is een samengesteld referentiesysteem met RD voor de XY-dimensie (EPSG:28992) en
 NAP voor de Z dimensie (EPSG:5709). Zie ook hoofdstuk 6.
 
-![Dia1.PNG](media/7d7959c0461ed746d3062c07d8576954.png)
+! [] (docs/media/7d7959c0461ed746d3062c07d8576954.png)
 
 Figuur 5.6: Leidingobject in 2.5D en 3D
 
@@ -577,7 +577,7 @@ Indien de dieptegegevens niet aan een netelement te koppelen zijn omdat die
 koppeling bij de bronregistratie niet aanwezig is, zijn de dieptegegevens direct
 aan het utiliteitsnet gekoppeld.
 
-![](media/f888f409a2eaf462606a45f5e07a5a1e.wmf)
+![](docs/media/7 IMKL-Diepte.png)
 
 Figuur 5.7: Dieptegegevens zijn gemodelleerd als aparte objecten waarin diepte
 ten opzicht van maaiveld en of NAP is opgenomen. Standaard dieptelegging wordt
@@ -606,7 +606,7 @@ verantwoordelijke netbeheerder gekoppeld. Annotatie, maatvoering en mogelijk
 extra detailinfo worden gekoppeld en gelden voor het hele net (of deel daarvan
 in een bestand).
 
-![](media/96db5e93cffc4679f3f872039111d017.wmf)
+![](docs/media/8.IMKL-Utiliteitsnet.png)
 
 Figuur 5.8: Utiliteitsnet is getypeerd naar thema en wordt voor WIBON
 gerefereerd door een Belanghebbende. Utiliteitsnet is een verbijzondering van
@@ -649,7 +649,7 @@ Kabel of leidingen hebben verplicht een lijngeometrie. Optioneel is er via het
 associatie-attribuut extraGeometrie een buitenbegrenzing of contour van het
 object op te nemen. De netbeheerder bepaalt zelf wanneer dat functioneel is.
 
-![](media/f1e041b7ba336eb633589ad01ceaf3a9.wmf)
+![](docs/media/9.IMKL-KabelOfLeiding.png)
 
 Figuur 5.9: KabelOfLeiding bevat de gemeenschappelijke informatie voor kabels en
 leidingen.
@@ -674,7 +674,7 @@ In INSPIRE zijn de Appurtenances met een appurtenanceType attribuut verder
 getypeerd. Deze typering kan nog verder uitgebreid worden. In bijlage 1 van dit
 document zijn de waarden voor AppurtenanceTypeValue opgenomen.
 
-![](media/2587350e55f081f6da8c7279e4c3bd27.wmf)
+![](docs/media/10.IMKL-Leidingelement.jpg)
 
 Figuur 5.10: Leidingelement bevat de gemeenschappelijke eigenschappen van alle
 typen leidingelementen.
@@ -746,7 +746,7 @@ geregistreerd staan. Ze moeten bij minstens één thema weergegeven worden maar
 het mag bij meerdere. Indien een mantelbuis leeg is kan dit bij de toelichting
 vermeld worden.
 
-![](media/0cc31712f5d26040717013ee46f708ff.wmf)
+![](docs/media/11.IMKL-KabelEnLeidingContainer.png)
 
 Figuur 5.11: KabelEnleidingContainer omvat kabelbedden en mantelbuizen.
 
@@ -785,7 +785,7 @@ associaties bevat voor alle containerleidingelement objecten.
 
 Bron: IMKL
 
-![](media/421df5767fedca2d98d1cd047a8e8a97.wmf)
+![]docs/media/12.IMKL-ContainerLeidingElement.png)
 
 Figuur 5.12: ContainerLeidingelement een verzamelklasse voor meestal
 topografische objecten die een ondersteunende functie in een netwerk hebben.
@@ -837,19 +837,19 @@ Deze relaties worden door de individuele kabels en leidingen overerft.
 
 Deze relaties zijn optioneel (want ze komen niet altijd voor) en voidable.
 
-![](media/43552403fd4ceff03b1f4f66856add2c.wmf)
+![](docs/media/13.IMKL-RelatiesTussenCableDuctPipe.png)
 
 Figuur 5.13: Relaties tussen buis, kabel en duct. Bijvoorbeeld een kabelbed
 verwijst optioneel naar de kabels die er in liggen; een mantelbuis kan verwijzen
 naar de kabels die het bevat.
 
-![](media/bec0a83557082b393b2fe6c5d822371f.jpg)
+![]docs/media/bec0a83557082b393b2fe6c5d822371f.jpg)
 
 >   Figuur 5.14: Voorbeeld van een type mantelbuis met daarin weer een aantal
 >   mantelbuizen (hdpe-buizen), waarvan één met een telecomkabel. Het model
 >   maakt verwijzingen tussen mantelbuizen en kabels mogelijk.
 
-![](media/da0f5a202720bb7f2acd0abc0a6ae08e.png)
+![]docs/media/da0f5a202720bb7f2acd0abc0a6ae08e.png)
 
 Figuur 5.15: Mantelbuizen worden samen in een kabelbed gelegd. Het model maakt
 de verwijzing tussen kabelbed en de daarin liggende mantelbuizen of kabels en
@@ -877,7 +877,7 @@ bedrijfsspanning op de leiding. “nominalVoltage” beschrijft de nominale
 systeemspanning op de plaats van levering. Voor de rest gelden de KabelEnleiding
 attributen.
 
-![](media/2fd9cc8c38fa798c663caf14f4dc0a9f.wmf)
+![](docs/media/14.IMKL-Elektriciteitskabel.png)
 
 ### Telecommunicatiekabel.
 
@@ -892,7 +892,7 @@ daarbij geen verplichte WIBON informatie. WarningType is een boven de kabel
 liggend waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest
 gelden de KabelEnleiding attributen.
 
-![](media/29611c4c36727dc7f48d5b54486a46f3.wmf)
+![](docs/media/15.IMKL-TelecommunicationsCable.png)
 
 ### Olie-gas-chemicalienpijpleiding.
 
@@ -909,7 +909,7 @@ gelden de KabelEnleiding attributen.
 
 In bijlage 1 staan de mogelijke waarden voor de producttypen.
 
-![](media/d768e3780fdd8cbf4b9a6b694fb2c1f2.wmf)
+![](docs/media/16.IMK- Olie-gas-chemicaliënpijpleiding.png)
 
 ### Rioolleiding.
 
@@ -924,7 +924,7 @@ geen verplichte WIBON informatie WarningType is een boven de kabel liggend
 waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest gelden de
 KabelEnleiding attributen. In bijlage 1 staan de waarden voor SewerWaterType.
 
-![](media/f9c3d79cc38c8efa67baaaa6892c4a08.wmf)
+![](docs/media/17.IMKL-Rioolleiding.png)
 
 ### Waterleiding.
 
@@ -939,9 +939,9 @@ geen verplichte WIBON informatie. WarningType is een boven de kabel liggend
 waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest gelden de
 KabelEnleiding attributen.
 
-In bijlage1 staan de waarden voor waterType.
+In bijlage 1 staan de waarden voor waterType.
 
-![](media/d7d7899ed456b7cf2c397d0347a47a5d.wmf)
+![](docs/media/18.IMKL-Waterleiding.png)
 
 ### Thermische pijpleiding.
 
@@ -958,7 +958,7 @@ gelden de KabelEnleiding attributen.
 
 In bijlage 1 staan de waarden voor de producttypen.
 
-![](media/4a5bfd2e8c92cc61579ea1c170bc19c7.wmf)
+![](docs/media/19.IMKL-ThermischePijpleiding.png)
 
 ### Overig en Weesleiding.
 
@@ -977,7 +977,7 @@ gevallen ook voor de weesleiding. Er is een klasse OverigSpecifiek gemaakt om de
 INSPIRE attributen pipeDiameter, pressure en producttype ook voor Overig te
 kunnen gebruiken.
 
-![](media/d0daabc4b593b73e86d12777b356befb.wmf)
+![](docs/media/19b.IMKL-Overig-Weesleiding.png)
 
 ### Leidingelementen per type net (thema).
 
@@ -987,7 +987,7 @@ lijst per type net (telecom, elektriciteit, riool, water, gas/olie). Deze
 lijsten zijn uitbreidbaar. In bijlage 1 staan de waardelijsten met de waarden
 voor type leidingelement per type kabelOfLeiding.
 
-![](media/65dac39f2de26ea1cb5bacbd280e6b9e.wmf)
+![](docs/media/20.IMKL-Leidingelement-per-thema.png)
 
 ### WIBON – Uitleveren van gebiedsinformatie.
 
@@ -995,6 +995,8 @@ Voor het faciliteren van de uitlevergegevens binnen de WIBON is er naast de
 specifieke utiliteitsnet informatie nog een aantal extra gegevens nodig. In
 onderstaand diagram is de relatie tussen de verschillende onderdelen
 weergegeven.
+
+![](docs/media/wibonuitlevering.png)
 
 WIBON Uitlevering: Het totaal aan informatie dat kan worden geleverd bij een
 WIBON informatieaanvraag.
@@ -1015,7 +1017,7 @@ contactinformatie opgenomen.
 
 Deze blokken zijn nader ingevuld in het UML diagram op de volgende pagina.
 
-![](media/5b9c5dd4d7298b079895fc40fb54daa4.wmf)
+![](docs/media/20a.IMKL-Levering-Gebiedsinformatie.png)
 
 Toelichting bij het diagram.
 
@@ -1075,16 +1077,16 @@ opgenomen om het geraakte belang te bepalen per belanghebbende en de
 contactgegevens die bij specifieke situaties van belang zijn. Deze worden bij
 een geraakt belang uitgewisseld in de GebiedsinformatieLevering.
 
-![](media/c7f4db483deb9aa61600aca39bee774c.wmf)
+![](docs/media/20b.IMKL-Belangenregistratie-WIBON.png)
 
 Figuur 5.14: Belang en Veiligheidsgebied zijn beide beheerpolygonen. Een
 Veiligheidsgebied heeft alleen contactpersonen voor de aanvraag. Het Belang
 heeft daarnaast contactgegevens voor de graafmelding, calamiteitenmelding of
 oriëntatieverzoek.
 
-### [docs/media/image28.wmf](docs/media/image28.wmf)
+### Identifier management.
 
-Identifier management.
+![](docs/media/identifiermanagement.png)
 
 Identifiers van objecten worden in IMKL toegekend via het attribuut inspireId en
 het datatype Identifier als het object vanuit INSPIRE beschreven is of met het
@@ -1146,12 +1148,12 @@ Binnen IMKL speelt dit op drie plaatsen:
     en kunnen dus ook geen INSPIRE Identifier krijgen. Deze objecten krijgen een
     NEN3610ID, die binnen de context van NEN3610 uniek is. Hiervoor is de
     namespace ‘nl.imkl’ ook binnen NEN3610 geregistreerd.
+	
+![]docs/media/VoorbeeldInspireID.png)
 
 **Voorbeeld:** Een bronhouder heeft in eigen registratie een unieke identifier
 ‘xxyyzz’.  Binnen IMKL wordt hier een locaalId: ‘bb.xxyyzz’ van gemaakt.
 Uitwisseling binnen INSPIRE van deze code zal er als volgt uitzien:
-
-![](media/d6f49feeb2acecfe7695d16ea5518c01.png)
 
 Omdat de identifiers die intern bij de bronhouders worden gebruikt op
 verschillende manieren hergebruikt worden is er een aantal beperkingen op het
@@ -1257,9 +1259,10 @@ Bij de ontwikkeling van IMKL is er afstemming geweest met deze twee toepassingen
 en zijn resultaten daarvan in aparte profielen opgenomen. De volgende paragrafen
 beschrijven die profielen.
 
-### [docs/media/image30.wmf](docs/media/image30.wmf)
+### UML - Buisleidingen Risicoregister overzicht.
 
-UML - Buisleidingen Risicoregister overzicht.
+![](docs/media/22. RRGS compleet.png)
+
 
 Toelichting op diagram:
 
@@ -1276,9 +1279,9 @@ Transportroutedeel is een onderdeel van een Transportroute. De Transportroute is
 de referentie voor een optioneel object TransportrouteRisico met een
 risicocontour en een verplicht object EffectcontourDodelijk.
 
-### [docs/media/image31.wmf](docs/media/image31.wmf)
+### UML - Stedelijk water overzicht.
 
-UML - Stedelijk water overzicht.
+![](docs/media/23. IMSW_totaal.png)
 
 Toelichting op diagram:
 
