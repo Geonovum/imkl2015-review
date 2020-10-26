@@ -63,7 +63,7 @@ data-uitwisselingsprocessen.
 
 <!-- Mijn manier -->
 <figure id="afb_overzicht">
-    <img src="docs/media/Data-uitwisseling in IMKL-formaat.jpg" alt="Afbeelding Overzicht">
+    <img src="docs/media/2d104aab4bf4bcf7f08c51f2274af36f.png" alt="Afbeelding Overzicht">
     <figcaption>Overzicht</figcaption>
 </figure>
 
