@@ -9,6 +9,8 @@ dataspecificatie.
 De webversie staat hier:
 <https://geonovum.github.io/imkl2015-review/tree/master/IMKL2.x/1-dataspecificatie>
 
+of deze: <https://geonovum.github.io/imkl2015-review/IMKL2.x/1-dataspecificatie>
+
 Publicatie definitieve versies
 ------------------------------
 
