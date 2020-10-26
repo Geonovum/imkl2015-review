@@ -577,7 +577,7 @@ Indien de dieptegegevens niet aan een netelement te koppelen zijn omdat die
 koppeling bij de bronregistratie niet aanwezig is, zijn de dieptegegevens direct
 aan het utiliteitsnet gekoppeld.
 
-![](docs/media/7 IMKL-Diepte.png)
+![](docs/media/7.IMKL-Diepte.png)
 
 Figuur 5.7: Dieptegegevens zijn gemodelleerd als aparte objecten waarin diepte
 ten opzicht van maaiveld en of NAP is opgenomen. Standaard dieptelegging wordt
@@ -909,7 +909,7 @@ gelden de KabelEnleiding attributen.
 
 In bijlage 1 staan de mogelijke waarden voor de producttypen.
 
-![](docs/media/16.IMK- Olie-gas-chemicaliënpijpleiding.png)
+![](docs/media/16.IMKL-Olie-gas-chemicaliënpijpleiding.png)
 
 ### Rioolleiding.
 
@@ -1281,7 +1281,7 @@ risicocontour en een verplicht object EffectcontourDodelijk.
 
 ### UML - Stedelijk water overzicht.
 
-![](docs/media/23. IMSW_totaal.png)
+![](docs/media/23.IMSW-totaal.png)
 
 Toelichting op diagram:
 
