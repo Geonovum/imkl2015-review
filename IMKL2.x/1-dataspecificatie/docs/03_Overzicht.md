@@ -165,7 +165,7 @@ Normatieve referenties.
 
 -   Raamwerk van geo-standaarden 3.0.
 
->   <http://www.geonovum.nl/documenten/raamwerk-van-geo-standaarden>
+	<http://www.geonovum.nl/documenten/raamwerk-van-geo-standaarden>
 
 -   NEN 3610:2011/A1:2016 Basismodel Geo-informatie.
 

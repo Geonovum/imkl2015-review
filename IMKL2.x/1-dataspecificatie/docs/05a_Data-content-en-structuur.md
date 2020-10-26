@@ -122,7 +122,7 @@ Kleurgebruik in diagrammen:
 -   In de diagrammen zijn de wijzigingen ten opzichte van de IMKL 1.2.1 versie
     met rode kaders aangegeven.
 
->   Voorbeeld: cardinaliteit aangepast en constraint toegevoegd:
+    Voorbeeld: cardinaliteit aangepast en constraint toegevoegd:
 
 ![](docs/media/voorbeeldAangepasteKlasse.png)
 
@@ -539,7 +539,7 @@ Voor 3D IMKL wordt het ruimtelijk Referentie systeem EPSG:7415 gehanteerd. Dit
 is een samengesteld referentiesysteem met RD voor de XY-dimensie (EPSG:28992) en
 NAP voor de Z dimensie (EPSG:5709). Zie ook hoofdstuk 6.
 
-! [] (docs/media/7d7959c0461ed746d3062c07d8576954.png)
+![](docs/media/Figuur5.6.png)
 
 Figuur 5.6: Leidingobject in 2.5D en 3D
 
@@ -785,7 +785,7 @@ associaties bevat voor alle containerleidingelement objecten.
 
 Bron: IMKL
 
-![]docs/media/12.IMKL-ContainerLeidingElement.png)
+![](docs/media/12.IMKL-ContainerLeidingElement.png)
 
 Figuur 5.12: ContainerLeidingelement een verzamelklasse voor meestal
 topografische objecten die een ondersteunende functie in een netwerk hebben.
@@ -843,13 +843,13 @@ Figuur 5.13: Relaties tussen buis, kabel en duct. Bijvoorbeeld een kabelbed
 verwijst optioneel naar de kabels die er in liggen; een mantelbuis kan verwijzen
 naar de kabels die het bevat.
 
-![]docs/media/bec0a83557082b393b2fe6c5d822371f.jpg)
+![](docs/media/bec0a83557082b393b2fe6c5d822371f.jpg)
 
->   Figuur 5.14: Voorbeeld van een type mantelbuis met daarin weer een aantal
->   mantelbuizen (hdpe-buizen), waarvan één met een telecomkabel. Het model
->   maakt verwijzingen tussen mantelbuizen en kabels mogelijk.
+Figuur 5.14: Voorbeeld van een type mantelbuis met daarin weer een aantal
+mantelbuizen (hdpe-buizen), waarvan één met een telecomkabel. Het model
+maakt verwijzingen tussen mantelbuizen en kabels mogelijk.
 
-![]docs/media/da0f5a202720bb7f2acd0abc0a6ae08e.png)
+![](docs/media/da0f5a202720bb7f2acd0abc0a6ae08e.png)
 
 Figuur 5.15: Mantelbuizen worden samen in een kabelbed gelegd. Het model maakt
 de verwijzing tussen kabelbed en de daarin liggende mantelbuizen of kabels en
@@ -1149,7 +1149,7 @@ Binnen IMKL speelt dit op drie plaatsen:
     NEN3610ID, die binnen de context van NEN3610 uniek is. Hiervoor is de
     namespace ‘nl.imkl’ ook binnen NEN3610 geregistreerd.
 	
-![]docs/media/VoorbeeldInspireID.png)
+![](docs/media/VoorbeeldInspireID.png)
 
 **Voorbeeld:** Een bronhouder heeft in eigen registratie een unieke identifier
 ‘xxyyzz’.  Binnen IMKL wordt hier een locaalId: ‘bb.xxyyzz’ van gemaakt.
@@ -1261,7 +1261,7 @@ beschrijven die profielen.
 
 ### UML - Buisleidingen Risicoregister overzicht.
 
-![](docs/media/22. RRGS compleet.png)
+![](docs/media/22.RRGS-compleet.png)
 
 
 Toelichting op diagram:

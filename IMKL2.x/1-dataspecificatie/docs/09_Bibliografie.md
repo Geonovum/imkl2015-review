@@ -1,12 +1,11 @@
 Bibliografie
 ============
 
-**Dit hoofdstuk beschrijft relevante documenten betrekking hebben op deze
-dataspecificatie.**
+
 
 -   [D2.8.III.6] Data Specification on Utility and Government Services
 
->   – Technical Guidelines, <https://inspire.ec.europa.eu/id/document/tg/us>
+– Technical Guidelines, <https://inspire.ec.europa.eu/id/document/tg/us>
 
 -   [DS-D2.5] INSPIRE DS-D2.5, Generic Conceptual Model, v3.4,
     <https://inspire.ec.europa.eu/documents/inspire-generic-conceptual-model>

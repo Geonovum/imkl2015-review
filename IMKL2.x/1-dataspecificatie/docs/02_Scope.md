@@ -1,7 +1,6 @@
 Scope
 =====
 
-1.  Scope.
 
 Dit document beschrijft de dataspecificatie, IMKL, van het door KLIC ontsloten
 dataproduct Utiliteitsnetten.

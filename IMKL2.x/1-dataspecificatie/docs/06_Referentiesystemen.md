@@ -1,8 +1,6 @@
 Referentiesystemen
 ==================
 
-**Dit hoofdstuk beschrijft het referentiesysteem van het data product.**
-
 Ruimtelijk referentiesysteem.
 -----------------------------
 
@@ -29,7 +27,6 @@ ETRS89 + EVRS : 7423 (hoogte in meters tov EVRF2000 (=NAP).
 Zie voor meer detail hoofdstuk 6 van INSPIRE_Dataspecifications_US_v3.0.
 
 Toelichting:
-
 Het ruimtelijk referentiesysteem beschrijft het meetkundige stelsel waarin de
 coördinaten van een object betekenis krijgen. In de regel wordt daar een
 coördinaat referentiesysteem voor gebruikt. Voor Nederland zijn de
@@ -54,6 +51,5 @@ Temporeel referentiesysteem
 Alle tijdsaanduidingen zijn gebaseerd op de Gregoriaanse kalender en uitgedrukt
 is overeenstemming met de internationale standaard ISO 8601. Voorbeelden daarvan
 zijn:
-
 2014 (het jaar 2014); 2014-04 (april 2014); 2014-04-15 (15 april 2014);
 2014-04-15T16:30:20+01:00 (15 april 2014, 16:30 20sec, tijdzone UTC+1).
