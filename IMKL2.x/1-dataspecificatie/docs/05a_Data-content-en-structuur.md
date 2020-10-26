@@ -143,7 +143,7 @@ verschillende zijn in de diagrammen aangegeven.
     betrekking tot aan- of uitlevering of een decentraal of centraal aangesloten
     netbeheerder.
 
-![](media/bc7223f6e95a8d7350ac774dcb99255f.wmf)
+![](media/1.IMKL-Model-compleet.png)
 
 Toelichting bij het diagram.
 
@@ -254,7 +254,7 @@ geautoriseerd is om de waarde te
 
 Kennen. Waarde is vertrouwelijk en wordt niet uitgewisseld.
 
-![](media/32190bb5bd793accbd3b63ccf0565e08.wmf)
+![](media/2.IMKL-Basisinformatie.png)
 
 Figuur 5.2: Basistypen van het model: Identificatie en label. Alle objecttypen
 hebben verplicht een identifier. Bijna alle objecten hebben optioneel een label.
@@ -278,7 +278,7 @@ informatie bevatten en die extra aan het INSPIRE Utility networks model zijn
 toegevoegd zijn afgebeeld. Bijvoorbeeld geometrie en netwerktopologie zitten in
 INSPIRE Utility networks en zijn niet afgebeeld.
 
-![](media/837b3e03d1bbbd85255bba5ec435b5ca.wmf)
+![](media/3.IMKL-Semantische-kern.png)
 
 Figuur 5.3: IMKL semantische kern voor WIBON toepassing. Een utiliteitsnet
 bestaat uit elementen. De elementen hebben attributen en een link met extra
@@ -446,7 +446,7 @@ punten en lijnen die het netwerk representeren. 2D vlakken zijn additioneel
 waarbij ook multivlakken zijn toegestaan. 2,5 D en 3D zijn een additionele
 extensie.
 
-![](media/2cbcd11a62822149ece7ff1357fd7ccd.wmf)
+![](media/4.IMKL-Geometrie.png)
 
 Figuur 5.4: Geometriemodel. Primair en verplicht punten en (hart)lijnen.
 Optioneel vlakken en additioneel 3D.
@@ -513,7 +513,7 @@ aanwezig. Dat betekent dat de basis uitgaat van een (volledige) 2D data set.
 Daarnaast kan, in dezelfde data set, 3D geometrie voor een of meerdere van de
 objecten aanwezig zijn.
 
-![](media/984946ebb0f1ae9ae185d902e6bd5d7f.wmf)
+![](media/5.IMKL-Geometrie2.png)
 
 Figuur 5.5: Alle netelementen kunnen naast de verplichte punten en centerlijnen
 optioneel een extra geometrie hebben van het type 2D, 2,5D of 3D.
