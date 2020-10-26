@@ -150,13 +150,15 @@ gegevensuitwisseltrajecten zijn:
     (graafpolygoon e.d.) inclusief bijbehorende aanvraag en leveringsinformatie
     .
 
-![](./media/3c03285e59ef328ead24d95055a637a8.jpg)
+![](./docs/media/3c03285e59ef328ead24d95055a637a8.jpg)
+
+
 
 jpg
-![](./media/10.IMKL-Leidingelement.jpg)
+![](./docs/media/10.IMKL-Leidingelement.jpg)
 
 png
-![](./media/10.IMKL-Leidingelement.png)
+![](./docs/media/10.IMKL-Leidingelement.png)
 
 Figuur 3.2: Data-uitwisselarchitectuur. Illustratief figuur van
 data-uitwisseling voor realisatie van WIBON en INSPIRE voorziening. IMKL
