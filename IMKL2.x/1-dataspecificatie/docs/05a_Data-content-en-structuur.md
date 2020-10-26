@@ -7,6 +7,7 @@ klasse diagrammen wordt het model beschreven.
 Inleiding.
 ----------
 
+
 In de volgende paragrafen wordt de inhoud en structuur van het IMKL beschreven
 middels UML diagrammen en een bijbehorende objectcatalogus.
 

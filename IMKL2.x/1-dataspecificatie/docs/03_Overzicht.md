@@ -59,6 +59,7 @@ onderdelen daarvan. IMKL integreert de begrippenkaders voor deze verschillende
 processen en creëert hiermee een basis voor synergie in de
 data-uitwisselingsprocessen.
 
+
 <!-- Jouw manier ![Plaatje](./media/2d104aab4bf4bcf7f08c51f2274af36f.png) -->
 
 <!-- Mijn manier -->
