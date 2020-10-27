@@ -163,20 +163,17 @@ beschreven.
 Normatieve referenties.
 -----------------------
 
--   Raamwerk van geo-standaarden 3.0.
-
-	<http://www.geonovum.nl/documenten/raamwerk-van-geo-standaarden>
+-   [Raamwerk van geo-standaarden 3.0](http://www.geonovum.nl/documenten/raamwerk-van-geo-standaarden).
 
 -   NEN 3610:2011/A1:2016 Basismodel Geo-informatie.
 
 -   NEN 3116:1990 Tekeningen in de bouw. Basissymbolen voor de uitwisseling van
     gegevens over de ligging van ondergrondse leidingen.
 
--   [D2.8.III.6] Data Specification on Utility and Government Services.
-    Technical Guidelines,
-    <http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_US_v3.0.pdf>
+-   [[D2.8.III.6] Data Specification on Utility and Government Services.
+    Technical Guidelines](http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_US_v3.0.pdf).
 
--   GegevensWoordenboek Stedelijk Water (GWSW). <https://data.gwsw.nl/>.
+-   [GegevensWoordenboek Stedelijk Water (GWSW)](https://data.gwsw.nl/).
 
 Totstandkoming.
 ---------------
@@ -199,71 +196,185 @@ Termen en definities.
 
 Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 
-| **annotatie** Elke toevoeging op een kaartbeeld voor verduidelijking                                                                                                                                                                                                                                                 |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| applicatieschema informatiemodel dat gegevens beschrijft die worden gebruikt door een of meer applicaties OPMERKING IMKL is met UML beschreven in een applicatieschema.                                                                                                                                              |
-| **associatie of relatie (UML)** semantische relatie tussen twee of meer klassen die de connectie tussen hun instanties weergeeft                                                                                                                                                                                     |
-| attribuut kenmerk van een object                                                                                                                                                                                                                                                                                     |
-| attribuutwaarde (value) waarde die een attribuut aanneemt                                                                                                                                                                                                                                                            |
-| coördinaat getal in een sequentie van n getallen om de positie van een punt in een n-dimensionale ruimte te bepalen                                                                                                                                                                                                  |
-| coördinaatreferentiesysteem coördinaatsysteem dat aan een object is gerelateerd door een datum.                                                                                                                                                                                                                      |
-| coördinaatsysteem set van wiskundige regels voor het toekennen van coördinaten aan punten                                                                                                                                                                                                                            |
-| **datatype** gestructureerde gegevens zonder identiteit                                                                                                                                                                                                                                                              |
-| datum parameter of set van parameters voor het definiëren van het nulpunt, de schaal en de oriëntatie van een coördinaatsysteem                                                                                                                                                                                      |
-| **diepte** Afstand van een punt tot een gekozen referentievlak neerwaarts gemeten langs een lijn welke loodrecht op dat referentievlak staat.                                                                                                                                                                        |
-| **download service** service that enables copies of spatial data sets, or parts of such sets, to be downloaded and, where practicable, accessed directly. INSPIRE                                                                                                                                                    |
-| **extensie (van informatiemodel)** Een informatiemodel als uitbreiding op een ander informatiemodel                                                                                                                                                                                                                  |
-| geo-informatie (geo-information, geographic information) informatie met een directe of indirecte referentie naar een plaats ten opzichte van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak) OPMERKING Geo-informatie is synoniem aan geografische informatie.                                            |
-| geo-object (geographic feature type, feature class) abstractie van een fenomeen in de werkelijkheid dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)                                                                      |
-| georeferentie (georeference) locatie van een ruimtelijk object vastgelegd in een ruimtelijk referentiesysteem                                                                                                                                                                                                        |
-| informatiemodel (conceptual model, conceptual scheme) formele definitie van objecten, attributen, relaties en regels in een bepaald domein OPMERKING Domein is in dit verband: een kennisgebied of activiteit gekarakteriseerd door een verzameling van concepten en begrippen                                       |
-| instantie (instance, occurrence) benoemd, identificeerbaar object uit een objectklasse                                                                                                                                                                                                                               |
-| **label** tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld                                                                                                                                                                                           |
-| **namespace** collectie van namen die in XML documenten gebruikt worden als element en attribuutnamen OPMERKING Een namespace wordt geïdentificeerd door een URI.                                                                                                                                                    |
-| **netwerk service** application running at the network application layer and above, that provides data storage, manipulation, presentation, communication or other capability which is often implemented using a client-server or peer-to-peer architecture based on application layer network protocols (Wikipedia) |
-| objectklasse (feature class) verzameling van objecten met dezelfde eigenschappen                                                                                                                                                                                                                                     |
-| presentatie presentatie van informatie aan mensen OPMERKING Presentatie van informatie door visualisatie, hoorbaar maken, tastbaar maken (tactiel) of combinaties hiervan.                                                                                                                                           |
-| **productmodel** informatiemodel afgeleid van een ander informatiemodel om de toepassing in een dataproduct te realiseren                                                                                                                                                                                            |
-| registratie op nationaal niveau geïdentificeerde en erkende gegevensverzameling OPMERKING Een basisregistratie is een registratie.                                                                                                                                                                                   |
-| registratiehouder organisatie verantwoordelijk voor het houden van de registratie OPMERKING de registratiehouder is de organisatie die unieke objectidentificaties toekent voor objecten in een registratie                                                                                                          |
-| representatie inhoudelijk vastleggen van de werkelijkheid. OPMERKING Het informatiemodel is een representatie van de werkelijkheid.                                                                                                                                                                                  |
-| ruimtelijk referentiesysteem model (systeem) voor identificatie van een positie (locatie) in de werkelijkheid OPMERKING Identificatie van een positie kan door coördinaten (directe locatie) en door geografische identificatoren (indirecte locatie).                                                               |
-| sectormodel model voor beschrijving van de werkelijkheid binnen het domein van een beleidsveld                                                                                                                                                                                                                       |
-| symbool presentatieprimitieve van grafische, audio of tactiele aard of een combinatie hiervan                                                                                                                                                                                                                        |
-| **temporeel referentiesysteem** Referentiesysteem waarin de tijd is bepaald.                                                                                                                                                                                                                                         |
-| **netwerktopologie** beschrijving van de plaats van de knooppunten en de onderlinge verbindingen in een netwerk                                                                                                                                                                                                      |
-| **rasterformaat** representatie van beeld middel een gewoonlijk rechthoekig patroon van parallelle lijnen (v)                                                                                                                                                                                                        |
-| **vectorformaat** representatie van geometrie middels geometrische primitieven                                                                                                                                                                                                                                       |
-| **view service** service that makes it possible, as a minimum, to display, navigate, zoom in and out, pan or overlay viewable spatial data sets and to display legend information and any relevant content of metadata. INSPIRE                                                                                      |
-| void, nl                                                                                                                                                                                                                                                                                                             |
-| **waardelijst** lijst van waarden                                                                                                                                                                                                                                                                                    |
-| werkelijkheid                                                                                                                                                                                                                                                                                                        |
 
-### void, en
+**annotatie**  
+elke toevoeging op een kaartbeeld voor verduidelijking
+                                                                                                                                                
+**applicatieschema**  
+informatiemodel dat gegevens beschrijft die worden gebruikt door een of meer applicaties OPMERKING IMKL is met UML beschreven in een applicatieschema.
 
+**associatie of relatie (UML)**  
+semantische relatie tussen twee of meer klassen die de connectie tussen hun instanties weergeeft 
+
+**attribuut**  
+kenmerk van een object                                                                                                                                                           
+
+**attribuutwaarde (value)**  
+waarde die een attribuut aanneemt
+                                                                                                                                                         
+**coördinaat**  
+getal in een sequentie van n getallen om de positie van een punt in een n-dimensionale ruimte te bepalen                                                                                                                                                          
+
+**coördinaatreferentiesysteem**  
+coördinaatsysteem dat aan een object is gerelateerd door een datum.  
+
+**coördinaatsysteem**  
+set van wiskundige regels voor het toekennen van coördinaten aan punten  
+                                                                                                                                                        
+**datatype**  
+gestructureerde gegevens zonder identiteit  
+
+**datum**  
+parameter of set van parameters voor het definiëren van het nulpunt, de schaal en de oriëntatie van een coördinaatsysteem
+
+**diepte**  
+afstand van een punt tot een gekozen referentievlak neerwaarts gemeten langs een lijn welke loodrecht op dat referentievlak staat.  
+
+**download service**   
+service that enables copies of spatial data sets, or parts of such sets, to be downloaded and, where practicable, accessed directly.  
+INSPIRE
+
+**extensie (van informatiemodel)**  
+een informatiemodel als uitbreiding op een ander informatiemodel  
+
+**geo-informatie (geo-information, geographic information)**  
+informatie met een directe of indirecte referentie naar een plaats ten opzichte van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)  
+ 
+OPMERKING Geo-informatie is synoniem aan geografische informatie.  
+
+**geo-object (geographic feature type, feature class)**  
+abstractie van een fenomeen in de werkelijkheid dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)
+
+**georeferentie (georeference)**  
+locatie van een ruimtelijk object vastgelegd in een ruimtelijk referentiesysteem
+
+**informatiemodel (conceptual model, conceptual scheme)**  
+formele definitie van objecten, attributen, relaties en regels in een bepaald domein  
+  
+OPMERKING Domein is in dit verband: een kennisgebied of activiteit gekarakteriseerd door een verzameling van concepten en begrippen
+
+**instantie (instance, occurrence)**  
+benoemd, identificeerbaar object uit een objectklasse
+
+**label**  
+tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld
+
+**namespace**  
+collectie van namen die in XML documenten gebruikt worden als element en attribuutnamen  
+
+OPMERKING Een namespace wordt geïdentificeerd door een URI.
+
+**netwerk service**  
+application running at the network application layer and above, that provides data storage, manipulation, presentation, communication or other capability which is often implemented using a client-server or peer-to-peer architecture based on application layer network protocols (Wikipedia)
+
+**netwerktopologie**
+beschrijving van de plaats van de knooppunten en de onderlinge verbindingen in een netwerk
+
+**objectklasse (feature class)**  
+verzameling van objecten met dezelfde eigenschappen
+ 
+**presentatie**  
+presentatie van informatie aan mensen  
+
+OPMERKING Presentatie van informatie door visualisatie, hoorbaar maken, tastbaar maken (tactiel) of combinaties hiervan.
+
+**productmodel**  
+informatiemodel afgeleid van een ander informatiemodel om de toepassing in een dataproduct te realiseren
+
+**registratie**  
+op nationaal niveau geïdentificeerde en erkende gegevensverzameling  
+
+OPMERKING Een basisregistratie is een registratie.
+
+**registratiehouder**  
+organisatie verantwoordelijk voor het houden van de registratie  
+
+OPMERKING de registratiehouder is de organisatie die unieke objectidentificaties toekent voor objecten in een registratie
+
+**representatie**  
+inhoudelijk vastleggen van de werkelijkheid. 
+ 
+OPMERKING Het informatiemodel is een representatie van de werkelijkheid.
+
+**ruimtelijk referentiesysteem model**  
+(systeem) voor identificatie van een positie (locatie) in de werkelijkheid OPMERKING Identificatie van een positie kan door coördinaten (directe locatie) en door geografische identificatoren (indirecte locatie).
+
+**sectormodel** 
+model voor beschrijving van de werkelijkheid binnen het domein van een beleidsveld
+
+**symbool**  
+presentatieprimitieve van grafische, audio of tactiele aard of een combinatie hiervan
+
+**temporeel referentiesysteem**  
+referentiesysteem waarin de tijd is bepaald.
+
+**rasterformaat**  
+representatie van beeld middels een gewoonlijk rechthoekig patroon van parallelle lijnen
+
+**vectorformaat**  
+representatie van geometrie middels geometrische primitieven
+
+**view service**  
+service that makes it possible, as a minimum, to display, navigate, zoom in and out, pan or overlay viewable spatial data sets and to display legend information and any relevant content of metadata.  
+INSPIRE
+
+**void** (en)  
 object, of kenmerk van een object, dat syntactisch of semantisch is vereist,
 maar dat in de gegeven instantie geen informatie bevat
 
-### beeld van de echte of hypothetische wereld die alles van belang omvat
+**waardelijst**  
+lijst van waarden
 
-1.  Symbolen en afkortingen.
+**werkelijkheid**  
+beeld van de echte of hypothetische wereld die alles van belang omvat
+
+
+Symbolen en afkortingen.
+------------------------
 
 Lijst van afkortingen en acroniemen die worden gehanteerd in deze data
 specificatie.
 
-| **BAG** Basisregistratie Adressen en Gebouwen                                                                                                                                                                                                                                                                       |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **BevB** Besluit externe veiligheid Buisleidingen                                                                                                                                                                                                                                                                   |
-| **BGT** Basisregistratie Grootschalige Topografie                                                                                                                                                                                                                                                                   |
-| **BOMOS** Beheer- en ontwikkelmodel Open Standaarden                                                                                                                                                                                                                                                                |
-| **EC61** EU richtlijn voor een Verordening van het Europees Parlement en Raad over maatregelen om de kosten van de aanleg van elektronische hogesnelheidscommunicatienetwerken te verlagen.                                                                                                                         |
-| **GML** Geography Markup Language                                                                                                                                                                                                                                                                                   |
-| **INSPIRE** Infrastructure for Spatial Information in Europe. De INSPIRE-richtlijn verplicht de Europese lidstaten geo-informatie over 34 thema's te voorzien van metadata, te harmoniseren en beschikbaar te stellen via het INSPIRE-portaal volgens leveringsvoorwaarden die het gebruik niet onnodig belemmeren. |
-| **INSPIRE UN** INSPIRE thema Utility Networks. Nutsvoorzieningen zoals bijvoorbeeld riolering, afvalbeheer, energievoorziening, watervoorziening                                                                                                                                                                    |
-| **RRGS** Risico Register Gevaarlijke Stoffen                                                                                                                                                                                                                                                                        |
-| **UML** Unified Modeling Language                                                                                                                                                                                                                                                                                   |
-|                                                                                                                                                                                                                                                                                                                     |
-| **WFS** Web Feature Service                                                                                                                                                                                                                                                                                         |
-| **WIBON** Wet Informatie-uitwisseling Bovengrondse en Ondergrondse netten                                                                                                                                                                                                                                           |
-| **WMF** Web Mapping Service                                                                                                                                                                                                                                                                                         |
-| **XML** Extensible Markup Language                                                                                                                                                                                                                                                                                  |
+**BAG**  
+Basisregistratie Adressen en Gebouwen
+
+**BevB**  
+Besluit externe veiligheid Buisleidingen
+
+**BGT**  
+Basisregistratie Grootschalige Topografie
+
+**BOMOS**  
+Beheer- en ontwikkelmodel Open Standaarden
+
+**EC61**  
+EU richtlijn voor een Verordening van het Europees Parlement en Raad over maatregelen om de kosten van de aanleg van elektronische hogesnelheidscommunicatienetwerken te verlagen
+
+**GML**  
+Geography Markup Language
+
+**INSPIRE**  
+Infrastructure for Spatial Information in Europe  
+De INSPIRE-richtlijn verplicht de Europese lidstaten geo-informatie over 34 thema's te voorzien van metadata, te harmoniseren en beschikbaar te stellen via het INSPIRE-portaal volgens leveringsvoorwaarden die het gebruik niet onnodig belemmeren.
+
+**INSPIRE UN**  
+INSPIRE thema Utility Networks.  
+Nutsvoorzieningen zoals bijvoorbeeld riolering, afvalbeheer, energievoorziening, watervoorziening
+
+**RRGS**  
+Risico Register Gevaarlijke Stoffen  
+
+**UML**  
+Unified Modeling Language
+
+**WFS**  
+Web Feature Service  
+
+**WIBON**  
+Wet Informatie-uitwisseling Bovengrondse en Ondergrondse netten
+
+**WMF**  
+Web Mapping Service
+
+**XML**  
+Extensible Markup Language

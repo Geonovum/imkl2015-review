@@ -211,7 +211,7 @@ Measure bestaan uit een combinatie van een waarde en een eenheid.
 
 ### Waardelijsten zijn extern.
 
-De opgenomen waardelijsten van het type \<\<codeList\>\> worden niet in het UML
+De opgenomen waardelijsten van het type  «codeList» worden niet in het UML
 beheerd maar in externe waardelijsten. Zij worden gepubliceerd in een
 waardelijstregister. Ze maken wel onderdeel uit van IMKL maar omdat ze
 dynamischer zijn voor wat betreft het inhoudelijk beheer zijn ze uit de UML
@@ -240,7 +240,7 @@ Maatvoering, Annotatie en Diepte is het plaatsingspunt van een label bepaald met
 een attribuut ligging. Bij andere subklassen, bijvoorbeeld de netelementen wordt
 de plaatsing van een eventueel label in een viewer bepaald.
 
-**Voidable:** Bij attributen en associaties die het stereotype \<\<voidable\>\>
+**Voidable:** Bij attributen en associaties die het stereotype «voidable»
 hebben kan, indien het van toepassing is, geen waarde worden ingevuld. Optioneel
 kan er ook een reden opgenomen worden waarom er geen waarde is ingevuld. De
 benoemde redenen zijn:
@@ -556,7 +556,7 @@ aangrijpingspunt van het element weer dat geldt als punt van meting. Standaard
 wordt daar bovenkant ingevuld maar het kan zinvol zijn om bij een buis
 (riolering) *additioneel* ook de binnenonderkant buis (BOB) als meetpunt op te
 nemen (zie ook Gegevenswoordenboek Stedelijk Water:
-<https://data.gwsw.nl/totaal/binnenonderkantbuis/>). Het datatype van dieptepeil
+[http://data.gwsw.nl/totaal/binnenonderkantbuis](http://data.gwsw.nl/totaal/binnenonderkantbuis/). Het datatype van dieptepeil
 is ‘Measure’ waarbij de meeteenheid apart wordt gespecificeerd. Voor WIBON wordt
 er altijd meters gebruikt met maximaal 2 decimalen.
 
@@ -1291,9 +1291,9 @@ waardelijst voor type rioolleiding opgenomen. Voor het geografisch
 informatiemodel van stedelijk water is een afstemming met het
 Gegevenswoordenboek Stedelijk Water (GWSW) van belang. De waarden uit de
 waardelijst vinden hun definitie in dat gegevenswoordenboek. Het GWSW is
-beschikbaar via <https://data.gwsw.nl>*.* Elke term, definitie en attribuut is
+beschikbaar via [https://data.gwsw.nl](https://data.gwsw.nl). Elke term, definitie en attribuut is
 direct te bekijken via
-[https://data.gwsw.nl/totaal/{term}](https://data.gwsw.nl/totaal/%7bterm%7d)*/*,
-bijvoorbeeld <https://data.gwsw.nl/totaal/vrijvervalrioolleiding/>. Meer
+http://data.gwsw.nl/totaal/{term},
+bijvoorbeeld [http://data.gwsw.nl/totaal/vrijvervalrioolleiding/](http://data.gwsw.nl/totaal/vrijvervalrioolleiding/). Meer
 informatie over GWSW is te vinden op:
-<https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water>.
+[https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water).

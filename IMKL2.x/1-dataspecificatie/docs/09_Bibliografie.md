@@ -3,15 +3,13 @@ Bibliografie
 
 
 
--   [D2.8.III.6] Data Specification on Utility and Government Services
+-   [[D2.8.III.6] Data Specification on Utility and Government Services – Technical Guidelines](<https://inspire.ec.europa.eu/id/document/tg/us)
 
-– Technical Guidelines, <https://inspire.ec.europa.eu/id/document/tg/us>
+-   [[DS-D2.5] INSPIRE DS-D2.5, Generic Conceptual Model, v3.4]
+    (https://inspire.ec.europa.eu/documents/inspire-generic-conceptual-model)
 
--   [DS-D2.5] INSPIRE DS-D2.5, Generic Conceptual Model, v3.4,
-    <https://inspire.ec.europa.eu/documents/inspire-generic-conceptual-model>
-
--   [D2.10.1] INSPIRE Data Specifications – Base Models – Generic Network Model,
-    <https://inspire.ec.europa.eu/documents/inspire-data-specifications-%E2%80%93-base-models-%E2%80%93-generic-network-model>
+-   [[D2.10.1] INSPIRE Data Specifications – Base Models – Generic Network Model]
+    (https://inspire.ec.europa.eu/documents/inspire-data-specifications-%E2%80%93-base-models-%E2%80%93-generic-network-model)
 
 -   AGIV – IMKL2.2 Data Model, versie 0.13.
 
@@ -20,15 +18,14 @@ Bibliografie
     aarde gerelateerde ruimtelijke objecten. Normcommissie 351 240
     "Geo-informatie”, Nederlands Normalisatie-instituut.
 
--   Data uitwisseling specificatie Informatiemodel Stedelijk Water (IMSW).
-    <http://www.riool.net/-/informatiemodel-stedelijk-water-ter-visie>.
+-   [Data uitwisseling specificatie Informatiemodel Stedelijk Water (IMSW)]
+    (http://www.riool.net/-/informatiemodel-stedelijk-water-ter-visie).
     Stichting RIONED.
 
--   GegevensWoordenboek Stedelijk Water (GWSW). <https://data.gwsw.nl/> .
+-   [GegevensWoordenboek Stedelijk Water (GWSW)](https://data.gwsw.nl/).
     Stichting RIONED.
 
--   Woordenboek van kadaster: <https://tax.kadaster.nl/>
+-   [Woordenboek van kadaster](https://tax.kadaster.nl/)
 
--   Brink, van den, L., Janssen, P., Quak, W.; 2012. Handreiking Geometrie in
-    model en GML.
-    <http://www.geonovum.nl/sites/default/files/Geometrieinmodelengml_1.0.pdf>
+-   [Brink, van den, L., Janssen, P., Quak, W.; 2012. Handreiking Geometrie in
+    model en GML](http://www.geonovum.nl/sites/default/files/Geometrieinmodelengml_1.0.pdf).

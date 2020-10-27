@@ -22,7 +22,7 @@ Het format waarin data worden geleverd is GML 3.2.2. simple features profile 2
 (SF-2). Dit profiel heeft een beperkt aantal GML constructies en bevat o.a. geen
 3D volume objecten. Als 3D volume objecten nodig zijn moet er van SF-2 afgeweken
 worden. Meer informatie over simple feature profiles in:
-<http://www.geonovum.nl/sites/default/files/Geometrieinmodelengml_1.0.pdf> .
+[Geometrieinmodelengml_1.0.pdf](http://www.geonovum.nl/sites/default/files/Geometrieinmodelengml_1.0.pdf) .
 Voor IMKL is een GML applicatieschema gemaakt. Datasets van utiliteitsnetten die
 conform deze specificatie zijn gemaakt moeten foutloos valideren tegen het IMKL
 applicatieschema.
@@ -39,7 +39,7 @@ applicatieschema’s gemaakt.
 
 Waardelijsten van het type codeList zijn toegepast in RDF en gepubliceerd op:
 
-https://register.geostandaarden.nl/waardelijst/imkl/2.0.0rc
+https://register.geostandaarden.nl/waardelijst/imkl/
 
 ### Nadere GML implementatie specificaties 
 
@@ -54,7 +54,7 @@ unicode [32 – 128] en [160 – 255]. Opgemerkt wordt dat (U+8216), (U+8217),
 (U+8220), (U+8221) ook als tekens op een kaart weer te geven moeten zijn.
 
 **gml: id**
-Elk object in het GML bestand krijgt een \<gml:id\>. Dit gml:id heeft geen
+Elk object in het GML bestand krijgt een 'gml:id'. Dit gml:id heeft geen
 informatiewaarde maar is nodig om interne en externe referenties te realiseren.
 Er zijn twee situaties:
 
