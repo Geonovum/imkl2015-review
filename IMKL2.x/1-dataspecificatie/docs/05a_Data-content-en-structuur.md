@@ -66,14 +66,18 @@ unieke aanduiding voor het domein waarbinnen de informatie-elementen
 gedefinieerd zijn. In IMKL zijn afspraken gemaakt over te gebruiken namespaces
 en afkortingen hiervoor. De namespace voor IMKL is ‘IMKL’.
 
-![](docs/media/IMKL-Klicwin.jpg)
+<!-- ![](docs/media/IMKL-Klicwin.jpg) -->
 
-Figuur 5.1: Een UML package diagram van de relatie tussen IMKL en de INSPIRE
+<figure id="afb_package-diagram">
+    <img src="docs/media/IMKL-Klicwin.jpg" alt="Afbeelding Package diagram">
+    <figcaption>Een UML package diagram van de relatie tussen IMKL en de INSPIRE
 dataspecificaties. Elk pakket bevat de informatie die op dat niveau wordt
 toegevoegd. Het pakket IMKL is een extensie op het INSPIRE model voor Utility
 Networks. INSPIRE utilities heeft afhankelijkheden met het INSPIRE algemene
 netwerkmodel en INSPIRE basistypen. IMKL omvat het totaal van de aan elkaar
-gerelateerde pakketten.
+gerelateerde pakketten.</figcaption>
+</figure>
+
 
 ### Metamodel.
 
@@ -124,7 +128,12 @@ Kleurgebruik in diagrammen:
 
     Voorbeeld: cardinaliteit aangepast en constraint toegevoegd:
 
-![](docs/media/voorbeeldAangepasteKlasse.png)
+<!-- ![](docs/media/voorbeeldAangepasteKlasse.png) -->
+
+<figure id="afb_voorbeeldAangepasteklasse">
+    <img src="docs/media/voorbeeldAangepasteKlasse.png" alt="Afbeelding voorbeeld aangepaste klasse">
+    <figcaption>Voorbeeld aangepaste klasse</figcaption>
+</figure>
 
 Voor WIBON geldt dat er een verschil is tussen het dataverkeer tussen de
 centrale voorziening en de afnemers, de uitlevering, en het dataverkeer tussen
@@ -144,14 +153,19 @@ verschillende zijn in de diagrammen aangegeven.
     betrekking tot aan- of uitlevering of een decentraal of centraal aangesloten
     netbeheerder.
 
-![](docs/media/1.IMKL-Model-compleet.png)
+<!-- ![](docs/media/1.IMKL-Model-compleet.png) -->
+
+<figure id="afb_IMKL-model-compleet">
+    <img src="docs/media/1.IMKL-Model-compleet.png" alt="Afbeelding IMKL model compleet">
+    <figcaption>IMKL: Overzicht model compleet</figcaption>
+</figure>
 
 Toelichting bij het diagram.
 
 Het UML diagram brengt het IMKL – WIBON voor netinformatie inclusief de relatie
 met INSPIRE in beeld. De specifiek voor de andere deelmodellen opgenomen
 informatie zit hier nog niet in. Ook de WIBON gebiedsinformatie, graafpolygoon
-en belangenregistratie zijn niet opgenomen (zie daarvoor paragraaf 5.2.25). Voor
+en belangenregistratie zijn niet opgenomen (zie daarvoor paragraaf [WIBON uitleveren van gebiedsinformatie](#wibon-uitleveren-van-gebiedsinformatie)). Voor
 de leesbaarheid zijn een aantal relaties niet opgenomen. In de detaildiagrammen
 komen die wel terug. Met omlijningen zijn onderdelen van het diagram benoemd:
 IMKL en INSPIRE Generic Network Model. Aan de bovenzijde bevindt zich de IMKL
@@ -227,7 +241,7 @@ geïdentificeerd worden. INSPIRE gebruikt hiervoor het attribuut identifier met
 het datatype Identifier. Veel objecttypen uit IMKL overerven die attributen.
 Voor objecttypen die specifiek voor IMKL zijn gecreëerd en die niet via een
 generalisatie aan INSPIRE zijn gekoppeld is er een attribuut identificatie met
-het datatype NEN3610ID. Zie ook paragraaf 5.2.25 Identifier management.
+het datatype NEN3610ID. Zie ook paragraaf [Identifier management](#identifier-management).
 
 Label: Label is een abstract datatype dat is gecreëerd om middels overerving aan
 bijna alle objecten een mogelijkheid voor het toekennen van een label te bieden.
@@ -269,7 +283,7 @@ object in de registratie werd aangemaakt of veranderd; het begin van de
 levenscyclus van deze versie van een data object. endLifespanVersion is de datum
 die het einde van een levenscyclus van deze versie van een data object aangeeft;
 het moment vanaf wanneer het geen onderdeel meer is van de actuele registratie.
-Zie ook paragraaf 5.2.27 Tijd representatie en temporeel model.
+Zie ook paragraaf [Tijd representatie en temporeel model](#tijd-representatie-en-temporeel-model).
 
 ### IMKL semantische kern.
 
@@ -346,7 +360,7 @@ Extra detailinformatie in de vorm van bestanden kan optioneel aan een
 utiliteitsnet of netelement worden gekoppeld via het attribuut
 heeftExtraInformatie. Bestanden kunnen verschillende typen informatie
 beschrijven zoals een aansluiting, huisaansluiting of een profielschets met een
-lengte- of dwarsprofiel (zie ook 5.2.12). Het bestandstype moet worden
+lengte- of dwarsprofiel (zie ook paragraaf [Leidingelement](#leidingelement)). Het bestandstype moet worden
 gespecificeerd en is in alle gevallen pdf.
 
 Met het verplichte attribuut ligging wordt de locatie aangegeven waar de
@@ -487,7 +501,7 @@ toegestaan. Elke link wordt maar door één netwerkelement gebruikt.
 Referentiestelsel.
 
 Referentiestelsel voor IMKL datalevering is Rijksdriehoekmeting (RD), zie
-hoofdstuk 6.
+[hoofdstuk 7: Referentiesystemen](#referentiesystemen).
 
 **3D geometrie.**
 
@@ -537,7 +551,7 @@ voorbeelden van een IMKL object op verschillende levels of detail.
 
 Voor 3D IMKL wordt het ruimtelijk Referentie systeem EPSG:7415 gehanteerd. Dit
 is een samengesteld referentiesysteem met RD voor de XY-dimensie (EPSG:28992) en
-NAP voor de Z dimensie (EPSG:5709). Zie ook hoofdstuk 6.
+NAP voor de Z dimensie (EPSG:5709). Zie ook paragraaf [Ruimtelijk referentiesysteem](#ruimtelijk-referentiesysteem).
 
 ![](docs/media/Figuur5.6.png)
 
@@ -671,8 +685,7 @@ bovengrondse delen van het net.
 Leidingelement is de verzamelklasse voor alle typen leidingelementen. De typen
 zijn niet als apart objecttype opgenomen maar als verzamelklasse Appurtenance.
 In INSPIRE zijn de Appurtenances met een appurtenanceType attribuut verder
-getypeerd. Deze typering kan nog verder uitgebreid worden. In bijlage 1 van dit
-document zijn de waarden voor AppurtenanceTypeValue opgenomen.
+getypeerd. Deze typering kan nog verder uitgebreid worden. In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) zijn de waarden voor AppurtenanceTypeValue opgenomen.
 
 ![](docs/media/10.IMKL-Leidingelement.jpg)
 
@@ -907,7 +920,7 @@ daarbij geen verplichte WIBON informatie. WarningType is een boven de kabel
 liggend waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest
 gelden de KabelEnleiding attributen.
 
-In bijlage 1 staan de mogelijke waarden voor de producttypen.
+In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) staan de mogelijke waarden voor de producttypen.
 
 ![](docs/media/16.IMKL-Olie-gas-chemicaliënpijpleiding.png)
 
@@ -922,7 +935,7 @@ Van INSPIRE wordt SewerWaterType toegevoegd en via UtilityLinkSet is de status,
 warningType en het distributietype opgenomen. Het distributietype is daarbij
 geen verplichte WIBON informatie WarningType is een boven de kabel liggend
 waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest gelden de
-KabelEnleiding attributen. In bijlage 1 staan de waarden voor SewerWaterType.
+KabelEnleiding attributen. In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten).
 
 ![](docs/media/17.IMKL-Rioolleiding.png)
 
@@ -939,7 +952,7 @@ geen verplichte WIBON informatie. WarningType is een boven de kabel liggend
 waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest gelden de
 KabelEnleiding attributen.
 
-In bijlage 1 staan de waarden voor waterType.
+In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) staan de waarden voor waterType.
 
 ![](docs/media/18.IMKL-Waterleiding.png)
 
@@ -956,7 +969,7 @@ daarbij geen verplichte WIBON informatie. WarningType is een boven de kabel
 liggend waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest
 gelden de KabelEnleiding attributen.
 
-In bijlage 1 staan de waarden voor de producttypen.
+In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) staan de waarden voor de producttypen.
 
 ![](docs/media/19.IMKL-ThermischePijpleiding.png)
 
@@ -984,12 +997,12 @@ kunnen gebruiken.
 De leidingelementen worden niet specifiek per type thema net als de kabels en
 leidingen gedefinieerd. Leidingelementen hebben een algemene type lijst en een
 lijst per type net (telecom, elektriciteit, riool, water, gas/olie). Deze
-lijsten zijn uitbreidbaar. In bijlage 1 staan de waardelijsten met de waarden
+lijsten zijn uitbreidbaar. In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) staan de waardelijsten met de waarden
 voor type leidingelement per type kabelOfLeiding.
 
 ![](docs/media/20.IMKL-Leidingelement-per-thema.png)
 
-### WIBON – Uitleveren van gebiedsinformatie.
+### WIBON Uitleveren van gebiedsinformatie.
 
 Voor het faciliteren van de uitlevergegevens binnen de WIBON is er naast de
 specifieke utiliteitsnet informatie nog een aantal extra gegevens nodig. In
@@ -1041,7 +1054,7 @@ GebiedsinformatieAanvraag die de aanvraaggegevens bevat en een graaf- en/of een
 oriëntatiepolygoon. De informatiepolygoon is de weergave door een grondroerder
 van het gebied, waarvoor gebiedsinformatie wordt aangevraagd. Bij de uitlevering
 wordt die ook meegegeven inclusief de visualisatie van het gebied tussen de
-graaf- en de informatiepolygoon. In bijlage 3 wordt dit gebied toegelicht.
+graaf- en de informatiepolygoon. In [Bijlage 3: Toelichting op geometrie](#bijlage-3:-toelichting-op-geometriemodel) wordt dit gebied toegelicht.
 
 De GebiedsinformatieLevering verwijst naar een object Belanghebbende waarin de
 beheerdersinformatie is opgenomen. Bij de Gebiedsinformatielevering hoort
@@ -1059,18 +1072,19 @@ een belanghebbende beheerder zijn. Deze zal echter geen beheerdersinformatie
 aanleveren en wordt niet opgenomen in de levering van gebiedsinformatie.
 
 Het object Belanghebbende heeft 1 of meer geraakte belangen en de daarbij
-horende contactgegevens (zie Belangenregistratie). Tevens is er een verwijzing
+horende contactgegevens (zie [Belangenregistratie](#belangenregistratie)). Tevens is er een verwijzing
 vanuit de belanghebbende naar de eventuele bijlagen, inclusief bijlage
 Eisvoorzorgsmaatregel. De bijlagen zijn daarmee direct gerelateerd aan de
 belanghebbende en pas indirect aan het utiliteitsnet. Een belanghebbende kan een
 belang hebben maar niet betrokken zijn.
 
 Indien de belanghebbende wel betrokken is dan is er ook netinformatie
-beschikbaar via een relatie naar 1 of meerdere utiliteitsnetten.
+beschikbaar via een relatie naar één of meerdere utiliteitsnetten.
 
 Het object Utiliteitsnet vormt de verbinding naar de locatie en typegegevens van
 het utiliteitsnet met de netwerkelementen en gerelateerde informatie.
 
+### Belangenregistratie
 De Belangenregistratie is een aparte registratie die door de centrale
 voorziening is ingericht en wordt onderhouden. De belangenregistratie is
 opgenomen om het geraakte belang te bepalen per belanghebbende en de

@@ -65,14 +65,12 @@ data-uitwisselingsprocessen.
 <!-- Mijn manier -->
 <figure id="afb_overzicht">
     <img src="docs/media/Figuur3.1.png" alt="Afbeelding Overzicht">
-    <figcaption>Overzicht</figcaption>
-</figure>
-
-
-Figuur 3.1: IMKL beschrijft het totaal aan informatie die voorziet in een aantal
+    <figcaption>IMKL beschrijft het totaal aan informatie die voorziet in een aantal
 dataleveringsprocessen: WIBON, INSPIRE utilities, Topografie Stedelijk Water,
 Buisleidingen gevaarlijke inhoud (Risicoregister gevaarlijke stoffen). WIBON
-integreert ook de Europese wetgeving EC61: Richtlijn kostenreductie breedband.
+integreert ook de Europese wetgeving EC61: Richtlijn kostenreductie breedband.</figcaption>
+</figure>
+
 
 Bij de implementatie van IMKL wordt er voor elk dataleveringsproces een apart
 profiel gemaakt. Elk profiel bevat alleen die informatie die bij dat profiel
@@ -150,15 +148,19 @@ gegevensuitwisseltrajecten zijn:
 4.  **WIBON Uitlevering:** Uitleveren van gebiedsinformatie aan grondroerder.
     (graafpolygoon e.d.) inclusief bijbehorende aanvraag en leveringsinformatie.
 
-![](docs/media/Figuur3.2.png)
+<!--![](docs/media/Figuur3.2.png)-->
 
-Figuur 3.2: Data-uitwisselarchitectuur. Illustratief figuur van
+<figure id="afb_uitwisselingsarchitectuur">
+    <img src="docs/media/Figuur3.2.png" alt="data uitwisselingsarchitectuur">
+    <figcaption>Data-uitwisselarchitectuur. Illustratief figuur van
 data-uitwisseling voor realisatie van WIBON en INSPIRE voorziening. IMKL
 beschrijft de semantiek van de eindproducten in de data-uitlevering en geeft ook
 specificaties voor de inhoud van de data-aanlevering van decentraal (A) en
 centraal aangesloten netbeheerder (B) aan de voorziening. Het BMKL is het
 protocol voor het berichtenverkeer. Dit wordt in een aparte specificatie
-beschreven.
+beschreven.</figcaption>
+</figure>
+
 
 Normatieve referenties.
 -----------------------
