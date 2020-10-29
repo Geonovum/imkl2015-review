@@ -15,4 +15,4 @@ onderdelen van de dataspecificatie nodig zijn ten behoeve van applicatiebouw
 voor realisatie van het berichtenverkeer aan de aanbod en ontvangstzijde.
 
 Dit document is tot stand gekomen als resultaat van het reguliere beheer van de
-KLIC standaarden middels de KLIC Technische commissie standaarden (TCS).
+KLIC standaarden middels de [KLIC Technische commissie standaarden (TCS)](https://www.kadaster.nl/-/klic-ledenlijst-klic-tcs).

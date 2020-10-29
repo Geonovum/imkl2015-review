@@ -3,13 +3,11 @@ Bibliografie
 
 
 
--   [[D2.8.III.6] Data Specification on Utility and Government Services – Technical Guidelines](<https://inspire.ec.europa.eu/id/document/tg/us)
+-   [(D2.8.III.6) Data Specification on Utility and Government Services – Technical Guidelines](https://inspire.ec.europa.eu/id/document/tg/us)
 
--   [[DS-D2.5] INSPIRE DS-D2.5, Generic Conceptual Model, v3.4]
-    (https://inspire.ec.europa.eu/documents/inspire-generic-conceptual-model)
+-   [(DS-D2.5) INSPIRE DS-D2.5, Generic Conceptual Model, v3.4](https://inspire.ec.europa.eu/documents/inspire-generic-conceptual-model)
 
--   [[D2.10.1] INSPIRE Data Specifications – Base Models – Generic Network Model]
-    (https://inspire.ec.europa.eu/documents/inspire-data-specifications-%E2%80%93-base-models-%E2%80%93-generic-network-model)
+-   [(D2.10.1) INSPIRE Data Specifications – Base Models – Generic Network Model](https://inspire.ec.europa.eu/documents/inspire-data-specifications-%E2%80%93-base-models-%E2%80%93-generic-network-model)
 
 -   AGIV – IMKL2.2 Data Model, versie 0.13.
 
@@ -18,8 +16,7 @@ Bibliografie
     aarde gerelateerde ruimtelijke objecten. Normcommissie 351 240
     "Geo-informatie”, Nederlands Normalisatie-instituut.
 
--   [Data uitwisseling specificatie Informatiemodel Stedelijk Water (IMSW)]
-    (http://www.riool.net/-/informatiemodel-stedelijk-water-ter-visie).
+-   [Data uitwisseling specificatie Informatiemodel Stedelijk Water (IMSW)](http://www.riool.net/-/informatiemodel-stedelijk-water-ter-visie).
     Stichting RIONED.
 
 -   [GegevensWoordenboek Stedelijk Water (GWSW)](https://data.gwsw.nl/).

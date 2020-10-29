@@ -269,10 +269,16 @@ geautoriseerd is om de waarde te
 
 Kennen. Waarde is vertrouwelijk en wordt niet uitgewisseld.
 
-![](docs/media/2.IMKL-Basisinformatie.png)
+<!-- ![](docs/media/2.IMKL-Basisinformatie.png) -->
 
-Figuur 5.2: Basistypen van het model: Identificatie en label. Alle objecttypen
-hebben verplicht een identifier. Bijna alle objecten hebben optioneel een label.
+<figure id="afb_2.IMKL-Basisinformatie">
+    <img src="docs/media/2.IMKL-Basisinformatie.png" alt="Afbeelding Basisinformatie">
+    <figcaption>Basistypen van het model: Identificatie en label. Alle objecttypen
+hebben verplicht een identifier. Bijna alle objecten hebben optioneel een label.</figcaption>
+</figure>
+
+<!--Figuur 5.2: Basistypen van het model: Identificatie en label. Alle objecttypen
+hebben verplicht een identifier. Bijna alle objecten hebben optioneel een label. -->
 
 LifespanVersion: In de basistypen van het model zitten twee attributen voor een
 temporeel model: beginLifesepanVersion en endLifespanVersion. INSPIRE kent die
@@ -293,11 +299,19 @@ informatie bevatten en die extra aan het INSPIRE Utility networks model zijn
 toegevoegd zijn afgebeeld. Bijvoorbeeld geometrie en netwerktopologie zitten in
 INSPIRE Utility networks en zijn niet afgebeeld.
 
-![](docs/media/3.IMKL-Semantische-kern.png)
+<!--![](docs/media/3.IMKL-Semantische-kern.png) -->
 
-Figuur 5.3: IMKL semantische kern voor WIBON toepassing. Een utiliteitsnet
+
+<!--Figuur 5.3: IMKL semantische kern voor WIBON toepassing. Een utiliteitsnet
 bestaat uit elementen. De elementen hebben attributen en een link met extra
-informatie.
+informatie.-->
+
+<figure id="afb_3.IMKL-Semantische-kern">
+    <img src="docs/media/3.IMKL-Semantische-kern.png" alt="Afbeelding Semantische kern">
+    <figcaption>IMKL semantische kern voor WIBON toepassing. Een utiliteitsnet
+bestaat uit elementen. De elementen hebben attributen en een link met extra
+informatie.</figcaption>
+</figure>
 
 Toelichting bij het diagram: Een Utiliteitsnet bestaat uit objecten
 KabelOfLeiding, Leidingelement, KabelEnLeidingContainer en
@@ -396,7 +410,7 @@ de eenheid meter en de gebruikelijke nauwkeurigheid is 0,1. Het decimale
 scheidingsteken is een komma. Het attribuut label wordt via het object
 ExtraInformatie overerft van het object Label. In het attribuut omschrijving van
 het object Label kan indien nodig een nadere omschrijving worden opgenomen, zie
-figuur 5.2. De locatie van het label en de geometrie van de maatvoeringslijnen
+[Figuur IMKL-Basisinformatie](#afb_2.IMKL-Basisinformatie). De locatie van het label en de geometrie van de maatvoeringslijnen
 wordt met het attribuut ligging opgenomen. Maatvoering is direct gekoppeld aan
 een Utiliteitsnet. Hierdoor kan middels het thema attribuut van Utiliteitsnet de
 maatvoering per thema worden geselecteerd.
@@ -461,10 +475,16 @@ punten en lijnen die het netwerk representeren. 2D vlakken zijn additioneel
 waarbij ook multivlakken zijn toegestaan. 2,5 D en 3D zijn een additionele
 extensie.
 
-![](docs/media/4.IMKL-Geometrie.png)
+<!-- ![](docs/media/4.IMKL-Geometrie.png) -->
 
-Figuur 5.4: Geometriemodel. Primair en verplicht punten en (hart)lijnen.
-Optioneel vlakken en additioneel 3D.
+<!--Figuur 5.4: Geometriemodel. Primair en verplicht punten en (hart)lijnen.
+Optioneel vlakken en additioneel 3D. -->
+
+<figure id="afb_4.IMKL-Geometrie.png">
+    <img src="docs/media/4.IMKL-Geometrie.png" alt="Afbeelding Geometrie">
+    <figcaption>Geometriemodel. Primair en verplicht punten en (hart)lijnen.
+Optioneel vlakken en additioneel 3D.</figcaption>
+</figure>
 
 De geometrie van de netwerkelementen wordt overgeërfd uit het Inspire Netwerk
 model. Alle netwerkelementen zijn onderdeel van een topologisch netwerk en
@@ -528,10 +548,16 @@ aanwezig. Dat betekent dat de basis uitgaat van een (volledige) 2D data set.
 Daarnaast kan, in dezelfde data set, 3D geometrie voor een of meerdere van de
 objecten aanwezig zijn.
 
-![](docs/media/5.IMKL-Geometrie2.png)
+<!--![](docs/media/5.IMKL-Geometrie2.png)-->
 
-Figuur 5.5: Alle netelementen kunnen naast de verplichte punten en centerlijnen
-optioneel een extra geometrie hebben van het type 2D, 2,5D of 3D.
+<!-- Figuur 5.5: Alle netelementen kunnen naast de verplichte punten en centerlijnen
+optioneel een extra geometrie hebben van het type 2D, 2,5D of 3D. -->
+
+<figure id="afb_5.IMKL-Geometrie2.pngt">
+    <img src="docs/media/5.IMKL-Geometrie2.png" alt="Afbeelding Geometrie 2">
+    <figcaption>Alle netelementen kunnen naast de verplichte punten en centerlijnen
+optioneel een extra geometrie hebben van het type 2D, 2,5D of 3D.</figcaption>
+</figure>
 
 KabelOfLeiding, KabelEnLeidingContainer, Leidingelement en
 ContainerLeidingelement bieden ieder de mogelijkheid voor het opnemen van 3D
@@ -546,16 +572,21 @@ boven maaiveldniveau worden gerepresenteerd.
 
 Daarnaast is het mogelijk om volledige 3D geometrie op te nemen. Dit is te
 beschouwen als Level of Detail 1 (LOD1) en maakt het mogelijk om IMKL objecten
-als volledige 3D objecten (volumes) te representeren. Zie Figuur voor
+als volledige 3D objecten (volumes) te representeren. Zie [Figuur Leidingobject in 2.5D en 3D](#afb_Figuur5.6) voor
 voorbeelden van een IMKL object op verschillende levels of detail.
 
 Voor 3D IMKL wordt het ruimtelijk Referentie systeem EPSG:7415 gehanteerd. Dit
 is een samengesteld referentiesysteem met RD voor de XY-dimensie (EPSG:28992) en
 NAP voor de Z dimensie (EPSG:5709). Zie ook paragraaf [Ruimtelijk referentiesysteem](#ruimtelijk-referentiesysteem).
 
-![](docs/media/Figuur5.6.png)
+<!-- ![](docs/media/Figuur5.6.png) -->
 
-Figuur 5.6: Leidingobject in 2.5D en 3D
+<!-- Figuur 5.6: Leidingobject in 2.5D en 3D -->
+
+<figure id="afb_Figuur5.6">
+    <img src="docs/media/Figuur5.6.png" alt="Afbeelding Leidingobject in 3D">
+    <figcaption>Leidingobject in 2.5D en 3D</figcaption>
+</figure>
 
 ### Diepte.
 
@@ -591,11 +622,18 @@ Indien de dieptegegevens niet aan een netelement te koppelen zijn omdat die
 koppeling bij de bronregistratie niet aanwezig is, zijn de dieptegegevens direct
 aan het utiliteitsnet gekoppeld.
 
-![](docs/media/7.IMKL-Diepte.png)
+<!-- ![](docs/media/7.IMKL-Diepte.png) -->
 
-Figuur 5.7: Dieptegegevens zijn gemodelleerd als aparte objecten waarin diepte
+<!-- Figuur 5.7: Dieptegegevens zijn gemodelleerd als aparte objecten waarin diepte
 ten opzicht van maaiveld en of NAP is opgenomen. Standaard dieptelegging wordt
-opgenomen bij het Utiliteitsnet, afwijking daarvan bij de netelementen.
+opgenomen bij het Utiliteitsnet, afwijking daarvan bij de netelementen. -->
+
+<figure id="afb_7.IMKL-Diepte.png">
+    <img src="docs/media/7.IMKL-Diepte.png" alt="Afbeelding Diepte">
+    <figcaption>Dieptegegevens zijn gemodelleerd als aparte objecten waarin diepte
+ten opzicht van maaiveld en of NAP is opgenomen. Standaard dieptelegging wordt
+opgenomen bij het Utiliteitsnet, afwijking daarvan bij de netelementen.</figcaption>
+</figure>
 
 ### Utiliteitsnet.
 
@@ -620,11 +658,18 @@ verantwoordelijke netbeheerder gekoppeld. Annotatie, maatvoering en mogelijk
 extra detailinfo worden gekoppeld en gelden voor het hele net (of deel daarvan
 in een bestand).
 
-![](docs/media/8.IMKL-Utiliteitsnet.png)
+<!-- ![](docs/media/8.IMKL-Utiliteitsnet.png) -->
 
-Figuur 5.8: Utiliteitsnet is getypeerd naar thema en wordt voor WIBON
+<!-- Figuur 5.8: Utiliteitsnet is getypeerd naar thema en wordt voor WIBON
 gerefereerd door een Belanghebbende. Utiliteitsnet is een verbijzondering van
-INSPIRE UtilityNetwork.
+INSPIRE UtilityNetwork. -->
+
+<figure id="afb_8.IMKL-Utiliteitsnet">
+    <img src="docs/media/8.IMKL-Utiliteitsnet.png" alt="Afbeelding Utiliteitsnet">
+    <figcaption>Utiliteitsnet is getypeerd naar thema en wordt voor WIBON
+gerefereerd door een Belanghebbende. Utiliteitsnet is een verbijzondering van
+INSPIRE UtilityNetwork.</figcaption>
+</figure>
 
 In INSPIRE is er voor UtilityNetwork met het attribuut utilityFacilityReference
 een referentie mogelijk naar een ActivityComplex. Hiermee kan gerefereerd worden
@@ -663,10 +708,16 @@ Kabel of leidingen hebben verplicht een lijngeometrie. Optioneel is er via het
 associatie-attribuut extraGeometrie een buitenbegrenzing of contour van het
 object op te nemen. De netbeheerder bepaalt zelf wanneer dat functioneel is.
 
-![](docs/media/9.IMKL-KabelOfLeiding.png)
+<!-- ![](docs/media/9.IMKL-KabelOfLeiding.png) -->
 
-Figuur 5.9: KabelOfLeiding bevat de gemeenschappelijke informatie voor kabels en
-leidingen.
+<!-- Figuur 5.9: KabelOfLeiding bevat de gemeenschappelijke informatie voor kabels en
+leidingen. -->
+
+<figure id="afb_9.IMKL-KabelOfLeiding">
+    <img src="docs/media/9.IMKL-KabelOfLeiding.png" alt="Afbeelding KabelOfLeiding">
+    <figcaption>KabelOfLeiding bevat de gemeenschappelijke informatie voor kabels en
+leidingen.</figcaption>
+</figure>
 
 ### Leidingelement.
 
@@ -687,10 +738,16 @@ zijn niet als apart objecttype opgenomen maar als verzamelklasse Appurtenance.
 In INSPIRE zijn de Appurtenances met een appurtenanceType attribuut verder
 getypeerd. Deze typering kan nog verder uitgebreid worden. In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) zijn de waarden voor AppurtenanceTypeValue opgenomen.
 
-![](docs/media/10.IMKL-Leidingelement.jpg)
+<!-- ![](docs/media/10.IMKL-Leidingelement.jpg) -->
 
-Figuur 5.10: Leidingelement bevat de gemeenschappelijke eigenschappen van alle
-typen leidingelementen.
+<!-- Figuur 5.10: Leidingelement bevat de gemeenschappelijke eigenschappen van alle
+typen leidingelementen. -->
+
+<figure id="afb_10.IMKL-Leidingelement">
+    <img src="docs/media/10.IMKL-Leidingelement.jpg" alt="Afbeelding Leidingelement">
+    <figcaption>Leidingelement bevat de gemeenschappelijke eigenschappen van alle
+typen leidingelementen.</figcaption>
+</figure>
 
 De geometrie van een Leidingelement is verplicht altijd een punt. Optioneel is
 er via het associatie-attribuut extraGeometrie een buitenbegrenzing of contour
@@ -759,9 +816,14 @@ geregistreerd staan. Ze moeten bij minstens één thema weergegeven worden maar
 het mag bij meerdere. Indien een mantelbuis leeg is kan dit bij de toelichting
 vermeld worden.
 
-![](docs/media/11.IMKL-KabelEnLeidingContainer.png)
+<!-- ![](docs/media/11.IMKL-KabelEnLeidingContainer.png) -->
 
-Figuur 5.11: KabelEnleidingContainer omvat kabelbedden en mantelbuizen.
+<!-- Figuur 5.11: KabelEnleidingContainer omvat kabelbedden en mantelbuizen. -->
+
+<figure id="afb_11.IMKL-KabelEnLeidingContainer">
+    <img src="docs/media/11.IMKL-KabelEnLeidingContainer.png" alt="Afbeelding KabelEnLeidingContainer">
+    <figcaption>KabelEnleidingContainer omvat kabelbedden en mantelbuizen.</figcaption>
+</figure>
 
 KabelEnLeidingContainer is de verzamelklasse voor een aantal objecten waarin
 kabels of leidingen gegroepeerd zijn. In de praktijk is dat een duct of een
@@ -798,10 +860,16 @@ associaties bevat voor alle containerleidingelement objecten.
 
 Bron: IMKL
 
-![](docs/media/12.IMKL-ContainerLeidingElement.png)
+<!-- ![](docs/media/12.IMKL-ContainerLeidingElement.png) -->
 
-Figuur 5.12: ContainerLeidingelement een verzamelklasse voor meestal
-topografische objecten die een ondersteunende functie in een netwerk hebben.
+<!-- Figuur 5.12: ContainerLeidingelement een verzamelklasse voor meestal
+topografische objecten die een ondersteunende functie in een netwerk hebben. -->
+
+<figure id="afb_12.IMKL-ContainerLeidingElement">
+    <img src="docs/media/12.IMKL-ContainerLeidingElement.png" alt="Afbeelding ContainerLeidinelement">
+    <figcaption>ContainerLeidingelement een verzamelklasse voor meestal
+topografische objecten die een ondersteunende functie in een netwerk hebben.</figcaption>
+</figure>
 
 ContainerLeidingelement omvat objecten die verschillende leidingelementen
 groeperen. Bijvoorbeeld een elektriciteitskast met verschillende schakelaars,
@@ -850,23 +918,42 @@ Deze relaties worden door de individuele kabels en leidingen overerft.
 
 Deze relaties zijn optioneel (want ze komen niet altijd voor) en voidable.
 
-![](docs/media/13.IMKL-RelatiesTussenCableDuctPipe.png)
+<!-- ![](docs/media/13.IMKL-RelatiesTussenCableDuctPipe.png)
 
 Figuur 5.13: Relaties tussen buis, kabel en duct. Bijvoorbeeld een kabelbed
 verwijst optioneel naar de kabels die er in liggen; een mantelbuis kan verwijzen
-naar de kabels die het bevat.
+naar de kabels die het bevat. -->
 
-![](docs/media/bec0a83557082b393b2fe6c5d822371f.jpg)
+<figure id="afb_13.IMKL-RelatiesTussenCableDuctPipe">
+    <img src="docs/media/13.IMKL-RelatiesTussenCableDuctPipe.png" alt="Afbeelding RelatiesTussenCableDuctPipe">
+    <figcaption>Relaties tussen buis, kabel en duct. Bijvoorbeeld een kabelbed
+verwijst optioneel naar de kabels die er in liggen; een mantelbuis kan verwijzen
+naar de kabels die het bevat.</figcaption>
+</figure>
 
-Figuur 5.14: Voorbeeld van een type mantelbuis met daarin weer een aantal
+<!-- ![](docs/media/bec0a83557082b393b2fe6c5d822371f.jpg) -->
+
+<!-- Figuur 5.14: Voorbeeld van een type mantelbuis met daarin weer een aantal
 mantelbuizen (hdpe-buizen), waarvan één met een telecomkabel. Het model
-maakt verwijzingen tussen mantelbuizen en kabels mogelijk.
+maakt verwijzingen tussen mantelbuizen en kabels mogelijk. -->
 
-![](docs/media/da0f5a202720bb7f2acd0abc0a6ae08e.png)
+<figure id="afb_mantelbuis">
+    <img src="docs/media/bec0a83557082b393b2fe6c5d822371f.jpg" alt="Afbeelding Mantelbuis">
+    <figcaption>Voorbeeld van een type mantelbuis met daarin weer een aantal
+mantelbuizen (hdpe-buizen), waarvan één met een telecomkabel. Het model
+maakt verwijzingen tussen mantelbuizen en kabels mogelijk.</figcaption>
+</figure>
 
-Figuur 5.15: Mantelbuizen worden samen in een kabelbed gelegd. Het model maakt
+<!-- ![](docs/media/da0f5a202720bb7f2acd0abc0a6ae08e.png) -->
+
+<!-- Figuur 5.15: Mantelbuizen worden samen in een kabelbed gelegd. Het model maakt
 de verwijzing tussen kabelbed en de daarin liggende mantelbuizen of kabels en
-leidingen mogelijk.
+leidingen mogelijk. -->
+
+<figure id="afb_kabelbed">
+    <img src="docs/media/da0f5a202720bb7f2acd0abc0a6ae08e.png" alt="Afbeelding Kabelbed">
+    <figcaption>Kabelbed</figcaption>
+</figure>
 
 ### Diagram per type kabel of leiding.
 
@@ -890,7 +977,11 @@ bedrijfsspanning op de leiding. “nominalVoltage” beschrijft de nominale
 systeemspanning op de plaats van levering. Voor de rest gelden de KabelEnleiding
 attributen.
 
-![](docs/media/14.IMKL-Elektriciteitskabel.png)
+<!-- ![](docs/media/14.IMKL-Elektriciteitskabel.png) -->
+<figure id="afb_14.IMKL-Elektriciteitskabel">
+    <img src="docs/media/14.IMKL-Elektriciteitskabel.png" alt="Afbeelding Elektriciteitskabel">
+    <figcaption>Elektriciteitskabel</figcaption>
+</figure>
 
 ### Telecommunicatiekabel.
 
@@ -905,7 +996,12 @@ daarbij geen verplichte WIBON informatie. WarningType is een boven de kabel
 liggend waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest
 gelden de KabelEnleiding attributen.
 
-![](docs/media/15.IMKL-TelecommunicationsCable.png)
+<!-- ![](docs/media/15.IMKL-TelecommunicationsCable.png) -->
+
+<figure id="afb_15.IMKL-TelecommunicationsCable">
+    <img src="docs/media/15.IMKL-TelecommunicationsCable.png" alt="Afbeelding IMKL-Telecommunicatiekabel">
+    <figcaption>Telecommunicatiekabel</figcaption>
+</figure>
 
 ### Olie-gas-chemicalienpijpleiding.
 
@@ -922,7 +1018,12 @@ gelden de KabelEnleiding attributen.
 
 In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) staan de mogelijke waarden voor de producttypen.
 
-![](docs/media/16.IMKL-Olie-gas-chemicaliënpijpleiding.png)
+<!-- ![](docs/media/16.IMKL-Olie-gas-chemicaliënpijpleiding.png) -->
+
+<figure id="afb_16.IMKL-Olie-gas-chemicaliënpijpleiding">
+    <img src="docs/media/16.IMKL-Olie-gas-chemicaliënpijpleiding.png" alt="Afbeelding Olie-gas-chemicaliënpijpleiding">
+    <figcaption>Olie-gas-chemicaliënpijpleiding</figcaption>
+</figure>
 
 ### Rioolleiding.
 
@@ -937,7 +1038,12 @@ geen verplichte WIBON informatie WarningType is een boven de kabel liggend
 waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest gelden de
 KabelEnleiding attributen. In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten).
 
-![](docs/media/17.IMKL-Rioolleiding.png)
+<!-- ![](docs/media/17.IMKL-Rioolleiding.png) -->
+
+<figure id="afb_17.IMKL-Rioolleiding">
+    <img src="docs/media/17.IMKL-Rioolleiding.png" alt="Afbeelding Rioolleiding">
+    <figcaption>Rioolleiding</figcaption>
+</figure>
 
 ### Waterleiding.
 
@@ -954,7 +1060,11 @@ KabelEnleiding attributen.
 
 In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) staan de waarden voor waterType.
 
-![](docs/media/18.IMKL-Waterleiding.png)
+<!-- ![](docs/media/18.IMKL-Waterleiding.png) -->
+<figure id="afb_18.IMKL-Waterleiding">
+    <img src="docs/media/18.IMKL-Waterleiding.png" alt="Afbeelding Waterleiding">
+    <figcaption>Waterleiding</figcaption>
+</figure>
 
 ### Thermische pijpleiding.
 
@@ -971,7 +1081,13 @@ gelden de KabelEnleiding attributen.
 
 In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) staan de waarden voor de producttypen.
 
-![](docs/media/19.IMKL-ThermischePijpleiding.png)
+<!-- ![](docs/media/19.IMKL-ThermischePijpleiding.png) -->
+
+<figure id="afb_19.IMKL-ThermischePijpleiding">
+    <img src="docs/media/19.IMKL-ThermischePijpleiding.png" alt="Afbeelding ThermischePijpleiding">
+    <figcaption>Thermische Pijpleiding</figcaption>
+</figure>
+
 
 ### Overig en Weesleiding.
 
@@ -990,7 +1106,12 @@ gevallen ook voor de weesleiding. Er is een klasse OverigSpecifiek gemaakt om de
 INSPIRE attributen pipeDiameter, pressure en producttype ook voor Overig te
 kunnen gebruiken.
 
-![](docs/media/19b.IMKL-Overig-Weesleiding.png)
+<!-- ![](docs/media/19b.IMKL-Overig-Weesleiding.png) -->
+
+<figure id="afb_19b.IMKL-Overig-Weesleiding">
+    <img src="docs/media/19b.IMKL-Overig-Weesleiding.png" alt="Afbeelding Overig-Weesleiding">
+    <figcaption>Overig/Weesleiding</figcaption>
+</figure>
 
 ### Leidingelementen per type net (thema).
 
@@ -1000,7 +1121,11 @@ lijst per type net (telecom, elektriciteit, riool, water, gas/olie). Deze
 lijsten zijn uitbreidbaar. In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) staan de waardelijsten met de waarden
 voor type leidingelement per type kabelOfLeiding.
 
-![](docs/media/20.IMKL-Leidingelement-per-thema.png)
+<!-- ![](docs/media/20.IMKL-Leidingelement-per-thema.png) -->
+<figure id="afb_20.IMKL-Leidingelement-per-thema.png">
+    <img src="docs/media/20.IMKL-Leidingelement-per-thema.png" alt="Afbeelding Leidingelement-per-thema">
+    <figcaption>Leidingelement per thema</figcaption>
+</figure>
 
 ### WIBON Uitleveren van gebiedsinformatie.
 
@@ -1009,7 +1134,11 @@ specifieke utiliteitsnet informatie nog een aantal extra gegevens nodig. In
 onderstaand diagram is de relatie tussen de verschillende onderdelen
 weergegeven.
 
-![](docs/media/wibonuitlevering.png)
+<!--![](docs/media/wibonuitlevering.png)-->
+<figure id="afb_wibonuitlevering">
+    <img src="docs/media/wibonuitlevering.png" alt="Afbeelding uitlevering">
+    <figcaption>De verschillende onderdelen in de WIBON Uitlevering</figcaption>
+</figure>
 
 WIBON Uitlevering: Het totaal aan informatie dat kan worden geleverd bij een
 WIBON informatieaanvraag.
@@ -1030,6 +1159,10 @@ contactinformatie opgenomen.
 
 Deze blokken zijn nader ingevuld in het UML diagram op de volgende pagina.
 
+<figure id="20a.IMKL-Levering-Gebiedsinformatie">
+    <img src="docs/media/20a.IMKL-Levering-Gebiedsinformatie.png" alt="Afbeelding Levering Gebiedsinformatie">
+    <figcaption>Model voor levering gebiedsinformatie</figcaption>
+</figure>
 ![](docs/media/20a.IMKL-Levering-Gebiedsinformatie.png)
 
 Toelichting bij het diagram.
@@ -1091,16 +1224,25 @@ opgenomen om het geraakte belang te bepalen per belanghebbende en de
 contactgegevens die bij specifieke situaties van belang zijn. Deze worden bij
 een geraakt belang uitgewisseld in de GebiedsinformatieLevering.
 
-![](docs/media/20b.IMKL-Belangenregistratie-WIBON.png)
-
-Figuur 5.14: Belang en Veiligheidsgebied zijn beide beheerpolygonen. Een
+<!-- ![](docs/media/20b.IMKL-Belangenregistratie-WIBON.png) -->
+<figure id="afb_20b.IMKL-Belangenregistratie-WIBON">
+    <img src="docs/media/20b.IMKL-Belangenregistratie-WIBON.png" alt="Belangenregistratie WIBON">
+    <figcaption>Belangenregistratie WIBON: Belang en Veiligheidsgebied zijn beide beheerpolygonen. Een
 Veiligheidsgebied heeft alleen contactpersonen voor de aanvraag. Het Belang
 heeft daarnaast contactgegevens voor de graafmelding, calamiteitenmelding of
-oriëntatieverzoek.
+oriëntatieverzoek.</figcaption>
+</figure>
+
+<!-- Figuur 5.14: -->
 
 ### Identifier management.
 
-![](docs/media/identifiermanagement.png)
+<!--![](docs/media/identifiermanagement.png) -->
+
+<figure id="afb_identifiermanagement">
+    <img src="docs/media/identifiermanagement.png" alt="Afbeelding identifiermanagement">
+    <figcaption>Elementen van de IMKL obejct-identifier</figcaption>
+</figure>
 
 Identifiers van objecten worden in IMKL toegekend via het attribuut inspireId en
 het datatype Identifier als het object vanuit INSPIRE beschreven is of met het
@@ -1275,7 +1417,12 @@ beschrijven die profielen.
 
 ### UML - Buisleidingen Risicoregister overzicht.
 
-![](docs/media/22.RRGS-compleet.png)
+<!-- ![](docs/media/22.RRGS-compleet.png) -->
+
+<figure id="afb_22.RRGS-compleet">
+    <img src="docs/media/22.RRGS-compleet.png" alt="Afbeelding RRGS-compleet">
+    <figcaption>Model Buisleidingen risicoregister</figcaption>
+</figure>
 
 
 Toelichting op diagram:
@@ -1295,7 +1442,12 @@ risicocontour en een verplicht object EffectcontourDodelijk.
 
 ### UML - Stedelijk water overzicht.
 
-![](docs/media/23.IMSW-totaal.png)
+<!-- ![](docs/media/23.IMSW-totaal.png) -->
+
+<figure id="afb_23.IMSW-totaal">
+    <img src="docs/media/23.IMSW-totaal.png" alt="Afbeelding IMSW-totaal">
+    <figcaption>Model Stedelijk water</figcaption>
+</figure>
 
 Toelichting op diagram:
 

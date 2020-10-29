@@ -30,7 +30,11 @@ daarvan een voorbeeld van een leiding met een aantal nodes (leidingelementen). A
 en J zijn begin en eindpunt van de leiding; B tot en met I zijn aansluitingen
 met aftakkingen.
 
-![](docs/media/bijlage2-1.png)
+<!-- ![](docs/media/bijlage2-1.png) -->
+<figure id="afb_bijlage2-1">
+    <img src="docs/media/bijlage2-1.png" alt="Afbeelding bijlage2-1">
+    <figcaption>Eén leiding met tien nodes</figcaption>
+</figure>
 
 **Versie 1: Netwerktopologie volledig toegepast.**
 
@@ -39,18 +43,30 @@ die bestaat uit links die nodes met elkaar verbinden. Er is een verwijzing
 tussen de nodes en de links. Een leiding verwijst naar de linkset die er bij
 hoort. Zie onderstaand schema.
 
-![](docs/media/bijlage2-2.png)
+<!-- ![](docs/media/bijlage2-2) -->
+<figure id="afb_bijlage2-2.png">
+    <img src="docs/media/bijlage2-2.png" alt="Afbeelding bijlage2-2">
+    <figcaption>Netwerktopologie volledig toegepast</figcaption>
+</figure>
 
 **Versie 2: Netwerktopologie niet toegepast.**
 
 In deze versie is de netwerk topologie niet toegepast. Er is 1 linkset die
 bestaat uit 9 links maar er is geen verwijzing tussen linkes en nodes.
 
-![](docs/media/Bijlage2.3.png)
+<!-- ![](docs/media/Bijlage2-3.png) -->
+<figure id="afb_Bijlage2-3">
+    <img src="docs/media/Bijlage2-3.png" alt="Afbeelding Bijlage2-3">
+    <figcaption>Netwerktopologie niet toegepast</figcaption>
+</figure>
 
 **Versie 3: Netwerktopologie niet toegepast.**
 
 In deze versie bestaat de linkset uit 1 link van A naar J. De nodes zijn apart
 ‘bovenop’ de leiding weergegeven. Er is geen enkele netwerktopologie.
 
-![](docs/media/bijlage2-4.png)
+<!-- ![](docs/media/bijlage2-4.png) -->
+<figure id="afb_Bijlage2-4">
+    <img src="docs/media/Bijlage2-4.png" alt="Afbeelding Bijlage2-4">
+    <figcaption>Netwerktopologie niet toegepast</figcaption>
+</figure>
