@@ -72,10 +72,10 @@ tbody
 }
 
 /*-- Definite van de tabel-rij (deze zorgt voor 2 kleuren in de rijen) -------------*/
-tr:nth-child(even)  
-{
- background-color:  darkgrey;
-}
+//tr:nth-child(even)
+//{
+//  background-color:  darkgrey;
+//}
 
 /*-- Definite van de tabel-cel (data) ----------------------------------------------*/
 td
