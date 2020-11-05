@@ -2,15 +2,16 @@ Objectcatalogus.
 ----------------
 
 De IMKL objectcatalogus is opgenomen in een apart document IMKL –
-Objectcatalogus. In deze paragraaf zijn de metadata en de lijst met objecttypes
+Objectcatalogus. In deze paragraaf zijn de metadgegevens en de lijst met objecttypen
 opgenomen. Voor de volledige beschrijving wordt naar het document IMKL –
 Objectcatalogus verwezen.
 
-| Objectcatalogus metadata: Naam van feature catalogus | IMKL                  |
+| Objectcatalogus metagegevens:                        |                       |
 |------------------------------------------------------|-----------------------|
+| Naam van object catalogus                            | IMKL                  |
 | Scope                                                | IMKL                  |
-| Versienummer                                         | IMKL versie 2.0rc     |
-| Versiedatum                                          | 2020-10-01            |
+| Versienummer                                         | IMKL versie 2.0       |
+| Versiedatum                                          | 2020-11-05            |
 | Herkomst Definities                                  | Dataspecificatie IMKL |
 
 Typen gedefinieerd in de objectcatalogus:

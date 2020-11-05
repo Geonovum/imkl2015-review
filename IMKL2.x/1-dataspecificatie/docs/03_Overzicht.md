@@ -39,12 +39,12 @@ verbindingsmoffen, drukregelaars, putten, meetstations etc.
 
 Al de utiliteitsnetten zijn opgebouwd uit verbindingen en verbindingspunten die
 samen een transportnetwerk vormen. De logica van de netwerken wordt beschreven
-middels een topologische-, of connectiviteitsmodel. IMKL volgt een arc-node
+middels een topologisch-, of connectiviteitsmodel. IMKL volgt een arc-node
 topologie om de logica van het netwerk te kunnen beschrijven. De kern van het
 model zit echter in het uitwisselen van de liggingsgegevens van de netten en de
 netwerkelementen. Primair gebeurt dat middels centerlijnen voor de locatie van
 kabels en leidingen en centerpunten voor leidingelementen. Optioneel is er ook
-een vlakken representatie en een uitbreiding voor driedimensionale
+een vlakken-representatie en een uitbreiding voor driedimensionale
 representatie.
 
 Een utiliteitsnet wordt beschreven door de ligging en topologie van de
@@ -53,7 +53,7 @@ thema), verantwoordelijke organisaties, type product, type leiding en velerlei
 relevante directe, gerelateerde of afgeleide kenmerken en eigenschappen. Voor de
 bepaling van het domein in relatie tot de opgenomen eigenschappen staan een
 aantal data-uitwisselingsprocessen centraal: INSPIRE Utilities, WIBON,
-Risicoregister Gevaarlijke Stoffen, Stedelijk afvalwater.. Al deze processen
+Risicoregister Gevaarlijke Stoffen, Stedelijk afvalwater. Al deze processen
 stellen eisen aan begrippenkaders in relatie tot utiliteitsnetten en de
 onderdelen daarvan. IMKL integreert de begrippenkaders voor deze verschillende
 processen en creëert hiermee een basis voor synergie in de
@@ -65,7 +65,7 @@ data-uitwisselingsprocessen.
 <!-- Mijn manier -->
 <figure id="afb_overzicht">
     <img src="docs/media/Figuur3.1.png" alt="Afbeelding Overzicht">
-    <figcaption>IMKL beschrijft het totaal aan informatie die voorziet in een aantal
+    <figcaption>IMKL beschrijft het totaal aan informatie dat voorziet in een aantal
 dataleveringsprocessen: WIBON, INSPIRE utilities, Topografie Stedelijk Water,
 Buisleidingen gevaarlijke inhoud (Risicoregister gevaarlijke stoffen). WIBON
 integreert ook de Europese wetgeving EC61: Richtlijn kostenreductie breedband.</figcaption>
@@ -78,7 +78,7 @@ hoort. Zo is er een WIBON profiel, een SWater profiel en een BevB profiel.
 
 Uitgangspunten toegepast bij het modelleren van IMKL:
 
--   IMKL beschrijft het totaal aan informatie die voorziet in een aantal data
+-   IMKL beschrijft het totaal aan informatie dat voorziet in een aantal data
     leveringsprocessen: WIBON, INSPIRE utilities, Topologie Stedelijk Water,
     Buisleidingen gevaarlijke inhoud.
 
@@ -165,7 +165,7 @@ beschreven.</figcaption>
 Normatieve referenties.
 -----------------------
 
--   [Raamwerk van geo-standaarden 3.0](http://www.geonovum.nl/documenten/raamwerk-van-geo-standaarden).
+-   [Raamwerk Geo-standaarden 3.0](https://www.geonovum.nl/documents/raamwerk-geo-standaarden-v30pdf).
 
 -   NEN 3610:2011/A1:2016 Basismodel Geo-informatie.
 
@@ -177,21 +177,7 @@ Normatieve referenties.
 
 -   [GegevensWoordenboek Stedelijk Water (GWSW)](https://data.gwsw.nl/).
 
-Totstandkoming.
----------------
 
-Deze specificatie is opgesteld door Geonovum en is gebaseerd op het INSPIRE Data
-Product Specification Template.
-
-Document titel : Informatiemodel Kabels en Leidingen (IMKL) – versie 2.0rc
-
-Referentie datum : 2020-10-01
-
-Auteurs : Herman van den Berg, Paul Janssen
-
-Auteurs vorige versie : Linda van den Brink, Paul Janssen, Wilko Quak
-
-Taal : Nederlands
 
 Termen en definities.
 ---------------------
@@ -299,7 +285,9 @@ inhoudelijk vastleggen van de werkelijkheid.
 OPMERKING Het informatiemodel is een representatie van de werkelijkheid.
 
 **ruimtelijk referentiesysteem model**  
-(systeem) voor identificatie van een positie (locatie) in de werkelijkheid OPMERKING Identificatie van een positie kan door coördinaten (directe locatie) en door geografische identificatoren (indirecte locatie).
+(systeem) voor identificatie van een positie (locatie) in de werkelijkheid  
+
+OPMERKING Identificatie van een positie kan door coördinaten (directe locatie) en door geografische identificatoren (indirecte locatie).
 
 **sectormodel** 
 model voor beschrijving van de werkelijkheid binnen het domein van een beleidsveld

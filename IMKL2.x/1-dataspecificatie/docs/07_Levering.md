@@ -30,9 +30,10 @@ applicatieschema.
 Het IMKL UML is toegepast in vier profielen. Voor twee van die is er een GML
 applicatieschema gemaakt.
 
-WIBON profiel: IMKL-wibon2.0.xsd
-WIBON Belangenregistratie: IMKL-wibonbr2.0.xsd
-Subset van WIBON profiel met alleen objecttypen voor Belangenregistratie.
+WIBON profiel: IMKL-wibon2.0.xsd  
+WIBON Belangenregistratie: IMKL-wibonbr2.0.xsd. Subset van WIBON profiel met alleen objecttypen voor Belangenregistratie.
+
+Beide GML applicatieschemas zijn gepubliceerd op: https://register.geostandaarden.nl/gmlapplicatieschema/imkl/
 
 Voor de profielen voor het Risicoregister en Stedelijkwater zijn geen GML
 applicatieschema’s gemaakt.
@@ -109,8 +110,9 @@ bovenkant.
 
 **Nauwkeurigheid coördinaten**
 Nauwkeurigheid van coördinaten is 3 decimalen. Alles wat nauwkeuriger is moet
-door de bronhouder worden afgerond op deze nauwkeurigheid (3 decimalen). 0.0015
--\> 0.002; 0.0014 -\> 0.001.
+door de bronhouder worden afgerond op deze nauwkeurigheid (3 decimalen).  
+0.0015 wordt 0.002;  
+0.0014 wordt 0.001.
 
 **srsName**
 srsName invullen bij elk IMKL-object op hoogste geometrie niveau.
@@ -121,17 +123,16 @@ Bij 2D is dat epsg code 28992 en bij 2.5D en 3D epsg code 7415.
 De srsName wordt als volgt ingevuld:
 srsName="urn:ogc:def:crs:EPSG::28992"
 
-*Toelichting: srsName is de specificatie van het coördinaat referentiesysteem.
+Toelichting: srsName is de specificatie van het coördinaat referentiesysteem.
 Voor iedere geometrie moet een srsName te vinden zijn. In feite betekent dit dat
 iedere geometrie een srsName moet hebben. In geval van een multigeometrie hoeft
 de srsName alleen aan de multigeometrie te hangen en niet aan ieder los
-onderdeeltje ervan.*
+onderdeel ervan.
 
 **srsDimension**
-srsDimension wordt opgenomen.
-*Toelichting: De srsDimension geeft aan uit hoeveel elementen een coördinaat
-bestaat.*
-
-*Voor IMKL is dat standaard 2 (x,y). Dit past ook bij het GML-SF2 profiel.
+srsDimension wordt opgenomen.  
+Toelichting: De srsDimension geeft aan uit hoeveel elementen een coördinaat
+bestaat.
+Voor IMKL is dat standaard 2 (x,y). Dit past ook bij het GML-SF2 profiel.
 Optioneel kan er een extra 3D geometrie worden meegegeven. Zie het objecttype
-ExtraGeometrie.*
+[ExtraGeometrie](#afb_IMKL-Geometrie2).

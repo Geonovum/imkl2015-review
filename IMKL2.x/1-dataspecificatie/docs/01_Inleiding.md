@@ -19,7 +19,7 @@ toepassing zijn. De volgende lijst geeft alle documenten:
 
 -   Handreiking-visualisatieregels (PMKL)
 
-Dit document is gestructureerd in 8 hoofdstukken. Het hoofdstuk [Scope](#scope) beschrijft het
+Dit document omvat een aantal hoofdstukken. Het hoofdstuk [Scope](#scope) beschrijft het
 toepassingsgebied of onderwerp waar deze dataspecificatie op van toepassing is.
 Het hoofdstuk [Overzicht](#overzicht) geeft een informele beschrijving van dit toepassingsgebied en hoe
 deze dataspecificatie wordt toegepast in een informatie- en

@@ -1,7 +1,7 @@
 Overzicht
 =========
 
-**Types gedefinieerd in de objectcatalogus:**
+**Typen gedefinieerd in de objectcatalogus:**
 
 | **Type**                                     | **Package**                              | **Stereotypes** |
 |----------------------------------------------|------------------------------------------|-----------------|

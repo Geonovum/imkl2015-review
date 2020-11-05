@@ -1,14 +1,14 @@
-Bijlage 3: Toelichting op geometrie voor visualisatie.
-======================================================
+Bijlage 3 Toelichting op informatiepolygoon
+===========================================
 
 Voor het apart visualiseren van het gebied dat in de informatiepolygoon zit maar
 niet in de graafpolygoon is bij het objecttype Informatiepolygoon de
 geometrieVoorVisualisatie opgenomen.
 
 <!-- ![](docs/media/Bijlage3-1.png) -->
-<figure id="afb_Bijlage3-1.png">
-    <img src="docs/media/Bijlage3-1.png" alt="Afbeelding Bijlage3-1">
-    <figcaption></figcaption>
+<figure id="afb_Informatiepolygoon">
+    <img src="docs/media/Informatiepolygoon.png" alt="Informatiepolygoon">
+    <figcaption>Objecttype Informatiepolygoon</figcaption>
 </figure>
 
 Het gebied is een vlak of een multivlak en omvat het gebied van de

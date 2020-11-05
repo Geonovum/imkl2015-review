@@ -12,8 +12,10 @@ In de volgende paragrafen wordt de inhoud en structuur van het IMKL beschreven
 middels UML diagrammen en een bijbehorende objectcatalogus.
 
 De verschillende uitwisselprocessen WIBON, Buisleidingen voor Risicoregister en
-Stedelijk water worden in aparte paragrafen behandeld. Dit resulteert in vier
-deelmodellen respectievelijk benoemd als: IMKL – WIBON;
+Stedelijk water worden in aparte paragrafen behandeld. Dit resulteert in drie
+deelmodellen respectievelijk benoemd als:  
+
+IMKL – WIBON;
 
 IMKL – Buisleidingen Risicoregister;
 
@@ -28,7 +30,7 @@ objecten, hun attributen, datatypen, relaties tussen objecten met alle detail
 dat nodig is voor een eenduidige beschrijving. Van elk deelmodel is een compleet
 diagram opgenomen waarna in verschillende subparagrafen elke keer een deel in
 een apart diagram wordt toegelicht. Sommige onderwerpen hebben een aparte
-toelichting nodig deze worden in de titel aangeduid met ‘Extra toelichting’.
+toelichting nodig; deze worden in de titel aangeduid met ‘Extra toelichting’.
 
 Het tweede gedeelte bevat de objectcatalogus met in tabelvorm dezelfde
 informatie als de diagrammen maar nu middels taal beschreven. Alle
@@ -53,7 +55,7 @@ modelmatige extensie van de INSPIRE niet betekent dat de in IMKL geleverde data
 automatisch INSPIRE data zijn. Dit geldt zeker voor thema’s die niet
 INSPIRE-plichtig zijn.
 
-Het volgende diagram geeft de relatie tussen de verschillende modellen. IMKL is
+Het volgende diagram geeft de relatie tussen IMKL en de verschillende INSPIRE modellen. IMKL is
 een uitbreiding op het INSPIRE Utility Networks model waarin voor de netten
 elektriciteit, olie-gas-chemicalien, afvalwater, telecomunicatie, warmte en
 drinkwater aparte modellen zijn opgenomen. Deze modellen zijn toepassingen van
@@ -123,7 +125,7 @@ Kleurgebruik in diagrammen:
 -   Licht oranje en grijs: Niet-instantieerbare objecttypen, datatypen en
     waardelijsten.
 
--   In de diagrammen zijn de wijzigingen ten opzichte van de IMKL 1.2.1 versie
+-   In de diagrammen onderdelen die gewijzigd zijn ten opzichte van de IMKL 1.2.1 versie
     met rode kaders aangegeven.
 
     Voorbeeld: cardinaliteit aangepast en constraint toegevoegd:
@@ -132,7 +134,7 @@ Kleurgebruik in diagrammen:
 
 <figure id="afb_voorbeeldAangepasteklasse">
     <img src="docs/media/voorbeeldAangepasteKlasse.png" alt="Afbeelding voorbeeld aangepaste klasse">
-    <figcaption>Voorbeeld aangepaste klasse</figcaption>
+    <figcaption>Voorbeeld van een aangepast objecttype</figcaption>
 </figure>
 
 Voor WIBON geldt dat er een verschil is tussen het dataverkeer tussen de
@@ -172,7 +174,7 @@ IMKL en INSPIRE Generic Network Model. Aan de bovenzijde bevindt zich de IMKL
 toevoeging op het INSPIRE Utilities model. Aan de onderzijde het INSPIRE
 Utilities model. De koppelingslaag is via de IMKL objecttypen die zich in het
 midden bevinden: Elektriciteitskabel, Telecommunicatiekabel, Waterleiding tot en
-met Kast. Deze objecttypen zijn 1 op 1 gerelateerd aan de overeenkomstige
+met TechnischGebouw. Deze objecttypen zijn 1 op 1 gerelateerd aan de overeenkomstige
 objecttypen uit INSPIRE Utilities. IMKL:Elektricteitskabel aan
 INSPIRE:ElectricityCable, IMKL:Waterleiding aan INSPIRE:WaterPipe enz. Ze
 bevatten daarmee alle INSPIRE eigenschappen en relaties van die objecttypen. De
@@ -195,13 +197,13 @@ door alle kabel-, buis- en ducttypen.
 
 In het model zijn associaties opgenomen om de relatie tussen objecttypen te
 benoemen. In het IMKL gedeelte zijn regels opgenomen voor het bepalen van de
-richting waarin de associaties zijn bepaald.
+richting waarin de associaties zijn bepaald:
 
 -   Elke associatie wijst één kant op. Er zijn dus geen inverse associaties. Als
     er een verwijzing naar beide kanten nodig is worden er twee associaties
     opgenomen;
 
--   elk objecttype in IMKL verwijst direct naar het utiliteitsnet waar het bij
+-   Elk objecttype in IMKL verwijst direct naar het utiliteitsnet waar het bij
     hoort. Dit gebeurt in alle gevallen met een associatierol genaamd inNetwork.
     Dat geldt ook voor objecttypen als Annotatie, Maatvoering, Bijlage en
     dergelijke. Informatie technisch is het mogelijk dat sommige objecttypen bij
@@ -211,7 +213,7 @@ richting waarin de associaties zijn bepaald.
     Met een constraint (‘Max1Utiliteitsnet’) is daarom in alle gevallen het
     maximaal aantal utiliteitsnetten waarnaar verwezen kan worden beperkt tot 1.
 
--   voor netwerkelementen geldt dat associaties verwijzen naar de objecten
+-   Voor netwerkelementen geldt dat associaties verwijzen naar de objecten
     ExtraInformatie en Diepte die er bij horen en niet andersom.
 
 ### Numerieke waarden.
@@ -265,9 +267,7 @@ benoemde redenen zijn:
 waarde voor dit attribuut bij. Geldt voor alle objecten van dit objecttype.
 
 **Withheld:** Niet geautoriseerd: De zender vindt dat de ontvanger niet
-geautoriseerd is om de waarde te
-
-Kennen. Waarde is vertrouwelijk en wordt niet uitgewisseld.
+geautoriseerd is om de waarde te kennen. Waarde is vertrouwelijk en wordt niet uitgewisseld.
 
 <!-- ![](docs/media/2.IMKL-Basisinformatie.png) -->
 
@@ -390,21 +390,21 @@ De annotatietypen voor maatvoering zijn: maatvoeringshulplijn, maatvoeringslijn,
 maatvoeringspijl, maatvoeringspijlpunt of maatvoeringslabel. Een
 maatvoeringspijlpunt wordt middels een puntsymbool uitgewisseld.
 
-| **Waarde**   | **maatvoeringshulplijn**                                                                             |
+| **Waarde:**   | **maatvoeringshulplijn**                                                                             |
 |--------------|------------------------------------------------------------------------------------------------------|
-| Omschrijving | Lijn om een hulplijn in een maatvoering te visualiseren                                              |
-| **Waarde**   | **maatvoeringslijn**                                                                                 |
-| Omschrijving | Lijn om een lijn in een maatvoering te visualiseren                                                  |
-| **Waarde**   | **maatvoeringslabel**                                                                                |
-| Omschrijving | Punt en label om een label in een maatvoering te visualiseren                                        |
-| **Waarde**   | **maatvoeringspijlpunt**                                                                             |
-| Omschrijving | Punt om een pijlpunt in een maatvoering te visualiseren. Is een punt met een bijbehorend puntsymbool |
-| **Waarde**   | **maatvoeringspijl**                                                                                 |
-| Omschrijving | Lijn met aan beide kanten een pijlpunt                                                               |
+| Omschrijving: | Lijn om een hulplijn in een maatvoering te visualiseren                                              |
+| **Waarde:**   | **maatvoeringslijn**                                                                                 |
+| Omschrijving: | Lijn om een lijn in een maatvoering te visualiseren                                                  |
+| **Waarde:**   | **maatvoeringslabel**                                                                                |
+| Omschrijving: | Punt en label om een label in een maatvoering te visualiseren                                        |
+| **Waarde:**   | **maatvoeringspijlpunt**                                                                             |
+| Omschrijving: | Punt om een pijlpunt in een maatvoering te visualiseren. Is een punt met een bijbehorend puntsymbool |
+| **Waarde:**   | **maatvoeringspijl**                                                                                 |
+| Omschrijving: | Lijn met aan beide kanten een pijlpunt                                                               |
 
 Elke maatvoeringslijn wordt een apart object.
 
-Het maatvoeringslabel geeft met een label attribuut het label aan dat als
+Het maatvoeringslabel geeft met een label-attribuut het label aan dat als
 maatvoeringsgetal wordt afgebeeld. Bijvoorbeeld ‘25’. Overeenkomstig NEN 3116 is
 de eenheid meter en de gebruikelijke nauwkeurigheid is 0,1. Het decimale
 scheidingsteken is een komma. Het attribuut label wordt via het object
@@ -458,11 +458,11 @@ algemene informatie als URL beschikbaar te stellen (attribuut websiteKLIC).
 **Extra toelichting: EigenTopografie.**
 
 Indien er extra topografie nodig is om de positie van netwerkelementen nader aan
-te geven kan dit middels het object EigenTopografie. Er kan een bestaande of
-plan topografie worden meegegeven. Met het attribuut ligging wordt de geometrie
+te geven kan dit middels het object EigenTopografie. Er kan een bestaande - of
+plan-topografie worden meegegeven. Met het attribuut ligging wordt de geometrie
 van de EigenTopografie opgenomen. De eigen topografie wordt altijd
 gevectoriseerd aangeleverd. De topografische elementen worden getypeerd conform
-een typeringslijst, TopografischObjectTypeValue, gebaseerd op IMGeo. Hiermee is
+een typeringslijst TopografischObjectTypeValue, gebaseerd op IMGeo. Hiermee is
 het type topografisch object omschreven en is een koppeling met
 visualisatieregels mogelijk.
 
@@ -500,7 +500,7 @@ leidingen naar de punt toe maar niet tot aan de punt. De leidingen hebben wel
 een verwijzing naar de node (connectiviteit).
 
 Additioneel en optioneel kan een netwerkelement ook nog een vlak als geometrie
-hebben, een verwijzing naar een object ExtraGeometrie middels een attribuut
+hebben, een verwijzing naar een object ExtraGeometrie middels een relatie
 extraGeometrie. Indien het pompstation ook nog door een vlak wordt
 gerepresenteerd lopen de leidingen in de regel wel tot aan de begrenzing van het
 vlak.
@@ -518,19 +518,17 @@ In principe staat het INSPIRE model toe dat een link door meerdere
 netwerkelementen wordt gebruikt. In de IMKL uitwisseling is dat echter niet
 toegestaan. Elke link wordt maar door één netwerkelement gebruikt.
 
-Referentiestelsel.
-
-Referentiestelsel voor IMKL datalevering is Rijksdriehoekmeting (RD), zie
-[hoofdstuk 7: Referentiesystemen](#referentiesystemen).
+Het ruimtelijke referentiesysteem voor IMKL datalevering is Rijksdriehoekmeting (RD), zie
+[Referentiesystemen](#referentiesystemen).
 
 **3D geometrie.**
 
-IMKL voorziet in een verplicht gebruik van 2D geometrieën. Middels de diepte
+IMKL voorziet in een verplicht gebruik van 2D geometrieën. Middels de diepte-
 informatie kan de positie in het verticale vlak worden uitgewisseld. Om ook het
 opnemen van volledige 3D liggingsgegevens mogelijk te maken is er een optioneel
 en additioneel 3D model toegevoegd. De 3D liggingsgegevens van kabels en
 leidingen zijn bijvoorbeeld relevant bij gestuurde boringen. Bij een gestuurde
-boring is de derde dimensie (=z) nodig om de boring te sturen, om het
+boring is de derde dimensie (z-coördinaat) nodig om de boring te sturen, om het
 uittredepunt goed te benaderen en om botsingen met andere infrastructuur te
 voorkomen. Daardoor is na de boring de 3D ligging van de boring in 3D bekend.
 Ook voor andere kabels en leidingen die tegenwoordig worden aangelegd, is steeds
@@ -538,7 +536,7 @@ vaker de 3D ligging bekend. Het niet accommoderen van deze 3D informatie in IMKL
 zou in feite betekenen dat relevante informatie wordt weggegooid.
 
 Voor veel situaties is 2D data echter (nog) voldoende. Bovendien is voor veel
-kabels en leidingen de 3D (=diepte) ligging niet bekend en door “zweven” van
+kabels en leidingen de 3D (diepte) ligging niet bekend en door “zweven” van
 sommige typen kabels en leidingen is de 3D (maar ook 2D ligging) niet altijd
 absoluut. 3D geometrie kan daarbij een verkeerde indruk geven van de precisie.
 
@@ -553,7 +551,7 @@ objecten aanwezig zijn.
 <!-- Figuur 5.5: Alle netelementen kunnen naast de verplichte punten en centerlijnen
 optioneel een extra geometrie hebben van het type 2D, 2,5D of 3D. -->
 
-<figure id="afb_5.IMKL-Geometrie2.pngt">
+<figure id="afb_IMKL-Geometrie2">
     <img src="docs/media/5.IMKL-Geometrie2.png" alt="Afbeelding Geometrie 2">
     <figcaption>Alle netelementen kunnen naast de verplichte punten en centerlijnen
 optioneel een extra geometrie hebben van het type 2D, 2,5D of 3D.</figcaption>
@@ -702,7 +700,7 @@ en specifiek het object Kabelbed.
 
 De nauwkeurigheid van de liggingsgegevens in het horizontale vlak wordt
 aangegeven met een nauwkeurigheidXYvalue. Dit kan in een drietal klassen: tot 30
-cm, tot 50 cm, tot 100 cm In IMKL is de minimale nauwkeurigheid +- 1 meter.
+cm, tot 50 cm, tot 100 cm. In IMKL is de minimale nauwkeurigheid +- 1 meter.
 
 Kabel of leidingen hebben verplicht een lijngeometrie. Optioneel is er via het
 associatie-attribuut extraGeometrie een buitenbegrenzing of contour van het
@@ -763,7 +761,7 @@ vanuit het object AanduidingEisVoorzorgsmaatregel gekoppeld.
 
 De hoogte van een leidingelement is met het attribuut hoogte op te nemen. De
 hoogte betreft de lengte van het hele leidingelement in verticale richting
-ongeacht of er een deel onder of boven het maaiveld bevindt. Het datatype is
+ongeacht of er een deel zich onder of boven het maaiveld bevindt. Het datatype is
 ‘Length’ waarbij de meeteenheid apart wordt gespecificeerd. Voor WIBON wordt er
 altijd meters gebruikt met maximaal 2 decimalen. Een leidingelement kan ook
 opgenomen zijn in de grootschalige topografie. Indien dat het geval is kan het
@@ -842,7 +840,7 @@ Een duct is een object uit INSPIRE en wordt gedefinieerd als: Een behuizing die
 ertoe dient om door middel van een omhullende constructie kabels en leidingen te
 beschermen en geleiden. (Engelse def: A Duct (or Conduit, or Duct-bank, or
 Wireway) is a linear object which belongs to the structural network. It is the
-outermost casing. A Duct may contain Pipe(s), Cable(s) or other Duct(s). ) Omdat
+outermost casing. A Duct may contain Pipe(s), Cable(s) or other Duct(s).) Omdat
 de definitie van een kabelbed daar niet helemaal invalt is Kabelbed apart
 toegevoegd.
 
@@ -994,7 +992,7 @@ Van INSPIRE wordt een CableMaterialType toegevoegd en via UtilityLinkSet is de
 status, warningType en het distributietype opgenomen. Het distributietype is
 daarbij geen verplichte WIBON informatie. WarningType is een boven de kabel
 liggend waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest
-gelden de KabelEnleiding attributen.
+gelden de KabelEnleiding attributen. In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) staan de waarden voor de CableMaterialType.
 
 <!-- ![](docs/media/15.IMKL-TelecommunicationsCable.png) -->
 
@@ -1010,7 +1008,7 @@ de ene locatie naar een andere.
 
 Bron: INSPIRE
 
-Uit INSPIRE wordt oilGasChem ProductType toegevoegd en via UtilityLinkSet is de
+Uit INSPIRE wordt oilGasChemicalProductType toegevoegd en via UtilityLinkSet is de
 status, warningType en het distributietype opgenomen. Het distributietype is
 daarbij geen verplichte WIBON informatie. WarningType is een boven de kabel
 liggend waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest
@@ -1131,7 +1129,7 @@ voor type leidingelement per type kabelOfLeiding.
 
 Voor het faciliteren van de uitlevergegevens binnen de WIBON is er naast de
 specifieke utiliteitsnet informatie nog een aantal extra gegevens nodig. In
-onderstaand diagram is de relatie tussen de verschillende onderdelen
+onderstaand diagram is de relatie tussen de verschillende onderdelen van de uitleveringsgegevens
 weergegeven.
 
 <!--![](docs/media/wibonuitlevering.png)-->
@@ -1187,7 +1185,8 @@ GebiedsinformatieAanvraag die de aanvraaggegevens bevat en een graaf- en/of een
 oriëntatiepolygoon. De informatiepolygoon is de weergave door een grondroerder
 van het gebied, waarvoor gebiedsinformatie wordt aangevraagd. Bij de uitlevering
 wordt die ook meegegeven inclusief de visualisatie van het gebied tussen de
-graaf- en de informatiepolygoon. In [Bijlage 3: Toelichting op geometrie](#bijlage-3:-toelichting-op-geometriemodel) wordt dit gebied toegelicht.
+graaf- en de informatiepolygoon. In [Bijlage 3: Toelichting op informatiepolygoon](#bijlage-3-toelichting-op-informatiepolygoon) wordt dit gebied toegelicht.
+
 
 De GebiedsinformatieLevering verwijst naar een object Belanghebbende waarin de
 beheerdersinformatie is opgenomen. Bij de Gebiedsinformatielevering hoort
@@ -1239,9 +1238,9 @@ oriëntatieverzoek.</figcaption>
 
 <!--![](docs/media/identifiermanagement.png) -->
 
-<figure id="afb_identifiermanagement">
-    <img src="docs/media/identifiermanagement.png" alt="Afbeelding identifiermanagement">
-    <figcaption>Elementen van de IMKL obejct-identifier</figcaption>
+<figure id="afb_identifier">
+    <img src="docs/media/identifier.png" alt="Afbeelding identifier">
+    <figcaption>Elementen van de IMKL object-identifier</figcaption>
 </figure>
 
 Identifiers van objecten worden in IMKL toegekend via het attribuut inspireId en

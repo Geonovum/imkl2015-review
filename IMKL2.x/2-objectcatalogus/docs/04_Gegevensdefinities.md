@@ -1,7 +1,7 @@
 Gegevensdefinities
 ==================
 
-Geo object types
+Geo object typen
 ----------------
 
 ### AanduidingEisVoorzorgsmaatregel
@@ -1643,7 +1643,7 @@ Geo object types
 |                                                    | Natuurlijke taal: | hoort bij maximaal 1 utiliteitsnet                                                                                                                                                                                        |   |   |   |   |   |   |   |   |   |   |   |   |
 |                                                    | OCL:              | inv: self.inNetwork -\>size() = 1                                                                                                                                                                                         |   |   |   |   |   |   |   |   |   |   |   |   |
 
-**Data types**
+**Data typen**
 
 *AanvraagSoortContact*
 
@@ -2277,7 +2277,7 @@ Geo object types
 |                        | Stereotypes:  | «codeList»                                                            |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 |                        | Governance:   | Uitbreidbaar                                                          |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 
-**Kandidaat types en placeholders**
+**Kandidaat typen en placeholders**
 
 *PipeMaterialTypeValue*
 
@@ -2811,7 +2811,7 @@ Geo object types
 |                     | Definitie:    | Treated water.                                                                                                                                                                                                                              |   |   |   |   |   |   |   |   |   |   |   |   |
 |                     | Omschrijving: | *Treated water* is the water that went throgh treatment proces.Treatment processes are the ones commonly used in water purification plants.                                                                                                 |   |   |   |   |   |   |   |   |   |   |   |   |
 
-**Geïmporteerde types (informatief)**
+**Geïmporteerde typen (informatief)**
 
 1.  Deze paragraaf beschrijft de definities voor feature types, enumeraties en
     codelijsten die in andere applicatieschemas worde gedefinieerd. Deze

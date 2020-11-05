@@ -1,4 +1,4 @@
-Bijlage 2: Toelichting op geometriemodel.
+Bijlage 2 Toelichting op geometriemodel.
 =========================================
 
 Het geometriemodel van IMKL is gebaseerd op het netwerk model van INSPIRE. De

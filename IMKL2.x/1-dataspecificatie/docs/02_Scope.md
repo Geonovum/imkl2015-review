@@ -2,7 +2,7 @@ Scope
 =====
 
 
-Dit document beschrijft de dataspecificatie, IMKL, van het door KLIC ontsloten
+Dit document beschrijft de dataspecificatie IMKL, van het door KLIC ontsloten
 dataproduct Utiliteitsnetten.
 
 IMKL geeft de gedetailleerde beschrijving van structuur, inhoud en datakwaliteit
