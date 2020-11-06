@@ -1,5 +1,5 @@
-Inleiding en leeswijzer.
-========================
+Inleiding en leeswijzer
+=======================
 
 De dataspecificatie omvat een vijftal documenten waarvan dit het hoofddocument
 is. Hiernaast is er een document waarin de objectcatalogus is opgenomen: IMKL –

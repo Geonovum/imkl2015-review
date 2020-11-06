@@ -71,15 +71,19 @@ tbody
   background-color: lightgrey
 }
 
+
 /*-- Definite van de tabel-rij (deze zorgt voor 2 kleuren in de rijen) -------------*/
-//tr:nth-child(even)  
-//{
-// background-color:  darkgrey;
-//}
+
+/*tr:nth-child(even)  
+{
+  background-color:  darkgrey;
+}
+*/
 
 /*-- Definite van de tabel-cel (data) ----------------------------------------------*/
 td
 {
+  vertical-align: text-top;
   min-width: 100px;     /* lege kolommen hebben deze minimale breedte */
 }
 
@@ -204,3 +208,28 @@ todo
   background-color:  yellow;
   color: purple;
 }
+
+
+/* vanaf hier experimenteel */
+/*
+.img-zoom-container 
+{
+  position: relative;
+}
+
+.img-zoom-lens 
+{
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  width: 20px;
+  height: 20px;
+}
+
+.img-zoom-result 
+{
+  border: 1px solid #d4d4d4;
+  width: 300px;
+  height: 300px;
+}
+
+*/
