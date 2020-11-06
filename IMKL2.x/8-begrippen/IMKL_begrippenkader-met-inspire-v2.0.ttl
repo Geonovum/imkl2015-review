@@ -1,0 +1,1235 @@
+@prefix n11: <http://definities.geostandaarden.nl/imkl/id/begrip/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+n11:AanduidingEisVoorzorgsmaatregel a skos:Concept;
+    rdfs:label "aanduiding eis voorzorgsmaatregel"^^xsd:string;
+    skos:definition "Aanduiding van een netelement waarop een eis voorzorgsmaatregel van toepassing is. Dit is een wettelijke eis."^^xsd:string;
+    skos:prefLabel "aanduiding eis voorzorgsmaatregel"@nl
+.
+n11:AangrijpingHorizontaal a skos:Concept;
+    rdfs:label "aangrijpingspunt horizontaal"^^xsd:string;
+    skos:definition "Punt op de horiziontale as in labeltekst dat geldt als referentie voor plaatsingspunt."^^xsd:string;
+    skos:prefLabel "aangrijpingspunt horizontaal"@nl
+.
+n11:AangrijpingVerticaal a skos:Concept;
+    rdfs:label "aangrijpingspunt verticaal"^^xsd:string;
+    skos:definition "Punt op de verticale as in labeltekst dat geldt als referentie voor plaatsingspunt."^^xsd:string;
+    skos:prefLabel "aangrijpingspunt verticaal"@nl
+.
+n11:AantalKabelsLeidingen a skos:Concept;
+    rdfs:label "aantal kabels en leidingen"^^xsd:string;
+    skos:definition "Aantal kabels leidingen of buizen dat zich in het containerelement bevindt. "^^xsd:string;
+    skos:prefLabel "aantal kabels en leidingen"@nl
+.
+n11:Aanvraag a skos:Concept;
+    rdfs:label "aanvraag"^^xsd:string;
+    skos:definition "De gegevens van de gebiedsinformatie-aanvraag."^^xsd:string;
+    skos:prefLabel "aanvraag"@nl
+.
+n11:AanvraagDatum a skos:Concept;
+    rdfs:label "aanvraagdatum"^^xsd:string;
+    skos:definition "De datumtijd waarop de gebiedsinformatie-aanvraag is aangevraagd.-"^^xsd:string;
+    skos:prefLabel "aanvraagdatum"@nl
+.
+n11:AanvraagSoortContact a skos:Concept;
+    rdfs:label "contact per type soort aanvraag"^^xsd:string;
+    skos:definition "Het contactadres (meldadres) bij de netbeheerder waar de grondroerder contact mee kan opnemen voor informatie over (het) geraakte belang(en)."^^xsd:string;
+    skos:prefLabel "contact per type soort aanvraag"@nl
+.
+n11:AanvraagSoort_AanvraagSoortContact a skos:Concept;
+    rdfs:label "soort aanvraag (AanvraagSoortContact)"^^xsd:string;
+    skos:definition "Typering van contact in relatie tot het type melding of verzoek."^^xsd:string;
+    skos:prefLabel "soort aanvraag"@nl
+.
+n11:AanvraagSoort_GebiedsinformatieAanvraag a skos:Concept;
+    rdfs:label "soort aanvraag (GebiedsinformatieAanvraag)"^^xsd:string;
+    skos:definition "Soort gebiedsinformatie-aanvraag."^^xsd:string;
+    skos:prefLabel "soort aanvraag"@nl
+.
+n11:Aanvrager_GebiedsinformatieAanvraag a skos:Concept;
+    rdfs:label "aanvrager (GebiedsinformatieAanvraag)"^^xsd:string;
+    skos:definition "De gegevens van de aanvrager van gebiedsinformatie."^^xsd:string;
+    skos:prefLabel "aanvrager"@nl
+.
+n11:Aanvrager_IMKL a skos:Concept;
+    rdfs:label "aanvrager (IMKL)"^^xsd:string;
+    skos:definition "Een aanvrager van gebiedsinformatie is een persoon die of bedrijf dat wil weten welke kabels en leidingen er in een bepaald gebied onder de grond liggen."^^xsd:string;
+    skos:prefLabel "aanvrager"@nl
+.
+n11:AchtergrondkaartSoort a skos:Concept;
+    rdfs:label "soort achtergrondkaart"^^xsd:string;
+    skos:definition "Soort achtergrondkaart (Kadaster: bgtBestaand/bgtPlan; netbeheerder: eigenTopoBestaand/eigenTopoPlan)."^^xsd:string;
+    skos:prefLabel "soort achtergrondkaart"@nl
+.
+n11:Achtergrondkaart_GebiedsinformatieLevering a skos:Concept;
+    rdfs:label "achtergrondkaart (GebiedsinformatieLevering)"^^xsd:string;
+    skos:definition "Kaart ter oriëntering met behulp van topografie."^^xsd:string;
+    skos:prefLabel "achtergrondkaart"@nl
+.
+n11:Achtergrondkaart_IMKL a skos:Concept;
+    rdfs:label "achtergrondkaart (IMKL)"^^xsd:string;
+    skos:definition "Referentie naar achtergrondkaart met grootschalige topografie (bestaand of gepland) behorend bij het aangevraagde gebied."^^xsd:string;
+    skos:prefLabel "achtergrondkaart"@nl
+.
+n11:Address a skos:Concept;
+    rdfs:label "adres"^^xsd:string;
+    skos:definition '''An address provided as free text.
+'''^^xsd:string;
+    skos:prefLabel "adres"@nl
+.
+n11:Adres_ExtraDetailinfo a skos:Concept;
+    rdfs:label "adres (ExtraDetailinfo)"^^xsd:string;
+    skos:definition "Adresaanduiding conform BAG"^^xsd:string;
+    skos:prefLabel "adres"@nl
+.
+n11:Adres_IMKL a skos:Concept;
+    rdfs:label "adres (IMKL)"^^xsd:string;
+    skos:definition "Beschrijving van een locatie van door middel van een adres."^^xsd:string;
+    skos:prefLabel "adres"@nl
+.
+n11:Annotatie a skos:Concept;
+    rdfs:label "annotatie"^^xsd:string;
+    skos:definition '''<font color="#1d1819">Teksten en symbolen weergegeven in het kaartbeeld.</font>'''^^xsd:string;
+    skos:prefLabel "annotatie"@nl
+.
+n11:AnnotatieType a skos:Concept;
+    rdfs:label "type annotatie"^^xsd:string;
+    skos:definition "Aard van de opgenomen annotatie"^^xsd:string;
+    skos:prefLabel "type annotatie"@nl
+.
+n11:Appurtenance a skos:Concept;
+    rdfs:label "leidingelement"^^xsd:string;
+    skos:definition "Een leidingelement dat door zijn type wordt beschreven (via het attribuut appurtenanceType)."^^xsd:string;
+    skos:prefLabel "leidingelement"@nl
+.
+n11:BAGid a skos:Concept;
+    rdfs:label "BAG-identificatie"^^xsd:string;
+    skos:definition "BAG identifier van een AdreseerbaarObject of een Nummeraanduiding zoals geregistreerd bij de BAG."^^xsd:string;
+    skos:prefLabel "BAG-identificatie"@nl
+.
+n11:BGT_ID a skos:Concept;
+    rdfs:label "BGT-identificatie"^^xsd:string;
+    skos:definition "Verwijzing naar het ID van het overeenkomstige object uit de Basisregistratie Grootschalige Topografie of pluslaag."^^xsd:string;
+    skos:prefLabel "BGT-identificatie"@nl
+.
+n11:BeginLifespanVersion_IMKLBasis a skos:Concept;
+    rdfs:label "begin levesduur versie (IMKLBasis)"^^xsd:string;
+    skos:definition "De begindatum waarop een data object in de registratie werd aangemaakt, het begin van de levenscyclus van een data object."^^xsd:string;
+    skos:prefLabel "begin levesduur versie"@nl
+.
+n11:BeginLifespanVersion_NetworkElement a skos:Concept;
+    rdfs:label "begin levensduur versie (NetworkElement)"^^xsd:string;
+    skos:definition '''Date and time at which this version of the spatial object was inserted or changed in the spatial data set.
+'''^^xsd:string;
+    skos:prefLabel "begin levensduur versie"@nl
+.
+n11:Beheerder a skos:Concept;
+    rdfs:label "beheerder"^^xsd:string;
+    skos:definition "Een persoon of een organisatie die een net of een veiligheidsgebied beheert."^^xsd:string;
+    skos:prefLabel "beheerder"@nl
+.
+n11:BeheerderVeiligheidsgebied a skos:Concept;
+    rdfs:label "beheerder veiligheidsgebied"^^xsd:string;
+    skos:definition "Gegevens van de  beheerder van het veiligheidsgebied."^^xsd:string;
+    skos:prefLabel "beheerder veiligheidsgebied"@nl
+.
+n11:BeheerdersinformatieGeleverd a skos:Concept;
+    rdfs:label "beheerdersinformatie geleverd"^^xsd:string;
+    skos:definition "Indicator die aangeeft of de belanghebbende al (correcte) beheerdersinformatie heeft aangeleverd voor de betreffende aanvraag."^^xsd:string;
+    skos:prefLabel "beheerdersinformatie geleverd"@nl
+.
+n11:Beheerpolygoon a skos:Concept;
+    rdfs:label "beheerpolygoon"^^xsd:string;
+    skos:definition "Locatie waar een netbeheerder een belang heeft gerelateerd aan de uitvoering van de wet WION."^^xsd:string;
+    skos:prefLabel "beheerpolygoon"@nl
+.
+n11:Belang a skos:Concept;
+    rdfs:label "belang"^^xsd:string;
+    skos:definition "Een gebied waarin een netbeheerder een of meerdere netten heeft."^^xsd:string;
+    skos:prefLabel "belang"@nl
+.
+n11:BelangGeneriek a skos:Concept;
+    rdfs:label "belang generiek"^^xsd:string;
+    skos:definition "Een gebied waarin een netbeheerder een of meerdere netten heeft. Of het is een veiligheidsgebied."^^xsd:string;
+    skos:prefLabel "belang generiek"@nl
+.
+n11:Belanghebbende_GebiedsinformatieLevering a skos:Concept;
+    rdfs:label "belanghebbende (GebiedsinformatieLevering)"^^xsd:string;
+    skos:definition "Verwijzing naar belanghebbende beheerder(s)."^^xsd:string;
+    skos:prefLabel "belanghebbende"@nl
+.
+n11:Belanghebbende_IMKL a skos:Concept;
+    rdfs:label "belanghebbende (IMKL)"^^xsd:string;
+    skos:definition "Een belanghebbende beheerder is een beheerder met een beheerpolygoon dat geheel of gedeeltelijk ligt in de aangevraagde polygoon."^^xsd:string;
+    skos:prefLabel "belanghebbende"@nl
+.
+n11:BestandIdentificator a skos:Concept;
+    rdfs:label "bestandidentificatie"^^xsd:string;
+    skos:definition "Unieke identificator van een bestand."^^xsd:string;
+    skos:prefLabel "bestandidentificatie"@nl
+.
+n11:BestandLocatie a skos:Concept;
+    rdfs:label "bestandlocatie"^^xsd:string;
+    skos:definition "Bestandsnaam van het bestand dat meegegeven wordt."^^xsd:string;
+    skos:prefLabel "bestandlocatie"@nl
+.
+n11:BestandMediaType a skos:Concept;
+    rdfs:label "type bestandmedia"^^xsd:string;
+    skos:definition "Media type van een bestand."^^xsd:string;
+    skos:prefLabel "type bestandmedia"@nl
+.
+n11:BetrokkenBijAanvraag a skos:Concept;
+    rdfs:label "betrokken bij aanvraag"^^xsd:string;
+    skos:definition "Indien binnen de gevraagde polygoon géén kabels/leidingen liggen, en er daarom geen netinformatie geleverd kan worden, wordt deze indicator op “Nee” gezet, in alle andere gevallen is deze “Ja”."^^xsd:string;
+    skos:prefLabel "betrokken bij aanvraag"@nl
+.
+n11:BezoekAdres a skos:Concept;
+    rdfs:label "bezoekadres"^^xsd:string;
+    skos:definition "Het bezoekadres van de organisatie."^^xsd:string;
+    skos:prefLabel "bezoekadres"@nl
+.
+n11:BijlageType a skos:Concept;
+    rdfs:label "type bijlage"^^xsd:string;
+    skos:definition "Beschrijft het type bijlage."^^xsd:string;
+    skos:prefLabel "type bijlage"@nl
+.
+n11:Bijlage_Belanghebbende a skos:Concept;
+    rdfs:label "bijlage (Belanghebbende)"^^xsd:string;
+    skos:definition "Documentbijlage bij gebiedsinformatie."^^xsd:string;
+    skos:prefLabel "bijlage"@nl
+.
+n11:Bijlage_IMKL a skos:Concept;
+    rdfs:label "bijlage (IMKL)"^^xsd:string;
+    skos:definition "Documentbijlage."^^xsd:string;
+    skos:prefLabel "bijlage"@nl
+.
+n11:BovengrondsZichtbaar_ContainerLeidingelement a skos:Concept;
+    rdfs:label "bovengronds zichtbaar (ContainerLeidingelement)"^^xsd:string;
+    skos:definition "Aangegeven wordt of het containerleidingelement bovengronds vanaf het maaiveld zichtbaar is."^^xsd:string;
+    skos:prefLabel "bovengronds zichtbaar"@nl
+.
+<http://definities.geostandaarden.nl/imkl/id/begrip/BovengrondsZichtbaar_KabelEnLeidingContainer,Leidingelement> a skos:Concept;
+    rdfs:label "bovengronds zichtbaar (KabelEnLeidingContainer, Leidingelement)"^^xsd:string;
+    skos:definition "Aangegeven wordt of het leidingelement bovengronds vanaf het maaiveld zichtbaar is."^^xsd:string;
+    skos:prefLabel "bovengronds zichtbaar"@nl
+.
+n11:Bronhoudercode a skos:Concept;
+    rdfs:label "bronhoudercode"^^xsd:string;
+    skos:definition "Code van de beheerder."^^xsd:string;
+    skos:prefLabel "bronhoudercode"@nl
+.
+n11:BuisSpecifiek a skos:Concept;
+    rdfs:label "buis specifiek"^^xsd:string;
+    skos:definition "Abstract data object dat de buis-specifieke attributen bevat van de IMKL extensie."^^xsd:string;
+    skos:prefLabel "buis specifiek"@nl
+.
+n11:BuismateriaalType a skos:Concept;
+    rdfs:label "type buismateriaal"^^xsd:string;
+    skos:definition "Materiaal waaruit de buis bestaat."^^xsd:string;
+    skos:prefLabel "type buismateriaal"@nl
+.
+n11:CentrelineGeometry a skos:Concept;
+    rdfs:label "geometrie hartlijn"^^xsd:string;
+    skos:definition '''The geometry that represents the centreline of the link.
+'''^^xsd:string;
+    skos:prefLabel "geometrie hartlijn"@nl
+.
+n11:ContactAanvraag a skos:Concept;
+    rdfs:label "contact aanvraag"^^xsd:string;
+    skos:definition "Het contactadres bij de netbeheerder waar de grondroerder contact mee kan opnemen voor informatie over (het) geraakte belang(en) bij een aangegeven aanvraagsoort."^^xsd:string;
+    skos:prefLabel "contact aanvraag"@nl
+.
+n11:ContactBeschadiging a skos:Concept;
+    rdfs:label "contact beschadiging"^^xsd:string;
+    skos:definition "Contactinformatie bij opgetreden beschadiging."^^xsd:string;
+    skos:prefLabel "contact beschadiging"@nl
+.
+n11:ContactInstructions a skos:Concept;
+    rdfs:label "contactinstructies"^^xsd:string;
+    skos:definition '''Supplementary instructions on how or when to contact an individual or organisation.
+
+'''^^xsd:string;
+    skos:prefLabel "contactinstructies"@nl
+.
+n11:ContactNetinformatie a skos:Concept;
+    rdfs:label "contact netinformatie"^^xsd:string;
+    skos:definition "Contactgegevens voor netinformatie."^^xsd:string;
+    skos:prefLabel "contact netinformatie"@nl
+.
+n11:ContactVoorzorgsmaatregel a skos:Concept;
+    rdfs:label "contact"^^xsd:string;
+    skos:definition "Contactgegevens behorende bij EV."^^xsd:string;
+    skos:prefLabel "contact"@nl
+.
+n11:Contact_BaseTypes2 a skos:Concept;
+    rdfs:label "contact (Base Types 2)"^^xsd:string;
+    skos:definition '''Communication channels by which it is possible to gain access to someone or something.
+'''^^xsd:string;
+    skos:prefLabel "contact"@nl
+.
+n11:Contact_IMKL a skos:Concept;
+    rdfs:label "contact (IMKL)"^^xsd:string;
+    skos:definition "Contactgegevens."^^xsd:string;
+    skos:prefLabel "contact"@nl
+.
+n11:Contactpersoon_Aanvrager a skos:Concept;
+    rdfs:label "contactpersoon (Aanvrager)"^^xsd:string;
+    skos:definition "Persoon als aanspreekpunt namens aanvrager."^^xsd:string;
+    skos:prefLabel "contactpersoon"@nl
+.
+n11:Contactpersoon_Opdrachtgever a skos:Concept;
+    rdfs:label "contactpersoon (Opdrachtgever)"^^xsd:string;
+    skos:definition "Persoon als aanspreekpunt namens opdrachtgever."^^xsd:string;
+    skos:prefLabel "contactpersoon"@nl
+.
+n11:ContainerLeidingelement a skos:Concept;
+    rdfs:label "container van leidingelementen"^^xsd:string;
+    skos:definition "Abstract data object dat de gemeenschappelijke attributen en associaties bevat voor alle containerleidingelement objecten."^^xsd:string;
+    skos:prefLabel "container van leidingelementen"@nl
+.
+n11:DatumLeveringSamengesteld a skos:Concept;
+    rdfs:label "datum levering samengesteld"^^xsd:string;
+    skos:definition "Het moment waarop de betreffende levering met gebiedsinformatie is samengesteld."^^xsd:string;
+    skos:prefLabel "datum levering samengesteld"@nl
+.
+n11:DatumOpmetingDieptePeil a skos:Concept;
+    rdfs:label "datum opmeting dieptepeil"^^xsd:string;
+    skos:definition "De datum waarop het dieptepeil werd opgemeten."^^xsd:string;
+    skos:prefLabel "datum opmeting dieptepeil"@nl
+.
+n11:DatumOpmetingMaaiveldPeil a skos:Concept;
+    rdfs:label "datum opmeting maaiveldpeil"^^xsd:string;
+    skos:definition "De datum waarop het maaiveldpeil werd opgemeten."^^xsd:string;
+    skos:prefLabel "datum opmeting maaiveldpeil"@nl
+.
+n11:Diepte a skos:Concept;
+    rdfs:label "diepte"^^xsd:string;
+    skos:definition "Abstract data object dat de gemeenschappelijke attributen en associaties bevat voor de diepte objecten."^^xsd:string;
+    skos:prefLabel "diepte"@nl
+.
+n11:DiepteAangrijpingspunt a skos:Concept;
+    rdfs:label "diepte aangrijpingspunt"^^xsd:string;
+    skos:definition "Benoeming van welk aangrijpingspunt van het object de diepte is bepaald."^^xsd:string;
+    skos:prefLabel "diepte aangrijpingspunt"@nl
+.
+n11:DiepteNAP a skos:Concept;
+    rdfs:label "diepte NAP"^^xsd:string;
+    skos:definition "Object dat dient om de afstand weer te geven van het NAP-nulpunt tot de bovenkant van kabel of leiding, leidingcontainer, leidingelement of containerleidingelement."^^xsd:string;
+    skos:prefLabel "diepte NAP"@nl
+.
+n11:DiepteNauwkeurigheid a skos:Concept;
+    rdfs:label "dieptenauwkeurigheid"^^xsd:string;
+    skos:definition "De nauwkeurigheid van de dekking van een KabelOfLeiding of KabelEnLeidingContainer object of diepte van een Leidingelement of ContainerLeidingelement object."^^xsd:string;
+    skos:prefLabel "dieptenauwkeurigheid"@nl
+.
+n11:DieptePeil a skos:Concept;
+    rdfs:label "dieptepeil"^^xsd:string;
+    skos:definition '''Geeft de afstand weer vanaf de referentie – NAP of maaiveld – tot bovenkant van een KabelOfLeiding, KabelEnLeidingcontainer, Leidingelement of ContainerLeidingelement. Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via 1 van de volgende OGC URN codes: • urn:ogc:def:uom:OGC::m • urn:ogc:def:uom:OGC::cm • urn:ogc:def:uom:OGC::mm.
+Voor WIBON is de eenheid altijd meter en een getal met ten hoogste 2 decimalen.'''^^xsd:string;
+    skos:prefLabel "dieptepeil"@nl
+.
+n11:DiepteTovMaaiveld a skos:Concept;
+    rdfs:label "diepte tov maaiveld"^^xsd:string;
+    skos:definition "Object dat dient om de afstand weer te geven vanaf het maaiveld tot de bovenkant van kabel of leiding, leidingcontainer, leidingelement of containerleidingelement."^^xsd:string;
+    skos:prefLabel "diepte tov maaiveld"@nl
+.
+n11:Dieptelegging a skos:Concept;
+    rdfs:label "dieptelegging"^^xsd:string;
+    skos:definition "Diepte waarop het object is gelegd."^^xsd:string;
+    skos:prefLabel "dieptelegging"@nl
+.
+n11:DirectedLink a skos:Concept;
+    rdfs:label "gerichte link"^^xsd:string;
+    skos:definition '''A link either in its positive or negative direction.
+'''^^xsd:string;
+    skos:prefLabel "gerichte link"@nl
+.
+n11:Duct a skos:Concept;
+    rdfs:label "behuizing"^^xsd:string;
+    skos:definition "Een behuizing die ertoe dient om door middel van een omhullende constructie kabels en leidingen te beschermen en geleiden. "^^xsd:string;
+    skos:prefLabel "behuizing"@nl
+.
+n11:EanCode a skos:Concept;
+    rdfs:label "EAN-code"^^xsd:string;
+    skos:definition "Aansluiting identificatie code voor aansluiting op het elektriciteitsnet en gasnet van Nederland."^^xsd:string;
+    skos:prefLabel "EAN-code"@nl
+.
+n11:EigenTopografie_Belanghebbende a skos:Concept;
+    rdfs:label "eigen topografie (Belanghebbende)"^^xsd:string;
+    skos:definition "Topografie die door netbeheerder wordt toegevoegd voor relatieve plaatsbepaling van objecten."^^xsd:string;
+    skos:prefLabel "eigen topografie"@nl
+.
+n11:EigenTopografie_IMKL a skos:Concept;
+    rdfs:label "eigen topografie (IMKL)"^^xsd:string;
+    skos:definition "Topografie die extra wordt toegevoegd voor relatieve plaatsbepaling van objecten."^^xsd:string;
+    skos:prefLabel "eigen topografie"@nl
+.
+n11:EindDatum_GebiedsinformatieAanvraag a skos:Concept;
+    rdfs:label "einddatum (GebiedsinformatieAanvraag)"^^xsd:string;
+    skos:definition "De geplande einddatum van de werkzaamheden waarvoor de gebiedsinformatie-aanvraag is ingediend."^^xsd:string;
+    skos:prefLabel "einddatum"@nl
+.
+n11:Einddatum_BelangGeneriek a skos:Concept;
+    rdfs:label "einddatum (BelangGeneriek)"^^xsd:string;
+    skos:definition "Datum tot wanneer het belang van toepassing is."^^xsd:string;
+    skos:prefLabel "einddatum"@nl
+.
+n11:EisVoorzorgsmaatregel a skos:Concept;
+    rdfs:label "eis voorzorgsmaatregel"^^xsd:string;
+    skos:definition "Vermelding of er voorzorgsmaatregelen getroffen dienen te worden. Aangegeven wordt wat de voorzorgsmaatregel is. "^^xsd:string;
+    skos:prefLabel "eis voorzorgsmaatregel"@nl
+.
+n11:EisVoorzorgsmaatregelBijlage a skos:Concept;
+    rdfs:label "eis voorzorgsmaatregel bijlage"^^xsd:string;
+    skos:definition "Bijlage met de vermelding welke voorzorgsmaatregelen getroffen dienen te worden. Aangegeven wordt wat de voorzorgsmaatregel is met de hoogste prioriteit."^^xsd:string;
+    skos:prefLabel "eis voorzorgsmaatregel bijlage"@nl
+.
+n11:ElectronicMailAddress a skos:Concept;
+    rdfs:label "mailadres"^^xsd:string;
+    skos:definition '''An address of the organisation's or individual's electronic mailbox.
+'''^^xsd:string;
+    skos:prefLabel "mailadres"@nl
+.
+n11:Elektriciteitskabel a skos:Concept;
+    rdfs:label "elektriciteitskabel"^^xsd:string;
+    skos:definition "Een aansluiting of reeks aansluitingen van een nutsvoorzieningennet voor het overbrengen van elektriciteit van de ene locatie naar een andere."^^xsd:string;
+    skos:prefLabel "elektriciteitskabel"@nl
+.
+n11:Elements a skos:Concept;
+    rdfs:label "elementen"^^xsd:string;
+    skos:definition '''The collection of elements that constitutes the network.
+'''^^xsd:string;
+    skos:prefLabel "elementen"@nl
+.
+<http://definities.geostandaarden.nl/imkl/id/begrip/Email_AanvraagSoortContact,Contact> a skos:Concept;
+    rdfs:label "email (AanvraagSoortContact, Contact)"^^xsd:string;
+    skos:definition "E-mail adres van het contact."^^xsd:string;
+    skos:prefLabel "email"@nl
+.
+n11:Email_Organisatie a skos:Concept;
+    rdfs:label "email (Organisatie)"^^xsd:string;
+    skos:definition "Het e-mail adres van de organisatie."^^xsd:string;
+    skos:prefLabel "email"@nl
+.
+n11:EndLifespanVersion_IMKLBasis a skos:Concept;
+    rdfs:label "einde levensduur versie (IMKLBasis)"^^xsd:string;
+    skos:definition "De datum die het einde van een levenscyclus van een data object aangeeft. "^^xsd:string;
+    skos:prefLabel "einde levensduur versie"@nl
+.
+n11:EndLifespanVersion_NetworkElement a skos:Concept;
+    rdfs:label "einde levensduur versie (NetworkElement)"^^xsd:string;
+    skos:definition '''Date and time at which this version of the spatial object was superseded or retired in the spatial data set.
+'''^^xsd:string;
+    skos:prefLabel "einde levensduur versie"@nl
+.
+n11:EndNode a skos:Concept;
+    rdfs:label "eindnode"^^xsd:string;
+    skos:definition "The optional end node for this link. The end node may be the same instance as the start node. "^^xsd:string;
+    skos:prefLabel "eindnode"@nl
+.
+n11:ExtraContact a skos:Concept;
+    rdfs:label "extra contact"^^xsd:string;
+    skos:definition "Extra contact naast dat van de contactpersoon."^^xsd:string;
+    skos:prefLabel "extra contact"@nl
+.
+n11:ExtraDetailinfo a skos:Concept;
+    rdfs:label "extra detailinformatie"^^xsd:string;
+    skos:definition "Object dat extra informatie over één of meerdere utility network elementen weergeeft via bijkomende bestanden."^^xsd:string;
+    skos:prefLabel "extra detailinformatie"@nl
+.
+<http://definities.geostandaarden.nl/imkl/id/begrip/ExtraGeometrie_ContainerLeidingelement,KabelEnLeidingContainer,KabelOfLeiding,Leidingelement> a skos:Concept;
+    rdfs:label "extra geometrie (ContainerLeidingelement, KabelEnLeidingContainer, KabelOfLeiding, Leidingelement)"^^xsd:string;
+    skos:definition "Extra geometrie naast de verplichte arc/node."^^xsd:string;
+    skos:prefLabel "extra geometrie"@nl
+.
+n11:ExtraGeometrie_IMKL a skos:Concept;
+    rdfs:label "extra geometrie (IMKL)"^^xsd:string;
+    skos:definition "Verzamelobject voor extra geometrie van netwerkelementen. "^^xsd:string;
+    skos:prefLabel "extra geometrie"@nl
+.
+n11:ExtraInfoType a skos:Concept;
+    rdfs:label "type extra informatie"^^xsd:string;
+    skos:definition "Beschrijft het type detailinformatie."^^xsd:string;
+    skos:prefLabel "type extra informatie"@nl
+.
+n11:ExtraInformatie a skos:Concept;
+    rdfs:label "extra informatie"^^xsd:string;
+    skos:definition "Informatie toegevoegd aan objecten."^^xsd:string;
+    skos:prefLabel "extra informatie"@nl
+.
+n11:Fax a skos:Concept;
+    rdfs:label "fax"^^xsd:string;
+    skos:definition "Het faxnummer van de organisatie."^^xsd:string;
+    skos:prefLabel "fax"@nl
+.
+n11:Fictitious a skos:Concept;
+    rdfs:label "schematisch"^^xsd:string;
+    skos:definition '''Indicator that the centreline geometry of the link is a straight line with no intermediate control points &ndash; unless the straight line represents the geography in the resolution of the data set appropriately.
+'''^^xsd:string;
+    skos:prefLabel "schematisch"@nl
+.
+n11:GebiedsinformatieAanvraag a skos:Concept;
+    rdfs:label "gebiedsinformatie-aanvraag"^^xsd:string;
+    skos:definition "Aanvraag van gebiedsinformatie."^^xsd:string;
+    skos:prefLabel "gebiedsinformatie-aanvraag"@nl
+.
+n11:GebiedsinformatieLevering a skos:Concept;
+    rdfs:label "gebiedsinformatielevering"^^xsd:string;
+    skos:definition "Gebiedsinformatie is het geheel van informatie dat door beheerders, via de Dienst wordt verstrekt over de betrokken orientatiepolygoon dan wel graafpolygoon."^^xsd:string;
+    skos:prefLabel "gebiedsinformatielevering"@nl
+.
+n11:GeneralisedLink a skos:Concept;
+    rdfs:label "link algemeen"^^xsd:string;
+    skos:definition '''Abstract base type representing a linear network element that may be used as a target in linear referencing.
+'''^^xsd:string;
+    skos:prefLabel "link algemeen"@nl
+.
+n11:GeoNauwkeurigheidXY a skos:Concept;
+    rdfs:label "geometrische nauwkeurigheid van XY"^^xsd:string;
+    skos:definition "Indicatie van de nauwkeurigheid in horizontaal vlak (x,y) waarmee de geometrie van de ligging van de leiding is aangegeven."^^xsd:string;
+    skos:prefLabel "geometrische nauwkeurigheid van XY"@nl
+.
+n11:GeographicalName a skos:Concept;
+    rdfs:label "geografische naam"^^xsd:string;
+    skos:definition '''Geographical name for this network.
+'''^^xsd:string;
+    skos:prefLabel "geografische naam"@nl
+.
+n11:Geometrie3D a skos:Concept;
+    rdfs:label "geometrie (3D)"^^xsd:string;
+    skos:definition "Representatie van het netwerkelement als 3D volume."^^xsd:string;
+    skos:prefLabel "geometrie (3D)"@nl
+.
+n11:GeometrieVoorVisualisatie a skos:Concept;
+    rdfs:label "geometrie voor visualisatie"^^xsd:string;
+    skos:definition "Geometrie die specifiek is gecreëerd voor de visualisatie van het gebied tussen de graafpolygoon en de buitenring van de informatiepolygoon."^^xsd:string;
+    skos:prefLabel "geometrie voor visualisatie"@nl
+.
+n11:Geometrie_AanduidingEisVoorzorgsmaatregel a skos:Concept;
+    rdfs:label "geometrie (AanduidingEisVoorzorgsmaatregel)"^^xsd:string;
+    skos:definition "Geometrie die aangeeft op welk element een eis voorzorgsmaatregel van toepassing is."^^xsd:string;
+    skos:prefLabel "geometrie"@nl
+.
+n11:Geometrie_Graafpolygoon a skos:Concept;
+    rdfs:label "geometrie (Graafpolygoon)"^^xsd:string;
+    skos:definition "De geometrie van het gebied (een polygoon) waarbinnen gegraven gaat worden."^^xsd:string;
+    skos:prefLabel "geometrie"@nl
+.
+n11:Geometrie_Informatiepolygoon a skos:Concept;
+    rdfs:label "geometrie (Informatiepolygoon)"^^xsd:string;
+    skos:definition '''De geometrie van het gebied (een polygoon) waarover informatie gevraagd wordt, niet zijnde het graafgebied.
+Een eventueel opgegeven informatiegebied moet een graafgebied volledig omvatten.'''^^xsd:string;
+    skos:prefLabel "geometrie"@nl
+.
+n11:Geometrie_Orientatiepolygoon a skos:Concept;
+    rdfs:label "geometrie (Orientatiepolygoon)"^^xsd:string;
+    skos:definition "De geometrie van het gebied (een polygoon) dat een persoon of organisatie tekent om daar informatie over kabels en leidingen van te ontvangen."^^xsd:string;
+    skos:prefLabel "geometrie"@nl
+.
+n11:Geometry a skos:Concept;
+    rdfs:label "geometrie"^^xsd:string;
+    skos:definition '''The location of the node.
+'''^^xsd:string;
+    skos:prefLabel "geometrie"@nl
+.
+n11:GeraaktBelangBijGraafpolygoon a skos:Concept;
+    rdfs:label "geraakt belang bij graafpolygoon"^^xsd:string;
+    skos:definition "Verwijzing naar gebied waar een belang is geraak door een graafpolygoon."^^xsd:string;
+    skos:prefLabel "geraakt belang bij graafpolygoon"@nl
+.
+n11:GeraaktBelangBijInformatiepolygoon a skos:Concept;
+    rdfs:label "geraakt belang bij informatiepolygoon"^^xsd:string;
+    skos:definition "Verwijzing naar gebied waar een belang is geraak door een informatiepolygoon."^^xsd:string;
+    skos:prefLabel "geraakt belang bij informatiepolygoon"@nl
+.
+n11:GeraaktBelangBijOrientatiepolygoon a skos:Concept;
+    rdfs:label "geraakt belang bij oriëntatiepolygoon"^^xsd:string;
+    skos:definition "Verwijzing naar gebied waar een belang is geraak door een orientatiepolygoon."^^xsd:string;
+    skos:prefLabel "geraakt belang bij oriëntatiepolygoon"@nl
+.
+n11:GewensteEinddatum a skos:Concept;
+    rdfs:label "gewenste einddatum"^^xsd:string;
+    skos:definition "Gewenste datum tot wanneer het belang van toepassing is."^^xsd:string;
+    skos:prefLabel "gewenste einddatum"@nl
+.
+n11:GewensteIngangsdatum a skos:Concept;
+    rdfs:label "gewenste ingangsdatum"^^xsd:string;
+    skos:definition "Gewenste datum vanaf wanneer een belang van toepassing is."^^xsd:string;
+    skos:prefLabel "gewenste ingangsdatum"@nl
+.
+n11:Graafpolygoon_GebiedsinformatieAanvraag a skos:Concept;
+    rdfs:label "graafpolygoon (GebiedsinformatieAanvraag)"^^xsd:string;
+    skos:definition "Verwijzing naar graafpolygoon."^^xsd:string;
+    skos:prefLabel "graafpolygoon"@nl
+.
+n11:Graafpolygoon_IMKL a skos:Concept;
+    rdfs:label "graafpolygoon (IMKL)"^^xsd:string;
+    skos:definition "Een graafpolygoon is de weergave door een grondroerder van het gebied, waarbinnen de graaflocatie zich bevindt."^^xsd:string;
+    skos:prefLabel "graafpolygoon"@nl
+.
+n11:HeeftExtraInformatie a skos:Concept;
+    rdfs:label "extra informatie"^^xsd:string;
+    skos:definition "Extra informatie over dit object."^^xsd:string;
+    skos:prefLabel "extra informatie"@nl
+.
+n11:Hoogte a skos:Concept;
+    rdfs:label "hoogte"^^xsd:string;
+    skos:definition "De hoogte of lengte van het object."^^xsd:string;
+    skos:prefLabel "hoogte"@nl
+.
+n11:HoursOfService a skos:Concept;
+    rdfs:label "bereikbaarheidstijden"^^xsd:string;
+    skos:definition '''Periods of time when the organisation or individual can be contacted.
+'''^^xsd:string;
+    skos:prefLabel "bereikbaarheidstijden"@nl
+.
+n11:HuisaansluitingAdressen a skos:Concept;
+    rdfs:label "huisaansluiting adressen"^^xsd:string;
+    skos:definition "Lijst van adressen waarvoor huisaansluitschetsen (extra detailinformatie, type huisaansluiting) gevraagd wordt."^^xsd:string;
+    skos:prefLabel "huisaansluiting adressen"@nl
+.
+n11:Huisletter a skos:Concept;
+    rdfs:label "huisletter"^^xsd:string;
+    skos:definition '''Een door of namens het gemeentebestuur ten aanzien
+van een adresseerbaar object toegekende toevoeging
+aan een huisnummer in de vorm van een alfanumeriek
+teken.'''^^xsd:string;
+    skos:prefLabel "huisletter"@nl
+.
+n11:Huisnummer a skos:Concept;
+    rdfs:label "huisnummer"^^xsd:string;
+    skos:definition '''Een door of namens het gemeentebestuur ten aanzien
+van een adresseerbaar object toegekende nummering.'''^^xsd:string;
+    skos:prefLabel "huisnummer"@nl
+.
+n11:Huisnummertoevoeging a skos:Concept;
+    rdfs:label "huisnummertoevoeging"^^xsd:string;
+    skos:definition '''Een door of namens het gemeentebestuur ten aanzien
+van een adresseerbaar object toegekende nadere
+toevoeging aan een huisnummer of een combinatie van
+huisnummer en huisletter.'''^^xsd:string;
+    skos:prefLabel "huisnummertoevoeging"@nl
+.
+n11:IMKLBasis a skos:Concept;
+    rdfs:label "IMKL basis"^^xsd:string;
+    skos:definition "Abstract data object dat de basis attributen bevat van de IMKL extensie."^^xsd:string;
+    skos:prefLabel "IMKL basis"@nl
+.
+n11:Identificatie a skos:Concept;
+    rdfs:label "identificatie"^^xsd:string;
+    skos:definition "Unieke identificatie van het object binnen het domein van NEN 3610."^^xsd:string;
+    skos:prefLabel "identificatie"@nl
+.
+n11:Identifier a skos:Concept;
+    rdfs:label "identificatie"^^xsd:string;
+    skos:definition '''External unique object identifier published by the responsible body, which may be used by external applications to reference the spatial object.
+'''^^xsd:string;
+    skos:prefLabel "identificatie"@nl
+.
+<http://definities.geostandaarden.nl/imkl/id/begrip/InNetwork_ContainerLeidingelement,Diepte,ExtraGeometrie,ExtraInformatie> a skos:Concept;
+    rdfs:label "in netwerk (ContainerLeidingelement, Diepte, ExtraGeometrie, ExtraInformatie)"^^xsd:string;
+    skos:definition "Verwijzing naar het utiliteitsnet."^^xsd:string;
+    skos:prefLabel "in netwerk"@nl
+.
+n11:InNetwork_NetworkElement a skos:Concept;
+    rdfs:label "in netwerk (NetworkElement)"^^xsd:string;
+    skos:definition "The networks in which a network element is a member."^^xsd:string;
+    skos:prefLabel "in netwerk"@nl
+.
+n11:IndicatieEisVoorzorgsmaatregel a skos:Concept;
+    rdfs:label "indicatie eis voorzorgsmaatregel"^^xsd:string;
+    skos:definition "Is er bij deze belanghebbende sprake van een eisVoorzorgmaatregel bij één van de aangeleverde thema's (J/N)."^^xsd:string;
+    skos:prefLabel "indicatie eis voorzorgsmaatregel"@nl
+.
+n11:IndicatieLeveringCompleet a skos:Concept;
+    rdfs:label "indicatie levering compleet"^^xsd:string;
+    skos:definition "Indicator die aangeeft of de levering compleet is (dus, of alle netbeheerders al hebben geleverd)."^^xsd:string;
+    skos:prefLabel "indicatie levering compleet"@nl
+.
+n11:Informatiepolygoon_GebiedsinformatieAanvraag a skos:Concept;
+    rdfs:label "informatiepolygoon (GebiedsinformatieAanvraag)"^^xsd:string;
+    skos:definition "Verwijzing naar informatiepolygoon."^^xsd:string;
+    skos:prefLabel "informatiepolygoon"@nl
+.
+n11:Informatiepolygoon_IMKL a skos:Concept;
+    rdfs:label "informatiepolygoon (IMKL)"^^xsd:string;
+    skos:definition "Een informatiepolygoon is de weergave door een grondroerder van het gebied, waarvoor gebiedsinformatie wordt gevraagd."^^xsd:string;
+    skos:prefLabel "informatiepolygoon"@nl
+.
+n11:Ingangsdatum a skos:Concept;
+    rdfs:label "ingangsdatum"^^xsd:string;
+    skos:definition "Datum vanaf wanneer een belang van toepassing is."^^xsd:string;
+    skos:prefLabel "ingangsdatum"@nl
+.
+n11:InspireId a skos:Concept;
+    rdfs:label "identificatie"^^xsd:string;
+    skos:definition '''External object identifier of the spatial object.
+'''^^xsd:string;
+    skos:prefLabel "identificatie"@nl
+.
+n11:Kaartreferentie a skos:Concept;
+    rdfs:label "kaartreferentie"^^xsd:string;
+    skos:definition "Referentie naar een achtergrondkaart."^^xsd:string;
+    skos:prefLabel "kaartreferentie"@nl
+.
+n11:KabelEnLeidingContainer a skos:Concept;
+    rdfs:label "kabel- en leidingcontainer"^^xsd:string;
+    skos:definition "Abstract data object dat de gemeenschappelijke attributen en associaties bevat voor alle kabel- en leidingcontainer objecten."^^xsd:string;
+    skos:prefLabel "kabel- en leidingcontainer"@nl
+.
+n11:KabelOfLeiding a skos:Concept;
+    rdfs:label "kabel of leiding"^^xsd:string;
+    skos:definition "Leidingen, buizen of kabels bestemd voor voortgeleiding van energie, materie of data."^^xsd:string;
+    skos:prefLabel "kabel of leiding"@nl
+.
+n11:KabelSpecifiek a skos:Concept;
+    rdfs:label "kabel specifiek"^^xsd:string;
+    skos:definition "Abstract data object dat de kabel-specifieke attributen bevat van de IMKL extensie."^^xsd:string;
+    skos:prefLabel "kabel specifiek"@nl
+.
+n11:Kabelbed a skos:Concept;
+    rdfs:label "kabelbed"^^xsd:string;
+    skos:definition "Kabelbed of Geul: Ruimtebeslag dat door een gemeenschappelijk tracé van één of meer kabels,  buizen, HDPE- en/of mantelbuizen  – die toebehoren aan één netbeheerder - wordt gevormd."^^xsd:string;
+    skos:prefLabel "kabelbed"@nl
+.
+n11:Kast a skos:Concept;
+    rdfs:label "kast"^^xsd:string;
+    skos:definition "Eenvoudig kast-object dat nutsvoorzieningenobjecten kan bevatten die tot een of meer nutsvoorzieningennetwerken behoren."^^xsd:string;
+    skos:prefLabel "kast"@nl
+.
+n11:KlicMeldnummer a skos:Concept;
+    rdfs:label "KLIC-meldnummer"^^xsd:string;
+    skos:definition "Een unieke identificatie die al sinds jaar en dag aan een gebiedsinformatie-aanvraag (Klic-melding) wordt toegekend en nog steeds veel in de graafsector wordt gebruikt."^^xsd:string;
+    skos:prefLabel "KLIC-meldnummer"@nl
+.
+n11:KvkNummer a skos:Concept;
+    rdfs:label "KvK-nummer"^^xsd:string;
+    skos:definition "KvK nummer van de aanvrager van gebiedsinformatie."^^xsd:string;
+    skos:prefLabel "KvK-nummer"@nl
+.
+n11:Label a skos:Concept;
+    rdfs:label "label"^^xsd:string;
+    skos:definition "Abstract data object dat de labelattributen bevat van de IMKL extensie."^^xsd:string;
+    skos:prefLabel "label"@nl
+.
+<http://definities.geostandaarden.nl/imkl/id/begrip/Labelpositie_Annotatie,Maatvoering> a skos:Concept;
+    rdfs:label "labelpositie (Annotatie, Maatvoering)"^^xsd:string;
+    skos:definition "Plaats van de labeltekst t.o.v. plaatsingspunt."^^xsd:string;
+    skos:prefLabel "labelpositie"@nl
+.
+n11:Labelpositie_IMKL a skos:Concept;
+    rdfs:label "labelpositie (IMKL)"^^xsd:string;
+    skos:definition "Punt op de horiziontale - en verticale as in labeltekst dat geldt als referentie voor plaatsingspunt."^^xsd:string;
+    skos:prefLabel "labelpositie"@nl
+.
+n11:Landcode_Adres a skos:Concept;
+    rdfs:label "landcode (Adres)"^^xsd:string;
+    skos:definition "Tweeletterige afkorting van de landsnaam conform ISO 3166 - Country codes"^^xsd:string;
+    skos:prefLabel "landcode"@nl
+.
+n11:Landcode_PostbusAdres a skos:Concept;
+    rdfs:label "landcode (PostbusAdres)"^^xsd:string;
+    skos:definition "Landcode van het postbusadres (zie codelijst)."^^xsd:string;
+    skos:prefLabel "landcode"@nl
+.
+n11:Leidingelement a skos:Concept;
+    rdfs:label "leidingelement"^^xsd:string;
+    skos:definition "Een object dat bij één of meerdere leidingen behoort en als node in het netwerkmodel is opgenomen."^^xsd:string;
+    skos:prefLabel "leidingelement"@nl
+.
+n11:Leveringsvolgnummer a skos:Concept;
+    rdfs:label "leveringsvolgnummer"^^xsd:string;
+    skos:definition "Volgnummer van de levering (binnen de aanvraag). Indien de gebiedsinformatie in meerdere keren wordt uitgeleverd (bijv. omdat 1 of meer netbeheerders te laat leveren) wordt dit nummer steeds opgehoogd."^^xsd:string;
+    skos:prefLabel "leveringsvolgnummer"@nl
+.
+<http://definities.geostandaarden.nl/imkl/id/begrip/Ligging_Annotatie,Maatvoering> a skos:Concept;
+    rdfs:label "ligging (Annotatie, Maatvoering)"^^xsd:string;
+    skos:definition "Positie of geometrie van de annotatie."^^xsd:string;
+    skos:prefLabel "ligging"@nl
+.
+n11:Ligging_Diepte a skos:Concept;
+    rdfs:label "ligging (Diepte)"^^xsd:string;
+    skos:definition "Locatie van het dieptegegeven."^^xsd:string;
+    skos:prefLabel "ligging"@nl
+.
+n11:Ligging_EigenTopografie a skos:Concept;
+    rdfs:label "ligging (EigenTopografie)"^^xsd:string;
+    skos:definition "Plaatsaanduiding van de extra topografie."^^xsd:string;
+    skos:prefLabel "ligging"@nl
+.
+n11:Ligging_ExtraDetailinfo a skos:Concept;
+    rdfs:label "ligging (ExtraDetailinfo)"^^xsd:string;
+    skos:definition "Locatie waar de detailinformatie op van toepassing is."^^xsd:string;
+    skos:prefLabel "ligging"@nl
+.
+n11:LinkSequence a skos:Concept;
+    rdfs:label "linksequentie"^^xsd:string;
+    skos:definition '''A network element which represents a continuous path in the network without any branches. The element has a defined beginning and end and every position on the link sequence is identifiable with one single parameter such as length. 
+'''^^xsd:string;
+    skos:prefLabel "linksequentie"@nl
+.
+n11:LinkSet a skos:Concept;
+    rdfs:label "verzameling van links"^^xsd:string;
+    skos:definition '''A collection of link sequences and/or individual links that has a specific function or significance in a network. 
+'''^^xsd:string;
+    skos:prefLabel "verzameling van links"@nl
+.
+n11:Link_DirectedLink a skos:Concept;
+    rdfs:label "link (DirectedLink)"^^xsd:string;
+    skos:definition "The link"^^xsd:string;
+    skos:prefLabel "link"@nl
+.
+n11:Link_LinkSequence a skos:Concept;
+    rdfs:label "link (LinkSequence)"^^xsd:string;
+    skos:definition '''The ordered collection of directed links that constitute the link sequence.
+'''^^xsd:string;
+    skos:prefLabel "link"@nl
+.
+n11:Link_LinkSet a skos:Concept;
+    rdfs:label "link (LinkSet)"^^xsd:string;
+    skos:definition "The set of links and link sequences that constitute the link set."^^xsd:string;
+    skos:prefLabel "link"@nl
+.
+n11:Link_Network a skos:Concept;
+    rdfs:label "link (Network)"^^xsd:string;
+    skos:definition '''Curvilinear network element that connects two positions and represents a homogeneous path in the network. The connected positions may be represented as nodes.
+'''^^xsd:string;
+    skos:prefLabel "link"@nl
+.
+n11:LocalId a skos:Concept;
+    rdfs:label "lokale identificatie"^^xsd:string;
+    skos:definition '''A local identifier, assigned by the data provider. The local identifier is unique within the namespace, that is no other spatial object carries the same unique identifier.
+'''^^xsd:string;
+    skos:prefLabel "lokale identificatie"@nl
+.
+n11:LocatieOmschrijving a skos:Concept;
+    rdfs:label "locatieomschrijving"^^xsd:string;
+    skos:definition "Een omschrijving van de locatie van de werkzaamheden waar de gebiedsinformatie-aanvraag voor is ingediend."^^xsd:string;
+    skos:prefLabel "locatieomschrijving"@nl
+.
+n11:LocatieWerkzaamheden a skos:Concept;
+    rdfs:label "locatie werkzaamheden"^^xsd:string;
+    skos:definition "Het adres of dichtstbijzijnd adres van de locatie van de werkzaamheden waar de gebiedsinformatie-aanvraag voor is ingediend."^^xsd:string;
+    skos:prefLabel "locatie werkzaamheden"@nl
+.
+n11:LokaalID a skos:Concept;
+    rdfs:label "lokale identificatie"^^xsd:string;
+    skos:definition "unieke identificatiecode binnen een registratie"^^xsd:string;
+    skos:prefLabel "lokale identificatie"@nl
+.
+n11:MaaiveldPeil a skos:Concept;
+    rdfs:label "maaiveldpeil"^^xsd:string;
+    skos:definition "Hoogte van het maaiveld t.o.v. NAP."^^xsd:string;
+    skos:prefLabel "maaiveldpeil"@nl
+.
+n11:Maatvoering a skos:Concept;
+    rdfs:label "maatvoering"^^xsd:string;
+    skos:definition '''<font color="#1d1819">Teksten en symbolen weergegeven in het kaartbeeld.</font>'''^^xsd:string;
+    skos:prefLabel "maatvoering"@nl
+.
+n11:MaatvoeringsType a skos:Concept;
+    rdfs:label "type maatvoering"^^xsd:string;
+    skos:definition "Aard van de opgenomen annotatie"^^xsd:string;
+    skos:prefLabel "type maatvoering"@nl
+.
+n11:Mangat a skos:Concept;
+    rdfs:label "mangat"^^xsd:string;
+    skos:definition "Eenvoudig omhullingsobject dat een of meer nutsvoorzieningennetobjecten kan bevatten."^^xsd:string;
+    skos:prefLabel "mangat"@nl
+.
+n11:Mantelbuis a skos:Concept;
+    rdfs:label "mantelbuis"^^xsd:string;
+    skos:definition "Beschermingsbuis."^^xsd:string;
+    skos:prefLabel "mantelbuis"@nl
+.
+n11:Mast a skos:Concept;
+    rdfs:label "mast"^^xsd:string;
+    skos:definition "Eenvoudig mast-object dat dienst kan doen als drager van nutsvoorzieningenobjecten van een of meer nutsvoorzieningnetten"^^xsd:string;
+    skos:prefLabel "mast"@nl
+.
+n11:Mobiel a skos:Concept;
+    rdfs:label "mobiel"^^xsd:string;
+    skos:definition "Het mobiele telefoonnummer van de organisatie."^^xsd:string;
+    skos:prefLabel "mobiel"@nl
+.
+n11:NEN3610ID a skos:Concept;
+    rdfs:label "identificatie"^^xsd:string;
+    skos:definition "identificatiegegevens voor de universeel unieke identificatie van een object"^^xsd:string;
+    skos:prefLabel "identificatie"@nl
+.
+<http://definities.geostandaarden.nl/imkl/id/begrip/Naam_AanvraagSoortContact,Contact> a skos:Concept;
+    rdfs:label "naam (AanvraagSoortContact, Contact)"^^xsd:string;
+    skos:definition "Naam van het contact."^^xsd:string;
+    skos:prefLabel "naam"@nl
+.
+n11:Naam_Organisatie a skos:Concept;
+    rdfs:label "naam (Organisatie)"^^xsd:string;
+    skos:definition "De naam van de organisatie."^^xsd:string;
+    skos:prefLabel "naam"@nl
+.
+n11:Namespace_Identifier a skos:Concept;
+    rdfs:label "namespace (Identifier)"^^xsd:string;
+    skos:definition '''Namespace uniquely identifying the data source of the spatial object.
+'''^^xsd:string;
+    skos:prefLabel "namespace"@nl
+.
+n11:Namespace_NEN3610ID a skos:Concept;
+    rdfs:label "namespace (NEN3610ID)"^^xsd:string;
+    skos:definition "unieke verwijzing naar een registratie van objecten"^^xsd:string;
+    skos:prefLabel "namespace"@nl
+.
+n11:Netbeheerder a skos:Concept;
+    rdfs:label "netbeheerder"^^xsd:string;
+    skos:definition "Gegevens van de belanghebbende beheerder."^^xsd:string;
+    skos:prefLabel "netbeheerder"@nl
+.
+n11:NetbeheerderNetAanduiding a skos:Concept;
+    rdfs:label "netbeheerder netaanduiding"^^xsd:string;
+    skos:definition "Aanduiding van het risico dat aan een utiliteitsnet of netelement gegeven kan worden ten behoeve van de bepaling of en welke voorzorgsmaatregelen getroffen dienen te worden."^^xsd:string;
+    skos:prefLabel "netbeheerder netaanduiding"@nl
+.
+n11:NetbeheerderNetOmschrijving a skos:Concept;
+    rdfs:label "netbeheerder netomschrijving"^^xsd:string;
+    skos:definition "Omschrijving bij een risico classificering die aan (onderdeel van een) kabel- of leiding netwerk gegeven kan worden. Op basis van dit risico moeten mogelijk voorzorgsmaatregelen getroffen worden bij het uitvoeren van werkzaamheden."^^xsd:string;
+    skos:prefLabel "netbeheerder netomschrijving"@nl
+.
+n11:NetbeheerderWerkAanduiding a skos:Concept;
+    rdfs:label "netbeheerder werkaanduiding"^^xsd:string;
+    skos:definition "Aanduiding van het risico dat aan de soort werkzaamheden gegeven is bij de bepaling van de te nemen eis voorzorgsmaatregelen."^^xsd:string;
+    skos:prefLabel "netbeheerder werkaanduiding"@nl
+.
+n11:Network a skos:Concept;
+    rdfs:label "netwerk"^^xsd:string;
+    skos:definition '''A network is a collection of network elements.
+'''^^xsd:string;
+    skos:prefLabel "netwerk"@nl
+.
+n11:NetworkElement a skos:Concept;
+    rdfs:label "netwerkelement"^^xsd:string;
+    skos:definition '''Abstract base type representing an element in a network. Every element in a network provides some function that is of interest in the network.
+'''^^xsd:string;
+    skos:prefLabel "netwerkelement"@nl
+.
+n11:Node a skos:Concept;
+    rdfs:label "node"^^xsd:string;
+    skos:definition '''Represents a significant position in the network that always occurs at the beginning or the end of a link.
+'''^^xsd:string;
+    skos:prefLabel "node"@nl
+.
+n11:OlieGasChemicalienPijpleiding a skos:Concept;
+    rdfs:label "olie-, gas- of chemicaliënpijpleiding"^^xsd:string;
+    skos:definition "Een pijpleiding voor het overbrengen van olie, gas of chemicaliën van de ene locatie naar een andere."^^xsd:string;
+    skos:prefLabel "olie-, gas- of chemicaliënpijpleiding"@nl
+.
+n11:Omschrijving a skos:Concept;
+    rdfs:label "omschrijving"^^xsd:string;
+    skos:definition "In tekst omschreven belang dat een netbeheerder in dit gebied heeft."^^xsd:string;
+    skos:prefLabel "omschrijving"@nl
+.
+n11:OmschrijvingWerkzaamheden a skos:Concept;
+    rdfs:label "omschrijving werkzaamheden"^^xsd:string;
+    skos:definition "Een toelichtende omschrijving van de werkzaamheden."^^xsd:string;
+    skos:prefLabel "omschrijving werkzaamheden"@nl
+.
+n11:Opdrachtgever_GebiedsinformatieAanvraag a skos:Concept;
+    rdfs:label "opdrachtgever (GebiedsinformatieAanvraag)"^^xsd:string;
+    skos:definition "Gegevens van de opdrachtgever voor de aanvraag van gebiedsinformatie."^^xsd:string;
+    skos:prefLabel "opdrachtgever"@nl
+.
+n11:Opdrachtgever_IMKL a skos:Concept;
+    rdfs:label "opdrachtgever (IMKL)"^^xsd:string;
+    skos:definition "Een opdrachtgever is een persoon die opdracht geeft om te graven in een bepaald gebied."^^xsd:string;
+    skos:prefLabel "opdrachtgever"@nl
+.
+n11:OpenbareRuimteNaam a skos:Concept;
+    rdfs:label "openbare ruimte naam"^^xsd:string;
+    skos:definition "Een naam die aan een OPENBARE RUIMTE is toegekend in een daartoe strekkend formeel gemeentelijk besluit."^^xsd:string;
+    skos:prefLabel "openbare ruimte naam"@nl
+.
+n11:Ordernummer a skos:Concept;
+    rdfs:label "ordernummer"^^xsd:string;
+    skos:definition "Het nummer van de verkooporder van de aanvraag zoals deze bij KLIC bekend is."^^xsd:string;
+    skos:prefLabel "ordernummer"@nl
+.
+n11:Organisatie_Aanvrager a skos:Concept;
+    rdfs:label "organisatie (Aanvrager)"^^xsd:string;
+    skos:definition "Organisatie die aanvraag doet."^^xsd:string;
+    skos:prefLabel "organisatie"@nl
+.
+n11:Organisatie_Beheerder a skos:Concept;
+    rdfs:label "organisatie (Beheerder)"^^xsd:string;
+    skos:prefLabel "organisatie"@nl
+.
+n11:Organisatie_IMKL a skos:Concept;
+    rdfs:label "organisatie (IMKL)"^^xsd:string;
+    skos:definition "Gegevens van de aanvrager van gebiedsinformatie."^^xsd:string;
+    skos:prefLabel "organisatie"@nl
+.
+n11:Organisatie_Opdrachtgever a skos:Concept;
+    rdfs:label "organisatie (Opdrachtgever)"^^xsd:string;
+    skos:definition "Organisatie die als opdrachtgever optreedt."^^xsd:string;
+    skos:prefLabel "organisatie"@nl
+.
+n11:Orientatiepolygoon_GebiedsinformatieAanvraag a skos:Concept;
+    rdfs:label "oriëntatiepolygoon (GebiedsinformatieAanvraag)"^^xsd:string;
+    skos:definition "Verwijzing naar orientatiepolygoon"^^xsd:string;
+    skos:prefLabel "oriëntatiepolygoon"@nl
+.
+n11:Orientatiepolygoon_IMKL a skos:Concept;
+    rdfs:label "oriëntatiepolygoon (IMKL)"^^xsd:string;
+    skos:definition "Een oriëntatiepolygoon is de weergave door een opdrachtgever, grondroerder, aanbieder of bestuursorgaan van een aangesloten gebied, ten aanzien waarvan deze om gebiedsinformatie verzoekt met het oog op respectievelijk het voorbereiden van graafwerkzaamheden, het voorbereiden van een verzoek tot medegebruik of coördinatie van civiele werken, of ten behoeve van de hem opgedragen taak."^^xsd:string;
+    skos:prefLabel "oriëntatiepolygoon"@nl
+.
+n11:Overig a skos:Concept;
+    rdfs:label "overig"^^xsd:string;
+    skos:definition "Een type kabel of leiding die niet onder de andere benoemde typen valt."^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n11:OverigSpecifiek a skos:Concept;
+    rdfs:label "overig specifiek"^^xsd:string;
+    skos:definition "Abstract data object dat de overig-specifieke attributen bevat van de IMKL extensie."^^xsd:string;
+    skos:prefLabel "overig specifiek"@nl
+.
+n11:PipeDiameter a skos:Concept;
+    rdfs:label "buisdiameter"^^xsd:string;
+    skos:definition '''Pipe outer diameter.
+'''^^xsd:string;
+    skos:prefLabel "buisdiameter"@nl
+.
+n11:Positienummer a skos:Concept;
+    rdfs:label "positienummer"^^xsd:string;
+    skos:definition "Het regelnummer (positienummer) van de verkooporder waarbij de aanvraag van het Klic-product is vastgelegd."^^xsd:string;
+    skos:prefLabel "positienummer"@nl
+.
+n11:PostbusAdres_IMKL a skos:Concept;
+    rdfs:label "postbusadres (IMKL)"^^xsd:string;
+    skos:definition "De gegevens van een adres voor een bus of vak in een postkantoor."^^xsd:string;
+    skos:prefLabel "postbusadres"@nl
+.
+n11:PostbusAdres_Organisatie a skos:Concept;
+    rdfs:label "postbusadres (Organisatie)"^^xsd:string;
+    skos:definition "Het postbusadres van de organisatie."^^xsd:string;
+    skos:prefLabel "postbusadres"@nl
+.
+n11:Postbusnummer a skos:Concept;
+    rdfs:label "postbusnummer"^^xsd:string;
+    skos:definition "Het postbusnummer van het postbusadres."^^xsd:string;
+    skos:prefLabel "postbusnummer"@nl
+.
+n11:Postcode_Adres a skos:Concept;
+    rdfs:label "postcode (Adres)"^^xsd:string;
+    skos:definition '''De door TNT Post vastgestelde code behorende bij een
+bepaalde combinatie van een straatnaam en een
+huisnummer.'''^^xsd:string;
+    skos:prefLabel "postcode"@nl
+.
+n11:Postcode_PostbusAdres a skos:Concept;
+    rdfs:label "postcode (PostbusAdres)"^^xsd:string;
+    skos:definition "De postcode van het postbusadres."^^xsd:string;
+    skos:prefLabel "postcode"@nl
+.
+n11:Pressure a skos:Concept;
+    rdfs:label "druk"^^xsd:string;
+    skos:definition '''The maximum allowable operating pressure at which a product is conveyed through a pipe.
+'''^^xsd:string;
+    skos:prefLabel "druk"@nl
+.
+n11:Producttype a skos:Concept;
+    rdfs:label "type product"^^xsd:string;
+    skos:prefLabel "type product"@nl
+.
+n11:Referentie a skos:Concept;
+    rdfs:label "referentie"^^xsd:string;
+    skos:definition "De eigen referentie die de aanvrager aan de gebiedsinformatie-aanvraag heeft gegeven."^^xsd:string;
+    skos:prefLabel "referentie"@nl
+.
+n11:Rioolleiding a skos:Concept;
+    rdfs:label "rioolleiding"^^xsd:string;
+    skos:definition "Een rioleringsleiding voor het overbrengen van afvalwater (rioolwater en hemelwater) van de ene locatie naar een andere."^^xsd:string;
+    skos:prefLabel "rioolleiding"@nl
+.
+n11:Rotatiehoek a skos:Concept;
+    rdfs:label "rotatiehoek"^^xsd:string;
+    skos:definition "Hoek waaronder een labeltekst of symbool wordt weergegeven."^^xsd:string;
+    skos:prefLabel "rotatiehoek"@nl
+.
+n11:RotatiehoekSymbool a skos:Concept;
+    rdfs:label "rotatiehoeksymbool"^^xsd:string;
+    skos:definition "Hoek waaronder een puntsymbool wordt weergegeven."^^xsd:string;
+    skos:prefLabel "rotatiehoeksymbool"@nl
+.
+n11:SoortWerkzaamheden a skos:Concept;
+    rdfs:label "soort werkzaamheden"^^xsd:string;
+    skos:definition "Soort graafwerkzaamheden (zie codelijst)."^^xsd:string;
+    skos:prefLabel "soort werkzaamheden"@nl
+.
+n11:SpokeEnd a skos:Concept;
+    rdfs:label "linkbegin"^^xsd:string;
+    skos:definition '''The links that enter the node.
+'''^^xsd:string;
+    skos:prefLabel "linkbegin"@nl
+.
+n11:SpokeStart a skos:Concept;
+    rdfs:label "linkbegin"^^xsd:string;
+    skos:definition '''The links that leave the node.
+'''^^xsd:string;
+    skos:prefLabel "linkbegin"@nl
+.
+n11:StandaardDieptelegging a skos:Concept;
+    rdfs:label "standaard dieptelegging"^^xsd:string;
+    skos:definition '''Gangbare dieptelegging behorend bij dit utiliteitsnet. Diepte is ten opzichte van maaiveld. Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via 1 van de volgende OGC URN codes: • urn:ogc:def:uom:OGC::m • urn:ogc:def:uom:OGC::cm • urn:ogc:def:uom:OGC::mm.
+Voor WIBON is de eenheid altijd meter en een getal met ten hoogste 2 decimalen.'''^^xsd:string;
+    skos:prefLabel "standaard dieptelegging"@nl
+.
+n11:StartDatum a skos:Concept;
+    rdfs:label "startdatum"^^xsd:string;
+    skos:definition "De geplande startdatum van de werkzaamheden waarvoor de gebiedsinformatie-aanvraag is ingediend."^^xsd:string;
+    skos:prefLabel "startdatum"@nl
+.
+n11:StartNode a skos:Concept;
+    rdfs:label "beginnode"^^xsd:string;
+    skos:definition "The optional start node for this link."^^xsd:string;
+    skos:prefLabel "beginnode"@nl
+.
+n11:Status a skos:Concept;
+    rdfs:label "status"^^xsd:string;
+    skos:definition "Plan of bestaande topografie."^^xsd:string;
+    skos:prefLabel "status"@nl
+.
+n11:TechnischGebouw a skos:Concept;
+    rdfs:label "technisch gebouw"^^xsd:string;
+    skos:definition "Besloten onderkomen voor het huisvesten van nutsvoorzieningenobjecten die tot een of meer nutsvoorzieningennetwerken behoren."^^xsd:string;
+    skos:prefLabel "technisch gebouw"@nl
+.
+n11:Telecommunicatiekabel a skos:Concept;
+    rdfs:label "telecommunicatiekabel"^^xsd:string;
+    skos:definition "Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van data."^^xsd:string;
+    skos:prefLabel "telecommunicatiekabel"@nl
+.
+<http://definities.geostandaarden.nl/imkl/id/begrip/Telefoon_AanvraagSoortContact,Contact> a skos:Concept;
+    rdfs:label "telefoon (AanvraagSoortContact, Contact)"^^xsd:string;
+    skos:definition "Telefoon van het contact."^^xsd:string;
+    skos:prefLabel "telefoon"@nl
+.
+n11:Telefoon_Organisatie a skos:Concept;
+    rdfs:label "telefoon (Organisatie)"^^xsd:string;
+    skos:definition "Het vaste telefoonnummer van de organiatie."^^xsd:string;
+    skos:prefLabel "telefoon"@nl
+.
+n11:TelephoneFacsimile a skos:Concept;
+    rdfs:label "fax"^^xsd:string;
+    skos:definition '''Number of a facsimile machine of the organisation or individual.
+'''^^xsd:string;
+    skos:prefLabel "fax"@nl
+.
+n11:TelephoneVoice a skos:Concept;
+    rdfs:label "telefoon"^^xsd:string;
+    skos:definition '''Telephone number of the organisation or individual.
+'''^^xsd:string;
+    skos:prefLabel "telefoon"@nl
+.
+n11:Thema_Belang a skos:Concept;
+    rdfs:label "thema (Belang)"^^xsd:string;
+    skos:definition "Het thema geeft aan welk type leiding het betreft en welke functie de leidingen hebben. Bijvoorbeeld datatransport, gas lage druk, laagspanning, riool etc. Gekozen kan worden uit een lijst van thema’s."^^xsd:string;
+    skos:prefLabel "thema"@nl
+.
+<http://definities.geostandaarden.nl/imkl/id/begrip/Thema_EisVoorzorgsmaatregelBijlage,Utiliteitsnet> a skos:Concept;
+    rdfs:label "thema (EisVoorzorgsmaatregelBijlage, Utiliteitsnet)"^^xsd:string;
+    skos:definition "Het thema geeft aan welk type leiding het betreft en welke functie de leidingen hebben. Bijvoorbeeld datatransport, gas lage druk, laagspanning, riool etc. Gekozen kan worden uit een lijst van thema’s"^^xsd:string;
+    skos:prefLabel "thema"@nl
+.
+n11:ThermischePijpleiding a skos:Concept;
+    rdfs:label "warmteleiding"^^xsd:string;
+    skos:definition "Een leiding voor het transporteren van warmte of koelte van de ene locatie naar een andere."^^xsd:string;
+    skos:prefLabel "warmteleiding"@nl
+.
+n11:Toelichting a skos:Concept;
+    rdfs:label "toelichting"^^xsd:string;
+    skos:definition "Extra informatie in de vorm van een toelichting."^^xsd:string;
+    skos:prefLabel "toelichting"@nl
+.
+n11:Toren a skos:Concept;
+    rdfs:label "toren"^^xsd:string;
+    skos:definition "Eenvoudig toren-object dat dienst kan doen als drager van nutsvoorzieningenobjecten van een of meer nutsvoorzieningnetten."^^xsd:string;
+    skos:prefLabel "toren"@nl
+.
+n11:TypeTopografischObject a skos:Concept;
+    rdfs:label "type topografisch object"^^xsd:string;
+    skos:definition "Soort topografisch object."^^xsd:string;
+    skos:prefLabel "type topografisch object"@nl
+.
+n11:Utiliteitsnet_Belanghebbende a skos:Concept;
+    rdfs:label "utiliteitsnet (Belanghebbende)"^^xsd:string;
+    skos:definition "Informatie over ligging van utiliteitsnet en de onderdelen daarvan."^^xsd:string;
+    skos:prefLabel "utiliteitsnet"@nl
+.
+n11:Utiliteitsnet_IMKL a skos:Concept;
+    rdfs:label "utiliteitsnet (IMKL)"^^xsd:string;
+    skos:definition "Een verzameling netwerkelementen die tot één type nutsvoorzieningennet behoren."^^xsd:string;
+    skos:prefLabel "utiliteitsnet"@nl
+.
+n11:Veiligheidsgebied a skos:Concept;
+    rdfs:label "veiligheidsgebied"^^xsd:string;
+    skos:definition "Een veiligheidsgebied is een door de Minister aangewezen gebied waarvan om veiligheidsredenen kan worden afgeweken van de voorschriften zoals gesteld bij of krachtens hoofstuk 4 WION: Informatie-uitwisseling ten behoeve van graafwerkzaamheden."^^xsd:string;
+    skos:prefLabel "veiligheidsgebied"@nl
+.
+n11:Versie a skos:Concept;
+    rdfs:label "versie"^^xsd:string;
+    skos:definition "versie-aanduiding van een object"^^xsd:string;
+    skos:prefLabel "versie"@nl
+.
+n11:VersionId a skos:Concept;
+    rdfs:label "versie identificatie"^^xsd:string;
+    skos:definition '''The identifier of the particular version of the spatial object, with a maximum length of 25 characters. If the specification of a spatial object type with an external object identifier includes life-cycle information, the version identifier is used to distinguish between the different versions of a spatial object. Within the set of all versions of a spatial object, the version identifier is unique. 
+'''^^xsd:string;
+    skos:prefLabel "versie identificatie"@nl
+.
+n11:Vlakgeometrie2.5D a skos:Concept;
+    rdfs:label "vlakgeometrie (2.5D)"^^xsd:string;
+    skos:definition "2.5D vlakrepresentatie van het netwerkelement."^^xsd:string;
+    skos:prefLabel "vlakgeometrie (2.5D)"@nl
+.
+n11:Vlakgeometrie2D a skos:Concept;
+    rdfs:label "vlakgeometrie (2D)"^^xsd:string;
+    skos:definition "Tweedimensionale vlakrepresentatie van het netwerkelement."^^xsd:string;
+    skos:prefLabel "vlakgeometrie (2D)"@nl
+.
+n11:VoorbereidingCoordinatieCivieleWerken a skos:Concept;
+    rdfs:label "voorbereiding coördinatie civiele werken"^^xsd:string;
+    skos:definition "Oriëntatieverzoek door telecomaanbieder ter voorbereiding op een verzoek tot coördinatie van civiele werken."^^xsd:string;
+    skos:prefLabel "voorbereiding coördinatie civiele werken"@nl
+.
+n11:VoorbereidingMedegebruikFysiekeInfrastructuur a skos:Concept;
+    rdfs:label "voorbereiding medegebruik fysieke infrastructuur"^^xsd:string;
+    skos:definition "Oriëntatieverzoek door telecomaanbieder ter voorbereiding op een verzoek tot medegebruik fysieke infrastructuur."^^xsd:string;
+    skos:prefLabel "voorbereiding medegebruik fysieke infrastructuur"@nl
+.
+n11:Waterleiding a skos:Concept;
+    rdfs:label "waterleiding"^^xsd:string;
+    skos:definition "Een waterleiding voor het overbrengen van water van de ene locatie naar een andere."^^xsd:string;
+    skos:prefLabel "waterleiding"@nl
+.
+n11:WebsiteKlic a skos:Concept;
+    rdfs:label "website KLIC"^^xsd:string;
+    skos:definition "Startpagina van de website van de (net)beheerder met specifieke informatie voor de Klic-sector (graafsector)."^^xsd:string;
+    skos:prefLabel "website KLIC"@nl
+.
+n11:Website_Contact a skos:Concept;
+    rdfs:label "website (Contact)"^^xsd:string;
+    skos:definition '''Pages provided on the World Wide Web by the organisation or individual.
+'''^^xsd:string;
+    skos:prefLabel "website"@nl
+.
+n11:Website_Organisatie a skos:Concept;
+    rdfs:label "website (Organisatie)"^^xsd:string;
+    skos:definition "Website van de organisatie."^^xsd:string;
+    skos:prefLabel "website"@nl
+.
+n11:WoonplaatsNaam a skos:Concept;
+    rdfs:label "woonplaatsnaam"^^xsd:string;
+    skos:definition '''De benaming van een door het gemeentebestuur
+aangewezen WOONPLAATS.'''^^xsd:string;
+    skos:prefLabel "woonplaatsnaam"@nl
+.
