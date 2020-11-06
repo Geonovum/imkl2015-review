@@ -80,6 +80,7 @@ tbody
 /*-- Definite van de tabel-cel (data) ----------------------------------------------*/
 td
 {
+  vertical-align: text-top;
   min-width: 0px;     /* lege kolommen hebben deze minimale breedte */
 }
 
