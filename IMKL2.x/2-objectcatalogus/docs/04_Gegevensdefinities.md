@@ -992,8 +992,8 @@ Geo object typen
 
 ### Kabelbed
 
-| **Kabelbed** |               |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|--------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Kabelbed**                |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |              Naam          |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |              Definitie:    | Kabelbed of Geul: Ruimtebeslag dat door een gemeenschappelijk tracé van één of meer kabels, buizen, HDPE- en/of mantelbuizen – die toebehoren aan één netbeheerder - wordt gevormd.                                                                                                                                                                                                                                                |
 |              Subtype van:  | Duct                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -1993,8 +1993,8 @@ Geo object typen
 
 ### BuisleidingTypeValue
 
-| **BuisleidingTypeValue** |               |                               |
-|--------------------------|---------------|------------------------------|
+| **BuisleidingTypeValue**                |                               |
+|-----------------------------------------|------------------------------|
 |                          Naam          |                               |
 |                          Definitie:    | Soort buisleiding.            |
 |                          Herkomst:     | RRGS                          |
@@ -2004,8 +2004,8 @@ Geo object typen
 
 ### ConditionOfFacilityIMKLValue
 
-| **ConditionOfFacilityIMKLValue** |               |                                                                      |
-|----------------------------------|---------------|---------------------------------------------------------------------|
+| **ConditionOfFacilityIMKLValue**                |                                                                      |
+|-------------------------------------------------|---------------------------------------------------------------------|
 |                                  Naam          |                                                                      |
 |                                  Definitie:    | IMKL waardelijst voor toepassing INSPIRE ConditionOfFacilityValue.   |
 |                                  Subtype van:  | ConditionOfFacilityValue                                             |
@@ -2043,8 +2043,8 @@ Geo object typen
 
 ### ElectricityAppurtenanceTypeIMKLValue
 
-| **ElectricityAppurtenanceTypeIMKLValue** |               |                                                                           |
-|------------------------------------------|---------------|--------------------------------------------------------------------------|
+| **ElectricityAppurtenanceTypeIMKLValue**                |                                                                           |
+|---------------------------------------------------------|--------------------------------------------------------------------------|
 |                                          Naam          |                                                                           |
 |                                          Definitie:    | IMKL waardelijst voor toepassing INSPIRE ElectricityAppurtenanceTypeValue.|
 |                                          Subtype van:  | ElectricityAppurtenanceTypeValue                                          |
@@ -2110,8 +2110,8 @@ Geo object typen
 
 ### OilGasChemicalsAppurtenanceTypeIMKLValue
 
-| **OilGasChemicalsAppurtenanceTypeIMKLValue** |               |                                                                                |
-|----------------------------------------------|---------------|-------------------------------------------------------------------------------|
+| **OilGasChemicalsAppurtenanceTypeIMKLValue**                |                                                                                |
+|-------------------------------------------------------------|-------------------------------------------------------------------------------|
 |                                              Naam          |                                                                                |
 |                                              Definitie:    | IMKL waardelijst voor toepassing INSPIRE OilGasChemicalsAppurtenanceITypeValue.|
 |                                              Subtype van:  | OilGasChemicalsAppurtenanceTypeValue                                           |
@@ -2121,8 +2121,8 @@ Geo object typen
 
 ### OilGasChemicalsProductTypeIMKLValue
 
-| **OilGasChemicalsProductTypeIMKLValue** |               |                                                                          |
-|-----------------------------------------|---------------|-------------------------------------------------------------------------|
+| **OilGasChemicalsProductTypeIMKLValue**                |                                                                          |
+|--------------------------------------------------------|-------------------------------------------------------------------------|
 |                                         Naam          |                                                                          |
 |                                         Definitie:    | IMKL waardelijst voor toepassing INSPIRE OilGasChemicalsProductTypeValue.|
 |                                         Subtype van:  | OilGasChemicalsProductTypeValue                                          |
@@ -2132,8 +2132,8 @@ Geo object typen
 
 ### OverigAppurtenanceTypeIMKLValue
 
-| **OverigAppurtenanceTypeIMKLValue** |               |                                                                                     |
-|-------------------------------------|---------------|------------------------------------------------------------------------------------|
+| **OverigAppurtenanceTypeIMKLValue**                |                                                                                     |
+|----------------------------------------------------|------------------------------------------------------------------------------------|
 |                                     Naam          |                                                                                     |
 |                                     Definitie:    | IMKL waardelijst voor toepassing INSPIRE AppurtenanceTypeValue voor het thema Overig|
 |                                     Subtype van:  | AppurtenanceTypeValue                                                               |
@@ -2143,8 +2143,8 @@ Geo object typen
 
 ### PipeMaterialTypeIMKLValue
 
-| **PipeMaterialTypeIMKLValue** |               |                                                                      |
-|-------------------------------|---------------|---------------------------------------------------------------------|
+| **PipeMaterialTypeIMKLValue**                |                                                                      |
+|----------------------------------------------|---------------------------------------------------------------------|
 |                               Naam          |                                                                      |
 |                               Definitie:    | IMKL waardelijst voor toepassing INSPIRE PipeMaterialTypeValue.      |
 |                               Subtype van:  | PipeMaterialTypeValue                                                |
@@ -2163,8 +2163,8 @@ Geo object typen
 
 ### SewerAppurtenanceTypeIMKLValue
 
-| **SewerAppurtenanceTypeIMKLValue** |               |                                                                      |
-|------------------------------------|---------------|---------------------------------------------------------------------|
+| **SewerAppurtenanceTypeIMKLValue** |            |
+|------------------------------------|---------------------------------------------------------------------|
 |                                    Naam          |                                                                      |
 |                                    Definitie:    | IMKL waardelijst voor toepassing INSPIRE SewerAppurtenanceTypeValue. |
 |                                    Subtype van:  | SewerAppurtenanceTypeValue                                           |
@@ -2183,8 +2183,8 @@ Geo object typen
 
 ### TelecommunicationsAppurtenanceTypeIMKLValue
 
-| **TelecommunicationsAppurtenanceTypeIMKLValue** |               |                                                                                  |
-|-------------------------------------------------|---------------|---------------------------------------------------------------------------------|
+| **TelecommunicationsAppurtenanceTypeIMKLValue**                |                                                                                  |
+|----------------------------------------------------------------|---------------------------------------------------------------------------------|
 |                                                 Naam          |                                                                                  |
 |                                                 Definitie:    | IMKL waardelijst voor toepassing INSPIRE TelecommunicationsAppurtenanceTypeValue.|
 |                                                 Subtype van:  | TelecommunicationsAppurtenanceTypeValue                                          |
@@ -2194,8 +2194,8 @@ Geo object typen
 
 ### TelecommunicationsCableMaterialTypeIMKLValue
 
-| **TelecommunicationsCableMaterialTypeIMKLValue** |               |                                                                                   |
-|--------------------------------------------------|---------------|----------------------------------------------------------------------------------|
+| **TelecommunicationsCableMaterialTypeIMKLValue**                |                                                                                   |
+|-----------------------------------------------------------------|----------------------------------------------------------------------------------|
 |                                                  Naam          |                                                                                   |
 |                                                  Definitie:    | IMKL waardelijst voor toepassing INSPIRE TelecommunicationsCableMaterialTypeValue.|
 |                                                  Subtype van:  | TelecommunicationsCableMaterialTypeValue                                          |
@@ -2206,7 +2206,7 @@ Geo object typen
 ### Thema
 
 | **Thema** |                                                                     |
-|-------------------------|--------------------------------------------------------------------|
+|-----------|--------------------------------------------------------------------|
 |           Naam         |                                                                     |
 |           Definitie:   | Thema of discipline waar een leiding of leidingelement toe behoort. |
 |           Stereotypes: | «codeList»                                                          |
@@ -2214,8 +2214,8 @@ Geo object typen
 
 ### ThermalAppurtenanceTypeIMKLValue
 
-| **ThermalAppurtenanceTypeIMKLValue** |               |                                                                       |
-|--------------------------------------|---------------|----------------------------------------------------------------------|
+| **ThermalAppurtenanceTypeIMKLValue**                |                                                                       |
+|-----------------------------------------------------|----------------------------------------------------------------------|
 |                                      Naam          |                                                                       |
 |                                      Definitie:    | IMKL waardelijst voor toepassing INSPIRE ThermalAppurtenanceTypeValue.|
 |                                      Subtype van:  | ThermalAppurtenanceTypeValue                                          |
@@ -2225,8 +2225,8 @@ Geo object typen
 
 ### ThermalProductTypeIMKLValue
 
-| **ThermalProductTypeIMKLValue** |               |                                                                      |
-|---------------------------------|---------------|---------------------------------------------------------------------|
+| **ThermalProductTypeIMKLValue**                |                                                                      |
+|------------------------------------------------|---------------------------------------------------------------------|
 |                                 Naam          | Thermal Product Type IMKL                                            |
 |                                 Definitie:    | IMKL waardelijst voor toepassing INSPIRE Thermal Product Type.       |
 |                                 Subtype van:  | ThermalProductTypeValue                                              |
@@ -2236,8 +2236,8 @@ Geo object typen
 
 ### TopografischObjectTypeValue
 
-| **TopografischObjectTypeValue** |               |                                                                  |
-|---------------------------------|---------------|----------------------------------------------------------------|
+| **TopografischObjectTypeValue**                |                                                                  |
+|------------------------------------------------|----------------------------------------------------------------|
 |                                 Naam          |                                                                  |
 |                                 Definitie:    | Soort topografisch object.                                       |
 |                                 Omschrijving:| Typen gebaseerd op semantiek van IMGeo (grootschalige geografie) |
@@ -2246,8 +2246,8 @@ Geo object typen
 
 ### UtilityNetworkTypeIMKLValue
 
-| **UtilityNetworkTypeIMKLValue** |               |                                                                      |
-|---------------------------------|---------------|---------------------------------------------------------------------|
+| **UtilityNetworkTypeIMKLValue**                |                                                                      |
+|------------------------------------------------|---------------------------------------------------------------------|
 |                                 Naam          |                                                                      |
 |                                 Definitie:    | IMKL waardelijst voor toepassing INSPIRE UtilityNetworkTypeValue     |
 |                                 Subtype van:  | UtilityNetworkTypeValue                                              |
@@ -2257,8 +2257,8 @@ Geo object typen
 
 ### WaterAppurtenanceTypeIMKLValue
 
-| **WaterAppurtenanceTypeIMKLValue** |               |                                                                      |
-|------------------------------------|---------------|---------------------------------------------------------------------|
+| **WaterAppurtenanceTypeIMKLValue**|               |                                                                      |
+|---------------------------------------------------|---------------------------------------------------------------------|
 |                                    Naam          |                                                                      |
 |                                    Definitie:    | IMKL waardelijst voor toepassing INSPIRE WaterAppurtenanceTypeValue. |
 |                                    Subtype van:  | WaterAppurtenanceTypeValue                                           |
@@ -2268,8 +2268,8 @@ Geo object typen
 
 ### WaterTypeIMKLValue
 
-| **WaterTypeIMKLValue** |               |                                                                      |
-|------------------------|---------------|---------------------------------------------------------------------|
+| **WaterTypeIMKLValue**                |                                                                      |
+|---------------------------------------|---------------------------------------------------------------------|
 |                        Naam          |                                                                      |
 |                        Definitie:    | IMKL waardelijst voor toepassing INSPIRE WaterTypeValue.             |
 |                        Subtype van:  | WaterTypeValue                                                       |
@@ -2783,8 +2783,8 @@ Geo object typen
 
 ### WaterTypeValue
 
-| **WaterTypeValue**  |               |                                                                                                                                                                                                                                             |
-|---------------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **WaterTypeValue**                 |                                                                                                                                                                                                                                             |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                     Package:      | Water Network [Candidate type that might be extended in Annex II/III INSPIRE data specification]                                                                                                                                            |
 |                     Naam          | water type                                                                                                                                                                                                                                  |
 |                     Definitie:    | Classification of water types.                                                                                                                                                                                                              |
