@@ -390,17 +390,15 @@ De annotatietypen voor maatvoering zijn: maatvoeringshulplijn, maatvoeringslijn,
 maatvoeringspijl, maatvoeringspijlpunt of maatvoeringslabel. Een
 maatvoeringspijlpunt wordt middels een puntsymbool uitgewisseld.
 
-| **Waarde:**   | **maatvoeringshulplijn**                                                                             |
-|--------------|------------------------------------------------------------------------------------------------------|
-| Omschrijving: | Lijn om een hulplijn in een maatvoering te visualiseren                                              |
-| **Waarde:**   | **maatvoeringslijn**                                                                                 |
-| Omschrijving: | Lijn om een lijn in een maatvoering te visualiseren                                                  |
-| **Waarde:**   | **maatvoeringslabel**                                                                                |
-| Omschrijving: | Punt en label om een label in een maatvoering te visualiseren                                        |
-| **Waarde:**   | **maatvoeringspijlpunt**                                                                             |
-| Omschrijving: | Punt om een pijlpunt in een maatvoering te visualiseren. Is een punt met een bijbehorend puntsymbool |
-| **Waarde:**   | **maatvoeringspijl**                                                                                 |
-| Omschrijving: | Lijn met aan beide kanten een pijlpunt                                                               |
+
+| **Waarde**   | **Omschrijving**                                                                                     |
+|---------------|------------------------------------------------------------------------------------------------------|
+| maatvoeringshulplijn | Lijn om een hulplijn in een maatvoering te visualiseren                                              |
+| maatvoeringslijn | Lijn om een lijn in een maatvoering te visualiseren                                                  |
+| maatvoeringslabel | Punt en label om een label in een maatvoering te visualiseren                                        |
+| maatvoeringspijlpunt | Punt om een pijlpunt in een maatvoering te visualiseren. Is een punt met een bijbehorend puntsymbool |
+| maatvoeringspijl | Lijn met aan beide kanten een pijlpunt                                                               |
+
 
 Elke maatvoeringslijn wordt een apart object.
 

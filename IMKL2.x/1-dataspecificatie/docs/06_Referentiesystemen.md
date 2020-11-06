@@ -24,7 +24,7 @@ ETRS89 (2D): 4258
 
 ETRS89 + EVRS : 7423 (hoogte in meters tov EVRF2000 (=NAP).
 
-Zie voor meer detail hoofdstuk 6 van INSPIRE_Dataspecifications_US_v3.0.
+Zie voor meer detail Hoofdstuk 6 van [INSPIRE_Dataspecifications_US_v3.0.](https://inspire.ec.europa.eu/id/document/tg/us)
 
 Toelichting:
 Het ruimtelijk referentiesysteem beschrijft het meetkundige stelsel waarin de
