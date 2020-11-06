@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Aanvraag">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aanvraag</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De gegevens van de gebiedsinformatie-aanvraag.</skos:definition>
+    <skos:prefLabel xml:lang="nl">aanvraag</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Address">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adres</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An address provided as free text.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">adres</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/BGT_ID">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BGT-identificatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verwijzing naar het ID van het overeenkomstige object uit de Basisregistratie Grootschalige Topografie of pluslaag.</skos:definition>
+    <skos:prefLabel xml:lang="nl">BGT-identificatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/BeginLifespanVersion_IMKLBasis">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">begin levesduur versie (IMKLBasis)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De begindatum waarop een data object in de registratie werd aangemaakt, het begin van de levenscyclus van een data object.</skos:definition>
+    <skos:prefLabel xml:lang="nl">begin levesduur versie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/BeginLifespanVersion_NetworkElement">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">begin levensduur versie (NetworkElement)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date and time at which this version of the spatial object was inserted or changed in the spatial data set.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">begin levensduur versie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/BeheerderVeiligheidsgebied">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beheerder veiligheidsgebied</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gegevens van de  beheerder van het veiligheidsgebied.</skos:definition>
+    <skos:prefLabel xml:lang="nl">beheerder veiligheidsgebied</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Belanghebbende_GebiedsinformatieLevering">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">belanghebbende (GebiedsinformatieLevering)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verwijzing naar belanghebbende beheerder(s).</skos:definition>
+    <skos:prefLabel xml:lang="nl">belanghebbende</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Belanghebbende_IMKL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">belanghebbende (IMKL)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een belanghebbende beheerder is een beheerder met een beheerpolygoon dat geheel of gedeeltelijk ligt in de aangevraagde polygoon.</skos:definition>
+    <skos:prefLabel xml:lang="nl">belanghebbende</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Bijlage_Belanghebbende">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bijlage (Belanghebbende)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Documentbijlage bij gebiedsinformatie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">bijlage</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Bijlage_IMKL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bijlage (IMKL)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Documentbijlage.</skos:definition>
+    <skos:prefLabel xml:lang="nl">bijlage</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/BovengrondsZichtbaar_KabelEnLeidingContainer,Leidingelement">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bovengronds zichtbaar (KabelEnLeidingContainer, Leidingelement)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aangegeven wordt of het leidingelement bovengronds vanaf het maaiveld zichtbaar is.</skos:definition>
+    <skos:prefLabel xml:lang="nl">bovengronds zichtbaar</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/CentrelineGeometry">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geometrie hartlijn</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The geometry that represents the centreline of the link.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">geometrie hartlijn</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/ContactInstructions">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contactinstructies</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supplementary instructions on how or when to contact an individual or organisation.
+
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">contactinstructies</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Contact_BaseTypes2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contact (Base Types 2)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Communication channels by which it is possible to gain access to someone or something.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">contact</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Contact_IMKL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contact (IMKL)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contactgegevens.</skos:definition>
+    <skos:prefLabel xml:lang="nl">contact</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/DirectedLink">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gerichte link</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A link either in its positive or negative direction.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">gerichte link</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/EigenTopografie_Belanghebbende">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eigen topografie (Belanghebbende)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Topografie die door netbeheerder wordt toegevoegd voor relatieve plaatsbepaling van objecten.</skos:definition>
+    <skos:prefLabel xml:lang="nl">eigen topografie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/EigenTopografie_IMKL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eigen topografie (IMKL)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Topografie die extra wordt toegevoegd voor relatieve plaatsbepaling van objecten.</skos:definition>
+    <skos:prefLabel xml:lang="nl">eigen topografie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/EisVoorzorgsmaatregel">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eis voorzorgsmaatregel</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vermelding of er voorzorgsmaatregelen getroffen dienen te worden. Aangegeven wordt wat de voorzorgsmaatregel is. </skos:definition>
+    <skos:prefLabel xml:lang="nl">eis voorzorgsmaatregel</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/ElectronicMailAddress">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mailadres</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An address of the organisation's or individual's electronic mailbox.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">mailadres</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Elements">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elementen</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The collection of elements that constitutes the network.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">elementen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Email_AanvraagSoortContact,Contact">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">email (AanvraagSoortContact, Contact)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E-mail adres van het contact.</skos:definition>
+    <skos:prefLabel xml:lang="nl">email</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/EndLifespanVersion_IMKLBasis">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">einde levensduur versie (IMKLBasis)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De datum die het einde van een levenscyclus van een data object aangeeft. </skos:definition>
+    <skos:prefLabel xml:lang="nl">einde levensduur versie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/EndLifespanVersion_NetworkElement">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">einde levensduur versie (NetworkElement)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date and time at which this version of the spatial object was superseded or retired in the spatial data set.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">einde levensduur versie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/EndNode">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eindnode</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The optional end node for this link. The end node may be the same instance as the start node. </skos:definition>
+    <skos:prefLabel xml:lang="nl">eindnode</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/ExtraGeometrie_ContainerLeidingelement,KabelEnLeidingContainer,KabelOfLeiding,Leidingelement">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extra geometrie (ContainerLeidingelement, KabelEnLeidingContainer, KabelOfLeiding, Leidingelement)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extra geometrie naast de verplichte arc/node.</skos:definition>
+    <skos:prefLabel xml:lang="nl">extra geometrie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/ExtraGeometrie_IMKL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extra geometrie (IMKL)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verzamelobject voor extra geometrie van netwerkelementen. </skos:definition>
+    <skos:prefLabel xml:lang="nl">extra geometrie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Fictitious">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schematisch</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicator that the centreline geometry of the link is a straight line with no intermediate control points &amp;ndash; unless the straight line represents the geography in the resolution of the data set appropriately.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">schematisch</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/GeneralisedLink">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">link algemeen</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract base type representing a linear network element that may be used as a target in linear referencing.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">link algemeen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/GeoNauwkeurigheidXY">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geometrische nauwkeurigheid van XY</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicatie van de nauwkeurigheid in horizontaal vlak (x,y) waarmee de geometrie van de ligging van de leiding is aangegeven.</skos:definition>
+    <skos:prefLabel xml:lang="nl">geometrische nauwkeurigheid van XY</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/GeographicalName">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geografische naam</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographical name for this network.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">geografische naam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Geometry">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geometrie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The location of the node.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">geometrie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/GeraaktBelangBijGraafpolygoon">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geraakt belang bij graafpolygoon</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verwijzing naar gebied waar een belang is geraak door een graafpolygoon.</skos:definition>
+    <skos:prefLabel xml:lang="nl">geraakt belang bij graafpolygoon</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/GeraaktBelangBijInformatiepolygoon">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geraakt belang bij informatiepolygoon</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verwijzing naar gebied waar een belang is geraak door een informatiepolygoon.</skos:definition>
+    <skos:prefLabel xml:lang="nl">geraakt belang bij informatiepolygoon</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/GeraaktBelangBijOrientatiepolygoon">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geraakt belang bij oriëntatiepolygoon</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verwijzing naar gebied waar een belang is geraak door een orientatiepolygoon.</skos:definition>
+    <skos:prefLabel xml:lang="nl">geraakt belang bij oriëntatiepolygoon</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Graafpolygoon_GebiedsinformatieAanvraag">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">graafpolygoon (GebiedsinformatieAanvraag)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verwijzing naar graafpolygoon.</skos:definition>
+    <skos:prefLabel xml:lang="nl">graafpolygoon</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Graafpolygoon_IMKL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">graafpolygoon (IMKL)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een graafpolygoon is de weergave door een grondroerder van het gebied, waarbinnen de graaflocatie zich bevindt.</skos:definition>
+    <skos:prefLabel xml:lang="nl">graafpolygoon</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/HeeftExtraInformatie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extra informatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extra informatie over dit object.</skos:definition>
+    <skos:prefLabel xml:lang="nl">extra informatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/HoursOfService">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bereikbaarheidstijden</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periods of time when the organisation or individual can be contacted.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">bereikbaarheidstijden</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Identifier">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">identificatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">External unique object identifier published by the responsible body, which may be used by external applications to reference the spatial object.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">identificatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/InNetwork_ContainerLeidingelement,Diepte,ExtraGeometrie,ExtraInformatie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in netwerk (ContainerLeidingelement, Diepte, ExtraGeometrie, ExtraInformatie)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verwijzing naar het utiliteitsnet.</skos:definition>
+    <skos:prefLabel xml:lang="nl">in netwerk</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/InNetwork_NetworkElement">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in netwerk (NetworkElement)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The networks in which a network element is a member.</skos:definition>
+    <skos:prefLabel xml:lang="nl">in netwerk</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Informatiepolygoon_GebiedsinformatieAanvraag">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">informatiepolygoon (GebiedsinformatieAanvraag)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verwijzing naar informatiepolygoon.</skos:definition>
+    <skos:prefLabel xml:lang="nl">informatiepolygoon</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Informatiepolygoon_IMKL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">informatiepolygoon (IMKL)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een informatiepolygoon is de weergave door een grondroerder van het gebied, waarvoor gebiedsinformatie wordt gevraagd.</skos:definition>
+    <skos:prefLabel xml:lang="nl">informatiepolygoon</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/InspireId">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">identificatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">External object identifier of the spatial object.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">identificatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Labelpositie_Annotatie,Maatvoering">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">labelpositie (Annotatie, Maatvoering)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plaats van de labeltekst t.o.v. plaatsingspunt.</skos:definition>
+    <skos:prefLabel xml:lang="nl">labelpositie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Ligging_Annotatie,Maatvoering">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ligging (Annotatie, Maatvoering)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Positie of geometrie van de annotatie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">ligging</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/LinkSequence">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linksequentie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A network element which represents a continuous path in the network without any branches. The element has a defined beginning and end and every position on the link sequence is identifiable with one single parameter such as length. 
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">linksequentie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/LinkSet">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">verzameling van links</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A collection of link sequences and/or individual links that has a specific function or significance in a network. 
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">verzameling van links</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Link_DirectedLink">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">link (DirectedLink)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The link</skos:definition>
+    <skos:prefLabel xml:lang="nl">link</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Link_LinkSequence">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">link (LinkSequence)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The ordered collection of directed links that constitute the link sequence.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">link</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Link_LinkSet">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">link (LinkSet)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The set of links and link sequences that constitute the link set.</skos:definition>
+    <skos:prefLabel xml:lang="nl">link</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Link_Network">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">link (Network)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curvilinear network element that connects two positions and represents a homogeneous path in the network. The connected positions may be represented as nodes.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">link</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/LocalId">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lokale identificatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A local identifier, assigned by the data provider. The local identifier is unique within the namespace, that is no other spatial object carries the same unique identifier.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">lokale identificatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Naam_AanvraagSoortContact,Contact">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">naam (AanvraagSoortContact, Contact)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naam van het contact.</skos:definition>
+    <skos:prefLabel xml:lang="nl">naam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Namespace_Identifier">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">namespace (Identifier)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Namespace uniquely identifying the data source of the spatial object.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">namespace</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Namespace_NEN3610ID">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">namespace (NEN3610ID)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unieke verwijzing naar een registratie van objecten</skos:definition>
+    <skos:prefLabel xml:lang="nl">namespace</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Netbeheerder">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">netbeheerder</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gegevens van de belanghebbende beheerder.</skos:definition>
+    <skos:prefLabel xml:lang="nl">netbeheerder</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Network">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">netwerk</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A network is a collection of network elements.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">netwerk</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/NetworkElement">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">netwerkelement</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract base type representing an element in a network. Every element in a network provides some function that is of interest in the network.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">netwerkelement</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Node">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">node</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represents a significant position in the network that always occurs at the beginning or the end of a link.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">node</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Orientatiepolygoon_GebiedsinformatieAanvraag">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oriëntatiepolygoon (GebiedsinformatieAanvraag)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verwijzing naar orientatiepolygoon</skos:definition>
+    <skos:prefLabel xml:lang="nl">oriëntatiepolygoon</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Orientatiepolygoon_IMKL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oriëntatiepolygoon (IMKL)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een oriëntatiepolygoon is de weergave door een opdrachtgever, grondroerder, aanbieder of bestuursorgaan van een aangesloten gebied, ten aanzien waarvan deze om gebiedsinformatie verzoekt met het oog op respectievelijk het voorbereiden van graafwerkzaamheden, het voorbereiden van een verzoek tot medegebruik of coördinatie van civiele werken, of ten behoeve van de hem opgedragen taak.</skos:definition>
+    <skos:prefLabel xml:lang="nl">oriëntatiepolygoon</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/SpokeEnd">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linkbegin</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The links that enter the node.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">linkbegin</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/SpokeStart">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linkbegin</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The links that leave the node.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">linkbegin</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/StartNode">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beginnode</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The optional start node for this link.</skos:definition>
+    <skos:prefLabel xml:lang="nl">beginnode</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Telefoon_AanvraagSoortContact,Contact">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">telefoon (AanvraagSoortContact, Contact)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Telefoon van het contact.</skos:definition>
+    <skos:prefLabel xml:lang="nl">telefoon</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/TelephoneFacsimile">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fax</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of a facsimile machine of the organisation or individual.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">fax</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/TelephoneVoice">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">telefoon</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Telephone number of the organisation or individual.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">telefoon</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Thema_EisVoorzorgsmaatregelBijlage,Utiliteitsnet">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thema (EisVoorzorgsmaatregelBijlage, Utiliteitsnet)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Het thema geeft aan welk type leiding het betreft en welke functie de leidingen hebben. Bijvoorbeeld datatransport, gas lage druk, laagspanning, riool etc. Gekozen kan worden uit een lijst van thema’s</skos:definition>
+    <skos:prefLabel xml:lang="nl">thema</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Utiliteitsnet_Belanghebbende">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">utiliteitsnet (Belanghebbende)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informatie over ligging van utiliteitsnet en de onderdelen daarvan.</skos:definition>
+    <skos:prefLabel xml:lang="nl">utiliteitsnet</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Utiliteitsnet_IMKL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">utiliteitsnet (IMKL)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een verzameling netwerkelementen die tot één type nutsvoorzieningennet behoren.</skos:definition>
+    <skos:prefLabel xml:lang="nl">utiliteitsnet</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/VersionId">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">versie identificatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The identifier of the particular version of the spatial object, with a maximum length of 25 characters. If the specification of a spatial object type with an external object identifier includes life-cycle information, the version identifier is used to distinguish between the different versions of a spatial object. Within the set of all versions of a spatial object, the version identifier is unique. 
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">versie identificatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Website_Contact">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">website (Contact)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pages provided on the World Wide Web by the organisation or individual.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">website</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Website_Organisatie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">website (Organisatie)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Website van de organisatie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">website</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/AanduidingEisVoorzorgsmaatregel">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aanduiding eis voorzorgsmaatregel</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aanduiding van een netelement waarop een eis voorzorgsmaatregel van toepassing is. Dit is een wettelijke eis.</skos:definition>
+    <skos:prefLabel xml:lang="nl">aanduiding eis voorzorgsmaatregel</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/AangrijpingHorizontaal">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aangrijpingspunt horizontaal</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Punt op de horiziontale as in labeltekst dat geldt als referentie voor plaatsingspunt.</skos:definition>
+    <skos:prefLabel xml:lang="nl">aangrijpingspunt horizontaal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/AangrijpingVerticaal">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aangrijpingspunt verticaal</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Punt op de verticale as in labeltekst dat geldt als referentie voor plaatsingspunt.</skos:definition>
+    <skos:prefLabel xml:lang="nl">aangrijpingspunt verticaal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/AanvraagDatum">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aanvraagdatum</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De datumtijd waarop de gebiedsinformatie-aanvraag is aangevraagd.-</skos:definition>
+    <skos:prefLabel xml:lang="nl">aanvraagdatum</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/AanvraagSoortContact">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contact per type soort aanvraag</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Het contactadres (meldadres) bij de netbeheerder waar de grondroerder contact mee kan opnemen voor informatie over (het) geraakte belang(en).</skos:definition>
+    <skos:prefLabel xml:lang="nl">contact per type soort aanvraag</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/AanvraagSoort_AanvraagSoortContact">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soort aanvraag (AanvraagSoortContact)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Typering van contact in relatie tot het type melding of verzoek.</skos:definition>
+    <skos:prefLabel xml:lang="nl">soort aanvraag</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/AanvraagSoort_GebiedsinformatieAanvraag">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soort aanvraag (GebiedsinformatieAanvraag)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soort gebiedsinformatie-aanvraag.</skos:definition>
+    <skos:prefLabel xml:lang="nl">soort aanvraag</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Aanvrager_GebiedsinformatieAanvraag">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aanvrager (GebiedsinformatieAanvraag)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De gegevens van de aanvrager van gebiedsinformatie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">aanvrager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Aanvrager_IMKL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aanvrager (IMKL)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een aanvrager van gebiedsinformatie is een persoon die of bedrijf dat wil weten welke kabels en leidingen er in een bepaald gebied onder de grond liggen.</skos:definition>
+    <skos:prefLabel xml:lang="nl">aanvrager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/AchtergrondkaartSoort">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soort achtergrondkaart</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soort achtergrondkaart (Kadaster: bgtBestaand/bgtPlan; netbeheerder: eigenTopoBestaand/eigenTopoPlan).</skos:definition>
+    <skos:prefLabel xml:lang="nl">soort achtergrondkaart</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Achtergrondkaart_GebiedsinformatieLevering">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">achtergrondkaart (GebiedsinformatieLevering)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaart ter oriëntering met behulp van topografie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">achtergrondkaart</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Achtergrondkaart_IMKL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">achtergrondkaart (IMKL)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Referentie naar achtergrondkaart met grootschalige topografie (bestaand of gepland) behorend bij het aangevraagde gebied.</skos:definition>
+    <skos:prefLabel xml:lang="nl">achtergrondkaart</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Adres_ExtraDetailinfo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adres (ExtraDetailinfo)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adresaanduiding conform BAG</skos:definition>
+    <skos:prefLabel xml:lang="nl">adres</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Adres_IMKL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adres (IMKL)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beschrijving van een locatie van door middel van een adres.</skos:definition>
+    <skos:prefLabel xml:lang="nl">adres</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/BAGid">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAG-identificatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAG identifier van een AdreseerbaarObject of een Nummeraanduiding zoals geregistreerd bij de BAG.</skos:definition>
+    <skos:prefLabel xml:lang="nl">BAG-identificatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Beheerder">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beheerder</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een persoon of een organisatie die een net of een veiligheidsgebied beheert.</skos:definition>
+    <skos:prefLabel xml:lang="nl">beheerder</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/BeheerdersinformatieGeleverd">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beheerdersinformatie geleverd</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicator die aangeeft of de belanghebbende al (correcte) beheerdersinformatie heeft aangeleverd voor de betreffende aanvraag.</skos:definition>
+    <skos:prefLabel xml:lang="nl">beheerdersinformatie geleverd</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Beheerpolygoon">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beheerpolygoon</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locatie waar een netbeheerder een belang heeft gerelateerd aan de uitvoering van de wet WION.</skos:definition>
+    <skos:prefLabel xml:lang="nl">beheerpolygoon</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Belang">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">belang</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een gebied waarin een netbeheerder een of meerdere netten heeft.</skos:definition>
+    <skos:prefLabel xml:lang="nl">belang</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/BelangGeneriek">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">belang generiek</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een gebied waarin een netbeheerder een of meerdere netten heeft. Of het is een veiligheidsgebied.</skos:definition>
+    <skos:prefLabel xml:lang="nl">belang generiek</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/BetrokkenBijAanvraag">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">betrokken bij aanvraag</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indien binnen de gevraagde polygoon géén kabels/leidingen liggen, en er daarom geen netinformatie geleverd kan worden, wordt deze indicator op “Nee” gezet, in alle andere gevallen is deze “Ja”.</skos:definition>
+    <skos:prefLabel xml:lang="nl">betrokken bij aanvraag</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/BezoekAdres">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bezoekadres</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Het bezoekadres van de organisatie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">bezoekadres</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/BovengrondsZichtbaar_ContainerLeidingelement">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bovengronds zichtbaar (ContainerLeidingelement)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aangegeven wordt of het containerleidingelement bovengronds vanaf het maaiveld zichtbaar is.</skos:definition>
+    <skos:prefLabel xml:lang="nl">bovengronds zichtbaar</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Bronhoudercode">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronhoudercode</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Code van de beheerder.</skos:definition>
+    <skos:prefLabel xml:lang="nl">bronhoudercode</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/ContactAanvraag">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contact aanvraag</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Het contactadres bij de netbeheerder waar de grondroerder contact mee kan opnemen voor informatie over (het) geraakte belang(en) bij een aangegeven aanvraagsoort.</skos:definition>
+    <skos:prefLabel xml:lang="nl">contact aanvraag</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/ContactBeschadiging">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contact beschadiging</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contactinformatie bij opgetreden beschadiging.</skos:definition>
+    <skos:prefLabel xml:lang="nl">contact beschadiging</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/ContactNetinformatie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contact netinformatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contactgegevens voor netinformatie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">contact netinformatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/ContactVoorzorgsmaatregel">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contact</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contactgegevens behorende bij EV.</skos:definition>
+    <skos:prefLabel xml:lang="nl">contact</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Contactpersoon_Aanvrager">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contactpersoon (Aanvrager)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Persoon als aanspreekpunt namens aanvrager.</skos:definition>
+    <skos:prefLabel xml:lang="nl">contactpersoon</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Contactpersoon_Opdrachtgever">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contactpersoon (Opdrachtgever)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Persoon als aanspreekpunt namens opdrachtgever.</skos:definition>
+    <skos:prefLabel xml:lang="nl">contactpersoon</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/DatumLeveringSamengesteld">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">datum levering samengesteld</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Het moment waarop de betreffende levering met gebiedsinformatie is samengesteld.</skos:definition>
+    <skos:prefLabel xml:lang="nl">datum levering samengesteld</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/DiepteNAP">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diepte NAP</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Object dat dient om de afstand weer te geven van het NAP-nulpunt tot de bovenkant van kabel of leiding, leidingcontainer, leidingelement of containerleidingelement.</skos:definition>
+    <skos:prefLabel xml:lang="nl">diepte NAP</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/EindDatum_GebiedsinformatieAanvraag">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">einddatum (GebiedsinformatieAanvraag)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De geplande einddatum van de werkzaamheden waarvoor de gebiedsinformatie-aanvraag is ingediend.</skos:definition>
+    <skos:prefLabel xml:lang="nl">einddatum</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Einddatum_BelangGeneriek">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">einddatum (BelangGeneriek)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Datum tot wanneer het belang van toepassing is.</skos:definition>
+    <skos:prefLabel xml:lang="nl">einddatum</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Email_Organisatie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">email (Organisatie)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Het e-mail adres van de organisatie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">email</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/ExtraContact">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extra contact</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extra contact naast dat van de contactpersoon.</skos:definition>
+    <skos:prefLabel xml:lang="nl">extra contact</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Fax">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fax</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Het faxnummer van de organisatie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">fax</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/GebiedsinformatieAanvraag">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gebiedsinformatie-aanvraag</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aanvraag van gebiedsinformatie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">gebiedsinformatie-aanvraag</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/GebiedsinformatieLevering">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gebiedsinformatielevering</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gebiedsinformatie is het geheel van informatie dat door beheerders, via de Dienst wordt verstrekt over de betrokken orientatiepolygoon dan wel graafpolygoon.</skos:definition>
+    <skos:prefLabel xml:lang="nl">gebiedsinformatielevering</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Geometrie3D">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geometrie (3D)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Representatie van het netwerkelement als 3D volume.</skos:definition>
+    <skos:prefLabel xml:lang="nl">geometrie (3D)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/GeometrieVoorVisualisatie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geometrie voor visualisatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geometrie die specifiek is gecreëerd voor de visualisatie van het gebied tussen de graafpolygoon en de buitenring van de informatiepolygoon.</skos:definition>
+    <skos:prefLabel xml:lang="nl">geometrie voor visualisatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Geometrie_AanduidingEisVoorzorgsmaatregel">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geometrie (AanduidingEisVoorzorgsmaatregel)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geometrie die aangeeft op welk element een eis voorzorgsmaatregel van toepassing is.</skos:definition>
+    <skos:prefLabel xml:lang="nl">geometrie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Geometrie_Graafpolygoon">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geometrie (Graafpolygoon)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De geometrie van het gebied (een polygoon) waarbinnen gegraven gaat worden.</skos:definition>
+    <skos:prefLabel xml:lang="nl">geometrie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Geometrie_Informatiepolygoon">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geometrie (Informatiepolygoon)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De geometrie van het gebied (een polygoon) waarover informatie gevraagd wordt, niet zijnde het graafgebied.
+Een eventueel opgegeven informatiegebied moet een graafgebied volledig omvatten.</skos:definition>
+    <skos:prefLabel xml:lang="nl">geometrie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Geometrie_Orientatiepolygoon">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geometrie (Orientatiepolygoon)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De geometrie van het gebied (een polygoon) dat een persoon of organisatie tekent om daar informatie over kabels en leidingen van te ontvangen.</skos:definition>
+    <skos:prefLabel xml:lang="nl">geometrie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/GewensteEinddatum">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gewenste einddatum</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gewenste datum tot wanneer het belang van toepassing is.</skos:definition>
+    <skos:prefLabel xml:lang="nl">gewenste einddatum</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/GewensteIngangsdatum">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gewenste ingangsdatum</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gewenste datum vanaf wanneer een belang van toepassing is.</skos:definition>
+    <skos:prefLabel xml:lang="nl">gewenste ingangsdatum</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/HuisaansluitingAdressen">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">huisaansluiting adressen</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lijst van adressen waarvoor huisaansluitschetsen (extra detailinformatie, type huisaansluiting) gevraagd wordt.</skos:definition>
+    <skos:prefLabel xml:lang="nl">huisaansluiting adressen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/IMKLBasis">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMKL basis</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract data object dat de basis attributen bevat van de IMKL extensie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">IMKL basis</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/IndicatieEisVoorzorgsmaatregel">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicatie eis voorzorgsmaatregel</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is er bij deze belanghebbende sprake van een eisVoorzorgmaatregel bij één van de aangeleverde thema's (J/N).</skos:definition>
+    <skos:prefLabel xml:lang="nl">indicatie eis voorzorgsmaatregel</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/IndicatieLeveringCompleet">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicatie levering compleet</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicator die aangeeft of de levering compleet is (dus, of alle netbeheerders al hebben geleverd).</skos:definition>
+    <skos:prefLabel xml:lang="nl">indicatie levering compleet</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Ingangsdatum">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingangsdatum</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Datum vanaf wanneer een belang van toepassing is.</skos:definition>
+    <skos:prefLabel xml:lang="nl">ingangsdatum</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Kaartreferentie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kaartreferentie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Referentie naar een achtergrondkaart.</skos:definition>
+    <skos:prefLabel xml:lang="nl">kaartreferentie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/KlicMeldnummer">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KLIC-meldnummer</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een unieke identificatie die al sinds jaar en dag aan een gebiedsinformatie-aanvraag (Klic-melding) wordt toegekend en nog steeds veel in de graafsector wordt gebruikt.</skos:definition>
+    <skos:prefLabel xml:lang="nl">KLIC-meldnummer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/KvkNummer">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KvK-nummer</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KvK nummer van de aanvrager van gebiedsinformatie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">KvK-nummer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Label">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">label</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract data object dat de labelattributen bevat van de IMKL extensie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">label</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Labelpositie_IMKL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">labelpositie (IMKL)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Punt op de horiziontale - en verticale as in labeltekst dat geldt als referentie voor plaatsingspunt.</skos:definition>
+    <skos:prefLabel xml:lang="nl">labelpositie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Landcode_Adres">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">landcode (Adres)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tweeletterige afkorting van de landsnaam conform ISO 3166 - Country codes</skos:definition>
+    <skos:prefLabel xml:lang="nl">landcode</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Landcode_PostbusAdres">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">landcode (PostbusAdres)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Landcode van het postbusadres (zie codelijst).</skos:definition>
+    <skos:prefLabel xml:lang="nl">landcode</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Leveringsvolgnummer">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leveringsvolgnummer</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Volgnummer van de levering (binnen de aanvraag). Indien de gebiedsinformatie in meerdere keren wordt uitgeleverd (bijv. omdat 1 of meer netbeheerders te laat leveren) wordt dit nummer steeds opgehoogd.</skos:definition>
+    <skos:prefLabel xml:lang="nl">leveringsvolgnummer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Ligging_Diepte">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ligging (Diepte)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locatie van het dieptegegeven.</skos:definition>
+    <skos:prefLabel xml:lang="nl">ligging</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Ligging_EigenTopografie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ligging (EigenTopografie)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plaatsaanduiding van de extra topografie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">ligging</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Ligging_ExtraDetailinfo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ligging (ExtraDetailinfo)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locatie waar de detailinformatie op van toepassing is.</skos:definition>
+    <skos:prefLabel xml:lang="nl">ligging</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/LocatieOmschrijving">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locatieomschrijving</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een omschrijving van de locatie van de werkzaamheden waar de gebiedsinformatie-aanvraag voor is ingediend.</skos:definition>
+    <skos:prefLabel xml:lang="nl">locatieomschrijving</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/LocatieWerkzaamheden">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locatie werkzaamheden</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Het adres of dichtstbijzijnd adres van de locatie van de werkzaamheden waar de gebiedsinformatie-aanvraag voor is ingediend.</skos:definition>
+    <skos:prefLabel xml:lang="nl">locatie werkzaamheden</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/LokaalID">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lokale identificatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unieke identificatiecode binnen een registratie</skos:definition>
+    <skos:prefLabel xml:lang="nl">lokale identificatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Mobiel">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobiel</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Het mobiele telefoonnummer van de organisatie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">mobiel</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/NEN3610ID">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">identificatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">identificatiegegevens voor de universeel unieke identificatie van een object</skos:definition>
+    <skos:prefLabel xml:lang="nl">identificatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Naam_Organisatie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">naam (Organisatie)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De naam van de organisatie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">naam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Omschrijving">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">omschrijving</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In tekst omschreven belang dat een netbeheerder in dit gebied heeft.</skos:definition>
+    <skos:prefLabel xml:lang="nl">omschrijving</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/OmschrijvingWerkzaamheden">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">omschrijving werkzaamheden</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een toelichtende omschrijving van de werkzaamheden.</skos:definition>
+    <skos:prefLabel xml:lang="nl">omschrijving werkzaamheden</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Opdrachtgever_GebiedsinformatieAanvraag">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opdrachtgever (GebiedsinformatieAanvraag)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gegevens van de opdrachtgever voor de aanvraag van gebiedsinformatie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">opdrachtgever</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Opdrachtgever_IMKL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opdrachtgever (IMKL)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een opdrachtgever is een persoon die opdracht geeft om te graven in een bepaald gebied.</skos:definition>
+    <skos:prefLabel xml:lang="nl">opdrachtgever</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Ordernummer">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ordernummer</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Het nummer van de verkooporder van de aanvraag zoals deze bij KLIC bekend is.</skos:definition>
+    <skos:prefLabel xml:lang="nl">ordernummer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Organisatie_Aanvrager">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organisatie (Aanvrager)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organisatie die aanvraag doet.</skos:definition>
+    <skos:prefLabel xml:lang="nl">organisatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Organisatie_Beheerder">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organisatie (Beheerder)</rdfs:label>
+    <skos:prefLabel xml:lang="nl">organisatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Organisatie_IMKL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organisatie (IMKL)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gegevens van de aanvrager van gebiedsinformatie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">organisatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Organisatie_Opdrachtgever">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organisatie (Opdrachtgever)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organisatie die als opdrachtgever optreedt.</skos:definition>
+    <skos:prefLabel xml:lang="nl">organisatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Overig">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">overig</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een type kabel of leiding die niet onder de andere benoemde typen valt.</skos:definition>
+    <skos:prefLabel xml:lang="nl">overig</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/OverigSpecifiek">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">overig specifiek</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract data object dat de overig-specifieke attributen bevat van de IMKL extensie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">overig specifiek</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/PipeDiameter">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">buisdiameter</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pipe outer diameter.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">buisdiameter</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Positienummer">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positienummer</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Het regelnummer (positienummer) van de verkooporder waarbij de aanvraag van het Klic-product is vastgelegd.</skos:definition>
+    <skos:prefLabel xml:lang="nl">positienummer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/PostbusAdres_IMKL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postbusadres (IMKL)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De gegevens van een adres voor een bus of vak in een postkantoor.</skos:definition>
+    <skos:prefLabel xml:lang="nl">postbusadres</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/PostbusAdres_Organisatie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postbusadres (Organisatie)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Het postbusadres van de organisatie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">postbusadres</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Postbusnummer">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postbusnummer</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Het postbusnummer van het postbusadres.</skos:definition>
+    <skos:prefLabel xml:lang="nl">postbusnummer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Postcode_Adres">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postcode (Adres)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De door TNT Post vastgestelde code behorende bij een
+bepaalde combinatie van een straatnaam en een
+huisnummer.</skos:definition>
+    <skos:prefLabel xml:lang="nl">postcode</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Postcode_PostbusAdres">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postcode (PostbusAdres)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De postcode van het postbusadres.</skos:definition>
+    <skos:prefLabel xml:lang="nl">postcode</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Pressure">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">druk</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The maximum allowable operating pressure at which a product is conveyed through a pipe.
+</skos:definition>
+    <skos:prefLabel xml:lang="nl">druk</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Producttype">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type product</rdfs:label>
+    <skos:prefLabel xml:lang="nl">type product</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Referentie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">referentie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De eigen referentie die de aanvrager aan de gebiedsinformatie-aanvraag heeft gegeven.</skos:definition>
+    <skos:prefLabel xml:lang="nl">referentie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/SoortWerkzaamheden">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soort werkzaamheden</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soort graafwerkzaamheden (zie codelijst).</skos:definition>
+    <skos:prefLabel xml:lang="nl">soort werkzaamheden</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/StartDatum">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">startdatum</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De geplande startdatum van de werkzaamheden waarvoor de gebiedsinformatie-aanvraag is ingediend.</skos:definition>
+    <skos:prefLabel xml:lang="nl">startdatum</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Telefoon_Organisatie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">telefoon (Organisatie)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Het vaste telefoonnummer van de organiatie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">telefoon</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Thema_Belang">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thema (Belang)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Het thema geeft aan welk type leiding het betreft en welke functie de leidingen hebben. Bijvoorbeeld datatransport, gas lage druk, laagspanning, riool etc. Gekozen kan worden uit een lijst van thema’s.</skos:definition>
+    <skos:prefLabel xml:lang="nl">thema</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Veiligheidsgebied">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">veiligheidsgebied</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een veiligheidsgebied is een door de Minister aangewezen gebied waarvan om veiligheidsredenen kan worden afgeweken van de voorschriften zoals gesteld bij of krachtens hoofstuk 4 WION: Informatie-uitwisseling ten behoeve van graafwerkzaamheden.</skos:definition>
+    <skos:prefLabel xml:lang="nl">veiligheidsgebied</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Vlakgeometrie2.5D">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vlakgeometrie (2.5D)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.5D vlakrepresentatie van het netwerkelement.</skos:definition>
+    <skos:prefLabel xml:lang="nl">vlakgeometrie (2.5D)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Vlakgeometrie2D">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vlakgeometrie (2D)</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tweedimensionale vlakrepresentatie van het netwerkelement.</skos:definition>
+    <skos:prefLabel xml:lang="nl">vlakgeometrie (2D)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/VoorbereidingCoordinatieCivieleWerken">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">voorbereiding coördinatie civiele werken</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oriëntatieverzoek door telecomaanbieder ter voorbereiding op een verzoek tot coördinatie van civiele werken.</skos:definition>
+    <skos:prefLabel xml:lang="nl">voorbereiding coördinatie civiele werken</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/VoorbereidingMedegebruikFysiekeInfrastructuur">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">voorbereiding medegebruik fysieke infrastructuur</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oriëntatieverzoek door telecomaanbieder ter voorbereiding op een verzoek tot medegebruik fysieke infrastructuur.</skos:definition>
+    <skos:prefLabel xml:lang="nl">voorbereiding medegebruik fysieke infrastructuur</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/WebsiteKlic">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">website KLIC</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Startpagina van de website van de (net)beheerder met specifieke informatie voor de Klic-sector (graafsector).</skos:definition>
+    <skos:prefLabel xml:lang="nl">website KLIC</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/AantalKabelsLeidingen">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aantal kabels en leidingen</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aantal kabels leidingen of buizen dat zich in het containerelement bevindt. </skos:definition>
+    <skos:prefLabel xml:lang="nl">aantal kabels en leidingen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Annotatie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">annotatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;font color="#1d1819"&gt;Teksten en symbolen weergegeven in het kaartbeeld.&lt;/font&gt;</skos:definition>
+    <skos:prefLabel xml:lang="nl">annotatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/AnnotatieType">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type annotatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aard van de opgenomen annotatie</skos:definition>
+    <skos:prefLabel xml:lang="nl">type annotatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Appurtenance">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leidingelement</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een leidingelement dat door zijn type wordt beschreven (via het attribuut appurtenanceType).</skos:definition>
+    <skos:prefLabel xml:lang="nl">leidingelement</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/BestandIdentificator">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bestandidentificatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unieke identificator van een bestand.</skos:definition>
+    <skos:prefLabel xml:lang="nl">bestandidentificatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/BestandLocatie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bestandlocatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bestandsnaam van het bestand dat meegegeven wordt.</skos:definition>
+    <skos:prefLabel xml:lang="nl">bestandlocatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/BestandMediaType">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type bestandmedia</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Media type van een bestand.</skos:definition>
+    <skos:prefLabel xml:lang="nl">type bestandmedia</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/BijlageType">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type bijlage</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beschrijft het type bijlage.</skos:definition>
+    <skos:prefLabel xml:lang="nl">type bijlage</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/BuisSpecifiek">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">buis specifiek</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract data object dat de buis-specifieke attributen bevat van de IMKL extensie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">buis specifiek</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/BuismateriaalType">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type buismateriaal</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Materiaal waaruit de buis bestaat.</skos:definition>
+    <skos:prefLabel xml:lang="nl">type buismateriaal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/ContainerLeidingelement">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">container van leidingelementen</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract data object dat de gemeenschappelijke attributen en associaties bevat voor alle containerleidingelement objecten.</skos:definition>
+    <skos:prefLabel xml:lang="nl">container van leidingelementen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/DatumOpmetingDieptePeil">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">datum opmeting dieptepeil</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De datum waarop het dieptepeil werd opgemeten.</skos:definition>
+    <skos:prefLabel xml:lang="nl">datum opmeting dieptepeil</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/DatumOpmetingMaaiveldPeil">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">datum opmeting maaiveldpeil</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De datum waarop het maaiveldpeil werd opgemeten.</skos:definition>
+    <skos:prefLabel xml:lang="nl">datum opmeting maaiveldpeil</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Diepte">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diepte</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract data object dat de gemeenschappelijke attributen en associaties bevat voor de diepte objecten.</skos:definition>
+    <skos:prefLabel xml:lang="nl">diepte</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/DiepteAangrijpingspunt">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diepte aangrijpingspunt</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benoeming van welk aangrijpingspunt van het object de diepte is bepaald.</skos:definition>
+    <skos:prefLabel xml:lang="nl">diepte aangrijpingspunt</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/DiepteNauwkeurigheid">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dieptenauwkeurigheid</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De nauwkeurigheid van de dekking van een KabelOfLeiding of KabelEnLeidingContainer object of diepte van een Leidingelement of ContainerLeidingelement object.</skos:definition>
+    <skos:prefLabel xml:lang="nl">dieptenauwkeurigheid</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/DieptePeil">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dieptepeil</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geeft de afstand weer vanaf de referentie – NAP of maaiveld – tot bovenkant van een KabelOfLeiding, KabelEnLeidingcontainer, Leidingelement of ContainerLeidingelement. Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via 1 van de volgende OGC URN codes: • urn:ogc:def:uom:OGC::m • urn:ogc:def:uom:OGC::cm • urn:ogc:def:uom:OGC::mm.
+Voor WIBON is de eenheid altijd meter en een getal met ten hoogste 2 decimalen.</skos:definition>
+    <skos:prefLabel xml:lang="nl">dieptepeil</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/DiepteTovMaaiveld">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diepte tov maaiveld</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Object dat dient om de afstand weer te geven vanaf het maaiveld tot de bovenkant van kabel of leiding, leidingcontainer, leidingelement of containerleidingelement.</skos:definition>
+    <skos:prefLabel xml:lang="nl">diepte tov maaiveld</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Dieptelegging">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dieptelegging</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diepte waarop het object is gelegd.</skos:definition>
+    <skos:prefLabel xml:lang="nl">dieptelegging</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Duct">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behuizing</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een behuizing die ertoe dient om door middel van een omhullende constructie kabels en leidingen te beschermen en geleiden. </skos:definition>
+    <skos:prefLabel xml:lang="nl">behuizing</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/EanCode">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EAN-code</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aansluiting identificatie code voor aansluiting op het elektriciteitsnet en gasnet van Nederland.</skos:definition>
+    <skos:prefLabel xml:lang="nl">EAN-code</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/EisVoorzorgsmaatregelBijlage">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eis voorzorgsmaatregel bijlage</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bijlage met de vermelding welke voorzorgsmaatregelen getroffen dienen te worden. Aangegeven wordt wat de voorzorgsmaatregel is met de hoogste prioriteit.</skos:definition>
+    <skos:prefLabel xml:lang="nl">eis voorzorgsmaatregel bijlage</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Elektriciteitskabel">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elektriciteitskabel</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een aansluiting of reeks aansluitingen van een nutsvoorzieningennet voor het overbrengen van elektriciteit van de ene locatie naar een andere.</skos:definition>
+    <skos:prefLabel xml:lang="nl">elektriciteitskabel</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/ExtraDetailinfo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extra detailinformatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Object dat extra informatie over één of meerdere utility network elementen weergeeft via bijkomende bestanden.</skos:definition>
+    <skos:prefLabel xml:lang="nl">extra detailinformatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/ExtraInfoType">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type extra informatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beschrijft het type detailinformatie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">type extra informatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/ExtraInformatie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extra informatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informatie toegevoegd aan objecten.</skos:definition>
+    <skos:prefLabel xml:lang="nl">extra informatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Hoogte">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hoogte</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De hoogte of lengte van het object.</skos:definition>
+    <skos:prefLabel xml:lang="nl">hoogte</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Huisletter">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">huisletter</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een door of namens het gemeentebestuur ten aanzien
+van een adresseerbaar object toegekende toevoeging
+aan een huisnummer in de vorm van een alfanumeriek
+teken.</skos:definition>
+    <skos:prefLabel xml:lang="nl">huisletter</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Huisnummer">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">huisnummer</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een door of namens het gemeentebestuur ten aanzien
+van een adresseerbaar object toegekende nummering.</skos:definition>
+    <skos:prefLabel xml:lang="nl">huisnummer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Huisnummertoevoeging">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">huisnummertoevoeging</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een door of namens het gemeentebestuur ten aanzien
+van een adresseerbaar object toegekende nadere
+toevoeging aan een huisnummer of een combinatie van
+huisnummer en huisletter.</skos:definition>
+    <skos:prefLabel xml:lang="nl">huisnummertoevoeging</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Identificatie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">identificatie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unieke identificatie van het object binnen het domein van NEN 3610.</skos:definition>
+    <skos:prefLabel xml:lang="nl">identificatie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/KabelEnLeidingContainer">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kabel- en leidingcontainer</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract data object dat de gemeenschappelijke attributen en associaties bevat voor alle kabel- en leidingcontainer objecten.</skos:definition>
+    <skos:prefLabel xml:lang="nl">kabel- en leidingcontainer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/KabelOfLeiding">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kabel of leiding</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leidingen, buizen of kabels bestemd voor voortgeleiding van energie, materie of data.</skos:definition>
+    <skos:prefLabel xml:lang="nl">kabel of leiding</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/KabelSpecifiek">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kabel specifiek</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract data object dat de kabel-specifieke attributen bevat van de IMKL extensie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">kabel specifiek</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Kabelbed">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kabelbed</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kabelbed of Geul: Ruimtebeslag dat door een gemeenschappelijk tracé van één of meer kabels,  buizen, HDPE- en/of mantelbuizen  – die toebehoren aan één netbeheerder - wordt gevormd.</skos:definition>
+    <skos:prefLabel xml:lang="nl">kabelbed</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Kast">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kast</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eenvoudig kast-object dat nutsvoorzieningenobjecten kan bevatten die tot een of meer nutsvoorzieningennetwerken behoren.</skos:definition>
+    <skos:prefLabel xml:lang="nl">kast</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Leidingelement">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leidingelement</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een object dat bij één of meerdere leidingen behoort en als node in het netwerkmodel is opgenomen.</skos:definition>
+    <skos:prefLabel xml:lang="nl">leidingelement</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/MaaiveldPeil">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maaiveldpeil</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoogte van het maaiveld t.o.v. NAP.</skos:definition>
+    <skos:prefLabel xml:lang="nl">maaiveldpeil</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Maatvoering">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maatvoering</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;font color="#1d1819"&gt;Teksten en symbolen weergegeven in het kaartbeeld.&lt;/font&gt;</skos:definition>
+    <skos:prefLabel xml:lang="nl">maatvoering</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/MaatvoeringsType">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type maatvoering</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aard van de opgenomen annotatie</skos:definition>
+    <skos:prefLabel xml:lang="nl">type maatvoering</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Mangat">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mangat</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eenvoudig omhullingsobject dat een of meer nutsvoorzieningennetobjecten kan bevatten.</skos:definition>
+    <skos:prefLabel xml:lang="nl">mangat</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Mantelbuis">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mantelbuis</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beschermingsbuis.</skos:definition>
+    <skos:prefLabel xml:lang="nl">mantelbuis</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Mast">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mast</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eenvoudig mast-object dat dienst kan doen als drager van nutsvoorzieningenobjecten van een of meer nutsvoorzieningnetten</skos:definition>
+    <skos:prefLabel xml:lang="nl">mast</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/NetbeheerderNetAanduiding">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">netbeheerder netaanduiding</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aanduiding van het risico dat aan een utiliteitsnet of netelement gegeven kan worden ten behoeve van de bepaling of en welke voorzorgsmaatregelen getroffen dienen te worden.</skos:definition>
+    <skos:prefLabel xml:lang="nl">netbeheerder netaanduiding</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/NetbeheerderNetOmschrijving">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">netbeheerder netomschrijving</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Omschrijving bij een risico classificering die aan (onderdeel van een) kabel- of leiding netwerk gegeven kan worden. Op basis van dit risico moeten mogelijk voorzorgsmaatregelen getroffen worden bij het uitvoeren van werkzaamheden.</skos:definition>
+    <skos:prefLabel xml:lang="nl">netbeheerder netomschrijving</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/NetbeheerderWerkAanduiding">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">netbeheerder werkaanduiding</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aanduiding van het risico dat aan de soort werkzaamheden gegeven is bij de bepaling van de te nemen eis voorzorgsmaatregelen.</skos:definition>
+    <skos:prefLabel xml:lang="nl">netbeheerder werkaanduiding</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/OlieGasChemicalienPijpleiding">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olie-, gas- of chemicaliënpijpleiding</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een pijpleiding voor het overbrengen van olie, gas of chemicaliën van de ene locatie naar een andere.</skos:definition>
+    <skos:prefLabel xml:lang="nl">olie-, gas- of chemicaliënpijpleiding</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/OpenbareRuimteNaam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">openbare ruimte naam</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een naam die aan een OPENBARE RUIMTE is toegekend in een daartoe strekkend formeel gemeentelijk besluit.</skos:definition>
+    <skos:prefLabel xml:lang="nl">openbare ruimte naam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Rioolleiding">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rioolleiding</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een rioleringsleiding voor het overbrengen van afvalwater (rioolwater en hemelwater) van de ene locatie naar een andere.</skos:definition>
+    <skos:prefLabel xml:lang="nl">rioolleiding</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Rotatiehoek">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rotatiehoek</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoek waaronder een labeltekst of symbool wordt weergegeven.</skos:definition>
+    <skos:prefLabel xml:lang="nl">rotatiehoek</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/RotatiehoekSymbool">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rotatiehoeksymbool</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoek waaronder een puntsymbool wordt weergegeven.</skos:definition>
+    <skos:prefLabel xml:lang="nl">rotatiehoeksymbool</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/StandaardDieptelegging">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">standaard dieptelegging</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gangbare dieptelegging behorend bij dit utiliteitsnet. Diepte is ten opzichte van maaiveld. Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via 1 van de volgende OGC URN codes: • urn:ogc:def:uom:OGC::m • urn:ogc:def:uom:OGC::cm • urn:ogc:def:uom:OGC::mm.
+Voor WIBON is de eenheid altijd meter en een getal met ten hoogste 2 decimalen.</skos:definition>
+    <skos:prefLabel xml:lang="nl">standaard dieptelegging</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Status">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">status</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plan of bestaande topografie.</skos:definition>
+    <skos:prefLabel xml:lang="nl">status</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/TechnischGebouw">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">technisch gebouw</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Besloten onderkomen voor het huisvesten van nutsvoorzieningenobjecten die tot een of meer nutsvoorzieningennetwerken behoren.</skos:definition>
+    <skos:prefLabel xml:lang="nl">technisch gebouw</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Telecommunicatiekabel">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">telecommunicatiekabel</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van data.</skos:definition>
+    <skos:prefLabel xml:lang="nl">telecommunicatiekabel</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/ThermischePijpleiding">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">warmteleiding</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een leiding voor het transporteren van warmte of koelte van de ene locatie naar een andere.</skos:definition>
+    <skos:prefLabel xml:lang="nl">warmteleiding</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Toelichting">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">toelichting</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extra informatie in de vorm van een toelichting.</skos:definition>
+    <skos:prefLabel xml:lang="nl">toelichting</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Toren">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">toren</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eenvoudig toren-object dat dienst kan doen als drager van nutsvoorzieningenobjecten van een of meer nutsvoorzieningnetten.</skos:definition>
+    <skos:prefLabel xml:lang="nl">toren</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/TypeTopografischObject">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type topografisch object</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soort topografisch object.</skos:definition>
+    <skos:prefLabel xml:lang="nl">type topografisch object</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Versie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">versie</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">versie-aanduiding van een object</skos:definition>
+    <skos:prefLabel xml:lang="nl">versie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/Waterleiding">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waterleiding</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een waterleiding voor het overbrengen van water van de ene locatie naar een andere.</skos:definition>
+    <skos:prefLabel xml:lang="nl">waterleiding</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://definities.geostandaarden.nl/imkl/id/begrip/WoonplaatsNaam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">woonplaatsnaam</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De benaming van een door het gemeentebestuur
+aangewezen WOONPLAATS.</skos:definition>
+    <skos:prefLabel xml:lang="nl">woonplaatsnaam</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>
