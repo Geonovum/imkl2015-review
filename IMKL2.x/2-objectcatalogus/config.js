@@ -14,9 +14,9 @@
 var respecConfig =
 {
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  specStatus: "GN-WV",              // Werk Versie
+  //specStatus: "GN-WV",              // Werk Versie
   //specStatus: "GN-CV",              // Consultatie Versie
- // specStatus: "GN-VV",              // Vaststellings Versie
+ specStatus: "GN-VV",              // Vaststellings Versie
   //specStatus: "GN-DEF",             // Definitieve Versie
   //-- specType is verplicht! (activeer 1 van de volgende) ----------------------------
   //specType: "NO",                   // Norm
@@ -73,11 +73,11 @@ var respecConfig =
   //pubDomain: "visu", 	            // Visualisatie
   //pubDomain: "wp", 	              // White Paper
   //-- Repositorynaam op GitHub -------------------------------------------------------
-  github: "https://github.com/Geonovum/IMKL2015-review/IMKL2.x/1-dataspecificatie/",
+  github: "https://github.com/Geonovum/imkl2015-review/IMKL2.x/1-dataspecificatie/",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
-  issueBase: "https://github.com/Geonovum/IMKL2015-review/issues/",
+  issueBase: "https://github.com/Geonovum/imkl2015-review/issues/",
   //-- edDraftURI: de URI van de werkversie van het document
-  edDraftURI: "https://geonovum.github.io/IMKL2015-review/IMKL2.x/1-dataspecificatie",
+  edDraftURI: "https://geonovum.github.io/imkl2015-review/IMKL2.x/1-dataspecificatie",
 
   //-- license: voor de geldende gebruiksvoorwaarden
   licence: "cc-by-nd",              //-- bronvermelding, geen afgeleide werken (default)
