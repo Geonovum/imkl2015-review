@@ -1,0 +1,2340 @@
+<!DOCTYPE html><html lang="nl"><head><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta content="text/html; charset=utf-8" http-equiv="content-type"><meta name="generator" content="ReSpec 24.5.2">
+  
+  
+  <link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico">
+  <link rel="stylesheet" type="text/css" href="./docs/media/localstyle2.css">
+  <title>Informatiemodel Kabels en Leidingen (IMKL) - versie 2.0</title>
+  
+  
+<style id="respec-mainstyle">/*****************************************************************
+ * ReSpec 3 CSS
+ * Robin Berjon - http://berjon.com/
+ *****************************************************************/
+
+/* Override code highlighter background */
+.hljs {
+  background: transparent !important;
+}
+
+/* --- INLINES --- */
+h1 abbr,
+h2 abbr,
+h3 abbr,
+h4 abbr,
+h5 abbr,
+h6 abbr,
+a abbr {
+  border: none;
+}
+
+dfn {
+  font-weight: bold;
+}
+
+a.internalDFN {
+  color: inherit;
+  border-bottom: 1px solid #99c;
+  text-decoration: none;
+}
+
+a.externalDFN {
+  color: inherit;
+  border-bottom: 1px dotted #ccc;
+  text-decoration: none;
+}
+
+a.bibref {
+  text-decoration: none;
+}
+
+#references :target {
+  background: #eaf3ff;
+}
+
+cite .bibref {
+  font-style: normal;
+}
+
+code {
+  color: #c83500;
+}
+
+th code {
+  color: inherit;
+}
+
+/* --- TOC --- */
+
+.toc a,
+.tof a {
+  text-decoration: none;
+}
+
+a .secno,
+a .figno {
+  color: #000;
+}
+
+ul.tof,
+ol.tof {
+  list-style: none outside none;
+}
+
+.caption {
+  margin-top: 0.5em;
+  font-style: italic;
+}
+
+/* --- TABLE --- */
+
+table.simple {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-bottom: 3px solid #005a9c;
+}
+
+.simple th {
+  background: #005a9c;
+  color: #fff;
+  padding: 3px 5px;
+  text-align: left;
+}
+
+.simple th[scope="row"] {
+  background: inherit;
+  color: inherit;
+  border-top: 1px solid #ddd;
+}
+
+.simple td {
+  padding: 3px 10px;
+  border-top: 1px solid #ddd;
+}
+
+.simple tr:nth-child(even) {
+  background: #f0f6ff;
+}
+
+/* --- DL --- */
+
+.section dd>p:first-child {
+  margin-top: 0;
+}
+
+.section dd>p:last-child {
+  margin-bottom: 0;
+}
+
+.section dd {
+  margin-bottom: 1em;
+}
+
+.section dl.attrs dd,
+.section dl.eldef dd {
+  margin-bottom: 0;
+}
+
+#issue-summary>ul,
+.respec-dfn-list {
+  column-count: 2;
+}
+
+#issue-summary li,
+.respec-dfn-list li {
+  list-style: none;
+}
+
+details.respec-tests-details {
+  margin-left: 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+details.respec-tests-details>* {
+  padding-right: 2em;
+}
+
+details.respec-tests-details[open] {
+  z-index: 999999;
+  position: absolute;
+  border: thin solid #cad3e2;
+  border-radius: 0.3em;
+  background-color: white;
+  padding-bottom: 0.5em;
+}
+
+details.respec-tests-details[open]>summary {
+  border-bottom: thin solid #cad3e2;
+  padding-left: 1em;
+  margin-bottom: 1em;
+  line-height: 2em;
+}
+
+details.respec-tests-details>ul {
+  width: 100%;
+  margin-top: -0.3em;
+}
+
+details.respec-tests-details>li {
+  padding-left: 1em;
+}
+
+a[href].self-link:hover {
+  opacity: 1;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+}
+
+aside.example .marker > a.self-link {
+  color: inherit;
+}
+
+h2>a.self-link,
+h3>a.self-link,
+h4>a.self-link,
+h5>a.self-link,
+h6>a.self-link {
+  border: none;
+  color: inherit;
+  font-size: 83%;
+  height: 2em;
+  left: -1.6em;
+  opacity: .5;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 0;
+  transition: opacity .2s;
+  width: 2em;
+}
+
+h2>a.self-link::before,
+h3>a.self-link::before,
+h4>a.self-link::before,
+h5>a.self-link::before,
+h6>a.self-link::before {
+  content: "§";
+  display: block;
+}
+
+@media (max-width: 767px) {
+  dd {
+    margin-left: 0;
+  }
+
+  /* Don't position self-link in headings off-screen */
+  h2>a.self-link,
+  h3>a.self-link,
+  h4>a.self-link,
+  h5>a.self-link,
+  h6>a.self-link {
+    left: auto;
+    top: auto;
+  }
+}
+
+@media print {
+  .removeOnSave {
+    display: none;
+  }
+}
+</style><link rel="stylesheet" href="https://tools.geostandaarden.nl/respec/style/GN-VV.css"><link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico"><script id="initialUserConfig" type="application/json">{
+  "specStatus": "GN-VV",
+  "specType": "ST",
+  "format": "markdown",
+  "editors": [
+    {
+      "name": "Paul Janssen",
+      "url": "https://www.geonovum.nl"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Herman van den Berg",
+      "company": "Kadaster",
+      "companyURL": "https://www.kadaster.nl"
+    },
+    {
+      "name": "Paul Janssen",
+      "company": "Geonovum",
+      "companyURL": "https://www.geonovum.nl"
+    }
+  ],
+  "shortName": "imkl",
+  "pubDomain": "kl",
+  "github": "https://github.com/Geonovum/imkl2015-review/",
+  "issueBase": "https://github.com/Geonovum/imkl2015-review/issues/",
+  "edDraftURI": "https://geonovum.github.io/imkl2015-review/IMKL2.x/1-dataspecificatie",
+  "licence": "cc-by-nd",
+  "maxTocLevel": 4,
+  "postProcess": [
+    null
+  ],
+  "publishISODate": "2020-11-09T00:00:00.000Z",
+  "generatedSubtitle": "Versie ter vaststelling 09 november 2020"
+}</script><meta name="description" content="Deze standaard beschrijft de specificaties van het Informatiemodel Kabels en Leidingen (IMKL) versie 2.0."><script type="application/ld+json">{
+  "@context": [
+    "http://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "nl",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      },
+      "inLanguage": {
+        "@language": null
+      },
+      "isBasedOn": {
+        "@type": "@id"
+      },
+      "license": {
+        "@type": "@id"
+      }
+    }
+  ],
+  "id": "https://docs.geostandaarden.nl/kl/vv-st-imkl-20201109/",
+  "type": [
+    "TechArticle"
+  ],
+  "name": "Informatiemodel Kabels en Leidingen (IMKL) - versie 2.0",
+  "inLanguage": "nl",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "datePublished": "2020-11-09",
+  "copyrightHolder": {
+    "name": "Geonovum",
+    "url": "https://www.geonovum.nl/"
+  },
+  "discussionUrl": "https://github.com/Geonovum/imkl2015-review/issues/",
+  "alternativeHeadline": "",
+  "description": "Deze standaard beschrijft de specificaties van het Informatiemodel Kabels en Leidingen (IMKL) versie 2.0.",
+  "editor": [
+    {
+      "type": "Person",
+      "name": "Paul Janssen",
+      "url": "https://www.geonovum.nl"
+    }
+  ],
+  "contributor": [
+    {
+      "type": "Person",
+      "name": "Herman van den Berg",
+      "worksFor": {
+        "name": "Kadaster",
+        "url": "https://www.kadaster.nl"
+      }
+    },
+    {
+      "type": "Person",
+      "name": "Paul Janssen",
+      "worksFor": {
+        "name": "Geonovum",
+        "url": "https://www.geonovum.nl"
+      }
+    }
+  ],
+  "citation": []
+}</script></head>
+
+<body class="h-entry"><div class="head">
+  <a href="https://www.geonovum.nl/" class="logo"><img id="Geonovum" alt="Geonovum" width="132" height="67" src="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg"></a>
+  <h1 class="title p-name" id="title">Informatiemodel Kabels en Leidingen (IMKL) - versie 2.0</h1>
+  
+  <h2>Geonovum Standaard<br>
+  Versie ter vaststelling <time class="dt-published" datetime="2020-11-09">09 november 2020</time></h2>
+  <dl>
+    <dt>Deze versie:</dt><dd><a class="u-url" href="https://docs.geostandaarden.nl/kl/vv-st-imkl-20201109/">https://docs.geostandaarden.nl/kl/vv-st-imkl-20201109/</a></dd><dt>Laatst gepubliceerde versie:</dt><dd>geen</dd>
+    
+    
+    <dt>Laatste werkversie:</dt><dd><a href="https://geonovum.github.io/imkl2015-review/IMKL2.x/1-dataspecificatie">https://geonovum.github.io/imkl2015-review/IMKL2.x/1-dataspecificatie</a></dd>
+    <dt>Redacteur:</dt>
+    <dd class="p-author h-card vcard"><a class="u-url url p-name fn" href="https://www.geonovum.nl">Paul Janssen</a></dd>
+    <dt>Auteurs:</dt><dd class="p-author h-card vcard"><span class="p-name fn">Herman van den Berg</span>, <a class="p-org org h-org h-card" href="https://www.kadaster.nl">Kadaster</a></dd><dd class="p-author h-card vcard"><span class="p-name fn">Paul Janssen</span>, <a class="p-org org h-org h-card" href="https://www.geonovum.nl">Geonovum</a></dd>
+    <dt>Doe mee:</dt><dd>
+      <a href="https://github.com/Geonovum/imkl2015-review/">GitHub Geonovum/imkl2015-review</a>
+    </dd><dd>
+      <a href="https://github.com/Geonovum/imkl2015-review/issues/">Dien een melding in</a>
+    </dd><dd>
+      <a href="https://github.com/Geonovum/imkl2015-review/commits/">Revisiehistorie</a>
+    </dd><dd>
+      <a href="https://github.com/Geonovum/imkl2015-review/pulls/">Pull requests</a>
+    </dd>
+  </dl>
+  
+  
+    <dl>
+          <dt>Rechtenbeleid:</dt>
+          <dd>
+            <div class="copyright" style="margin: 0.25em 0;">
+              <abbr title="Creative Commons Attribution 4.0 International Public License">
+              <a href="https://creativecommons.org/licenses/by/4.0/legalcode"><img width="115" height="40" src="https://tools.geostandaarden.nl/respec/style/logos/cc-by.svg" alt="Creative Commons Attribution 4.0 International Public License"></a>
+            </abbr>
+              <div style="display:inline-block; vertical-align:top">
+                <p style="font-size: small;">Creative Commons Attribution 4.0 International Public License<br>(CC-BY)</p>
+              </div>
+            </div>
+          </dd>
+        </dl>
+  <hr title="Separator for header">
+</div><section id="abstract" class="introductory"><h2>Samenvatting</h2><p>
+Deze standaard beschrijft de specificaties van het Informatiemodel Kabels en Leidingen (IMKL) versie 2.0.
+</p></section><section id="sotd" class="introductory"><h2>Status van dit document</h2><p>
+    <em>Deze paragraaf beschrijft de status van dit document ten tijde van publicatie. Het is mogelijk dat er actuelere versies van dit document bestaan. Een lijst van Geonovum publicaties en de laatste gepubliceerde versie van dit document zijn te vinden op <a href="https://www.geonovum.nl/geo-standaarden/alle-standaarden">https://www.geonovum.nl/geo-standaarden/alle-standaarden</a>.</em>
+  </p><p>
+
+
+
+
+  Dit is een definitief concept van de nieuwe versie van de standaard. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.
+
+
+
+ De programmaraad van Geonovum beoordeelt dit definitief concept. Keurt zij het goed, dan is er een nieuwe standaard.
+
+</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#inleiding-en-leeswijzer"><span class="secno">1. </span>Inleiding en leeswijzer</a></li><li class="tocline"><a class="tocxref" href="#scope"><span class="secno">2. </span>Scope</a></li><li class="tocline"><a class="tocxref" href="#overzicht"><span class="secno">3. </span>Overzicht</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#naam-en-acroniemen"><span class="secno">3.1 </span>Naam en Acroniemen</a></li><li class="tocline"><a class="tocxref" href="#informele-beschrijving"><span class="secno">3.2 </span>Informele beschrijving</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#definitie"><span class="secno">3.2.1 </span>Definitie</a></li><li class="tocline"><a class="tocxref" href="#beschrijving"><span class="secno">3.2.2 </span>Beschrijving</a></li></ol></li><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><span class="secno">3.3 </span>Normatieve referenties</a></li><li class="tocline"><a class="tocxref" href="#termen-en-definities"><span class="secno">3.4 </span>Termen en definities</a></li><li class="tocline"><a class="tocxref" href="#symbolen-en-afkortingen"><span class="secno">3.5 </span>Symbolen en afkortingen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#identificatie-document"><span class="secno">4. </span>Identificatie document</a></li><li class="tocline"><a class="tocxref" href="#gegevensdefinitie"><span class="secno">5. </span>Gegevensdefinitie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#inleiding"><span class="secno">5.1 </span>Inleiding</a></li><li class="tocline"><a class="tocxref" href="#uml-diagrammen"><span class="secno">5.2 </span>UML diagrammen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#beschrijving-algemeen-principe-imkl-als-extensie-op-inspire"><span class="secno">5.2.1 </span>Beschrijving algemeen principe: IMKL als extensie op INSPIRE</a></li><li class="tocline"><a class="tocxref" href="#metamodel"><span class="secno">5.2.2 </span>Metamodel</a></li><li class="tocline"><a class="tocxref" href="#uml-wibon-overzicht"><span class="secno">5.2.3 </span>UML - WIBON overzicht</a></li><li class="tocline"><a class="tocxref" href="#associaties-in-het-model"><span class="secno">5.2.4 </span>Associaties in het model</a></li><li class="tocline"><a class="tocxref" href="#numerieke-waarden"><span class="secno">5.2.5 </span>Numerieke waarden</a></li><li class="tocline"><a class="tocxref" href="#waardelijsten-zijn-extern"><span class="secno">5.2.6 </span>Waardelijsten zijn extern</a></li><li class="tocline"><a class="tocxref" href="#basisattributen-voor-identificatie-en-labels"><span class="secno">5.2.7 </span>Basisattributen voor identificatie en labels</a></li><li class="tocline"><a class="tocxref" href="#imkl-semantische-kern"><span class="secno">5.2.8 </span>IMKL semantische kern</a></li><li class="tocline"><a class="tocxref" href="#geometrie-en-topologie"><span class="secno">5.2.9 </span>Geometrie en topologie</a></li><li class="tocline"><a class="tocxref" href="#diepte"><span class="secno">5.2.10 </span>Diepte</a></li><li class="tocline"><a class="tocxref" href="#utiliteitsnet"><span class="secno">5.2.11 </span>Utiliteitsnet</a></li><li class="tocline"><a class="tocxref" href="#kabelofleiding"><span class="secno">5.2.12 </span>KabelOfLeiding</a></li><li class="tocline"><a class="tocxref" href="#leidingelement"><span class="secno">5.2.13 </span>Leidingelement</a></li><li class="tocline"><a class="tocxref" href="#kabelenleidingcontainer"><span class="secno">5.2.14 </span>KabelEnLeidingContainer</a></li><li class="tocline"><a class="tocxref" href="#containerleidingelement"><span class="secno">5.2.15 </span>ContainerLeidingelement</a></li><li class="tocline"><a class="tocxref" href="#relaties-tussen-kabelenleiding-leidingelement-en-container-objecten"><span class="secno">5.2.16 </span>Relaties tussen KabelEnLeiding, Leidingelement en container objecten</a></li><li class="tocline"><a class="tocxref" href="#diagram-per-type-kabel-of-leiding"><span class="secno">5.2.17 </span>Diagram per type kabel of leiding</a></li><li class="tocline"><a class="tocxref" href="#elektriciteitskabel"><span class="secno">5.2.18 </span>Elektriciteitskabel</a></li><li class="tocline"><a class="tocxref" href="#telecommunicatiekabel"><span class="secno">5.2.19 </span>Telecommunicatiekabel</a></li><li class="tocline"><a class="tocxref" href="#olie-gas-chemicalienpijpleiding"><span class="secno">5.2.20 </span>Olie-gas-chemicalienpijpleiding</a></li><li class="tocline"><a class="tocxref" href="#rioolleiding"><span class="secno">5.2.21 </span>Rioolleiding</a></li><li class="tocline"><a class="tocxref" href="#waterleiding"><span class="secno">5.2.22 </span>Waterleiding</a></li><li class="tocline"><a class="tocxref" href="#thermische-pijpleiding"><span class="secno">5.2.23 </span>Thermische pijpleiding</a></li><li class="tocline"><a class="tocxref" href="#overig-en-weesleiding"><span class="secno">5.2.24 </span>Overig en Weesleiding</a></li><li class="tocline"><a class="tocxref" href="#leidingelementen-per-type-net-thema"><span class="secno">5.2.25 </span>Leidingelementen per type net (thema)</a></li><li class="tocline"><a class="tocxref" href="#wibon-uitleveren-van-gebiedsinformatie"><span class="secno">5.2.26 </span>WIBON Uitleveren van gebiedsinformatie</a></li><li class="tocline"><a class="tocxref" href="#belangenregistratie"><span class="secno">5.2.27 </span>Belangenregistratie</a></li><li class="tocline"><a class="tocxref" href="#identifier-management"><span class="secno">5.2.28 </span>Identifier management</a></li><li class="tocline"><a class="tocxref" href="#tijd-representatie-en-temporeel-model"><span class="secno">5.2.29 </span>Tijd representatie en temporeel model</a></li></ol></li><li class="tocline"><a class="tocxref" href="#andere-toepassingen-van-imkl"><span class="secno">5.3 </span>Andere toepassingen van IMKL</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#uml-buisleidingen-risicoregister-overzicht"><span class="secno">5.3.1 </span>UML - Buisleidingen Risicoregister overzicht.</a></li><li class="tocline"><a class="tocxref" href="#uml-stedelijk-water-overzicht"><span class="secno">5.3.2 </span>UML - Stedelijk water overzicht</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#objectcatalogus"><span class="secno">6. </span>Objectcatalogus</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#geografische-objecten"><span class="secno">6.1 </span>Geografische objecten</a></li><li class="tocline"><a class="tocxref" href="#data-typen"><span class="secno">6.2 </span>Data typen</a></li><li class="tocline"><a class="tocxref" href="#waardelijsten"><span class="secno">6.3 </span>Waardelijsten</a></li><li class="tocline"><a class="tocxref" href="#geimporteerde-typen-informatief"><span class="secno">6.4 </span>Geïmporteerde typen (informatief)</a></li></ol></li><li class="tocline"><a class="tocxref" href="#referentiesystemen"><span class="secno">7. </span>Referentiesystemen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#ruimtelijk-referentiesysteem"><span class="secno">7.1 </span>Ruimtelijk referentiesysteem</a></li><li class="tocline"><a class="tocxref" href="#temporeel-referentiesysteem"><span class="secno">7.2 </span>Temporeel referentiesysteem</a></li></ol></li><li class="tocline"><a class="tocxref" href="#levering"><span class="secno">8. </span>Levering</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#leveringsmedium"><span class="secno">8.1 </span>Leveringsmedium</a></li><li class="tocline"><a class="tocxref" href="#formaten-encodings"><span class="secno">8.2 </span>Formaten (encodings)</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#nadere-gml-implementatie-specificaties"><span class="secno">8.2.1 </span>Nadere GML implementatie specificaties</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#visualisatie"><span class="secno">9. </span>Visualisatie</a></li><li class="tocline"><a class="tocxref" href="#bibliografie"><span class="secno">10. </span>Bibliografie</a></li><li class="tocline"><a class="tocxref" href="#bijlage-1-imkl-waardelijsten"><span class="secno">11. </span>Bijlage 1 IMKL waardelijsten</a></li><li class="tocline"><a class="tocxref" href="#bijlage-2-toelichting-op-geometriemodel"><span class="secno">12. </span>Bijlage 2 Toelichting op geometriemodel</a></li><li class="tocline"><a class="tocxref" href="#bijlage-3-toelichting-op-informatiepolygoon"><span class="secno">13. </span>Bijlage 3 Toelichting op informatiepolygoon</a></li></ol></nav><div data-format="markdown"><h1>Voorwoord</h1>
+<p>Dit document bevat de dataspecificatie ten behoeve van het berichtenverkeer voor
+uitwisseling van kabel en leiding informatie van de utiliteitsnetten
+elektriciteit, gas en chemie, telecom, water, warmte en afvalwater. Het doel van
+deze dataspecificatie is om -aanvullend aan de metadata beschrijving van het
+dataproduct (conform ISO 19115)- achtergrondinformatie te verstrekken over een
+dataproduct. Waar de metadata de informatie op bestandsniveau beschrijft is de
+dataspecificatie bedoeld om de gegevensstructuur en objectdefinities te
+beschrijven. Op basis van de dataspecificatie en de metadata van het dataproduct
+kan een gebruiker van de gegevens zich een goed beeld vormen van de data die
+worden aangeboden en de data inhoudelijk interpreteren. Daarnaast geldt dat
+onderdelen van de dataspecificatie nodig zijn ten behoeve van applicatiebouw
+voor realisatie van het berichtenverkeer aan de aanbod en ontvangstzijde.</p>
+<p>Dit document is tot stand gekomen als resultaat van het reguliere beheer van de
+KLIC standaarden middels de <a href="https://www.kadaster.nl/-/klic-ledenlijst-klic-tcs">KLIC Technische commissie standaarden (TCS)</a>.</p>
+</div><section data-format="markdown" id="inleiding-en-leeswijzer"><!--OddPage--><h2 id="x1-inleiding-en-leeswijzer"><span class="secno">1. </span>Inleiding en leeswijzer</h2><p>De dataspecificatie omvat een vijftal documenten waarvan dit het hoofddocument
+is. Hiernaast is er een document waarin de objectcatalogus is opgenomen: IMKL –
+Objectcatalogus; een document voor de visualisatie: PMKL Handreiking
+visualisatie; en een apart document met de in de waardelijsten opgenomen
+waarden. Daarnaast is er een document met het overzicht van alle IMKL objecten
+met alle attributen en associaties en extra modelregels die daar op van
+toepassing zijn. De volgende lijst geeft alle documenten:</p><ul>
+<li><p>Informatiemodel Kabels en Leidingen (IMKL)</p>
+</li>
+<li><p>IMKL Objectcatalogus</p>
+</li>
+<li><p>IMKL object-attributen-ExtraRegels (in <a href="https://register.geostandaarden.nl/?url=kabelsleidingen/imkl">register.geostandaarden.nl/imkl</a>)</p>
+</li>
+<li><p>IMKL – waardelijsten (in <a href="https://register.geostandaarden.nl/?url=kabelsleidingen/imkl">register.geostandaarden.nl/imkl</a>)</p>
+</li>
+<li><p>Handreiking-visualisatieregels (PMKL)</p>
+</li>
+</ul><p>Dit document omvat een aantal hoofdstukken. Het hoofdstuk <a href="#scope">Scope</a> beschrijft het
+toepassingsgebied of onderwerp waar deze dataspecificatie op van toepassing is.
+Het hoofdstuk <a href="#overzicht">Overzicht</a> geeft een informele beschrijving van dit toepassingsgebied en hoe
+deze dataspecificatie wordt toegepast in een informatie- en
+data-uitwisselingsproces. In dit hoofdstuk zijn ook de normatieve referenties
+opgenomen en de lijst met termen, definities en afkortingen. Hoofdstuk <a href="#identificatie-document">Identificatie document</a> is een
+korte samenvatting en identificatie van de dataspecificatie in tabelvorm. In het 
+hoofdstuk <a href="#gegevensdefinitie">Gegevensdefinitie</a> is het UML model opgenomen en wordt met verschillende diagrammen het
+informatiemodel toegelicht en wordt verwezen naar de objectcatalogus met alle
+modelinformatie in tabelvorm. Het hoofdstuk <a href="#referentiesystemen">Referentiesystemen</a> gaat in op het ruimtelijk- en
+temporele referentiesysteem waarin gegevens gepubliceerd moeten worden.
+Het hoofdstuk <a href="#levering">Levering</a> geeft de implementatiespecificaties opgenomen in de vorm van
+referenties aan XML schema’s. <a href="#visualisatie">Visualisatie</a> tenslotte, behandelt de specificatie
+van de visualisatie van ruimtelijke data in een kaartbeeld.
+</p></section><section data-format="markdown" id="scope"><!--OddPage--><h2 id="x2-scope"><span class="secno">2. </span>Scope</h2><p>Dit document beschrijft de dataspecificatie IMKL, van het door KLIC ontsloten
+dataproduct Utiliteitsnetten.</p><p>IMKL geeft de gedetailleerde beschrijving van structuur, inhoud en datakwaliteit
+van utiliteitsnetten en dient als basis voor de realisatie en ontsluiting van
+KLIC services.</p><p>De gebruikstoepassing waar de semantiek van IMKL door wordt bepaald komt voort
+uit verschillende wetgevingen, regelingen en processen. Deze zijn:</p><ul>
+<li><p><strong>WIBON:</strong> Wet informatie-uitwisseling bovengrondse en ondergrondse netten
+en netwerken. Uitwisseling van kabel en leiding informatie ter voorkoming
+van graafschade voor de netten: telecom, riolering, water, elektriciteit,
+gas en warmte. Inclusief maatregelen uit de Richtlijn kostenreductie
+breedband, zijnde de Richtlijn 22014/61/EU, hierna: EC61.</p>
+</li>
+<li><p><strong>INSPIRE:</strong> Europese richtlijn voor uitwisseling van digitale gegevens
+gerelateerd aan milieu<strong>.</strong> Voor deze specificatie in het bijzonder het
+thema Utilities en Governmental Services en daarin de Utility Networks.
+Dataspecificaties voor uitwisseling kabel en leidingen informatie voor de
+netten: datatransport, riolering, water, elektriciteit, gas, warmte en
+andere kabels &amp; leidingen.</p>
+</li>
+<li><p><strong>Besluit externe veiligheid buisleidingen (BevB):</strong> Besluit houdende
+milieukwaliteitseisen externe veiligheid voor het vervoer van gevaarlijke
+stoffen door buisleidingen. Onder andere opname van buisleidingen met
+gevaarlijke inhoud (Bgi) (en beperkingen op ruimtegebruik) in een
+bestemmings- of inpassingsplan.</p>
+</li>
+<li><p><strong>Register risicosituaties gevaarlijke stoffen (RRGS)</strong> Verplichting tot
+invoeren risico’s van gevaarlijke stoffen in een landelijk risicoregister.</p>
+</li>
+</ul></section><section data-format="markdown" id="overzicht"><!--OddPage--><h2 id="x3-overzicht"><span class="secno">3. </span>Overzicht</h2><section id="naam-en-acroniemen"><h3 id="x3-1-naam-en-acroniemen"><span class="secno">3.1 </span>Naam en Acroniemen</h3><p>IMKL - Dataspecificatie voor Utiliteitsnetten.</p></section><section id="informele-beschrijving"><h3 id="x3-2-informele-beschrijving"><span class="secno">3.2 </span>Informele beschrijving</h3><section id="definitie"><h4 id="x3-2-1-definitie"><span class="secno">3.2.1 </span>Definitie</h4><p>Utiliteitsnet: Een verzameling netwerkelementen die tot één type
+nutsvoorzieningennet behoren. Omvat voorzieningen voor elektriciteit,
+telecommunicatie, gas, chemicaliën, drinkwater, afvalwater en warmte.</p></section><section id="beschrijving"><h4 id="x3-2-2-beschrijving"><span class="secno">3.2.2 </span>Beschrijving</h4><p>IMKL vormt het gemeenschappelijke begrippenkader voor de uitwisseling van
+informatie van verschillende typen utiliteitsnetten. Een utiliteitsnet is daarin
+een verzameling netwerkelementen die tot één type nutsvoorzieningennet behoren
+en omvat voorzieningen voor elektriciteit, telecommunicatie, gas, chemicaliën,
+drinkwater, afvalwater en warmte. In de WIBON wordt een net (is utiliteitsnet)
+omschreven als: net: een ondergrondse kabel of leiding, daaronder mede begrepen
+lege buizen, ondergrondse ondersteuningswerken en beschermingswerken, bestemd
+voor transport van vaste, vloeibare of gasvormige stoffen, van energie of van
+informatie. Het utiliteitsnet omvat ook de informatie omschreven in deze
+definitie.</p><p>Een utiliteitsnet is in eerste instantie de samenstelling van fysieke elementen
+die samen het net vormen. Het bestaat uit kabels, leidingen, buizen die nodig
+zijn voor het transport van de net-producten zoals energie, water en informatie,
+resulterend in bijvoorbeeld elektriciteitskabels, telecomkabels, buisleidingen
+voor gas, kerosine en leidingen voor water, warmte of riolering. Het omvat ook
+constructies voor het verbinden, verwerken, beschermen, beheren, meten,
+controleren van transport en distributienetten. Denk hierbij aan
+verbindingsmoffen, drukregelaars, putten, meetstations etc.</p><p>Al de utiliteitsnetten zijn opgebouwd uit verbindingen en verbindingspunten die
+samen een transportnetwerk vormen. De logica van de netwerken wordt beschreven
+middels een topologisch-, of connectiviteitsmodel. IMKL volgt een arc-node
+topologie om de logica van het netwerk te kunnen beschrijven. De kern van het
+model zit echter in het uitwisselen van de liggingsgegevens van de netten en de
+netwerkelementen. Primair gebeurt dat middels centerlijnen voor de locatie van
+kabels en leidingen en centerpunten voor leidingelementen. Optioneel is er ook
+een vlakken-representatie en een uitbreiding voor driedimensionale
+representatie.</p><p>Een utiliteitsnet wordt beschreven door de ligging en topologie van de
+netelementen maar ook door beschrijvende informatie over type utiliteitsnet (het
+thema), verantwoordelijke organisaties, type product, type leiding en velerlei
+relevante directe, gerelateerde of afgeleide kenmerken en eigenschappen. Voor de
+bepaling van het domein in relatie tot de opgenomen eigenschappen staan een
+aantal data-uitwisselingsprocessen centraal: INSPIRE Utilities, WIBON,
+Risicoregister Gevaarlijke Stoffen, Stedelijk afvalwater. Al deze processen
+stellen eisen aan begrippenkaders in relatie tot utiliteitsnetten en de
+onderdelen daarvan. IMKL integreert de begrippenkaders voor deze verschillende
+processen en creëert hiermee een basis voor synergie in de
+data-uitwisselingsprocessen.</p><figure id="afb_overzicht"><img src="docs/media/Figuur3.1.png" alt="Afbeelding Overzicht">
+<figcaption>Figuur <span class="figno">1</span> <span class="fig-title">IMKL beschrijft het totaal aan informatie dat voorziet in een aantal
+dataleveringsprocessen: WIBON, INSPIRE utilities, Topografie Stedelijk Water,
+Buisleidingen gevaarlijke inhoud (Risicoregister gevaarlijke stoffen). WIBON
+integreert ook de Europese wetgeving EC61: Richtlijn kostenreductie breedband.</span></figcaption>
+</figure><p>Bij de implementatie van IMKL wordt er voor elk dataleveringsproces een apart
+profiel gemaakt. Elk profiel bevat alleen die informatie die bij dat profiel
+hoort. Zo is er een WIBON profiel, een SWater profiel en een BevB profiel.</p><p>Uitgangspunten toegepast bij het modelleren van IMKL:</p><ul>
+<li><p>IMKL beschrijft het totaal aan informatie dat voorziet in een aantal data
+leveringsprocessen: WIBON, INSPIRE utilities, Topologie Stedelijk Water,
+Buisleidingen gevaarlijke inhoud.</p>
+</li>
+<li><p>IMKL bevat ook de productmodellen voor de bovengenoemde dataleveringen. Elk
+productmodel beschrijft de informatie-inhoud (semantiek) van het specifieke
+leveringsmodel. Zo worden er de volgende productmodellen beschreven
+(conceptnamen): INSPIRE Utility networks (bestaat al), IMKL-wibon, IMBevB en
+IMSW.</p>
+</li>
+<li><p>De informatieproducten zijn semantisch zoveel mogelijk op elkaar afgestemd
+en worden gegenereerd vanuit een geaggregeerd IMKL. Het informatiemodel
+INSPIRE Utility networks staat centraal in de modellering van de overige
+producten.</p>
+</li>
+<li><p>INSPIRE Utility networks is gedefinieerd in Engelstalige syntax. De NL
+modellen gaan uit van een Nederlandse syntax. De relatie tussen Engelse en
+Nederlandse syntax wordt in IMKL gelegd.</p>
+</li>
+<li><p>IMKL beschrijft ‘eindproducten’ van de informatie-uitwisselingsketen. Het
+bevat geen informatie gerelateerd aan de architectuur van het KLIC systeem.
+IMKL is niet van invloed op het type voorziening, centraal, decentraal of
+hybride.</p>
+</li>
+<li><p>IMKL voorziet in een objectgerichte, gevectoriseerde data-uitwisseling.</p>
+</li>
+<li><p>Afhankelijk van het type informatieproduct kan IMKL toegepast worden in een
+view service (WMS) en of download service (WFS of Atom feeds). WFS/WMS is
+alleen van toepassing op het informatieproduct INSPIRE UN</p>
+</li>
+<li><p>IMKL past waar nodig, optioneel, 3D geometrie toe. De 3D geometrie is een
+optionele extensie die geen invloed heeft op de 2D modellering.</p>
+</li>
+<li><p>Voor 3D modellering wordt zoveel als mogelijk afgestemd met CityGML-Utility
+extensie. In dat proces wordt ook gekeken naar aanpassingen aan
+CityGML-Utility. INSPIRE Utility networks is leidend in die afstemming.</p>
+</li>
+<li><p>IMKL bevat temporele informatie.</p>
+</li>
+<li><p>IMKL-wibon bevat ook de informatie van geplande netwerkelementen.</p>
+</li>
+<li><p>IMKL-wibon bevat ook, indien relevant en aanwezig, de informatie van
+huisaansluitingen, gestuurde boringen, mogelijke detailkaart. Indien alleen
+aanwezig in rasterformaat worden ze in dat formaat meegeleverd.</p>
+</li>
+<li><p>IMKL-wibon differentieert informatie naar aanlevering door netbeheerders en
+naar uitlevering door de centrale voorziening (KLIC).</p>
+</li>
+</ul><p>Het volgende figuur schetst de data-uitwisseling voor realisering van het WIBON
+en INSPIRE Utilities voorzieningen. Het figuur is ter illustratie en niet
+normatief voor de implementatie van de voorziening. Een onderscheid wordt
+gemaakt tussen data-uitlevering en data-aanlevering. Data-uitlevering betreft
+het leveren van data aan de uiteindelijke afnemers, de eindproducten.
+Data-aanlevering is de data stroom van netbeheerders die nodig is om
+tussenproducten of voorzieningen te realiseren die met die gegevens instaat zijn
+om de eindproducten te realiseren. Voor KLIC geldt dat er vier
+gegevensuitwisseltrajecten zijn:</p><ol>
+<li><p><strong>Decentraal aangesloten Netbeheerder (A):</strong> Aanlevering van netinformatie
+aan KLIC per aanvraag voor doorlevering aan aanvrager.</p>
+</li>
+<li><p><strong>Centraal aangesloten Netbeheerder (B):</strong> Aanleveren totaal netinformatie
+voor actualisatie van de centrale voorziening.</p>
+</li>
+<li><p><strong>Decentrale en Centrale Netbeheerder</strong>: Registreren en actualiseren van de
+Belangenregistratie.</p>
+</li>
+<li><p><strong>WIBON Uitlevering:</strong> Uitleveren van gebiedsinformatie aan grondroerder.
+(graafpolygoon e.d.) inclusief bijbehorende aanvraag en leveringsinformatie.</p>
+</li>
+</ol><figure id="afb_uitwisselingsarchitectuur"><img src="docs/media/Figuur3.2.png" alt="data uitwisselingsarchitectuur">
+<figcaption>Figuur <span class="figno">2</span> <span class="fig-title">Data-uitwisselarchitectuur. Illustratief figuur van
+data-uitwisseling voor realisatie van WIBON en INSPIRE voorziening. IMKL
+beschrijft de semantiek van de eindproducten in de data-uitlevering en geeft ook
+specificaties voor de inhoud van de data-aanlevering van decentraal (A) en
+centraal aangesloten netbeheerder (B) aan de voorziening. Het BMKL is het
+protocol voor het berichtenverkeer. Dit wordt in een aparte specificatie
+beschreven.</span></figcaption>
+</figure></section></section><section id="normatieve-referenties"><h3 id="x3-3-normatieve-referenties"><span class="secno">3.3 </span>Normatieve referenties</h3><ul>
+<li><p><a href="https://www.geonovum.nl/documents/raamwerk-geo-standaarden-v30pdf">Raamwerk Geo-standaarden 3.0</a>.</p>
+</li>
+<li><p>NEN 3610:2011/A1:2016 Basismodel Geo-informatie.</p>
+</li>
+<li><p>NEN 3116:1990 Tekeningen in de bouw. Basissymbolen voor de uitwisseling van
+gegevens over de ligging van ondergrondse leidingen.</p>
+</li>
+<li><p><a href="http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_US_v3.0.pdf">[D2.8.III.6] Data Specification on Utility and Government Services.
+Technical Guidelines</a>.</p>
+</li>
+<li><p><a href="https://data.gwsw.nl/">GegevensWoordenboek Stedelijk Water (GWSW)</a>.</p>
+</li>
+</ul></section><section id="termen-en-definities"><h3 id="x3-4-termen-en-definities"><span class="secno">3.4 </span>Termen en definities</h3><p>Lijst van termen en definities die in deze beschrijving worden gehanteerd.</p><p><strong>annotatie</strong><br>elke toevoeging op een kaartbeeld voor verduidelijking</p><p><strong>applicatieschema</strong><br>informatiemodel dat gegevens beschrijft die worden gebruikt door een of meer applicaties OPMERKING IMKL is met UML beschreven in een applicatieschema.</p><p><strong>associatie of relatie (UML)</strong><br>semantische relatie tussen twee of meer klassen die de connectie tussen hun instanties weergeeft
+</p><p><strong>attribuut</strong><br>kenmerk van een object
+</p><p><strong>attribuutwaarde (value)</strong><br>waarde die een attribuut aanneemt</p><p><strong>coördinaat</strong><br>getal in een sequentie van n getallen om de positie van een punt in een n-dimensionale ruimte te bepalen
+</p><p><strong>coördinaatreferentiesysteem</strong><br>coördinaatsysteem dat aan een object is gerelateerd door een datum.  </p><p><strong>coördinaatsysteem</strong><br>set van wiskundige regels voor het toekennen van coördinaten aan punten
+</p><p><strong>datatype</strong><br>gestructureerde gegevens zonder identiteit  </p><p><strong>datum</strong><br>parameter of set van parameters voor het definiëren van het nulpunt, de schaal en de oriëntatie van een coördinaatsysteem</p><p><strong>diepte</strong><br>afstand van een punt tot een gekozen referentievlak neerwaarts gemeten langs een lijn welke loodrecht op dat referentievlak staat.
+</p><p><strong>download service</strong><br>service that enables copies of spatial data sets, or parts of such sets, to be downloaded and, where practicable, accessed directly.<br>INSPIRE</p><p><strong>extensie (van informatiemodel)</strong><br>een informatiemodel als uitbreiding op een ander informatiemodel
+</p><p><strong>geo-informatie (geo-information, geographic information)</strong><br>informatie met een directe of indirecte referentie naar een plaats ten opzichte van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)
+</p><p>OPMERKING Geo-informatie is synoniem aan geografische informatie.  </p><p><strong>geo-object (geographic feature type, feature class)</strong><br>abstractie van een fenomeen in de werkelijkheid dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)</p><p><strong>georeferentie (georeference)</strong><br>locatie van een ruimtelijk object vastgelegd in een ruimtelijk referentiesysteem</p><p><strong>informatiemodel (conceptual model, conceptual scheme)</strong><br>formele definitie van objecten, attributen, relaties en regels in een bepaald domein
+</p><p>OPMERKING Domein is in dit verband: een kennisgebied of activiteit gekarakteriseerd door een verzameling van concepten en begrippen</p><p><strong>instantie (instance, occurrence)</strong><br>benoemd, identificeerbaar object uit een objectklasse</p><p><strong>label</strong><br>tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt afgebeeld</p><p><strong>namespace</strong><br>collectie van namen die in XML documenten gebruikt worden als element en attribuutnamen
+</p><p>OPMERKING Een namespace wordt geïdentificeerd door een URI.</p><p><strong>netwerk service</strong><br>application running at the network application layer and above, that provides data storage, manipulation, presentation, communication or other capability which is often implemented using a client-server or peer-to-peer architecture based on application layer network protocols (Wikipedia)</p><p><strong>netwerktopologie</strong>
+beschrijving van de plaats van de knooppunten en de onderlinge verbindingen in een netwerk</p><p><strong>objectklasse (feature class)</strong><br>verzameling van objecten met dezelfde eigenschappen</p><p><strong>presentatie</strong><br>presentatie van informatie aan mensen
+</p><p>OPMERKING Presentatie van informatie door visualisatie, hoorbaar maken, tastbaar maken (tactiel) of combinaties hiervan.</p><p><strong>productmodel</strong><br>informatiemodel afgeleid van een ander informatiemodel om de toepassing in een dataproduct te realiseren</p><p><strong>registratie</strong><br>op nationaal niveau geïdentificeerde en erkende gegevensverzameling
+</p><p>OPMERKING Een basisregistratie is een registratie.</p><p><strong>registratiehouder</strong><br>organisatie verantwoordelijk voor het houden van de registratie
+</p><p>OPMERKING de registratiehouder is de organisatie die unieke objectidentificaties toekent voor objecten in een registratie</p><p><strong>representatie</strong><br>inhoudelijk vastleggen van de werkelijkheid.
+</p><p>OPMERKING Het informatiemodel is een representatie van de werkelijkheid.</p><p><strong>ruimtelijk referentiesysteem model</strong><br>(systeem) voor identificatie van een positie (locatie) in de werkelijkheid
+</p><p>OPMERKING Identificatie van een positie kan door coördinaten (directe locatie) en door geografische identificatoren (indirecte locatie).</p><p><strong>sectormodel</strong> 
+model voor beschrijving van de werkelijkheid binnen het domein van een beleidsveld
+</p><p><strong>symbool</strong><br>presentatieprimitieve van grafische, audio of tactiele aard of een combinatie hiervan</p><p><strong>temporeel referentiesysteem</strong><br>referentiesysteem waarin de tijd is bepaald.</p><p><strong>rasterformaat</strong><br>representatie van beeld middels een gewoonlijk rechthoekig patroon van parallelle lijnen</p><p><strong>vectorformaat</strong><br>representatie van geometrie middels geometrische primitieven</p><p><strong>view service</strong><br>service that makes it possible, as a minimum, to display, navigate, zoom in and out, pan or overlay viewable spatial data sets and to display legend information and any relevant content of metadata.<br>INSPIRE</p><p><strong>void</strong> (en)<br>object, of kenmerk van een object, dat syntactisch of semantisch is vereist,
+maar dat in de gegeven instantie geen informatie bevat</p><p><strong>waardelijst</strong><br>lijst van waarden</p><p><strong>werkelijkheid</strong><br>beeld van de echte of hypothetische wereld die alles van belang omvat</p></section><section id="symbolen-en-afkortingen"><h3 id="x3-5-symbolen-en-afkortingen"><span class="secno">3.5 </span>Symbolen en afkortingen</h3><p>Lijst van afkortingen en acroniemen die worden gehanteerd in deze data
+specificatie.</p><p><strong>BAG</strong><br>Basisregistratie Adressen en Gebouwen</p><p><strong>BevB</strong><br>Besluit externe veiligheid Buisleidingen</p><p><strong>BGT</strong><br>Basisregistratie Grootschalige Topografie</p><p><strong>BOMOS</strong><br>Beheer- en ontwikkelmodel Open Standaarden</p><p><strong>EC61</strong><br>EU richtlijn voor een Verordening van het Europees Parlement en Raad over maatregelen om de kosten van de aanleg van elektronische hogesnelheidscommunicatienetwerken te verlagen</p><p><strong>GML</strong><br>Geography Markup Language</p><p><strong>INSPIRE</strong><br>Infrastructure for Spatial Information in Europe<br>De INSPIRE-richtlijn verplicht de Europese lidstaten geo-informatie over 34 thema's te voorzien van metadata, te harmoniseren en beschikbaar te stellen via het INSPIRE-portaal volgens leveringsvoorwaarden die het gebruik niet onnodig belemmeren.</p><p><strong>INSPIRE UN</strong><br>INSPIRE thema Utility Networks.<br>Nutsvoorzieningen zoals bijvoorbeeld riolering, afvalbeheer, energievoorziening, watervoorziening</p><p><strong>RRGS</strong><br>Risico Register Gevaarlijke Stoffen
+</p><p><strong>UML</strong><br>Unified Modeling Language</p><p><strong>WFS</strong><br>Web Feature Service
+</p><p><strong>WIBON</strong><br>Wet Informatie-uitwisseling Bovengrondse en Ondergrondse netten</p><p><strong>WMF</strong><br>Web Mapping Service</p><p><strong>XML</strong><br>Extensible Markup Language</p></section></section><section data-format="markdown" id="identificatie-document"><!--OddPage--><h2 id="x4-identificatie-document"><span class="secno">4. </span>Identificatie document</h2><p>Dit hoofdstuk beschrijft de identificatie van de dataspecificatie.</p><p>In onderstaande tabel is de beschrijvende informatie opgenomen van het
+dataspecificatie.</p><table>
+<thead>
+<tr>
+<th>Titel</th>
+<th>Informatiemodel Kabels en Leidingen (IMKL)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Samenvatting</td>
+<td>IMKL beschrijft de semantiek van digitale bestanden van utiliteitsnetten. De netten worden getypeerd aan de hand van producten of thema’s: elektriciteit, gas en chemie, drinkwater, afvalwater, telecom en warmte. Netten zijn opgebouwd uit netwerkelementen zoals kabels, leidingen, buizen en verbindende componenten genaamd leidingelementen zoals moffen, schakelkasten, aansluitingen, pompen. Het geheel van deze netwerkelementen vormt een netwerk waarvan de topologie wordt beschreven en de directe geografische positie middels coördinaten.</td>
+</tr>
+<tr>
+<td>Onderwerp categorieën</td>
+<td></td>
+</tr>
+<tr>
+<td>Geografische beschrijving</td>
+<td>Nederland</td>
+</tr>
+<tr>
+<td>Doel (optioneel)</td>
+<td>Doel van dit document is het beschrijven van dataproduct IMKL ten behoeve van KLIC. IMKL is ontwikkeld voor de realisatie van digitaal berichtenverkeer rond het thema utiliteitsnetten en de daarin voorkomende kabels, leidingen en leidingelementen voor de realisatie van een aantal wetten en regelingen. Met name de wet WIBON en de Europese regeling INSPIRE en daarin het thema Utility Networks zijn bepalend.</td>
+</tr>
+<tr>
+<td>Aanvullende informatie (optioneel)</td>
+<td></td>
+</tr>
+</tbody></table></section><section data-format="markdown" id="gegevensdefinitie"><!--OddPage--><h2 id="x5-gegevensdefinitie"><span class="secno">5. </span>Gegevensdefinitie</h2><p>Dit hoofdstuk beschrijft het datamodel van utiliteitsnetten. Aan de hand van UML
+klasse diagrammen wordt het model beschreven.</p><section id="inleiding"><h3 id="x5-1-inleiding"><span class="secno">5.1 </span>Inleiding</h3><p>In de volgende paragrafen wordt de inhoud en structuur van het IMKL beschreven
+middels UML diagrammen en een bijbehorende objectcatalogus.</p><p>De verschillende uitwisselprocessen WIBON, Buisleidingen voor Risicoregister en
+Stedelijk water worden in aparte paragrafen behandeld. Dit resulteert in drie
+deelmodellen respectievelijk benoemd als:
+</p><p>IMKL – WIBON;</p><p>IMKL – Buisleidingen Risicoregister;</p><p>IMKL – Stedelijk water.</p><p>De WIBON toepassing wordt als eerste beschreven. Omdat de andere toepassingen
+ook delen daarvan gebruiken is het nodig om dit model integraal door te nemen.</p><p>Het eerste gedeelte van dit hoofdstuk bevat de UML diagrammen van alle
+deelmodellen. Schematisch is opgenomen wat de informatie-inhoud is middels
+objecten, hun attributen, datatypen, relaties tussen objecten met alle detail
+dat nodig is voor een eenduidige beschrijving. Van elk deelmodel is een compleet
+diagram opgenomen waarna in verschillende subparagrafen elke keer een deel in
+een apart diagram wordt toegelicht. Sommige onderwerpen hebben een aparte
+toelichting nodig; deze worden in de titel aangeduid met ‘Extra toelichting’.</p><p>Het tweede gedeelte bevat de objectcatalogus met in tabelvorm dezelfde
+informatie als de diagrammen maar nu middels taal beschreven. Alle
+informatie-elementen zijn daarbij voorzien van definities en indien nodig een
+toelichtende beschrijving. De objectcatalogus bevat de gezamenlijke
+informatie-inhoud van alle deelmodellen.</p></section><section id="uml-diagrammen"><h3 id="x5-2-uml-diagrammen"><span class="secno">5.2 </span>UML diagrammen</h3><section id="beschrijving-algemeen-principe-imkl-als-extensie-op-inspire"><h4 id="x5-2-1-beschrijving-algemeen-principe-imkl-als-extensie-op-inspire"><span class="secno">5.2.1 </span>Beschrijving algemeen principe: IMKL als extensie op INSPIRE</h4><p>IMKL is gemodelleerd als een extensie op het model voor het INSPIRE thema
+Utility and Governmental Services. Binnen dat INSPIRE thema zijn alleen de
+modellen voor utiliteitsnetten (utility networks) van belang voor IMKL. IMKL
+neemt de hele inhoud over van de INSPIRE specificatie en voegt daar de
+specifieke informatie aan toe die nodig is voor realisatie van de in de scope
+genoemde processen. Met IMKL kan daardoor een dataset geleverd worden of
+dataservice worden ingericht die INSPIRE conform is en voorziet in het detail
+van de eisen van de genoemde processen. Er is hierbij opgemerkt dat IMKL als een
+modelmatige extensie van de INSPIRE niet betekent dat de in IMKL geleverde data
+automatisch INSPIRE data zijn. Dit geldt zeker voor thema’s die niet
+INSPIRE-plichtig zijn.</p><p>Het volgende diagram geeft de relatie tussen IMKL en de verschillende INSPIRE modellen. IMKL is
+een uitbreiding op het INSPIRE Utility Networks model waarin voor de netten
+elektriciteit, olie-gas-chemicalien, afvalwater, telecomunicatie, warmte en
+drinkwater aparte modellen zijn opgenomen. Deze modellen zijn toepassingen van
+het INSPIRE netwerkmodel waarin opgenomen een model voor topologie. Het
+netwerkmodel is onderdeel van het INSPIRE Generic Conceptual Model,
+basismodellen en basistypen die generiek zijn voor alle INSPIRE thema modellen.
+IMKL is een apart pakket met bijbehorende namespace dat gebruik maakt van de
+door INSPIRE beheerde pakketten. Een namespace is daarbij gedefinieerd als een
+unieke aanduiding voor het domein waarbinnen de informatie-elementen
+gedefinieerd zijn. In IMKL zijn afspraken gemaakt over te gebruiken namespaces
+en afkortingen hiervoor. De namespace voor IMKL is ‘IMKL’.</p><figure id="afb_package-diagram"><img src="docs/media/IMKL-Klicwin.jpg" alt="Afbeelding Package diagram">
+<figcaption>Figuur <span class="figno">3</span> <span class="fig-title">Een UML package diagram van de relatie tussen IMKL en de INSPIRE
+dataspecificaties. Elk pakket bevat de informatie die op dat niveau wordt
+toegevoegd. Het pakket IMKL is een extensie op het INSPIRE model voor Utility
+Networks. INSPIRE utilities heeft afhankelijkheden met het INSPIRE algemene
+netwerkmodel en INSPIRE basistypen. IMKL omvat het totaal van de aan elkaar
+gerelateerde pakketten.</span></figcaption>
+</figure></section><section id="metamodel"><h4 id="x5-2-2-metamodel"><span class="secno">5.2.2 </span>Metamodel</h4><p>IMKL gebruikt voor het beschrijven van de uitbreiding op INSPIRE het zelfde
+metamodel voor UML als INSPIRE: het metamodel beschreven in het INSPIRE Generic
+Conceptual Model. IMKL wijkt hiermee af van de Nederlandse Standaard voor
+informatiemodellering MIM.</p><p>De volgende argumenten ondersteunen de keuze voor het INSPIRE metamodel:</p><p>- IMKL is als extensie gemodelleerd op het INSPIRE model. De combinatie van
+twee metamodellen maakt de beschrijving van de extensie onnodig complex;</p><p>- Het metamodel van INSPIRE kunnen we niet aanpassen omdat dit in Europees
+verband is vastgesteld.</p><p>De volgende stereotypen worden gebruikt als onderdeel van het UML profiel.</p><table>
+<thead>
+<tr>
+<th><strong>Stereotype</strong></th>
+<th><strong>Model element</strong></th>
+<th><strong>Beschrijving</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>applicationSchema</td>
+<td>Package</td>
+<td>Een applicatie schema volgens ISO 19109 en NEN 3610.</td>
+</tr>
+<tr>
+<td>featureType</td>
+<td>Class</td>
+<td>Een geografisch object.</td>
+</tr>
+<tr>
+<td>dataType</td>
+<td>Class</td>
+<td>Een gestructureerd data type zonder identiteit.</td>
+</tr>
+<tr>
+<td>union</td>
+<td>Class</td>
+<td>Een gestructureerd data type zonder identiteit waarvan precies één van de attributen aanwezig is in een instantie.</td>
+</tr>
+<tr>
+<td>enumeration</td>
+<td>Class</td>
+<td>Gesloten lijst van domeinwaarden.</td>
+</tr>
+<tr>
+<td>codeList</td>
+<td>Class</td>
+<td>Open lijst van domeinwaarden</td>
+</tr>
+<tr>
+<td>voidable</td>
+<td>Attribute, association role</td>
+<td>Om aan te geven dat het attribuut of associatierol een nullwaarde kan hebben. Een reden waarom het attribuut niet ingevuld is.</td>
+</tr>
+</tbody></table></section><section id="uml-wibon-overzicht"><h4 id="x5-2-3-uml-wibon-overzicht"><span class="secno">5.2.3 </span>UML - WIBON overzicht</h4><p>Het onderstaand UML diagram bevat het complete IMKL – WIBON inclusief de relatie
+met INSPIRE Utilities. In de hierop volgende paragrafen wordt telkens een deel
+van het diagram toegelicht.</p><p>Kleurgebruik in diagrammen:</p><ul>
+<li><p>Oranje: IMKL objecttypen.</p>
+</li>
+<li><p>Rood: INSPIRE Utility Networks per type kabel of leiding</p>
+</li>
+<li><p>Groen en grijs: INSPIRE Utility Networks algemeen</p>
+</li>
+<li><p>Licht oranje en grijs: Niet-instantieerbare objecttypen, datatypen en
+waardelijsten.</p>
+</li>
+<li><p>In de diagrammen onderdelen die gewijzigd zijn ten opzichte van de IMKL 1.2.1 versie
+met rode kaders aangegeven.</p>
+</li>
+</ul><p>Voorbeeld: cardinaliteit aangepast en constraint toegevoegd:</p><figure id="afb_voorbeeldAangepasteklasse"><img src="docs/media/voorbeeldAangepasteKlasse.png" alt="Afbeelding voorbeeld aangepaste klasse">
+<figcaption>Figuur <span class="figno">4</span> <span class="fig-title">Voorbeeld van een aangepast objecttype</span></figcaption>
+</figure><p>Voor WIBON geldt dat er een verschil is tussen het dataverkeer tussen de
+centrale voorziening en de afnemers, de uitlevering, en het dataverkeer tussen
+de netbeheerders en de centrale voorziening, de aanlevering. Bij de
+netbeheerders geldt vervolgens dat er een verschil is tussen de centraal
+aangesloten netbeheerders en de decentraal aangesloten netbeheerders. Deze
+verschillende zijn in de diagrammen aangegeven.</p><ul>
+<li><p>Rood omlijnd: gegevens die door de centrale voorziening worden gegenereerd.
+Komen alleen voor in uitlevering.</p>
+</li>
+<li><p>Groen omlijnd: gegevens die voor de centraal aangesloten netbeheerder door
+de voorziening wordt gegenereerd. Decentraal aangesloten netbeheerders
+moeten deze gegevens per melding aan de centrale voorziening leveren.</p>
+</li>
+<li><p>Bij objecttypen is met constraints aangegeven indien er verschil is met
+betrekking tot aan- of uitlevering of een decentraal of centraal aangesloten
+netbeheerder.</p>
+</li>
+</ul><figure id="afb_IMKL-model-compleet"><img src="docs/media/1.IMKL-Model-compleet.png" alt="Afbeelding IMKL model compleet">
+<figcaption>Figuur <span class="figno">5</span> <span class="fig-title">IMKL: Overzicht model compleet</span></figcaption>
+</figure><p>Toelichting bij het diagram.</p><p>Het UML diagram brengt het IMKL – WIBON voor netinformatie inclusief de relatie
+met INSPIRE in beeld. De specifiek voor de andere deelmodellen opgenomen
+informatie zit hier nog niet in. Ook de WIBON gebiedsinformatie, graafpolygoon
+en belangenregistratie zijn niet opgenomen (zie daarvoor paragraaf <a href="#wibon-uitleveren-van-gebiedsinformatie">WIBON uitleveren van gebiedsinformatie</a>). Voor
+de leesbaarheid zijn een aantal relaties niet opgenomen. In de detaildiagrammen
+komen die wel terug. Met omlijningen zijn onderdelen van het diagram benoemd:
+IMKL en INSPIRE Generic Network Model. Aan de bovenzijde bevindt zich de IMKL
+toevoeging op het INSPIRE Utilities model. Aan de onderzijde het INSPIRE
+Utilities model. De koppelingslaag is via de IMKL objecttypen die zich in het
+midden bevinden: Elektriciteitskabel, Telecommunicatiekabel, Waterleiding tot en
+met TechnischGebouw. Deze objecttypen zijn 1 op 1 gerelateerd aan de overeenkomstige
+objecttypen uit INSPIRE Utilities. IMKL:Elektricteitskabel aan
+INSPIRE:ElectricityCable, IMKL:Waterleiding aan INSPIRE:WaterPipe enz. Ze
+bevatten daarmee alle INSPIRE eigenschappen en relaties van die objecttypen. De
+IMKL koppelingslaag is ook gekoppeld aan de IMKL inhoudelijke informatie. Deze
+is gemodelleerd in de objecttypen KabelOfLeiding, Leidingelement en de
+containerversies van beide.</p><p>De objecttypen in de IMKL koppelingslaag (Elektricteitskabel, Waterleiding enz)
+vormen de centrale objecten in een IMKL dataset. Via overerving en relaties
+worden alle eigenschappen toegevoegd, hetzij van de INSPIRE zijde van het model,
+hetzij van de IMKL zijde van het model. Als voorbeeld het attribuut geometrie
+van een waterleiding. Deze is gedefinieerd als centreLineGeometry bij het
+objecttype Link uit het Generic Network Model. Via UtilityLinkSet wordt dat
+overgeërfd door het objecttype Pipe, vervolgens doorgegeven aan WaterPipe
+waardoor het bij de IMKL waterleiding komt. Een ander voorbeeld is het attribuut
+UtilityDeliveryType bij het INSPIRE objecttype UtilityLinkSet. Overerving is
+door alle kabel-, buis- en ducttypen.</p></section><section id="associaties-in-het-model"><h4 id="x5-2-4-associaties-in-het-model"><span class="secno">5.2.4 </span>Associaties in het model</h4><p>In het model zijn associaties opgenomen om de relatie tussen objecttypen te
+benoemen. In het IMKL gedeelte zijn regels opgenomen voor het bepalen van de
+richting waarin de associaties zijn bepaald:</p><ul>
+<li><p>Elke associatie wijst één kant op. Er zijn dus geen inverse associaties. Als
+er een verwijzing naar beide kanten nodig is worden er twee associaties
+opgenomen;</p>
+</li>
+<li><p>Elk objecttype in IMKL verwijst direct naar het utiliteitsnet waar het bij
+hoort. Dit gebeurt in alle gevallen met een associatierol genaamd inNetwork.
+Dat geldt ook voor objecttypen als Annotatie, Maatvoering, Bijlage en
+dergelijke. Informatie technisch is het mogelijk dat sommige objecttypen bij
+meerdere utiliteitsnetten horen, bijvoorbeeld een door verschillende netten
+gedeelde mantelbuis, of een dieptemarkering. De associatierol inNetwork is
+daarom 1..*. Echter vanuit operationeel punt bezien is dat niet wenselijk.
+Met een constraint (‘Max1Utiliteitsnet’) is daarom in alle gevallen het
+maximaal aantal utiliteitsnetten waarnaar verwezen kan worden beperkt tot 1.</p>
+</li>
+<li><p>Voor netwerkelementen geldt dat associaties verwijzen naar de objecten
+ExtraInformatie en Diepte die er bij horen en niet andersom.</p>
+</li>
+</ul></section><section id="numerieke-waarden"><h4 id="x5-2-5-numerieke-waarden"><span class="secno">5.2.5 </span>Numerieke waarden</h4><p>Numerieke waarden bij attributen worden opgenomen conform de bij het attribuut
+opgegeven eenheid en nauwkeurigheid. Indien de waarde als label is opgenomen en
+dus een alfanumeriek datatype heeft geldt de komma als decimaal scheidingsteken.
+Voor de in specifieke datatypen gedefinieerde waarden geldt een punt als het
+afgesproken decimaal scheidingsteken. De specifieke datatypen voor waarden zoals
+Measure bestaan uit een combinatie van een waarde en een eenheid.</p></section><section id="waardelijsten-zijn-extern"><h4 id="x5-2-6-waardelijsten-zijn-extern"><span class="secno">5.2.6 </span>Waardelijsten zijn extern</h4><p>De opgenomen waardelijsten van het type  «codeList» worden niet in het UML
+beheerd maar in externe waardelijsten. Zij worden gepubliceerd in een
+waardelijstregister. Ze maken wel onderdeel uit van IMKL maar omdat ze
+dynamischer zijn voor wat betreft het inhoudelijk beheer zijn ze uit de UML
+beschrijving gehaald. Om het model toch leesbaar te houden zijn de startversies
+van die lijsten wel opgenomen in de UML diagrammen. Voor operationele toepassing
+is echter het waardelijstregister leidend.</p></section><section id="basisattributen-voor-identificatie-en-labels"><h4 id="x5-2-7-basisattributen-voor-identificatie-en-labels"><span class="secno">5.2.7 </span>Basisattributen voor identificatie en labels</h4><p>Identificatie: Alle concrete objecttypen en daarmee objecten in een dataset
+hebben een attribuut voor identificatie. Met deze identificatie kunnen ze uniek
+geïdentificeerd worden. INSPIRE gebruikt hiervoor het attribuut identifier met
+het datatype Identifier. Veel objecttypen uit IMKL overerven die attributen.
+Voor objecttypen die specifiek voor IMKL zijn gecreëerd en die niet via een
+generalisatie aan INSPIRE zijn gekoppeld is er een attribuut identificatie met
+het datatype NEN3610ID. Zie ook paragraaf <a href="#identifier-management">Identifier management</a>.</p><p>Label: Label is een abstract datatype dat is gecreëerd om middels overerving aan
+bijna alle objecten een mogelijkheid voor het toekennen van een label te bieden.
+Merk op dat voor annotatie en maatvoering (ExtraInformatie) en diepte,
+bijbehorende labels via het object Label doorgegeven worden. Het af te beelden
+label (getal of tekst) wordt opgenomen bij het attribuut label. Vanuit praktisch
+punt is het maximaal aantal karakters van een label op 40 gezet. In het
+attribuut omschrijving kan een betekenis worden opgenomen. Bij de subklassen
+Maatvoering, Annotatie en Diepte is het plaatsingspunt van een label bepaald met
+een attribuut ligging. Bij andere subklassen, bijvoorbeeld de netelementen wordt
+de plaatsing van een eventueel label in een viewer bepaald.</p><p><strong>Voidable:</strong> Bij attributen en associaties die het stereotype «voidable»
+hebben kan, indien het van toepassing is, geen waarde worden ingevuld. Optioneel
+kan er ook een reden opgenomen worden waarom er geen waarde is ingevuld. De
+benoemde redenen zijn:</p><p><strong>Unknown:</strong> Waarde onbekend: De waarde is bij de zender niet bekend.</p><p><strong>Unpopulated:</strong> Niet ondersteund: De zender houdt in zijn registratie geen
+waarde voor dit attribuut bij. Geldt voor alle objecten van dit objecttype.</p><p><strong>Withheld:</strong> Niet geautoriseerd: De zender vindt dat de ontvanger niet
+geautoriseerd is om de waarde te kennen. Waarde is vertrouwelijk en wordt niet uitgewisseld.</p><figure id="afb_2.IMKL-Basisinformatie"><img src="docs/media/2.IMKL-Basisinformatie.png" alt="Afbeelding Basisinformatie">
+<figcaption>Figuur <span class="figno">6</span> <span class="fig-title">Basistypen van het model: Identificatie en label. Alle objecttypen
+hebben verplicht een identifier. Bijna alle objecten hebben optioneel een label.</span></figcaption>
+</figure><p>LifespanVersion: In de basistypen van het model zitten twee attributen voor een
+temporeel model: beginLifesepanVersion en endLifespanVersion. INSPIRE kent die
+attributen ook en past die toe bij het objecttype NetwerkElement. In IMKLBasis
+zijn ze toegevoegd voor die objecttypen die niet van INSPIRE overerven.
+beginLifespanVersion is daarin de begindatum waarop deze versie van een data
+object in de registratie werd aangemaakt of veranderd; het begin van de
+levenscyclus van deze versie van een data object. endLifespanVersion is de datum
+die het einde van een levenscyclus van deze versie van een data object aangeeft;
+het moment vanaf wanneer het geen onderdeel meer is van de actuele registratie.
+Zie ook paragraaf <a href="#tijd-representatie-en-temporeel-model">Tijd representatie en temporeel model</a>.</p></section><section id="imkl-semantische-kern"><h4 id="x5-2-8-imkl-semantische-kern"><span class="secno">5.2.8 </span>IMKL semantische kern</h4><p>De kern van het IMKL model bevat de semantiek van de extra informatie voor de
+Nederlandse gebruikstoepassingen. Alleen de objecttypen die de inhoudelijke IMKL
+informatie bevatten en die extra aan het INSPIRE Utility networks model zijn
+toegevoegd zijn afgebeeld. Bijvoorbeeld geometrie en netwerktopologie zitten in
+INSPIRE Utility networks en zijn niet afgebeeld.</p><figure id="afb_3.IMKL-Semantische-kern"><img src="docs/media/3.IMKL-Semantische-kern.png" alt="Afbeelding Semantische kern">
+<figcaption>Figuur <span class="figno">7</span> <span class="fig-title">IMKL semantische kern voor WIBON toepassing. Een utiliteitsnet
+bestaat uit elementen. De elementen hebben attributen en een link met extra
+informatie.</span></figcaption>
+</figure><p>Toelichting bij het diagram: Een Utiliteitsnet bestaat uit objecten
+KabelOfLeiding, Leidingelement, KabelEnLeidingContainer en
+ContainerLeidingelement. Via het associatie attribuut inNetwork worden deze
+gerefereerd aan één Utiliteitsnet van één thema. Deze associatie is alleen
+zichtbaar bij ContainerLeidingelement. De andere netwerkobjecten hebben die
+associatie via het INSPIRE Netwerk model. Alle objecten hebben kenmerken. De
+objecttypen kunnen uitgebreid worden met ExtraInformatie. Dit kan annotatie,
+maatvoering en/of extra bestanden zijn. Al deze typen vallen onder de
+superklasse ExtraInformatie en worden vanuit de andere objecten gerefereerd via
+het attribuut heeftExtraInformatie. Omdat alle elementen van en in een
+Utiliteitsnet middels het associatie attribuut inNetwork refereren aan het
+Utiliteitsnet is typering van alle elementen mogelijk op waarden van het
+attribuut thema. Alle elementen kunnen daarmee per thema geselecteerd worden.</p><p><strong>Maximaal 1 utiliteitsnet per netelement.</strong></p><p>ContainerLeidingelementen en KabelEnLeidingContainers (Kabelbed, Mantelbuis en
+Duct) kunnen in de werkelijkheid bij meerdere utiliteitsnetten geregistreerd
+zijn. Dat geldt dan natuurlijk ook voor objecten die daaraan zijn geassocieerd,
+zoals ExtraInformatie en Diepte. Het IMKL model dwingt met een aparte constraint
+(Max1Utiliteitsnet) af dat in de datauitwisseling een netelement altijd naar
+maximaal 1 utiliteitsnet kan verwijzen. Het kan daarmee voorkomen dat in een
+totaalset van een WIBON uitlevering elementen dubbel zijn opgenomen.
+Bijvoorbeeld een gedeelde mantelbuis komt zowel in het telecomnet als in het
+waternet voor.</p><p>Een Utiliteitsnet wordt gerefereerd door een Belanghebbende, deze heeft een
+belang in een WIBON aanvraag. De Belanghebbende kan verwijzen naar een object
+EigenTopografie voor het koppelen van een extra toegevoegde topografie.</p><p><strong>Extra toelichting: ExtraDetailinfo, maatvoering, annotatie.</strong></p><p>Een utiliteitsnet of individuele netelementen kunnen via het attribuut
+heeftExtraInformatie verwijzen naar extra informatie van toepassing op dat
+element. Extra informatie kan in de vorm een gekoppeld bestand, maatvoering,
+annotatie of een eis voorzorgsmaatregel.</p><p>Annotatie:</p><p>Pijlen, lijnen en labels die als annotatie op een kaartbeeld staan en niet als
+maatvoering gelden worden met het object Annotatie opgenomen. Met het attribuut
+ligging wordt de geometrie van de annotatie aangegeven of de plaatsingspunt van
+het label. De tekst en eventueel betekenis van het label worden via het object
+Label opgenomen.</p><p>Het uitwisselen van annotatie gebeurt alleen daar waar de bronhouder het nodig
+vindt om deze informatie als annotatie op te nemen. Annotatie objecten zijn
+zelfstandige objecten die middels een associatie aan een Utiliteitsnet zijn
+verbonden en optioneel ook gerefereerd worden door het netelement waar ze
+betrekking op hebben. Annotatie bevat in veel gevallen de informatie die ook bij
+de netelementen zelf opgenomen kan worden maar in de bronbestanden niet als
+gekoppelde informatie is opgenomen. De verwachting is dat het gebruik van
+annotatie als bron van informatie in de toekomst afneemt en de object gekoppelde
+en opvraagbare informatie toeneemt.</p><p>ExtraDetailinfo:</p><p>Extra detailinformatie in de vorm van bestanden kan optioneel aan een
+utiliteitsnet of netelement worden gekoppeld via het attribuut
+heeftExtraInformatie. Bestanden kunnen verschillende typen informatie
+beschrijven zoals een aansluiting, huisaansluiting of een profielschets met een
+lengte- of dwarsprofiel (zie ook paragraaf <a href="#leidingelement">Leidingelement</a>). Het bestandstype moet worden
+gespecificeerd en is in alle gevallen pdf.</p><p>Met het verplichte attribuut ligging wordt de locatie aangegeven waar de
+detailinformatie van toepassing is. In een viewer kan die locatie dan
+gevisualiseerd worden.</p><p>Maatvoering:</p><p>Maatvoering wordt gebruikt om de positie van een netwerkelement ten opzichte van
+aanwezige bebouwing weer te geven. Als maatvoering is opgenomen dan zijn die
+gegevens leidend irt de afstanden die uit de coördinaten berekend kunnen worden.
+De annotatietypen voor maatvoering zijn: maatvoeringshulplijn, maatvoeringslijn,
+maatvoeringspijl, maatvoeringspijlpunt of maatvoeringslabel. Een
+maatvoeringspijlpunt wordt middels een puntsymbool uitgewisseld.</p><table>
+<thead>
+<tr>
+<th><strong>Waarde</strong></th>
+<th><strong>Omschrijving</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>maatvoeringshulplijn</td>
+<td>Lijn om een hulplijn in een maatvoering te visualiseren</td>
+</tr>
+<tr>
+<td>maatvoeringslijn</td>
+<td>Lijn om een lijn in een maatvoering te visualiseren</td>
+</tr>
+<tr>
+<td>maatvoeringslabel</td>
+<td>Punt en label om een label in een maatvoering te visualiseren</td>
+</tr>
+<tr>
+<td>maatvoeringspijlpunt</td>
+<td>Punt om een pijlpunt in een maatvoering te visualiseren. Is een punt met een bijbehorend puntsymbool</td>
+</tr>
+<tr>
+<td>maatvoeringspijl</td>
+<td>Lijn met aan beide kanten een pijlpunt</td>
+</tr>
+</tbody></table><p>Elke maatvoeringslijn wordt een apart object.</p><p>Het maatvoeringslabel geeft met een label-attribuut het label aan dat als
+maatvoeringsgetal wordt afgebeeld. Bijvoorbeeld ‘25’. Overeenkomstig NEN 3116 is
+de eenheid meter en de gebruikelijke nauwkeurigheid is 0,1. Het decimale
+scheidingsteken is een komma. Het attribuut label wordt via het object
+ExtraInformatie overerft van het object Label. In het attribuut omschrijving van
+het object Label kan indien nodig een nadere omschrijving worden opgenomen, zie
+<a href="#afb_2.IMKL-Basisinformatie" class="fig-ref">Figuur IMKL-Basisinformatie</a>. De locatie van het label en de geometrie van de maatvoeringslijnen
+wordt met het attribuut ligging opgenomen. Maatvoering is direct gekoppeld aan
+een Utiliteitsnet. Hierdoor kan middels het thema attribuut van Utiliteitsnet de
+maatvoering per thema worden geselecteerd.</p><p><strong>Extra toelichting: Eis voorzorgsmaatregel en Bijlage.</strong></p><p>Een eis voorzorgsmaatregel geeft aan dat de beheerder van een net aangegeven
+heeft dat er sprake is van voorzorgsmaatregelen die getroffen dienen te worden.
+Dit betreft alleen de wettelijk geregelde eis voorzorgsmaatregel. Bij een WIBON
+uitlevering wordt – per thema - de voorzorgsmaatregel met de hoogste prioriteit
+bijgesloten middels een gekoppeld separaat bestand beschreven in
+EisVoorzorgsmaatregelBijlage. Van deze bijlage wordt vastgelegd op welk thema
+deze betrekking heeft en de te nemen eis voorzorgsmaatregel. De bijlage behoort
+bij een Belanghebbende netbeheerder. Op het niveau van de individuele
+netelementen is de eis voorzorgsmaatregel aangegeven via een object
+AanduidingEisVoorzorgsmaatregel. In dat geval is het netelement en of de locatie
+aangegeven waar een voorzorgsmaatregel geldt.</p><p>Standaard wordt de geometrie van het object AanduidingEisVoorzorgsmaatregel
+gebruikt om aan te geven op welke kabel of leiding of deel daarvan een
+voorzorgsmaatregel van toepassing is. De begrenzing van de geometrie is dan om
+dit te visualiseren en eenvoudig ruimtelijke selecteerbaar te maken.</p><p>De aanduiding van een eis voorzorgsmaatregel is functioneel gerelateerd aan een
+kabel of leiding maar een directe informatiekundige associatie tussen een kabel
+of leiding en de AanduidingEisVoorzorgsmaatregel is niet verplicht. De
+strookbreedte die de netbeheerder voor het betreffende object wil hanteren wordt
+door de netbeheerder als vlakgeometrie aangeleverd bij de aanduiding eis
+voorzorgsmaatregel.</p><p>De toepassing van eis voorzorgsmaatregelen en het gebied waarop deze betrekking
+heeft, is een verantwoordelijkheid van de netbeheerder en wordt door de
+netbeheerder zelf bepaald.</p><p>Voor de geometrie van aanduidingen eis voorzorgsmaatregel zijn ook multivlakken
+toegestaan.</p><p>Naast de bijlage voor de eis voorzorgsmaatregel is er in het IMKL ook nog een
+mogelijkheid om als netbeheerder een algemene bijlage mee te leveren bij de
+gebiedsinformatielevering.</p><p>In het kader van de reductie van het aantal bijlagen, wordt aangemoedigd om deze
+algemene informatie als URL beschikbaar te stellen (attribuut websiteKLIC).</p><p><strong>Extra toelichting: EigenTopografie.</strong></p><p>Indien er extra topografie nodig is om de positie van netwerkelementen nader aan
+te geven kan dit middels het object EigenTopografie. Er kan een bestaande - of
+plan-topografie worden meegegeven. Met het attribuut ligging wordt de geometrie
+van de EigenTopografie opgenomen. De eigen topografie wordt altijd
+gevectoriseerd aangeleverd. De topografische elementen worden getypeerd conform
+een typeringslijst TopografischObjectTypeValue, gebaseerd op IMGeo. Hiermee is
+het type topografisch object omschreven en is een koppeling met
+visualisatieregels mogelijk.</p></section><section id="geometrie-en-topologie"><h4 id="x5-2-9-geometrie-en-topologie"><span class="secno">5.2.9 </span>Geometrie en topologie</h4><p><strong>2D geometrie:</strong></p><p>Het verplichte geometrieprofiel van IMKL is 2D. Primair bestaat de geometrie uit
+punten en lijnen die het netwerk representeren. 2D vlakken zijn additioneel
+waarbij ook multivlakken zijn toegestaan. 2,5 D en 3D zijn een additionele
+extensie.</p><figure id="afb_4.IMKL-Geometrie.png"><img src="docs/media/4.IMKL-Geometrie.png" alt="Afbeelding Geometrie">
+<figcaption>Figuur <span class="figno">8</span> <span class="fig-title">Geometriemodel. Primair en verplicht punten en (hart)lijnen.
+Optioneel vlakken en additioneel 3D.</span></figcaption>
+</figure><p>De geometrie van de netwerkelementen wordt overgeërfd uit het Inspire Netwerk
+model. Alle netwerkelementen zijn onderdeel van een topologisch netwerk en
+worden geometrisch beschreven door links of nodes. De geometrieën zijn verplicht
+punten of lijnen. Lijnen kunnen opgebouwd zijn uit meerdere lijnsegmenten. De
+lijnen en punten zijn niet schematisch (niet ‘fictitious’) en representeren de
+locatie van de netwerkelementen middels hartlijnen. Lijnen van leidingen en
+punten van bijbehorende leidingelementen hoeven niet noodzakelijkerwijs aan te
+sluiten. De connectiviteit wordt gerealiseerd door de arc-node topologie. Als
+voorbeeld een pompstation in een rioolnetwerk. Het door een (center) punt
+gerepresenteerde pompstation is niet verbonden met leidingen. Er lopen wel
+leidingen naar de punt toe maar niet tot aan de punt. De leidingen hebben wel
+een verwijzing naar de node (connectiviteit).</p><p>Additioneel en optioneel kan een netwerkelement ook nog een vlak als geometrie
+hebben, een verwijzing naar een object ExtraGeometrie middels een relatie
+extraGeometrie. Indien het pompstation ook nog door een vlak wordt
+gerepresenteerd lopen de leidingen in de regel wel tot aan de begrenzing van het
+vlak.</p><p>Lijnen zijn in het INSPIRE netwerkmodel gemodelleerd als een LinkSet die bestaat
+uit een verzameling van 1 of meer GeneralisedLinks. Dit kunnen Links zijn van
+het type Curve of een LinkSequence, een geordende verzameling DirectedLinks. De
+LinkSequence kan worden toegepast als er een route, met een richting,
+uitgewisseld moet worden. Voor IMKL is dit niet relevant en wordt de
+LinkSequence derhalve niet toegepast</p><p>Meervoudig gebruik van geometrieën is niet toegestaan.</p><p>In principe staat het INSPIRE model toe dat een link door meerdere
+netwerkelementen wordt gebruikt. In de IMKL uitwisseling is dat echter niet
+toegestaan. Elke link wordt maar door één netwerkelement gebruikt.</p><p>Het ruimtelijke referentiesysteem voor IMKL datalevering is Rijksdriehoekmeting (RD), zie
+<a href="#referentiesystemen">Referentiesystemen</a>.</p><p><strong>3D geometrie.</strong></p><p>IMKL voorziet in een verplicht gebruik van 2D geometrieën. Middels de diepte-
+informatie kan de positie in het verticale vlak worden uitgewisseld. Om ook het
+opnemen van volledige 3D liggingsgegevens mogelijk te maken is er een optioneel
+en additioneel 3D model toegevoegd. De 3D liggingsgegevens van kabels en
+leidingen zijn bijvoorbeeld relevant bij gestuurde boringen. Bij een gestuurde
+boring is de derde dimensie (z-coördinaat) nodig om de boring te sturen, om het
+uittredepunt goed te benaderen en om botsingen met andere infrastructuur te
+voorkomen. Daardoor is na de boring de 3D ligging van de boring in 3D bekend.
+Ook voor andere kabels en leidingen die tegenwoordig worden aangelegd, is steeds
+vaker de 3D ligging bekend. Het niet accommoderen van deze 3D informatie in IMKL
+zou in feite betekenen dat relevante informatie wordt weggegooid.</p><p>Voor veel situaties is 2D data echter (nog) voldoende. Bovendien is voor veel
+kabels en leidingen de 3D (diepte) ligging niet bekend en door “zweven” van
+sommige typen kabels en leidingen is de 3D (maar ook 2D ligging) niet altijd
+absoluut. 3D geometrie kan daarbij een verkeerde indruk geven van de precisie.</p><p>In IMKL is de mogelijkheid opgenomen om objecten in 3 dimensies (3D) te
+modelleren. Deze mogelijkheid is optioneel en is naast, niet in plaats van, 2D
+aanwezig. Dat betekent dat de basis uitgaat van een (volledige) 2D data set.
+Daarnaast kan, in dezelfde data set, 3D geometrie voor een of meerdere van de
+objecten aanwezig zijn.</p><figure id="afb_IMKL-Geometrie2"><img src="docs/media/5.IMKL-Geometrie2.png" alt="Afbeelding Geometrie 2">
+<figcaption>Figuur <span class="figno">9</span> <span class="fig-title">Alle netelementen kunnen naast de verplichte punten en centerlijnen
+optioneel een extra geometrie hebben van het type 2D, 2,5D of 3D.</span></figcaption>
+</figure><p>KabelOfLeiding, KabelEnLeidingContainer, Leidingelement en
+ContainerLeidingelement bieden ieder de mogelijkheid voor het opnemen van 3D
+geometrie in twee verschillende ‘Levels of Detail’ (LOD). Allereerst kunnen 2.5D
+punten, vlakken en lijnen worden opgenomen. Dit kan beschouwd worden als Level
+of Detail 0 (LOD0) en is bedoeld voor het toevoegen van de z coördinaat. Elk
+IMKL vlak, lijn- of puntobject krijgt voor elk coördinatenpaar een z waarde. Om
+de ligging in 3D te beschrijven krijgt de lijn extra coördinatenparen ten
+opzichte van de 2D representatie. De objecten kunnen dan in een Digitaal Terrein
+Model (3D terreinmodel) worden geïntegreerd en op de juiste hoogte onder of
+boven maaiveldniveau worden gerepresenteerd.</p><p>Daarnaast is het mogelijk om volledige 3D geometrie op te nemen. Dit is te
+beschouwen als Level of Detail 1 (LOD1) en maakt het mogelijk om IMKL objecten
+als volledige 3D objecten (volumes) te representeren. Zie <a href="#afb_Figuur5.6" class="fig-ref">Figuur Leidingobject in 2.5D en 3D</a> voor
+voorbeelden van een IMKL object op verschillende levels of detail.</p><p>Voor 3D IMKL wordt het ruimtelijk Referentie systeem EPSG:7415 gehanteerd. Dit
+is een samengesteld referentiesysteem met RD voor de XY-dimensie (EPSG:28992) en
+NAP voor de Z dimensie (EPSG:5709). Zie ook paragraaf <a href="#ruimtelijk-referentiesysteem">Ruimtelijk referentiesysteem</a>.</p><figure id="afb_Figuur5.6"><img src="docs/media/Figuur5.6.png" alt="Afbeelding Leidingobject in 3D">
+<figcaption>Figuur <span class="figno">10</span> <span class="fig-title">Leidingobject in 2.5D en 3D</span></figcaption>
+</figure></section><section id="diepte"><h4 id="x5-2-10-diepte"><span class="secno">5.2.10 </span>Diepte</h4><p>Diepte bevat informatie over de dieptelegging van netwerkelementen. Het is een
+uitvoerige beschrijving die diepte tov het lokale maaiveld beschrijft of dieptes
+tov NAP. Beide hebben een apart objecttype, respectievelijk DiepteTovMaaiveld en
+DiepteNAP. Het cijfer dat bij de diepte hoort wordt opgenomen bij het attribuut
+dieptepeil. Het betreft de afstand vanaf de referentie tot aan de <em>bovenkant</em>
+van een object KabelOfleiding, KabelEnLeidingContainer, Leidingelement of
+Containerleidinglelement. Het attribuut diepteAangrijpingspunt geeft het
+aangrijpingspunt van het element weer dat geldt als punt van meting. Standaard
+wordt daar bovenkant ingevuld maar het kan zinvol zijn om bij een buis
+(riolering) <em>additioneel</em> ook de binnenonderkant buis (BOB) als meetpunt op te
+nemen (zie ook Gegevenswoordenboek Stedelijk Water:
+<a href="http://data.gwsw.nl/totaal/binnenonderkantbuis/">http://data.gwsw.nl/totaal/binnenonderkantbuis</a>. Het datatype van dieptepeil
+is ‘Measure’ waarbij de meeteenheid apart wordt gespecificeerd. Voor WIBON wordt
+er altijd meters gebruikt met maximaal 2 decimalen.</p><p>Er is informatie over de nauwkeurigheid waarmee de diepte is opgenomen. Dit is
+de nauwkeurigheid van de meting op de dag van de legging of het moment van een
+revisie van deze informatie. Daarvoor zijn 4 nauwkeurigheidsklassen opgenomen.
+De nauwkeurigheid moet minstens +- 1 meter zijn. Bij het utiliteitsnet is een
+attribuut standaardDieptelegging opgenomen, die is daarmee expliciet gemaakt.</p><p>Eén leiding kan meerdere dieptegegevens langs het traject van de leiding hebben.
+Omdat hierdoor de diepte informatie en het object leiding niet meer 1 op 1 aan
+elkaar gekoppeld zijn kan via het attribuut ligging de locatie van het
+dieptegegeven worden aangegeven. De diepte geldt op die locatie. Een object
+Diepte heeft ook de attributen van het object Label. Hiermee kunnen
+verschillende dieptes middels annotatie aan één leiding worden gekoppeld.</p><p>Indien de dieptegegevens niet aan een netelement te koppelen zijn omdat die
+koppeling bij de bronregistratie niet aanwezig is, zijn de dieptegegevens direct
+aan het utiliteitsnet gekoppeld.</p><figure id="afb_7.IMKL-Diepte.png"><img src="docs/media/7.IMKL-Diepte.png" alt="Afbeelding Diepte">
+<figcaption>Figuur <span class="figno">11</span> <span class="fig-title">Dieptegegevens zijn gemodelleerd als aparte objecten waarin diepte
+ten opzicht van maaiveld en of NAP is opgenomen. Standaard dieptelegging wordt
+opgenomen bij het Utiliteitsnet, afwijking daarvan bij de netelementen.</span></figcaption>
+</figure></section><section id="utiliteitsnet"><h4 id="x5-2-11-utiliteitsnet"><span class="secno">5.2.11 </span>Utiliteitsnet</h4><p>Definitie: Een verzameling netwerkelementen die tot één type
+nutsvoorzieningennet behoren.</p><p>Bron: INSPIRE</p><p>Een Utiliteitsnet (nutsvoorzieningnetwerk, utiliteitsnetwerk, netwerk of net) is
+de IMKL versie van het INSPIRE UtilityNetwork. Een Utiliteitsnet bevat geen
+eigen geometrie maar is de samenstelling van alle gerefereerde netwerkelementen.
+Het associatie attribuut elements realiseert deze verwijzing. Deze elements
+associatie wordt echter niet gebruikt omdat de inverse associatie inNetwork de
+associatie al realiseert. Alle netwerkelementen van een Utiliteitsnet vallen
+onder het thema dat bij het utiliteitsnet hoort en worden daar ook door
+getypeerd. Dat wil zeggen dat bijvoorbeeld een kathodische bescherming voor een
+waterleiding valt onder een utiliteitsnet met het thema laagspanning. Via
+INSPIRE UtilityNetwork worden attributen voor netwerktype en verantwoordelijke
+partijen gekoppeld. Utiliteitsnet bevat extra attributen voor thema en
+standaardDieptelegging. Door de referentie vanuit de Belanghebbende is de
+verantwoordelijke netbeheerder gekoppeld. Annotatie, maatvoering en mogelijk
+extra detailinfo worden gekoppeld en gelden voor het hele net (of deel daarvan
+in een bestand).</p><figure id="afb_8.IMKL-Utiliteitsnet"><img src="docs/media/8.IMKL-Utiliteitsnet.png" alt="Afbeelding Utiliteitsnet">
+<figcaption>Figuur <span class="figno">12</span> <span class="fig-title">Utiliteitsnet is getypeerd naar thema en wordt voor WIBON
+gerefereerd door een Belanghebbende. Utiliteitsnet is een verbijzondering van
+INSPIRE UtilityNetwork.</span></figcaption>
+</figure><p>In INSPIRE is er voor UtilityNetwork met het attribuut utilityFacilityReference
+een referentie mogelijk naar een ActivityComplex. Hiermee kan gerefereerd worden
+aan grote utiliteitsnetonderdelen zoals bijvoorbeeld een energiecentrale een
+waterzuiveringscentrale, een overslagstation. Het huidige IMKL ondersteunt
+echter niet de opname van het objecttype ActivityComplex en evenmin het
+attribuut utilityFacilityReference.</p></section><section id="kabelofleiding"><h4 id="x5-2-12-kabelofleiding"><span class="secno">5.2.12 </span>KabelOfLeiding</h4><p>Definitie: Leidingen, buizen of kabels bestemd voor voortgeleiding van energie,
+materie of data.</p><p>Bron: IMKL</p><p>KabelOfLeiding is de verzamelklasse voor alle kabel en leiding typen per type
+net (per ‘thema’). In het INSPIRE Utility networks model zijn de kabel- en
+leidingtypen apart benoemd, de telecomkabel, de elektriciteitskabel enz.</p><p>Detailverwijzingen, annotatie en maatvoering zijn gekoppeld via het
+associatie-attribuut heeftExtraInformatie. Informatie over een mogelijke
+voorzorgsmaatregel bij graven is via verwijzing naar een object
+AanduidingEisVoorzorgsmaatregel. Deze kan voor een geheel of een deel van kabel
+of leiding gelden. De tekst van de voorzorgsmaatregel is bij het object
+AanduidingEisVoorzorgsmaatregel opgenomen.</p><p>KabelOfLeiding zijn individuele kabels en of leidingen. Ze zijn dus niet een
+verzameling. Voor dat laatste wordt de klasse KabelEnLeidingContainer gebruikt
+en specifiek het object Kabelbed.</p><p>De nauwkeurigheid van de liggingsgegevens in het horizontale vlak wordt
+aangegeven met een nauwkeurigheidXYvalue. Dit kan in een drietal klassen: tot 30
+cm, tot 50 cm, tot 100 cm. In IMKL is de minimale nauwkeurigheid +- 1 meter.</p><p>Kabel of leidingen hebben verplicht een lijngeometrie. Optioneel is er via het
+associatie-attribuut extraGeometrie een buitenbegrenzing of contour van het
+object op te nemen. De netbeheerder bepaalt zelf wanneer dat functioneel is.</p><figure id="afb_9.IMKL-KabelOfLeiding"><img src="docs/media/9.IMKL-KabelOfLeiding.png" alt="Afbeelding KabelOfLeiding">
+<figcaption>Figuur <span class="figno">13</span> <span class="fig-title">KabelOfLeiding bevat de gemeenschappelijke informatie voor kabels en
+leidingen.</span></figcaption>
+</figure></section><section id="leidingelement"><h4 id="x5-2-13-leidingelement"><span class="secno">5.2.13 </span>Leidingelement</h4><p>Definitie: Een object dat bij één of meerdere leidingen behoort en als node in
+het netwerkmodel is opgenomen.</p><p>Bron: IMKL</p><p>Toelichting: Bijvoorbeeld objecten zoals een schakelkast, verdeelkast, kranen,
+afsluiters, versterkers, kabelmof, rioolput, (druk)rioolgemaal, kathodische
+bescherming, boorput, etc.</p><p>Een leidingelement kan zowel betrekking hebben op ondergrondse als op
+bovengrondse delen van het net.</p><p>Leidingelement is de verzamelklasse voor alle typen leidingelementen. De typen
+zijn niet als apart objecttype opgenomen maar als verzamelklasse Appurtenance.
+In INSPIRE zijn de Appurtenances met een appurtenanceType attribuut verder
+getypeerd. Deze typering kan nog verder uitgebreid worden. In <a href="#bijlage-1-imkl-waardelijsten">Bijlage 1 IMKL waardelijsten</a> zijn de waarden voor AppurtenanceTypeValue opgenomen.</p><figure id="afb_10.IMKL-Leidingelement"><img src="docs/media/10.IMKL-Leidingelement.jpg" alt="Afbeelding Leidingelement">
+<figcaption>Figuur <span class="figno">14</span> <span class="fig-title">Leidingelement bevat de gemeenschappelijke eigenschappen van alle
+typen leidingelementen.</span></figcaption>
+</figure><p>De geometrie van een Leidingelement is verplicht altijd een punt. Optioneel is
+er via het associatie-attribuut extraGeometrie een buitenbegrenzing of contour
+van het object op te nemen. De netbeheerder bepaalt zelf wanneer dat functioneel
+is. Leidingen die aan een Leidingelement verbonden zijn hoeven niet tot aan de
+puntrepresentatie door te lopen. Ze kunnen stoppen bij de buitengrens van het
+element (ook als de contour niet is opgenomen), dat doen ze in werkelijkheid
+immers ook. Met de Arc/Node topologie kan wel opgenomen worden dat de leiding
+bij het leidingelement hoort.</p><p>Informatie over een eventuele eis voorzorgsmaatregel is middels een associatie
+vanuit het object AanduidingEisVoorzorgsmaatregel gekoppeld.</p><p>De hoogte van een leidingelement is met het attribuut hoogte op te nemen. De
+hoogte betreft de lengte van het hele leidingelement in verticale richting
+ongeacht of er een deel zich onder of boven het maaiveld bevindt. Het datatype is
+‘Length’ waarbij de meeteenheid apart wordt gespecificeerd. Voor WIBON wordt er
+altijd meters gebruikt met maximaal 2 decimalen. Een leidingelement kan ook
+opgenomen zijn in de grootschalige topografie. Indien dat het geval is kan het
+overeenkomstige BGT_ID worden opgenomen.</p><p><strong>Extra toelichting: aansluiting, huisaansluiting, profielschets.</strong></p><p>Aansluitingen vormen de overgang tussen het net van de netbeheerder en de
+afnemers. De aansluiting en huisaansluiting kan opgenomen worden als
+rasterbestand of als specifieke kabel of leidingelementen. Indien de aansluiting
+als schets wordt uitgewisseld is deze gecodeerd conform ExtraDetailInfo. Voor de
+schets is er een verschil gemaakt tussen een aansluiting en specifiek
+huisaansluiting. Een huisaansluiting is de verbinding met een huisaansluitpunt.
+Een aansluiting is een verbinding met andere dan huisaansluitpunten. Een schets
+van een huisaansluiting heeft verplicht een BAG adres. Voor een schets van een
+aansluiting geldt die verplichting niet. Beide hebben verplicht een locatie
+middels het attribuut ligging. Voor de huisaansluiting is dit de coördinaat van
+het VBO (verblijfsobject) uit de BAG; voor de aansluiting een apart toegevoegde
+geometrie van het type punt, lijn of vlak.</p><p>Het type profielschets wordt gebruikt indien er een dwars- en of lengteprofiel
+van een kunstwerk of gestuurde boring wordt meegeleverd. Dit object heeft
+optioneel een adres en verplicht een ligging middels een punt, lijn of vlak.</p><p>Het type overig wordt gebruikt voor alle andere detailschetsen. Een voorbeeld
+daarvan is een projecttekening van geplande netelementen.</p></section><section id="kabelenleidingcontainer"><h4 id="x5-2-14-kabelenleidingcontainer"><span class="secno">5.2.14 </span>KabelEnLeidingContainer</h4><p>Definitie: Abstract data object dat de gemeenschappelijke attributen en
+associaties bevat voor alle kabel- en leidingcontainer objecten.</p><p>Bron: IMKL</p><p>Gerelateerde definities:</p><p>Kabelbed: Ruimtebeslag dat door een gemeenschappelijk tracé van één of meer
+kabels, buizen, HDPE- en/of mantelbuizen – die toebehoren aan één netbeheerder -
+wordt gevormd.</p><p>Toelichting: Synoniem voor kabelbed is geul. Losse kabels of buizen die bij
+elkaar in een kabelbed liggen. Informatie is opgenomen op het niveau van de set
+van kabels of buizen.</p><p>Mantelbuis: Beschermingsbuis.</p><p>Toelichting: Met het object Mantelbuis wordt bedoeld een buis voor bescherming
+van kabels, buizen en HDPE buizen. Mantelbuizen kunnen bij meerdere thema’s
+geregistreerd staan. Ze moeten bij minstens één thema weergegeven worden maar
+het mag bij meerdere. Indien een mantelbuis leeg is kan dit bij de toelichting
+vermeld worden.</p><figure id="afb_11.IMKL-KabelEnLeidingContainer"><img src="docs/media/11.IMKL-KabelEnLeidingContainer.png" alt="Afbeelding KabelEnLeidingContainer">
+<figcaption>Figuur <span class="figno">15</span> <span class="fig-title">KabelEnleidingContainer omvat kabelbedden en mantelbuizen.</span></figcaption>
+</figure><p>KabelEnLeidingContainer is de verzamelklasse voor een aantal objecten waarin
+kabels of leidingen gegroepeerd zijn. In de praktijk is dat een duct of een
+kabelbed (is geul), of een mantelbuis. Een pipe is in INSPIRE een buis voor
+transport van een product en ook een buis waarin zich weer buizen en kabels
+kunnen bevinden. Indien er een container mee wordt bedoeld is alleen een object
+mantelbuis van toepassing. Een mantelbuis is hierbij zowel een buis voor
+protectie van andere elementen als wel voor groepering. Een
+KabelEnLeidingContainer kan ook opgenomen zijn in de grootschalige topografie.
+Indien dat het geval is kan het overeenkomstige BGT_ID worden opgenomen.</p><p>Indien er meerdere kabels in een kabelbed liggen wordt het aantal kabels
+verplicht opgenomen.</p><p>Een duct is een object uit INSPIRE en wordt gedefinieerd als: Een behuizing die
+ertoe dient om door middel van een omhullende constructie kabels en leidingen te
+beschermen en geleiden. (Engelse def: A Duct (or Conduit, or Duct-bank, or
+Wireway) is a linear object which belongs to the structural network. It is the
+outermost casing. A Duct may contain Pipe(s), Cable(s) or other Duct(s).) Omdat
+de definitie van een kabelbed daar niet helemaal invalt is Kabelbed apart
+toegevoegd.</p><p>De geometrie van een KabelEnLeidingContainer is verplicht altijd een lijn.
+Optioneel is er via het associatie-attribuut extraGeometrie een buitenbegrenzing
+of contour van het object op te nemen.</p><p>Net als KabelOfLeiding is er ook een relatie met een mogelijke eis
+voorzorgmaatregel.</p></section><section id="containerleidingelement"><h4 id="x5-2-15-containerleidingelement"><span class="secno">5.2.15 </span>ContainerLeidingelement</h4><p>Definitie: Abstract data object dat de gemeenschappelijke attributen en
+associaties bevat voor alle containerleidingelement objecten.</p><p>Bron: IMKL</p><figure id="afb_12.IMKL-ContainerLeidingElement"><img src="docs/media/12.IMKL-ContainerLeidingElement.png" alt="Afbeelding ContainerLeidinelement">
+<figcaption>Figuur <span class="figno">16</span> <span class="fig-title">ContainerLeidingelement een verzamelklasse voor meestal
+topografische objecten die een ondersteunende functie in een netwerk hebben.</span></figcaption>
+</figure><p>ContainerLeidingelement omvat objecten die verschillende leidingelementen
+groeperen. Bijvoorbeeld een elektriciteitskast met verschillende schakelaars,
+moffen. Of een mast met verschillende antennes. De schakelaars, moffen,
+antennes, zijn onderdeel van het logische net. De ContainerLeidingelementen zijn
+additioneel aan het logische net. ContainerLeidingelementen zijn in veel
+gevallen ook opgenomen in de grootschalige topografie. Indien dat het geval is
+kan het overeenkomstige BGT_ID worden opgenomen. De geometrie van een
+ContainerLeidinelement is verplicht altijd een punt. Optioneel is er via het
+associatie-attribuut extraGeometrie een buitenbegrenzing of contour van het
+object op te nemen. De netbeheerder bepaalt zelf wanneer dat functioneel is.</p><p>Containerleidingelementen kunnen bij meerdere thema’s geregistreerd staan. Ze
+moeten bij minstens één thema weergegeven worden maar het mag bij meerdere.</p><p>Net als bij individuele leidingelementen is er een mogelijkheid om een eis
+voorzorgsmaatregel op te nemen.</p></section><section id="relaties-tussen-kabelenleiding-leidingelement-en-container-objecten"><h4 id="x5-2-16-relaties-tussen-kabelenleiding-leidingelement-en-container-objecten"><span class="secno">5.2.16 </span>Relaties tussen KabelEnLeiding, Leidingelement en container objecten</h4><p>INSPIRE modelleert de relatie tussen kabels en de mantelbuis of kabelbed waar ze
+in liggen. Van belang is dat in IMKL het kabelbed als aparte specialisatie van
+duct is gemodelleerd. Mantelbuis als specialisatie van Pipe. De buizen en
+leidingen zijn gemodelleerd op het niveau van de individuele leidingen. Voor
+Telecom kan er gebruik gemaakt worden van het kabelbed om gegroepeerde kabels
+uit te wisselen zonder de individuele kabelinformatie.</p><p>De relaties die aangegeven kunnen worden met de respectievelijke associatie
+attributen zijn:</p><p>cables: mantelbuis verwijst naar de kabels die er in liggen;</p><p>pipes: mantelbuis verwijst naar buizen die er in liggen;</p><p>pipes: mantelbuis verwijst naar mantelbuizen die er in liggen;</p><p>cables: kabelbed verwijst naar de kabels die er in liggen;</p><p>pipes: kabelbed verwijst naar buizen die er in liggen;</p><p>pipes:kabelbed verwijst naar de mantelbuizen die er in liggen;</p><p>ducts: kabelbed verwijst naar kabelbedden die er in liggen.</p><p>Deze relaties worden door de individuele kabels en leidingen overerft.</p><p>Deze relaties zijn optioneel (want ze komen niet altijd voor) en voidable.</p><figure id="afb_mantelbuis"><img src="docs/media/bec0a83557082b393b2fe6c5d822371f.jpg" alt="Afbeelding Mantelbuis">
+<figcaption>Figuur <span class="figno">17</span> <span class="fig-title">Voorbeeld van een type mantelbuis met daarin weer een aantal
+mantelbuizen (hdpe-buizen), waarvan één met een telecomkabel. Het model
+maakt verwijzingen tussen mantelbuizen en kabels mogelijk.</span></figcaption>
+</figure><figure id="afb_kabelbed"><img src="docs/media/da0f5a202720bb7f2acd0abc0a6ae08e.png" alt="Afbeelding Kabelbed">
+<figcaption>Figuur <span class="figno">18</span> <span class="fig-title">Kabelbed</span></figcaption>
+</figure></section><section id="diagram-per-type-kabel-of-leiding"><h4 id="x5-2-17-diagram-per-type-kabel-of-leiding"><span class="secno">5.2.17 </span>Diagram per type kabel of leiding</h4><p>De volgende paragrafen behandelen de specifieke typen kabel of leidingen. Het
+bevat de informatie van vorige paragrafen maar dan bekeken van uit de concrete
+objecten uit specifieke netten. De diagrammen zijn onderling erg vergelijkbaar.</p></section><section id="elektriciteitskabel"><h4 id="x5-2-18-elektriciteitskabel"><span class="secno">5.2.18 </span>Elektriciteitskabel</h4><p>Definitie: Een aansluiting of reeks aansluitingen van een nutsvoorzieningennet
+voor het overbrengen van elektriciteit van de ene locatie naar een andere.</p><p>Bron: INSPIRE</p><p>De elektriciteitskabel overerft van INSPIRE operatingVoltage en nominalVoltage
+en via UtilityLinkSet is de status, warningTypeen het distributietype opgenomen.
+Het distributietype is daarbij geen verplichte WIBON informatie. WarningType is
+een boven de kabel liggend waarschuwingsmechanisme voor een ondergronds
+netelement. Het attribuut “operatingVoltage” beschrijft de gebruiks- of
+bedrijfsspanning op de leiding. “nominalVoltage” beschrijft de nominale
+systeemspanning op de plaats van levering. Voor de rest gelden de KabelEnleiding
+attributen.</p><figure id="afb_14.IMKL-Elektriciteitskabel"><img src="docs/media/14.IMKL-Elektriciteitskabel.png" alt="Afbeelding Elektriciteitskabel">
+<figcaption>Figuur <span class="figno">19</span> <span class="fig-title">Elektriciteitskabel</span></figcaption>
+</figure></section><section id="telecommunicatiekabel"><h4 id="x5-2-19-telecommunicatiekabel"><span class="secno">5.2.19 </span>Telecommunicatiekabel</h4><p>Definitie: Een aansluiting of reeks aansluitingen van een nutsvoorzieningennet
+voor het overbrengen van signaalinformatie van de ene locatie naar een andere.</p><p>Bron: INSPIRE</p><p>Van INSPIRE wordt een CableMaterialType toegevoegd en via UtilityLinkSet is de
+status, warningType en het distributietype opgenomen. Het distributietype is
+daarbij geen verplichte WIBON informatie. WarningType is een boven de kabel
+liggend waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest
+gelden de KabelEnleiding attributen. In <a href="#bijlage-1-imkl-waardelijsten">Bijlage 1 IMKL waardelijsten</a> staan de waarden voor de CableMaterialType.</p><figure id="afb_15.IMKL-TelecommunicationsCable"><img src="docs/media/15.IMKL-TelecommunicationsCable.png" alt="Afbeelding IMKL-Telecommunicatiekabel">
+<figcaption>Figuur <span class="figno">20</span> <span class="fig-title">Telecommunicatiekabel</span></figcaption>
+</figure></section><section id="olie-gas-chemicalienpijpleiding"><h4 id="x5-2-20-olie-gas-chemicalienpijpleiding"><span class="secno">5.2.20 </span>Olie-gas-chemicalienpijpleiding</h4><p>Definitie: Een pijpleiding voor het overbrengen van olie, gas of chemicaliën van
+de ene locatie naar een andere.</p><p>Bron: INSPIRE</p><p>Uit INSPIRE wordt oilGasChemicalProductType toegevoegd en via UtilityLinkSet is de
+status, warningType en het distributietype opgenomen. Het distributietype is
+daarbij geen verplichte WIBON informatie. WarningType is een boven de kabel
+liggend waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest
+gelden de KabelEnleiding attributen.</p><p>In <a href="#bijlage-1-imkl-waardelijsten">Bijlage 1 IMKL waardelijsten</a> staan de mogelijke waarden voor de producttypen.</p><figure id="afb_16.IMKL-Olie-gas-chemicaliënpijpleiding"><img src="docs/media/16.IMKL-Olie-gas-chemicaliënpijpleiding.png" alt="Afbeelding Olie-gas-chemicaliënpijpleiding">
+<figcaption>Figuur <span class="figno">21</span> <span class="fig-title">Olie-gas-chemicaliënpijpleiding</span></figcaption>
+</figure></section><section id="rioolleiding"><h4 id="x5-2-21-rioolleiding"><span class="secno">5.2.21 </span>Rioolleiding</h4><p>Definitie: Een rioleringsleiding voor het overbrengen van afvalwater
+(rioolwater, hemelwater) van de ene locatie naar een andere.</p><p>Bron: INSPIRE (aangepast)</p><p>Van INSPIRE wordt SewerWaterType toegevoegd en via UtilityLinkSet is de status,
+warningType en het distributietype opgenomen. Het distributietype is daarbij
+geen verplichte WIBON informatie WarningType is een boven de kabel liggend
+waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest gelden de
+KabelEnleiding attributen. In <a href="#bijlage-1-imkl-waardelijsten">Bijlage 1 IMKL waardelijsten</a>.</p><figure id="afb_17.IMKL-Rioolleiding"><img src="docs/media/17.IMKL-Rioolleiding.png" alt="Afbeelding Rioolleiding">
+<figcaption>Figuur <span class="figno">22</span> <span class="fig-title">Rioolleiding</span></figcaption>
+</figure></section><section id="waterleiding"><h4 id="x5-2-22-waterleiding"><span class="secno">5.2.22 </span>Waterleiding</h4><p>Definitie: Een waterleiding voor het overbrengen van (drink)water van de ene
+locatie naar een andere.</p><p>Bron:INSPIRE (aangepast)</p><p>Van INSPIRE wordt waterType toegevoegd en via UtilityLinkSet is de status,
+warningType en het distributietype opgenomen. Het distributietype is daarbij
+geen verplichte WIBON informatie. WarningType is een boven de kabel liggend
+waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest gelden de
+KabelEnleiding attributen.</p><p>In <a href="#bijlage-1-imkl-waardelijsten">Bijlage 1 IMKL waardelijsten</a> staan de waarden voor waterType.</p><figure id="afb_18.IMKL-Waterleiding"><img src="docs/media/18.IMKL-Waterleiding.png" alt="Afbeelding Waterleiding">
+<figcaption>Figuur <span class="figno">23</span> <span class="fig-title">Waterleiding</span></figcaption>
+</figure></section><section id="thermische-pijpleiding"><h4 id="x5-2-23-thermische-pijpleiding"><span class="secno">5.2.23 </span>Thermische pijpleiding</h4><p>Definitie: Een leiding voor het transporteren van warmte of koelte van de ene
+locatie naar een andere.</p><p>Bron: INSPIRE</p><p>Van INSPIRE wordt thermalProductType toegevoegd en via UtilityLinkSet is de
+status, warningType en het distributietype opgenomen. Het distributietype is
+daarbij geen verplichte WIBON informatie. WarningType is een boven de kabel
+liggend waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest
+gelden de KabelEnleiding attributen.</p><p>In <a href="#bijlage-1-imkl-waardelijsten">Bijlage 1 IMKL waardelijsten</a> staan de waarden voor de producttypen.</p><figure id="afb_19.IMKL-ThermischePijpleiding"><img src="docs/media/19.IMKL-ThermischePijpleiding.png" alt="Afbeelding ThermischePijpleiding">
+<figcaption>Figuur <span class="figno">24</span> <span class="fig-title">Thermische Pijpleiding</span></figcaption>
+</figure></section><section id="overig-en-weesleiding"><h4 id="x5-2-24-overig-en-weesleiding"><span class="secno">5.2.24 </span>Overig en Weesleiding</h4><p>Definitie Overig: Een type kabel of leiding die niet onder de andere benoemde
+typen valt.</p><p>Bijvoorbeeld een weesleiding maar ook leidingen voor voedingsmiddelen,
+landbouwproducten vallen hieronder.</p><p>Bron: IMKL</p><p>In INSPIRE is er geen mogelijkheid om andere kabels of leidingen op te nemen dan
+de benoemde typen. De klasse Overig wordt gebruikt indien de kabel of leiding
+niet met een andere kan worden aangeduid of onbekend is. Dit geldt in veel
+gevallen ook voor de weesleiding. Er is een klasse OverigSpecifiek gemaakt om de
+INSPIRE attributen pipeDiameter, pressure en producttype ook voor Overig te
+kunnen gebruiken.</p><figure id="afb_19b.IMKL-Overig-Weesleiding"><img src="docs/media/19b.IMKL-Overig-Weesleiding.png" alt="Afbeelding Overig-Weesleiding">
+<figcaption>Figuur <span class="figno">25</span> <span class="fig-title">Overig/Weesleiding</span></figcaption>
+</figure></section><section id="leidingelementen-per-type-net-thema"><h4 id="x5-2-25-leidingelementen-per-type-net-thema"><span class="secno">5.2.25 </span>Leidingelementen per type net (thema)</h4><p>De leidingelementen worden niet specifiek per type thema net als de kabels en
+leidingen gedefinieerd. Leidingelementen hebben een algemene type lijst en een
+lijst per type net (telecom, elektriciteit, riool, water, gas/olie). Deze
+lijsten zijn uitbreidbaar. In <a href="#bijlage-1-imkl-waardelijsten">Bijlage 1 IMKL waardelijsten</a> staan de waardelijsten met de waarden
+voor type leidingelement per type kabelOfLeiding.</p><figure id="afb_20.IMKL-Leidingelement-per-thema.png"><img src="docs/media/20.IMKL-Leidingelement-per-thema.png" alt="Afbeelding Leidingelement-per-thema">
+<figcaption>Figuur <span class="figno">26</span> <span class="fig-title">Leidingelement per thema</span></figcaption>
+</figure></section><section id="wibon-uitleveren-van-gebiedsinformatie"><h4 id="x5-2-26-wibon-uitleveren-van-gebiedsinformatie"><span class="secno">5.2.26 </span>WIBON Uitleveren van gebiedsinformatie</h4><p>Voor het faciliteren van de uitlevergegevens binnen de WIBON is er naast de
+specifieke utiliteitsnet informatie nog een aantal extra gegevens nodig. In
+onderstaand diagram is de relatie tussen de verschillende onderdelen van de uitleveringsgegevens
+weergegeven.</p><figure id="afb_wibonuitlevering"><img src="docs/media/wibonuitlevering.png" alt="Afbeelding uitlevering">
+<figcaption>Figuur <span class="figno">27</span> <span class="fig-title">De verschillende onderdelen in de WIBON Uitlevering</span></figcaption>
+</figure><p>WIBON Uitlevering: Het totaal aan informatie dat kan worden geleverd bij een
+WIBON informatieaanvraag.</p><p>Leveringsinformatie: Administratieve gegevens van de uitlevering inclusief de
+aanvraaggegevens met graaf-, informatie- en oriëntatiepolygoon.</p><p>Beheerdersinformatie: De belanghebbende beheerder, bijlagen inclusief ev brief
+en contactgegevens.</p><p>Netinformatie: Informatie over het utiliteitsnet, onderdelen, details en extra
+aanduidingen.</p><p>Om de informatie uit het middelste blok te genereren is er een
+Belangenregistratie nodig. Hierin zijn de belangen van de netbeheerders
+geregistreerd en is per netbeheerder per thema de beheerpolygoon inclusief
+contactinformatie opgenomen.</p><p>Deze blokken zijn nader ingevuld in het UML diagram op de volgende pagina.</p><figure id="20a.IMKL-Levering-Gebiedsinformatie"><img src="docs/media/20a.IMKL-Levering-Gebiedsinformatie.png" alt="Afbeelding Levering Gebiedsinformatie">
+<figcaption>Figuur <span class="figno">28</span> <span class="fig-title">Model voor levering gebiedsinformatie</span></figcaption>
+</figure><p>Toelichting bij het diagram.</p><p>Met verschillende kleur omlijningen is aangegeven hoe het objecttype zich
+verhoudt tot verschil in aanlevering aan de centrale voorziening door centraal
+of decentraal aangesloten netbeheerder of in de aan- of uitlevering</p><ul>
+<li><p>Rood omlijnd: gegevens die door de centrale voorziening worden gegenereerd.
+Komen alleen voor in uitlevering.</p>
+</li>
+<li><p>Groen omlijnd: gegevens die voor de centraal aangesloten netbeheerder door
+de voorziening wordt gegenereerd. Decentraal aangesloten netbeheerders
+moeten deze gegevens per melding aan de centrale voorziening leveren.</p>
+</li>
+<li><p>Op het niveau van attributen is met een constraint aangegeven indien er
+verschil is met betrekking tot aan- of uitlevering of decentraal of centraal
+aangesloten netbeheerder.</p>
+</li>
+</ul><p>Het object GebiedsinformatieLevering verwijst naar de gegevens van de
+GebiedsinformatieAanvraag die de aanvraaggegevens bevat en een graaf- en/of een
+oriëntatiepolygoon. De informatiepolygoon is de weergave door een grondroerder
+van het gebied, waarvoor gebiedsinformatie wordt aangevraagd. Bij de uitlevering
+wordt die ook meegegeven inclusief de visualisatie van het gebied tussen de
+graaf- en de informatiepolygoon. In <a href="#bijlage-3-toelichting-op-informatiepolygoon">Bijlage 3: Toelichting op informatiepolygoon</a> wordt dit gebied toegelicht.</p><p>De GebiedsinformatieLevering verwijst naar een object Belanghebbende waarin de
+beheerdersinformatie is opgenomen. Bij de Gebiedsinformatielevering hoort
+verplicht een verwijzing naar de BGT als achtergrondkaart. Dit kan in raster- of
+in vectorformaat zijn</p><p>Een belanghebbende beheerder is een beheerder met een beheerpolygoon dat geheel
+of gedeeltelijk ligt in de polygoon van de gebiedsinformatie aanvraag. Een
+beheergebied hoort altijd groter te zijn dan het gebied waar de netbeheerder
+informatie over kabels en leidingen wil leveren. Daarom hoeft een belanghebbende
+beheerder niet altijd een betrokken beheerder te zijn. Bij de aanlevering naar
+de centrale voorziening gelden andere condities voor de attributen dan voor de
+uitlevering. Ook een beheerder veiligheidsgebied heeft een beheerpolygoon en kan
+een belanghebbende beheerder zijn. Deze zal echter geen beheerdersinformatie
+aanleveren en wordt niet opgenomen in de levering van gebiedsinformatie.</p><p>Het object Belanghebbende heeft 1 of meer geraakte belangen en de daarbij
+horende contactgegevens (zie <a href="#belangenregistratie">Belangenregistratie</a>). Tevens is er een verwijzing
+vanuit de belanghebbende naar de eventuele bijlagen, inclusief bijlage
+Eisvoorzorgsmaatregel. De bijlagen zijn daarmee direct gerelateerd aan de
+belanghebbende en pas indirect aan het utiliteitsnet. Een belanghebbende kan een
+belang hebben maar niet betrokken zijn.</p><p>Indien de belanghebbende wel betrokken is dan is er ook netinformatie
+beschikbaar via een relatie naar één of meerdere utiliteitsnetten.</p><p>Het object Utiliteitsnet vormt de verbinding naar de locatie en typegegevens van
+het utiliteitsnet met de netwerkelementen en gerelateerde informatie.</p></section><section id="belangenregistratie"><h4 id="x5-2-27-belangenregistratie"><span class="secno">5.2.27 </span>Belangenregistratie</h4><p>De Belangenregistratie is een aparte registratie die door de centrale
+voorziening is ingericht en wordt onderhouden. De belangenregistratie is
+opgenomen om het geraakte belang te bepalen per belanghebbende en de
+contactgegevens die bij specifieke situaties van belang zijn. Deze worden bij
+een geraakt belang uitgewisseld in de GebiedsinformatieLevering.</p><figure id="afb_20b.IMKL-Belangenregistratie-WIBON"><img src="docs/media/20b.IMKL-Belangenregistratie-WIBON.png" alt="Belangenregistratie WIBON">
+<figcaption>Figuur <span class="figno">29</span> <span class="fig-title">Belangenregistratie WIBON: Belang en Veiligheidsgebied zijn beide beheerpolygonen. Een
+Veiligheidsgebied heeft alleen contactpersonen voor de aanvraag. Het Belang
+heeft daarnaast contactgegevens voor de graafmelding, calamiteitenmelding of
+oriëntatieverzoek.</span></figcaption>
+</figure></section><section id="identifier-management"><h4 id="x5-2-28-identifier-management"><span class="secno">5.2.28 </span>Identifier management</h4><figure id="afb_identifier"><img src="docs/media/identifier.png" alt="Afbeelding identifier">
+<figcaption>Figuur <span class="figno">30</span> <span class="fig-title">Elementen van de IMKL object-identifier</span></figcaption>
+</figure><p>Identifiers van objecten worden in IMKL toegekend via het attribuut inspireId en
+het datatype Identifier als het object vanuit INSPIRE beschreven is of met het
+attribuut identificatie en het datatype NEN3610ID als het specifiek voor IMKL is
+toegevoegd. Het toekennen van een inspireId betekent niet automatisch dat het
+INSPIRE data-objecten betreft. Een voorbeeld waar dat niet het geval is, is het
+thema Datatransport (telecommunicatie) waar de leiding en leidingelementen wel
+een inspireId hebben maar het geen INSPIRE data-objecten betreft.</p><p>De systematiek voor het format van een identifier is gebaseerd op de combinatie
+van een uniek benoemde namespace voor een applicatiedomein (of
+organisatie-bronhouder) en unieke lokale id’s binnen een applicatiedomein. Omdat
+voor utiliteitsnetten er vele bronhouders zijn is het niet mogelijk om met één
+namespace te garanderen dat er in de combinatie van namespace en lokale
+identifier, unieke identifiers ontstaan. Om toch met één namespace te kunnen
+werken die het applicatiedomein representeert wordt het volgende voorstel
+gedaan:</p><p>Namespace: ‘<strong>nl.imkl’</strong></p><p>Format lokaalID: <strong>bronhoudercode.lokaalID</strong> (met een totaal van maximaal 255
+tekens)</p><p>De namespace wordt geregistreerd in een nationaal namespace register.</p><p>De bronhoudercode is uniek en representeert de bronhouder van de gegevens en
+wordt geregistreerd in een register van de nationale voorziening. Met de
+bronhouder wordt niet bedoeld de mogelijke inwinner van de gegevens. De code
+bestaat uit zes alfanumerieke posities. Dit is afgestemd met het format van CBS
+codes voor gemeenten en provincies.</p><p>Het lokaalID maakt het mogelijk per bronhouder de objecten uniek te
+identificeren. Het lokaalID is vrij door de bronhouder in te vullen en zal in de
+meeste gevallen gelijk zijn aan het id in de lokale registratie.</p><p><strong>Extra toelichting.</strong></p><p>Identifiers hebben als functie objecten te kunnen aanwijzen en om aan objecten
+te kunnen refereren. Ze maken een object uniek identificeerbaar. Als een
+organisatie een identifier uitgeeft is deze binnen de organisatie wel uniek,
+maar als datasets van verschillende organisatie worden samengevoegd tot een
+nieuwe bestand is de identifier niet automatisch uniek in de nieuwe situatie. Om
+binnen de nieuwe context identifiers uniek te maken is een systematiek nodig.
+Binnen IMKL speelt dit op drie plaatsen:</p><ol>
+<li><p>De individuele datasets van die verschillende bronhouders worden
+samengevoegd in IMKL. Om objecten binnen IMKL een unieke identificatie
+krijgen krijgt iedere bronhouder een code. De combinatie van bronhoudercode
+en interne identifier is dan uniek binnen IMKL. De interne identifier binnen
+de registratie van de bronhouder en de bronhoudercode worden aan elkaar
+geplakt met een ‘.’ ertussen tot een lokaalID.</p>
+</li>
+<li><p>Het hele bestand van IMKL is slechts één van de datasets binnen INSPIRE. In
+INSPIRE worden identifiers uniek gemaakt door ze te voorzien van een
+namespace. Voor IMKL&nbsp; is de namespace ‘nl.imkl’ bij INSPIRE als namespace
+geregistreerd.</p>
+</li>
+<li><p>Sommige objecten van IMKL zijn geen onderdeel van de INSPIRE specificaties
+en kunnen dus ook geen INSPIRE Identifier krijgen. Deze objecten krijgen een
+NEN3610ID, die binnen de context van NEN3610 uniek is. Hiervoor is de
+namespace ‘nl.imkl’ ook binnen NEN3610 geregistreerd.</p>
+</li>
+</ol><p><img src="docs/media/VoorbeeldInspireID.png" alt=""></p><p><strong>Voorbeeld:</strong> Een bronhouder heeft in eigen registratie een unieke identifier
+‘xxyyzz’.&nbsp; Binnen IMKL wordt hier een locaalId: ‘bb.xxyyzz’ van gemaakt.
+Uitwisseling binnen INSPIRE van deze code zal er als volgt uitzien:</p><p>Omdat de identifiers die intern bij de bronhouders worden gebruikt op
+verschillende manieren hergebruikt worden is er een aantal beperkingen op het
+formaat van de identifiers.&nbsp;</p><ol>
+<li><p>De volgende karakters mogen in een lokaalID voorkomen: {”A”…”Z”, “a”…”z”,
+”0”…”9”, “_”, “-“, “,”, ”.”}.&nbsp;“&nbsp; (bron: NEN3610)</p>
+</li>
+<li><p>INSPIRE had een vergelijkbare beperking op de structuur van identifiers,
+maar die is geschrapt.</p>
+</li>
+<li><p>De afspraak dat een identifier binnen een GML document ook gebruikt wordt om
+een&nbsp;gml:id te construeren legt extra beperkingen op aan de identifier. Deze
+worden echter al afgevangen door de NEN3610 beperkingen.</p>
+</li>
+</ol><p>In NEN3610 en INSPIRE kunnen identifiers ook nog voorzien zijn van een
+versienummer van een object. Deze versies zijn van belang als er verschillende
+(historische) versies van eenzelfde object onderscheiden moeten worden. Omdat
+voor utiliteitsnetgegevens in IMKL alleen de huidige situatie wordt beschreven
+zijn er geen verschillende versies van hetzelfde object in omloop. Daarom wordt
+hiervoor in IMKL het versie attribuut niet gebruikt. Voor versies van een
+GebiedsinformatieLevering of een Belang kunnen door het KLIC wel versienummers
+worden gebruikt.</p></section><section id="tijd-representatie-en-temporeel-model"><h4 id="x5-2-29-tijd-representatie-en-temporeel-model"><span class="secno">5.2.29 </span>Tijd representatie en temporeel model</h4><p>IMKL hanteert de ISO 8601 norm voor het beschrijven van tijdsaspecten.</p><p>Binnen het informatiemodel IMKL zijn twee tijdsdimensies gemodelleerd, deze
+worden in de volgende twee paragrafen beschreven.</p><p><strong>Temporele kenmerken in de werkelijkheid.</strong></p><p>In IMKL worden de temporele attributen ‘validFrom’ en ‘validTo’ van een object
+gebruikt om de aanwezigheid van een object in de werkelijkheid te beschrijven.
+Deze attributen worden gedefinieerd in INSPIRE. In de context van IMKL hebben ze
+de volgende betekenis:&nbsp;</p><ul>
+<li><p>'validFrom' beschrijft het tijdstip waarop het object in de werkelijkheid
+voor het eerst aanwezig is, en dus van belang is voor het voorkomen van
+graafschade. Geplande objecten kunnen een 'validFrom' tijdstip hebben dat in
+de toekomst ligt. Het attribuut 'validFrom' is verplicht. Wanneer van een
+object niet bekend is wanneer het is aangelegd voldoet een tijdstip waarop
+geconstateerd is dat het object er is.</p>
+</li>
+<li><p>‘validTo’ beschrijft het tijdstip vanaf wanneer het object niet meer in de
+werkelijkheid voorkomt. Dit attribuut is optioneel; wanneer het niet is
+ingevuld betekent dit dat er vooralsnog geen tijdstip bekend is waarop de
+geldigheid van dit object eindigt.</p>
+</li>
+</ul><p><strong>Temporele kenmerken in de registratie.</strong></p><p>Naast het beschrijven van de levensduur van het object in de werkelijkheid zijn
+er ook attributen die beschrijven wanneer het object bekend is in de
+registratie: 'beginLifespanVersion' en 'endLifespanVersion' beschrijven de
+geldigheid van een versie van een object in de registratie. Omdat IMKL een
+doorgeefluik is van de registraties van de netbeheerders gaat het om de
+tijdstippen van registratie bij de netbeheerder.&nbsp;Volgens NEN3610 ontstaat er een
+nieuwe versie van een object wanneer de waarde van een attribuut van dat object
+wijzigt, dit betekent dat bij een wijziging van een attribuut een object een
+nieuwe versie ontstaat en dus beginLifespanVersion vernieuwd wordt.&nbsp;Omdat in
+IMKL alleen de huidige situatie wordt beschreven zal in alle gevallen het
+'endLifespanVersion' van het object leeg zijn.</p><p><strong>Voorbeelden</strong></p><p>Een aantal voorkomende gevallen wordt hieronder met een voorbeeld uitgewerkt:</p><ul>
+<li><p>Op 2 september 2016 wordt een kabel gelegd. Dit wordt een dag later (3
+september 2016) in de computer ingevoerd.<br>{ validFrom='2016-09-02' validTo= &nbsp;beginLifespanVersion='2016-09-03'}</p>
+</li>
+<li><p>Op 31 december 2015 wordt de status van een kabel die er al sinds 5 april
+1968 lag in 'disused' veranderd. Dit wordt op 3 januari 2016 ingevoerd.<br>{ validFrom='1968-04-05' validTo= &nbsp;beginLifespanVersion='2016-01-03
+currentStatus='disused'}</p>
+</li>
+<li><p>Op 6 mei 2014 wordt besloten dat er op 1 juli 2014 een leiding in de grond
+gelegd wordt.<br>{ validFrom='2014-07-01' validTo= &nbsp;beginLifespanVersion='2014-05-06'
+currentStatus='projected'}</p>
+</li>
+<li><p>Op 15 december 2013 wordt besloten dat op 21 december 2013 een kabel die er
+sinds 2 juni 2006 lag uit de grond gehaald zal worden.<br>{ validFrom='2006-06-02' validTo='2013-12-21'
+beginLifespanVersion='2014-12-15'}</p>
+</li>
+</ul><p>Merk op dat het met de huidige modellering niet mogelijk is een geplande
+statuswijziging uit wisselen. Dit komt omdat er van ieder object slechts 1
+versie wordt uitgewisseld en bij een geplande wijziging is er sprake van twee
+versies: de huidige en de gepland. Geplande aanleg en verwijdering kunnen wel
+uitgewisseld worden omdat er dan slechts 1 versie hoeft te worden uitgewisseld.</p></section></section><section id="andere-toepassingen-van-imkl"><h3 id="x5-3-andere-toepassingen-van-imkl"><span class="secno">5.3 </span>Andere toepassingen van IMKL</h3><p>IMKL beschrijft het totaal aan informatie die voorziet in een aantal
+dataleveringsprocessen. Naast WIBON en INSPIRE utilities zijn dat Buisleidingen
+gevaarlijke inhoud (Risicoregister gevaarlijke stoffen) en Topografie Stedelijk
+Water.</p><p>Bij de ontwikkeling van IMKL is er afstemming geweest met deze twee toepassingen
+en zijn resultaten daarvan in aparte profielen opgenomen. De volgende paragrafen
+beschrijven die profielen.</p><section id="uml-buisleidingen-risicoregister-overzicht"><h4 id="x5-3-1-uml-buisleidingen-risicoregister-overzicht"><span class="secno">5.3.1 </span>UML - Buisleidingen Risicoregister overzicht.</h4><figure id="afb_22.RRGS-compleet"><img src="docs/media/22.RRGS-compleet.png" alt="Afbeelding RRGS-compleet">
+<figcaption>Figuur <span class="figno">31</span> <span class="fig-title">Model Buisleidingen risicoregister</span></figcaption>
+</figure><p>Toelichting op diagram:</p><p>Voor het Risicoregister is van uit het perspectief van de utiliteitsnetten
+alleen de informatie over buisleidingen gevaarlijke inhoud van belang. Er is een
+extensie op de OlieGasChemicalienLeiding voor specifieke informatie voor het
+risicoregister.</p><p>Een object OlieGasChemicalienPijpleiding van een net van het thema buisleiding
+gevaarlijke inhoud wordt verbijzonderd in een object Transportroutedeel waarin
+een paar specifieke attributen zijn opgenomen. Locatie van Transportroutedeel en
+een aantal basisattributen worden via INSPIRE en het WIBON model geleverd. Een
+Transportroutedeel is een onderdeel van een Transportroute. De Transportroute is
+de referentie voor een optioneel object TransportrouteRisico met een
+risicocontour en een verplicht object EffectcontourDodelijk.</p></section><section id="uml-stedelijk-water-overzicht"><h4 id="x5-3-2-uml-stedelijk-water-overzicht"><span class="secno">5.3.2 </span>UML - Stedelijk water overzicht</h4><figure id="afb_23.IMSW-totaal"><img src="docs/media/23.IMSW-totaal.png" alt="Afbeelding IMSW-totaal">
+<figcaption>Figuur <span class="figno">32</span> <span class="fig-title">Model Stedelijk water</span></figcaption>
+</figure><p>Toelichting op diagram:</p><p>Stedelijk water beperkt zich in het IMKL verband tot het thema riool onder
+overdruk of onderdruk en riool vrijverval. Als specifieke informatie is een
+waardelijst voor type rioolleiding opgenomen. Voor het geografisch
+informatiemodel van stedelijk water is een afstemming met het
+Gegevenswoordenboek Stedelijk Water (GWSW) van belang. De waarden uit de
+waardelijst vinden hun definitie in dat gegevenswoordenboek. Het GWSW is
+beschikbaar via <a href="https://data.gwsw.nl">https://data.gwsw.nl</a>. Elke term, definitie en attribuut is
+direct te bekijken via
+<a href="http://data.gwsw.nl/totaal/%7Bterm%7D">http://data.gwsw.nl/totaal/{term}</a>,
+bijvoorbeeld <a href="http://data.gwsw.nl/totaal/vrijvervalrioolleiding/">http://data.gwsw.nl/totaal/vrijvervalrioolleiding/</a>. Meer
+informatie over GWSW is te vinden op:
+<a href="https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water">https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water</a>.</p></section></section></section><section data-format="markdown" id="objectcatalogus"><!--OddPage--><h2 id="x6-objectcatalogus"><span class="secno">6. </span>Objectcatalogus</h2><p>De IMKL objectcatalogus is opgenomen in een apart document IMKL –
+Objectcatalogus. In deze paragraaf zijn de metadgegevens en de lijst met objecttypen
+opgenomen. Voor de volledige beschrijving wordt naar het document IMKL –
+Objectcatalogus verwezen.</p><table>
+<thead>
+<tr>
+<th>Objectcatalogus metagegevens:</th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Naam van object catalogus</td>
+<td>IMKL</td>
+</tr>
+<tr>
+<td>Scope</td>
+<td>IMKL</td>
+</tr>
+<tr>
+<td>Versienummer</td>
+<td>IMKL versie 2.0</td>
+</tr>
+<tr>
+<td>Versiedatum</td>
+<td>2020-11-05</td>
+</tr>
+<tr>
+<td>Herkomst Definities</td>
+<td>Dataspecificatie IMKL</td>
+</tr>
+</tbody></table><p>Typen gedefinieerd in de objectcatalogus:</p><table>
+<thead>
+<tr>
+<th><strong>Type</strong></th>
+<th><strong>Package</strong></th>
+<th><strong>Stereotypes</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>AanduidingEisVoorzorgsmaatregel</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>AanvraagSoortContact</td>
+<td>IMKL</td>
+<td>«dataType»</td>
+</tr>
+<tr>
+<td>AanvraagSoortValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>Aanvrager</td>
+<td>IMKL</td>
+<td>«dataType»</td>
+</tr>
+<tr>
+<td>Achtergrondkaart</td>
+<td>IMKL</td>
+<td>«dataType»</td>
+</tr>
+<tr>
+<td>AchtergrondkaartSoortValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>Adres</td>
+<td>IMKL</td>
+<td>«dataType»</td>
+</tr>
+<tr>
+<td>Annotatie</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>AnnotatieTypeValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>Appurtenance</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Beheerder</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Belang</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>BelangGeneriek</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Belanghebbende</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>BestandMediaTypeValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>Bijlage</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>BijlageTypeValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>BuisleidingTypeValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>BuisSpecifiek</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>ConditionOfFacilityIMKLValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>Contact</td>
+<td>IMKL</td>
+<td>«dataType»</td>
+</tr>
+<tr>
+<td>ContainerLeidingelement</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Diepte</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>DiepteAangrijpingspuntValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>DiepteNAP</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>DiepteTovMaaiveld</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Duct</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>EffectcontourDodelijk</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>EffectScenarioType</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>EigenTopografie</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>EigenTopografieStatusValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>EisVoorzorgsmaatregelBijlage</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>ElectricityAppurtenanceTypeIMKLValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>Elektriciteitskabel</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>ExtraDetailinfo</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>ExtraDetailInfoTypeValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>ExtraGeometrie</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>ExtraInformatie</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>GebiedsinformatieAanvraag</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>GebiedsinformatieLevering</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Graafpolygoon</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>IMKLBasis</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Informatiepolygoon</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Kabelbed</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>KabelEnLeidingContainer</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>KabelOfLeiding</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>KabelSpecifiek</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Kast</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Label</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Labelpositie</td>
+<td>IMKL</td>
+<td>«dataType»</td>
+</tr>
+<tr>
+<td>LabelpositieValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>Leidingelement</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Maatvoering</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>MaatvoeringsTypeValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>Mangat</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Mantelbuis</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Mast</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>NauwkeurigheidDiepteValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>NauwkeurigheidXYvalue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>NEN3610ID</td>
+<td>IMKL</td>
+<td>«dataType»</td>
+</tr>
+<tr>
+<td>OilGasChemicalsAppurtenanceTypeIMKLValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>OilGasChemicalsProductTypeIMKLValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>OlieGasChemicalienPijpleiding</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Opdrachtgever</td>
+<td>IMKL</td>
+<td>«dataType»</td>
+</tr>
+<tr>
+<td>Organisatie</td>
+<td>IMKL</td>
+<td>«dataType»</td>
+</tr>
+<tr>
+<td>Orientatiepolygoon</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Overig</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>OverigAppurtenanceTypeIMKLValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>OverigSpecifiek</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>PipeMaterialTypeIMKLValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>PostbusAdres</td>
+<td>IMKL</td>
+<td>«dataType»</td>
+</tr>
+<tr>
+<td>PuntLijnVlak</td>
+<td>IMKL</td>
+<td>«union»</td>
+</tr>
+<tr>
+<td>Rioolleiding</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>RioolleidingTypeValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>SewerAppurtenanceTypeIMKLValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>SoortWerkzaamhedenValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>StedelijkWaterSpecifiek</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>TechnischGebouw</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Telecommunicatiekabel</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>TelecommunicationsAppurtenanceTypeIMKLValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>TelecommunicationsCableMaterialTypeIMKLValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>Thema</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>ThermalAppurtenanceTypeIMKLValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>ThermalProductTypeIMKLValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>ThermischePijpleiding</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>TopografischObjectTypeValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>Toren</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Transportroute</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Transportroutedeel</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>TransportrouteRisico</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Utiliteitsnet</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>UtilityNetworkTypeIMKLValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>Veiligheidsgebied</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>WaterAppurtenanceTypeIMKLValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>Waterleiding</td>
+<td>IMKL</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>WaterTypeIMKLValue</td>
+<td>IMKL</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>PipeMaterialTypeValue</td>
+<td>Common Extended Utility Network Elements</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>UtilityNetwork</td>
+<td>Common Utility Network Elements</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Cabinet</td>
+<td>Common Utility Network Elements</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>UtilityNetworkTypeValue</td>
+<td>Common Utility Network Elements</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>UtilityLinkSet</td>
+<td>Common Utility Network Elements</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Pipe</td>
+<td>Common Utility Network Elements</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Pole</td>
+<td>Common Utility Network Elements</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Duct</td>
+<td>Common Utility Network Elements</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Tower</td>
+<td>Common Utility Network Elements</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>Cable</td>
+<td>Common Utility Network Elements</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>UtilityDeliveryTypeValue</td>
+<td>Common Utility Network Elements</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>Manhole</td>
+<td>Common Utility Network Elements</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>AppurtenanceTypeValue</td>
+<td>Common Utility Network Elements</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>Appurtenance</td>
+<td>Common Utility Network Elements</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>SpecificAppurtenanceTypeValue</td>
+<td>Common Utility Network Elements</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>WarningTypeValue</td>
+<td>Common Utility Network Elements</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>ElectricityAppurtenanceTypeValue</td>
+<td>Electricity Network</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>ElectricityCable</td>
+<td>Electricity Network</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>OilGasChemicalsPipe</td>
+<td>Oil-Gas-Chemicals Network</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>OilGasChemicalsProductTypeValue</td>
+<td>Oil-Gas-Chemicals Network</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>OilGasChemicalsAppurtenanceTypeValue</td>
+<td>Oil-Gas-Chemicals Network</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>SewerWaterTypeValue</td>
+<td>Sewer Network</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>SewerPipe</td>
+<td>Sewer Network</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>SewerAppurtenanceTypeValue</td>
+<td>Sewer Network</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>TelecommunicationsAppurtenanceTypeValue</td>
+<td>Telecommunications Network</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>TelecommunicationsCableMaterialTypeValue</td>
+<td>Telecommunications Network</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>TelecommunicationsCable</td>
+<td>Telecommunications Network</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>ThermalPipe</td>
+<td>Thermal Network</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>ThermalAppurtenanceTypeValue</td>
+<td>Thermal Network</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>WaterPipe</td>
+<td>Water Network</td>
+<td>«featureType»</td>
+</tr>
+<tr>
+<td>WaterAppurtenanceTypeValue</td>
+<td>Water Network</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>WaterTypeValue</td>
+<td>Water Network</td>
+<td>«codeList»</td>
+</tr>
+<tr>
+<td>ThermalProductTypeValue</td>
+<td>Thermal Network</td>
+<td>«codeList»</td>
+</tr>
+</tbody></table><section id="geografische-objecten"><h3 id="x6-1-geografische-objecten"><span class="secno">6.1 </span>Geografische objecten</h3><p>Zie IMKL – Objectcatalogus.</p></section><section id="data-typen"><h3 id="x6-2-data-typen"><span class="secno">6.2 </span>Data typen</h3><p>Zie IMKL – Objectcatalogus.</p></section><section id="waardelijsten"><h3 id="x6-3-waardelijsten"><span class="secno">6.3 </span>Waardelijsten</h3><p>Zie IMKL – waardelijst register. (en in Excel: IMKL – 2.0rc IMKL
+waardelijsten.xlsx)</p></section><section id="geimporteerde-typen-informatief"><h3 id="x6-4-geimporteerde-typen-informatief"><span class="secno">6.4 </span>Geïmporteerde typen (informatief)</h3><p>Zie IMKL – Objectcatalogus.</p></section></section><section data-format="markdown" id="referentiesystemen"><!--OddPage--><h2 id="x7-referentiesystemen"><span class="secno">7. </span>Referentiesystemen</h2><section id="ruimtelijk-referentiesysteem"><h3 id="x7-1-ruimtelijk-referentiesysteem"><span class="secno">7.1 </span>Ruimtelijk referentiesysteem</h3><p>Voor het ruimtelijk referentiesysteem gelden er twee situaties: leveren voor
+INSPIRE en levering voor andere processen.</p><p>Voor uitwisseling voor de niet INSPIRE datalevering geldt: Rijksdriehoekmeting
+(RD).</p><p>RD-NAP-coördinaat-referentiesysteem (binnen de Nederlandse kustlijnen). Hiervoor
+geldt dat de gebruikte horizontale datum Bessel 1841 is en het coördinaatsysteem
+de stereografische projectie. Als verticale datum wordt het NAP-vlak gebruikt.</p><p>Voor RD geldt EPSG code: 28992</p><p>Voor RD + NAP geldt EPSG code: 7415</p><p>Levering voor INSPIRE: European Terrestrial Reference System 1989 (ETRS1989).</p><p>ETRS89 (2D): 4258</p><p>ETRS89 + EVRS&nbsp;: 7423 (hoogte in meters tov EVRF2000 (=NAP).</p><p>Zie voor meer detail Hoofdstuk 6 van <a href="https://inspire.ec.europa.eu/id/document/tg/us">INSPIRE_Dataspecifications_US_v3.0.</a></p><p>Toelichting:
+Het ruimtelijk referentiesysteem beschrijft het meetkundige stelsel waarin de
+coördinaten van een object betekenis krijgen. In de regel wordt daar een
+coördinaat referentiesysteem voor gebruikt. Voor Nederland zijn de
+Rijksdriehoekmeting (RD) en ETRS89 gangbare referentiesystemen. Het RD systeem
+daarbij een referentiesysteem dat alleen voor Nederland van toepassing is en ook
+alleen voor land, niet zee, is gedefinieerd.</p><p>Met de toename van internationale data uitwisseling is er behoefte aan
+internationaal bruikbare referentiesystemen. ETRS89 is het referentiesysteem dat
+hieraan voldoet. INSPIRE schrijft het gebruik van ETRS89 voor.</p><p>RDNAPTRANS™ is de officiële en nauwkeurige transformatie tussen het
+coördinatensysteem van de Rijksdriehoeksmeting (RD) en het Normaal Amsterdams
+Peil (NAP) enerzijds en het European Terrestrial Reference System 1989 (ETRS89)
+anderzijds.</p><p>Voor de WIBON wordt de Rijksdriehoeksmeting als referentiesysteem gebruikt.</p></section><section id="temporeel-referentiesysteem"><h3 id="x7-2-temporeel-referentiesysteem"><span class="secno">7.2 </span>Temporeel referentiesysteem</h3><p>Alle tijdsaanduidingen zijn gebaseerd op de Gregoriaanse kalender en uitgedrukt
+is overeenstemming met de internationale standaard ISO 8601. Voorbeelden daarvan
+zijn:
+2014 (het jaar 2014); 2014-04 (april 2014); 2014-04-15 (15 april 2014);
+2014-04-15T16:30:20+01:00 (15 april 2014, 16:30 20sec, tijdzone UTC+1).</p></section></section><section data-format="markdown" id="levering"><!--OddPage--><h2 id="x8-levering"><span class="secno">8. </span>Levering</h2><p>Dit hoofdstuk heeft alleen betrekking op de geodata, de gevectoriseerde gegevens
+van een bericht. Andere gegevens zoals bijvoorbeeld detailschets vallen
+daarbuiten.</p><section id="leveringsmedium"><h3 id="x8-1-leveringsmedium"><span class="secno">8.1 </span>Leveringsmedium</h3><p>INSPIRE-data worden geleverd via netwerkservices. Van toepassing zijn WMS voor
+viewservices en WFS voor downloadservices. INSPIRE beschrijft naast WFS ook nog
+optioneel ATOM feeds als mogelijkheid voor het leveren van data.</p><p>Data in het kader van een WIBON-aanvraag wordt uitgeleverd als gml
+feature-collection.</p></section><section id="formaten-encodings"><h3 id="x8-2-formaten-encodings"><span class="secno">8.2 </span>Formaten (encodings)</h3><p>Het format waarin data worden geleverd is GML 3.2.2. simple features profile 2
+(SF-2). Dit profiel heeft een beperkt aantal GML constructies en bevat o.a. geen
+3D volume objecten. Als 3D volume objecten nodig zijn moet er van SF-2 afgeweken
+worden. Meer informatie over simple feature profiles in:
+<a href="http://www.geonovum.nl/sites/default/files/Geometrieinmodelengml_1.0.pdf">Geometrieinmodelengml_1.0.pdf</a> .
+Voor IMKL is een GML applicatieschema gemaakt. Datasets van utiliteitsnetten die
+conform deze specificatie zijn gemaakt moeten foutloos valideren tegen het IMKL
+applicatieschema.</p><p>Het IMKL UML is toegepast in vier profielen. Voor twee van die is er een GML
+applicatieschema gemaakt.</p><p>WIBON profiel: IMKL-wibon2.0.xsd<br>WIBON Belangenregistratie: IMKL-wibonbr2.0.xsd. Subset van WIBON profiel met alleen objecttypen voor Belangenregistratie.</p><p>Beide GML applicatieschemas zijn gepubliceerd op: <a href="https://register.geostandaarden.nl/gmlapplicatieschema/imkl/">https://register.geostandaarden.nl/gmlapplicatieschema/imkl/</a></p><p>Voor de profielen voor het Risicoregister en Stedelijkwater zijn geen GML
+applicatieschema’s gemaakt.</p><p>Waardelijsten van het type codeList zijn toegepast in RDF en gepubliceerd op:</p><p><a href="https://register.geostandaarden.nl/waardelijst/imkl/">https://register.geostandaarden.nl/waardelijst/imkl/</a></p><section id="nadere-gml-implementatie-specificaties"><h4 id="x8-2-1-nadere-gml-implementatie-specificaties"><span class="secno">8.2.1 </span>Nadere GML implementatie specificaties</h4><p>Voor het genereren van IMKL gml bestanden zijn er nog een aantal aanvullende
+afspraken.</p><p><strong>Encoding, tekenset, van het GML bestand</strong></p><p>Voor de encoding van het GML bestand wordt UTF-8 voorgeschreven. Van UTF-8 wordt
+de tekenset ISO-8859-1 ondersteunt en binnen deze tekenset wordt gebruikt:
+unicode [32 – 128] en [160 – 255]. Opgemerkt wordt dat (U+8216), (U+8217),
+(U+8220), (U+8221) ook als tekens op een kaart weer te geven moeten zijn.</p><p><strong>gml: id</strong>
+Elk object in het GML bestand krijgt een 'gml:id'. Dit gml:id heeft geen
+informatiewaarde maar is nodig om interne en externe referenties te realiseren.
+Er zijn twee situaties:</p><p><strong>Een object met een NEN3610 of INSPIRE identifier:</strong>
+De in een GML bestand opgenomen gml:id is een concatenatie van de volledige
+identifier, bestaande uit de namespace en lokale id.</p><ul>
+<li><p>Voor het concateneren van nameSpace,LokaalId en mogelijk in de toekomst
+Versienummer gebruiken we als scheidingsteken '-' ;</p>
+</li>
+<li><p>Als scheidingsteken binnen lokaalId geldt '.'. De eerste punt komt dus na de
+bronhoudercode. Daarna komt de Id van de bronhouder intern (hierin mogen dus
+geen punten meer) en daarna (optioneel) een '-' met daarna het versienummer
+van het object.</p>
+</li>
+</ul><p><strong>Object zonder NEN3610 of INSPIRE identifier:</strong>
+In de regel zijn dit de geometrieën. Het gml:id is hiervoor vrij te kiezen en
+hoeft alleen uniek te zijn binnen een levering.</p><p><strong>Bounding Box</strong>
+<em>(gml:boundedBy)</em>
+Het is in GML optioneel om een bounding box te definiëren waarin een rechthoek
+is opgenomen die middels een linkerbenedenhoek en rechterbovenhoek de extent van
+de coördinaten weergeeft.</p><p>Voor WIBON geldt de volgende regel:
+Een bounding box is verplicht alleen voor het hele bestand bij uitleveringen en
+is niet opgenomen bij individuele geometrieën.</p><p><strong>Voorbeeld:</strong></p><p><img src="docs/media/vbboundingbox.png" alt=""></p><p><strong>Geometrietypen en interpolatie</strong></p><p>In het IMKL UML en het afgeleide XML schema zijn de geometrietypen
+gespecificeerd. Voor de lijninterpolatie mag naast gml:LineString ook gml:Arc en
+gml:Circle gebruikt worden.
+gml:Arc is gedefinieerd door drie punten.</p><p>Niet ondersteund worden:
+gml:ArcByCenterPoint
+gml:ArcByBulge
+gml:CircleByCenterPoint</p><p><strong>Draairichting van polygonen</strong>
+Hiervoor gelden de regels van ISO19107: Geographic information – Spatial Schema.</p><p>Voor een polygoon die je van de bovenkant bekijkt: exterior ring tegen de klok
+in, interior ring met de klok mee. In 2d GIS bekijk je polygonen altijd van de
+bovenkant.</p><p><strong>Nauwkeurigheid coördinaten</strong>
+Nauwkeurigheid van coördinaten is 3 decimalen. Alles wat nauwkeuriger is moet
+door de bronhouder worden afgerond op deze nauwkeurigheid (3 decimalen).<br>0.0015 wordt 0.002;<br>0.0014 wordt 0.001.</p><p><strong>srsName</strong>
+srsName invullen bij elk IMKL-object op hoogste geometrie niveau.</p><p>Voor IMKL is het coördinaat referentiesysteem Rijksdriehoekstelsel verplicht.
+Bij 2D is dat epsg code 28992 en bij 2.5D en 3D epsg code 7415.</p><p>De srsName wordt als volgt ingevuld:
+srsName="urn:ogc:def:crs:EPSG::28992"</p><p>Toelichting: srsName is de specificatie van het coördinaat referentiesysteem.
+Voor iedere geometrie moet een srsName te vinden zijn. In feite betekent dit dat
+iedere geometrie een srsName moet hebben. In geval van een multigeometrie hoeft
+de srsName alleen aan de multigeometrie te hangen en niet aan ieder los
+onderdeel ervan.</p><p><strong>srsDimension</strong>
+srsDimension wordt opgenomen.<br>Toelichting: De srsDimension geeft aan uit hoeveel elementen een coördinaat
+bestaat.
+Voor IMKL is dat standaard 2 (x,y). Dit past ook bij het GML-SF2 profiel.
+Optioneel kan er een extra 3D geometrie worden meegegeven. Zie het objecttype
+<a href="#afb_IMKL-Geometrie2" class="fig-ref">ExtraGeometrie</a>.</p></section></section></section><section data-format="markdown" id="visualisatie"><!--OddPage--><h2 id="x9-visualisatie"><span class="secno">9. </span>Visualisatie</h2><p>De specificaties voor het visualiseren van IMKL gegevens zijn opgenomen in
+aparte documenten:</p><p><strong>Handreiking Visualisatieregels (PMKL).</strong></p><p>Dit document bevat de regels ten behoeve van het opbouwen van een kaartbeeld
+van IMKL gegevens met betrekking tot de grafische variabelen kleur, vorm,
+grootte en transparantie. Daarnaast worden er schaalniveaus onderscheiden
+gerelateerd aan de visualisatie van IMKL gegevens.</p><p><strong>Eisen overheid ordening attributen.</strong></p><p>Een excel document met regels voor de ordening van objectattributen die in
+een viewerapplicatie opgevraagd kunnen worden. Van de IMKL-objecten is
+vastgelegd welke geselecteerd kunnen worden voor het opvragen van de
+attributen. Voor de attributen is de volgorde waarin ze worden afgebeeld
+gespecificeerd.</p></section><section data-format="markdown" id="bibliografie"><!--OddPage--><h2 id="x10-bibliografie"><span class="secno">10. </span>Bibliografie</h2><ul>
+<li><p><a href="https://inspire.ec.europa.eu/id/document/tg/us">(D2.8.III.6) Data Specification on Utility and Government Services – Technical Guidelines</a></p>
+</li>
+<li><p><a href="https://inspire.ec.europa.eu/documents/inspire-generic-conceptual-model">(DS-D2.5) INSPIRE DS-D2.5, Generic Conceptual Model, v3.4</a></p>
+</li>
+<li><p><a href="https://inspire.ec.europa.eu/documents/inspire-data-specifications-%E2%80%93-base-models-%E2%80%93-generic-network-model">(D2.10.1) INSPIRE Data Specifications – Base Models – Generic Network Model</a></p>
+</li>
+<li><p>AGIV – IMKL2.2 Data Model, versie 0.13.</p>
+</li>
+<li><p>NEN 3610:2011/A1:2016 Basismodel Geo-informatie - Termen, definities,
+relaties en algemene regels voor de uitwisseling van informatie over aan de
+aarde gerelateerde ruimtelijke objecten. Normcommissie 351 240
+"Geo-informatie”, Nederlands Normalisatie-instituut.</p>
+</li>
+<li><p><a href="http://www.riool.net/-/informatiemodel-stedelijk-water-ter-visie">Data uitwisseling specificatie Informatiemodel Stedelijk Water (IMSW)</a>.
+Stichting RIONED.</p>
+</li>
+<li><p><a href="https://data.gwsw.nl/">GegevensWoordenboek Stedelijk Water (GWSW)</a>.
+Stichting RIONED.</p>
+</li>
+<li><p><a href="https://tax.kadaster.nl/">Woordenboek van kadaster</a></p>
+</li>
+<li><p><a href="http://www.geonovum.nl/sites/default/files/Geometrieinmodelengml_1.0.pdf">Brink, van den, L., Janssen, P., Quak, W.; 2012. Handreiking Geometrie in
+model en GML</a>.</p>
+</li>
+</ul></section><section data-format="markdown" id="bijlage-1-imkl-waardelijsten"><!--OddPage--><h2 id="x11-bijlage-1-imkl-waardelijsten"><span class="secno">11. </span>Bijlage 1 IMKL waardelijsten</h2><p>Opgenomen in apart document, zie <a href="https://register.geostandaarden.nl/?url=kabelsleidingen/imkl">register.geostandaarden.nl/imkl</a>.</p></section><section data-format="markdown" id="bijlage-2-toelichting-op-geometriemodel"><!--OddPage--><h2 id="x12-bijlage-2-toelichting-op-geometriemodel"><span class="secno">12. </span>Bijlage 2 Toelichting op geometriemodel</h2><p>Het geometriemodel van IMKL is gebaseerd op het netwerk model van INSPIRE. De
+volgende aspecten typeren de toepassing van het netwerk model in IMKL.</p><ol>
+<li><p>de geometrie wordt gedefinieerd in het netwerk model;</p>
+</li>
+<li><p>geometrie wordt gerealiseerd door de objecttypen Link en Node;</p>
+</li>
+<li><p>geometrische primitieven zijn punten of lijnen;</p>
+</li>
+<li><p>een IMKL:KabelOfleiding is een UtilityLinkSet;</p>
+</li>
+<li><p>Een UtilityLinkSet verwijst naar 1..* Links;</p>
+</li>
+<li><p>Een IMKL:Leidingelement is een Node;</p>
+</li>
+<li><p>Het netwerk model bestaat uit een optionele relatie tussen Node en Link;</p>
+</li>
+<li><p>Een LinkSquence bevat DirectedLinks en wordt gebruikt om een route in een
+netwerk aan te geven.</p>
+</li>
+</ol><p>Punt 5 maakt dat er een verwijzing is van een IMKL informatielement,
+bijvoorbeeld een elektriciteitskabel naar een Link (en dus de geometrie) en niet
+andersom. Punt 7, de optionele relatie tussen links en nodes maakt dat er
+verschillende niveaus van het toepassen van netwerktopologie zijn. Voorlopig
+gaan we er van uit dat al deze versies toegepast kunnen worden. Voor de uitleg
+daarvan een voorbeeld van een leiding met een aantal nodes (leidingelementen). A
+en J zijn begin en eindpunt van de leiding; B tot en met I zijn aansluitingen
+met aftakkingen.</p><figure id="afb_bijlage2-1"><img src="docs/media/bijlage2-1.png" alt="Afbeelding bijlage2-1">
+<figcaption>Figuur <span class="figno">33</span> <span class="fig-title">Eén leiding met tien nodes</span></figcaption>
+</figure><p><strong>Versie 1: Netwerktopologie volledig toegepast.</strong></p><p>De volledig toepassing van het netwerk model bestaat uit het maken van 1 linkset
+die bestaat uit links die nodes met elkaar verbinden. Er is een verwijzing
+tussen de nodes en de links. Een leiding verwijst naar de linkset die er bij
+hoort. Zie onderstaand schema.</p><figure id="afb_bijlage2-2.png"><img src="docs/media/bijlage2-2.png" alt="Afbeelding bijlage2-2">
+<figcaption>Figuur <span class="figno">34</span> <span class="fig-title">Netwerktopologie volledig toegepast</span></figcaption>
+</figure><p><strong>Versie 2: Netwerktopologie niet toegepast.</strong></p><p>In deze versie is de netwerk topologie niet toegepast. Er is 1 linkset die
+bestaat uit 9 links maar er is geen verwijzing tussen linkes en nodes.</p><figure id="afb_Bijlage2-3"><img src="docs/media/Bijlage2-3.png" alt="Afbeelding Bijlage2-3">
+<figcaption>Figuur <span class="figno">35</span> <span class="fig-title">Netwerktopologie niet toegepast</span></figcaption>
+</figure><p><strong>Versie 3: Netwerktopologie niet toegepast.</strong></p><p>In deze versie bestaat de linkset uit 1 link van A naar J. De nodes zijn apart
+‘bovenop’ de leiding weergegeven. Er is geen enkele netwerktopologie.</p><figure id="afb_Bijlage2-4"><img src="docs/media/Bijlage2-4.png" alt="Afbeelding Bijlage2-4">
+<figcaption>Figuur <span class="figno">36</span> <span class="fig-title">Netwerktopologie niet toegepast</span></figcaption>
+</figure></section><section data-format="markdown" id="bijlage-3-toelichting-op-informatiepolygoon"><!--OddPage--><h2 id="x13-bijlage-3-toelichting-op-informatiepolygoon"><span class="secno">13. </span>Bijlage 3 Toelichting op informatiepolygoon</h2><p>Voor het apart visualiseren van het gebied dat in de informatiepolygoon zit maar
+niet in de graafpolygoon is bij het objecttype Informatiepolygoon de
+geometrieVoorVisualisatie opgenomen.</p><figure id="afb_Informatiepolygoon"><img src="docs/media/Informatiepolygoon.png" alt="Informatiepolygoon">
+<figcaption>Figuur <span class="figno">37</span> <span class="fig-title">Objecttype Informatiepolygoon</span></figcaption>
+</figure><p>Het gebied is een vlak of een multivlak en omvat het gebied van de
+informatiepolygoon exclusief het gebied van de graafpolygoon. In onderstaand
+figuur zijn de 4 situaties opgenomen die zich kunnen voordoen bij het bepalen
+van de geometrie voor visualisatie.</p><figure id="afb_Bijlage3-2.png"><img src="docs/media/Bijlage3-2.png" alt="Afbeelding Bijlage3-2">
+<figcaption>Figuur <span class="figno">38</span> <span class="fig-title"></span></figcaption>
+</figure></section><p role="navigation" id="back-to-top"><a href="#title">
+  <abbr title="Naar begin">↑</abbr></a></p><script src="https://www.w3.org/scripts/TR/2016/fixup.js"></script></body></html>
