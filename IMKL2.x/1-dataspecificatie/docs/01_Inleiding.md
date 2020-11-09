@@ -13,9 +13,9 @@ toepassing zijn. De volgende lijst geeft alle documenten:
 
 -   IMKL Objectcatalogus
 
--   IMKL object-attributen-ExtraRegels
+-   IMKL object-attributen-ExtraRegels (in [register.geostandaarden.nl/imkl](https://register.geostandaarden.nl/?url=kabelsleidingen/imkl))
 
--   IMKL – waardelijsten
+-   IMKL – waardelijsten (in [register.geostandaarden.nl/imkl](https://register.geostandaarden.nl/?url=kabelsleidingen/imkl))
 
 -   Handreiking-visualisatieregels (PMKL)
 
@@ -26,7 +26,7 @@ deze dataspecificatie wordt toegepast in een informatie- en
 data-uitwisselingsproces. In dit hoofdstuk zijn ook de normatieve referenties
 opgenomen en de lijst met termen, definities en afkortingen. Hoofdstuk [Identificatie document](#identificatie-document) is een
 korte samenvatting en identificatie van de dataspecificatie in tabelvorm. In het 
-hoofdstuk [Data content en structuur](#data-content-en-structuur) is het UML model opgenomen en wordt met verschillende diagrammen het
+hoofdstuk [Gegevensdefinitie](#gegevensdefinitie) is het UML model opgenomen en wordt met verschillende diagrammen het
 informatiemodel toegelicht en wordt verwezen naar de objectcatalogus met alle
 modelinformatie in tabelvorm. Het hoofdstuk [Referentiesystemen](#referentiesystemen) gaat in op het ruimtelijk- en
 temporele referentiesysteem waarin gegevens gepubliceerd moeten worden.

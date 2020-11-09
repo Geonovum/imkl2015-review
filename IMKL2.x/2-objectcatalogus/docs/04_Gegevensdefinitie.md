@@ -1,7 +1,7 @@
-Gegevensdefinities
+Gegevensdefinitie
 ==================
 
-Geo object typen
+Geo-object typen
 ----------------
 
 ### AanduidingEisVoorzorgsmaatregel
@@ -1660,7 +1660,7 @@ Geo object typen
 | **Attribuut: naam**        |                                                                                                                                              |
 |                              Type:           | CharacterString                                                                                                                               |
 |                              Naam            |                                                                                                                                               |
-|                              Definitie:      Naam van het contact.                                                                                                                         |
+|                              Definitie:      |Naam van het contact.                                                                                                                         |
 |                             Multipliciteit: | 0..1                                                                                                                                          |
 | **Attribuut: telefoon**    |                                                                                                                                              |
 |                              Type:           | CharacterString                                                                                                                               |
@@ -1782,7 +1782,7 @@ Geo object typen
 | **Attribuut: naam**   |                              |
 |                         Type:           | CharacterString               |
 |                         Naam            |                               |
-|                         Definitie:      Naam van het contact.         |
+|                         Definitie:     | Naam van het contact.         |
 |                        Multipliciteit: | 0..1                          |
 | **Attribuut: telefoon** |                 |                               |
 |                         Type:           | CharacterString               |
@@ -2257,7 +2257,7 @@ Geo object typen
 
 ### WaterAppurtenanceTypeIMKLValue
 
-| **WaterAppurtenanceTypeIMKLValue**|               |                                                                      |
+| **WaterAppurtenanceTypeIMKLValue**              |                                                                      |
 |---------------------------------------------------|---------------------------------------------------------------------|
 |                                    Naam          |                                                                      |
 |                                    Definitie:    | IMKL waardelijst voor toepassing INSPIRE WaterAppurtenanceTypeValue. |

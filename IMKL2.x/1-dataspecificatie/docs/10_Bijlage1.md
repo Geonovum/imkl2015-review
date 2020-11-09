@@ -1,4 +1,4 @@
-Bijlage 1 IMKL waardelijsten.
+Bijlage 1 IMKL waardelijsten
 ==============================
 
-OPMERKING: Opgenomen in apart document.
+Opgenomen in apart document, zie [register.geostandaarden.nl/imkl](https://register.geostandaarden.nl/?url=kabelsleidingen/imkl).

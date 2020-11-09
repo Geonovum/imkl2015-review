@@ -1,4 +1,4 @@
-Objectcatalogus.
+Objectcatalogus
 ----------------
 
 De IMKL objectcatalogus is opgenomen in een apart document IMKL –
@@ -148,19 +148,19 @@ Typen gedefinieerd in de objectcatalogus:
 | WaterTypeValue                               | Water Network                            | «codeList»      |
 | ThermalProductTypeValue                      | Thermal Network                          | «codeList»      |
 
-### Geografische objecten.
+### Geografische objecten
 
 Zie IMKL – Objectcatalogus.
 
-### Data typen.
+### Data typen
 
 Zie IMKL – Objectcatalogus.
 
-### Waardelijsten.
+### Waardelijsten
 
 Zie IMKL – waardelijst register. (en in Excel: IMKL – 2.0rc IMKL
 waardelijsten.xlsx)
 
-### Geïmporteerde typen (informatief).
+### Geïmporteerde typen (informatief)
 
 Zie IMKL – Objectcatalogus.

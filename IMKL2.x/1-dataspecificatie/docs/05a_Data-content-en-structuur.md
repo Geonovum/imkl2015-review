@@ -1,10 +1,10 @@
-Data content en structuur
-=========================
+Gegevensdefinitie
+=================
 
 Dit hoofdstuk beschrijft het datamodel van utiliteitsnetten. Aan de hand van UML
 klasse diagrammen wordt het model beschreven.
 
-Inleiding.
+Inleiding
 ----------
 
 
@@ -38,10 +38,10 @@ informatie-elementen zijn daarbij voorzien van definities en indien nodig een
 toelichtende beschrijving. De objectcatalogus bevat de gezamenlijke
 informatie-inhoud van alle deelmodellen.
 
-UML diagrammen.
+UML diagrammen
 ---------------
 
-### Beschrijving algemeen principe: IMKL als extensie op INSPIRE.
+### Beschrijving algemeen principe: IMKL als extensie op INSPIRE
 
 IMKL is gemodelleerd als een extensie op het model voor het INSPIRE thema
 Utility and Governmental Services. Binnen dat INSPIRE thema zijn alleen de
@@ -81,7 +81,7 @@ gerelateerde pakketten.</figcaption>
 </figure>
 
 
-### Metamodel.
+### Metamodel
 
 IMKL gebruikt voor het beschrijven van de uitbreiding op INSPIRE het zelfde
 metamodel voor UML als INSPIRE: het metamodel beschreven in het INSPIRE Generic
@@ -108,7 +108,7 @@ De volgende stereotypen worden gebruikt als onderdeel van het UML profiel.
 | codeList          | Class                       | Open lijst van domeinwaarden                                                                                                   |
 | voidable          | Attribute, association role | Om aan te geven dat het attribuut of associatierol een nullwaarde kan hebben. Een reden waarom het attribuut niet ingevuld is. |
 
-### UML - WIBON overzicht.
+### UML - WIBON overzicht
 
 Het onderstaand UML diagram bevat het complete IMKL – WIBON inclusief de relatie
 met INSPIRE Utilities. In de hierop volgende paragrafen wordt telkens een deel
@@ -193,7 +193,7 @@ waardoor het bij de IMKL waterleiding komt. Een ander voorbeeld is het attribuut
 UtilityDeliveryType bij het INSPIRE objecttype UtilityLinkSet. Overerving is
 door alle kabel-, buis- en ducttypen.
 
-### Associaties in het model.
+### Associaties in het model
 
 In het model zijn associaties opgenomen om de relatie tussen objecttypen te
 benoemen. In het IMKL gedeelte zijn regels opgenomen voor het bepalen van de
@@ -216,7 +216,7 @@ richting waarin de associaties zijn bepaald:
 -   Voor netwerkelementen geldt dat associaties verwijzen naar de objecten
     ExtraInformatie en Diepte die er bij horen en niet andersom.
 
-### Numerieke waarden.
+### Numerieke waarden
 
 Numerieke waarden bij attributen worden opgenomen conform de bij het attribuut
 opgegeven eenheid en nauwkeurigheid. Indien de waarde als label is opgenomen en
@@ -225,7 +225,7 @@ Voor de in specifieke datatypen gedefinieerde waarden geldt een punt als het
 afgesproken decimaal scheidingsteken. De specifieke datatypen voor waarden zoals
 Measure bestaan uit een combinatie van een waarde en een eenheid.
 
-### Waardelijsten zijn extern.
+### Waardelijsten zijn extern
 
 De opgenomen waardelijsten van het type  «codeList» worden niet in het UML
 beheerd maar in externe waardelijsten. Zij worden gepubliceerd in een
@@ -235,7 +235,7 @@ beschrijving gehaald. Om het model toch leesbaar te houden zijn de startversies
 van die lijsten wel opgenomen in de UML diagrammen. Voor operationele toepassing
 is echter het waardelijstregister leidend.
 
-### Basisattributen voor identificatie en labels.
+### Basisattributen voor identificatie en labels
 
 Identificatie: Alle concrete objecttypen en daarmee objecten in een dataset
 hebben een attribuut voor identificatie. Met deze identificatie kunnen ze uniek
@@ -291,7 +291,7 @@ die het einde van een levenscyclus van deze versie van een data object aangeeft;
 het moment vanaf wanneer het geen onderdeel meer is van de actuele registratie.
 Zie ook paragraaf [Tijd representatie en temporeel model](#tijd-representatie-en-temporeel-model).
 
-### IMKL semantische kern.
+### IMKL semantische kern
 
 De kern van het IMKL model bevat de semantiek van de extra informatie voor de
 Nederlandse gebruikstoepassingen. Alleen de objecttypen die de inhoudelijke IMKL
@@ -464,7 +464,7 @@ een typeringslijst TopografischObjectTypeValue, gebaseerd op IMGeo. Hiermee is
 het type topografisch object omschreven en is een koppeling met
 visualisatieregels mogelijk.
 
-**Extra toelichting: Geometrie en topologie.**
+### Geometrie en topologie
 
 **2D geometrie:**
 
@@ -584,7 +584,7 @@ NAP voor de Z dimensie (EPSG:5709). Zie ook paragraaf [Ruimtelijk referentiesyst
     <figcaption>Leidingobject in 2.5D en 3D</figcaption>
 </figure>
 
-### Diepte.
+### Diepte
 
 Diepte bevat informatie over de dieptelegging van netwerkelementen. Het is een
 uitvoerige beschrijving die diepte tov het lokale maaiveld beschrijft of dieptes
@@ -631,7 +631,7 @@ ten opzicht van maaiveld en of NAP is opgenomen. Standaard dieptelegging wordt
 opgenomen bij het Utiliteitsnet, afwijking daarvan bij de netelementen.</figcaption>
 </figure>
 
-### Utiliteitsnet.
+### Utiliteitsnet
 
 Definitie: Een verzameling netwerkelementen die tot één type
 nutsvoorzieningennet behoren.
@@ -674,7 +674,7 @@ waterzuiveringscentrale, een overslagstation. Het huidige IMKL ondersteunt
 echter niet de opname van het objecttype ActivityComplex en evenmin het
 attribuut utilityFacilityReference.
 
-### KabelOfLeiding.
+### KabelOfLeiding
 
 Definitie: Leidingen, buizen of kabels bestemd voor voortgeleiding van energie,
 materie of data.
@@ -715,7 +715,7 @@ leidingen. -->
 leidingen.</figcaption>
 </figure>
 
-### Leidingelement.
+### Leidingelement
 
 Definitie: Een object dat bij één of meerdere leidingen behoort en als node in
 het netwerkmodel is opgenomen.
@@ -787,7 +787,7 @@ optioneel een adres en verplicht een ligging middels een punt, lijn of vlak.
 Het type overig wordt gebruikt voor alle andere detailschetsen. Een voorbeeld
 daarvan is een projecttekening van geplande netelementen.
 
-### KabelEnLeidingContainer.
+### KabelEnLeidingContainer
 
 Definitie: Abstract data object dat de gemeenschappelijke attributen en
 associaties bevat voor alle kabel- en leidingcontainer objecten.
@@ -849,7 +849,7 @@ of contour van het object op te nemen.
 Net als KabelOfLeiding is er ook een relatie met een mogelijke eis
 voorzorgmaatregel.
 
-### ContainerLeidingelement.
+### ContainerLeidingelement
 
 Definitie: Abstract data object dat de gemeenschappelijke attributen en
 associaties bevat voor alle containerleidingelement objecten.
@@ -884,7 +884,7 @@ moeten bij minstens één thema weergegeven worden maar het mag bij meerdere.
 Net als bij individuele leidingelementen is er een mogelijkheid om een eis
 voorzorgsmaatregel op te nemen.
 
-### Relaties tussen KabelEnLeiding, Leidingelement en container objecten. 
+### Relaties tussen KabelEnLeiding, Leidingelement en container objecten 
 
 INSPIRE modelleert de relatie tussen kabels en de mantelbuis of kabelbed waar ze
 in liggen. Van belang is dat in IMKL het kabelbed als aparte specialisatie van
@@ -951,13 +951,13 @@ leidingen mogelijk. -->
     <figcaption>Kabelbed</figcaption>
 </figure>
 
-### Diagram per type kabel of leiding.
+### Diagram per type kabel of leiding
 
 De volgende paragrafen behandelen de specifieke typen kabel of leidingen. Het
 bevat de informatie van vorige paragrafen maar dan bekeken van uit de concrete
 objecten uit specifieke netten. De diagrammen zijn onderling erg vergelijkbaar.
 
-### Elektriciteitskabel.
+### Elektriciteitskabel
 
 Definitie: Een aansluiting of reeks aansluitingen van een nutsvoorzieningennet
 voor het overbrengen van elektriciteit van de ene locatie naar een andere.
@@ -979,7 +979,7 @@ attributen.
     <figcaption>Elektriciteitskabel</figcaption>
 </figure>
 
-### Telecommunicatiekabel.
+### Telecommunicatiekabel
 
 Definitie: Een aansluiting of reeks aansluitingen van een nutsvoorzieningennet
 voor het overbrengen van signaalinformatie van de ene locatie naar een andere.
@@ -999,7 +999,7 @@ gelden de KabelEnleiding attributen. In [Bijlage 1 IMKL waardelijsten](#bijlage-
     <figcaption>Telecommunicatiekabel</figcaption>
 </figure>
 
-### Olie-gas-chemicalienpijpleiding.
+### Olie-gas-chemicalienpijpleiding
 
 Definitie: Een pijpleiding voor het overbrengen van olie, gas of chemicaliën van
 de ene locatie naar een andere.
@@ -1021,7 +1021,7 @@ In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) staan de mogeli
     <figcaption>Olie-gas-chemicaliënpijpleiding</figcaption>
 </figure>
 
-### Rioolleiding.
+### Rioolleiding
 
 Definitie: Een rioleringsleiding voor het overbrengen van afvalwater
 (rioolwater, hemelwater) van de ene locatie naar een andere.
@@ -1041,7 +1041,7 @@ KabelEnleiding attributen. In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waa
     <figcaption>Rioolleiding</figcaption>
 </figure>
 
-### Waterleiding.
+### Waterleiding
 
 Definitie: Een waterleiding voor het overbrengen van (drink)water van de ene
 locatie naar een andere.
@@ -1062,7 +1062,7 @@ In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) staan de waarde
     <figcaption>Waterleiding</figcaption>
 </figure>
 
-### Thermische pijpleiding.
+### Thermische pijpleiding
 
 Definitie: Een leiding voor het transporteren van warmte of koelte van de ene
 locatie naar een andere.
@@ -1085,7 +1085,7 @@ In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) staan de waarde
 </figure>
 
 
-### Overig en Weesleiding.
+### Overig en Weesleiding
 
 Definitie Overig: Een type kabel of leiding die niet onder de andere benoemde
 typen valt.
@@ -1109,7 +1109,7 @@ kunnen gebruiken.
     <figcaption>Overig/Weesleiding</figcaption>
 </figure>
 
-### Leidingelementen per type net (thema).
+### Leidingelementen per type net (thema)
 
 De leidingelementen worden niet specifiek per type thema net als de kabels en
 leidingen gedefinieerd. Leidingelementen hebben een algemene type lijst en een
@@ -1123,7 +1123,7 @@ voor type leidingelement per type kabelOfLeiding.
     <figcaption>Leidingelement per thema</figcaption>
 </figure>
 
-### WIBON Uitleveren van gebiedsinformatie.
+### WIBON Uitleveren van gebiedsinformatie
 
 Voor het faciliteren van de uitlevergegevens binnen de WIBON is er naast de
 specifieke utiliteitsnet informatie nog een aantal extra gegevens nodig. In
@@ -1232,7 +1232,7 @@ oriëntatieverzoek.</figcaption>
 
 <!-- Figuur 5.14: -->
 
-### Identifier management.
+### Identifier management
 
 <!--![](docs/media/identifiermanagement.png) -->
 
@@ -1331,7 +1331,7 @@ hiervoor in IMKL het versie attribuut niet gebruikt. Voor versies van een
 GebiedsinformatieLevering of een Belang kunnen door het KLIC wel versienummers
 worden gebruikt.
 
-### Tijd representatie en temporeel model.
+### Tijd representatie en temporeel model
 
 IMKL hanteert de ISO 8601 norm voor het beschrijven van tijdsaspecten.
 
@@ -1400,7 +1400,7 @@ versie wordt uitgewisseld en bij een geplande wijziging is er sprake van twee
 versies: de huidige en de gepland. Geplande aanleg en verwijdering kunnen wel
 uitgewisseld worden omdat er dan slechts 1 versie hoeft te worden uitgewisseld.
 
-Andere toepassingen van IMKL.
+Andere toepassingen van IMKL
 -----------------------------
 
 IMKL beschrijft het totaal aan informatie die voorziet in een aantal
@@ -1437,7 +1437,7 @@ Transportroutedeel is een onderdeel van een Transportroute. De Transportroute is
 de referentie voor een optioneel object TransportrouteRisico met een
 risicocontour en een verplicht object EffectcontourDodelijk.
 
-### UML - Stedelijk water overzicht.
+### UML - Stedelijk water overzicht
 
 <!-- ![](docs/media/23.IMSW-totaal.png) -->
 

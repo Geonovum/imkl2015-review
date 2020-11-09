@@ -5,7 +5,7 @@ Dit hoofdstuk heeft alleen betrekking op de geodata, de gevectoriseerde gegevens
 van een bericht. Andere gegevens zoals bijvoorbeeld detailschets vallen
 daarbuiten.
 
-Leveringsmedium.
+Leveringsmedium
 ----------------
 
 INSPIRE-data worden geleverd via netwerkservices. Van toepassing zijn WMS voor
@@ -15,7 +15,7 @@ optioneel ATOM feeds als mogelijkheid voor het leveren van data.
 Data in het kader van een WIBON-aanvraag wordt uitgeleverd als gml
 feature-collection.
 
-Formaten (encodings).
+Formaten (encodings)
 ---------------------
 
 Het format waarin data worden geleverd is GML 3.2.2. simple features profile 2

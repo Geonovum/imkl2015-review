@@ -1,7 +1,7 @@
 Referentiesystemen
 ==================
 
-Ruimtelijk referentiesysteem.
+Ruimtelijk referentiesysteem
 -----------------------------
 
 Voor het ruimtelijk referentiesysteem gelden er twee situaties: leveren voor
