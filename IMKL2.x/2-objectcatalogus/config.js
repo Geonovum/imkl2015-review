@@ -10,6 +10,30 @@
 //-- Log . . . :  20181015 - JvG - Initiele versie
 //-------------------------------------------------------------------------------------
 
+//-- Postprocessors -------------------------------------------------------------------
+
+//-- haalt gh-pages weg aan het eind van een URL
+//-- Stopt zodra de eerste is gevonden (want komt maar 1x voor)
+//-- JvG 2019-11-12
+function custGHPG(respecConfig)  
+{
+  var tags = document.getElementsByTagName("a");
+  var srch = "gh-pages";
+  var slen = srch.length;
+  var i;
+
+  for (i = 0; i < tags.length; i++) 
+  {
+    if(tags[i].href.indexOf(srch) > -1)
+    {
+      console.log(tags[i].href + " is gevonden");
+      tags[i].href = tags[i].href.substring(0, tags[i].href.length - slen);
+      console.log(tags[i].href + " is aangepast");
+      break;
+    }
+  } 
+}
+
 //-------------------------------------------------------------------------------------
 var respecConfig =
 {
@@ -73,7 +97,7 @@ var respecConfig =
   //pubDomain: "visu", 	            // Visualisatie
   //pubDomain: "wp", 	              // White Paper
   //-- Repositorynaam op GitHub -------------------------------------------------------
-  github: "https://github.com/Geonovum/imkl2015-review/IMKL2.x/1-dataspecificatie/",
+  github: "https://github.com/Geonovum/imkl2015-review/",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
   issueBase: "https://github.com/Geonovum/imkl2015-review/issues/",
   //-- edDraftURI: de URI van de werkversie van het document
@@ -106,4 +130,5 @@ var respecConfig =
   //emailComments: "mim@geonovum.nl",         // reactie mailadres, alleen bij CV!
   //subtitle: "iets",                         // Subtitel van het document
   maxTocLevel: 4,                             // Aantal niveau's ToC, default is 0
+  postProcess:[custGHPG],   //-- Optioneel voor een multi document repository
 };
