@@ -11,7 +11,7 @@ van IMKL gegevens met betrekking tot de grafische variabelen kleur, vorm,
 grootte en transparantie. Daarnaast worden er schaalniveaus onderscheiden
 gerelateerd aan de visualisatie van IMKL gegevens.
 
-**Eisen overheid ordening attributen.**
+**IMKL Ordening attributen viewer.**
 
 Een excel document met regels voor de ordening van objectattributen die in
 een viewerapplicatie opgevraagd kunnen worden. Van de IMKL-objecten is
