@@ -915,7 +915,6 @@ Deze relaties worden door de individuele kabels en leidingen overerft.
 Deze relaties zijn optioneel (want ze komen niet altijd voor) en voidable.
 
 <!-- ![](docs/media/13.IMKL-RelatiesTussenCableDuctPipe.png)
-
 Figuur 5.13: Relaties tussen buis, kabel en duct. Bijvoorbeeld een kabelbed
 verwijst optioneel naar de kabels die er in liggen; een mantelbuis kan verwijzen
 naar de kabels die het bevat. -->
