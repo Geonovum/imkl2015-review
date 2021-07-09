@@ -25,4 +25,4 @@ Bibliografie
 -   [Woordenboek van kadaster](https://tax.kadaster.nl/)
 
 -   [Brink, van den, L., Janssen, P., Quak, W.; 2012. Handreiking Geometrie in
-    model en GML](http://www.geonovum.nl/sites/default/files/Geometrieinmodelengml_1.0.pdf).
+    model en GML](https://docs.geostandaarden.nl/nen3610/gimeg/).

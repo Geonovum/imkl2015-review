@@ -1235,8 +1235,8 @@ oriëntatieverzoek.</figcaption>
 
 <!--![](docs/media/identifiermanagement.png) -->
 
-<figure id="afb_identifier">
-    <img src="docs/media/identifier.png" alt="Afbeelding identifier">
+<figure id="afb_identificatie">
+    <img src="docs/media/identifier.png" alt="Afbeelding identificatie">
     <figcaption>Elementen van de IMKL object-identifier</figcaption>
 </figure>
 

@@ -1,8 +1,7 @@
 Objectcatalogus
 ----------------
 
-De IMKL objectcatalogus is opgenomen in een apart document IMKL –
-Objectcatalogus. In deze paragraaf zijn de metadgegevens en de lijst met objecttypen
+De IMKL objectcatalogus is opgenomen in een apart document [IMKL - Objectcatalogus](https://docs.geostandaarden.nl/kl/vv-st-imkl-oc-20201110/). In deze paragraaf zijn de metadgegevens en de lijst met objecttypen
 opgenomen. Voor de volledige beschrijving wordt naar het document IMKL –
 Objectcatalogus verwezen.
 
@@ -150,17 +149,16 @@ Typen gedefinieerd in de objectcatalogus:
 
 ### Geografische objecten
 
-Zie IMKL – Objectcatalogus.
+Zie [IMKL - Objectcatalogus](https://docs.geostandaarden.nl/kl/vv-st-imkl-oc-20201110/).
 
 ### Data typen
 
-Zie IMKL – Objectcatalogus.
+Zie [IMKL - Objectcatalogus](https://docs.geostandaarden.nl/kl/vv-st-imkl-oc-20201110/).
 
 ### Waardelijsten
 
-Zie IMKL – waardelijst register. (en in Excel: IMKL – 2.0rc IMKL
-waardelijsten.xlsx)
+Zie [IMKL – waardelijst register](https://register.geostandaarden.nl/waardelijst/imkl/).
 
 ### Geïmporteerde typen (informatief)
 
-Zie IMKL – Objectcatalogus.
+Zie [IMKL - Objectcatalogus](https://docs.geostandaarden.nl/kl/vv-st-imkl-oc-20201110/).
