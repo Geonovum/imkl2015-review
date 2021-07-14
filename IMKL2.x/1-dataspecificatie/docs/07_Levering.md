@@ -22,7 +22,7 @@ Het format waarin data worden geleverd is GML 3.2.2. simple features profile 2
 (SF-2). Dit profiel heeft een beperkt aantal GML constructies en bevat o.a. geen
 3D volume objecten. Als 3D volume objecten nodig zijn moet er van SF-2 afgeweken
 worden. Meer informatie over simple feature profiles in:
-[Geometrieinmodelengml_1.0.pdf](http://www.geonovum.nl/sites/default/files/Geometrieinmodelengml_1.0.pdf) .
+[Geometrie in model en GML](https://docs.geostandaarden.nl/nen3610/gimeg/) .
 Voor IMKL is een GML applicatieschema gemaakt. Datasets van utiliteitsnetten die
 conform deze specificatie zijn gemaakt moeten foutloos valideren tegen het IMKL
 applicatieschema.
