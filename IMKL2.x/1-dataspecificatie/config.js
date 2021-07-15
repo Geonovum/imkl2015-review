@@ -121,10 +121,10 @@ var respecConfig =
   //     company:    "Object Management Group",
   //  },
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit!
-  //-- previousPublishDate: "2020-04-01",    	    // Format is "YYY-MM-DD"
+  previousPublishDate: "2020-11-10",    	    // Format is "YYY-MM-DD"
   //previousMaturity: "GN-DEF",                   // kies 1 van deze 3 regels
   //previousMaturity: "CV",                       // kies 1 van deze 3 regels
-  //--  previousMaturity: "GN-VV",  	            // kies 1 van deze 3 regels
+  previousMaturity: "GN-VV",  	            // kies 1 van deze 3 regels
 
   //-- Optionele parameters:
   //emailComments: "mim@geonovum.nl",         // reactie mailadres, alleen bij CV!
