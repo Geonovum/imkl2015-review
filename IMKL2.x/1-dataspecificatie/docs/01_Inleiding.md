@@ -6,7 +6,7 @@ is. De volgende lijst geeft alle onderdelen:
 
 -   Informatiemodel Kabels en Leidingen (IMKL): Dit document;
 
--   [IMKL - Objectcatalogus](https://docs.geostandaarden.nl/kl/vv-st-imkl-oc-20201110/): Tekstdocument met beschrijving van informatiemodel inclusief termen en definities;
+-   [IMKL - Objectcatalogus](https://docs.geostandaarden.nl/kl/imkl-oc/): Tekstdocument met beschrijving van informatiemodel inclusief termen en definities;
 
 -   IMKL object-attributen-ExtraRegels (in [register.geostandaarden.nl/imkl](https://register.geostandaarden.nl/?url=kabelsleidingen/imkl)): Excel-document 	met alle IMKL objecten met alle attributen en associaties en extra modelregels die daar op van toepassing zijn;
 
