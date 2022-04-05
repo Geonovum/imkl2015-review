@@ -52,7 +52,7 @@
                         </Geometry>
                         <Graphic>
                             <Mark>
-                                <WellKnownName>shape://oarrow</WellKnownName>
+                                <WellKnownName>shape://carrow</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#000000</CssParameter>
                                 </Fill>
