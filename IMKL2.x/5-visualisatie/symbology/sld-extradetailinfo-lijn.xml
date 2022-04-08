@@ -73,12 +73,6 @@
                 <Rule>
                     <Name>extradetailinfo-lijn-arcering</Name>
                     <Title>ExtraDetailinfo als lijnen op zoomniveaus 5-16</Title>
-                    <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>currentStatus</ogc:PropertyName>
-                            <ogc:Literal>functional</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
                     <MaxScaleDenominator>640000</MaxScaleDenominator>
                     <LineSymbolizer>
                         <Stroke>
