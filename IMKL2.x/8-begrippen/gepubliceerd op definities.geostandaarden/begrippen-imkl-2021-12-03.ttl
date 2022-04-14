@@ -1,0 +1,2651 @@
+@prefix n2: <http://definities.geostandaarden.nl/imkl/id/begrip/>.
+@prefix n3: <http://definities.geostandaarden.nl/id/begrippenkader/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+n3:IMKL a skos:ConceptScheme;
+    rdfs:label "Begrippenkader IMKL"@nl;
+    skos:prefLabel "Begrippenkader IMKL"@nl
+.
+n2:AanduidingEisVoorzorgsmaatregel a skos:Concept;
+    rdfs:label "aanduiding eis voorzorgsmaatregel"@nl;
+    skos:broader n2:ExtraInformatie;
+    skos:definition "Aanduiding van een netelement waarop een eis voorzorgsmaatregel van toepassing is. Dit is een wettelijke eis."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "AanduidingEisVoorzorgsmaatregel"^^xsd:string;
+    skos:prefLabel "aanduiding eis voorzorgsmaatregel"@nl
+.
+n2:AangrijpingHorizontaal a skos:Concept;
+    rdfs:label "aangrijpingspunt horizontaal"@nl;
+    skos:definition "Punt op de horiziontale as in labeltekst dat geldt als referentie voor plaatsingspunt."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "AangrijpingHorizontaal"^^xsd:string;
+    skos:prefLabel "aangrijpingspunt horizontaal"@nl
+.
+n2:AangrijpingVerticaal a skos:Concept;
+    rdfs:label "aangrijpingspunt verticaal"@nl;
+    skos:definition "Punt op de verticale as in labeltekst dat geldt als referentie voor plaatsingspunt."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "AangrijpingVerticaal"^^xsd:string;
+    skos:prefLabel "aangrijpingspunt verticaal"@nl
+.
+n2:AantalKabelsLeidingen a skos:Concept;
+    rdfs:label "aantal kabels en leidingen"@nl;
+    skos:definition "Aantal kabels leidingen of buizen dat zich in het containerelement bevindt. "@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "AantalKabelsLeidingen"^^xsd:string;
+    skos:prefLabel "aantal kabels en leidingen"@nl
+.
+n2:Aanvraag a skos:Concept;
+    rdfs:label "aanvraag"@nl;
+    skos:definition "De gegevens van de gebiedsinformatie-aanvraag."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Aanvraag"^^xsd:string;
+    skos:prefLabel "aanvraag"@nl
+.
+n2:AanvraagDatum a skos:Concept;
+    rdfs:label "aanvraagdatum"@nl;
+    skos:definition "De datumtijd waarop de gebiedsinformatie-aanvraag is aangevraagd."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "AanvraagDatum"^^xsd:string;
+    skos:prefLabel "aanvraagdatum"@nl
+.
+n2:AanvraagSoortContact a skos:Concept;
+    rdfs:label "contact per type soort aanvraag"@nl;
+    skos:definition "Het contactadres (meldadres) bij de netbeheerder waar de grondroerder contact mee kan opnemen voor informatie over (het) geraakte belang(en)."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "AanvraagSoortContact"^^xsd:string;
+    skos:prefLabel "contact per type soort aanvraag"@nl
+.
+n2:AanvraagSoort_AanvraagSoortContact a skos:Concept;
+    rdfs:label "soort aanvraag (AanvraagSoortContact)"@nl;
+    skos:definition "Typering van contact in relatie tot het type melding of verzoek."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "AanvraagSoort"^^xsd:string;
+    skos:prefLabel "soort aanvraag"@nl
+.
+n2:AanvraagSoort_GebiedsinformatieAanvraag a skos:Concept;
+    rdfs:label "soort aanvraag (GebiedsinformatieAanvraag)"@nl;
+    skos:definition "Soort gebiedsinformatie-aanvraag."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "AanvraagSoort"^^xsd:string;
+    skos:prefLabel "soort aanvraag"@nl
+.
+n2:Aanvrager_GebiedsinformatieAanvraag a skos:Concept;
+    rdfs:label "aanvrager (GebiedsinformatieAanvraag)"@nl;
+    skos:definition "De gegevens van de aanvrager van gebiedsinformatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Aanvrager"^^xsd:string;
+    skos:prefLabel "aanvrager"@nl
+.
+n2:Aanvrager_IMKL a skos:Concept;
+    rdfs:label "aanvrager (IMKL)"@nl;
+    skos:definition "Een aanvrager van gebiedsinformatie is een persoon die of bedrijf dat wil weten welke kabels en leidingen er in een bepaald gebied onder de grond liggen."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Aanvrager"^^xsd:string;
+    skos:prefLabel "aanvrager"@nl
+.
+n2:AchtergrondkaartSoort a skos:Concept;
+    rdfs:label "soort achtergrondkaart"@nl;
+    skos:definition "Soort achtergrondkaart (Kadaster: bgtBestaand/bgtPlan; netbeheerder: eigenTopoBestaand/eigenTopoPlan)."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "AchtergrondkaartSoort"^^xsd:string;
+    skos:prefLabel "soort achtergrondkaart"@nl
+.
+n2:Achtergrondkaart_GebiedsinformatieLevering a skos:Concept;
+    rdfs:label "achtergrondkaart (GebiedsinformatieLevering)"@nl;
+    skos:definition "Kaart ter oriëntering met behulp van topografie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Achtergrondkaart"^^xsd:string;
+    skos:prefLabel "achtergrondkaart"@nl
+.
+n2:Achtergrondkaart_IMKL a skos:Concept;
+    rdfs:label "achtergrondkaart (IMKL)"@nl;
+    skos:definition "Referentie naar achtergrondkaart met grootschalige topografie (bestaand of gepland) behorend bij het aangevraagde gebied."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Achtergrondkaart"^^xsd:string;
+    skos:prefLabel "achtergrondkaart"@nl
+.
+n2:Address a skos:Concept;
+    rdfs:label "Address"@en;
+    rdfs:label "adres"@nl;
+    skos:definition '''An address provided as free text.
+'''@nl;
+    skos:definition '''An address provided as free text.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Address"^^xsd:string;
+    skos:prefLabel "Address"@en;
+    skos:prefLabel "adres"@nl
+.
+n2:Adres_ExtraDetailinfo a skos:Concept;
+    rdfs:label "adres (ExtraDetailinfo)"@nl;
+    skos:definition "Adresaanduiding conform BAG"@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Adres"^^xsd:string;
+    skos:prefLabel "adres"@nl
+.
+n2:Adres_IMKL a skos:Concept;
+    rdfs:label "adres (IMKL)"@nl;
+    skos:definition "Beschrijving van een locatie van door middel van een adres."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Adres"^^xsd:string;
+    skos:prefLabel "adres"@nl
+.
+n2:Annotatie a skos:Concept;
+    rdfs:label "annotatie"@nl;
+    skos:broader n2:ExtraInformatie;
+    skos:definition "Teksten en symbolen weergegeven in het kaartbeeld."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Annotatie"^^xsd:string;
+    skos:prefLabel "annotatie"@nl
+.
+n2:AnnotatieType a skos:Concept;
+    rdfs:label "type annotatie"@nl;
+    skos:definition "Aard van de opgenomen annotatie"@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "AnnotatieType"^^xsd:string;
+    skos:prefLabel "type annotatie"@nl
+.
+n2:AppurtenanceType a skos:Concept;
+    rdfs:label "type leidingelement"@nl;
+    rdfs:label "AppurtenanceType"@en;
+    skos:definition '''
+Type of appurtenance
+'''@nl;
+    skos:definition '''
+Type of appurtenance
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "AppurtenanceType"^^xsd:string;
+    skos:prefLabel "type leidingelement"@nl;
+    skos:prefLabel "AppurtenanceType"@en
+.
+n2:Appurtenance_CommonUtilityNetworkElements a skos:Concept;
+    rdfs:label "Appurtenance (Common Utility Network Elements)"@nl;
+    rdfs:label "leidingelement (Common Utility Network Elements)"@nl;
+    skos:broader n2:UtilityNode;
+    skos:definition '''An appurtenance is a node object that is described by its type (via the attribute "appurtenanceType").
+'''@nl;
+    skos:definition '''An appurtenance is a node object that is described by its type (via the attribute "appurtenanceType").
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Appurtenance"^^xsd:string;
+    skos:prefLabel "leidingelement"@nl;
+    skos:prefLabel "Appurtenance"@en
+.
+n2:Appurtenance_IMKL a skos:Concept;
+    rdfs:label "leidingelement (IMKL)"@nl;
+    skos:broader n2:Appurtenance_CommonUtilityNetworkElements;
+    skos:broader n2:Leidingelement;
+    skos:definition "Een leidingelement dat door zijn type wordt beschreven (via het attribuut appurtenanceType)."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Appurtenance"^^xsd:string;
+    skos:prefLabel "leidingelement"@nl
+.
+n2:AuthorityRole a skos:Concept;
+    rdfs:label "belanghebbende"@nl;
+    rdfs:label "AuthorityRole"@en;
+    skos:definition '''Parties authorized to manage a utility network, such as maintainers, operators or owners.
+'''@nl;
+    skos:definition '''Parties authorized to manage a utility network, such as maintainers, operators or owners.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "AuthorityRole"^^xsd:string;
+    skos:prefLabel "AuthorityRole"@en;
+    skos:prefLabel "belanghebbende"@nl
+.
+n2:BAGid a skos:Concept;
+    rdfs:label "BAG-identificatie"@nl;
+    skos:definition "BAG identifier van een AdreseerbaarObject of een Nummeraanduiding zoals geregistreerd bij de BAG."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BAGid"^^xsd:string;
+    skos:prefLabel "BAG-identificatie"@nl
+.
+n2:BGT_ID a skos:Concept;
+    rdfs:label "BGT-identificatie"@nl;
+    skos:definition "Verwijzing naar het ID van het overeenkomstige object uit de Basisregistratie Grootschalige Topografie of pluslaag."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BGT_ID"^^xsd:string;
+    skos:prefLabel "BGT-identificatie"@nl
+.
+n2:BeginLifespanVersion_IMKLBasis a skos:Concept;
+    rdfs:label "begin levensduur versie (IMKLBasis)"@nl;
+    skos:definition "De begindatum waarop een data object in de registratie werd aangemaakt, het begin van de levenscyclus van een data object."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BeginLifespanVersion"^^xsd:string;
+    skos:prefLabel "begin levensduur versie"@nl
+.
+n2:BeginLifespanVersion_NetworkElement a skos:Concept;
+    rdfs:label "BeginLifespanVersion (NetworkElement)"@nl;
+    rdfs:label "begin levensduur versie (NetworkElement)"@nl;
+    skos:definition '''Date and time at which this version of the spatial object was inserted or changed in the spatial data set.
+'''@en;
+    skos:definition '''Date and time at which this version of the spatial object was inserted or changed in the spatial data set.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BeginLifespanVersion"^^xsd:string;
+    skos:prefLabel "BeginLifespanVersion"@en;
+    skos:prefLabel "begin levensduur versie"@nl
+.
+n2:Beheerder a skos:Concept;
+    rdfs:label "beheerder"@nl;
+    skos:broader n2:IMKLBasis;
+    skos:definition "Een persoon of een organisatie die een net of een veiligheidsgebied beheert."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Beheerder"^^xsd:string;
+    skos:prefLabel "beheerder"@nl
+.
+n2:BeheerderVeiligheidsgebied a skos:Concept;
+    rdfs:label "beheerder veiligheidsgebied"@nl;
+    skos:definition "Gegevens van de  beheerder van het veiligheidsgebied."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BeheerderVeiligheidsgebied"^^xsd:string;
+    skos:prefLabel "beheerder veiligheidsgebied"@nl
+.
+n2:BeheerdersinformatieGeleverd a skos:Concept;
+    rdfs:label "beheerdersinformatie geleverd"@nl;
+    skos:definition "Indicator die aangeeft of de belanghebbende al (correcte) beheerdersinformatie heeft aangeleverd voor de betreffende aanvraag."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BeheerdersinformatieGeleverd"^^xsd:string;
+    skos:prefLabel "beheerdersinformatie geleverd"@nl
+.
+n2:Beheerpolygoon a skos:Concept;
+    rdfs:label "beheerpolygoon"@nl;
+    skos:definition "Locatie waar een netbeheerder een belang heeft gerelateerd aan de uitvoering van de wet WION."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Beheerpolygoon"^^xsd:string;
+    skos:prefLabel "beheerpolygoon"@nl
+.
+n2:Belang a skos:Concept;
+    rdfs:label "belang"@nl;
+    skos:broader n2:BelangGeneriek;
+    skos:definition "Een gebied waarin een netbeheerder een of meerdere netten heeft."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Belang"^^xsd:string;
+    skos:prefLabel "belang"@nl
+.
+n2:BelangGeneriek a skos:Concept;
+    rdfs:label "belang generiek"@nl;
+    skos:broader n2:IMKLBasis;
+    skos:definition "Een gebied waarin een netbeheerder een of meerdere netten heeft. Of het is een veiligheidsgebied."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BelangGeneriek"^^xsd:string;
+    skos:prefLabel "belang generiek"@nl
+.
+n2:Belanghebbende_GebiedsinformatieLevering a skos:Concept;
+    rdfs:label "belanghebbende (GebiedsinformatieLevering)"@nl;
+    skos:definition "Verwijzing naar belanghebbende beheerder(s)."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Belanghebbende"^^xsd:string;
+    skos:prefLabel "belanghebbende"@nl
+.
+n2:Belanghebbende_IMKL a skos:Concept;
+    rdfs:label "belanghebbende (IMKL)"@nl;
+    skos:broader n2:IMKLBasis;
+    skos:definition "Een belanghebbende beheerder is een beheerder met een beheerpolygoon dat geheel of gedeeltelijk ligt in de aangevraagde polygoon."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Belanghebbende"^^xsd:string;
+    skos:prefLabel "belanghebbende"@nl
+.
+n2:BestandIdentificator a skos:Concept;
+    rdfs:label "bestandidentificatie"@nl;
+    skos:definition "Unieke identificator van een bestand."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BestandIdentificator"^^xsd:string;
+    skos:prefLabel "bestandidentificatie"@nl
+.
+n2:BestandLocatie a skos:Concept;
+    rdfs:label "bestandlocatie"@nl;
+    skos:definition "Bestandsnaam van het bestand dat meegegeven wordt."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BestandLocatie"^^xsd:string;
+    skos:prefLabel "bestandlocatie"@nl
+.
+n2:BestandMediaType a skos:Concept;
+    rdfs:label "type bestandmedia"@nl;
+    skos:definition "Media type van een bestand."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BestandMediaType"^^xsd:string;
+    skos:prefLabel "type bestandmedia"@nl
+.
+n2:BetrokkenBijAanvraag a skos:Concept;
+    rdfs:label "betrokken bij aanvraag"@nl;
+    skos:definition "Indien binnen de gevraagde polygoon géén kabels/leidingen liggen, en er daarom geen netinformatie geleverd kan worden, wordt deze indicator op “Nee” gezet, in alle andere gevallen is deze “Ja”."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BetrokkenBijAanvraag"^^xsd:string;
+    skos:prefLabel "betrokken bij aanvraag"@nl
+.
+n2:BezoekAdres a skos:Concept;
+    rdfs:label "bezoekadres"@nl;
+    skos:definition "Het bezoekadres van de organisatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BezoekAdres"^^xsd:string;
+    skos:prefLabel "bezoekadres"@nl
+.
+n2:BijlageType a skos:Concept;
+    rdfs:label "type bijlage"@nl;
+    skos:definition "Beschrijft het type bijlage."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BijlageType"^^xsd:string;
+    skos:prefLabel "type bijlage"@nl
+.
+n2:Bijlage_Belanghebbende a skos:Concept;
+    rdfs:label "bijlage (Belanghebbende)"@nl;
+    skos:definition "Documentbijlage bij gebiedsinformatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Bijlage"^^xsd:string;
+    skos:prefLabel "bijlage"@nl
+.
+n2:Bijlage_IMKL a skos:Concept;
+    rdfs:label "bijlage (IMKL)"@nl;
+    skos:broader n2:IMKLBasis;
+    skos:definition "Documentbijlage."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Bijlage"^^xsd:string;
+    skos:prefLabel "bijlage"@nl
+.
+n2:BovengrondsZichtbaar_ContainerLeidingelement a skos:Concept;
+    rdfs:label "bovengronds zichtbaar (ContainerLeidingelement)"@nl;
+    skos:definition "Aangegeven wordt of het containerleidingelement bovengronds vanaf het maaiveld zichtbaar is."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BovengrondsZichtbaar"^^xsd:string;
+    skos:prefLabel "bovengronds zichtbaar"@nl
+.
+n2:BovengrondsZichtbaar_KabelEnLeidingContainer a skos:Concept;
+    rdfs:label "bovengronds zichtbaar (KabelEnLeidingContainer)"@nl;
+    skos:definition "Aangegeven wordt of het leidingelement bovengronds vanaf het maaiveld zichtbaar is."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BovengrondsZichtbaar"^^xsd:string;
+    skos:prefLabel "bovengronds zichtbaar"@nl
+.
+n2:BovengrondsZichtbaar_Leidingelement a skos:Concept;
+    rdfs:label "bovengronds zichtbaar (Leidingelement)"@nl;
+    skos:definition "Aangegeven wordt of het leidingelement bovengronds vanaf het maaiveld zichtbaar is."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BovengrondsZichtbaar"^^xsd:string;
+    skos:prefLabel "bovengronds zichtbaar"@nl
+.
+n2:Bronhoudercode a skos:Concept;
+    rdfs:label "bronhoudercode"@nl;
+    skos:definition "Code van de beheerder."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Bronhoudercode"^^xsd:string;
+    skos:prefLabel "bronhoudercode"@nl
+.
+n2:BuisSpecifiek a skos:Concept;
+    rdfs:label "buis specifiek"@nl;
+    skos:definition "Abstract data object dat de buis-specifieke attributen bevat van de IMKL extensie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BuisSpecifiek"^^xsd:string;
+    skos:prefLabel "buis specifiek"@nl
+.
+n2:BuismateriaalType a skos:Concept;
+    rdfs:label "type buismateriaal"@nl;
+    skos:definition "Materiaal waaruit de buis bestaat."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "BuismateriaalType"^^xsd:string;
+    skos:prefLabel "type buismateriaal"@nl
+.
+n2:Cabinet a skos:Concept;
+    rdfs:label "kast"@nl;
+    rdfs:label "Cabinet"@en;
+    skos:broader n2:UtilityNodeContainer;
+    skos:definition '''Simple cabinet object which may carry utility objects belonging to either single or multiple utility networks.
+'''@en;
+    skos:definition '''Simple cabinet object which may carry utility objects belonging to either single or multiple utility networks.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Cabinet"^^xsd:string;
+    skos:prefLabel "Cabinet"@en;
+    skos:prefLabel "kast"@nl
+.
+n2:Cables_Duct a skos:Concept;
+    rdfs:label "Cables (Duct)"@nl;
+    rdfs:label "bevat kabels (Duct)"@nl;
+    skos:definition "A duct may contain one or more cables."@nl;
+    skos:definition "A duct may contain one or more cables."@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Cables"^^xsd:string;
+    skos:prefLabel "Cables"@en;
+    skos:prefLabel "bevat kabels"@nl
+.
+n2:Cables_Pipe a skos:Concept;
+    rdfs:label "bevat kabels (Pipe)"@nl;
+    rdfs:label "Cables (Pipe)"@nl;
+    skos:definition "A pipe may contain one or more cables."@nl;
+    skos:definition "A pipe may contain one or more cables."@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Cables"^^xsd:string;
+    skos:prefLabel "Cables"@en;
+    skos:prefLabel "bevat kabels"@nl
+.
+n2:CentrelineGeometry a skos:Concept;
+    rdfs:label "geometrie hartlijn"@nl;
+    rdfs:label "CentrelineGeometry"@en;
+    skos:definition '''The geometry that represents the centreline of the link.
+'''@en;
+    skos:definition '''The geometry that represents the centreline of the link.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "CentrelineGeometry"^^xsd:string;
+    skos:prefLabel "CentrelineGeometry"@en;
+    skos:prefLabel "geometrie hartlijn"@nl
+.
+n2:ContactAanvraag a skos:Concept;
+    rdfs:label "contact aanvraag"@nl;
+    skos:definition "Het contactadres bij de netbeheerder waar de grondroerder contact mee kan opnemen voor informatie over (het) geraakte belang(en) bij een aangegeven aanvraagsoort."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ContactAanvraag"^^xsd:string;
+    skos:prefLabel "contact aanvraag"@nl
+.
+n2:ContactBeschadiging a skos:Concept;
+    rdfs:label "contact beschadiging"@nl;
+    skos:definition "Contactinformatie bij opgetreden beschadiging."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ContactBeschadiging"^^xsd:string;
+    skos:prefLabel "contact beschadiging"@nl
+.
+n2:ContactInstructions a skos:Concept;
+    rdfs:label "contactinstructies"@nl;
+    rdfs:label "ContactInstructions"@en;
+    skos:definition '''Supplementary instructions on how or when to contact an individual or organisation.
+
+'''@en;
+    skos:definition '''Supplementary instructions on how or when to contact an individual or organisation.
+
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ContactInstructions"^^xsd:string;
+    skos:prefLabel "contactinstructies"@nl;
+    skos:prefLabel "ContactInstructions"@en
+.
+n2:ContactNetinformatie a skos:Concept;
+    rdfs:label "contact netinformatie"@nl;
+    skos:definition "Contactgegevens voor netinformatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ContactNetinformatie"^^xsd:string;
+    skos:prefLabel "contact netinformatie"@nl
+.
+n2:ContactVoorzorgsmaatregel a skos:Concept;
+    rdfs:label "contact"@nl;
+    skos:definition "Contactgegevens behorende bij EV."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ContactVoorzorgsmaatregel"^^xsd:string;
+    skos:prefLabel "contact"@nl
+.
+n2:Contact_BaseTypes2 a skos:Concept;
+    rdfs:label "contact (Base Types 2)"@nl;
+    rdfs:label "Contact (Base Types 2)"@nl;
+    skos:definition '''Communication channels by which it is possible to gain access to someone or something.
+'''@en;
+    skos:definition '''Communication channels by which it is possible to gain access to someone or something.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Contact"^^xsd:string;
+    skos:prefLabel "contact"@nl;
+    skos:prefLabel "Contact"@en
+.
+n2:Contact_IMKL a skos:Concept;
+    rdfs:label "contact (IMKL)"@nl;
+    skos:definition "Contactgegevens."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Contact"^^xsd:string;
+    skos:prefLabel "contact"@nl
+.
+n2:Contactpersoon_Aanvrager a skos:Concept;
+    rdfs:label "contactpersoon (Aanvrager)"@nl;
+    skos:definition "Persoon als aanspreekpunt namens aanvrager."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Contactpersoon"^^xsd:string;
+    skos:prefLabel "contactpersoon"@nl
+.
+n2:Contactpersoon_Opdrachtgever a skos:Concept;
+    rdfs:label "contactpersoon (Opdrachtgever)"@nl;
+    skos:definition "Persoon als aanspreekpunt namens opdrachtgever."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Contactpersoon"^^xsd:string;
+    skos:prefLabel "contactpersoon"@nl
+.
+n2:ContainerLeidingelement a skos:Concept;
+    rdfs:label "container van leidingelementen"@nl;
+    skos:broader n2:Label;
+    skos:definition "Abstract data object dat de gemeenschappelijke attributen en associaties bevat voor alle containerleidingelement objecten."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ContainerLeidingelement"^^xsd:string;
+    skos:prefLabel "container van leidingelementen"@nl
+.
+n2:CurrentStatus a skos:Concept;
+    rdfs:label "CurrentStatus"@en;
+    rdfs:label "huidige status"@nl;
+    skos:definition '''The status of an utility object with regards to its completion and use.
+
+'''@en;
+    skos:definition '''The status of an utility object with regards to its completion and use.
+
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "CurrentStatus"^^xsd:string;
+    skos:prefLabel "huidige status"@nl;
+    skos:prefLabel "CurrentStatus"@en
+.
+n2:DatumLeveringSamengesteld a skos:Concept;
+    rdfs:label "datum levering samengesteld"@nl;
+    skos:definition "Het moment waarop de betreffende levering met gebiedsinformatie is samengesteld."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "DatumLeveringSamengesteld"^^xsd:string;
+    skos:prefLabel "datum levering samengesteld"@nl
+.
+n2:DatumOpmetingDieptePeil a skos:Concept;
+    rdfs:label "datum opmeting dieptepeil"@nl;
+    skos:definition "De datum waarop het dieptepeil werd opgemeten."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "DatumOpmetingDieptePeil"^^xsd:string;
+    skos:prefLabel "datum opmeting dieptepeil"@nl
+.
+n2:DatumOpmetingMaaiveldPeil a skos:Concept;
+    rdfs:label "datum opmeting maaiveldpeil"@nl;
+    skos:definition "De datum waarop het maaiveldpeil werd opgemeten."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "DatumOpmetingMaaiveldPeil"^^xsd:string;
+    skos:prefLabel "datum opmeting maaiveldpeil"@nl
+.
+n2:Diepte a skos:Concept;
+    rdfs:label "diepte"@nl;
+    skos:broader n2:IMKLBasis;
+    skos:broader n2:Label;
+    skos:definition "Abstract data object dat de gemeenschappelijke attributen en associaties bevat voor de diepte objecten."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Diepte"^^xsd:string;
+    skos:prefLabel "diepte"@nl
+.
+n2:DiepteAangrijpingspunt a skos:Concept;
+    rdfs:label "diepte aangrijpingspunt"@nl;
+    skos:definition "Benoeming van welk aangrijpingspunt van het object de diepte is bepaald."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "DiepteAangrijpingspunt"^^xsd:string;
+    skos:prefLabel "diepte aangrijpingspunt"@nl
+.
+n2:DiepteNAP a skos:Concept;
+    rdfs:label "diepte NAP"@nl;
+    skos:broader n2:Diepte;
+    skos:definition "Object dat dient om de afstand weer te geven van het NAP-nulpunt tot de bovenkant van kabel of leiding, leidingcontainer, leidingelement of containerleidingelement."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "DiepteNAP"^^xsd:string;
+    skos:prefLabel "diepte NAP"@nl
+.
+n2:DiepteNauwkeurigheid a skos:Concept;
+    rdfs:label "dieptenauwkeurigheid"@nl;
+    skos:definition "De nauwkeurigheid van de dekking van een KabelOfLeiding of KabelEnLeidingContainer object of diepte van een Leidingelement of ContainerLeidingelement object."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "DiepteNauwkeurigheid"^^xsd:string;
+    skos:prefLabel "dieptenauwkeurigheid"@nl
+.
+n2:DieptePeil a skos:Concept;
+    rdfs:label "dieptepeil"@nl;
+    skos:definition '''Geeft de afstand weer vanaf de referentie – NAP of maaiveld – tot bovenkant van een KabelOfLeiding, KabelEnLeidingcontainer, Leidingelement of ContainerLeidingelement. Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via 1 van de volgende OGC URN codes: • urn:ogc:def:uom:OGC::m • urn:ogc:def:uom:OGC::cm • urn:ogc:def:uom:OGC::mm.
+Voor WIBON is de eenheid altijd meter en een getal met ten hoogste 2 decimalen.'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "DieptePeil"^^xsd:string;
+    skos:prefLabel "dieptepeil"@nl
+.
+n2:DiepteTovMaaiveld a skos:Concept;
+    rdfs:label "diepte tov maaiveld"@nl;
+    skos:broader n2:Diepte;
+    skos:definition "Object dat dient om de afstand weer te geven vanaf het maaiveld tot de bovenkant van kabel of leiding, leidingcontainer, leidingelement of containerleidingelement."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "DiepteTovMaaiveld"^^xsd:string;
+    skos:prefLabel "diepte tov maaiveld"@nl
+.
+n2:Dieptelegging a skos:Concept;
+    rdfs:label "dieptelegging"@nl;
+    skos:definition "Diepte waarop het object is gelegd."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Dieptelegging"^^xsd:string;
+    skos:prefLabel "dieptelegging"@nl
+.
+n2:DirectedLink a skos:Concept;
+    rdfs:label "DirectedLink"@en;
+    rdfs:label "gerichte link"@nl;
+    skos:definition '''A link either in its positive or negative direction.
+'''@nl;
+    skos:definition '''A link either in its positive or negative direction.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "DirectedLink"^^xsd:string;
+    skos:prefLabel "DirectedLink"@en;
+    skos:prefLabel "gerichte link"@nl
+.
+n2:Disclaimer a skos:Concept;
+    rdfs:label "disclaimer"@nl;
+    rdfs:label "Disclaimer"@en;
+    skos:definition '''Legal text describing confidentiality clauses applying to the utility network information.
+'''@en;
+    skos:definition '''Legal text describing confidentiality clauses applying to the utility network information.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Disclaimer"^^xsd:string;
+    skos:prefLabel "Disclaimer"@en;
+    skos:prefLabel "disclaimer"@nl
+.
+n2:DuctWidth a skos:Concept;
+    rdfs:label "DuctWidth"@en;
+    rdfs:label "lengte"@nl;
+    skos:definition '''The width of the duct.
+'''@en;
+    skos:definition '''The width of the duct.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "DuctWidth"^^xsd:string;
+    skos:prefLabel "lengte"@nl;
+    skos:prefLabel "DuctWidth"@en
+.
+n2:Duct_CommonUtilityNetworkElements a skos:Concept;
+    rdfs:label "Duct (Common Utility Network Elements)"@nl;
+    rdfs:label "behuizing (Common Utility Network Elements)"@nl;
+    skos:broader n2:UtilityLinkSet;
+    skos:definition '''A utility link or link sequence used to protect and guide cable and pipes via an encasing construction.
+'''@nl;
+    skos:definition '''A utility link or link sequence used to protect and guide cable and pipes via an encasing construction.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Duct"^^xsd:string;
+    skos:prefLabel "Duct"@en;
+    skos:prefLabel "behuizing"@nl
+.
+n2:Duct_IMKL a skos:Concept;
+    rdfs:label "behuizing (IMKL)"@nl;
+    skos:broader n2:Duct_CommonUtilityNetworkElements;
+    skos:broader n2:KabelEnLeidingContainer;
+    skos:definition "Een behuizing die ertoe dient om door middel van een omhullende constructie kabels en leidingen te beschermen en geleiden. "@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Duct"^^xsd:string;
+    skos:prefLabel "behuizing"@nl
+.
+n2:Ducts a skos:Concept;
+    rdfs:label "Ducts"@en;
+    rdfs:label "bevat behuizingen"@nl;
+    skos:definition "A single duct or set of ducts that constitute the inner-duct."@en;
+    skos:definition "A single duct or set of ducts that constitute the inner-duct."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Ducts"^^xsd:string;
+    skos:prefLabel "bevat behuizingen"@nl;
+    skos:prefLabel "Ducts"@en
+.
+n2:EanCode a skos:Concept;
+    rdfs:label "EAN-code"@nl;
+    skos:definition "Aansluiting identificatie code voor aansluiting op het elektriciteitsnet en gasnet van Nederland."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "EanCode"^^xsd:string;
+    skos:prefLabel "EAN-code"@nl
+.
+n2:EigenTopografie_Belanghebbende a skos:Concept;
+    rdfs:label "eigen topografie (Belanghebbende)"@nl;
+    skos:definition "Topografie die door netbeheerder wordt toegevoegd voor relatieve plaatsbepaling van objecten."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "EigenTopografie"^^xsd:string;
+    skos:prefLabel "eigen topografie"@nl
+.
+n2:EigenTopografie_IMKL a skos:Concept;
+    rdfs:label "eigen topografie (IMKL)"@nl;
+    skos:broader n2:IMKLBasis;
+    skos:broader n2:Label;
+    skos:definition "Topografie die extra wordt toegevoegd voor relatieve plaatsbepaling van objecten."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "EigenTopografie"^^xsd:string;
+    skos:prefLabel "eigen topografie"@nl
+.
+n2:EindDatum a skos:Concept;
+    rdfs:label "einddatum"@nl;
+    skos:definition "De geplande einddatum van de werkzaamheden waarvoor de gebiedsinformatie-aanvraag is ingediend."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "EindDatum"^^xsd:string;
+    skos:prefLabel "einddatum"@nl
+.
+n2:Einddatum a skos:Concept;
+    rdfs:label "einddatum"@nl;
+    skos:definition "Datum tot wanneer het belang van toepassing is."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Einddatum"^^xsd:string;
+    skos:prefLabel "einddatum"@nl
+.
+n2:EisVoorzorgsmaatregel a skos:Concept;
+    rdfs:label "eis voorzorgsmaatregel"@nl;
+    skos:definition "Vermelding of er voorzorgsmaatregelen getroffen dienen te worden. Aangegeven wordt wat de voorzorgsmaatregel is. "@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "EisVoorzorgsmaatregel"^^xsd:string;
+    skos:prefLabel "eis voorzorgsmaatregel"@nl
+.
+n2:EisVoorzorgsmaatregelBijlage a skos:Concept;
+    rdfs:label "eis voorzorgsmaatregel bijlage"@nl;
+    skos:broader n2:Bijlage_IMKL;
+    skos:definition "Bijlage met de vermelding welke voorzorgsmaatregelen getroffen dienen te worden. Aangegeven wordt wat de voorzorgsmaatregel is met de hoogste prioriteit."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "EisVoorzorgsmaatregelBijlage"^^xsd:string;
+    skos:prefLabel "eis voorzorgsmaatregel bijlage"@nl
+.
+n2:ElectricityCable a skos:Concept;
+    rdfs:label "elektriciteitskabel"@nl;
+    rdfs:label "ElectricityCable"@en;
+    skos:definition '''A utility link or link sequence used to convey electricity from one location to another.
+'''@nl;
+    skos:definition '''A utility link or link sequence used to convey electricity from one location to another.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "ElectricityCable"^^xsd:string;
+    skos:prefLabel "elektriciteitskabel"@nl;
+    skos:prefLabel "ElectricityCable"@en
+.
+n2:ElectronicMailAddress a skos:Concept;
+    rdfs:label "mailadres"@nl;
+    rdfs:label "ElectronicMailAddress"@en;
+    skos:definition '''An address of the organisation's or individual's electronic mailbox.
+'''@nl;
+    skos:definition '''An address of the organisation's or individual's electronic mailbox.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "ElectronicMailAddress"^^xsd:string;
+    skos:prefLabel "mailadres"@nl;
+    skos:prefLabel "ElectronicMailAddress"@en
+.
+n2:Elektriciteitskabel a skos:Concept;
+    rdfs:label "elektriciteitskabel"@nl;
+    skos:broader n2:ElectricityCable;
+    skos:broader n2:KabelOfLeiding;
+    skos:broader n2:KabelSpecifiek;
+    skos:definition "Een aansluiting of reeks aansluitingen van een nutsvoorzieningennet voor het overbrengen van elektriciteit van de ene locatie naar een andere."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Elektriciteitskabel"^^xsd:string;
+    skos:prefLabel "elektriciteitskabel"@nl
+.
+n2:Elements a skos:Concept;
+    rdfs:label "Elements"@en;
+    rdfs:label "elementen"@nl;
+    skos:definition '''The collection of elements that constitutes the network.
+'''@nl;
+    skos:definition '''The collection of elements that constitutes the network.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Elements"^^xsd:string;
+    skos:prefLabel "elementen"@nl;
+    skos:prefLabel "Elements"@en
+.
+n2:Email_AanvraagSoortContact a skos:Concept;
+    rdfs:label "email (AanvraagSoortContact)"@nl;
+    skos:definition "E-mail adres van het contact."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Email"^^xsd:string;
+    skos:prefLabel "email"@nl
+.
+n2:Email_Contact a skos:Concept;
+    rdfs:label "email (Contact)"@nl;
+    skos:definition "E-mail adres van het contact."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Email"^^xsd:string;
+    skos:prefLabel "email"@nl
+.
+n2:Email_Organisatie a skos:Concept;
+    rdfs:label "email (Organisatie)"@nl;
+    skos:definition "Het e-mail adres van de organisatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Email"^^xsd:string;
+    skos:prefLabel "email"@nl
+.
+n2:EndLifespanVersion_IMKLBasis a skos:Concept;
+    rdfs:label "einde levensduur versie (IMKLBasis)"@nl;
+    skos:definition "De datum die het einde van een levenscyclus van een data object aangeeft. "@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "EndLifespanVersion"^^xsd:string;
+    skos:prefLabel "einde levensduur versie"@nl
+.
+n2:EndLifespanVersion_NetworkElement a skos:Concept;
+    rdfs:label "einde levensduur versie (NetworkElement)"@nl;
+    rdfs:label "EndLifespanVersion (NetworkElement)"@nl;
+    skos:definition '''Date and time at which this version of the spatial object was superseded or retired in the spatial data set.
+'''@en;
+    skos:definition '''Date and time at which this version of the spatial object was superseded or retired in the spatial data set.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "EndLifespanVersion"^^xsd:string;
+    skos:prefLabel "EndLifespanVersion"@en;
+    skos:prefLabel "einde levensduur versie"@nl
+.
+n2:EndNode a skos:Concept;
+    rdfs:label "eindnode"@nl;
+    rdfs:label "EndNode"@en;
+    skos:definition "The optional end node for this link. The end node may be the same instance as the start node. "@en;
+    skos:definition "The optional end node for this link. The end node may be the same instance as the start node. "@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "EndNode"^^xsd:string;
+    skos:prefLabel "EndNode"@en;
+    skos:prefLabel "eindnode"@nl
+.
+n2:ExtraContact a skos:Concept;
+    rdfs:label "extra contact"@nl;
+    skos:definition "Extra contact naast dat van de contactpersoon."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ExtraContact"^^xsd:string;
+    skos:prefLabel "extra contact"@nl
+.
+n2:ExtraDetailinfo a skos:Concept;
+    rdfs:label "extra detailinformatie"@nl;
+    skos:broader n2:ExtraInformatie;
+    skos:definition "Object dat extra informatie over één of meerdere utility network elementen weergeeft via bijkomende bestanden."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ExtraDetailinfo"^^xsd:string;
+    skos:prefLabel "extra detailinformatie"@nl
+.
+n2:ExtraGeometrie_ContainerLeidingelement a skos:Concept;
+    rdfs:label "extra geometrie (ContainerLeidingelement)"@nl;
+    skos:definition "Extra geometrie naast de verplichte arc/node."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ExtraGeometrie"^^xsd:string;
+    skos:prefLabel "extra geometrie"@nl
+.
+n2:ExtraGeometrie_IMKL a skos:Concept;
+    rdfs:label "extra geometrie (IMKL)"@nl;
+    skos:broader n2:IMKLBasis;
+    skos:definition "Verzamelobject voor extra geometrie van netwerkelementen. "@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ExtraGeometrie"^^xsd:string;
+    skos:prefLabel "extra geometrie"@nl
+.
+n2:ExtraGeometrie_KabelEnLeidingContainer a skos:Concept;
+    rdfs:label "extra geometrie (KabelEnLeidingContainer)"@nl;
+    skos:definition "Extra geometrie naast de verplichte arc/node."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ExtraGeometrie"^^xsd:string;
+    skos:prefLabel "extra geometrie"@nl
+.
+n2:ExtraGeometrie_KabelOfLeiding a skos:Concept;
+    rdfs:label "extra geometrie (KabelOfLeiding)"@nl;
+    skos:definition "Extra geometrie naast de verplichte arc/node."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ExtraGeometrie"^^xsd:string;
+    skos:prefLabel "extra geometrie"@nl
+.
+n2:ExtraGeometrie_Leidingelement a skos:Concept;
+    rdfs:label "extra geometrie (Leidingelement)"@nl;
+    skos:definition "Extra geometrie naast de verplichte arc/node."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ExtraGeometrie"^^xsd:string;
+    skos:prefLabel "extra geometrie"@nl
+.
+n2:ExtraInfoType a skos:Concept;
+    rdfs:label "type extra informatie"@nl;
+    skos:definition "Beschrijft het type detailinformatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ExtraInfoType"^^xsd:string;
+    skos:prefLabel "type extra informatie"@nl
+.
+n2:ExtraInformatie a skos:Concept;
+    rdfs:label "extra informatie"@nl;
+    skos:broader n2:IMKLBasis;
+    skos:broader n2:Label;
+    skos:definition "Informatie toegevoegd aan objecten."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ExtraInformatie"^^xsd:string;
+    skos:prefLabel "extra informatie"@nl
+.
+n2:Fax a skos:Concept;
+    rdfs:label "fax"@nl;
+    skos:definition "Het faxnummer van de organisatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Fax"^^xsd:string;
+    skos:prefLabel "fax"@nl
+.
+n2:Fictitious a skos:Concept;
+    rdfs:label "Fictitious"@en;
+    rdfs:label "schematisch"@nl;
+    skos:definition '''Indicator that the centreline geometry of the link is a straight line with no intermediate control points &ndash; unless the straight line represents the geography in the resolution of the data set appropriately.
+'''@nl;
+    skos:definition '''Indicator that the centreline geometry of the link is a straight line with no intermediate control points &ndash; unless the straight line represents the geography in the resolution of the data set appropriately.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Fictitious"^^xsd:string;
+    skos:prefLabel "Fictitious"@en;
+    skos:prefLabel "schematisch"@nl
+.
+n2:GebiedsinformatieAanvraag a skos:Concept;
+    rdfs:label "gebiedsinformatie-aanvraag"@nl;
+    skos:broader n2:IMKLBasis;
+    skos:definition "Aanvraag van gebiedsinformatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "GebiedsinformatieAanvraag"^^xsd:string;
+    skos:prefLabel "gebiedsinformatie-aanvraag"@nl
+.
+n2:GebiedsinformatieLevering a skos:Concept;
+    rdfs:label "gebiedsinformatielevering"@nl;
+    skos:broader n2:IMKLBasis;
+    skos:definition "Gebiedsinformatie is het geheel van informatie dat door beheerders, via de Dienst wordt verstrekt over de betrokken orientatiepolygoon dan wel graafpolygoon."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "GebiedsinformatieLevering"^^xsd:string;
+    skos:prefLabel "gebiedsinformatielevering"@nl
+.
+n2:GeneralisedLink a skos:Concept;
+    rdfs:label "link algemeen"@nl;
+    rdfs:label "GeneralisedLink"@en;
+    skos:broader n2:NetworkElement;
+    skos:definition '''Abstract base type representing a linear network element that may be used as a target in linear referencing.
+'''@nl;
+    skos:definition '''Abstract base type representing a linear network element that may be used as a target in linear referencing.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "GeneralisedLink"^^xsd:string;
+    skos:prefLabel "link algemeen"@nl;
+    skos:prefLabel "GeneralisedLink"@en
+.
+n2:GeoNauwkeurigheidXY a skos:Concept;
+    rdfs:label "geometrische nauwkeurigheid van XY"@nl;
+    skos:definition "Indicatie van de nauwkeurigheid in horizontaal vlak (x,y) waarmee de geometrie van de ligging van de leiding is aangegeven."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "GeoNauwkeurigheidXY"^^xsd:string;
+    skos:prefLabel "geometrische nauwkeurigheid van XY"@nl
+.
+n2:GeographicalName a skos:Concept;
+    rdfs:label "geografische naam"@nl;
+    rdfs:label "GeographicalName"@en;
+    skos:definition '''Geographical name for this network.
+'''@nl;
+    skos:definition '''Geographical name for this network.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "GeographicalName"^^xsd:string;
+    skos:prefLabel "geografische naam"@nl;
+    skos:prefLabel "GeographicalName"@en
+.
+n2:Geometrie3D a skos:Concept;
+    rdfs:label "geometrie (3D)"@nl;
+    skos:definition "Representatie van het netwerkelement als 3D volume."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Geometrie3D"^^xsd:string;
+    skos:prefLabel "geometrie (3D)"@nl
+.
+n2:GeometrieVoorVisualisatie a skos:Concept;
+    rdfs:label "geometrie voor visualisatie"@nl;
+    skos:definition "Geometrie die specifiek is gecreëerd voor de visualisatie van het gebied tussen de graafpolygoon en de buitenring van de informatiepolygoon."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "GeometrieVoorVisualisatie"^^xsd:string;
+    skos:prefLabel "geometrie voor visualisatie"@nl
+.
+n2:Geometrie_AanduidingEisVoorzorgsmaatregel a skos:Concept;
+    rdfs:label "geometrie (AanduidingEisVoorzorgsmaatregel)"@nl;
+    skos:definition "Geometrie die aangeeft op welk element een eis voorzorgsmaatregel van toepassing is."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Geometrie"^^xsd:string;
+    skos:prefLabel "geometrie"@nl
+.
+n2:Geometrie_Graafpolygoon a skos:Concept;
+    rdfs:label "geometrie (Graafpolygoon)"@nl;
+    skos:definition "De geometrie van het gebied (een polygoon) waarbinnen gegraven gaat worden."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Geometrie"^^xsd:string;
+    skos:prefLabel "geometrie"@nl
+.
+n2:Geometrie_Informatiepolygoon a skos:Concept;
+    rdfs:label "geometrie (Informatiepolygoon)"@nl;
+    skos:definition '''De geometrie van het gebied (een polygoon) waarover informatie gevraagd wordt, niet zijnde het graafgebied.
+Een eventueel opgegeven informatiegebied moet een graafgebied volledig omvatten.'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Geometrie"^^xsd:string;
+    skos:prefLabel "geometrie"@nl
+.
+n2:Geometrie_Orientatiepolygoon a skos:Concept;
+    rdfs:label "geometrie (Orientatiepolygoon)"@nl;
+    skos:definition "De geometrie van het gebied (een polygoon) dat een persoon of organisatie tekent om daar informatie over kabels en leidingen van te ontvangen."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Geometrie"^^xsd:string;
+    skos:prefLabel "geometrie"@nl
+.
+n2:Geometry_Node a skos:Concept;
+    rdfs:label "Geometry (Node)"@nl;
+    rdfs:label "geometrie (Node)"@nl;
+    skos:definition '''The location of the node.
+'''@en;
+    skos:definition '''The location of the node.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Geometry"^^xsd:string;
+    skos:prefLabel "geometrie"@nl;
+    skos:prefLabel "Geometry"@en
+.
+n2:Geometry_UtilityNodeContainer a skos:Concept;
+    rdfs:label "geometrie (UtilityNodeContainer)"@nl;
+    rdfs:label "Geometry (UtilityNodeContainer)"@nl;
+    skos:definition '''Location of the utility node container.
+'''@en;
+    skos:definition '''Location of the utility node container.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Geometry"^^xsd:string;
+    skos:prefLabel "geometrie"@nl;
+    skos:prefLabel "Geometry"@en
+.
+n2:GeraaktBelangBijGraafpolygoon a skos:Concept;
+    rdfs:label "geraakt belang bij graafpolygoon"@nl;
+    skos:definition "Verwijzing naar gebied waar een belang is geraak door een graafpolygoon."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "GeraaktBelangBijGraafpolygoon"^^xsd:string;
+    skos:prefLabel "geraakt belang bij graafpolygoon"@nl
+.
+n2:GeraaktBelangBijInformatiepolygoon a skos:Concept;
+    rdfs:label "geraakt belang bij informatiepolygoon"@nl;
+    skos:definition "Verwijzing naar gebied waar een belang is geraak door een informatiepolygoon."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "GeraaktBelangBijInformatiepolygoon"^^xsd:string;
+    skos:prefLabel "geraakt belang bij informatiepolygoon"@nl
+.
+n2:GeraaktBelangBijOrientatiepolygoon a skos:Concept;
+    rdfs:label "geraakt belang bij oriëntatiepolygoon"@nl;
+    skos:definition "Verwijzing naar gebied waar een belang is geraak door een orientatiepolygoon."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "GeraaktBelangBijOrientatiepolygoon"^^xsd:string;
+    skos:prefLabel "geraakt belang bij oriëntatiepolygoon"@nl
+.
+n2:GewensteEinddatum a skos:Concept;
+    rdfs:label "gewenste einddatum"@nl;
+    skos:definition "Gewenste datum tot wanneer het belang van toepassing is."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "GewensteEinddatum"^^xsd:string;
+    skos:prefLabel "gewenste einddatum"@nl
+.
+n2:GewensteIngangsdatum a skos:Concept;
+    rdfs:label "gewenste ingangsdatum"@nl;
+    skos:definition "Gewenste datum vanaf wanneer een belang van toepassing is."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "GewensteIngangsdatum"^^xsd:string;
+    skos:prefLabel "gewenste ingangsdatum"@nl
+.
+n2:GovernmentalServiceReference a skos:Concept;
+    rdfs:label "GovernmentalServiceReference"@en;
+    rdfs:label "verwijzing naar overheidsdienst"@nl;
+    skos:definition '''Reference to a governmental service object that is linked (related) to this utility network element.
+'''@nl;
+    skos:definition '''Reference to a governmental service object that is linked (related) to this utility network element.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "GovernmentalServiceReference"^^xsd:string;
+    skos:prefLabel "GovernmentalServiceReference"@en;
+    skos:prefLabel "verwijzing naar overheidsdienst"@nl
+.
+n2:Graafpolygoon_GebiedsinformatieAanvraag a skos:Concept;
+    rdfs:label "graafpolygoon (GebiedsinformatieAanvraag)"@nl;
+    skos:definition "Verwijzing naar graafpolygoon."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Graafpolygoon"^^xsd:string;
+    skos:prefLabel "graafpolygoon"@nl
+.
+n2:Graafpolygoon_IMKL a skos:Concept;
+    rdfs:label "graafpolygoon (IMKL)"@nl;
+    skos:broader n2:IMKLBasis;
+    skos:definition "Een graafpolygoon is de weergave door een grondroerder van het gebied, waarbinnen de graaflocatie zich bevindt."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Graafpolygoon"^^xsd:string;
+    skos:prefLabel "graafpolygoon"@nl
+.
+n2:HeeftExtraInformatie a skos:Concept;
+    rdfs:label "extra informatie"@nl;
+    skos:definition "Extra informatie over dit object."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "HeeftExtraInformatie"^^xsd:string;
+    skos:prefLabel "extra informatie"@nl
+.
+n2:Hoogte a skos:Concept;
+    rdfs:label "hoogte"@nl;
+    skos:definition "De hoogte of lengte van het object."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Hoogte"^^xsd:string;
+    skos:prefLabel "hoogte"@nl
+.
+n2:HoursOfService a skos:Concept;
+    rdfs:label "bereikbaarheidstijden"@nl;
+    rdfs:label "HoursOfService"@en;
+    skos:definition '''Periods of time when the organisation or individual can be contacted.
+'''@nl;
+    skos:definition '''Periods of time when the organisation or individual can be contacted.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "HoursOfService"^^xsd:string;
+    skos:prefLabel "HoursOfService"@en;
+    skos:prefLabel "bereikbaarheidstijden"@nl
+.
+n2:HuisaansluitingAdressen a skos:Concept;
+    rdfs:label "huisaansluiting adressen"@nl;
+    skos:definition "Lijst van adressen waarvoor huisaansluitschetsen (extra detailinformatie, type huisaansluiting) gevraagd wordt."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "HuisaansluitingAdressen"^^xsd:string;
+    skos:prefLabel "huisaansluiting adressen"@nl
+.
+n2:Huisletter a skos:Concept;
+    rdfs:label "huisletter"@nl;
+    skos:definition '''Een door of namens het gemeentebestuur ten aanzien
+van een adresseerbaar object toegekende toevoeging
+aan een huisnummer in de vorm van een alfanumeriek
+teken.'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Huisletter"^^xsd:string;
+    skos:prefLabel "huisletter"@nl
+.
+n2:Huisnummer a skos:Concept;
+    rdfs:label "huisnummer"@nl;
+    skos:definition '''Een door of namens het gemeentebestuur ten aanzien
+van een adresseerbaar object toegekende nummering.'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Huisnummer"^^xsd:string;
+    skos:prefLabel "huisnummer"@nl
+.
+n2:Huisnummertoevoeging a skos:Concept;
+    rdfs:label "huisnummertoevoeging"@nl;
+    skos:definition '''Een door of namens het gemeentebestuur ten aanzien
+van een adresseerbaar object toegekende nadere
+toevoeging aan een huisnummer of een combinatie van
+huisnummer en huisletter.'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Huisnummertoevoeging"^^xsd:string;
+    skos:prefLabel "huisnummertoevoeging"@nl
+.
+n2:IMKLBasis a skos:Concept;
+    rdfs:label "IMKL basis"@nl;
+    skos:definition "Abstract data object dat de basis attributen bevat van de IMKL extensie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "IMKLBasis"^^xsd:string;
+    skos:prefLabel "IMKL basis"@nl
+.
+n2:Identificatie a skos:Concept;
+    rdfs:label "identificatie"@nl;
+    skos:definition "Unieke identificatie van het object binnen het domein van NEN 3610."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Identificatie"^^xsd:string;
+    skos:prefLabel "identificatie"@nl
+.
+n2:Identifier a skos:Concept;
+    rdfs:label "Identifier"@en;
+    rdfs:label "identificatie"@nl;
+    skos:definition '''External unique object identifier published by the responsible body, which may be used by external applications to reference the spatial object.
+'''@nl;
+    skos:definition '''External unique object identifier published by the responsible body, which may be used by external applications to reference the spatial object.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Identifier"^^xsd:string;
+    skos:prefLabel "Identifier"@en;
+    skos:prefLabel "identificatie"@nl
+.
+n2:InNetwork_ContainerLeidingelement a skos:Concept;
+    rdfs:label "in netwerk (ContainerLeidingelement)"@nl;
+    skos:definition "Verwijzing naar het utiliteitsnet."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "InNetwork"^^xsd:string;
+    skos:prefLabel "in netwerk"@nl
+.
+n2:InNetwork_Diepte a skos:Concept;
+    rdfs:label "in netwerk (Diepte)"@nl;
+    skos:definition "Verwijzing naar het utiliteitsnet."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "InNetwork"^^xsd:string;
+    skos:prefLabel "in netwerk"@nl
+.
+n2:InNetwork_ExtraGeometrie a skos:Concept;
+    rdfs:label "in netwerk (ExtraGeometrie)"@nl;
+    skos:definition "Verwijzing naar het utiliteitsnet."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "InNetwork"^^xsd:string;
+    skos:prefLabel "in netwerk"@nl
+.
+n2:InNetwork_ExtraInformatie a skos:Concept;
+    rdfs:label "in netwerk (ExtraInformatie)"@nl;
+    skos:definition "Verwijzing naar het utiliteitsnet."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "InNetwork"^^xsd:string;
+    skos:prefLabel "in netwerk"@nl
+.
+n2:InNetwork_NetworkElement a skos:Concept;
+    rdfs:label "in netwerk (NetworkElement)"@nl;
+    rdfs:label "InNetwork (NetworkElement)"@nl;
+    skos:definition "The networks in which a network element is a member."@en;
+    skos:definition "The networks in which a network element is a member."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "InNetwork"^^xsd:string;
+    skos:prefLabel "in netwerk"@nl;
+    skos:prefLabel "InNetwork"@en
+.
+n2:IndicatieEisVoorzorgsmaatregel a skos:Concept;
+    rdfs:label "indicatie eis voorzorgsmaatregel"@nl;
+    skos:definition "Is er bij deze belanghebbende sprake van een eisVoorzorgmaatregel bij één van de aangeleverde thema's (J/N)."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "IndicatieEisVoorzorgsmaatregel"^^xsd:string;
+    skos:prefLabel "indicatie eis voorzorgsmaatregel"@nl
+.
+n2:IndicatieLeveringCompleet a skos:Concept;
+    rdfs:label "indicatie levering compleet"@nl;
+    skos:definition "Indicator die aangeeft of de levering compleet is (dus, of alle netbeheerders al hebben geleverd)."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "IndicatieLeveringCompleet"^^xsd:string;
+    skos:prefLabel "indicatie levering compleet"@nl
+.
+n2:Informatiepolygoon_GebiedsinformatieAanvraag a skos:Concept;
+    rdfs:label "informatiepolygoon (GebiedsinformatieAanvraag)"@nl;
+    skos:definition "Verwijzing naar informatiepolygoon."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Informatiepolygoon"^^xsd:string;
+    skos:prefLabel "informatiepolygoon"@nl
+.
+n2:Informatiepolygoon_IMKL a skos:Concept;
+    rdfs:label "informatiepolygoon (IMKL)"@nl;
+    skos:broader n2:IMKLBasis;
+    skos:definition "Een informatiepolygoon is de weergave door een grondroerder van het gebied, waarvoor gebiedsinformatie wordt gevraagd."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Informatiepolygoon"^^xsd:string;
+    skos:prefLabel "informatiepolygoon"@nl
+.
+n2:Ingangsdatum a skos:Concept;
+    rdfs:label "ingangsdatum"@nl;
+    skos:definition "Datum vanaf wanneer een belang van toepassing is."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Ingangsdatum"^^xsd:string;
+    skos:prefLabel "ingangsdatum"@nl
+.
+n2:InspireId_NetworkElement a skos:Concept;
+    rdfs:label "InspireId (NetworkElement)"@nl;
+    rdfs:label "identificatie (NetworkElement)"@nl;
+    skos:definition '''External object identifier of the spatial object.
+'''@en;
+    skos:definition '''External object identifier of the spatial object.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "InspireId"^^xsd:string;
+    skos:prefLabel "InspireId"@en;
+    skos:prefLabel "identificatie"@nl
+.
+n2:InspireId_UtilityNodeContainer a skos:Concept;
+    rdfs:label "identificatie (UtilityNodeContainer)"@nl;
+    rdfs:label "InspireId (UtilityNodeContainer)"@nl;
+    skos:definition "External object identifier of the spatial object."@nl;
+    skos:definition "External object identifier of the spatial object."@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "InspireId"^^xsd:string;
+    skos:prefLabel "InspireId"@en;
+    skos:prefLabel "identificatie"@nl
+.
+n2:Kaartreferentie a skos:Concept;
+    rdfs:label "kaartreferentie"@nl;
+    skos:definition "Referentie naar een achtergrondkaart."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Kaartreferentie"^^xsd:string;
+    skos:prefLabel "kaartreferentie"@nl
+.
+n2:KabelEnLeidingContainer a skos:Concept;
+    rdfs:label "kabel- en leidingcontainer"@nl;
+    skos:broader n2:Label;
+    skos:definition "Abstract data object dat de gemeenschappelijke attributen en associaties bevat voor alle kabel- en leidingcontainer objecten."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "KabelEnLeidingContainer"^^xsd:string;
+    skos:prefLabel "kabel- en leidingcontainer"@nl
+.
+n2:KabelOfLeiding a skos:Concept;
+    rdfs:label "kabel of leiding"@nl;
+    skos:broader n2:Label;
+    skos:definition "Leidingen, buizen of kabels bestemd voor voortgeleiding van energie, materie of data."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "KabelOfLeiding"^^xsd:string;
+    skos:prefLabel "kabel of leiding"@nl
+.
+n2:KabelSpecifiek a skos:Concept;
+    rdfs:label "kabel specifiek"@nl;
+    skos:definition "Abstract data object dat de kabel-specifieke attributen bevat van de IMKL extensie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "KabelSpecifiek"^^xsd:string;
+    skos:prefLabel "kabel specifiek"@nl
+.
+n2:Kabelbed a skos:Concept;
+    rdfs:label "kabelbed"@nl;
+    skos:broader n2:Duct_IMKL;
+    skos:definition "Kabelbed of Geul: Ruimtebeslag dat door een gemeenschappelijk tracé van één of meer kabels,  buizen, HDPE- en/of mantelbuizen  – die toebehoren aan één netbeheerder - wordt gevormd."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Kabelbed"^^xsd:string;
+    skos:prefLabel "kabelbed"@nl
+.
+n2:Kast a skos:Concept;
+    rdfs:label "kast"@nl;
+    skos:broader n2:Cabinet;
+    skos:broader n2:ContainerLeidingelement;
+    skos:definition "Eenvoudig kast-object dat nutsvoorzieningenobjecten kan bevatten die tot een of meer nutsvoorzieningennetwerken behoren."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Kast"^^xsd:string;
+    skos:prefLabel "kast"@nl
+.
+n2:KlicMeldnummer a skos:Concept;
+    rdfs:label "KLIC-meldnummer"@nl;
+    skos:definition "Een unieke identificatie die al sinds jaar en dag aan een gebiedsinformatie-aanvraag (Klic-melding) wordt toegekend en nog steeds veel in de graafsector wordt gebruikt."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "KlicMeldnummer"^^xsd:string;
+    skos:prefLabel "KLIC-meldnummer"@nl
+.
+n2:KvkNummer a skos:Concept;
+    rdfs:label "KvK-nummer"@nl;
+    skos:definition "KvK nummer van de aanvrager van gebiedsinformatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "KvkNummer"^^xsd:string;
+    skos:prefLabel "KvK-nummer"@nl
+.
+n2:Label a skos:Concept;
+    rdfs:label "label"@nl;
+    skos:definition "Abstract data object dat de labelattributen bevat van de IMKL extensie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Label"^^xsd:string;
+    skos:prefLabel "label"@nl
+.
+n2:Labelpositie_Annotatie a skos:Concept;
+    rdfs:label "labelpositie (Annotatie)"@nl;
+    skos:definition "Plaats van de labeltekst t.o.v. plaatsingspunt."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Labelpositie"^^xsd:string;
+    skos:prefLabel "labelpositie"@nl
+.
+n2:Labelpositie_IMKL a skos:Concept;
+    rdfs:label "labelpositie (IMKL)"@nl;
+    skos:definition "Punt op de horiziontale - en verticale as in labeltekst dat geldt als referentie voor plaatsingspunt."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Labelpositie"^^xsd:string;
+    skos:prefLabel "labelpositie"@nl
+.
+n2:Labelpositie_Maatvoering a skos:Concept;
+    rdfs:label "labelpositie (Maatvoering)"@nl;
+    skos:definition "Plaats van de labeltekst t.o.v. plaatsingspunt."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Labelpositie"^^xsd:string;
+    skos:prefLabel "labelpositie"@nl
+.
+n2:Landcode a skos:Concept;
+    rdfs:label "landcode"@nl;
+    skos:definition " Drieletterige afkorting van de landsnaam conform ISO 3166 - Country codes."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Landcode"^^xsd:string;
+    skos:prefLabel "landcode"@nl
+.
+n2:Leidingelement a skos:Concept;
+    rdfs:label "leidingelement"@nl;
+    skos:broader n2:Label;
+    skos:definition "Een object dat bij één of meerdere leidingen behoort en als node in het netwerkmodel is opgenomen."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Leidingelement"^^xsd:string;
+    skos:prefLabel "leidingelement"@nl
+.
+n2:Leveringsvolgnummer a skos:Concept;
+    rdfs:label "leveringsvolgnummer"@nl;
+    skos:definition "Volgnummer van de levering (binnen de aanvraag). Indien de gebiedsinformatie in meerdere keren wordt uitgeleverd (bijv. omdat 1 of meer netbeheerders te laat leveren) wordt dit nummer steeds opgehoogd."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Leveringsvolgnummer"^^xsd:string;
+    skos:prefLabel "leveringsvolgnummer"@nl
+.
+n2:Ligging_Annotatie a skos:Concept;
+    rdfs:label "ligging (Annotatie)"@nl;
+    skos:definition "Positie of geometrie van de annotatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Ligging"^^xsd:string;
+    skos:prefLabel "ligging"@nl
+.
+n2:Ligging_Diepte a skos:Concept;
+    rdfs:label "ligging (Diepte)"@nl;
+    skos:definition "Locatie van het dieptegegeven."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Ligging"^^xsd:string;
+    skos:prefLabel "ligging"@nl
+.
+n2:Ligging_EigenTopografie a skos:Concept;
+    rdfs:label "ligging (EigenTopografie)"@nl;
+    skos:definition "Plaatsaanduiding van de extra topografie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Ligging"^^xsd:string;
+    skos:prefLabel "ligging"@nl
+.
+n2:Ligging_ExtraDetailinfo a skos:Concept;
+    rdfs:label "ligging (ExtraDetailinfo)"@nl;
+    skos:definition "Locatie waar de detailinformatie op van toepassing is."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Ligging"^^xsd:string;
+    skos:prefLabel "ligging"@nl
+.
+n2:Ligging_Maatvoering a skos:Concept;
+    rdfs:label "ligging (Maatvoering)"@nl;
+    skos:definition "Positie of geometrie van de annotatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Ligging"^^xsd:string;
+    skos:prefLabel "ligging"@nl
+.
+n2:LinkSequence a skos:Concept;
+    rdfs:label "linksequentie"@nl;
+    rdfs:label "LinkSequence"@en;
+    skos:broader n2:GeneralisedLink;
+    skos:definition '''A network element which represents a continuous path in the network without any branches. The element has a defined beginning and end and every position on the link sequence is identifiable with one single parameter such as length.
+'''@nl;
+    skos:definition '''A network element which represents a continuous path in the network without any branches. The element has a defined beginning and end and every position on the link sequence is identifiable with one single parameter such as length.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "LinkSequence"^^xsd:string;
+    skos:prefLabel "linksequentie"@nl;
+    skos:prefLabel "LinkSequence"@en
+.
+n2:LinkSet a skos:Concept;
+    rdfs:label "verzameling van links"@nl;
+    rdfs:label "LinkSet"@en;
+    skos:broader n2:NetworkElement;
+    skos:definition '''A collection of link sequences and/or individual links that has a specific function or significance in a network.
+'''@en;
+    skos:definition '''A collection of link sequences and/or individual links that has a specific function or significance in a network.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "LinkSet"^^xsd:string;
+    skos:prefLabel "verzameling van links"@nl;
+    skos:prefLabel "LinkSet"@en
+.
+n2:Link_DirectedLink a skos:Concept;
+    rdfs:label "link (DirectedLink)"@nl;
+    rdfs:label "Link (DirectedLink)"@nl;
+    skos:definition "The link"@en;
+    skos:definition "The link"@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Link"^^xsd:string;
+    skos:prefLabel "Link"@en;
+    skos:prefLabel "link"@nl
+.
+n2:Link_LinkSequence a skos:Concept;
+    rdfs:label "link (LinkSequence)"@nl;
+    rdfs:label "Link (LinkSequence)"@nl;
+    skos:definition '''The ordered collection of directed links that constitute the link sequence.
+'''@nl;
+    skos:definition '''The ordered collection of directed links that constitute the link sequence.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Link"^^xsd:string;
+    skos:prefLabel "Link"@en;
+    skos:prefLabel "link"@nl
+.
+n2:Link_LinkSet a skos:Concept;
+    rdfs:label "link (LinkSet)"@nl;
+    rdfs:label "Link (LinkSet)"@nl;
+    skos:definition "The set of links and link sequences that constitute the link set."@en;
+    skos:definition "The set of links and link sequences that constitute the link set."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Link"^^xsd:string;
+    skos:prefLabel "Link"@en;
+    skos:prefLabel "link"@nl
+.
+n2:Link_Network a skos:Concept;
+    rdfs:label "Link (Network)"@nl;
+    rdfs:label "link (Network)"@nl;
+    skos:broader n2:GeneralisedLink;
+    skos:definition '''Curvilinear network element that connects two positions and represents a homogeneous path in the network. The connected positions may be represented as nodes.
+'''@nl;
+    skos:definition '''Curvilinear network element that connects two positions and represents a homogeneous path in the network. The connected positions may be represented as nodes.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Link"^^xsd:string;
+    skos:prefLabel "Link"@en;
+    skos:prefLabel "link"@nl
+.
+n2:LocalId a skos:Concept;
+    rdfs:label "LocalId"@en;
+    rdfs:label "lokale identificatie"@nl;
+    skos:definition '''A local identifier, assigned by the data provider. The local identifier is unique within the namespace, that is no other spatial object carries the same unique identifier.
+'''@nl;
+    skos:definition '''A local identifier, assigned by the data provider. The local identifier is unique within the namespace, that is no other spatial object carries the same unique identifier.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "LocalId"^^xsd:string;
+    skos:prefLabel "lokale identificatie"@nl;
+    skos:prefLabel "LocalId"@en
+.
+n2:LocatieOmschrijving a skos:Concept;
+    rdfs:label "locatieomschrijving"@nl;
+    skos:definition "Een omschrijving van de locatie van de werkzaamheden waar de gebiedsinformatie-aanvraag voor is ingediend."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "LocatieOmschrijving"^^xsd:string;
+    skos:prefLabel "locatieomschrijving"@nl
+.
+n2:LocatieWerkzaamheden a skos:Concept;
+    rdfs:label "locatie werkzaamheden"@nl;
+    skos:definition "Het adres of dichtstbijzijnd adres van de locatie van de werkzaamheden waar de gebiedsinformatie-aanvraag voor is ingediend."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "LocatieWerkzaamheden"^^xsd:string;
+    skos:prefLabel "locatie werkzaamheden"@nl
+.
+n2:LokaalID a skos:Concept;
+    rdfs:label "lokale identificatie"@nl;
+    skos:definition "unieke identificatiecode binnen een registratie"@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "LokaalID"^^xsd:string;
+    skos:prefLabel "lokale identificatie"@nl
+.
+n2:MaaiveldPeil a skos:Concept;
+    rdfs:label "maaiveldpeil"@nl;
+    skos:definition "Hoogte van het maaiveld t.o.v. NAP."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "MaaiveldPeil"^^xsd:string;
+    skos:prefLabel "maaiveldpeil"@nl
+.
+n2:Maatvoering a skos:Concept;
+    rdfs:label "maatvoering"@nl;
+    skos:broader n2:ExtraInformatie;
+    skos:definition "Teksten en symbolen weergegeven in het kaartbeeld."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Maatvoering"^^xsd:string;
+    skos:prefLabel "maatvoering"@nl
+.
+n2:MaatvoeringsType a skos:Concept;
+    rdfs:label "type maatvoering"@nl;
+    skos:definition "Aard van de opgenomen annotatie"@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "MaatvoeringsType"^^xsd:string;
+    skos:prefLabel "type maatvoering"@nl
+.
+n2:Mangat a skos:Concept;
+    rdfs:label "mangat"@nl;
+    skos:broader n2:ContainerLeidingelement;
+    skos:broader n2:Manhole;
+    skos:definition "Eenvoudig omhullingsobject dat een of meer nutsvoorzieningennetobjecten kan bevatten."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Mangat"^^xsd:string;
+    skos:prefLabel "mangat"@nl
+.
+n2:Manhole a skos:Concept;
+    rdfs:label "Manhole"@en;
+    rdfs:label "mangat"@nl;
+    skos:broader n2:UtilityNodeContainer;
+    skos:definition '''Simple container object which may contain either single or multiple utility networks objects.
+'''@en;
+    skos:definition '''Simple container object which may contain either single or multiple utility networks objects.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Manhole"^^xsd:string;
+    skos:prefLabel "Manhole"@en;
+    skos:prefLabel "mangat"@nl
+.
+n2:Mantelbuis a skos:Concept;
+    rdfs:label "mantelbuis"@nl;
+    skos:broader n2:BuisSpecifiek;
+    skos:broader n2:KabelEnLeidingContainer;
+    skos:broader n2:Pipe;
+    skos:definition "Beschermingsbuis."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Mantelbuis"^^xsd:string;
+    skos:prefLabel "mantelbuis"@nl
+.
+n2:Mast a skos:Concept;
+    rdfs:label "mast"@nl;
+    skos:broader n2:ContainerLeidingelement;
+    skos:broader n2:Pole;
+    skos:definition "Eenvoudig mast-object dat dienst kan doen als drager van nutsvoorzieningenobjecten van een of meer nutsvoorzieningnetten"@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Mast"^^xsd:string;
+    skos:prefLabel "mast"@nl
+.
+n2:Mobiel a skos:Concept;
+    rdfs:label "mobiel"@nl;
+    skos:definition "Het mobiele telefoonnummer van de organisatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Mobiel"^^xsd:string;
+    skos:prefLabel "mobiel"@nl
+.
+n2:NEN3610ID a skos:Concept;
+    rdfs:label "identificatie"@nl;
+    skos:definition "identificatiegegevens voor de universeel unieke identificatie van een object"@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "NEN3610ID"^^xsd:string;
+    skos:prefLabel "identificatie"@nl
+.
+n2:Naam_AanvraagSoortContact a skos:Concept;
+    rdfs:label "naam (AanvraagSoortContact)"@nl;
+    skos:definition "Naam van het contact."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Naam"^^xsd:string;
+    skos:prefLabel "naam"@nl
+.
+n2:Naam_Contact a skos:Concept;
+    rdfs:label "naam (Contact)"@nl;
+    skos:definition "Naam van het contact."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Naam"^^xsd:string;
+    skos:prefLabel "naam"@nl
+.
+n2:Naam_Organisatie a skos:Concept;
+    rdfs:label "naam (Organisatie)"@nl;
+    skos:definition "De naam van de organisatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Naam"^^xsd:string;
+    skos:prefLabel "naam"@nl
+.
+n2:Namespace_Identifier a skos:Concept;
+    rdfs:label "Namespace (Identifier)"@nl;
+    rdfs:label "namespace (Identifier)"@nl;
+    skos:definition '''Namespace uniquely identifying the data source of the spatial object.
+'''@nl;
+    skos:definition '''Namespace uniquely identifying the data source of the spatial object.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Namespace"^^xsd:string;
+    skos:prefLabel "namespace"@nl;
+    skos:prefLabel "Namespace"@en
+.
+n2:Namespace_NEN3610ID a skos:Concept;
+    rdfs:label "namespace (NEN3610ID)"@nl;
+    skos:definition "unieke verwijzing naar een registratie van objecten"@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Namespace"^^xsd:string;
+    skos:prefLabel "namespace"@nl
+.
+n2:Netbeheerder a skos:Concept;
+    rdfs:label "netbeheerder"@nl;
+    skos:definition "Gegevens van de belanghebbende beheerder."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Netbeheerder"^^xsd:string;
+    skos:prefLabel "netbeheerder"@nl
+.
+n2:NetbeheerderNetAanduiding a skos:Concept;
+    rdfs:label "netbeheerder netaanduiding"@nl;
+    skos:definition "Aanduiding van het risico dat aan een utiliteitsnet of netelement gegeven kan worden ten behoeve van de bepaling of en welke voorzorgsmaatregelen getroffen dienen te worden."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "NetbeheerderNetAanduiding"^^xsd:string;
+    skos:prefLabel "netbeheerder netaanduiding"@nl
+.
+n2:NetbeheerderNetOmschrijving a skos:Concept;
+    rdfs:label "netbeheerder netomschrijving"@nl;
+    skos:definition "Omschrijving bij een risico classificering die aan (onderdeel van een) kabel- of leiding netwerk gegeven kan worden. Op basis van dit risico moeten mogelijk voorzorgsmaatregelen getroffen worden bij het uitvoeren van werkzaamheden."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "NetbeheerderNetOmschrijving"^^xsd:string;
+    skos:prefLabel "netbeheerder netomschrijving"@nl
+.
+n2:NetbeheerderWerkAanduiding a skos:Concept;
+    rdfs:label "netbeheerder werkaanduiding"@nl;
+    skos:definition "Aanduiding van het risico dat aan de soort werkzaamheden gegeven is bij de bepaling van de te nemen eis voorzorgsmaatregelen."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "NetbeheerderWerkAanduiding"^^xsd:string;
+    skos:prefLabel "netbeheerder werkaanduiding"@nl
+.
+n2:Network a skos:Concept;
+    rdfs:label "netwerk"@nl;
+    rdfs:label "Network"@en;
+    skos:definition '''A network is a collection of network elements.
+'''@nl;
+    skos:definition '''A network is a collection of network elements.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Network"^^xsd:string;
+    skos:prefLabel "netwerk"@nl;
+    skos:prefLabel "Network"@en
+.
+n2:NetworkElement a skos:Concept;
+    rdfs:label "NetworkElement"@en;
+    rdfs:label "netwerkelement"@nl;
+    skos:definition '''Abstract base type representing an element in a network. Every element in a network provides some function that is of interest in the network.
+'''@en;
+    skos:definition '''Abstract base type representing an element in a network. Every element in a network provides some function that is of interest in the network.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "NetworkElement"^^xsd:string;
+    skos:prefLabel "netwerkelement"@nl;
+    skos:prefLabel "NetworkElement"@en
+.
+n2:Networks a skos:Concept;
+    rdfs:label "Networks"@en;
+    rdfs:label "netwerken"@nl;
+    skos:definition "A single sub-network that can be considered as part of a higher-order utility network."@nl;
+    skos:definition "A single sub-network that can be considered as part of a higher-order utility network."@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Networks"^^xsd:string;
+    skos:prefLabel "Networks"@en;
+    skos:prefLabel "netwerken"@nl
+.
+n2:Node a skos:Concept;
+    rdfs:label "Node"@en;
+    rdfs:label "node"@nl;
+    skos:broader n2:NetworkElement;
+    skos:definition '''Represents a significant position in the network that always occurs at the beginning or the end of a link.
+'''@nl;
+    skos:definition '''Represents a significant position in the network that always occurs at the beginning or the end of a link.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Node"^^xsd:string;
+    skos:prefLabel "Node"@en;
+    skos:prefLabel "node"@nl
+.
+n2:Nodes a skos:Concept;
+    rdfs:label "bevat nodes"@nl;
+    rdfs:label "Nodes"@en;
+    skos:definition "Contained utility nodes."@en;
+    skos:definition "Contained utility nodes."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Nodes"^^xsd:string;
+    skos:prefLabel "bevat nodes"@nl;
+    skos:prefLabel "Nodes"@en
+.
+n2:NominalVoltage a skos:Concept;
+    rdfs:label "nominale spanning"@nl;
+    rdfs:label "NominalVoltage"@en;
+    skos:definition '''The nominal system voltage at the point of supply.
+'''@en;
+    skos:definition '''The nominal system voltage at the point of supply.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "NominalVoltage"^^xsd:string;
+    skos:prefLabel "nominale spanning"@nl;
+    skos:prefLabel "NominalVoltage"@en
+.
+n2:OilGasChemicalsPipe a skos:Concept;
+    rdfs:label "OilGasChemicalsPipe"@en;
+    rdfs:label "olie-, gas- of chemicaliënpijpleiding"@nl;
+    skos:broader n2:Pipe;
+    skos:definition '''A pipe used to convey oil, gas or chemicals from one location to another.
+'''@nl;
+    skos:definition '''A pipe used to convey oil, gas or chemicals from one location to another.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "OilGasChemicalsPipe"^^xsd:string;
+    skos:prefLabel "olie-, gas- of chemicaliënpijpleiding"@nl;
+    skos:prefLabel "OilGasChemicalsPipe"@en
+.
+n2:OilGasChemicalsProductType a skos:Concept;
+    rdfs:label "type olie-, gas- of chemisch product"@nl;
+    rdfs:label "OilGasChemicalsProductType"@en;
+    skos:definition "The type of oil, gas or chemicals product that is conveyed through the oil, gas, chemicals pipe."@nl;
+    skos:definition "The type of oil, gas or chemicals product that is conveyed through the oil, gas, chemicals pipe."@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "OilGasChemicalsProductType"^^xsd:string;
+    skos:prefLabel "type olie-, gas- of chemisch product"@nl;
+    skos:prefLabel "OilGasChemicalsProductType"@en
+.
+n2:OlieGasChemicalienPijpleiding a skos:Concept;
+    rdfs:label "olie-, gas- of chemicaliënpijpleiding"@nl;
+    skos:broader n2:BuisSpecifiek;
+    skos:broader n2:KabelOfLeiding;
+    skos:broader n2:OilGasChemicalsPipe;
+    skos:definition "Een pijpleiding voor het overbrengen van olie, gas of chemicaliën van de ene locatie naar een andere."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "OlieGasChemicalienPijpleiding"^^xsd:string;
+    skos:prefLabel "olie-, gas- of chemicaliënpijpleiding"@nl
+.
+n2:Omschrijving a skos:Concept;
+    rdfs:label "omschrijving"@nl;
+    skos:definition "In tekst omschreven belang dat een netbeheerder in dit gebied heeft."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Omschrijving"^^xsd:string;
+    skos:prefLabel "omschrijving"@nl
+.
+n2:OmschrijvingWerkzaamheden a skos:Concept;
+    rdfs:label "omschrijving werkzaamheden"@nl;
+    skos:definition "Een toelichtende omschrijving van de werkzaamheden."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "OmschrijvingWerkzaamheden"^^xsd:string;
+    skos:prefLabel "omschrijving werkzaamheden"@nl
+.
+n2:Opdrachtgever_GebiedsinformatieAanvraag a skos:Concept;
+    rdfs:label "opdrachtgever (GebiedsinformatieAanvraag)"@nl;
+    skos:definition "Gegevens van de opdrachtgever voor de aanvraag van gebiedsinformatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Opdrachtgever"^^xsd:string;
+    skos:prefLabel "opdrachtgever"@nl
+.
+n2:Opdrachtgever_IMKL a skos:Concept;
+    rdfs:label "opdrachtgever (IMKL)"@nl;
+    skos:definition "Een opdrachtgever is een persoon die opdracht geeft om te graven in een bepaald gebied."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Opdrachtgever"^^xsd:string;
+    skos:prefLabel "opdrachtgever"@nl
+.
+n2:OpenbareRuimteNaam a skos:Concept;
+    rdfs:label "openbare ruimte naam"@nl;
+    skos:definition "Een naam die aan een OPENBARE RUIMTE is toegekend in een daartoe strekkend formeel gemeentelijk besluit."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "OpenbareRuimteNaam"^^xsd:string;
+    skos:prefLabel "openbare ruimte naam"@nl
+.
+n2:OperatingVoltage a skos:Concept;
+    rdfs:label "bedrijfsspanning"@nl;
+    rdfs:label "OperatingVoltage"@en;
+    skos:definition '''The utilization or operating voltage by the equipment using the electricity.
+'''@en;
+    skos:definition '''The utilization or operating voltage by the equipment using the electricity.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "OperatingVoltage"^^xsd:string;
+    skos:prefLabel "bedrijfsspanning"@nl;
+    skos:prefLabel "OperatingVoltage"@en
+.
+n2:Ordernummer a skos:Concept;
+    rdfs:label "ordernummer"@nl;
+    skos:definition "Het nummer van de verkooporder van de aanvraag zoals deze bij KLIC bekend is."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Ordernummer"^^xsd:string;
+    skos:prefLabel "ordernummer"@nl
+.
+n2:Organisatie_Aanvrager a skos:Concept;
+    rdfs:label "organisatie (Aanvrager)"@nl;
+    skos:definition "Organisatie die aanvraag doet."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Organisatie"^^xsd:string;
+    skos:prefLabel "organisatie"@nl
+.
+n2:Organisatie_Beheerder a skos:Concept;
+    rdfs:label "organisatie (Beheerder)"@nl;
+    skos:definition "Organisatie die als beheerder optreedt."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Organisatie"^^xsd:string;
+    skos:prefLabel "organisatie"@nl
+.
+n2:Organisatie_IMKL a skos:Concept;
+    rdfs:label "organisatie (IMKL)"@nl;
+    skos:definition "Gegevens van de aanvrager van gebiedsinformatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Organisatie"^^xsd:string;
+    skos:prefLabel "organisatie"@nl
+.
+n2:Organisatie_Opdrachtgever a skos:Concept;
+    rdfs:label "organisatie (Opdrachtgever)"@nl;
+    skos:definition "Organisatie die als opdrachtgever optreedt."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Organisatie"^^xsd:string;
+    skos:prefLabel "organisatie"@nl
+.
+n2:Orientatiepolygoon_GebiedsinformatieAanvraag a skos:Concept;
+    rdfs:label "oriëntatiepolygoon (GebiedsinformatieAanvraag)"@nl;
+    skos:definition "Verwijzing naar orientatiepolygoon"@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Orientatiepolygoon"^^xsd:string;
+    skos:prefLabel "oriëntatiepolygoon"@nl
+.
+n2:Orientatiepolygoon_IMKL a skos:Concept;
+    rdfs:label "oriëntatiepolygoon (IMKL)"@nl;
+    skos:broader n2:IMKLBasis;
+    skos:definition "Een oriëntatiepolygoon is de weergave door een opdrachtgever, grondroerder, aanbieder of bestuursorgaan van een aangesloten gebied, ten aanzien waarvan deze om gebiedsinformatie verzoekt met het oog op respectievelijk het voorbereiden van graafwerkzaamheden, het voorbereiden van een verzoek tot medegebruik of coördinatie van civiele werken, of ten behoeve van de hem opgedragen taak."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Orientatiepolygoon"^^xsd:string;
+    skos:prefLabel "oriëntatiepolygoon"@nl
+.
+n2:Overig a skos:Concept;
+    rdfs:label "overig"@nl;
+    skos:broader n2:BuisSpecifiek;
+    skos:broader n2:KabelOfLeiding;
+    skos:broader n2:KabelSpecifiek;
+    skos:broader n2:OverigSpecifiek;
+    skos:broader n2:UtilityLinkSet;
+    skos:definition "Een type kabel of leiding die niet onder de andere benoemde typen valt."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Overig"^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n2:OverigSpecifiek a skos:Concept;
+    rdfs:label "overig specifiek"@nl;
+    skos:definition "Abstract data object dat de overig-specifieke attributen bevat van de IMKL extensie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "OverigSpecifiek"^^xsd:string;
+    skos:prefLabel "overig specifiek"@nl
+.
+n2:Pipe a skos:Concept;
+    rdfs:label "Pipe"@en;
+    rdfs:label "pijpleiding"@nl;
+    skos:broader n2:UtilityLinkSet;
+    skos:definition '''A utility link or link sequence for the conveyance of solids, liquids, chemicals or gases from one location to another.
+
+A pipe can also be used as an object to encase several cables (a bundle of cables) or other (smaller) pipes.'''@nl;
+    skos:definition '''A utility link or link sequence for the conveyance of solids, liquids, chemicals or gases from one location to another.
+
+A pipe can also be used as an object to encase several cables (a bundle of cables) or other (smaller) pipes.'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Pipe"^^xsd:string;
+    skos:prefLabel "Pipe"@en;
+    skos:prefLabel "pijpleiding"@nl
+.
+n2:PipeDiameter a skos:Concept;
+    rdfs:label "buisdiameter"@nl;
+    rdfs:label "PipeDiameter"@en;
+    skos:definition '''Pipe outer diameter.
+'''@nl;
+    skos:definition '''Pipe outer diameter.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "PipeDiameter"^^xsd:string;
+    skos:prefLabel "PipeDiameter"@en;
+    skos:prefLabel "buisdiameter"@nl
+.
+n2:PipeDiameter_OverigSpecifiek a skos:Concept;
+    rdfs:label "buisdiameter (OverigSpecifiek)"@nl;
+    skos:definition '''Pipe outer diameter.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "PipeDiameter"^^xsd:string;
+    skos:prefLabel "buisdiameter"@nl
+.
+n2:Pipes_Duct a skos:Concept;
+    rdfs:label "bevat buisleidingen (Duct)"@nl;
+    rdfs:label "Pipes (Duct)"@nl;
+    skos:definition "The set of pipes that constitute the duct bank."@nl;
+    skos:definition "The set of pipes that constitute the duct bank."@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Pipes"^^xsd:string;
+    skos:prefLabel "Pipes"@en;
+    skos:prefLabel "bevat buisleidingen"@nl
+.
+n2:Pipes_Pipe a skos:Concept;
+    rdfs:label "bevat buisleidingen (Pipe)"@nl;
+    rdfs:label "Pipes (Pipe)"@nl;
+    skos:definition "A pipe may contain one or more pipes."@en;
+    skos:definition "A pipe may contain one or more pipes."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Pipes"^^xsd:string;
+    skos:prefLabel "Pipes"@en;
+    skos:prefLabel "bevat buisleidingen"@nl
+.
+n2:Pole a skos:Concept;
+    rdfs:label "mast"@nl;
+    rdfs:label "Pole"@en;
+    skos:broader n2:UtilityNodeContainer;
+    skos:definition '''Simple pole (mast) object which may carry utility objects belonging to either single or multiple utility networks.
+'''@nl;
+    skos:definition '''Simple pole (mast) object which may carry utility objects belonging to either single or multiple utility networks.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Pole"^^xsd:string;
+    skos:prefLabel "mast"@nl;
+    skos:prefLabel "Pole"@en
+.
+n2:PoleHeight a skos:Concept;
+    rdfs:label "PoleHeight"@en;
+    rdfs:label "masthoogte"@nl;
+    skos:definition '''The height of the pole.
+'''@nl;
+    skos:definition '''The height of the pole.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "PoleHeight"^^xsd:string;
+    skos:prefLabel "PoleHeight"@en;
+    skos:prefLabel "masthoogte"@nl
+.
+n2:Positienummer a skos:Concept;
+    rdfs:label "positienummer"@nl;
+    skos:definition "Het regelnummer (positienummer) van de verkooporder waarbij de aanvraag van het Klic-product is vastgelegd."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Positienummer"^^xsd:string;
+    skos:prefLabel "positienummer"@nl
+.
+n2:PostbusAdres_IMKL a skos:Concept;
+    rdfs:label "postbusadres (IMKL)"@nl;
+    skos:definition "De gegevens van een adres voor een bus of vak in een postkantoor."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "PostbusAdres"^^xsd:string;
+    skos:prefLabel "postbusadres"@nl
+.
+n2:PostbusAdres_Organisatie a skos:Concept;
+    rdfs:label "postbusadres (Organisatie)"@nl;
+    skos:definition "Het postbusadres van de organisatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "PostbusAdres"^^xsd:string;
+    skos:prefLabel "postbusadres"@nl
+.
+n2:Postbusnummer a skos:Concept;
+    rdfs:label "postbusnummer"@nl;
+    skos:definition "Het postbusnummer van het postbusadres."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Postbusnummer"^^xsd:string;
+    skos:prefLabel "postbusnummer"@nl
+.
+n2:Postcode_Adres a skos:Concept;
+    rdfs:label "postcode (Adres)"@nl;
+    skos:definition '''De door TNT Post vastgestelde code behorende bij een
+bepaalde combinatie van een straatnaam en een
+huisnummer.'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Postcode"^^xsd:string;
+    skos:prefLabel "postcode"@nl
+.
+n2:Postcode_PostbusAdres a skos:Concept;
+    rdfs:label "postcode (PostbusAdres)"@nl;
+    skos:definition "De postcode van het postbusadres."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Postcode"^^xsd:string;
+    skos:prefLabel "postcode"@nl
+.
+n2:Pressure a skos:Concept;
+    rdfs:label "Pressure"@en;
+    rdfs:label "druk"@nl;
+    skos:definition '''The maximum allowable operating pressure at which a product is conveyed through a pipe.
+'''@nl;
+    skos:definition '''The maximum allowable operating pressure at which a product is conveyed through a pipe.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "Pressure"^^xsd:string;
+    skos:prefLabel "Pressure"@en;
+    skos:prefLabel "druk"@nl
+.
+n2:Pressure_OverigSpecifiek a skos:Concept;
+    rdfs:label "druk (OverigSpecifiek)"@nl;
+    skos:definition '''The maximum allowable operating pressure at which a product is conveyed through a pipe.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Pressure"^^xsd:string;
+    skos:prefLabel "druk"@nl
+.
+n2:Producttype a skos:Concept;
+    rdfs:label "type product"@nl;
+    skos:definition "Het type product dat wordt getransporteerd."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Producttype"^^xsd:string;
+    skos:prefLabel "type product"@nl
+.
+n2:Referentie a skos:Concept;
+    rdfs:label "referentie"@nl;
+    skos:definition "De eigen referentie die de aanvrager aan de gebiedsinformatie-aanvraag heeft gegeven."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Referentie"^^xsd:string;
+    skos:prefLabel "referentie"@nl
+.
+n2:Rioolleiding a skos:Concept;
+    rdfs:label "rioolleiding"@nl;
+    skos:broader n2:BuisSpecifiek;
+    skos:broader n2:KabelOfLeiding;
+    skos:broader n2:SewerPipe;
+    skos:definition "Een rioleringsleiding voor het overbrengen van afvalwater (rioolwater en hemelwater) van de ene locatie naar een andere."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Rioolleiding"^^xsd:string;
+    skos:prefLabel "rioolleiding"@nl
+.
+n2:Rotatiehoek a skos:Concept;
+    rdfs:label "rotatiehoek"@nl;
+    skos:definition "Hoek waaronder een labeltekst of symbool wordt weergegeven."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Rotatiehoek"^^xsd:string;
+    skos:prefLabel "rotatiehoek"@nl
+.
+n2:RotatiehoekSymbool a skos:Concept;
+    rdfs:label "rotatiehoeksymbool"@nl;
+    skos:definition "Hoek waaronder een puntsymbool wordt weergegeven."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "RotatiehoekSymbool"^^xsd:string;
+    skos:prefLabel "rotatiehoeksymbool"@nl
+.
+n2:SewerPipe a skos:Concept;
+    rdfs:label "SewerPipe"@en;
+    rdfs:label "rioolleiding"@nl;
+    skos:broader n2:Pipe;
+    skos:definition "A sewer pipe used to convey wastewater (sewer) from one location to another."@nl;
+    skos:definition "A sewer pipe used to convey wastewater (sewer) from one location to another."@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "SewerPipe"^^xsd:string;
+    skos:prefLabel "rioolleiding"@nl;
+    skos:prefLabel "SewerPipe"@en
+.
+n2:SewerWaterType a skos:Concept;
+    rdfs:label "SewerWaterType"@en;
+    rdfs:label "type afvalwater"@nl;
+    skos:definition "Type of sewer water."@nl;
+    skos:definition "Type of sewer water."@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "SewerWaterType"^^xsd:string;
+    skos:prefLabel "SewerWaterType"@en;
+    skos:prefLabel "type afvalwater"@nl
+.
+n2:SoortWerkzaamheden a skos:Concept;
+    rdfs:label "soort werkzaamheden"@nl;
+    skos:definition "Soort graafwerkzaamheden (zie codelijst)."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "SoortWerkzaamheden"^^xsd:string;
+    skos:prefLabel "soort werkzaamheden"@nl
+.
+n2:SpecificAppurtenanceType a skos:Concept;
+    rdfs:label "SpecificAppurtenanceType"@en;
+    rdfs:label "specifiek type leidingelement"@nl;
+    skos:definition "Type of appurtenance according to a domain-specific classification."@en;
+    skos:definition "Type of appurtenance according to a domain-specific classification."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "SpecificAppurtenanceType"^^xsd:string;
+    skos:prefLabel "SpecificAppurtenanceType"@en;
+    skos:prefLabel "specifiek type leidingelement"@nl
+.
+n2:SpokeEnd a skos:Concept;
+    rdfs:label "linkbegin"@nl;
+    rdfs:label "SpokeEnd"@en;
+    skos:definition '''The links that enter the node.
+'''@nl;
+    skos:definition '''The links that enter the node.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "SpokeEnd"^^xsd:string;
+    skos:prefLabel "linkbegin"@nl;
+    skos:prefLabel "SpokeEnd"@en
+.
+n2:SpokeStart a skos:Concept;
+    rdfs:label "linkbegin"@nl;
+    rdfs:label "SpokeStart"@en;
+    skos:definition '''The links that leave the node.
+'''@nl;
+    skos:definition '''The links that leave the node.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "SpokeStart"^^xsd:string;
+    skos:prefLabel "linkbegin"@nl;
+    skos:prefLabel "SpokeStart"@en
+.
+n2:StandaardDieptelegging a skos:Concept;
+    rdfs:label "standaard dieptelegging"@nl;
+    skos:definition '''Gangbare dieptelegging behorend bij dit utiliteitsnet. Diepte is ten opzichte van maaiveld. Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via 1 van de volgende OGC URN codes: • urn:ogc:def:uom:OGC::m • urn:ogc:def:uom:OGC::cm • urn:ogc:def:uom:OGC::mm.
+Voor WIBON is de eenheid altijd meter en een getal met ten hoogste 2 decimalen.'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "StandaardDieptelegging"^^xsd:string;
+    skos:prefLabel "standaard dieptelegging"@nl
+.
+n2:StartDatum a skos:Concept;
+    rdfs:label "startdatum"@nl;
+    skos:definition "De geplande startdatum van de werkzaamheden waarvoor de gebiedsinformatie-aanvraag is ingediend."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "StartDatum"^^xsd:string;
+    skos:prefLabel "startdatum"@nl
+.
+n2:StartNode a skos:Concept;
+    rdfs:label "beginnode"@nl;
+    rdfs:label "StartNode"@en;
+    skos:definition "The optional start node for this link."@nl;
+    skos:definition "The optional start node for this link."@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "StartNode"^^xsd:string;
+    skos:prefLabel "beginnode"@nl;
+    skos:prefLabel "StartNode"@en
+.
+n2:Status a skos:Concept;
+    rdfs:label "status"@nl;
+    skos:definition "Plan of bestaande topografie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Status"^^xsd:string;
+    skos:prefLabel "status"@nl
+.
+n2:TechnischGebouw a skos:Concept;
+    rdfs:label "technisch gebouw"@nl;
+    skos:broader n2:Cabinet;
+    skos:broader n2:ContainerLeidingelement;
+    skos:definition "Besloten onderkomen voor het huisvesten van nutsvoorzieningenobjecten die tot een of meer nutsvoorzieningennetwerken behoren."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "TechnischGebouw"^^xsd:string;
+    skos:prefLabel "technisch gebouw"@nl
+.
+n2:Telecommunicatiekabel a skos:Concept;
+    rdfs:label "telecommunicatiekabel"@nl;
+    skos:broader n2:KabelOfLeiding;
+    skos:broader n2:KabelSpecifiek;
+    skos:broader n2:TelecommunicationsCable;
+    skos:definition "Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van data."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Telecommunicatiekabel"^^xsd:string;
+    skos:prefLabel "telecommunicatiekabel"@nl
+.
+n2:TelecommunicationsCable a skos:Concept;
+    rdfs:label "telecommunicatiekabel"@nl;
+    rdfs:label "TelecommunicationsCable"@en;
+    skos:definition '''A utility link or link sequence used to convey data signals (PSTN, radio or computer) from one location to another.
+'''@en;
+    skos:definition '''A utility link or link sequence used to convey data signals (PSTN, radio or computer) from one location to another.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "TelecommunicationsCable"^^xsd:string;
+    skos:prefLabel "TelecommunicationsCable"@en;
+    skos:prefLabel "telecommunicatiekabel"@nl
+.
+n2:TelecommunicationsCableMaterialType a skos:Concept;
+    rdfs:label "TelecommunicationsCableMaterialType"@en;
+    rdfs:label "type materiaal van telecommunicatiekabel"@nl;
+    skos:definition "Type of cable material."@nl;
+    skos:definition "Type of cable material."@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "TelecommunicationsCableMaterialType"^^xsd:string;
+    skos:prefLabel "TelecommunicationsCableMaterialType"@en;
+    skos:prefLabel "type materiaal van telecommunicatiekabel"@nl
+.
+n2:Telefoon_AanvraagSoortContact a skos:Concept;
+    rdfs:label "telefoon (AanvraagSoortContact)"@nl;
+    skos:definition "Telefoon van het contact."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Telefoon"^^xsd:string;
+    skos:prefLabel "telefoon"@nl
+.
+n2:Telefoon_Contact a skos:Concept;
+    rdfs:label "telefoon (Contact)"@nl;
+    skos:definition "Telefoon van het contact."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Telefoon"^^xsd:string;
+    skos:prefLabel "telefoon"@nl
+.
+n2:Telefoon_Organisatie a skos:Concept;
+    rdfs:label "telefoon (Organisatie)"@nl;
+    skos:definition "Het vaste telefoonnummer van de organiatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Telefoon"^^xsd:string;
+    skos:prefLabel "telefoon"@nl
+.
+n2:TelephoneFacsimile a skos:Concept;
+    rdfs:label "TelephoneFacsimile"@en;
+    rdfs:label "fax"@nl;
+    skos:definition '''Number of a facsimile machine of the organisation or individual.
+'''@nl;
+    skos:definition '''Number of a facsimile machine of the organisation or individual.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "TelephoneFacsimile"^^xsd:string;
+    skos:prefLabel "TelephoneFacsimile"@en;
+    skos:prefLabel "fax"@nl
+.
+n2:TelephoneVoice a skos:Concept;
+    rdfs:label "TelephoneVoice"@en;
+    rdfs:label "telefoon"@nl;
+    skos:definition '''Telephone number of the organisation or individual.
+'''@en;
+    skos:definition '''Telephone number of the organisation or individual.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "TelephoneVoice"^^xsd:string;
+    skos:prefLabel "telefoon"@nl;
+    skos:prefLabel "TelephoneVoice"@en
+.
+n2:Thema a skos:Concept;
+    rdfs:label "thema"@nl;
+    skos:definition "Het thema geeft aan welk type leiding het betreft en welke functie de leidingen hebben. Bijvoorbeeld datatransport, gas lage druk, laagspanning, riool etc. Gekozen kan worden uit een lijst van thema’s."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Thema"^^xsd:string;
+    skos:prefLabel "thema"@nl
+.
+n2:ThermalPipe a skos:Concept;
+    rdfs:label "ThermalPipe"@en;
+    rdfs:label "warmteleiding"@nl;
+    skos:broader n2:Pipe;
+    skos:definition "A pipe used to disseminate heating or cooling from one location to another."@en;
+    skos:definition "A pipe used to disseminate heating or cooling from one location to another."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ThermalPipe"^^xsd:string;
+    skos:prefLabel "warmteleiding"@nl;
+    skos:prefLabel "ThermalPipe"@en
+.
+n2:ThermalProductType a skos:Concept;
+    rdfs:label "type warmteproduct"@nl;
+    rdfs:label "ThermalProductType"@en;
+    skos:definition '''The type of thermal product that is conveyed through the thermal pipe.
+'''@en;
+    skos:definition '''The type of thermal product that is conveyed through the thermal pipe.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ThermalProductType"^^xsd:string;
+    skos:prefLabel "type warmteproduct"@nl;
+    skos:prefLabel "ThermalProductType"@en
+.
+n2:ThermischePijpleiding a skos:Concept;
+    rdfs:label "warmteleiding"@nl;
+    skos:broader n2:BuisSpecifiek;
+    skos:broader n2:KabelOfLeiding;
+    skos:broader n2:ThermalPipe;
+    skos:definition "Een leiding voor het transporteren van warmte of koelte van de ene locatie naar een andere."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "ThermischePijpleiding"^^xsd:string;
+    skos:prefLabel "warmteleiding"@nl
+.
+n2:Toelichting a skos:Concept;
+    rdfs:label "toelichting"@nl;
+    skos:definition "Extra informatie in de vorm van een toelichting."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Toelichting"^^xsd:string;
+    skos:prefLabel "toelichting"@nl
+.
+n2:Toren a skos:Concept;
+    rdfs:label "toren"@nl;
+    skos:broader n2:ContainerLeidingelement;
+    skos:broader n2:Tower;
+    skos:definition "Eenvoudig toren-object dat dienst kan doen als drager van nutsvoorzieningenobjecten van een of meer nutsvoorzieningnetten."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Toren"^^xsd:string;
+    skos:prefLabel "toren"@nl
+.
+n2:Tower a skos:Concept;
+    rdfs:label "Tower"@en;
+    rdfs:label "toren"@nl;
+    skos:broader n2:UtilityNodeContainer;
+    skos:definition '''Simple tower object which may carry utility objects belonging to either single or multiple utility networks.
+'''@en;
+    skos:definition '''Simple tower object which may carry utility objects belonging to either single or multiple utility networks.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Tower"^^xsd:string;
+    skos:prefLabel "Tower"@en;
+    skos:prefLabel "toren"@nl
+.
+n2:TowerHeight a skos:Concept;
+    rdfs:label "torenhoogte"@nl;
+    rdfs:label "TowerHeight"@en;
+    skos:definition '''The height of the tower.
+'''@nl;
+    skos:definition '''The height of the tower.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "TowerHeight"^^xsd:string;
+    skos:prefLabel "TowerHeight"@en;
+    skos:prefLabel "torenhoogte"@nl
+.
+n2:TypeTopografischObject a skos:Concept;
+    rdfs:label "type topografisch object"@nl;
+    skos:definition "Soort topografisch object."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "TypeTopografischObject"^^xsd:string;
+    skos:prefLabel "type topografisch object"@nl
+.
+n2:Utiliteitsnet_Belanghebbende a skos:Concept;
+    rdfs:label "utiliteitsnet (Belanghebbende)"@nl;
+    skos:definition "Informatie over ligging van utiliteitsnet en de onderdelen daarvan."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Utiliteitsnet"^^xsd:string;
+    skos:prefLabel "utiliteitsnet"@nl
+.
+n2:Utiliteitsnet_IMKL a skos:Concept;
+    rdfs:label "utiliteitsnet (IMKL)"@nl;
+    skos:broader n2:IMKLBasis;
+    skos:broader n2:Label;
+    skos:broader n2:UtilityNetwork;
+    skos:definition "Een verzameling netwerkelementen die tot één type nutsvoorzieningennet behoren."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Utiliteitsnet"^^xsd:string;
+    skos:prefLabel "utiliteitsnet"@nl
+.
+n2:UtilityDeliveryType a skos:Concept;
+    rdfs:label "UtilityDeliveryType"@en;
+    rdfs:label "type leveringsnetwerk"@nl;
+    skos:definition '''Kind of utility delivery network e.g. transport, distribution, collection ...
+'''@nl;
+    skos:definition '''Kind of utility delivery network e.g. transport, distribution, collection ...
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "UtilityDeliveryType"^^xsd:string;
+    skos:prefLabel "UtilityDeliveryType"@en;
+    skos:prefLabel "type leveringsnetwerk"@nl
+.
+n2:UtilityFacilityReference_UtilityNetwork a skos:Concept;
+    rdfs:label "UtilityFacilityReference (UtilityNetwork)"@nl;
+    rdfs:label "verwijzing naar activiteitencomplex (UtilityNetwork)"@nl;
+    skos:definition '''Reference to a facility activity complex that is linked to (e.g. part of) this utility network.
+'''@nl;
+    skos:definition '''Reference to a facility activity complex that is linked to (e.g. part of) this utility network.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "UtilityFacilityReference"^^xsd:string;
+    skos:prefLabel "UtilityFacilityReference"@en;
+    skos:prefLabel "verwijzing naar activiteitencomplex"@nl
+.
+n2:UtilityFacilityReference_UtilityNetworkElement a skos:Concept;
+    rdfs:label "verwijzing naar activiteitencomplex (UtilityNetworkElement)"@nl;
+    rdfs:label "UtilityFacilityReference (UtilityNetworkElement)"@nl;
+    skos:definition '''Reference to a facility activity complex that is linked (related) to this utility network element.
+'''@en;
+    skos:definition '''Reference to a facility activity complex that is linked (related) to this utility network element.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "UtilityFacilityReference"^^xsd:string;
+    skos:prefLabel "verwijzing naar activiteitencomplex"@nl;
+    skos:prefLabel "UtilityFacilityReference"@en
+.
+n2:UtilityLink a skos:Concept;
+    rdfs:label "UtilityLink"@en;
+    rdfs:label "utiliteitslink"@nl;
+    skos:broader n2:Link_Network;
+    skos:broader n2:UtilityNetworkElement;
+    skos:definition ""@en;
+    skos:definition ""@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "UtilityLink"^^xsd:string;
+    skos:prefLabel "utiliteitslink"@nl;
+    skos:prefLabel "UtilityLink"@en
+.
+n2:UtilityLinkSequence a skos:Concept;
+    rdfs:label "sequentie utiliteitslinks"@nl;
+    rdfs:label "UtilityLinkSequence"@en;
+    skos:broader n2:LinkSequence;
+    skos:broader n2:UtilityNetworkElement;
+    skos:definition ""@en;
+    skos:definition ""@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "UtilityLinkSequence"^^xsd:string;
+    skos:prefLabel "sequentie utiliteitslinks"@nl;
+    skos:prefLabel "UtilityLinkSequence"@en
+.
+n2:UtilityLinkSet a skos:Concept;
+    rdfs:label "verzameling van utiliteitslinks"@nl;
+    rdfs:label "UtilityLinkSet"@en;
+    skos:broader n2:LinkSet;
+    skos:broader n2:UtilityNetworkElement;
+    skos:definition "An abstract utility network class which groups common properties of Cable, Pipe and Duct featureTypes."@nl;
+    skos:definition "An abstract utility network class which groups common properties of Cable, Pipe and Duct featureTypes."@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "UtilityLinkSet"^^xsd:string;
+    skos:prefLabel "UtilityLinkSet"@en;
+    skos:prefLabel "verzameling van utiliteitslinks"@nl
+.
+n2:UtilityNetwork a skos:Concept;
+    rdfs:label "UtilityNetwork"@en;
+    rdfs:label "utiliteitsnet"@nl;
+    skos:broader n2:Network;
+    skos:definition '''Collection of network elements that belong to a single type of utility network.
+'''@nl;
+    skos:definition '''Collection of network elements that belong to a single type of utility network.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "UtilityNetwork"^^xsd:string;
+    skos:prefLabel "utiliteitsnet"@nl;
+    skos:prefLabel "UtilityNetwork"@en
+.
+n2:UtilityNetworkElement a skos:Concept;
+    rdfs:label "element van een utiliteitsnet"@nl;
+    rdfs:label "UtilityNetworkElement"@en;
+    skos:definition '''Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network.
+'''@en;
+    skos:definition '''Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "UtilityNetworkElement"^^xsd:string;
+    skos:prefLabel "element van een utiliteitsnet"@nl;
+    skos:prefLabel "UtilityNetworkElement"@en
+.
+n2:UtilityNetworkType a skos:Concept;
+    rdfs:label "type utiliteitsnet"@nl;
+    rdfs:label "UtilityNetworkType"@en;
+    skos:definition '''The type of utility network or the utilily network theme.
+'''@en;
+    skos:definition '''The type of utility network or the utilily network theme.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "UtilityNetworkType"^^xsd:string;
+    skos:prefLabel "UtilityNetworkType"@en;
+    skos:prefLabel "type utiliteitsnet"@nl
+.
+n2:UtilityNode a skos:Concept;
+    rdfs:label "UtilityNode"@en;
+    rdfs:label "node van een utiliteitsnet"@nl;
+    skos:broader n2:Node;
+    skos:broader n2:UtilityNetworkElement;
+    skos:definition '''A point spatial object which is used for connectivity.
+'''@en;
+    skos:definition '''A point spatial object which is used for connectivity.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "UtilityNode"^^xsd:string;
+    skos:prefLabel "UtilityNode"@en;
+    skos:prefLabel "node van een utiliteitsnet"@nl
+.
+n2:UtilityNodeContainer a skos:Concept;
+    rdfs:label "UtilityNodeContainer"@en;
+    rdfs:label "container van leidingelementen"@nl;
+    skos:broader n2:UtilityNetworkElement;
+    skos:definition '''A point spatial object which is used for connectivity, and also may contain other spatial objects (not neccessarily belonging to the same utility network).
+'''@en;
+    skos:definition '''A point spatial object which is used for connectivity, and also may contain other spatial objects (not neccessarily belonging to the same utility network).
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "UtilityNodeContainer"^^xsd:string;
+    skos:prefLabel "container van leidingelementen"@nl;
+    skos:prefLabel "UtilityNodeContainer"@en
+.
+n2:ValidFrom a skos:Concept;
+    rdfs:label "ValidFrom"@en;
+    rdfs:label "aanlegdatum"@nl;
+    skos:definition '''The time when the utility network element started to exist in the real world.
+'''@nl;
+    skos:definition '''The time when the utility network element started to exist in the real world.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "ValidFrom"^^xsd:string;
+    skos:prefLabel "aanlegdatum"@nl;
+    skos:prefLabel "ValidFrom"@en
+.
+n2:ValidTo a skos:Concept;
+    rdfs:label "verwijderdatum"@nl;
+    rdfs:label "ValidTo"@en;
+    skos:definition '''The time from which the utility network element no longer exists in the real world.
+'''@nl;
+    skos:definition '''The time from which the utility network element no longer exists in the real world.
+'''@en;
+    skos:inScheme n3:IMKL;
+    skos:notation "ValidTo"^^xsd:string;
+    skos:prefLabel "verwijderdatum"@nl;
+    skos:prefLabel "ValidTo"@en
+.
+n2:Veiligheidsgebied a skos:Concept;
+    rdfs:label "veiligheidsgebied"@nl;
+    skos:broader n2:BelangGeneriek;
+    skos:definition "Een veiligheidsgebied is een door de Minister aangewezen gebied waarvan om veiligheidsredenen kan worden afgeweken van de voorschriften zoals gesteld bij of krachtens hoofstuk 4 WION: Informatie-uitwisseling ten behoeve van graafwerkzaamheden."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Veiligheidsgebied"^^xsd:string;
+    skos:prefLabel "veiligheidsgebied"@nl
+.
+n2:Versie a skos:Concept;
+    rdfs:label "versie"@nl;
+    skos:definition "versie-aanduiding van een object"@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Versie"^^xsd:string;
+    skos:prefLabel "versie"@nl
+.
+n2:VersionId a skos:Concept;
+    rdfs:label "versie identificatie"@nl;
+    rdfs:label "VersionId"@en;
+    skos:definition '''The identifier of the particular version of the spatial object, with a maximum length of 25 characters. If the specification of a spatial object type with an external object identifier includes life-cycle information, the version identifier is used to distinguish between the different versions of a spatial object. Within the set of all versions of a spatial object, the version identifier is unique.
+'''@en;
+    skos:definition '''The identifier of the particular version of the spatial object, with a maximum length of 25 characters. If the specification of a spatial object type with an external object identifier includes life-cycle information, the version identifier is used to distinguish between the different versions of a spatial object. Within the set of all versions of a spatial object, the version identifier is unique.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "VersionId"^^xsd:string;
+    skos:prefLabel "VersionId"@en;
+    skos:prefLabel "versie identificatie"@nl
+.
+n2:VerticalPosition a skos:Concept;
+    rdfs:label "VerticalPosition"@en;
+    rdfs:label "verticale positie"@nl;
+    skos:definition '''Vertical position of the utility object relative to ground.
+'''@en;
+    skos:definition '''Vertical position of the utility object relative to ground.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "VerticalPosition"^^xsd:string;
+    skos:prefLabel "VerticalPosition"@en;
+    skos:prefLabel "verticale positie"@nl
+.
+n2:Vlakgeometrie2.5D a skos:Concept;
+    rdfs:label "vlakgeometrie (2.5D)"@nl;
+    skos:definition "2.5D vlakrepresentatie van het netwerkelement."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Vlakgeometrie2.5D"^^xsd:string;
+    skos:prefLabel "vlakgeometrie (2.5D)"@nl
+.
+n2:Vlakgeometrie2D a skos:Concept;
+    rdfs:label "vlakgeometrie (2D)"@nl;
+    skos:definition "Tweedimensionale vlakrepresentatie van het netwerkelement."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Vlakgeometrie2D"^^xsd:string;
+    skos:prefLabel "vlakgeometrie (2D)"@nl
+.
+n2:VoorbereidingCoordinatieCivieleWerken a skos:Concept;
+    rdfs:label "voorbereiding coördinatie civiele werken"@nl;
+    skos:definition "Oriëntatieverzoek door telecomaanbieder ter voorbereiding op een verzoek tot coördinatie van civiele werken."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "VoorbereidingCoordinatieCivieleWerken"^^xsd:string;
+    skos:prefLabel "voorbereiding coördinatie civiele werken"@nl
+.
+n2:VoorbereidingMedegebruikFysiekeInfrastructuur a skos:Concept;
+    rdfs:label "voorbereiding medegebruik fysieke infrastructuur"@nl;
+    skos:definition "Oriëntatieverzoek door telecomaanbieder ter voorbereiding op een verzoek tot medegebruik fysieke infrastructuur."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "VoorbereidingMedegebruikFysiekeInfrastructuur"^^xsd:string;
+    skos:prefLabel "voorbereiding medegebruik fysieke infrastructuur"@nl
+.
+n2:WarningType a skos:Concept;
+    rdfs:label "WarningType"@en;
+    rdfs:label "type waarschuwing"@nl;
+    skos:definition "Kind of overground visible warning mechanism used to indicate an underground utility network element."@en;
+    skos:definition "Kind of overground visible warning mechanism used to indicate an underground utility network element."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "WarningType"^^xsd:string;
+    skos:prefLabel "WarningType"@en;
+    skos:prefLabel "type waarschuwing"@nl
+.
+n2:WaterPipe a skos:Concept;
+    rdfs:label "WaterPipe"@en;
+    rdfs:label "waterleiding"@nl;
+    skos:broader n2:Pipe;
+    skos:definition "A water pipe used to convey water from one location to another."@en;
+    skos:definition "A water pipe used to convey water from one location to another."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "WaterPipe"^^xsd:string;
+    skos:prefLabel "WaterPipe"@en;
+    skos:prefLabel "waterleiding"@nl
+.
+n2:WaterType a skos:Concept;
+    rdfs:label "WaterType"@en;
+    rdfs:label "type water"@nl;
+    skos:definition "Type of water."@en;
+    skos:definition "Type of water."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "WaterType"^^xsd:string;
+    skos:prefLabel "WaterType"@en;
+    skos:prefLabel "type water"@nl
+.
+n2:Waterleiding a skos:Concept;
+    rdfs:label "waterleiding"@nl;
+    skos:broader n2:BuisSpecifiek;
+    skos:broader n2:KabelOfLeiding;
+    skos:broader n2:WaterPipe;
+    skos:definition "Een waterleiding voor het overbrengen van water van de ene locatie naar een andere."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Waterleiding"^^xsd:string;
+    skos:prefLabel "waterleiding"@nl
+.
+n2:WebsiteKlic a skos:Concept;
+    rdfs:label "website KLIC"@nl;
+    skos:definition "Startpagina van de website van de (net)beheerder met specifieke informatie voor de Klic-sector (graafsector)."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "WebsiteKlic"^^xsd:string;
+    skos:prefLabel "website KLIC"@nl
+.
+n2:Website_Contact a skos:Concept;
+    rdfs:label "Website (Contact)"@nl;
+    rdfs:label "website (Contact)"@nl;
+    skos:definition '''Pages provided on the World Wide Web by the organisation or individual.
+'''@en;
+    skos:definition '''Pages provided on the World Wide Web by the organisation or individual.
+'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Website"^^xsd:string;
+    skos:prefLabel "Website"@en;
+    skos:prefLabel "website"@nl
+.
+n2:Website_Organisatie a skos:Concept;
+    rdfs:label "website (Organisatie)"@nl;
+    skos:definition "Website van de organisatie."@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "Website"^^xsd:string;
+    skos:prefLabel "website"@nl
+.
+n2:WoonplaatsNaam a skos:Concept;
+    rdfs:label "woonplaatsnaam"@nl;
+    skos:definition '''De benaming van een door het gemeentebestuur
+aangewezen WOONPLAATS.'''@nl;
+    skos:inScheme n3:IMKL;
+    skos:notation "WoonplaatsNaam"^^xsd:string;
+    skos:prefLabel "woonplaatsnaam"@nl
+.
