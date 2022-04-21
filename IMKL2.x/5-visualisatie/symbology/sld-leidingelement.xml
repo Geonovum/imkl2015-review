@@ -1261,7 +1261,11 @@
                             <Mark>
                                 <WellKnownName>circle</WellKnownName>
                                 <Fill>
-                                    <CssParameter name="fill">
+                                    <CssParameter name="fill">#fff</CssParameter>
+                                    <CssParameter name="fill-opacity">0</CssParameter>
+                                </Fill>
+                                <Stroke>
+                                    <CssParameter name="stroke">
                                         <ogc:Function name="Recode">
                                         <ogc:PropertyName>thema</ogc:PropertyName>
                                             <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
@@ -1296,13 +1300,10 @@
                                             <ogc:Literal>#6f5c10</ogc:Literal>
                                         </ogc:Function>
                                     </CssParameter>
-                                </Fill>
-                                <Stroke>
-                                    <CssParameter name="stroke">#000000</CssParameter>
                                     <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>9</Size>
+                            <Size>25</Size>
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
@@ -1363,7 +1364,7 @@
                                     <CssParameter name="stroke-width">1</CssParameter>
                                 </Stroke>
                             </Mark>
-                            <Size>9</Size>
+                            <Size>11</Size>
                         </Graphic>
                     </PointSymbolizer>
                 </Rule>
