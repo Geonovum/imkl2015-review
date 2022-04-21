@@ -1,0 +1,12 @@
+Release notes:
+- IMKL2015-Handreiking-visualisatie_2.0.1rc.pdf
+- set aan sld's: versie 2.0.1rc
+
+Verbeteringen:
+- Vlakvulling van Extra DetailInfo is nu een transparant, opdat de referentiekaart niet wordt afgedekt.
+
+Opegeloste fouten in de SLD:
+- In het bestand sld-annotatie-lijn.xml is de vorm van de pijlpunt aangepast van open naar een gesloten pijl
+- In het bestand sld-annotatie-lijn.xml is de grootte van de pijlpunt aangepast
+- In het bestand sld-extradetailinfo-lijn.xml is een onnodige filter op `currentStatus` verwijderd
+- In het bestand sld-leidingelement.xml is de omtrek en vulling van de symbolen voor 'overige' en 'onbekend' leidingelementen aangepast
