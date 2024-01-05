@@ -1,0 +1,3458 @@
+@prefix n1: <http://publications.europa.eu/resource/authority/country/>.
+@prefix n10: <http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/>.
+@prefix n11: <http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/>.
+@prefix n13: <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/>.
+@prefix n14: <http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/>.
+@prefix n15: <http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue/>.
+@prefix n16: <http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/>.
+@prefix n17: <http://definities.geostandaarden.nl/imkl2015/id/waardelijst/>.
+@prefix n18: <http://definities.geostandaarden.nl/imkl2015/id/waarde/WaterTypeIMKLValue/>.
+@prefix n19: <http://definities.geostandaarden.nl/imkl2015/id/waarde/WaterAppurtenanceTypeIMKLValue/>.
+@prefix n2: <http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/>.
+@prefix n20: <http://definities.geostandaarden.nl/imkl2015/id/waarde/UtilityNetworkTypeIMKLValue/>.
+@prefix n21: <http://definities.geostandaarden.nl/imkl2015/id/waarde/TopografischObjectTypeValue/>.
+@prefix n22: <http://definities.geostandaarden.nl/imkl2015/id/waarde/ThermalProductTypeIMKLValue/>.
+@prefix n23: <http://definities.geostandaarden.nl/imkl2015/id/waarde/ThermalAppurtenanceTypeIMKLValue/>.
+@prefix n24: <http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/>.
+@prefix n25: <http://definities.geostandaarden.nl/imkl2015/id/waarde/TelecommunicationsCableMaterialTypeIMKLValue/>.
+@prefix n26: <http://definities.geostandaarden.nl/imkl2015/id/waarde/TelecommunicationsAppurtenanceTypeIMKLValue/>.
+@prefix n27: <http://definities.geostandaarden.nl/imkl2015/id/waarde/SoortWerkzaamhedenValue/>.
+@prefix n28: <http://definities.geostandaarden.nl/imkl2015/id/waarde/SewerAppurtenanceTypeIMKLValue/>.
+@prefix n29: <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/>.
+@prefix n3: <http://inspire.ec.europa.eu/codelist/WaterTypeValue/>.
+@prefix n30: <http://definities.geostandaarden.nl/imkl2015/id/waarde/OverigAppurtenanceTypeIMKLValue/>.
+@prefix n32: <http://definities.geostandaarden.nl/imkl2015/id/waarde/OilGasChemicalsProductTypeIMKLValue/>.
+@prefix n33: <http://definities.geostandaarden.nl/imkl2015/id/waarde/OilGasChemicalsAppurtenanceTypeIMKLValue/>.
+@prefix n34: <http://definities.geostandaarden.nl/imkl2015/id/waarde/NauwkeurigheidXYvalue/>.
+@prefix n35: <http://definities.geostandaarden.nl/imkl2015/id/waarde/NauwkeurigheidDiepteValue/>.
+@prefix n36: <http://definities.geostandaarden.nl/imkl2015/id/waarde/MaatvoeringsTypeValue/>.
+@prefix n38: <http://definities.geostandaarden.nl/imkl2015/id/waarde/LabelpositieValue/>.
+@prefix n39: <http://definities.geostandaarden.nl/imkl2015/id/waarde/ExtraDetailInfoTypeValue/>.
+@prefix n4: <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/>.
+@prefix n40: <http://definities.geostandaarden.nl/imkl2015/id/waarde/ElectricityAppurtenanceTypeIMKLValue/>.
+@prefix n41: <http://definities.geostandaarden.nl/imkl2015/id/waarde/EigenTopografieStatusValue/>.
+@prefix n42: <http://definities.geostandaarden.nl/imkl2015/id/waarde/EffectScenarioType/>.
+@prefix n43: <http://definities.geostandaarden.nl/imkl2015/id/waarde/DiepteAangrijpingspuntValue/>.
+@prefix n44: <http://definities.geostandaarden.nl/imkl2015/id/waarde/BuisleidingTypeValue/>.
+@prefix n45: <http://definities.geostandaarden.nl/imkl2015/id/waarde/BijlageTypeValue/>.
+@prefix n46: <http://definities.geostandaarden.nl/imkl2015/id/waarde/BestandMediaTypeValue/>.
+@prefix n47: <http://definities.geostandaarden.nl/imkl2015/id/waarde/AnnotatieTypeValue/>.
+@prefix n48: <http://definities.geostandaarden.nl/imkl2015/id/waarde/AchtergrondkaartSoortValue/>.
+@prefix n49: <http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/>.
+@prefix n5: <http://inspire.ec.europa.eu/codelist/WarningTypeValue/>.
+@prefix n50: <http://data.gwsw.nl/totaal/>.
+@prefix n6: <http://inspire.ec.europa.eu/codelist/VoidReasonValue/>.
+@prefix n7: <http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/>.
+@prefix n8: <http://inspire.ec.europa.eu/codelist/UtilityDeliveryTypeValue/>.
+@prefix n9: <http://inspire.ec.europa.eu/codelist/SewerWaterTypeValue/>.
+@prefix ns2: <http://definities.geostandaarden.nl/def/imkl2015#>.
+@prefix ns3: <http://purl.org/dc/terms/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+n50:aansluitleiding a skos:Concept;
+    rdfs:label "aansluitleiding"@nl;
+    skos:notation "aansluitleiding"^^xsd:string;
+    skos:prefLabel "aansluitleiding"@nl
+.
+n50:bergbezinkleiding a skos:Concept;
+    rdfs:label "bergbezinkleiding"@nl;
+    skos:notation "bergbezinkleiding"^^xsd:string;
+    skos:prefLabel "bergbezinkleiding"@nl
+.
+n50:bergingsleiding a skos:Concept;
+    rdfs:label "bergingsleiding"@nl;
+    skos:notation "bergingsleiding"^^xsd:string;
+    skos:prefLabel "bergingsleiding"@nl
+.
+n50:doorlatendeleiding a skos:Concept;
+    rdfs:label "doorlatendeleiding"@nl;
+    skos:notation "doorlatendeleiding"^^xsd:string;
+    skos:prefLabel "doorlatendeleiding"@nl
+.
+n50:gemaal a skos:Concept;
+    ns2:icon 116;
+    ns2:symbol "pomp"^^xsd:string;
+    rdfs:label "gemaal"@nl;
+    skos:notation "gemaal"^^xsd:string;
+    skos:prefLabel "gemaal"@nl
+.
+n50:gemengdRiool a skos:Concept;
+    rdfs:label "gemengd riool"@nl;
+    skos:notation "gemengdRiool"^^xsd:string;
+    skos:prefLabel "gemengd riool"@nl
+.
+n50:hemelwaterriool a skos:Concept;
+    rdfs:label "hemelwaterriool"@nl;
+    skos:notation "hemelwaterriool"^^xsd:string;
+    skos:prefLabel "hemelwaterriool"@nl
+.
+n50:infiltratievoorziening a skos:Concept;
+    ns2:icon 109;
+    ns2:symbol "infiltratievoorziening"^^xsd:string;
+    rdfs:label "infiltratievoorziening"@nl;
+    skos:notation "infiltratievoorziening"^^xsd:string;
+    skos:prefLabel "infiltratievoorziening"@nl
+.
+n50:inspectieput a skos:Concept;
+    ns2:icon 117;
+    ns2:symbol "put"^^xsd:string;
+    rdfs:label "inspectieput"@nl;
+    skos:notation "inspectieput"^^xsd:string;
+    skos:prefLabel "inspectieput"@nl
+.
+n50:kolk a skos:Concept;
+    ns2:icon 117;
+    ns2:symbol "put"^^xsd:string;
+    rdfs:label "kolk"@nl;
+    skos:notation "kolk"^^xsd:string;
+    skos:prefLabel "kolk"@nl
+.
+n50:kunstwerk a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "kunstwerk"@nl;
+    skos:notation "kunstwerk"^^xsd:string;
+    skos:prefLabel "kunstwerk"@nl
+.
+n50:openLeiding a skos:Concept;
+    rdfs:label "open leiding"@nl;
+    skos:notation "openLeiding"^^xsd:string;
+    skos:prefLabel "open leiding"@nl
+.
+n50:overstortleiding a skos:Concept;
+    rdfs:label "overstortleiding"@nl;
+    skos:notation "overstortleiding"^^xsd:string;
+    skos:prefLabel "overstortleiding"@nl
+.
+n50:reservoir a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "reservoir"@nl;
+    skos:notation "reservoir"^^xsd:string;
+    skos:prefLabel "reservoir"@nl
+.
+n50:stuwrioolleiding a skos:Concept;
+    rdfs:label "stuwrioolleiding"@nl;
+    skos:notation "stuwrioolleiding"^^xsd:string;
+    skos:prefLabel "stuwrioolleiding"@nl
+.
+n50:transportrioolleiding a skos:Concept;
+    rdfs:label "transportrioolleiding"@nl;
+    skos:notation "transportrioolleiding"^^xsd:string;
+    skos:prefLabel "transportrioolleiding"@nl
+.
+n50:uitlaatconstructie a skos:Concept;
+    ns2:icon 117;
+    ns2:symbol "put"^^xsd:string;
+    rdfs:label "uitlaatconstructie"@nl;
+    skos:notation "uitlaatconstructie"^^xsd:string;
+    skos:prefLabel "uitlaatconstructie"@nl
+.
+n50:vuilwaterriool a skos:Concept;
+    rdfs:label "vuilwaterriool"@nl;
+    skos:notation "vuilwaterriool"^^xsd:string;
+    skos:prefLabel "vuilwaterriool"@nl
+.
+n50:zinker a skos:Concept;
+    rdfs:label "zinker"@nl;
+    skos:notation "zinker"^^xsd:string;
+    skos:prefLabel "zinker"@nl
+.
+n49:calamiteitenmelding a skos:Concept;
+    rdfs:label "calamiteitenmelding"@nl;
+    skos:definition "Een verbijzondering van een graafmelding waarbij het nodig is dat er onverwijld graafwerkzaamheden noodzakelijk zijn om persoonlijk letsel of grote schade te voorkomen, waarbij de artikelen 2, 8 en 13 van de wet niet van toepassing zijn."^^xsd:string;
+    skos:notation "calamiteitenmelding"^^xsd:string;
+    skos:prefLabel "calamiteitenmelding"@nl
+.
+n49:graafmelding a skos:Concept;
+    rdfs:label "graafmelding"@nl;
+    skos:definition "Een melding waarbij een grondroerder aan het Kadaster meldt dat hij het voornemen heeft tot het verrichten van graafwerkzaamheden. De grondroerder meldt dit ten hoogste twintig werkdagen voorafgaande aan de aanvang van die graafwerkzaamheden aan het Kadaster."^^xsd:string;
+    skos:notation "graafmelding"^^xsd:string;
+    skos:prefLabel "graafmelding"@nl
+.
+n49:orientatieverzoek a skos:Concept;
+    rdfs:label "oriëntatieverzoek"@nl;
+    skos:definition "Het verzoek aan het Kadaster om gebiedsinformatie , bedoeld in artikel 7, eerste onderscheidenlijk tweede lid."^^xsd:string;
+    skos:notation "orientatieverzoek"^^xsd:string;
+    skos:prefLabel "oriëntatieverzoek"@nl
+.
+n48:bgtRaster a skos:Concept;
+    rdfs:label "BGT rasterkaart"@nl;
+    skos:definition "BGT-achtergrondkaart in rasterformaat."^^xsd:string;
+    skos:notation "bgtRaster"^^xsd:string;
+    skos:prefLabel "BGT rasterkaart"@nl
+.
+n48:bgtVectorinformatie a skos:Concept;
+    rdfs:label "BGT vectorinformatie"@nl;
+    skos:definition "BGT-achtergrondkaart in vectorformaat."^^xsd:string;
+    skos:notation "bgtVectorinformatie"^^xsd:string;
+    skos:prefLabel "BGT vectorinformatie"@nl
+.
+n47:annotatielabel a skos:Concept;
+    rdfs:label "annotatielabel"@nl;
+    skos:definition "Punt en label om een label als annotatie te visualiseren."^^xsd:string;
+    skos:notation "annotatielabel"^^xsd:string;
+    skos:prefLabel "annotatielabel"@nl
+.
+n47:annotatielijn a skos:Concept;
+    rdfs:label "annotatielijn"@nl;
+    skos:definition "Lijn om een lijn als annotatie te visualiseren."^^xsd:string;
+    skos:notation "annotatielijn"^^xsd:string;
+    skos:prefLabel "annotatielijn"@nl
+.
+n47:annotatiepijlDubbelgericht a skos:Concept;
+    rdfs:label "annotatiepijl dubbelgericht"@nl;
+    skos:definition "Pijl met pijlpunt aan begin en eind."^^xsd:string;
+    skos:notation "annotatiepijlDubbelgericht"^^xsd:string;
+    skos:prefLabel "annotatiepijl dubbelgericht"@nl
+.
+n47:annotatiepijlEnkelgericht a skos:Concept;
+    rdfs:label "annotatiepijl enkelgericht"@nl;
+    skos:definition "Pijl met 1 pijlpunt."^^xsd:string;
+    skos:notation "annotatiepijlEnkelgericht"^^xsd:string;
+    skos:prefLabel "annotatiepijl enkelgericht"@nl
+.
+n47:annotatiepijlpunt a skos:Concept;
+    rdfs:label "annotatiepijlpunt"@nl;
+    skos:definition "Punt om een pijlpunt als annotatie te visualiseren."^^xsd:string;
+    skos:notation "annotatiepijlpunt"^^xsd:string;
+    skos:prefLabel "annotatiepijlpunt"@nl
+.
+n46:JPEG a skos:Concept;
+    rdfs:label "JPEG"@nl;
+    skos:definition "bestandstype heeft als MIME type image/JPEG"^^xsd:string;
+    skos:notation "JPEG"^^xsd:string;
+    skos:prefLabel "JPEG"@nl
+.
+n46:JSON a skos:Concept;
+    rdfs:label "JSON"@nl;
+    skos:definition "bestandstype heeft als MIME type application/JSON"^^xsd:string;
+    skos:notation "JSON"^^xsd:string;
+    skos:prefLabel "JSON"@nl
+.
+n46:PDF a skos:Concept;
+    rdfs:label "PDF"@nl;
+    skos:definition "bestandstype heeft als MIME type application/PDF"^^xsd:string;
+    skos:notation "PDF"^^xsd:string;
+    skos:prefLabel "PDF"@nl
+.
+n46:PNG a skos:Concept;
+    rdfs:label "PNG"@nl;
+    skos:definition "bestandstype heeft als MIME type image/PNG"^^xsd:string;
+    skos:notation "PNG"^^xsd:string;
+    skos:prefLabel "PNG"@nl
+.
+n46:TIFF a skos:Concept;
+    rdfs:label "TIFF"@nl;
+    skos:definition "bestandstype heeft als MIME type image/TIFF"^^xsd:string;
+    skos:notation "TIFF"^^xsd:string;
+    skos:prefLabel "TIFF"@nl
+.
+n46:XML a skos:Concept;
+    rdfs:label "XML"@nl;
+    skos:definition "bestandstype heeft als MIME type application/XML"^^xsd:string;
+    skos:notation "XML"^^xsd:string;
+    skos:prefLabel "XML"@nl
+.
+n45:algemeen a skos:Concept;
+    rdfs:label "algemeen"@nl;
+    skos:definition "Algemene tekst die als bijlage wordt meegeleverd."^^xsd:string;
+    skos:notation "algemeen"^^xsd:string;
+    skos:prefLabel "algemeen"@nl
+.
+n45:eisVoorzorgsmaatregel a skos:Concept;
+    rdfs:label "eis voorzorgsmaatregel"@nl;
+    skos:definition "De bijlage geeft de eis voorzorgsmaatregel weer."^^xsd:string;
+    skos:notation "eisVoorzorgsmaatregel"^^xsd:string;
+    skos:prefLabel "eis voorzorgsmaatregel"@nl
+.
+n44:31 a skos:Concept;
+    rdfs:label "aardgasleiding (niet NEN)"@nl;
+    skos:notation "31"^^xsd:string;
+    skos:prefLabel "aardgasleiding (niet NEN)"@nl
+.
+n44:32 a skos:Concept;
+    rdfs:label "K1-leiding"@nl;
+    skos:notation "32"^^xsd:string;
+    skos:prefLabel "K1-leiding"@nl
+.
+n44:33 a skos:Concept;
+    rdfs:label "K2-leiding"@nl;
+    skos:notation "33"^^xsd:string;
+    skos:prefLabel "K2-leiding"@nl
+.
+n44:34 a skos:Concept;
+    rdfs:label "K3-leiding"@nl;
+    skos:notation "34"^^xsd:string;
+    skos:prefLabel "K3-leiding"@nl
+.
+n44:35 a skos:Concept;
+    rdfs:label "defensieleiding"@nl;
+    skos:notation "35"^^xsd:string;
+    skos:prefLabel "defensieleiding"@nl
+.
+n44:36 a skos:Concept;
+    rdfs:label "overig"@nl;
+    skos:definition "Waarde komt niet voor in waardelijst."^^xsd:string;
+    skos:notation "36"^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n44:37 a skos:Concept;
+    rdfs:label "aardgasleiding NEN-3650"@nl;
+    skos:notation "37"^^xsd:string;
+    skos:prefLabel "aardgasleiding NEN-3650"@nl
+.
+n44:onbekend a skos:Concept;
+    rdfs:label "onbekend"@nl;
+    skos:definition "Waarde is onbekend."^^xsd:string;
+    skos:notation "onbekend"^^xsd:string;
+    skos:prefLabel "onbekend"@nl
+.
+n43:binnenonderkantBuis a skos:Concept;
+    rdfs:label "binnenonderkant buis"@nl;
+    skos:definition "Binnenonderkant buis van de leiding ter plaatse van het beginpunt. Alleen optioneel toegestaan voor het thema riool vrijverval."^^xsd:string;
+    skos:notation "binnenonderkantBuis"^^xsd:string;
+    skos:prefLabel "binnenonderkant buis"@nl
+.
+n43:bovenkant a skos:Concept;
+    rdfs:label "bovenkant"@nl;
+    skos:definition "Bovenste punt van het object op de plaats van meting."^^xsd:string;
+    skos:notation "bovenkant"^^xsd:string;
+    skos:prefLabel "bovenkant"@nl
+.
+n42:brandbaar a skos:Concept;
+    rdfs:label "brandbaar"@nl;
+    skos:notation "brandbaar"^^xsd:string;
+    skos:prefLabel "brandbaar"@nl
+.
+n42:explosief a skos:Concept;
+    rdfs:label "explosief"@nl;
+    skos:notation "explosief"^^xsd:string;
+    skos:prefLabel "explosief"@nl
+.
+n42:scherfwerking a skos:Concept;
+    rdfs:label "scherfwerking"@nl;
+    skos:notation "scherfwerking"^^xsd:string;
+    skos:prefLabel "scherfwerking"@nl
+.
+n42:toxisch a skos:Concept;
+    rdfs:label "toxisch"@nl;
+    skos:notation "toxisch"^^xsd:string;
+    skos:prefLabel "toxisch"@nl
+.
+n41:bestaand a skos:Concept;
+    rdfs:label "bestaand"@nl;
+    skos:definition "Bestaande topografie die door de netbeheerder specifiek geregistreerd is ter bepaling van de locatie van een leiding."^^xsd:string;
+    skos:notation "bestaand"^^xsd:string;
+    skos:prefLabel "bestaand"@nl
+.
+n41:plan a skos:Concept;
+    rdfs:label "plan"@nl;
+    skos:definition "Topografie van nog niet gerealiseerde maar wel geplande topografie-objecten."^^xsd:string;
+    skos:notation "plan"^^xsd:string;
+    skos:prefLabel "plan"@nl
+.
+n40:aarding a skos:Concept;
+    ns2:icon 98;
+    ns2:symbol "aarding"^^xsd:string;
+    rdfs:label "aarding"@nl;
+    skos:notation "aarding"^^xsd:string;
+    skos:prefLabel "aarding"@nl
+.
+n40:adrespunt a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "adrespunt"@nl;
+    skos:notation "adrespunt"^^xsd:string;
+    skos:prefLabel "adrespunt"@nl
+.
+n40:afdekplaten a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "afdekplaten"@nl;
+    skos:notation "afdekplaten"^^xsd:string;
+    skos:prefLabel "afdekplaten"@nl
+.
+n40:geulmof a skos:Concept;
+    ns2:icon 108;
+    ns2:symbol "geulmof"^^xsd:string;
+    rdfs:label "geulmof"@nl;
+    skos:notation "geulmof"^^xsd:string;
+    skos:prefLabel "geulmof"@nl
+.
+n40:hoogbouwkoppelpunt a skos:Concept;
+    ns2:icon 97;
+    ns2:symbol "aansluiting"^^xsd:string;
+    rdfs:label "hoogbouwkoppelpunt"@nl;
+    skos:notation "hoogbouwkoppelpunt"^^xsd:string;
+    skos:prefLabel "hoogbouwkoppelpunt"@nl
+.
+n40:hoogteligging a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "hoogteligging"@nl;
+    skos:notation "hoogteligging"^^xsd:string;
+    skos:prefLabel "hoogteligging"@nl
+.
+n40:kbContact a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "kb contact"@nl;
+    skos:definition "als algemeen verbindende KB node"^^xsd:string;
+    skos:notation "kbContact"^^xsd:string;
+    skos:prefLabel "kb contact"@nl
+.
+n40:kbEindpunt a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "kb eindpunt"@nl;
+    skos:definition "isolatiestuk, eindpunt, algemeen niet verbindende KB node"^^xsd:string;
+    skos:notation "kbEindpunt"^^xsd:string;
+    skos:prefLabel "kb eindpunt"@nl
+.
+n40:kbInstallatie a skos:Concept;
+    ns2:icon 101;
+    ns2:symbol "anode"^^xsd:string;
+    rdfs:label "kb installatie"@nl;
+    skos:definition "anode, anodebed, galvanisch anode, gelijkrichter, bron of richter van KB"^^xsd:string;
+    skos:notation "kbInstallatie"^^xsd:string;
+    skos:prefLabel "kb installatie"@nl
+.
+n40:kbMeetpunt a skos:Concept;
+    ns2:icon 110;
+    ns2:symbol "kb-meetpunt"^^xsd:string;
+    rdfs:label "kb meetpunt"@nl;
+    skos:definition '''meetpunt, meetpaal, meetelectrode, punt van meting op KB
+'''^^xsd:string;
+    skos:notation "kbMeetpunt"^^xsd:string;
+    skos:prefLabel "kb meetpunt"@nl
+.
+n40:mof a skos:Concept;
+    ns2:icon 113;
+    ns2:symbol "mof"^^xsd:string;
+    rdfs:label "mof"@nl;
+    skos:notation "mof"^^xsd:string;
+    skos:prefLabel "mof"@nl
+.
+n40:onbekend a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "onbekend"@nl;
+    skos:definition "Waarde is onbekend."^^xsd:string;
+    skos:notation "onbekend"^^xsd:string;
+    skos:prefLabel "onbekend"@nl
+.
+n40:overig a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "overig"@nl;
+    skos:definition "Waarde komt niet voor in waardelijst."^^xsd:string;
+    skos:notation "overig"^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n39:aansluiting a skos:Concept;
+    rdfs:label "aansluiting"@nl;
+    skos:definition "De kabel of leiding die een kabel of leiding verbindt met een aansluitpunt anders dan een huisaansluiting."^^xsd:string;
+    skos:notation "aansluiting"^^xsd:string;
+    skos:prefLabel "aansluiting"@nl
+.
+n39:huisaansluiting a skos:Concept;
+    rdfs:label "huisaansluiting"@nl;
+    skos:definition "De kabel of leiding die een kabel of leiding verbindt met een huisaansluitpunt."^^xsd:string;
+    skos:notation "huisaansluiting"^^xsd:string;
+    skos:prefLabel "huisaansluiting"@nl
+.
+n39:overig a skos:Concept;
+    rdfs:label "overig"@nl;
+    skos:definition "Specifieke netinformatie"^^xsd:string;
+    skos:notation "overig"^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n39:profielschets a skos:Concept;
+    rdfs:label "profielschets"@nl;
+    skos:definition "Dwars- en of lengteprofiel."^^xsd:string;
+    skos:notation "profielschets"^^xsd:string;
+    skos:prefLabel "profielschets"@nl
+.
+n38:0 a skos:Concept;
+    rdfs:label "0"@nl;
+    skos:definition "Label aangrijpingspunt horizontaal is links; label aangrijpingspunt verticaal is onder."^^xsd:string;
+    skos:notation "0"^^xsd:string;
+    skos:prefLabel "0"@nl
+.
+n38:0.5 a skos:Concept;
+    rdfs:label "0.5"@nl;
+    skos:definition "Label aangrijpingspunt horizontaal is midden; label aangrijpingspunt verticaal is midden."^^xsd:string;
+    skos:notation "0.5"^^xsd:string;
+    skos:prefLabel "0.5"@nl
+.
+n38:1 a skos:Concept;
+    rdfs:label "1"@nl;
+    skos:definition "Label aangrijpingspunt horizontaal is rechts; label aangrijpingspunt verticaal is boven."^^xsd:string;
+    skos:notation "1"^^xsd:string;
+    skos:prefLabel "1"@nl
+.
+n36:maatvoeringshulplijn a skos:Concept;
+    rdfs:label "maatvoeringshulplijn"@nl;
+    skos:definition "Lijn om een hulplijn in een maatvoering te visualiseren."^^xsd:string;
+    skos:notation "maatvoeringshulplijn"^^xsd:string;
+    skos:prefLabel "maatvoeringshulplijn"@nl
+.
+n36:maatvoeringslabel a skos:Concept;
+    rdfs:label "maatvoeringslabel"@nl;
+    skos:definition "Punt en label om een label in een maatvoering te visualiseren."^^xsd:string;
+    skos:notation "maatvoeringslabel"^^xsd:string;
+    skos:prefLabel "maatvoeringslabel"@nl
+.
+n36:maatvoeringslijn a skos:Concept;
+    rdfs:label "maatvoeringslijn"@nl;
+    skos:definition "Lijn om een lijn in een maatvoering te visualiseren."^^xsd:string;
+    skos:notation "maatvoeringslijn"^^xsd:string;
+    skos:prefLabel "maatvoeringslijn"@nl
+.
+n36:maatvoeringspijl a skos:Concept;
+    rdfs:label "maatvoeringspijl"@nl;
+    skos:definition "Pijl voor duiding van maatvoering."^^xsd:string;
+    skos:notation "maatvoeringspijl"^^xsd:string;
+    skos:prefLabel "maatvoeringspijl"@nl
+.
+n36:maatvoeringspijlpunt a skos:Concept;
+    rdfs:label "maatvoeringspijlpunt"@nl;
+    skos:definition "Punt om een pijlpunt in een maatvoering te visualiseren."^^xsd:string;
+    skos:notation "maatvoeringspijlpunt"^^xsd:string;
+    skos:prefLabel "maatvoeringspijlpunt"@nl
+.
+n35:onbekend a skos:Concept;
+    rdfs:label "onbekend"@nl;
+    skos:definition "Nauwkeurigheidsgraad is onbekend."^^xsd:string;
+    skos:notation "onbekend"^^xsd:string;
+    skos:prefLabel "onbekend"@nl
+.
+n35:tot100cm a skos:Concept;
+    rdfs:label "tot 100 cm"@nl;
+    skos:definition "Nauwkeurigheidsgraad tot op 100 cm."^^xsd:string;
+    skos:notation "tot100cm"^^xsd:string;
+    skos:prefLabel "tot 100 cm"@nl
+.
+n35:tot30cm a skos:Concept;
+    rdfs:label "tot 30 cm"@nl;
+    skos:definition "Nauwkeurigheidsgraad tot op 30 cm."^^xsd:string;
+    skos:notation "tot30cm"^^xsd:string;
+    skos:prefLabel "tot 30 cm"@nl
+.
+n35:tot50cm a skos:Concept;
+    rdfs:label "tot 50 cm"@nl;
+    skos:definition "Nauwkeurigheidsgraad tot op 50 cm."^^xsd:string;
+    skos:notation "tot50cm"^^xsd:string;
+    skos:prefLabel "tot 50 cm"@nl
+.
+n34:onbekend a skos:Concept;
+    rdfs:label "onbekend"@nl;
+    skos:definition "Nauwkeurigheidsgraad onbekend."^^xsd:string;
+    skos:notation "onbekend"^^xsd:string;
+    skos:prefLabel "onbekend"@nl
+.
+n34:tot100cm a skos:Concept;
+    rdfs:label "tot 100 cm"@nl;
+    skos:definition "Nauwkeurigheidsgraad tot op 100 cm."^^xsd:string;
+    skos:notation "tot100cm"^^xsd:string;
+    skos:prefLabel "tot 100 cm"@nl
+.
+n34:tot30cm a skos:Concept;
+    rdfs:label "tot 30 cm"@nl;
+    skos:definition "Nauwkeurigheidsgraad tot op 30 cm."^^xsd:string;
+    skos:notation "tot30cm"^^xsd:string;
+    skos:prefLabel "tot 30 cm"@nl
+.
+n34:tot50cm a skos:Concept;
+    rdfs:label "tot 50 cm"@nl;
+    skos:definition "Nauwkeurigheidsgraad tot op 50 cm."^^xsd:string;
+    skos:notation "tot50cm"^^xsd:string;
+    skos:prefLabel "tot 50 cm"@nl
+.
+n33:adrespunt a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "adrespunt"@nl;
+    skos:notation "adrespunt"^^xsd:string;
+    skos:prefLabel "adrespunt"@nl
+.
+n33:afdekplaten a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "afdekplaten"@nl;
+    skos:notation "afdekplaten"^^xsd:string;
+    skos:prefLabel "afdekplaten"@nl
+.
+n33:afsluiter a skos:Concept;
+    ns2:icon 100;
+    ns2:symbol "afsluiter"^^xsd:string;
+    rdfs:label "afsluiter"@nl;
+    skos:notation "afsluiter"^^xsd:string;
+    skos:prefLabel "afsluiter"@nl
+.
+n33:aftakzadel a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "aftakzadel"@nl;
+    skos:notation "aftakzadel"^^xsd:string;
+    skos:prefLabel "aftakzadel"@nl
+.
+n33:algemeenGasTransportOnderdeel a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "algemeen (gas) transport onderdeel"@nl;
+    skos:notation "algemeenGasTransportOnderdeel"^^xsd:string;
+    skos:prefLabel "algemeen (gas) transport onderdeel"@nl
+.
+n33:blaasgat a skos:Concept;
+    ns2:icon 102;
+    ns2:symbol "blaasgat"^^xsd:string;
+    rdfs:label "blaasgat"@nl;
+    skos:notation "blaasgat"^^xsd:string;
+    skos:prefLabel "blaasgat"@nl
+.
+n33:bocht a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "bocht"@nl;
+    skos:notation "bocht"^^xsd:string;
+    skos:prefLabel "bocht"@nl
+.
+n33:bodem a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "bodem"@nl;
+    skos:notation "bodem"^^xsd:string;
+    skos:prefLabel "bodem"@nl
+.
+n33:buis a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "buis"@nl;
+    skos:notation "buis"^^xsd:string;
+    skos:prefLabel "buis"@nl
+.
+n33:eindkap a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "eindkap"@nl;
+    skos:notation "eindkap"^^xsd:string;
+    skos:prefLabel "eindkap"@nl
+.
+n33:expansiestuk a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "expansiestuk"@nl;
+    skos:notation "expansiestuk"^^xsd:string;
+    skos:prefLabel "expansiestuk"@nl
+.
+n33:gasstopper a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "gasstopper"@nl;
+    skos:notation "gasstopper"^^xsd:string;
+    skos:prefLabel "gasstopper"@nl
+.
+n33:hoogbouwkoppelpunt a skos:Concept;
+    ns2:icon 97;
+    ns2:symbol "aansluiting"^^xsd:string;
+    rdfs:label "hoogbouwkoppelpunt"@nl;
+    skos:notation "hoogbouwkoppelpunt"^^xsd:string;
+    skos:prefLabel "hoogbouwkoppelpunt"@nl
+.
+n33:hoogteligging a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "hoogteligging"@nl;
+    skos:notation "hoogteligging"^^xsd:string;
+    skos:prefLabel "hoogteligging"@nl
+.
+n33:isolatieKoppeling a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "isolatie koppeling"@nl;
+    skos:notation "isolatieKoppeling"^^xsd:string;
+    skos:prefLabel "isolatie koppeling"@nl
+.
+n33:isolatiestuk a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "isolatiestuk"@nl;
+    skos:notation "isolatiestuk"^^xsd:string;
+    skos:prefLabel "isolatiestuk"@nl
+.
+n33:kbMeetpunt a skos:Concept;
+    ns2:icon 110;
+    ns2:symbol "kb-meetpunt"^^xsd:string;
+    rdfs:label "kb meetpunt"@nl;
+    skos:notation "kbMeetpunt"^^xsd:string;
+    skos:prefLabel "kb meetpunt"@nl
+.
+n33:lasnok a skos:Concept;
+    ns2:icon 111;
+    ns2:symbol "lasnok"^^xsd:string;
+    rdfs:label "lasnok"@nl;
+    skos:notation "lasnok"^^xsd:string;
+    skos:prefLabel "lasnok"@nl
+.
+n33:meetpunt a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "meetpunt"@nl;
+    skos:notation "meetpunt"^^xsd:string;
+    skos:prefLabel "meetpunt"@nl
+.
+n33:onbekend a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "onbekend"@nl;
+    skos:definition "Waarde is onbekend."^^xsd:string;
+    skos:notation "onbekend"^^xsd:string;
+    skos:prefLabel "onbekend"@nl
+.
+n33:ontluchting a skos:Concept;
+    ns2:icon 114;
+    ns2:symbol "ontluchting"^^xsd:string;
+    rdfs:label "ontluchting"@nl;
+    skos:notation "ontluchting"^^xsd:string;
+    skos:prefLabel "ontluchting"@nl
+.
+n33:ontspanningselement a skos:Concept;
+    ns2:icon 115;
+    ns2:symbol "ontspanningselement"^^xsd:string;
+    rdfs:label "ontspanningselement"@nl;
+    skos:notation "ontspanningselement"^^xsd:string;
+    skos:prefLabel "ontspanningselement"@nl
+.
+n33:overgangsstuk a skos:Concept;
+    ns2:icon 106;
+    ns2:symbol "overgangsstuk"^^xsd:string;
+    rdfs:label "overgangsstuk"@nl;
+    skos:notation "overgangsstuk"^^xsd:string;
+    skos:prefLabel "overgangsstuk"@nl
+.
+n33:overig a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "overig"@nl;
+    skos:definition "Waarde komt niet voor in waardelijst."^^xsd:string;
+    skos:notation "overig"^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n33:raaginrichting a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "raaginrichting"@nl;
+    skos:notation "raaginrichting"^^xsd:string;
+    skos:prefLabel "raaginrichting"@nl
+.
+n33:sifon a skos:Concept;
+    ns2:icon 118;
+    ns2:symbol "sifon"^^xsd:string;
+    rdfs:label "sifon"@nl;
+    skos:notation "sifon"^^xsd:string;
+    skos:prefLabel "sifon"@nl
+.
+n33:tstuk a skos:Concept;
+    ns2:icon 121;
+    ns2:symbol "t-stuk"^^xsd:string;
+    rdfs:label "t stuk"@nl;
+    skos:notation "tstuk"^^xsd:string;
+    skos:prefLabel "t stuk"@nl
+.
+n33:verloopstuk a skos:Concept;
+    ns2:icon 106;
+    ns2:symbol "overgangsstuk"^^xsd:string;
+    rdfs:label "verloopstuk"@nl;
+    skos:notation "verloopstuk"^^xsd:string;
+    skos:prefLabel "verloopstuk"@nl
+.
+n33:vloeistofvanger a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "vloeistofvanger"@nl;
+    skos:notation "vloeistofvanger"^^xsd:string;
+    skos:prefLabel "vloeistofvanger"@nl
+.
+n32:bioGas a skos:Concept;
+    rdfs:label "bio gas"@nl;
+    skos:notation "bioGas"^^xsd:string;
+    skos:prefLabel "bio gas"@nl
+.
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/OilGasChemicalsProductTypeIMKLValue/butadiene1,2> a skos:Concept;
+    rdfs:label "butadiene1,2"@nl;
+    skos:notation "butadiene1,2"^^xsd:string;
+    skos:prefLabel "butadiene1,2"@nl
+.
+n32:concrete a skos:Concept;
+    rdfs:label "beton"@nl;
+    skos:notation "concrete"^^xsd:string;
+    skos:prefLabel "beton"@nl
+.
+n32:empty a skos:Concept;
+    rdfs:label "leeg"@nl;
+    skos:notation "empty"^^xsd:string;
+    skos:prefLabel "leeg"@nl
+.
+n32:emulsie a skos:Concept;
+    rdfs:label "emulsie"@nl;
+    skos:notation "emulsie"^^xsd:string;
+    skos:prefLabel "emulsie"@nl
+.
+n32:glycol a skos:Concept;
+    rdfs:label "glycol"@nl;
+    skos:notation "glycol"^^xsd:string;
+    skos:prefLabel "glycol"@nl
+.
+n32:methanol a skos:Concept;
+    rdfs:label "methanol"@nl;
+    skos:notation "methanol"^^xsd:string;
+    skos:prefLabel "methanol"@nl
+.
+n32:mud a skos:Concept;
+    rdfs:label "mud"@nl;
+    skos:notation "mud"^^xsd:string;
+    skos:prefLabel "mud"@nl
+.
+n32:onbekend a skos:Concept;
+    rdfs:label "onbekend"@nl;
+    skos:definition "Waarde is onbekend."^^xsd:string;
+    skos:notation "onbekend"^^xsd:string;
+    skos:prefLabel "onbekend"@nl
+.
+n32:overig a skos:Concept;
+    rdfs:label "overig"@nl;
+    skos:definition "Waarde komt niet voor in waardelijst."^^xsd:string;
+    skos:notation "overig"^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n32:sand a skos:Concept;
+    rdfs:label "zand"@nl;
+    skos:notation "sand"^^xsd:string;
+    skos:prefLabel "zand"@nl
+.
+n32:tetrachloroide a skos:Concept;
+    rdfs:label "tetrachloride"@nl;
+    skos:notation "tetrachloroide"^^xsd:string;
+    skos:prefLabel "tetrachloride"@nl
+.
+n32:water a skos:Concept;
+    rdfs:label "water"@nl;
+    skos:notation "water"^^xsd:string;
+    skos:prefLabel "water"@nl
+.
+n30:onbekend a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "onbekend"@nl;
+    skos:definition "Waarde is onbekend."^^xsd:string;
+    skos:notation "onbekend"^^xsd:string;
+    skos:prefLabel "onbekend"@nl
+.
+n30:overig a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "overig"@nl;
+    skos:definition "Waarde komt niet voor in waardelijst."^^xsd:string;
+    skos:notation "overig"^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n29:ABS a skos:Concept;
+    rdfs:label "acrylonitrile butadiene styrene (ABS) "@nl;
+    skos:notation "ABS"^^xsd:string;
+    skos:prefLabel "acrylonitrile butadiene styrene (ABS) "@nl
+.
+n29:CB a skos:Concept;
+    rdfs:label "CB"@nl;
+    skos:definition "nageiosleerde leiding in cellenbeton met compensatorputten"^^xsd:string;
+    skos:notation "CB"^^xsd:string;
+    skos:prefLabel "CB"@nl
+.
+n29:CPVC a skos:Concept;
+    rdfs:label "chloorpolyvinylchloride (CPVC) "@nl;
+    skos:notation "CPVC"^^xsd:string;
+    skos:prefLabel "chloorpolyvinylchloride (CPVC) "@nl
+.
+n29:FRP a skos:Concept;
+    rdfs:label "vezelversterkte kunststoffen"@nl;
+    skos:notation "FRP"^^xsd:string;
+    skos:prefLabel "vezelversterkte kunststoffen"@nl
+.
+n29:GVK a skos:Concept;
+    rdfs:label "GVK"@nl;
+    skos:notation "GVK"^^xsd:string;
+    skos:prefLabel "GVK"@nl
+.
+n29:HDPE a skos:Concept;
+    rdfs:label "high-density polyethylene (HDPE)"@nl;
+    skos:notation "HDPE"^^xsd:string;
+    skos:prefLabel "high-density polyethylene (HDPE)"@nl
+.
+n29:HPE a skos:Concept;
+    rdfs:label "HPE"@nl;
+    skos:notation "HPE"^^xsd:string;
+    skos:prefLabel "HPE"@nl
+.
+n29:KU a skos:Concept;
+    rdfs:label "KU"@nl;
+    skos:definition "nageisoleerde stalen leiding in een betonbak"^^xsd:string;
+    skos:notation "KU"^^xsd:string;
+    skos:prefLabel "KU"@nl
+.
+n29:PB a skos:Concept;
+    rdfs:label "polybutyleen (PB)"@nl;
+    skos:notation "PB"^^xsd:string;
+    skos:prefLabel "polybutyleen (PB)"@nl
+.
+n29:PE a skos:Concept;
+    rdfs:label "polyethyleen (PE)"@nl;
+    skos:notation "PE"^^xsd:string;
+    skos:prefLabel "polyethyleen (PE)"@nl
+.
+n29:PEX a skos:Concept;
+    rdfs:label "cross-linked high-density polyethylene (PEX) "@nl;
+    skos:notation "PEX"^^xsd:string;
+    skos:prefLabel "cross-linked high-density polyethylene (PEX) "@nl
+.
+n29:PP a skos:Concept;
+    rdfs:label "polypropyleen (PP)"@nl;
+    skos:notation "PP"^^xsd:string;
+    skos:prefLabel "polypropyleen (PP)"@nl
+.
+n29:PVC a skos:Concept;
+    rdfs:label "polyvinylchloride (PVC)"@nl;
+    skos:notation "PVC"^^xsd:string;
+    skos:prefLabel "polyvinylchloride (PVC)"@nl
+.
+n29:PVC-U a skos:Concept;
+    rdfs:label "PVC-U"@nl;
+    skos:notation "PVC-U"^^xsd:string;
+    skos:prefLabel "PVC-U"@nl
+.
+n29:PVCBV a skos:Concept;
+    rdfs:label "polyvinylchloride biaxiaal verstrekt"@nl;
+    skos:notation "PVCBV"^^xsd:string;
+    skos:prefLabel "polyvinylchloride biaxiaal verstrekt"@nl
+.
+n29:PVCinf a skos:Concept;
+    rdfs:label "PVC infiltratie"@nl;
+    skos:notation "PVCinf"^^xsd:string;
+    skos:prefLabel "PVC infiltratie"@nl
+.
+n29:RPMP a skos:Concept;
+    rdfs:label "reinforced polymer mortar (RPMP)"@nl;
+    skos:notation "RPMP"^^xsd:string;
+    skos:prefLabel "reinforced polymer mortar (RPMP)"@nl
+.
+n29:RVS a skos:Concept;
+    rdfs:label "roestvaststaal"@nl;
+    skos:notation "RVS"^^xsd:string;
+    skos:prefLabel "roestvaststaal"@nl
+.
+n29:SLA a skos:Concept;
+    rdfs:label "safe line aluminium"@nl;
+    skos:notation "SLA"^^xsd:string;
+    skos:prefLabel "safe line aluminium"@nl
+.
+n29:SPVC a skos:Concept;
+    rdfs:label "slagvast PVC, hostalit"@nl;
+    skos:notation "SPVC"^^xsd:string;
+    skos:prefLabel "slagvast PVC, hostalit"@nl
+.
+n29:St-Pur-PE a skos:Concept;
+    rdfs:label "staal- pur-polyethyleen"@nl;
+    skos:notation "St-Pur-PE"^^xsd:string;
+    skos:prefLabel "staal- pur-polyethyleen"@nl
+.
+n29:St-St a skos:Concept;
+    rdfs:label "staal in staal"@nl;
+    skos:definition "staal in staal leiding (warmteleiding met daarom heen een vacuumleiding)"^^xsd:string;
+    skos:notation "St-St"^^xsd:string;
+    skos:prefLabel "staal in staal"@nl
+.
+n29:aluminium a skos:Concept;
+    rdfs:label "aluminium"@nl;
+    skos:notation "aluminium"^^xsd:string;
+    skos:prefLabel "aluminium"@nl
+.
+n29:asbestos a skos:Concept;
+    rdfs:label "asbest"@nl;
+    skos:notation "asbestos"^^xsd:string;
+    skos:prefLabel "asbest"@nl
+.
+n29:asbestos-cement a skos:Concept;
+    rdfs:label "asbestcement"@nl;
+    skos:notation "asbestos-cement"^^xsd:string;
+    skos:prefLabel "asbestcement"@nl
+.
+n29:bitumen a skos:Concept;
+    rdfs:label "bitumen"@nl;
+    skos:notation "bitumen"^^xsd:string;
+    skos:prefLabel "bitumen"@nl
+.
+n29:blackIron a skos:Concept;
+    rdfs:label "zwart gietijzer"@nl;
+    skos:definition "Iron without any finish on it, gray-black in color. "^^xsd:string;
+    skos:notation "blackIron"^^xsd:string;
+    skos:prefLabel "zwart gietijzer"@nl
+.
+n29:blackSteel a skos:Concept;
+    rdfs:label "zwart staal"@nl;
+    skos:definition "Steel with a surface layer of dark coloured iron oxides. "^^xsd:string;
+    skos:notation "blackSteel"^^xsd:string;
+    skos:prefLabel "zwart staal"@nl
+.
+n29:castIron a skos:Concept;
+    rdfs:label "gietijzer"@nl;
+    skos:definition "Iron with a high Carbon content (above 2%). "^^xsd:string;
+    skos:notation "castIron"^^xsd:string;
+    skos:prefLabel "gietijzer"@nl
+.
+n29:clay a skos:Concept;
+    rdfs:label "klei"@nl;
+    skos:notation "clay"^^xsd:string;
+    skos:prefLabel "klei"@nl
+.
+n29:compositeConcrete a skos:Concept;
+    rdfs:label "composiet beton"@nl;
+    skos:notation "compositeConcrete"^^xsd:string;
+    skos:prefLabel "composiet beton"@nl
+.
+n29:concrete a skos:Concept;
+    rdfs:label "beton"@nl;
+    skos:notation "concrete"^^xsd:string;
+    skos:prefLabel "beton"@nl
+.
+n29:epoxy a skos:Concept;
+    rdfs:label "epoxy"@nl;
+    skos:notation "epoxy"^^xsd:string;
+    skos:prefLabel "epoxy"@nl
+.
+n29:fibreCement a skos:Concept;
+    rdfs:label "fibre cement"@nl;
+    skos:notation "fibreCement"^^xsd:string;
+    skos:prefLabel "fibre cement"@nl
+.
+n29:galvanizedSteel a skos:Concept;
+    rdfs:label "gegalvaniseerd staal"@nl;
+    skos:notation "galvanizedSteel"^^xsd:string;
+    skos:prefLabel "gegalvaniseerd staal"@nl
+.
+n29:glasvezelVersterkteBeton a skos:Concept;
+    rdfs:label "glasvezel versterkte beton"@nl;
+    skos:notation "glasvezelVersterkteBeton"^^xsd:string;
+    skos:prefLabel "glasvezel versterkte beton"@nl
+.
+n29:glasvezelVersterkteKunststof a skos:Concept;
+    rdfs:label "glasvezel versterkte kunststof"@nl;
+    skos:notation "glasvezelVersterkteKunststof"^^xsd:string;
+    skos:prefLabel "glasvezel versterkte kunststof"@nl
+.
+n29:gradeA a skos:Concept;
+    rdfs:label "grade A"@nl;
+    skos:notation "gradeA"^^xsd:string;
+    skos:prefLabel "grade A"@nl
+.
+n29:gradeB a skos:Concept;
+    rdfs:label "grade B"@nl;
+    skos:notation "gradeB"^^xsd:string;
+    skos:prefLabel "grade B"@nl
+.
+n29:gres a skos:Concept;
+    rdfs:label "gres"@nl;
+    skos:definition "klei: keramisch materiaal dat uit een speciale kleisoort "^^xsd:string;
+    skos:notation "gres"^^xsd:string;
+    skos:prefLabel "gres"@nl
+.
+n29:grijsGietijzer a skos:Concept;
+    rdfs:label "grijs gietijzer"@nl;
+    skos:notation "grijsGietijzer"^^xsd:string;
+    skos:prefLabel "grijs gietijzer"@nl
+.
+n29:ijzer a skos:Concept;
+    rdfs:label "ijzer"@nl;
+    skos:notation "ijzer"^^xsd:string;
+    skos:prefLabel "ijzer"@nl
+.
+n29:koper a skos:Concept;
+    rdfs:label "koper"@nl;
+    skos:notation "koper"^^xsd:string;
+    skos:prefLabel "koper"@nl
+.
+n29:lebit a skos:Concept;
+    rdfs:label "lebit"@nl;
+    skos:definition "Leicht Bitumen. Kurk omsloten stalen leiding gelegd in bitumen"^^xsd:string;
+    skos:notation "lebit"^^xsd:string;
+    skos:prefLabel "lebit"@nl
+.
+n29:lood a skos:Concept;
+    rdfs:label "lood"@nl;
+    skos:notation "lood"^^xsd:string;
+    skos:prefLabel "lood"@nl
+.
+n29:masonry a skos:Concept;
+    rdfs:label "metselwerk"@nl;
+    skos:notation "masonry"^^xsd:string;
+    skos:prefLabel "metselwerk"@nl
+.
+n29:messing a skos:Concept;
+    rdfs:label "messing"@nl;
+    skos:notation "messing"^^xsd:string;
+    skos:prefLabel "messing"@nl
+.
+n29:nodulairGietijzer a skos:Concept;
+    rdfs:label "nodulair gietijzer"@nl;
+    skos:notation "nodulairGietijzer"^^xsd:string;
+    skos:prefLabel "nodulair gietijzer"@nl
+.
+n29:onbekend a skos:Concept;
+    rdfs:label "onbekend"@nl;
+    skos:definition "Waarde is onbekend."^^xsd:string;
+    skos:notation "onbekend"^^xsd:string;
+    skos:prefLabel "onbekend"@nl
+.
+n29:overig a skos:Concept;
+    rdfs:label "overig"@nl;
+    skos:definition "Waarde komt niet voor in waardelijst."^^xsd:string;
+    skos:notation "overig"^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n29:permeobuis a skos:Concept;
+    rdfs:label "permeobuis"@nl;
+    skos:notation "permeobuis"^^xsd:string;
+    skos:prefLabel "permeobuis"@nl
+.
+n29:pitchFibre a skos:Concept;
+    rdfs:label "pitch fibre"@nl;
+    skos:notation "pitchFibre"^^xsd:string;
+    skos:prefLabel "pitch fibre"@nl
+.
+n29:polybutyleen a skos:Concept;
+    rdfs:label "polybutyleen"@nl;
+    skos:notation "polybutyleen"^^xsd:string;
+    skos:prefLabel "polybutyleen"@nl
+.
+n29:polyester a skos:Concept;
+    rdfs:label "polyester"@nl;
+    skos:notation "polyester"^^xsd:string;
+    skos:prefLabel "polyester"@nl
+.
+n29:polyetheen a skos:Concept;
+    rdfs:label "polyetheen"@nl;
+    skos:notation "polyetheen"^^xsd:string;
+    skos:prefLabel "polyetheen"@nl
+.
+n29:polypropyleen a skos:Concept;
+    rdfs:label "polypropyleen"@nl;
+    skos:notation "polypropyleen"^^xsd:string;
+    skos:prefLabel "polypropyleen"@nl
+.
+n29:prestressedReinforcedConcrete a skos:Concept;
+    rdfs:label "prestressed reinforced concrete"@nl;
+    skos:notation "prestressedReinforcedConcrete"^^xsd:string;
+    skos:prefLabel "prestressed reinforced concrete"@nl
+.
+n29:reinforcedConcrete a skos:Concept;
+    rdfs:label "gewapend beton"@nl;
+    skos:notation "reinforcedConcrete"^^xsd:string;
+    skos:prefLabel "gewapend beton"@nl
+.
+n29:sprayedConcrete a skos:Concept;
+    rdfs:label "spuitbeton"@nl;
+    skos:notation "sprayedConcrete"^^xsd:string;
+    skos:prefLabel "spuitbeton"@nl
+.
+n29:steel a skos:Concept;
+    rdfs:label "staal"@nl;
+    skos:notation "steel"^^xsd:string;
+    skos:prefLabel "staal"@nl
+.
+n29:terracotta a skos:Concept;
+    rdfs:label "terracotta"@nl;
+    skos:notation "terracotta"^^xsd:string;
+    skos:prefLabel "terracotta"@nl
+.
+n29:unidentifiedTypeOfPlastics a skos:Concept;
+    rdfs:label "onbekend type kunstof"@nl;
+    skos:notation "unidentifiedTypeOfPlastics"^^xsd:string;
+    skos:prefLabel "onbekend type kunstof"@nl
+.
+n29:wood a skos:Concept;
+    rdfs:label "hout"@nl;
+    skos:notation "wood"^^xsd:string;
+    skos:prefLabel "hout"@nl
+.
+n28:afdekplaten a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "afdekplaten"@nl;
+    skos:notation "afdekplaten"^^xsd:string;
+    skos:prefLabel "afdekplaten"@nl
+.
+n28:onbekend a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "onbekend"@nl;
+    skos:definition "Waarde is onbekend."^^xsd:string;
+    skos:notation "onbekend"^^xsd:string;
+    skos:prefLabel "onbekend"@nl
+.
+n28:overig a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "overig"@nl;
+    skos:definition "Waarde komt niet voor in waardelijst."^^xsd:string;
+    skos:notation "overig"^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n28:overstort a skos:Concept;
+    ns2:icon 117;
+    ns2:symbol "put"^^xsd:string;
+    rdfs:label "overstort"@nl;
+    skos:notation "overstort"^^xsd:string;
+    skos:prefLabel "overstort"@nl
+.
+n28:puntVanLevering a skos:Concept;
+    ns2:icon 97;
+    ns2:symbol "aansluiting"^^xsd:string;
+    rdfs:label "punt van levering"@nl;
+    skos:notation "puntVanLevering"^^xsd:string;
+    skos:prefLabel "punt van levering"@nl
+.
+n27:CAIkabelLeggen a skos:Concept;
+    rdfs:label "CAI kabel leggen"@nl;
+    skos:notation "CAIkabelLeggen"^^xsd:string;
+    skos:prefLabel "CAI kabel leggen"@nl
+.
+n27:HDPEbuisLeggen a skos:Concept;
+    rdfs:label "HDPE buis leggen"@nl;
+    skos:notation "HDPEbuisLeggen"^^xsd:string;
+    skos:prefLabel "HDPE buis leggen"@nl
+.
+n27:OVwerkzaamheden a skos:Concept;
+    rdfs:label "O.V. werkzaamheden"@nl;
+    skos:notation "OVwerkzaamheden"^^xsd:string;
+    skos:prefLabel "O.V. werkzaamheden"@nl
+.
+n27:aardingSlaan a skos:Concept;
+    rdfs:label "aarding slaan"@nl;
+    skos:notation "aardingSlaan"^^xsd:string;
+    skos:prefLabel "aarding slaan"@nl
+.
+n27:archeologischOnderzoek a skos:Concept;
+    rdfs:label "archeologisch onderzoek"@nl;
+    skos:notation "archeologischOnderzoek"^^xsd:string;
+    skos:prefLabel "archeologisch onderzoek"@nl
+.
+n27:baggerwerk a skos:Concept;
+    rdfs:label "baggerwerk"@nl;
+    skos:notation "baggerwerk"^^xsd:string;
+    skos:prefLabel "baggerwerk"@nl
+.
+n27:bestratingswerk a skos:Concept;
+    rdfs:label "bestratingswerk"@nl;
+    skos:notation "bestratingswerk"^^xsd:string;
+    skos:prefLabel "bestratingswerk"@nl
+.
+n27:bodemonderzoekSonderingen a skos:Concept;
+    rdfs:label "bodemonderzoek/sonderingen"@nl;
+    skos:notation "bodemonderzoekSonderingen"^^xsd:string;
+    skos:prefLabel "bodemonderzoek/sonderingen"@nl
+.
+n27:bodemsanering a skos:Concept;
+    rdfs:label "bodemsanering"@nl;
+    skos:notation "bodemsanering"^^xsd:string;
+    skos:prefLabel "bodemsanering"@nl
+.
+n27:bomenRooienOfPlanten a skos:Concept;
+    rdfs:label "bomen rooien of planten"@nl;
+    skos:notation "bomenRooienOfPlanten"^^xsd:string;
+    skos:prefLabel "bomen rooien of planten"@nl
+.
+n27:bouwwerkzaamheden a skos:Concept;
+    rdfs:label "bouwwerkzaamheden"@nl;
+    skos:notation "bouwwerkzaamheden"^^xsd:string;
+    skos:prefLabel "bouwwerkzaamheden"@nl
+.
+n27:damwandBeschoeiingSlaan a skos:Concept;
+    rdfs:label "damwand/beschoeiing slaan"@nl;
+    skos:notation "damwandBeschoeiingSlaan"^^xsd:string;
+    skos:prefLabel "damwand/beschoeiing slaan"@nl
+.
+n27:diepploegen a skos:Concept;
+    rdfs:label "diepploegen"@nl;
+    skos:notation "diepploegen"^^xsd:string;
+    skos:prefLabel "diepploegen"@nl
+.
+n27:drainage a skos:Concept;
+    rdfs:label "drainage"@nl;
+    skos:notation "drainage"^^xsd:string;
+    skos:prefLabel "drainage"@nl
+.
+n27:duikersLeggen a skos:Concept;
+    rdfs:label "duikers leggen"@nl;
+    skos:notation "duikersLeggen"^^xsd:string;
+    skos:prefLabel "duikers leggen"@nl
+.
+n27:funderingswerk a skos:Concept;
+    rdfs:label "funderingswerk"@nl;
+    skos:notation "funderingswerk"^^xsd:string;
+    skos:prefLabel "funderingswerk"@nl
+.
+n27:gasleidingLeggen a skos:Concept;
+    rdfs:label "gasleiding leggen"@nl;
+    skos:notation "gasleidingLeggen"^^xsd:string;
+    skos:prefLabel "gasleiding leggen"@nl
+.
+n27:grondwerkBouwrijpMaken a skos:Concept;
+    rdfs:label "grondwerk/bouwrijp maken"@nl;
+    skos:notation "grondwerkBouwrijpMaken"^^xsd:string;
+    skos:prefLabel "grondwerk/bouwrijp maken"@nl
+.
+n27:handholesPlaatsen a skos:Concept;
+    rdfs:label "handholes plaatsen"@nl;
+    skos:notation "handholesPlaatsen"^^xsd:string;
+    skos:prefLabel "handholes plaatsen"@nl
+.
+n27:heien a skos:Concept;
+    rdfs:label "heien"@nl;
+    skos:notation "heien"^^xsd:string;
+    skos:prefLabel "heien"@nl
+.
+n27:hekwerkPlaatsen a skos:Concept;
+    rdfs:label "hekwerk plaatsen"@nl;
+    skos:notation "hekwerkPlaatsen"^^xsd:string;
+    skos:prefLabel "hekwerk plaatsen"@nl
+.
+n27:hovenierswerkzaamheden a skos:Concept;
+    rdfs:label "hovenierswerkzaamheden"@nl;
+    skos:notation "hovenierswerkzaamheden"^^xsd:string;
+    skos:prefLabel "hovenierswerkzaamheden"@nl
+.
+n27:huisaansluitingenMaken a skos:Concept;
+    rdfs:label "huisaansluitingen maken"@nl;
+    skos:notation "huisaansluitingenMaken"^^xsd:string;
+    skos:prefLabel "huisaansluitingen maken"@nl
+.
+n27:kabelsLeidingenLeggen a skos:Concept;
+    rdfs:label "kabels/leidingen leggen"@nl;
+    skos:notation "kabelsLeidingenLeggen"^^xsd:string;
+    skos:prefLabel "kabels/leidingen leggen"@nl
+.
+n27:kabelsLeidingenVerleggen a skos:Concept;
+    rdfs:label "kabels/leidingen verleggen"@nl;
+    skos:notation "kabelsLeidingenVerleggen"^^xsd:string;
+    skos:prefLabel "kabels/leidingen verleggen"@nl
+.
+n27:leggenHoogspanning a skos:Concept;
+    rdfs:label "leggen hoogspanning"@nl;
+    skos:notation "leggenHoogspanning"^^xsd:string;
+    skos:prefLabel "leggen hoogspanning"@nl
+.
+n27:leggenLaagspanning a skos:Concept;
+    rdfs:label "leggen laagspanning"@nl;
+    skos:notation "leggenLaagspanning"^^xsd:string;
+    skos:prefLabel "leggen laagspanning"@nl
+.
+n27:leggenMiddenspanning a skos:Concept;
+    rdfs:label "leggen middenspanning"@nl;
+    skos:notation "leggenMiddenspanning"^^xsd:string;
+    skos:prefLabel "leggen middenspanning"@nl
+.
+n27:mantelbuisLeggen a skos:Concept;
+    rdfs:label "mantelbuis leggen"@nl;
+    skos:notation "mantelbuisLeggen"^^xsd:string;
+    skos:prefLabel "mantelbuis leggen"@nl
+.
+n27:palenMastenPlaatsenVerwijderen a skos:Concept;
+    rdfs:label "palen/masten plaatsen/verwijderen"@nl;
+    skos:notation "palenMastenPlaatsenVerwijderen"^^xsd:string;
+    skos:prefLabel "palen/masten plaatsen/verwijderen"@nl
+.
+n27:persingBoring a skos:Concept;
+    rdfs:label "persing/boring"@nl;
+    skos:notation "persingBoring"^^xsd:string;
+    skos:prefLabel "persing/boring"@nl
+.
+n27:proefsleuvenGraven a skos:Concept;
+    rdfs:label "proefsleuven graven"@nl;
+    skos:notation "proefsleuvenGraven"^^xsd:string;
+    skos:prefLabel "proefsleuven graven"@nl
+.
+n27:reconstructiewerkzaamheden a skos:Concept;
+    rdfs:label "reconstructiewerkzaamheden"@nl;
+    skos:notation "reconstructiewerkzaamheden"^^xsd:string;
+    skos:prefLabel "reconstructiewerkzaamheden"@nl
+.
+n27:rioleringswerkzaamheden a skos:Concept;
+    rdfs:label "rioleringswerkzaamheden"@nl;
+    skos:notation "rioleringswerkzaamheden"^^xsd:string;
+    skos:prefLabel "rioleringswerkzaamheden"@nl
+.
+n27:ruilverkaveling a skos:Concept;
+    rdfs:label "ruilverkaveling"@nl;
+    skos:notation "ruilverkaveling"^^xsd:string;
+    skos:prefLabel "ruilverkaveling"@nl
+.
+n27:sloopwerkzaamheden a skos:Concept;
+    rdfs:label "sloopwerkzaamheden"@nl;
+    skos:notation "sloopwerkzaamheden"^^xsd:string;
+    skos:prefLabel "sloopwerkzaamheden"@nl
+.
+n27:stadsverwarmingLeggen a skos:Concept;
+    rdfs:label "stadsverwarming leggen"@nl;
+    skos:notation "stadsverwarmingLeggen"^^xsd:string;
+    skos:prefLabel "stadsverwarming leggen"@nl
+.
+n27:stobbenFrezen a skos:Concept;
+    rdfs:label "stobben/frezen"@nl;
+    skos:notation "stobbenFrezen"^^xsd:string;
+    skos:prefLabel "stobben/frezen"@nl
+.
+n27:tanksPuttenContainersInOfUitgraven a skos:Concept;
+    rdfs:label "tanks/putten/containers in- of uitgraven"@nl;
+    skos:notation "tanksPuttenContainersInOfUitgraven"^^xsd:string;
+    skos:prefLabel "tanks/putten/containers in- of uitgraven"@nl
+.
+n27:telefoonkabelsLeggen a skos:Concept;
+    rdfs:label "telefoonkabels leggen"@nl;
+    skos:notation "telefoonkabelsLeggen"^^xsd:string;
+    skos:prefLabel "telefoonkabels leggen"@nl
+.
+n27:trafostationPlaatsen a skos:Concept;
+    rdfs:label "trafostation plaatsen"@nl;
+    skos:notation "trafostationPlaatsen"^^xsd:string;
+    skos:prefLabel "trafostation plaatsen"@nl
+.
+n27:verwijderenKabelsLeidingen a skos:Concept;
+    rdfs:label "verwijderen kabels/leidingen"@nl;
+    skos:notation "verwijderenKabelsLeidingen"^^xsd:string;
+    skos:prefLabel "verwijderen kabels/leidingen"@nl
+.
+n27:vijverGraven a skos:Concept;
+    rdfs:label "vijver graven"@nl;
+    skos:notation "vijverGraven"^^xsd:string;
+    skos:prefLabel "vijver graven"@nl
+.
+n27:voerkuilenGraven a skos:Concept;
+    rdfs:label "voerkuilen graven"@nl;
+    skos:notation "voerkuilenGraven"^^xsd:string;
+    skos:prefLabel "voerkuilen graven"@nl
+.
+n27:waterbouwkundigeWerken a skos:Concept;
+    rdfs:label "waterbouwkundige werken"@nl;
+    skos:notation "waterbouwkundigeWerken"^^xsd:string;
+    skos:prefLabel "waterbouwkundige werken"@nl
+.
+n27:waterleidingLeggen a skos:Concept;
+    rdfs:label "waterleiding leggen"@nl;
+    skos:notation "waterleidingLeggen"^^xsd:string;
+    skos:prefLabel "waterleiding leggen"@nl
+.
+n27:wegenbouw a skos:Concept;
+    rdfs:label "wegenbouw"@nl;
+    skos:notation "wegenbouw"^^xsd:string;
+    skos:prefLabel "wegenbouw"@nl
+.
+n27:werkAanBestaandeLeiding a skos:Concept;
+    rdfs:label "werk aan bestaande leiding"@nl;
+    skos:notation "werkAanBestaandeLeiding"^^xsd:string;
+    skos:prefLabel "werk aan bestaande leiding"@nl
+.
+n27:woningbouw a skos:Concept;
+    rdfs:label "woningbouw"@nl;
+    skos:notation "woningbouw"^^xsd:string;
+    skos:prefLabel "woningbouw"@nl
+.
+n27:woonrijpMaken a skos:Concept;
+    rdfs:label "woonrijp maken"@nl;
+    skos:notation "woonrijpMaken"^^xsd:string;
+    skos:prefLabel "woonrijp maken"@nl
+.
+n27:zinkerMaken a skos:Concept;
+    rdfs:label "zinker maken"@nl;
+    skos:notation "zinkerMaken"^^xsd:string;
+    skos:prefLabel "zinker maken"@nl
+.
+n26:GTWP a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "geultraject wijzigingspunt"@nl;
+    skos:notation "GTWP"^^xsd:string;
+    skos:prefLabel "geultraject wijzigingspunt"@nl
+.
+n26:afdekplaten a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "afdekplaten"@nl;
+    skos:notation "afdekplaten"^^xsd:string;
+    skos:prefLabel "afdekplaten"@nl
+.
+n26:antenna a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "antenne"@nl;
+    skos:notation "antenna"^^xsd:string;
+    skos:prefLabel "antenne"@nl
+.
+n26:doorvoerramen a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "doorvoerramen"@nl;
+    skos:notation "doorvoerramen"^^xsd:string;
+    skos:prefLabel "doorvoerramen"@nl
+.
+n26:handhole a skos:Concept;
+    ns2:icon 117;
+    ns2:symbol "put"^^xsd:string;
+    rdfs:label "handhole"@nl;
+    skos:notation "handhole"^^xsd:string;
+    skos:prefLabel "handhole"@nl
+.
+n26:kabelverdeler a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "kabelverdeler"@nl;
+    skos:notation "kabelverdeler"^^xsd:string;
+    skos:prefLabel "kabelverdeler"@nl
+.
+n26:mof a skos:Concept;
+    ns2:icon 113;
+    ns2:symbol "mof"^^xsd:string;
+    rdfs:label "mof"@nl;
+    skos:notation "mof"^^xsd:string;
+    skos:prefLabel "mof"@nl
+.
+n26:onbekend a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "onbekend"@nl;
+    skos:definition "Waarde is onbekend."^^xsd:string;
+    skos:notation "onbekend"^^xsd:string;
+    skos:prefLabel "onbekend"@nl
+.
+n26:overig a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "overig"@nl;
+    skos:definition "Waarde komt niet voor in waardelijst."^^xsd:string;
+    skos:notation "overig"^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n26:overlengte a skos:Concept;
+    ns2:icon 99;
+    ns2:symbol "overlengte"^^xsd:string;
+    rdfs:label "overlengte"@nl;
+    skos:notation "overlengte"^^xsd:string;
+    skos:prefLabel "overlengte"@nl
+.
+n26:puntVanLevering a skos:Concept;
+    ns2:icon 97;
+    ns2:symbol "aansluiting"^^xsd:string;
+    rdfs:label "punt van levering"@nl;
+    skos:notation "puntVanLevering"^^xsd:string;
+    skos:prefLabel "punt van levering"@nl
+.
+n26:stijgleiding a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "stijgleiding"@nl;
+    skos:notation "stijgleiding"^^xsd:string;
+    skos:prefLabel "stijgleiding"@nl
+.
+n26:termination a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "termination"@nl;
+    skos:notation "termination"^^xsd:string;
+    skos:prefLabel "termination"@nl
+.
+n25:coaxial a skos:Concept;
+    rdfs:label "coaxkabel"@nl;
+    skos:notation "coaxial"^^xsd:string;
+    skos:prefLabel "coaxkabel"@nl
+.
+n25:onbekend a skos:Concept;
+    rdfs:label "onbekend"@nl;
+    skos:definition "Waarde is onbekend."^^xsd:string;
+    skos:notation "onbekend"^^xsd:string;
+    skos:prefLabel "onbekend"@nl
+.
+n25:opticalFiber a skos:Concept;
+    rdfs:label "optische vezel"@nl;
+    skos:notation "opticalFiber"^^xsd:string;
+    skos:prefLabel "optische vezel"@nl
+.
+n25:overig a skos:Concept;
+    rdfs:label "overig"@nl;
+    skos:definition "Waarde komt niet voor in waardelijst."^^xsd:string;
+    skos:notation "overig"^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n25:twistedPair a skos:Concept;
+    rdfs:label "dubbeldraad"@nl;
+    skos:notation "twistedPair"^^xsd:string;
+    skos:prefLabel "dubbeldraad"@nl
+.
+n24:buisleidingGevaarlijkeInhoud a skos:Concept;
+    rdfs:label "buisleiding gevaarlijke inhoud"@nl;
+    skos:definition '''a. aardgasleidingen met een uitwendige diameter van meer dan 50 mm en een druk van meer dan 1600 kPa;
+b. buisleidingen voor het vervoer van brandbare vloeistoffen van de categorien K1, K2 of K3, met een uitwendige diameter van meer dan 100 mm;
+c. buisleidingen voor andere gevaarlijke stoffen dan bedoeld onder a en b, waarvoor het plaatsgebonden risico op een afstand van 5 m gemeten vanaf het hart van de buisleiding hoger is dan 10-6 per jaar.
+Artikel 1 (lid g,h,i en j)
+g. plaatsgebonden risico: risico op een plaats buiten een inrichting, een transportroute of een buisleiding, uitgedrukt als de kans per jaar dat een persoon die onafgebroken en onbeschermd op die plaats zou verblijven, overlijdt als rechtstreeks gevolg van een ongewoon voorval binnen die inrichting, op die transportroute of met die buisleiding, waarbij een gevaarlijke stof betrokken is;
+h. categorie K1: een product niet zijnde een brandbaar gas met een vlampunt dat, bepaald met het toestel van Abel-Pensky, bij een druk van 100 kPa lager is dan 21C;
+i. categorie K2: een product met een vlampunt dat, bepaald met het toestel van Abel-Pensky, bij een druk van 100 kPa ligt tussen de 21C en 55C;
+j. categorie K3: een product met een vlampunt dat, bepaald met het toestel van Pensky-Martens, bij een druk van 100 kPa hoger is dan 55C en lager is dan 100C;'''^^xsd:string;
+    skos:notation "buisleidingGevaarlijkeInhoud"^^xsd:string;
+    skos:prefLabel "buisleiding gevaarlijke inhoud"@nl
+.
+n24:datatransport a skos:Concept;
+    rdfs:label "datatransport"@nl;
+    skos:definition '''De elektronische overdracht van signaalinformatie tussen punten via kabels die deel uitmaken van een net.
+NB: De aansluitleiding kan ook alleen op (huis)aansluitschetsen voorkomen.'''^^xsd:string;
+    skos:notation "datatransport"^^xsd:string;
+    skos:prefLabel "datatransport"@nl
+.
+n24:gasHogeDruk a skos:Concept;
+    rdfs:label "gas hoge druk"@nl;
+    skos:definition '''Een gasleiding hogedruk (HD) heeft een drukniveau hoger dan 200  mBar en bestaat uit een hoofdleiding en een aansluitleiding. HD druksoorten: 8, 4, 1 Bar.
+NB: De aansluitleiding kan ook alleen op (huis)aansluitschetsen voorkomen.
+Opmerking: In de praktijk kunnen netten vanaf 200 mBar op de HD themakaart voorkomen.'''^^xsd:string;
+    skos:notation "gasHogeDruk"^^xsd:string;
+    skos:prefLabel "gas hoge druk"@nl
+.
+n24:gasLageDruk a skos:Concept;
+    rdfs:label "gas lage druk"@nl;
+    skos:definition '''Een gasleiding lagedruk (LD) heeft een drukniveau tot en met 200 mBar en bestaat uit een hoofdleiding en een aansluitleiding. LD druksoorten: 100, 30 mBar.
+NB: De aansluitleiding kan ook alleen op (huis)aansluitschetsen voorkomen.
+Opmerking: In de praktijk kunnen netten tot en met 500 mBar op de LD themakaart voorkomen.'''^^xsd:string;
+    skos:notation "gasLageDruk"^^xsd:string;
+    skos:prefLabel "gas lage druk"@nl
+.
+n24:hoogspanning a skos:Concept;
+    rdfs:label "hoogspanning"@nl;
+    skos:definition '''Toestand waarin het mogelijk is een elektrische stroom te creren; HS = hoogspanning (36 tot en met 220 kV).
+Opmerking: In de praktijk kunnen netten vanaf 20 kV t/m 220 kV op de HS themakaart voorkomen.'''^^xsd:string;
+    skos:notation "hoogspanning"^^xsd:string;
+    skos:prefLabel "hoogspanning"@nl
+.
+n24:laagspanning a skos:Concept;
+    rdfs:label "laagspanning"@nl;
+    skos:definition '''LS kabel bestaat uit hoofdnet en aansluitnet. LS = laagspanning (230 V en 400 V)
+NB: De aansluitleiding kan ook alleen op (huis)aansluitschetsen voorkomen.
+Opmerking: In de praktijk kunnen netten tot en met 1000 Volt op de LS themakaart voorkomen.'''^^xsd:string;
+    skos:notation "laagspanning"^^xsd:string;
+    skos:prefLabel "laagspanning"@nl
+.
+n24:landelijkHoogspanningsnet a skos:Concept;
+    rdfs:label "landelijk hoogspanningsnet"@nl;
+    skos:definition "Toestand waarin het mogelijk is een elektrische stroom te creren;ZHS = zeer hoge spanning (110 kV tot en met 380 kV). "^^xsd:string;
+    skos:notation "landelijkHoogspanningsnet"^^xsd:string;
+    skos:prefLabel "landelijk hoogspanningsnet"@nl
+.
+n24:middenspanning a skos:Concept;
+    rdfs:label "middenspanning"@nl;
+    skos:definition '''MS kabel bestaat uit hoofdnet en aansluitnet. MS = middenspanning (0,4 kV tot 30 kV)
+NB: De aansluitleiding kan ook alleen op (huis)aansluitschetsen voorkomen.
+Opmerking: In de praktijk kunnen netten van 400 Volt op de MS themakaart voorkomen.'''^^xsd:string;
+    skos:notation "middenspanning"^^xsd:string;
+    skos:prefLabel "middenspanning"@nl
+.
+n24:overig a skos:Concept;
+    rdfs:label "overig"@nl;
+    skos:definition "Alle, niet bij de andere thema’s omschreven vormen van transport door middel van kabels en leidingen."^^xsd:string;
+    skos:notation "overig"^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n24:petrochemie a skos:Concept;
+    rdfs:label "(petro)chemie"@nl;
+    skos:definition '''Leiding voor transport van olie of chemicalin, niet vallend onder het thema ‘Buisleiding gevaarlijke inhoud’.
+'''^^xsd:string;
+    skos:notation "petrochemie"^^xsd:string;
+    skos:prefLabel "(petro)chemie"@nl
+.
+n24:rioolOnderOverOfOnderdruk a skos:Concept;
+    rdfs:label "riool onder over- of onderdruk"@nl;
+    skos:definition "Riolering waarbij het transport plaatsvindt door overdruk (uit NEN 3300, Buitenriolering) dan wel onderdruk."^^xsd:string;
+    skos:notation "rioolOnderOverOfOnderdruk"^^xsd:string;
+    skos:prefLabel "riool onder over- of onderdruk"@nl
+.
+n24:rioolVrijverval a skos:Concept;
+    rdfs:label "riool vrijverval"@nl;
+    skos:definition "Riool waardoor afvalwater door de zwaartekracht wordt getransporteerd (uit NEN 3300, Buitenriolering). Inclusief drainage."^^xsd:string;
+    skos:notation "rioolVrijverval"^^xsd:string;
+    skos:prefLabel "riool vrijverval"@nl
+.
+n24:warmte a skos:Concept;
+    rdfs:label "warmte"@nl;
+    skos:definition '''Een warmtenet kan bestaan uit stadswarmte, centraal tapwater en een koude net.
+Een stadswarmtenet bestaat uit aanvoer- en retourleidingen.
+Onderverdeeld in: 
+Transport-, en/of Wijknet en Aansluitleidingen.
+Leidingdiameters 40–1100 mm.
+Temp. 40-120°
+Druk 4-25 bar
+NB: De aansluitleiding kan ook alleen op (huis)aansluitschetsen voorkomen.
+
+Een centraal tapwaternet bestaat uit aanvoer- en recirculatieleidingen,
+Onderverdeeld in:
+Wijknet en Aansluitleidingen.
+Waarbij het mogelijk is dat aanvoer- en recirculatieleiding gecombineerd zijn in én mantel, of een gescheiden trac hebben.
+Temp. 66°
+Druk 2-4 bar
+NB: De aansluitleiding kan ook alleen op (huis)aansluitschetsen voorkomen.
+
+Een koudenet bestaat uit aanvoer- en retourleidingen.
+Onderverdeeld in: 
+Transportnet, en Aansluitleidingen.
+Leidingdiameters 150–800 mm.
+Temp. 5-16°
+Druk 2-16 bar
+NB: De aansluitleiding kan ook alleen op (huis)aansluitschetsen voorkomen.'''^^xsd:string;
+    skos:notation "warmte"^^xsd:string;
+    skos:prefLabel "warmte"@nl
+.
+n24:water a skos:Concept;
+    rdfs:label "water"@nl;
+    skos:definition '''Een waterleiding bestaat uit transport-, distributie- en aansluitleidingen ten behoeve van (drink)water.
+NB: De aansluitleiding kan ook alleen op (huis)aansluitschetsen voorkomen.'''^^xsd:string;
+    skos:notation "water"^^xsd:string;
+    skos:prefLabel "water"@nl
+.
+n24:wees a skos:Concept;
+    rdfs:label "wees"@nl;
+    skos:definition "Alle onbekende leidingen welke bij een eerdere grondroering zijn geconstateerd, die ook na onderzoek niet aan een beheerder waren toe te wijzen en waarvoor de gemeente ingevolge de WION de beheerdersverplichtingen vervult."^^xsd:string;
+    skos:notation "wees"^^xsd:string;
+    skos:prefLabel "wees"@nl
+.
+n23:aarding a skos:Concept;
+    ns2:icon 98;
+    ns2:symbol "aarding"^^xsd:string;
+    rdfs:label "aarding"@nl;
+    skos:notation "aarding"^^xsd:string;
+    skos:prefLabel "aarding"@nl
+.
+n23:afdekplaten a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "afdekplaten"@nl;
+    skos:notation "afdekplaten"^^xsd:string;
+    skos:prefLabel "afdekplaten"@nl
+.
+n23:afsluiter a skos:Concept;
+    ns2:icon 100;
+    ns2:symbol "afsluiter"^^xsd:string;
+    rdfs:label "afsluiter"@nl;
+    skos:notation "afsluiter"^^xsd:string;
+    skos:prefLabel "afsluiter"@nl
+.
+n23:anode a skos:Concept;
+    ns2:icon 101;
+    ns2:symbol "anode"^^xsd:string;
+    rdfs:label "anode"@nl;
+    skos:notation "anode"^^xsd:string;
+    skos:prefLabel "anode"@nl
+.
+n23:bron a skos:Concept;
+    ns2:icon 104;
+    ns2:symbol "bron"^^xsd:string;
+    rdfs:label "bron"@nl;
+    skos:notation "bron"^^xsd:string;
+    skos:prefLabel "bron"@nl
+.
+n23:compensator a skos:Concept;
+    ns2:icon 105;
+    ns2:symbol "compensator"^^xsd:string;
+    rdfs:label "compensator"@nl;
+    skos:notation "compensator"^^xsd:string;
+    skos:prefLabel "compensator"@nl
+.
+n23:gestuurdeBoring a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "gestuurde boring"@nl;
+    skos:notation "gestuurdeBoring"^^xsd:string;
+    skos:prefLabel "gestuurde boring"@nl
+.
+n23:inEnUittredepuntBoringen a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "in- en uittredepunt boringen"@nl;
+    skos:notation "inEnUittredepuntBoringen"^^xsd:string;
+    skos:prefLabel "in- en uittredepunt boringen"@nl
+.
+n23:lekdetectiemeetpunt a skos:Concept;
+    ns2:icon 110;
+    ns2:symbol "kb-meetpunt"^^xsd:string;
+    rdfs:label "lekdetectiemeetpunt"@nl;
+    skos:notation "lekdetectiemeetpunt"^^xsd:string;
+    skos:prefLabel "lekdetectiemeetpunt"@nl
+.
+n23:mantelbuis a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "mantelbuis"@nl;
+    skos:notation "mantelbuis"^^xsd:string;
+    skos:prefLabel "mantelbuis"@nl
+.
+n23:mof a skos:Concept;
+    ns2:icon 113;
+    ns2:symbol "mof"^^xsd:string;
+    rdfs:label "mof"@nl;
+    skos:notation "mof"^^xsd:string;
+    skos:prefLabel "mof"@nl
+.
+n23:onbekend a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "onbekend"@nl;
+    skos:definition "Waarde is onbekend."^^xsd:string;
+    skos:notation "onbekend"^^xsd:string;
+    skos:prefLabel "onbekend"@nl
+.
+n23:ontluchting a skos:Concept;
+    ns2:icon 114;
+    ns2:symbol "ontluchting"^^xsd:string;
+    rdfs:label "ontluchting"@nl;
+    skos:notation "ontluchting"^^xsd:string;
+    skos:prefLabel "ontluchting"@nl
+.
+n23:overdrachtsstation a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "overdrachtsstation"@nl;
+    skos:notation "overdrachtsstation"^^xsd:string;
+    skos:prefLabel "overdrachtsstation"@nl
+.
+n23:overig a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "overig"@nl;
+    skos:definition "Waarde komt niet voor in waardelijst."^^xsd:string;
+    skos:notation "overig"^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n23:pomp a skos:Concept;
+    ns2:icon 116;
+    ns2:symbol "pomp"^^xsd:string;
+    rdfs:label "pomp"@nl;
+    skos:notation "pomp"^^xsd:string;
+    skos:prefLabel "pomp"@nl
+.
+n23:pompstation a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "pompstation"@nl;
+    skos:notation "pompstation"^^xsd:string;
+    skos:prefLabel "pompstation"@nl
+.
+n23:puntVanLevering a skos:Concept;
+    ns2:icon 97;
+    ns2:symbol "aansluiting"^^xsd:string;
+    rdfs:label "punt van levering"@nl;
+    skos:notation "puntVanLevering"^^xsd:string;
+    skos:prefLabel "punt van levering"@nl
+.
+n23:put a skos:Concept;
+    ns2:icon 117;
+    ns2:symbol "put"^^xsd:string;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/put>;
+    rdfs:label "put"@nl;
+    skos:definition "Gegraven of geboorde kokervormige diepte waarin zich (vloei)stoffen bevinden."^^xsd:string;
+    skos:notation "put"^^xsd:string;
+    skos:prefLabel "put"@nl
+.
+n23:zinker a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "zinker"@nl;
+    skos:definition "Zinker (indien diepte t.o.v. NAP ook wordt aangegeven kan dit vervallen)"^^xsd:string;
+    skos:notation "zinker"^^xsd:string;
+    skos:prefLabel "zinker"@nl
+.
+n22:koelwater a skos:Concept;
+    rdfs:label "koelwater"@nl;
+    skos:definition "Water met temperatuur lager dan 20 graden Celsius."^^xsd:string;
+    skos:notation "koelwater"^^xsd:string;
+    skos:prefLabel "koelwater"@nl
+.
+n22:waterHT a skos:Concept;
+    rdfs:label "waterHT"@nl;
+    skos:definition "Water hoge temperatuur; hoger dan 100 graden Celsius."^^xsd:string;
+    skos:notation "waterHT"^^xsd:string;
+    skos:prefLabel "waterHT"@nl
+.
+n22:waterMT a skos:Concept;
+    rdfs:label "waterMT"@nl;
+    skos:definition "Water midden temperatuur; tot en met 100 graden Celsius."^^xsd:string;
+    skos:notation "waterMT"^^xsd:string;
+    skos:prefLabel "waterMT"@nl
+.
+n21:BuildingPart a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/BuildingPart>;
+    rdfs:label "pand"@nl;
+    skos:notation "BuildingPart"^^xsd:string;
+    skos:prefLabel "pand"@nl
+.
+n21:CAIkast a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/CAI-kast>;
+    rdfs:label "CAI-kast"@nl;
+    skos:notation "CAIkast"^^xsd:string;
+    skos:prefLabel "CAI-kast"@nl
+.
+n21:brug a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/brug>;
+    rdfs:label "brug"@nl;
+    skos:notation "brug"^^xsd:string;
+    skos:prefLabel "brug"@nl
+.
+n21:draadraster a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/draadraster>;
+    rdfs:label "draadraster"@nl;
+    skos:notation "draadraster"^^xsd:string;
+    skos:prefLabel "draadraster"@nl
+.
+n21:elektrakast a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/elektrakast>;
+    rdfs:label "elektrakast"@nl;
+    skos:notation "elektrakast"^^xsd:string;
+    skos:prefLabel "elektrakast"@nl
+.
+n21:erf a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/erf>;
+    rdfs:label "erf"@nl;
+    skos:notation "erf"^^xsd:string;
+    skos:prefLabel "erf"@nl
+.
+n21:faunaraster a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/faunaraster>;
+    rdfs:label "faunaraster"@nl;
+    skos:notation "faunaraster"^^xsd:string;
+    skos:prefLabel "faunaraster"@nl
+.
+n21:fietspad a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/fietspad>;
+    rdfs:label "fietspad"@nl;
+    skos:notation "fietspad"^^xsd:string;
+    skos:prefLabel "fietspad"@nl
+.
+n21:gaskast a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/gaskast>;
+    rdfs:label "gaskast"@nl;
+    skos:notation "gaskast"^^xsd:string;
+    skos:prefLabel "gaskast"@nl
+.
+n21:gemaal a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/gemaal>;
+    rdfs:label "gemaal"@nl;
+    skos:notation "gemaal"^^xsd:string;
+    skos:prefLabel "gemaal"@nl
+.
+n21:hectometerpaal a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/hectometerpaal>;
+    rdfs:label "hectometerpaal"@nl;
+    skos:notation "hectometerpaal"^^xsd:string;
+    skos:prefLabel "hectometerpaal"@nl
+.
+n21:hek a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/hek>;
+    rdfs:label "hek"@nl;
+    skos:notation "hek"^^xsd:string;
+    skos:prefLabel "hek"@nl
+.
+n21:hoogspanningsmast a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/hoogspanningsmast>;
+    rdfs:label "hoogspanningsmast"@nl;
+    skos:notation "hoogspanningsmast"^^xsd:string;
+    skos:prefLabel "hoogspanningsmast"@nl
+.
+n21:inspectieputRioolput a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/inspectie-_/_rioolput>;
+    rdfs:label "inspectie- / rioolput"@nl;
+    skos:notation "inspectieputRioolput"^^xsd:string;
+    skos:prefLabel "inspectie- / rioolput"@nl
+.
+n21:kolk a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/kolk>;
+    rdfs:label "kolk"@nl;
+    skos:notation "kolk"^^xsd:string;
+    skos:prefLabel "kolk"@nl
+.
+n21:lichtmast a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/lichtmast>;
+    rdfs:label "lichtmast"@nl;
+    skos:notation "lichtmast"^^xsd:string;
+    skos:prefLabel "lichtmast"@nl
+.
+n21:loods a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/loods>;
+    rdfs:label "loods"@nl;
+    skos:notation "loods"^^xsd:string;
+    skos:prefLabel "loods"@nl
+.
+n21:muur a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/muur>;
+    rdfs:label "muur"@nl;
+    skos:notation "muur"^^xsd:string;
+    skos:prefLabel "muur"@nl
+.
+n21:onbekend a skos:Concept;
+    rdfs:label "onbekend"@nl;
+    skos:definition "Waarde is onbekend."^^xsd:string;
+    skos:notation "onbekend"^^xsd:string;
+    skos:prefLabel "onbekend"@nl
+.
+n21:openbare_verlichtingkast a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/openbare_verlichtingkast>;
+    rdfs:label "openbare verlichtingkast"@nl;
+    skos:notation "openbare_verlichtingkast"^^xsd:string;
+    skos:prefLabel "openbare verlichtingkast"@nl
+.
+n21:overig a skos:Concept;
+    rdfs:label "overig"@nl;
+    skos:definition "Waarde komt niet voor in waardelijst."^^xsd:string;
+    skos:notation "overig"^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n21:overkapping a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/overkapping>;
+    rdfs:label "overkapping"@nl;
+    skos:notation "overkapping"^^xsd:string;
+    skos:prefLabel "overkapping"@nl
+.
+n21:portaal a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/portaal>;
+    rdfs:label "portaal"@nl;
+    skos:notation "portaal"^^xsd:string;
+    skos:prefLabel "portaal"@nl
+.
+n21:rijbaanLokaleWeg a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/rijbaan_lokale_weg>;
+    rdfs:label "rijbaan lokale weg"@nl;
+    skos:notation "rijbaanLokaleWeg"^^xsd:string;
+    skos:prefLabel "rijbaan lokale weg"@nl
+.
+n21:rioolkast a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/rioolkast>;
+    rdfs:label "rioolkast"@nl;
+    skos:notation "rioolkast"^^xsd:string;
+    skos:prefLabel "rioolkast"@nl
+.
+n21:sloot a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/sloot>;
+    rdfs:label "sloot"@nl;
+    skos:notation "sloot"^^xsd:string;
+    skos:prefLabel "sloot"@nl
+.
+n21:steiger a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/steiger>;
+    rdfs:label "steiger"@nl;
+    skos:notation "steiger"^^xsd:string;
+    skos:prefLabel "steiger"@nl
+.
+n21:stuw a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/stuw>;
+    rdfs:label "stuw"@nl;
+    skos:notation "stuw"^^xsd:string;
+    skos:prefLabel "stuw"@nl
+.
+n21:telecomKast a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/telecom_kast>;
+    rdfs:label "telecom kast"@nl;
+    skos:notation "telecomKast"^^xsd:string;
+    skos:prefLabel "telecom kast"@nl
+.
+n21:vegetatieObject a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/SolitaryVegetationObject>;
+    rdfs:label "vegetatie object"@nl;
+    skos:definition "Solitair vegetatieobject of lijn- of vlakvormige groep gelijksoortige vegetatieobjecten met een beperkte omvang."^^xsd:string;
+    skos:notation "vegetatieObject"^^xsd:string;
+    skos:prefLabel "vegetatie object"@nl
+.
+n21:viaduct a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/viaduct>;
+    rdfs:label "viaduct"@nl;
+    skos:notation "viaduct"^^xsd:string;
+    skos:prefLabel "viaduct"@nl
+.
+n21:waterloop a skos:Concept;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/waterloop>;
+    rdfs:label "waterloop"@nl;
+    skos:notation "waterloop"^^xsd:string;
+    skos:prefLabel "waterloop"@nl
+.
+n20:overig a skos:Concept;
+    rdfs:label "overig"@nl;
+    skos:definition "Waarde komt niet voor in waardelijst."^^xsd:string;
+    skos:notation "overig"^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n19:afdekplaten a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "afdekplaten"@nl;
+    skos:notation "afdekplaten"^^xsd:string;
+    skos:prefLabel "afdekplaten"@nl
+.
+n19:afsluiter a skos:Concept;
+    ns2:icon 100;
+    ns2:symbol "afsluiter"^^xsd:string;
+    rdfs:label "afsluiter"@nl;
+    skos:notation "afsluiter"^^xsd:string;
+    skos:prefLabel "afsluiter"@nl
+.
+n19:blindflens a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "blindflens"@nl;
+    skos:notation "blindflens"^^xsd:string;
+    skos:prefLabel "blindflens"@nl
+.
+n19:diameterovergang a skos:Concept;
+    ns2:icon 106;
+    ns2:symbol "overgangsstuk"^^xsd:string;
+    rdfs:label "diameterovergang"@nl;
+    skos:notation "diameterovergang"^^xsd:string;
+    skos:prefLabel "diameterovergang"@nl
+.
+n19:eindpunt a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "eindpunt"@nl;
+    skos:notation "eindpunt"^^xsd:string;
+    skos:prefLabel "eindpunt"@nl
+.
+n19:materiaalovergang a skos:Concept;
+    ns2:icon 106;
+    ns2:symbol "overgangsstuk"^^xsd:string;
+    rdfs:label "materiaalovergang"@nl;
+    skos:notation "materiaalovergang"^^xsd:string;
+    skos:prefLabel "materiaalovergang"@nl
+.
+n19:onbekend a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "onbekend"@nl;
+    skos:definition "Waarde is onbekend."^^xsd:string;
+    skos:notation "onbekend"^^xsd:string;
+    skos:prefLabel "onbekend"@nl
+.
+n19:overig a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "overig"@nl;
+    skos:definition "Waarde komt niet voor in waardelijst."^^xsd:string;
+    skos:notation "overig"^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n19:productiegebied a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "productiegebied"@nl;
+    skos:notation "productiegebied"^^xsd:string;
+    skos:prefLabel "productiegebied"@nl
+.
+n19:puntVanLevering a skos:Concept;
+    ns2:icon 97;
+    ns2:symbol "aansluiting"^^xsd:string;
+    rdfs:label "punt van levering"@nl;
+    skos:notation "puntVanLevering"^^xsd:string;
+    skos:prefLabel "punt van levering"@nl
+.
+n19:put a skos:Concept;
+    ns2:icon 117;
+    ns2:symbol "put"^^xsd:string;
+    ns3:subject <http://definities.geostandaarden.nl/concepten/imgeo/id/begrip/put>;
+    rdfs:label "put"@nl;
+    skos:definition "Gegraven of geboorde kokervormige diepte waarin zich (vloei)stoffen bevinden."^^xsd:string;
+    skos:notation "put"^^xsd:string;
+    skos:prefLabel "put"@nl
+.
+n18:industrial a skos:Concept;
+    rdfs:label "industrieel"@nl;
+    skos:definition "Industrieel afvalwater."^^xsd:string;
+    skos:notation "industrial"^^xsd:string;
+    skos:prefLabel "industrieel"@nl
+.
+n18:onbekend a skos:Concept;
+    rdfs:label "onbekend"@nl;
+    skos:definition "Waarde is onbekend."^^xsd:string;
+    skos:notation "onbekend"^^xsd:string;
+    skos:prefLabel "onbekend"@nl
+.
+n18:overig a skos:Concept;
+    rdfs:label "overig"@nl;
+    skos:definition "Waarde komt niet voor in waardelijst."^^xsd:string;
+    skos:notation "overig"^^xsd:string;
+    skos:prefLabel "overig"@nl
+.
+n18:waste a skos:Concept;
+    rdfs:label "afval"@nl;
+    skos:definition "Afvalwater."^^xsd:string;
+    skos:notation "waste"^^xsd:string;
+    skos:prefLabel "afval"@nl
+.
+n17:AanvraagSoortValue skos:member n49:calamiteitenmelding;
+    skos:member n49:graafmelding;
+    skos:member n49:orientatieverzoek
+.
+n17:AchtergrondkaartSoortValue skos:member n48:bgtRaster;
+    skos:member n48:bgtVectorinformatie
+.
+n17:AnnotatieTypeValue skos:member n47:annotatielabel;
+    skos:member n47:annotatielijn;
+    skos:member n47:annotatiepijlDubbelgericht;
+    skos:member n47:annotatiepijlEnkelgericht;
+    skos:member n47:annotatiepijlpunt
+.
+n17:BestandMediaTypeValue skos:member n46:JPEG;
+    skos:member n46:JSON;
+    skos:member n46:PDF;
+    skos:member n46:PNG;
+    skos:member n46:TIFF;
+    skos:member n46:XML
+.
+n17:BijlageTypeValue skos:member n45:algemeen;
+    skos:member n45:eisVoorzorgsmaatregel
+.
+n17:BuisleidingTypeValue skos:member n44:31;
+    skos:member n44:32;
+    skos:member n44:33;
+    skos:member n44:34;
+    skos:member n44:35;
+    skos:member n44:36;
+    skos:member n44:37;
+    skos:member n44:onbekend
+.
+n17:ConditionOfFacilityIMKLValue skos:member n16:disused;
+    skos:member n16:functional;
+    skos:member n16:projected
+.
+n17:DiepteAangrijpingspuntValue skos:member n43:binnenonderkantBuis;
+    skos:member n43:bovenkant
+.
+n17:EffectScenarioType skos:member n42:brandbaar;
+    skos:member n42:explosief;
+    skos:member n42:scherfwerking;
+    skos:member n42:toxisch
+.
+n17:EigenTopografieStatusValue skos:member n41:bestaand;
+    skos:member n41:plan
+.
+n17:ElectricityAppurtenanceTypeIMKLValue skos:member n40:aarding;
+    skos:member n40:adrespunt;
+    skos:member n40:afdekplaten;
+    skos:member n40:geulmof;
+    skos:member n40:hoogbouwkoppelpunt;
+    skos:member n40:hoogteligging;
+    skos:member n40:kbContact;
+    skos:member n40:kbEindpunt;
+    skos:member n40:kbInstallatie;
+    skos:member n40:kbMeetpunt;
+    skos:member n40:mof;
+    skos:member n40:onbekend;
+    skos:member n40:overig;
+    skos:member n15:connectionBox;
+    skos:member n15:deliveryPoint;
+    skos:member n15:generator;
+    skos:member n15:mainStation;
+    skos:member n15:netStation;
+    skos:member n15:streetLight;
+    skos:member n15:subStation
+.
+n17:ExtraDetailInfoTypeValue skos:member n39:aansluiting;
+    skos:member n39:huisaansluiting;
+    skos:member n39:overig;
+    skos:member n39:profielschets
+.
+n17:LabelpositieValue skos:member n38:0;
+    skos:member n38:0.5;
+    skos:member n38:1
+.
+n17:LandcodeValue skos:member n1:ALB;
+    skos:member n1:AUT;
+    skos:member n1:BEL;
+    skos:member n1:BGR;
+    skos:member n1:CHE;
+    skos:member n1:CYP;
+    skos:member n1:CZE;
+    skos:member n1:DEU;
+    skos:member n1:DNK;
+    skos:member n1:ESP;
+    skos:member n1:EST;
+    skos:member n1:FIN;
+    skos:member n1:FRA;
+    skos:member n1:GBR;
+    skos:member n1:GRC;
+    skos:member n1:HRV;
+    skos:member n1:HUN;
+    skos:member n1:IRL;
+    skos:member n1:ISL;
+    skos:member n1:ITA;
+    skos:member n1:LTU;
+    skos:member n1:LUX;
+    skos:member n1:LVA;
+    skos:member n1:MKD;
+    skos:member n1:MLT;
+    skos:member n1:MNE;
+    skos:member n1:NLD;
+    skos:member n1:POL;
+    skos:member n1:PRT;
+    skos:member n1:ROU;
+    skos:member n1:SRB;
+    skos:member n1:SVK;
+    skos:member n1:SVN;
+    skos:member n1:SWE;
+    skos:member n1:TUR
+.
+n17:MaatvoeringsTypeValue skos:member n36:maatvoeringshulplijn;
+    skos:member n36:maatvoeringslabel;
+    skos:member n36:maatvoeringslijn;
+    skos:member n36:maatvoeringspijl;
+    skos:member n36:maatvoeringspijlpunt
+.
+n17:NauwkeurigheidDiepteValue skos:member n35:onbekend;
+    skos:member n35:tot100cm;
+    skos:member n35:tot30cm;
+    skos:member n35:tot50cm
+.
+n17:NauwkeurigheidXYvalue skos:member n34:onbekend;
+    skos:member n34:tot100cm;
+    skos:member n34:tot30cm;
+    skos:member n34:tot50cm
+.
+n17:OilGasChemicalsAppurtenanceTypeIMKLValue skos:member n33:adrespunt;
+    skos:member n33:afdekplaten;
+    skos:member n33:afsluiter;
+    skos:member n33:aftakzadel;
+    skos:member n33:algemeenGasTransportOnderdeel;
+    skos:member n33:blaasgat;
+    skos:member n33:bocht;
+    skos:member n33:bodem;
+    skos:member n33:buis;
+    skos:member n33:eindkap;
+    skos:member n33:expansiestuk;
+    skos:member n33:gasstopper;
+    skos:member n33:hoogbouwkoppelpunt;
+    skos:member n33:hoogteligging;
+    skos:member n33:isolatieKoppeling;
+    skos:member n33:isolatiestuk;
+    skos:member n33:kbMeetpunt;
+    skos:member n33:lasnok;
+    skos:member n33:meetpunt;
+    skos:member n33:onbekend;
+    skos:member n33:ontluchting;
+    skos:member n33:ontspanningselement;
+    skos:member n33:overgangsstuk;
+    skos:member n33:overig;
+    skos:member n33:raaginrichting;
+    skos:member n33:sifon;
+    skos:member n33:tstuk;
+    skos:member n33:verloopstuk;
+    skos:member n33:vloeistofvanger;
+    skos:member n14:deliveryPoint;
+    skos:member n14:gasStation;
+    skos:member n14:marker;
+    skos:member n14:oilGasChemicalsNode;
+    skos:member n14:productionRegion;
+    skos:member n14:pump;
+    skos:member n14:pumpingStation;
+    skos:member n14:storage;
+    skos:member n14:terminal
+.
+n17:OilGasChemicalsProductTypeIMKLValue skos:member n32:bioGas;
+    skos:member <http://definities.geostandaarden.nl/imkl2015/id/waarde/OilGasChemicalsProductTypeIMKLValue/butadiene1,2>;
+    skos:member n32:concrete;
+    skos:member n32:empty;
+    skos:member n32:emulsie;
+    skos:member n32:glycol;
+    skos:member n32:methanol;
+    skos:member n32:mud;
+    skos:member n32:onbekend;
+    skos:member n32:overig;
+    skos:member n32:sand;
+    skos:member n32:tetrachloroide;
+    skos:member n32:water;
+    skos:member n13:JET-A1;
+    skos:member n13:MVC;
+    skos:member n13:accetone;
+    skos:member n13:air;
+    skos:member n13:argon;
+    skos:member <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/butadiene1,3>;
+    skos:member n13:butane;
+    skos:member n13:carbonMonoxide;
+    skos:member n13:chlorine;
+    skos:member n13:crude;
+    skos:member n13:dichloroethane;
+    skos:member n13:diesel;
+    skos:member n13:ethylene;
+    skos:member n13:gasFabricationOfCocs;
+    skos:member n13:gasHFx;
+    skos:member n13:gasoil;
+    skos:member n13:hydrogen;
+    skos:member n13:isobutane;
+    skos:member n13:kerosene;
+    skos:member n13:liquidAmmonia;
+    skos:member n13:liquidHydrocarbon;
+    skos:member n13:multiProduct;
+    skos:member n13:naturalGas;
+    skos:member n13:nitrogen;
+    skos:member n13:oxygen;
+    skos:member n13:phenol;
+    skos:member n13:propane;
+    skos:member n13:propylene;
+    skos:member n13:saltWater;
+    skos:member n13:saumur
+.
+n17:OverigAppurtenanceTypeIMKLValue skos:member n30:onbekend;
+    skos:member n30:overig
+.
+n17:PipeMaterialTypeIMKLValue skos:member n29:ABS;
+    skos:member n29:CB;
+    skos:member n29:CPVC;
+    skos:member n29:FRP;
+    skos:member n29:GVK;
+    skos:member n29:HDPE;
+    skos:member n29:HPE;
+    skos:member n29:KU;
+    skos:member n29:PB;
+    skos:member n29:PE;
+    skos:member n29:PEX;
+    skos:member n29:PP;
+    skos:member n29:PVC;
+    skos:member n29:PVC-U;
+    skos:member n29:PVCBV;
+    skos:member n29:PVCinf;
+    skos:member n29:RPMP;
+    skos:member n29:RVS;
+    skos:member n29:SLA;
+    skos:member n29:SPVC;
+    skos:member n29:St-Pur-PE;
+    skos:member n29:St-St;
+    skos:member n29:aluminium;
+    skos:member n29:asbestos;
+    skos:member n29:asbestos-cement;
+    skos:member n29:bitumen;
+    skos:member n29:blackIron;
+    skos:member n29:blackSteel;
+    skos:member n29:castIron;
+    skos:member n29:clay;
+    skos:member n29:compositeConcrete;
+    skos:member n29:concrete;
+    skos:member n29:epoxy;
+    skos:member n29:fibreCement;
+    skos:member n29:galvanizedSteel;
+    skos:member n29:glasvezelVersterkteBeton;
+    skos:member n29:glasvezelVersterkteKunststof;
+    skos:member n29:gradeA;
+    skos:member n29:gradeB;
+    skos:member n29:gres;
+    skos:member n29:grijsGietijzer;
+    skos:member n29:ijzer;
+    skos:member n29:koper;
+    skos:member n29:lebit;
+    skos:member n29:lood;
+    skos:member n29:masonry;
+    skos:member n29:messing;
+    skos:member n29:nodulairGietijzer;
+    skos:member n29:onbekend;
+    skos:member n29:overig;
+    skos:member n29:permeobuis;
+    skos:member n29:pitchFibre;
+    skos:member n29:polybutyleen;
+    skos:member n29:polyester;
+    skos:member n29:polyetheen;
+    skos:member n29:polypropyleen;
+    skos:member n29:prestressedReinforcedConcrete;
+    skos:member n29:reinforcedConcrete;
+    skos:member n29:sprayedConcrete;
+    skos:member n29:steel;
+    skos:member n29:terracotta;
+    skos:member n29:unidentifiedTypeOfPlastics;
+    skos:member n29:wood
+.
+n17:RelatedPartyRoleValue skos:member n11:authority;
+    skos:member n11:operator;
+    skos:member n11:owner
+.
+n17:RioolleidingTypeValue skos:member n50:aansluitleiding;
+    skos:member n50:bergbezinkleiding;
+    skos:member n50:bergingsleiding;
+    skos:member n50:doorlatendeleiding;
+    skos:member n50:gemengdRiool;
+    skos:member n50:hemelwaterriool;
+    skos:member n50:openLeiding;
+    skos:member n50:overstortleiding;
+    skos:member n50:stuwrioolleiding;
+    skos:member n50:transportrioolleiding;
+    skos:member n50:vuilwaterriool;
+    skos:member n50:zinker
+.
+n17:SewerAppurtenanceTypeIMKLValue skos:member n50:gemaal;
+    skos:member n50:infiltratievoorziening;
+    skos:member n50:inspectieput;
+    skos:member n50:kolk;
+    skos:member n50:kunstwerk;
+    skos:member n50:reservoir;
+    skos:member n50:uitlaatconstructie;
+    skos:member n28:afdekplaten;
+    skos:member n28:onbekend;
+    skos:member n28:overig;
+    skos:member n28:overstort;
+    skos:member n28:puntVanLevering;
+    skos:member n10:barrel;
+    skos:member n10:catchBasin;
+    skos:member n10:cleanOut;
+    skos:member n10:connection;
+    skos:member n10:dischargeStructure;
+    skos:member n10:specificStructure;
+    skos:member n10:thrustProtection;
+    skos:member n10:tideGate;
+    skos:member n10:watertankOrChamber
+.
+n17:SewerWaterTypeValue skos:member n9:combined;
+    skos:member n9:reclaimed;
+    skos:member n9:sanitary;
+    skos:member n9:storm
+.
+n17:SoortWerkzaamhedenValue skos:member n27:CAIkabelLeggen;
+    skos:member n27:HDPEbuisLeggen;
+    skos:member n27:OVwerkzaamheden;
+    skos:member n27:aardingSlaan;
+    skos:member n27:archeologischOnderzoek;
+    skos:member n27:baggerwerk;
+    skos:member n27:bestratingswerk;
+    skos:member n27:bodemonderzoekSonderingen;
+    skos:member n27:bodemsanering;
+    skos:member n27:bomenRooienOfPlanten;
+    skos:member n27:bouwwerkzaamheden;
+    skos:member n27:damwandBeschoeiingSlaan;
+    skos:member n27:diepploegen;
+    skos:member n27:drainage;
+    skos:member n27:duikersLeggen;
+    skos:member n27:funderingswerk;
+    skos:member n27:gasleidingLeggen;
+    skos:member n27:grondwerkBouwrijpMaken;
+    skos:member n27:handholesPlaatsen;
+    skos:member n27:heien;
+    skos:member n27:hekwerkPlaatsen;
+    skos:member n27:hovenierswerkzaamheden;
+    skos:member n27:huisaansluitingenMaken;
+    skos:member n27:kabelsLeidingenLeggen;
+    skos:member n27:kabelsLeidingenVerleggen;
+    skos:member n27:leggenHoogspanning;
+    skos:member n27:leggenLaagspanning;
+    skos:member n27:leggenMiddenspanning;
+    skos:member n27:mantelbuisLeggen;
+    skos:member n27:palenMastenPlaatsenVerwijderen;
+    skos:member n27:persingBoring;
+    skos:member n27:proefsleuvenGraven;
+    skos:member n27:reconstructiewerkzaamheden;
+    skos:member n27:rioleringswerkzaamheden;
+    skos:member n27:ruilverkaveling;
+    skos:member n27:sloopwerkzaamheden;
+    skos:member n27:stadsverwarmingLeggen;
+    skos:member n27:stobbenFrezen;
+    skos:member n27:tanksPuttenContainersInOfUitgraven;
+    skos:member n27:telefoonkabelsLeggen;
+    skos:member n27:trafostationPlaatsen;
+    skos:member n27:verwijderenKabelsLeidingen;
+    skos:member n27:vijverGraven;
+    skos:member n27:voerkuilenGraven;
+    skos:member n27:waterbouwkundigeWerken;
+    skos:member n27:waterleidingLeggen;
+    skos:member n27:wegenbouw;
+    skos:member n27:werkAanBestaandeLeiding;
+    skos:member n27:woningbouw;
+    skos:member n27:woonrijpMaken;
+    skos:member n27:zinkerMaken
+.
+n17:TelecommunicationsAppurtenanceTypeIMKLValue skos:member n26:GTWP;
+    skos:member n26:afdekplaten;
+    skos:member n26:antenna;
+    skos:member n26:doorvoerramen;
+    skos:member n26:handhole;
+    skos:member n26:kabelverdeler;
+    skos:member n26:mof;
+    skos:member n26:onbekend;
+    skos:member n26:overig;
+    skos:member n26:overlengte;
+    skos:member n26:puntVanLevering;
+    skos:member n26:stijgleiding;
+    skos:member n26:termination
+.
+n17:TelecommunicationsCableMaterialTypeIMKLValue skos:member n25:coaxial;
+    skos:member n25:onbekend;
+    skos:member n25:opticalFiber;
+    skos:member n25:overig;
+    skos:member n25:twistedPair
+.
+n17:Thema skos:member n24:buisleidingGevaarlijkeInhoud;
+    skos:member n24:datatransport;
+    skos:member n24:gasHogeDruk;
+    skos:member n24:gasLageDruk;
+    skos:member n24:hoogspanning;
+    skos:member n24:laagspanning;
+    skos:member n24:landelijkHoogspanningsnet;
+    skos:member n24:middenspanning;
+    skos:member n24:overig;
+    skos:member n24:petrochemie;
+    skos:member n24:rioolOnderOverOfOnderdruk;
+    skos:member n24:rioolVrijverval;
+    skos:member n24:warmte;
+    skos:member n24:water;
+    skos:member n24:wees
+.
+n17:ThermalAppurtenanceTypeIMKLValue skos:member n23:aarding;
+    skos:member n23:afdekplaten;
+    skos:member n23:afsluiter;
+    skos:member n23:anode;
+    skos:member n23:bron;
+    skos:member n23:compensator;
+    skos:member n23:gestuurdeBoring;
+    skos:member n23:inEnUittredepuntBoringen;
+    skos:member n23:lekdetectiemeetpunt;
+    skos:member n23:mantelbuis;
+    skos:member n23:mof;
+    skos:member n23:onbekend;
+    skos:member n23:ontluchting;
+    skos:member n23:overdrachtsstation;
+    skos:member n23:overig;
+    skos:member n23:pomp;
+    skos:member n23:pompstation;
+    skos:member n23:puntVanLevering;
+    skos:member n23:put;
+    skos:member n23:zinker
+.
+n17:ThermalProductTypeIMKLValue skos:member n22:koelwater;
+    skos:member n22:waterHT;
+    skos:member n22:waterMT
+.
+n17:TopografischObjectTypeValue skos:member n21:BuildingPart;
+    skos:member n21:CAIkast;
+    skos:member n21:brug;
+    skos:member n21:draadraster;
+    skos:member n21:elektrakast;
+    skos:member n21:erf;
+    skos:member n21:faunaraster;
+    skos:member n21:fietspad;
+    skos:member n21:gaskast;
+    skos:member n21:gemaal;
+    skos:member n21:hectometerpaal;
+    skos:member n21:hek;
+    skos:member n21:hoogspanningsmast;
+    skos:member n21:inspectieputRioolput;
+    skos:member n21:kolk;
+    skos:member n21:lichtmast;
+    skos:member n21:loods;
+    skos:member n21:muur;
+    skos:member n21:onbekend;
+    skos:member n21:openbare_verlichtingkast;
+    skos:member n21:overig;
+    skos:member n21:overkapping;
+    skos:member n21:portaal;
+    skos:member n21:rijbaanLokaleWeg;
+    skos:member n21:rioolkast;
+    skos:member n21:sloot;
+    skos:member n21:steiger;
+    skos:member n21:stuw;
+    skos:member n21:telecomKast;
+    skos:member n21:vegetatieObject;
+    skos:member n21:viaduct;
+    skos:member n21:waterloop
+.
+n17:UtilityDeliveryTypeValue skos:member n8:collection;
+    skos:member n8:distribution;
+    skos:member n8:private;
+    skos:member n8:transport
+.
+n17:UtilityNetworkTypeIMKLValue skos:member n20:overig;
+    skos:member n7:electricity;
+    skos:member n7:oilGasChemical;
+    skos:member n7:sewer;
+    skos:member n7:telecommunications;
+    skos:member n7:thermal;
+    skos:member n7:water
+.
+n17:VoidReasonValue skos:member n6:Unknown;
+    skos:member n6:Unpopulated;
+    skos:member n6:Withheld
+.
+n17:WarningTypeValue skos:member n5:concretePaving;
+    skos:member n5:net;
+    skos:member n5:tape
+.
+n17:WaterAppurtenanceTypeIMKLValue skos:member n19:afdekplaten;
+    skos:member n19:afsluiter;
+    skos:member n19:blindflens;
+    skos:member n19:diameterovergang;
+    skos:member n19:eindpunt;
+    skos:member n19:materiaalovergang;
+    skos:member n19:onbekend;
+    skos:member n19:overig;
+    skos:member n19:productiegebied;
+    skos:member n19:puntVanLevering;
+    skos:member n19:put;
+    skos:member n4:anode;
+    skos:member n4:checkValve;
+    skos:member n4:controlValve;
+    skos:member n4:fireHydrant;
+    skos:member n4:junction;
+    skos:member n4:lateralPoint;
+    skos:member n4:meter;
+    skos:member n4:pressureController;
+    skos:member n4:pumpStation;
+    skos:member n4:samplingStation;
+    skos:member n4:storageFacility;
+    skos:member n4:treatmentPlant;
+    skos:member n4:waterDischargePoint;
+    skos:member n4:waterExhaustPoint;
+    skos:member n4:waterServicePoint;
+    skos:member n4:well
+.
+n17:WaterTypeIMKLValue skos:member n18:industrial;
+    skos:member n18:onbekend;
+    skos:member n18:overig;
+    skos:member n18:waste;
+    skos:member n3:potable;
+    skos:member n3:raw;
+    skos:member n3:salt;
+    skos:member n3:treated
+.
+n17:onGroundSurface skos:member n2:onGroundSurface
+.
+n17:suspendedOrElevated skos:member n2:suspendedOrElevated
+.
+n17:underground skos:member n2:underground
+.
+n16:disused a skos:Concept;
+    rdfs:label "buiten gebruik"@nl;
+    skos:definition "De faciliteit wordt niet meer gebruikt, maar wordt niet of is niet ontmanteld."^^xsd:string;
+    skos:notation "disused"^^xsd:string;
+    skos:prefLabel "buiten gebruik"@nl
+.
+n16:functional a skos:Concept;
+    rdfs:label "functioneel"@nl;
+    skos:definition "De faciliteit is functioneel."^^xsd:string;
+    skos:notation "functional"^^xsd:string;
+    skos:prefLabel "functioneel"@nl
+.
+n16:projected a skos:Concept;
+    rdfs:label "geprojecteerd"@nl;
+    skos:definition "De faciliteit wordt ontworpen. De bouwwerkzaamheden zijn nog niet begonnen."^^xsd:string;
+    skos:notation "projected"^^xsd:string;
+    skos:prefLabel "geprojecteerd"@nl
+.
+n15:connectionBox a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "aansluitkast"@nl;
+    skos:notation "connectionBox"^^xsd:string;
+    skos:prefLabel "aansluitkast"@nl
+.
+n15:deliveryPoint a skos:Concept;
+    ns2:icon 97;
+    ns2:symbol "aansluiting"^^xsd:string;
+    rdfs:label "punt van levering"@nl;
+    skos:notation "deliveryPoint"^^xsd:string;
+    skos:prefLabel "punt van levering"@nl
+.
+n15:generator a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "generator"@nl;
+    skos:notation "generator"^^xsd:string;
+    skos:prefLabel "generator"@nl
+.
+n15:mainStation a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "centrale"@nl;
+    skos:notation "mainStation"^^xsd:string;
+    skos:prefLabel "centrale"@nl
+.
+n15:netStation a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "netstation"@nl;
+    skos:notation "netStation"^^xsd:string;
+    skos:prefLabel "netstation"@nl
+.
+n15:streetLight a skos:Concept;
+    ns2:icon 120;
+    ns2:symbol "straatlantaarn"^^xsd:string;
+    rdfs:label "straatverlichting"@nl;
+    skos:notation "streetLight"^^xsd:string;
+    skos:prefLabel "straatverlichting"@nl
+.
+n15:subStation a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "onderstation"@nl;
+    skos:notation "subStation"^^xsd:string;
+    skos:prefLabel "onderstation"@nl
+.
+n14:deliveryPoint a skos:Concept;
+    ns2:icon 97;
+    ns2:symbol "aansluiting"^^xsd:string;
+    rdfs:label "punt van levering"@nl;
+    skos:notation "deliveryPoint"^^xsd:string;
+    skos:prefLabel "punt van levering"@nl
+.
+n14:gasStation a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "gasstation"@nl;
+    skos:notation "gasStation"^^xsd:string;
+    skos:prefLabel "gasstation"@nl
+.
+n14:marker a skos:Concept;
+    ns2:icon 112;
+    ns2:symbol "markering"^^xsd:string;
+    rdfs:label "markering"@nl;
+    skos:notation "marker"^^xsd:string;
+    skos:prefLabel "markering"@nl
+.
+n14:oilGasChemicalsNode a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "olie-, gas- of chemicaliënnode"@nl;
+    skos:definition "Knooppunt in een olie-, gas- en chemicaliënnet."^^xsd:string;
+    skos:notation "oilGasChemicalsNode"^^xsd:string;
+    skos:prefLabel "olie-, gas- of chemicaliënnode"@nl
+.
+n14:productionRegion a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "productiegebied"@nl;
+    skos:notation "productionRegion"^^xsd:string;
+    skos:prefLabel "productiegebied"@nl
+.
+n14:pump a skos:Concept;
+    ns2:icon 116;
+    ns2:symbol "pomp"^^xsd:string;
+    rdfs:label "pomp"@nl;
+    skos:notation "pump"^^xsd:string;
+    skos:prefLabel "pomp"@nl
+.
+n14:pumpingStation a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "pompstation"@nl;
+    skos:notation "pumpingStation"^^xsd:string;
+    skos:prefLabel "pompstation"@nl
+.
+n14:storage a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "opslagvoorziening"@nl;
+    skos:notation "storage"^^xsd:string;
+    skos:prefLabel "opslagvoorziening"@nl
+.
+n14:terminal a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "terminal"@nl;
+    skos:notation "terminal"^^xsd:string;
+    skos:prefLabel "terminal"@nl
+.
+n13:JET-A1 a skos:Concept;
+    rdfs:label "JET-A1"@nl;
+    skos:notation "JET-A1"^^xsd:string;
+    skos:prefLabel "JET-A1"@nl
+.
+n13:MVC a skos:Concept;
+    rdfs:label "MVC"@nl;
+    skos:notation "MVC"^^xsd:string;
+    skos:prefLabel "MVC"@nl
+.
+n13:accetone a skos:Concept;
+    rdfs:label "aceton"@nl;
+    skos:notation "accetone"^^xsd:string;
+    skos:prefLabel "aceton"@nl
+.
+n13:air a skos:Concept;
+    rdfs:label "lucht"@nl;
+    skos:notation "air"^^xsd:string;
+    skos:prefLabel "lucht"@nl
+.
+n13:argon a skos:Concept;
+    rdfs:label "argon"@nl;
+    skos:notation "argon"^^xsd:string;
+    skos:prefLabel "argon"@nl
+.
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/butadiene1,3> a skos:Concept;
+    rdfs:label "butadiene1,3"@nl;
+    skos:notation "butadiene1,3"^^xsd:string;
+    skos:prefLabel "butadiene1,3"@nl
+.
+n13:butane a skos:Concept;
+    rdfs:label "butaan"@nl;
+    skos:notation "butane"^^xsd:string;
+    skos:prefLabel "butaan"@nl
+.
+n13:carbonMonoxide a skos:Concept;
+    rdfs:label "koolmonoxide"@nl;
+    skos:notation "carbonMonoxide"^^xsd:string;
+    skos:prefLabel "koolmonoxide"@nl
+.
+n13:chlorine a skos:Concept;
+    rdfs:label "chloor"@nl;
+    skos:notation "chlorine"^^xsd:string;
+    skos:prefLabel "chloor"@nl
+.
+n13:crude a skos:Concept;
+    rdfs:label "ruwe olie"@nl;
+    skos:notation "crude"^^xsd:string;
+    skos:prefLabel "ruwe olie"@nl
+.
+n13:dichloroethane a skos:Concept;
+    rdfs:label "dichloorethaan"@nl;
+    skos:notation "dichloroethane"^^xsd:string;
+    skos:prefLabel "dichloorethaan"@nl
+.
+n13:diesel a skos:Concept;
+    rdfs:label "diesel"@nl;
+    skos:notation "diesel"^^xsd:string;
+    skos:prefLabel "diesel"@nl
+.
+n13:ethylene a skos:Concept;
+    rdfs:label "ethyleen"@nl;
+    skos:notation "ethylene"^^xsd:string;
+    skos:prefLabel "ethyleen"@nl
+.
+n13:gasFabricationOfCocs a skos:Concept;
+    rdfs:label "gas fabrication of cocs"@nl;
+    skos:notation "gasFabricationOfCocs"^^xsd:string;
+    skos:prefLabel "gas fabrication of cocs"@nl
+.
+n13:gasHFx a skos:Concept;
+    rdfs:label "gasHFx"@nl;
+    skos:notation "gasHFx"^^xsd:string;
+    skos:prefLabel "gasHFx"@nl
+.
+n13:gasoil a skos:Concept;
+    rdfs:label "diesel"@nl;
+    skos:notation "gasoil"^^xsd:string;
+    skos:prefLabel "diesel"@nl
+.
+n13:hydrogen a skos:Concept;
+    rdfs:label "waterstof"@nl;
+    skos:notation "hydrogen"^^xsd:string;
+    skos:prefLabel "waterstof"@nl
+.
+n13:isobutane a skos:Concept;
+    rdfs:label "isobutaan"@nl;
+    skos:notation "isobutane"^^xsd:string;
+    skos:prefLabel "isobutaan"@nl
+.
+n13:kerosene a skos:Concept;
+    rdfs:label "kerosine"@nl;
+    skos:notation "kerosene"^^xsd:string;
+    skos:prefLabel "kerosine"@nl
+.
+n13:liquidAmmonia a skos:Concept;
+    rdfs:label "vloeibaar amoniak"@nl;
+    skos:notation "liquidAmmonia"^^xsd:string;
+    skos:prefLabel "vloeibaar amoniak"@nl
+.
+n13:liquidHydrocarbon a skos:Concept;
+    rdfs:label "vloeibaar koolwaterstof"@nl;
+    skos:notation "liquidHydrocarbon"^^xsd:string;
+    skos:prefLabel "vloeibaar koolwaterstof"@nl
+.
+n13:multiProduct a skos:Concept;
+    rdfs:label "multi product"@nl;
+    skos:notation "multiProduct"^^xsd:string;
+    skos:prefLabel "multi product"@nl
+.
+n13:naturalGas a skos:Concept;
+    rdfs:label "aardgas"@nl;
+    skos:notation "naturalGas"^^xsd:string;
+    skos:prefLabel "aardgas"@nl
+.
+n13:nitrogen a skos:Concept;
+    rdfs:label "stikstof"@nl;
+    skos:notation "nitrogen"^^xsd:string;
+    skos:prefLabel "stikstof"@nl
+.
+n13:oxygen a skos:Concept;
+    rdfs:label "zuurstof"@nl;
+    skos:notation "oxygen"^^xsd:string;
+    skos:prefLabel "zuurstof"@nl
+.
+n13:phenol a skos:Concept;
+    rdfs:label "fenol"@nl;
+    skos:notation "phenol"^^xsd:string;
+    skos:prefLabel "fenol"@nl
+.
+n13:propane a skos:Concept;
+    rdfs:label "propaan"@nl;
+    skos:notation "propane"^^xsd:string;
+    skos:prefLabel "propaan"@nl
+.
+n13:propylene a skos:Concept;
+    rdfs:label "propyleen"@nl;
+    skos:notation "propylene"^^xsd:string;
+    skos:prefLabel "propyleen"@nl
+.
+n13:saltWater a skos:Concept;
+    rdfs:label "zout water"@nl;
+    skos:notation "saltWater"^^xsd:string;
+    skos:prefLabel "zout water"@nl
+.
+n13:saumur a skos:Concept;
+    rdfs:label "saumur"@nl;
+    skos:notation "saumur"^^xsd:string;
+    skos:prefLabel "saumur"@nl
+.
+n11:authority a skos:Concept;
+    rdfs:label "autoriteit"@nl;
+    skos:definition "Een betrokkene die wettelijk is verplicht om toe te zien op een hulpbron en/of bij een hulpbron betrokkenen."^^xsd:string;
+    skos:notation "authority"^^xsd:string;
+    skos:prefLabel "autoriteit"@nl
+.
+n11:operator a skos:Concept;
+    rdfs:label "exploitant"@nl;
+    skos:definition "Een betrokkene die een hulpbron beheert."^^xsd:string;
+    skos:notation "operator"^^xsd:string;
+    skos:prefLabel "exploitant"@nl
+.
+n11:owner a skos:Concept;
+    rdfs:label "eigenaar"@nl;
+    skos:definition "Een betrokkene die een hulpbron bezit, d.w.z. aan wie een hulpbron wettelijk toebehoort."^^xsd:string;
+    skos:notation "owner"^^xsd:string;
+    skos:prefLabel "eigenaar"@nl
+.
+n10:barrel a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "mangatbuis"@nl;
+    skos:notation "barrel"^^xsd:string;
+    skos:prefLabel "mangatbuis"@nl
+.
+n10:catchBasin a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "opvangbekken"@nl;
+    skos:notation "catchBasin"^^xsd:string;
+    skos:prefLabel "opvangbekken"@nl
+.
+n10:cleanOut a skos:Concept;
+    ns2:icon 100;
+    ns2:symbol "afsluiter"^^xsd:string;
+    rdfs:label "afsluiter"@nl;
+    skos:notation "cleanOut"^^xsd:string;
+    skos:prefLabel "afsluiter"@nl
+.
+n10:connection a skos:Concept;
+    ns2:icon 97;
+    ns2:symbol "aansluiting"^^xsd:string;
+    rdfs:label "aansluiting"@nl;
+    skos:notation "connection"^^xsd:string;
+    skos:prefLabel "aansluiting"@nl
+.
+n10:dischargeStructure a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "afvoerinrichting"@nl;
+    skos:notation "dischargeStructure"^^xsd:string;
+    skos:prefLabel "afvoerinrichting"@nl
+.
+n10:specificStructure a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "specifieke structuur"@nl;
+    skos:notation "specificStructure"^^xsd:string;
+    skos:prefLabel "specifieke structuur"@nl
+.
+n10:thrustProtection a skos:Concept;
+    ns2:icon 119;
+    ns2:symbol "stootbeschermer"^^xsd:string;
+    rdfs:label "stootbeschermer"@nl;
+    skos:notation "thrustProtection"^^xsd:string;
+    skos:prefLabel "stootbeschermer"@nl
+.
+n10:tideGate a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "wachtdeur"@nl;
+    skos:notation "tideGate"^^xsd:string;
+    skos:prefLabel "wachtdeur"@nl
+.
+n10:watertankOrChamber a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "watertank of -kelder"@nl;
+    skos:notation "watertankOrChamber"^^xsd:string;
+    skos:prefLabel "watertank of -kelder"@nl
+.
+n9:combined a skos:Concept;
+    rdfs:label "gemengd"@nl;
+    skos:definition "Gecombineerd afvalwater."^^xsd:string;
+    skos:notation "combined"^^xsd:string;
+    skos:prefLabel "gemengd"@nl
+.
+n9:reclaimed a skos:Concept;
+    rdfs:label "teruggewonnen"@nl;
+    skos:definition "Teruggewonnen water."^^xsd:string;
+    skos:notation "reclaimed"^^xsd:string;
+    skos:prefLabel "teruggewonnen"@nl
+.
+n9:sanitary a skos:Concept;
+    rdfs:label "huishoudelijk afvalwater"@nl;
+    skos:definition "Huishoudelijk afvalwater."^^xsd:string;
+    skos:notation "sanitary"^^xsd:string;
+    skos:prefLabel "huishoudelijk afvalwater"@nl
+.
+n9:storm a skos:Concept;
+    rdfs:label "hemelwater"@nl;
+    skos:definition "Regenwater."^^xsd:string;
+    skos:notation "storm"^^xsd:string;
+    skos:prefLabel "hemelwater"@nl
+.
+n8:collection a skos:Concept;
+    rdfs:label "inzameling"@nl;
+    skos:definition "Beschrijving van een nutsvoorzieningennet waarbij het nutsproduct wordt aangeleverd door middel van inzameling (bv. het opvangen van afvalwater van klanten in het geval van een rioleringsnet)."^^xsd:string;
+    skos:notation "collection"^^xsd:string;
+    skos:prefLabel "inzameling"@nl
+.
+n8:distribution a skos:Concept;
+    rdfs:label "distributie"@nl;
+    skos:definition "Beschrijving van een nutsvoorzieningennet waarbij het nutsproduct wordt aangeleverd door middel van lokal distributie (bv. de lokale distributie van elektriciteit) via een rechstreekse verbinding met de klanten."^^xsd:string;
+    skos:notation "distribution"^^xsd:string;
+    skos:prefLabel "distributie"@nl
+.
+n8:private a skos:Concept;
+    rdfs:label "particulier"@nl;
+    skos:definition "Beschrijving van een nutsvoorzieningennet waarbij het nutsproduct wordt aangeleverd via een klein particulier net (dat bv. eigendom is van een particulier bedrijf)."^^xsd:string;
+    skos:notation "private"^^xsd:string;
+    skos:prefLabel "particulier"@nl
+.
+n8:transport a skos:Concept;
+    rdfs:label "transport"@nl;
+    skos:definition "Beschrijving van een nutsvoorzieningennet waarbij het nutsproduct wordt aangeleverd via een groot vervoernet (bv. voor het overbrengen van olie-, gas- of chemische producten over grotere afstanden)."^^xsd:string;
+    skos:notation "transport"^^xsd:string;
+    skos:prefLabel "transport"@nl
+.
+n7:electricity a skos:Concept;
+    rdfs:label "elektriciteit"@nl;
+    skos:notation "electricity"^^xsd:string;
+    skos:prefLabel "elektriciteit"@nl
+.
+n7:oilGasChemical a skos:Concept;
+    rdfs:label "olie, gas of chemicaliën"@nl;
+    skos:notation "oilGasChemical"^^xsd:string;
+    skos:prefLabel "olie, gas of chemicaliën"@nl
+.
+n7:sewer a skos:Concept;
+    rdfs:label "riolering"@nl;
+    skos:notation "sewer"^^xsd:string;
+    skos:prefLabel "riolering"@nl
+.
+n7:telecommunications a skos:Concept;
+    rdfs:label "telecommunicatie"@nl;
+    skos:notation "telecommunications"^^xsd:string;
+    skos:prefLabel "telecommunicatie"@nl
+.
+n7:thermal a skos:Concept;
+    rdfs:label "warmte"@nl;
+    skos:notation "thermal"^^xsd:string;
+    skos:prefLabel "warmte"@nl
+.
+n7:water a skos:Concept;
+    rdfs:label "water"@nl;
+    skos:notation "water"^^xsd:string;
+    skos:prefLabel "water"@nl
+.
+n6:Unknown a skos:Concept;
+    rdfs:label "waarde onbekend"@nl;
+    skos:definition "The correct value for the specific spatial object is not known to, and not computable by, the data provider. However, a correct value may exist."^^xsd:string;
+    skos:notation "Unknown"^^xsd:string;
+    skos:prefLabel "waarde onbekend"@nl
+.
+n6:Unpopulated a skos:Concept;
+    rdfs:label "niet ondersteund"@nl;
+    skos:definition "The characteristic is not part of the dataset maintained by the data provider. However, the characteristic may exist in the real world."^^xsd:string;
+    skos:notation "Unpopulated"^^xsd:string;
+    skos:prefLabel "niet ondersteund"@nl
+.
+n6:Withheld a skos:Concept;
+    rdfs:label "niet geautoriseerd"@nl;
+    skos:definition "The characteristic may exist, but is confidential and not divulged by the data provider."^^xsd:string;
+    skos:notation "Withheld"^^xsd:string;
+    skos:prefLabel "niet geautoriseerd"@nl
+.
+n5:concretePaving a skos:Concept;
+    rdfs:label "betonnen plaveisel"@nl;
+    skos:definition "Een reeks betonnen stenen of tegels ter afdekking van kabels of pijpleidingen."^^xsd:string;
+    skos:notation "concretePaving"^^xsd:string;
+    skos:prefLabel "betonnen plaveisel"@nl
+.
+n5:net a skos:Concept;
+    rdfs:label "net"@nl;
+    skos:definition "Waarschuwingsnet ter bescherming van kabels en pijpleidingen."^^xsd:string;
+    skos:notation "net"^^xsd:string;
+    skos:prefLabel "net"@nl
+.
+n5:tape a skos:Concept;
+    rdfs:label "lint"@nl;
+    skos:definition "Waarschuwingslint (ook markeringslint genoemd) is een sterk kunststofband in een signaalkleur of met een fel contrasterende kleurencombinatie (zoals geel-zwart of rood-wit)."^^xsd:string;
+    skos:notation "tape"^^xsd:string;
+    skos:prefLabel "lint"@nl
+.
+n4:anode a skos:Concept;
+    ns2:icon 101;
+    ns2:symbol "anode"^^xsd:string;
+    rdfs:label "anode"@nl;
+    skos:notation "anode"^^xsd:string;
+    skos:prefLabel "anode"@nl
+.
+n4:checkValve a skos:Concept;
+    ns2:icon 100;
+    ns2:symbol "afsluiter"^^xsd:string;
+    rdfs:label "afsluitklep"@nl;
+    skos:notation "checkValve"^^xsd:string;
+    skos:prefLabel "afsluitklep"@nl
+.
+n4:controlValve a skos:Concept;
+    ns2:icon 100;
+    ns2:symbol "afsluiter"^^xsd:string;
+    rdfs:label "controleventiel"@nl;
+    skos:notation "controlValve"^^xsd:string;
+    skos:prefLabel "controleventiel"@nl
+.
+n4:fireHydrant a skos:Concept;
+    ns2:icon 103;
+    ns2:symbol "brandkraan"^^xsd:string;
+    rdfs:label "brandkraan"@nl;
+    skos:notation "fireHydrant"^^xsd:string;
+    skos:prefLabel "brandkraan"@nl
+.
+n4:junction a skos:Concept;
+    ns2:icon 117;
+    ns2:symbol "put"^^xsd:string;
+    rdfs:label "knooppunt"@nl;
+    skos:notation "junction"^^xsd:string;
+    skos:prefLabel "knooppunt"@nl
+.
+n4:lateralPoint a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "lateraal punt"@nl;
+    skos:notation "lateralPoint"^^xsd:string;
+    skos:prefLabel "lateraal punt"@nl
+.
+n4:meter a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "meter"@nl;
+    skos:notation "meter"^^xsd:string;
+    skos:prefLabel "meter"@nl
+.
+n4:pressureController a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "drukregelaar"@nl;
+    skos:notation "pressureController"^^xsd:string;
+    skos:prefLabel "drukregelaar"@nl
+.
+n4:pumpStation a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "pompstation"@nl;
+    skos:notation "pumpStation"^^xsd:string;
+    skos:prefLabel "pompstation"@nl
+.
+n4:samplingStation a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "meetstation"@nl;
+    skos:notation "samplingStation"^^xsd:string;
+    skos:prefLabel "meetstation"@nl
+.
+n4:storageFacility a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "opslagfaciliteit"@nl;
+    skos:definition "Afgesloten opslagfaciliteit."^^xsd:string;
+    skos:notation "storageFacility"^^xsd:string;
+    skos:prefLabel "opslagfaciliteit"@nl
+.
+n4:treatmentPlant a skos:Concept;
+    ns2:icon 97;
+    ns2:symbol "aansluiting"^^xsd:string;
+    rdfs:label "zuiveringsinstallatie"@nl;
+    skos:notation "treatmentPlant"^^xsd:string;
+    skos:prefLabel "zuiveringsinstallatie"@nl
+.
+n4:waterDischargePoint a skos:Concept;
+    ns2:icon 97;
+    ns2:symbol "aansluiting"^^xsd:string;
+    rdfs:label "afvoerpunt"@nl;
+    skos:notation "waterDischargePoint"^^xsd:string;
+    skos:prefLabel "afvoerpunt"@nl
+.
+n4:waterExhaustPoint a skos:Concept;
+    ns2:icon 97;
+    ns2:symbol "aansluiting"^^xsd:string;
+    rdfs:label "aftappunt"@nl;
+    skos:notation "waterExhaustPoint"^^xsd:string;
+    skos:prefLabel "aftappunt"@nl
+.
+n4:waterServicePoint a skos:Concept;
+    ns2:symbol "overig of onbekend"^^xsd:string;
+    rdfs:label "toevoerpunt"@nl;
+    skos:notation "waterServicePoint"^^xsd:string;
+    skos:prefLabel "toevoerpunt"@nl
+.
+n4:well a skos:Concept;
+    ns2:icon 104;
+    ns2:symbol "bron"^^xsd:string;
+    rdfs:label "bron"@nl;
+    skos:definition "Winningsbron."^^xsd:string;
+    skos:notation "well"^^xsd:string;
+    skos:prefLabel "bron"@nl
+.
+n3:potable a skos:Concept;
+    rdfs:label "drinkbaar"@nl;
+    skos:definition "Drinkwater."^^xsd:string;
+    skos:notation "potable"^^xsd:string;
+    skos:prefLabel "drinkbaar"@nl
+.
+n3:raw a skos:Concept;
+    rdfs:label "onbehandeld"@nl;
+    skos:definition "Onbehandeld water."^^xsd:string;
+    skos:notation "raw"^^xsd:string;
+    skos:prefLabel "onbehandeld"@nl
+.
+n3:salt a skos:Concept;
+    rdfs:label "zout"@nl;
+    skos:definition "Zout water."^^xsd:string;
+    skos:notation "salt"^^xsd:string;
+    skos:prefLabel "zout"@nl
+.
+n3:treated a skos:Concept;
+    rdfs:label "behandeld"@nl;
+    skos:definition "Behandeld water."^^xsd:string;
+    skos:notation "treated"^^xsd:string;
+    skos:prefLabel "behandeld"@nl
+.
+n2:onGroundSurface a skos:Concept;
+    rdfs:label "op maaiveld"@nl;
+    skos:definition "Het ruimtelijk object bevindt zich op het maaiveld."^^xsd:string;
+    skos:notation "onGroundSurface"^^xsd:string;
+    skos:prefLabel "op maaiveld"@nl
+.
+n2:suspendedOrElevated a skos:Concept;
+    rdfs:label "boven maaiveld"@nl;
+    skos:definition "Het ruimtelijk object bevindt zich op een hoogte."^^xsd:string;
+    skos:notation "suspendedOrElevated"^^xsd:string;
+    skos:prefLabel "boven maaiveld"@nl
+.
+n2:underground a skos:Concept;
+    rdfs:label "ondergronds"@nl;
+    skos:definition "Het ruimtelijk object bevindt zich ondergronds."^^xsd:string;
+    skos:notation "underground"^^xsd:string;
+    skos:prefLabel "ondergronds"@nl
+.
+n1:ALB a skos:Concept;
+    rdfs:label "Albanië"@nl;
+    skos:notation "ALB"^^xsd:string;
+    skos:prefLabel "Albanië"@nl
+.
+n1:AUT a skos:Concept;
+    rdfs:label "Oostenrijk"@nl;
+    skos:notation "AUT"^^xsd:string;
+    skos:prefLabel "Oostenrijk"@nl
+.
+n1:BEL a skos:Concept;
+    rdfs:label "België"@nl;
+    skos:notation "BEL"^^xsd:string;
+    skos:prefLabel "België"@nl
+.
+n1:BGR a skos:Concept;
+    rdfs:label "Bulgarije"@nl;
+    skos:notation "BGR"^^xsd:string;
+    skos:prefLabel "Bulgarije"@nl
+.
+n1:CHE a skos:Concept;
+    rdfs:label "Zwitserland"@nl;
+    skos:notation "CHE"^^xsd:string;
+    skos:prefLabel "Zwitserland"@nl
+.
+n1:CYP a skos:Concept;
+    rdfs:label "Cyprus"@nl;
+    skos:notation "CYP"^^xsd:string;
+    skos:prefLabel "Cyprus"@nl
+.
+n1:CZE a skos:Concept;
+    rdfs:label "Tsjechië"@nl;
+    skos:notation "CZE"^^xsd:string;
+    skos:prefLabel "Tsjechië"@nl
+.
+n1:DEU a skos:Concept;
+    rdfs:label "Duitsland"@nl;
+    skos:notation "DEU"^^xsd:string;
+    skos:prefLabel "Duitsland"@nl
+.
+n1:DNK a skos:Concept;
+    rdfs:label "Denemarken"@nl;
+    skos:notation "DNK"^^xsd:string;
+    skos:prefLabel "Denemarken"@nl
+.
+n1:ESP a skos:Concept;
+    rdfs:label "Spanje"@nl;
+    skos:notation "ESP"^^xsd:string;
+    skos:prefLabel "Spanje"@nl
+.
+n1:EST a skos:Concept;
+    rdfs:label "Estland"@nl;
+    skos:notation "EST"^^xsd:string;
+    skos:prefLabel "Estland"@nl
+.
+n1:FIN a skos:Concept;
+    rdfs:label "Finland"@nl;
+    skos:notation "FIN"^^xsd:string;
+    skos:prefLabel "Finland"@nl
+.
+n1:FRA a skos:Concept;
+    rdfs:label "Frankrijk"@nl;
+    skos:notation "FRA"^^xsd:string;
+    skos:prefLabel "Frankrijk"@nl
+.
+n1:GBR a skos:Concept;
+    rdfs:label "Verenigd Koninkrijk"@nl;
+    skos:notation "GBR"^^xsd:string;
+    skos:prefLabel "Verenigd Koninkrijk"@nl
+.
+n1:GRC a skos:Concept;
+    rdfs:label "Griekenland"@nl;
+    skos:notation "GRC"^^xsd:string;
+    skos:prefLabel "Griekenland"@nl
+.
+n1:HRV a skos:Concept;
+    rdfs:label "Kroatië"@nl;
+    skos:notation "HRV"^^xsd:string;
+    skos:prefLabel "Kroatië"@nl
+.
+n1:HUN a skos:Concept;
+    rdfs:label "Hongarije"@nl;
+    skos:notation "HUN"^^xsd:string;
+    skos:prefLabel "Hongarije"@nl
+.
+n1:IRL a skos:Concept;
+    rdfs:label "Ierland"@nl;
+    skos:notation "IRL"^^xsd:string;
+    skos:prefLabel "Ierland"@nl
+.
+n1:ISL a skos:Concept;
+    rdfs:label "IJsland"@nl;
+    skos:notation "ISL"^^xsd:string;
+    skos:prefLabel "IJsland"@nl
+.
+n1:ITA a skos:Concept;
+    rdfs:label "Italië"@nl;
+    skos:notation "ITA"^^xsd:string;
+    skos:prefLabel "Italië"@nl
+.
+n1:LTU a skos:Concept;
+    rdfs:label "Litouwen"@nl;
+    skos:notation "LTU"^^xsd:string;
+    skos:prefLabel "Litouwen"@nl
+.
+n1:LUX a skos:Concept;
+    rdfs:label "Luxemburg"@nl;
+    skos:notation "LUX"^^xsd:string;
+    skos:prefLabel "Luxemburg"@nl
+.
+n1:LVA a skos:Concept;
+    rdfs:label "Letland"@nl;
+    skos:notation "LVA"^^xsd:string;
+    skos:prefLabel "Letland"@nl
+.
+n1:MKD a skos:Concept;
+    rdfs:label "Noord-Macedonië"@nl;
+    skos:notation "MKD"^^xsd:string;
+    skos:prefLabel "Noord-Macedonië"@nl
+.
+n1:MLT a skos:Concept;
+    rdfs:label "Malta"@nl;
+    skos:notation "MLT"^^xsd:string;
+    skos:prefLabel "Malta"@nl
+.
+n1:MNE a skos:Concept;
+    rdfs:label "Montenegro"@nl;
+    skos:notation "MNE"^^xsd:string;
+    skos:prefLabel "Montenegro"@nl
+.
+n1:NLD a skos:Concept;
+    rdfs:label "Nederland"@nl;
+    skos:notation "NLD"^^xsd:string;
+    skos:prefLabel "Nederland"@nl
+.
+n1:POL a skos:Concept;
+    rdfs:label "Polen"@nl;
+    skos:notation "POL"^^xsd:string;
+    skos:prefLabel "Polen"@nl
+.
+n1:PRT a skos:Concept;
+    rdfs:label "Portugal"@nl;
+    skos:notation "PRT"^^xsd:string;
+    skos:prefLabel "Portugal"@nl
+.
+n1:ROU a skos:Concept;
+    rdfs:label "Roemenië"@nl;
+    skos:notation "ROU"^^xsd:string;
+    skos:prefLabel "Roemenië"@nl
+.
+n1:SRB a skos:Concept;
+    rdfs:label "Servië"@nl;
+    skos:notation "SRB"^^xsd:string;
+    skos:prefLabel "Servië"@nl
+.
+n1:SVK a skos:Concept;
+    rdfs:label "Slowakije"@nl;
+    skos:notation "SVK"^^xsd:string;
+    skos:prefLabel "Slowakije"@nl
+.
+n1:SVN a skos:Concept;
+    rdfs:label "Slovenië"@nl;
+    skos:notation "SVN"^^xsd:string;
+    skos:prefLabel "Slovenië"@nl
+.
+n1:SWE a skos:Concept;
+    rdfs:label "Zweden"@nl;
+    skos:notation "SWE"^^xsd:string;
+    skos:prefLabel "Zweden"@nl
+.
+n1:TUR a skos:Concept;
+    rdfs:label "Turkije"@nl;
+    skos:notation "TUR"^^xsd:string;
+    skos:prefLabel "Turkije"@nl
+.

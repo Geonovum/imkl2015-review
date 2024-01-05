@@ -1,0 +1,264 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Calibri&display=swap);
+@import url(http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css);
+
+/* algemeen */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: 'Calibri', sans-serif;
+  font-size: 12pt;
+  line-height: 16pt;
+  word-wrap: break-word;
+}
+p:not(.space-after) {
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+}
+p.space-after {
+  margin-top: 0pt;
+  margin-bottom: 16pt;
+}
+div.head h1, h1 {
+  font-family: 'Calibri', sans-serif;
+  font-size: 28pt;
+  font-variant: normal;
+  font-weight: bold;
+  color: #005a9c;
+  line-height: 32pt;
+  margin: 0pt 0mm 32pt 0mm;
+}
+div.head h2, h2 {
+  font-family: 'Calibri', sans-serif;
+  font-size: 18pt;
+  font-variant: normal;
+  font-weight: bold;
+  color: #005a9c;
+  line-height: 24pt;
+  margin: 32pt 0mm 16pt 0mm;
+}
+h3 {
+  font-family: 'Calibri', sans-serif;
+  font-size: 14pt;
+  font-variant: normal;
+  font-weight: bold;
+  color: #005a9c;
+  line-height: 20pt;
+  margin: 28pt 0mm 16pt 0mm;
+}
+h4 {
+  font-family: 'Calibri', sans-serif;
+  font-size: 12pt;
+  font-variant: normal;
+  font-weight: bold;
+  color: #005a9c;
+  line-height: 16pt;
+  margin: 24pt 0mm 8pt 0mm;
+}
+h5 {
+  font-family: 'Calibri', sans-serif;
+  font-size: 12pt;
+  font-variant: normal;
+  font-weight: bold;
+  color: #005a9c;
+  line-height: 16pt;
+  margin: 16pt 0mm 0pt 0mm;
+}
+h6 {
+  font-family: 'Calibri', sans-serif;
+  font-size: 12pt;
+  font-variant: normal;
+  font-weight: bold;
+  color: #005a9c;
+  line-height: 16pt;
+  margin: 16pt 0mm 0pt 0mm;
+}
+p.heading6 {
+  font-family: 'Calibri', sans-serif;
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 16pt;
+  margin: 16pt 0mm 0pt 0mm;
+}
+p.heading7 {
+  font-family: 'Calibri', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  line-height: 16pt;
+  margin: 16pt 0mm 0pt 0mm;
+}
+p.heading8 {
+  font-family: 'Calibri', sans-serif;
+  font-size: 12pt;
+  font-style: italic;
+  line-height: 16pt;
+  margin: 16pt 0mm 0pt 0mm;
+}
+p.heading9 {
+  font-family: 'Calibri', sans-serif;
+  font-size: 12pt;
+  line-height: 16pt;
+  margin: 16pt 0mm 0pt 0mm;
+}
+p.heading10 {
+  font-family: 'Calibri', sans-serif;
+  font-size: 12pt;
+  line-height: 16pt;
+  margin: 16pt 0mm 0pt 0mm;
+}
+
+/* nummering */
+
+ol li,ul li {
+  margin: 0pt 0mm 0pt 5mm;
+}
+ol,ul {
+  padding: 0pt 0mm 0pt 0mm;
+}
+
+/* inline */
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+span.vet {
+  font-weight: bold;
+}
+span.cursief {
+  font-style: italic;
+}
+span.onderstreept {
+  text-decoration: underline;
+}
+span.superscript {
+  font-size: 0.8em;
+  position: relative;
+  top: -0.4em;
+  vertical-align: baseline;
+}
+span.subscript {
+  bottom: -0.3em;
+  font-size: 0.8em;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* noot */
+
+span.noot {
+  background-color: #FEF6BB;
+} 
+span.noot span.noottekst {
+  display: block;
+  margin: 7px;
+  padding: 7px;
+  position: absolute;
+  border: 1px solid #DCA;
+  background-color: #FEF6BB;
+  visibility: hidden;
+}
+span.noot:hover span.noottekst {
+  visibility: visible;
+  z-index: 1;
+}
+
+/* tabel */
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-bottom: 16pt;
+  margin-top: 16pt;
+  table-layout: fixed;
+  width: 100%;
+}
+caption {
+  text-align: left;
+  font-family: 'Calibri', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  line-height: 16pt;
+  margin-bottom: 4pt;
+}
+th {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  height: 16pt;
+  padding: 3.5px 1.5mm 3.5px 1.5mm;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+td {
+  border: 1px solid black;
+  height: 16pt;
+  padding: 3.5px 1.5mm 3.5px 1.5mm;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+table p {
+  font-family: 'Calibri', sans-serif;
+  font-size: 10pt;
+  line-height: 14pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+}
+table p.space-after {
+  margin-top: 0pt;
+  margin-bottom: 14pt;
+}
+
+/* image */
+
+section img {
+  display: block;
+  margin: 0pt 0mm 0pt 0mm;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+/* figuur */
+
+figure {
+  display: block;
+  margin: 16pt 0mm 16pt 0mm;
+}
+figure img {
+  display: block;
+  margin: 0pt 0mm 0pt 0mm;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+figcaption {
+  display: block;
+  font-family: 'Calibri', sans-serif;
+  font-size: 12pt;
+  line-height: 16pt;
+  margin: 8pt 0mm 0pt 0mm;
+  text-align: left;
+}
+
+/* snapshot */
+
+div.copyright div {
+  font-size: small;
+  display: inline-block;
+  margin: 3.5pt 3.5pt 3.5pt 0mm;
+  vertical-align: top;
+}
+
+/* textbox */
+
+div.textbox {
+  margin: 16pt 0mm 16pt 0mm;
+}
