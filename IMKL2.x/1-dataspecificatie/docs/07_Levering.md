@@ -92,11 +92,11 @@ is niet opgenomen bij individuele geometrieën.
 **Geometrietypen en interpolatie**
 
 In het IMKL UML en het afgeleide XML schema zijn de geometrietypen
-gespecificeerd. Voor de lijninterpolatie mag naast gml:LineString ook gml:Arc en
-gml:Circle gebruikt worden.
-gml:Arc is gedefinieerd door drie punten.
+gespecificeerd. Voor de lijninterpolatie mag alleen gml:LineString worden gebruikt.
 
 Niet ondersteund worden:
+gml:Arc
+gml:Circle
 gml:ArcByCenterPoint
 gml:ArcByBulge
 gml:CircleByCenterPoint
