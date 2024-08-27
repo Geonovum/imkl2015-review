@@ -698,7 +698,7 @@
                             <CssParameter name="stroke-dasharray">4 16</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
-                </Rule>
+                </Rule>                
                 <Rule>
                     <Name>gaslagedruk-geprojecteerd-z11-14-geen-extrageometrie</Name>
                     <Title>Gas Lage Druk (LD) geprojecteerd op zoomniveau 11 t/m 14 zonder ExtraGeometrie</Title>
@@ -3337,6 +3337,533 @@
                             <CssParameter name="stroke-dasharray">40 12 8 12</CssParameter>
                         </Stroke>
                     </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>buisleidinggevaarlijkeinhoud-fictief-ingetekend-z15-16-geen-extrageometrie</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) fictief ingetekend op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nauwkeurigheidXY</ogc:PropertyName>
+                                <ogc:Literal>fictiefIngetekend</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <TextSymbolizer>
+						<Label>V</Label>
+                        <Font>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
+                            <CssParameter name="font-size">20</CssParameter>
+                            <CssParameter name="font-style">normal</CssParameter>
+                            <CssParameter name="font-weight">regular</CssParameter>
+                        </Font>
+						<LabelPlacement>
+                            <LinePlacement />
+						</LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#ff7f00</CssParameter>
+                        </Fill>
+                        <VendorOption name="repeat">25</VendorOption>
+                        <VendorOption name="conflictResolution">false</VendorOption>
+                    </TextSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>datatransport-fictief-ingetekend-z15-16-geen-extrageometrie</Name>
+                    <Title>Datatransport (DT) fictief ingetekend op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>datatransport</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nauwkeurigheidXY</ogc:PropertyName>
+                                <ogc:Literal>fictiefIngetekend</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <TextSymbolizer>
+						<Label>V</Label>
+                        <Font>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
+                            <CssParameter name="font-size">20</CssParameter>
+                            <CssParameter name="font-style">normal</CssParameter>
+                            <CssParameter name="font-weight">regular</CssParameter>
+                        </Font>
+						<LabelPlacement>
+                            <LinePlacement />
+						</LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#00ff00</CssParameter>
+                        </Fill>
+                        <VendorOption name="repeat">25</VendorOption>
+                        <VendorOption name="conflictResolution">false</VendorOption>
+                    </TextSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gashogedruk-fictief-ingetekend-z15-16-geen-extrageometrie</Name>
+                    <Title>Gas Hoge Druk (HD) fictief ingetekend op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasHogeDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nauwkeurigheidXY</ogc:PropertyName>
+                                <ogc:Literal>fictiefIngetekend</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <TextSymbolizer>
+						<Label>V</Label>
+                        <Font>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
+                            <CssParameter name="font-size">20</CssParameter>
+                            <CssParameter name="font-style">normal</CssParameter>
+                            <CssParameter name="font-weight">regular</CssParameter>
+                        </Font>
+						<LabelPlacement>
+                            <LinePlacement />
+						</LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#ffaf3c</CssParameter>
+                        </Fill>
+                        <VendorOption name="repeat">25</VendorOption>
+                        <VendorOption name="conflictResolution">false</VendorOption>
+                    </TextSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gaslagedruk-fictief-ingetekend-z15-16-geen-extrageometrie</Name>
+                    <Title>Gas Lage Druk (LD) fictief ingetekend op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasLageDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nauwkeurigheidXY</ogc:PropertyName>
+                                <ogc:Literal>fictiefIngetekend</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <TextSymbolizer>
+						<Label>V</Label>
+                        <Font>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
+                            <CssParameter name="font-size">20</CssParameter>
+                            <CssParameter name="font-style">normal</CssParameter>
+                            <CssParameter name="font-weight">regular</CssParameter>
+                        </Font>
+						<LabelPlacement>
+                            <LinePlacement />
+						</LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#ffd750</CssParameter>
+                        </Fill>
+                        <VendorOption name="repeat">25</VendorOption>
+                        <VendorOption name="conflictResolution">false</VendorOption>
+                    </TextSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>petrochemie-fictief-ingetekend-z15-16-geen-extrageometrie</Name>
+                    <Title>(Petro-) chemie (PT) fictief ingetekend op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>petrochemie</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nauwkeurigheidXY</ogc:PropertyName>
+                                <ogc:Literal>fictiefIngetekend</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <TextSymbolizer>
+						<Label>V</Label>
+                        <Font>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
+                            <CssParameter name="font-size">20</CssParameter>
+                            <CssParameter name="font-style">normal</CssParameter>
+                            <CssParameter name="font-weight">regular</CssParameter>
+                        </Font>
+						<LabelPlacement>
+                            <LinePlacement />
+						</LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#b64a00</CssParameter>
+                        </Fill>
+                        <VendorOption name="repeat">25</VendorOption>
+                        <VendorOption name="conflictResolution">false</VendorOption>
+                    </TextSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>laagspanning-fictief-ingetekend-z15-16-geen-extrageometrie</Name>
+                    <Title>Laagspanning (LS) fictief ingetekend op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>laagspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nauwkeurigheidXY</ogc:PropertyName>
+                                <ogc:Literal>fictiefIngetekend</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <TextSymbolizer>
+						<Label>V</Label>
+                        <Font>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
+                            <CssParameter name="font-size">20</CssParameter>
+                            <CssParameter name="font-style">normal</CssParameter>
+                            <CssParameter name="font-weight">regular</CssParameter>
+                        </Font>
+						<LabelPlacement>
+                            <LinePlacement />
+						</LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#960000</CssParameter>
+                        </Fill>
+                        <VendorOption name="repeat">25</VendorOption>
+                        <VendorOption name="conflictResolution">false</VendorOption>
+                    </TextSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>middenspanning-fictief-ingetekend-z15-16-geen-extrageometrie</Name>
+                    <Title>Middenspanning (MS) fictief ingetekend op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>middenspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nauwkeurigheidXY</ogc:PropertyName>
+                                <ogc:Literal>fictiefIngetekend</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <TextSymbolizer>
+						<Label>V</Label>
+                        <Font>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
+                            <CssParameter name="font-size">20</CssParameter>
+                            <CssParameter name="font-style">normal</CssParameter>
+                            <CssParameter name="font-weight">regular</CssParameter>
+                        </Font>
+						<LabelPlacement>
+                            <LinePlacement />
+						</LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#c80000</CssParameter>
+                        </Fill>
+                        <VendorOption name="repeat">25</VendorOption>
+                        <VendorOption name="conflictResolution">false</VendorOption>
+                    </TextSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>hoogspanning-fictief-ingetekend-z15-16-geen-extrageometrie</Name>
+                    <Title>Hoogspanning (HS) fictief ingetekend op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>hoogspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nauwkeurigheidXY</ogc:PropertyName>
+                                <ogc:Literal>fictiefIngetekend</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <TextSymbolizer>
+						<Label>V</Label>
+                        <Font>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
+                            <CssParameter name="font-size">20</CssParameter>
+                            <CssParameter name="font-style">normal</CssParameter>
+                            <CssParameter name="font-weight">regular</CssParameter>
+                        </Font>
+						<LabelPlacement>
+                            <LinePlacement />
+						</LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#ff0000</CssParameter>
+                        </Fill>
+                        <VendorOption name="repeat">25</VendorOption>
+                        <VendorOption name="conflictResolution">false</VendorOption>
+                    </TextSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>landelijkhoogspanningsnet-fictief-ingetekend-z15-16-geen-extrageometrie</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) fictief ingetekend op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nauwkeurigheidXY</ogc:PropertyName>
+                                <ogc:Literal>fictiefIngetekend</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <TextSymbolizer>
+						<Label>V</Label>
+                        <Font>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
+                            <CssParameter name="font-size">20</CssParameter>
+                            <CssParameter name="font-style">normal</CssParameter>
+                            <CssParameter name="font-weight">regular</CssParameter>
+                        </Font>
+						<LabelPlacement>
+                            <LinePlacement />
+						</LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#ff0000</CssParameter>
+                        </Fill>
+                        <VendorOption name="repeat">25</VendorOption>
+                        <VendorOption name="conflictResolution">false</VendorOption>
+                    </TextSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-fictief-ingetekend-z15-16-geen-extrageometrie</Name>
+                    <Title>Water fictief ingetekend op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nauwkeurigheidXY</ogc:PropertyName>
+                                <ogc:Literal>fictiefIngetekend</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <TextSymbolizer>
+						<Label>V</Label>
+                        <Font>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
+                            <CssParameter name="font-size">20</CssParameter>
+                            <CssParameter name="font-style">normal</CssParameter>
+                            <CssParameter name="font-weight">regular</CssParameter>
+                        </Font>
+						<LabelPlacement>
+                            <LinePlacement />
+						</LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#0000ff</CssParameter>
+                        </Fill>
+                        <VendorOption name="repeat">25</VendorOption>
+                        <VendorOption name="conflictResolution">false</VendorOption>
+                    </TextSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>warmte-fictief-ingetekend-z15-16-geen-extrageometrie</Name>
+                    <Title>Warmte fictief ingetekend op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>warmte</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nauwkeurigheidXY</ogc:PropertyName>
+                                <ogc:Literal>fictiefIngetekend</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <TextSymbolizer>
+						<Label>V</Label>
+                        <Font>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
+                            <CssParameter name="font-size">20</CssParameter>
+                            <CssParameter name="font-style">normal</CssParameter>
+                            <CssParameter name="font-weight">regular</CssParameter>
+                        </Font>
+						<LabelPlacement>
+                            <LinePlacement />
+						</LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#008080</CssParameter>
+                        </Fill>
+                        <VendorOption name="repeat">25</VendorOption>
+                        <VendorOption name="conflictResolution">false</VendorOption>
+                    </TextSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolonderoverofonderdruk-fictief-ingetekend-z15-16-geen-extrageometrie</Name>
+                    <Title>Riool onder over- of onderdruk fictief ingetekend op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nauwkeurigheidXY</ogc:PropertyName>
+                                <ogc:Literal>fictiefIngetekend</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <TextSymbolizer>
+						<Label>V</Label>
+                        <Font>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
+                            <CssParameter name="font-size">20</CssParameter>
+                            <CssParameter name="font-style">normal</CssParameter>
+                            <CssParameter name="font-weight">regular</CssParameter>
+                        </Font>
+						<LabelPlacement>
+                            <LinePlacement />
+						</LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#800080</CssParameter>
+                        </Fill>
+                        <VendorOption name="repeat">25</VendorOption>
+                        <VendorOption name="conflictResolution">false</VendorOption>
+                    </TextSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolvrijverval-fictief-ingetekend-z15-16-geen-extrageometrie</Name>
+                    <Title>Riool vrijverval (VV) fictief ingetekend op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolVrijverval</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nauwkeurigheidXY</ogc:PropertyName>
+                                <ogc:Literal>fictiefIngetekend</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <TextSymbolizer>
+						<Label>V</Label>
+                        <Font>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
+                            <CssParameter name="font-size">20</CssParameter>
+                            <CssParameter name="font-style">normal</CssParameter>
+                            <CssParameter name="font-weight">regular</CssParameter>
+                        </Font>
+						<LabelPlacement>
+                            <LinePlacement />
+						</LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#ba38a8</CssParameter>
+                        </Fill>
+                        <VendorOption name="repeat">25</VendorOption>
+                        <VendorOption name="conflictResolution">false</VendorOption>
+                    </TextSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>wees-fictief-ingetekend-z15-16-geen-extrageometrie</Name>
+                    <Title>Wees fictief ingetekend op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>wees</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nauwkeurigheidXY</ogc:PropertyName>
+                                <ogc:Literal>fictiefIngetekend</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <TextSymbolizer>
+						<Label>V</Label>
+                        <Font>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
+                            <CssParameter name="font-size">20</CssParameter>
+                            <CssParameter name="font-style">normal</CssParameter>
+                            <CssParameter name="font-weight">regular</CssParameter>
+                        </Font>
+						<LabelPlacement>
+                            <LinePlacement />
+						</LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#918a6f</CssParameter>
+                        </Fill>
+                        <VendorOption name="repeat">25</VendorOption>
+                        <VendorOption name="conflictResolution">false</VendorOption>
+                    </TextSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>overig-fictief-ingetekend-z15-16-geen-extrageometrie</Name>
+                    <Title>Overig fictief ingetekend op zoomniveau 15 en 16 zonder ExtraGeometrie</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>overig</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nauwkeurigheidXY</ogc:PropertyName>
+                                <ogc:Literal>fictiefIngetekend</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <TextSymbolizer>
+						<Label>V</Label>
+                        <Font>
+                            <CssParameter name="font-family">Liberation Sans</CssParameter>
+                            <CssParameter name="font-size">20</CssParameter>
+                            <CssParameter name="font-style">normal</CssParameter>
+                            <CssParameter name="font-weight">regular</CssParameter>
+                        </Font>
+						<LabelPlacement>
+                            <LinePlacement />
+						</LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#6f5c10</CssParameter>
+                        </Fill>
+                        <VendorOption name="repeat">25</VendorOption>
+                        <VendorOption name="conflictResolution">false</VendorOption>
+                    </TextSymbolizer>
                 </Rule>
             </FeatureTypeStyle>
         </UserStyle>
