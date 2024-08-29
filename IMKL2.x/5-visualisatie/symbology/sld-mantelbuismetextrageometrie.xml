@@ -45,10 +45,15 @@
                                 <ogc:PropertyName>thema</ogc:PropertyName>
                                 <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
-                                <ogc:Literal>functional</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                    <ogc:Literal>functional</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsNull>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                </ogc:PropertyIsNull>
+                            </ogc:Or>
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -119,10 +124,15 @@
                                 <ogc:PropertyName>thema</ogc:PropertyName>
                                 <ogc:Literal>datatransport</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
-                                <ogc:Literal>functional</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                    <ogc:Literal>functional</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsNull>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                </ogc:PropertyIsNull>
+                            </ogc:Or>
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -193,10 +203,15 @@
                                 <ogc:PropertyName>thema</ogc:PropertyName>
                                 <ogc:Literal>gasHogeDruk</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
-                                <ogc:Literal>functional</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                    <ogc:Literal>functional</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsNull>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                </ogc:PropertyIsNull>
+                            </ogc:Or>
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -267,10 +282,15 @@
                                 <ogc:PropertyName>thema</ogc:PropertyName>
                                 <ogc:Literal>gasLageDruk</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
-                                <ogc:Literal>functional</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                    <ogc:Literal>functional</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsNull>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                </ogc:PropertyIsNull>
+                            </ogc:Or>
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -341,10 +361,15 @@
                                 <ogc:PropertyName>thema</ogc:PropertyName>
                                 <ogc:Literal>petrochemie</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
-                                <ogc:Literal>functional</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                    <ogc:Literal>functional</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsNull>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                </ogc:PropertyIsNull>
+                            </ogc:Or>
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -415,10 +440,15 @@
                                 <ogc:PropertyName>thema</ogc:PropertyName>
                                 <ogc:Literal>laagspanning</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
-                                <ogc:Literal>functional</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                    <ogc:Literal>functional</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsNull>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                </ogc:PropertyIsNull>
+                            </ogc:Or>
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -489,10 +519,15 @@
                                 <ogc:PropertyName>thema</ogc:PropertyName>
                                 <ogc:Literal>middenspanning</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
-                                <ogc:Literal>functional</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                    <ogc:Literal>functional</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsNull>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                </ogc:PropertyIsNull>
+                            </ogc:Or>
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -563,10 +598,15 @@
                                 <ogc:PropertyName>thema</ogc:PropertyName>
                                 <ogc:Literal>hoogspanning</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
-                                <ogc:Literal>functional</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                    <ogc:Literal>functional</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsNull>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                </ogc:PropertyIsNull>
+                            </ogc:Or>
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -637,10 +677,15 @@
                                 <ogc:PropertyName>thema</ogc:PropertyName>
                                 <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
-                                <ogc:Literal>functional</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                    <ogc:Literal>functional</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsNull>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                </ogc:PropertyIsNull>
+                            </ogc:Or>
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -711,10 +756,15 @@
                                 <ogc:PropertyName>thema</ogc:PropertyName>
                                 <ogc:Literal>water</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
-                                <ogc:Literal>functional</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                    <ogc:Literal>functional</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsNull>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                </ogc:PropertyIsNull>
+                            </ogc:Or>
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -785,10 +835,15 @@
                                 <ogc:PropertyName>thema</ogc:PropertyName>
                                 <ogc:Literal>warmte</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
-                                <ogc:Literal>functional</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                    <ogc:Literal>functional</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsNull>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                </ogc:PropertyIsNull>
+                            </ogc:Or>
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -859,10 +914,15 @@
                                 <ogc:PropertyName>thema</ogc:PropertyName>
                                 <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
-                                <ogc:Literal>functional</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                    <ogc:Literal>functional</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsNull>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                </ogc:PropertyIsNull>
+                            </ogc:Or>
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -933,10 +993,15 @@
                                 <ogc:PropertyName>thema</ogc:PropertyName>
                                 <ogc:Literal>rioolVrijverval</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
-                                <ogc:Literal>functional</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                    <ogc:Literal>functional</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsNull>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                </ogc:PropertyIsNull>
+                            </ogc:Or>
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -1007,10 +1072,15 @@
                                 <ogc:PropertyName>thema</ogc:PropertyName>
                                 <ogc:Literal>wees</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
-                                <ogc:Literal>functional</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                    <ogc:Literal>functional</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsNull>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                </ogc:PropertyIsNull>
+                            </ogc:Or>
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
@@ -1081,10 +1151,15 @@
                                 <ogc:PropertyName>thema</ogc:PropertyName>
                                 <ogc:Literal>overig</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>currentStatus</ogc:PropertyName>
-                                <ogc:Literal>functional</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                    <ogc:Literal>functional</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsNull>
+                                    <ogc:PropertyName>currentStatus</ogc:PropertyName>
+                                </ogc:PropertyIsNull>
+                            </ogc:Or>
                         </ogc:And>
                     </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
