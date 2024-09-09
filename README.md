@@ -3,7 +3,7 @@
 
 `Note: Deze git wordt gebruikt als ontwikkelomgeving voor IMKL. De issues worden gebruikt voor het beheer van de actuele IMKL versie. De git bevat de werkversies, de release candidates en de uiteindelijk gepubliceerde versie. Deze worden daarna op de officiele url's gepubliceerd.
 Deze git is al in gebruik vanaf de IMKL2015 versie maar bevat ook de IMKL 2.0 versie en verdere ontwikkeling. 
-De naamgeving IMKL2015-review is daarom niet meer actueel. Een algemenere naam IMKL-werkomgeving was beter geweest maar voor de continuitiet van de URL's is de naam niet aangepast.`
+De naamgeving IMKL2015-review is daarom niet meer actueel. Een algemenere naam IMKL-werkomgeving was beter geweest maar voor de continuiteit van de URL's is de naam niet aangepast.`
 
 [IMKL - informatiemodel in ontwikkeling](https://geonovum.github.io/imkl2015-review/IMKL2.x/1-dataspecificatie)
 
