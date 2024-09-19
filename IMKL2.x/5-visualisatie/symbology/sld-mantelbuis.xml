@@ -12,6 +12,1058 @@
             <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle mantelbuizen obv thema en currentStatus zonder ExtraGeometrie</Abstract>
             <FeatureTypeStyle>
                 <Rule>
+                    <Name>buisleidinggevaarlijkeinhoud-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#ff7f00</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>24</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">24 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">24</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>buisleidinggevaarlijkeinhoud-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>buisleidingGevaarlijkeInhoud</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#ff7f00</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>18</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">18 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">18</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>datatransport-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Datatransport (DT) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>datatransport</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#00ff00</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>24</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">24 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">24</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>datatransport-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Datatransport (DT) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>datatransport</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#00ff00</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>18</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">18 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">18</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gashogedruk-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Gas Hoge Druk (HD) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasHogeDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#ffaf3c</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>24</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">24 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">24</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gashogedruk-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Gas Hoge Druk (HD) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasHogeDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#ffaf3c</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>18</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">18 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">18</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gaslagedruk-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Gas Lage Druk (LD) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasLageDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#ffd750</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>24</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">24 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">24</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>gaslagedruk-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Gas Lage Druk (LD) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>gasLageDruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#ffd750</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>18</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">18 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">18</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>petrochemie-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>(Petro-) chemie (PT) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>petrochemie</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#b64a00</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>24</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">24 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">24</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>petrochemie-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>(Petro-) chemie (PT) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>petrochemie</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#b64a00</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>18</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">18 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">18</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>laagspanning-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Laagspanning (LS) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>laagspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#960000</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>24</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">24 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">24</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>laagspanning-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Laagspanning (LS) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>laagspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#960000</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>18</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">18 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">18</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>middenspanning-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Middenspanning (MS) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>middenspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#c80000</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>24</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">24 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">24</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>middenspanning-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Middenspanning (MS) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>middenspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#c80000</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>18</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">18 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">18</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>hoogspanning-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Hoogspanning (HS) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>hoogspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#ff0000</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>24</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">24 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">24</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>hoogspanning-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Hoogspanning (HS) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>hoogspanning</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#ff0000</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>18</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">18 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">18</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>landelijkhoogspanningsnet-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#ff0000</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>24</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">24 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">24</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>landelijkhoogspanningsnet-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>landelijkHoogspanningsnet</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#ff0000</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>18</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">18 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">18</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Water eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#0000ff</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>24</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">24 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">24</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>water-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Water eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>water</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#0000ff</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>18</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">18 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">18</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>warmte-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Warmte eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>warmte</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#008080</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>24</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">24 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">24</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>warmte-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Warmte eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>warmte</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#008080</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>18</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">18 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">18</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolonderoverofonderdruk-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Riool onder over- of onderdruk eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#800080</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>24</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">24 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">24</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolonderoverofonderdruk-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Riool onder over- of onderdruk eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolOnderOverOfOnderdruk</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#800080</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>18</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">18 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">18</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolvrijverval-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Riool vrijverval (VV) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolVrijverval</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#ba38a8</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>24</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">24 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">24</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>rioolvrijverval-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Riool vrijverval (VV) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>rioolVrijverval</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#ba38a8</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>18</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">18 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">18</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>wees-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Wees eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>wees</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#918a6f</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>24</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">24 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">24</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>wees-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Wees eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>wees</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#918a6f</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>18</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">18 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">18</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>overig-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Overig eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>overig</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#6f5c10</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>24</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">24 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">24</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>overig-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Overig eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>thema</ogc:PropertyName>
+                                <ogc:Literal>overig</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>eigenaar</ogc:PropertyName>
+                                <ogc:Literal>ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>1250</MaxScaleDenominator>
+                    <LineSymbolizer>
+                        <Stroke>
+                            <GraphicStroke>
+                                <Graphic>
+                                    <Mark>
+                                        <WellKnownName>circle</WellKnownName>
+                                        <Fill>
+                                            <CssParameter name="fill">#6f5c10</CssParameter>
+                                        </Fill>
+                                    </Mark>
+                                    <Size>18</Size>
+                                </Graphic>
+                            </GraphicStroke>
+                            <CssParameter name="stroke-dasharray">18 128</CssParameter>
+                            <CssParameter name="stroke-dashoffset">18</CssParameter>
+                        </Stroke>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
                     <Name>buisleidinggevaarlijkeinhoud-geprojecteerd-z15-16-geen-extrageometrie-onder</Name>
                     <Title>Buisleiding Gevaarlijke Inhoud (BGI) geprojecteerd op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
