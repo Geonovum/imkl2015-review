@@ -4,7 +4,7 @@
         <Name>ExtraDetailinfo - lijn</Name>
         <UserStyle>
             <Title>ExtraDetailinfo Lijn</Title>
-            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle objecten uit de objectklasse ExtraDetailinfo met een lijngeometrie obv status en typeTopografischObject</Abstract>
+            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle objecten uit de objectklasse ExtraDetailinfo met een lijngeometrie</Abstract>
             <FeatureTypeStyle>
                 <Rule>
                     <Name>extradetailinfo-lijn</Name>

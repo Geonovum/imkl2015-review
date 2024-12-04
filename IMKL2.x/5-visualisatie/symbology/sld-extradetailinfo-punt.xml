@@ -14,6 +14,28 @@
                 <Rule>
                     <Name>extradetailinfo-punt-z15-16</Name>
                     <Title>ExtraDetailinfo op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:Or>
+                            <ogc:And>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:Function name="PropertyExists">
+                                        <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                    </ogc:Function>
+                                    <ogc:Literal>true</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                    <ogc:Literal>Nee</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                            </ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:Function name="PropertyExists">
+                                    <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                </ogc:Function>
+                                <ogc:Literal>false</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
                     <MinScaleDenominator>0</MinScaleDenominator>
                     <MaxScaleDenominator>500</MaxScaleDenominator>
                     <PointSymbolizer>
@@ -27,14 +49,94 @@
                     </PointSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>extradetailfino-punt-z14</Name>
+                    <Name>extradetailinfo-gestuurde-boring-punt-z15-16</Name>
+                    <Title>ExtraDetailinfo gestuurde boring op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:Function name="PropertyExists">
+                                    <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                </ogc:Function>
+                                <ogc:Literal>true</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                <ogc:Literal>Ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="gestuurdeboring.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
+                            <Size>25</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>extradetailinfo-punt-z14</Name>
                     <Title>ExtraDetailinfo op zoomniveau 14</Title>
+                    <ogc:Filter>
+                        <ogc:Or>
+                            <ogc:And>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:Function name="PropertyExists">
+                                        <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                    </ogc:Function>
+                                    <ogc:Literal>true</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                    <ogc:Literal>Nee</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                            </ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:Function name="PropertyExists">
+                                    <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                </ogc:Function>
+                                <ogc:Literal>false</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
                     <MinScaleDenominator>501</MinScaleDenominator>
                     <MaxScaleDenominator>640000</MaxScaleDenominator>
                     <PointSymbolizer>
                         <Graphic>
                             <ExternalGraphic>
                                 <OnlineResource xlink:type="simple" xlink:href="extradetailinfo.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
+                            <Size>11</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>extradetailinfo-gestuurdeboring-punt-z14</Name>
+                    <Title>ExtraDetailinfo gestuurde boring op zoomniveau 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:Function name="PropertyExists">
+                                    <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                </ogc:Function>
+                                <ogc:Literal>true</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                <ogc:Literal>Ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>640000</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="gestuurdeboring.svg"/>
                                 <Format>image/svg+xml</Format>
                             </ExternalGraphic>
                             <Size>11</Size>
