@@ -12,8 +12,8 @@
             <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle mantelbuizen obv thema en currentStatus zonder ExtraGeometrie</Abstract>
             <FeatureTypeStyle>
                 <Rule>
-                    <Name>buisleidinggevaarlijkeinhoud-eigenaar-z15-16-geen-extrageometrie-onder</Name>
-                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <Name>buisleidinggevaarlijkeinhoud-geen-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) geen eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -22,7 +22,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -47,8 +47,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>buisleidinggevaarlijkeinhoud-eigenaar-z14-geen-extrageometrie-onder</Name>
-                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <Name>buisleidinggevaarlijkeinhoud-geen-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Buisleiding Gevaarlijke Inhoud (BGI) geen eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -57,7 +57,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -82,8 +82,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>datatransport-eigenaar-z15-16-geen-extrageometrie-onder</Name>
-                    <Title>Datatransport (DT) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <Name>datatransport-geen-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Datatransport (DT) geen eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -92,7 +92,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -117,8 +117,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>datatransport-eigenaar-z14-geen-extrageometrie-onder</Name>
-                    <Title>Datatransport (DT) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <Name>datatransport-geen-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Datatransport (DT) geen eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -127,7 +127,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -152,8 +152,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>gashogedruk-eigenaar-z15-16-geen-extrageometrie-onder</Name>
-                    <Title>Gas Hoge Druk (HD) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <Name>gashogedruk-geen-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Gas Hoge Druk (HD) geen eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -162,7 +162,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -187,8 +187,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>gashogedruk-eigenaar-z14-geen-extrageometrie-onder</Name>
-                    <Title>Gas Hoge Druk (HD) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <Name>gashogedruk-geen-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Gas Hoge Druk (HD) geen eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -197,7 +197,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -222,8 +222,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>gaslagedruk-eigenaar-z15-16-geen-extrageometrie-onder</Name>
-                    <Title>Gas Lage Druk (LD) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <Name>gaslagedruk-geen-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Gas Lage Druk (LD) geen eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -232,7 +232,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -257,8 +257,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>gaslagedruk-eigenaar-z14-geen-extrageometrie-onder</Name>
-                    <Title>Gas Lage Druk (LD) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <Name>gaslagedruk-geen-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Gas Lage Druk (LD) geen eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -267,7 +267,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -292,8 +292,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>petrochemie-eigenaar-z15-16-geen-extrageometrie-onder</Name>
-                    <Title>(Petro-) chemie (PT) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <Name>petrochemie-geen-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>(Petro-) chemie (PT) geen eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -302,7 +302,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -327,8 +327,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>petrochemie-eigenaar-z14-geen-extrageometrie-onder</Name>
-                    <Title>(Petro-) chemie (PT) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <Name>petrochemie-geen-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>(Petro-) chemie (PT) geen eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -337,7 +337,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -362,8 +362,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>laagspanning-eigenaar-z15-16-geen-extrageometrie-onder</Name>
-                    <Title>Laagspanning (LS) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <Name>laagspanning-geen-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Laagspanning (LS) geen eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -372,7 +372,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -397,8 +397,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>laagspanning-eigenaar-z14-geen-extrageometrie-onder</Name>
-                    <Title>Laagspanning (LS) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <Name>laagspanning-geen-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Laagspanning (LS) geen eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -407,7 +407,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -432,8 +432,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>middenspanning-eigenaar-z15-16-geen-extrageometrie-onder</Name>
-                    <Title>Middenspanning (MS) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <Name>middenspanning-geen-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Middenspanning (MS) geen eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -442,7 +442,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -467,8 +467,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>middenspanning-eigenaar-z14-geen-extrageometrie-onder</Name>
-                    <Title>Middenspanning (MS) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <Name>middenspanning-geen-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Middenspanning (MS) geen eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -477,7 +477,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -502,8 +502,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>hoogspanning-eigenaar-z15-16-geen-extrageometrie-onder</Name>
-                    <Title>Hoogspanning (HS) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <Name>hoogspanning-geen-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Hoogspanning (HS) geen eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -512,7 +512,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -537,8 +537,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>hoogspanning-eigenaar-z14-geen-extrageometrie-onder</Name>
-                    <Title>Hoogspanning (HS) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <Name>hoogspanning-geen-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Hoogspanning (HS) geen eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -547,7 +547,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -572,8 +572,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>landelijkhoogspanningsnet-eigenaar-z15-16-geen-extrageometrie-onder</Name>
-                    <Title>Landelijk hoogspanningsnet (ZHS) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <Name>landelijkhoogspanningsnet-geen-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) geen eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -582,7 +582,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -607,8 +607,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>landelijkhoogspanningsnet-eigenaar-z14-geen-extrageometrie-onder</Name>
-                    <Title>Landelijk hoogspanningsnet (ZHS) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <Name>landelijkhoogspanningsnet-geen-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Landelijk hoogspanningsnet (ZHS) geen eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -617,7 +617,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -642,8 +642,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>water-eigenaar-z15-16-geen-extrageometrie-onder</Name>
-                    <Title>Water eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <Name>water-geen-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Water geen eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -652,7 +652,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -677,8 +677,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>water-eigenaar-z14-geen-extrageometrie-onder</Name>
-                    <Title>Water eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <Name>water-geen-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Water geen eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -687,7 +687,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -712,8 +712,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>warmte-eigenaar-z15-16-geen-extrageometrie-onder</Name>
-                    <Title>Warmte eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <Name>warmte-geen-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Warmte geen eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -722,7 +722,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -747,8 +747,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>warmte-eigenaar-z14-geen-extrageometrie-onder</Name>
-                    <Title>Warmte eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <Name>warmte-geen-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Warmte geen eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -757,7 +757,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -782,8 +782,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>rioolonderoverofonderdruk-eigenaar-z15-16-geen-extrageometrie-onder</Name>
-                    <Title>Riool onder over- of onderdruk eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <Name>rioolonderoverofonderdruk-geen-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Riool onder over- of onderdruk geen eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -792,7 +792,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -817,8 +817,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>rioolonderoverofonderdruk-eigenaar-z14-geen-extrageometrie-onder</Name>
-                    <Title>Riool onder over- of onderdruk eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <Name>rioolonderoverofonderdruk-geen-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Riool onder over- of onderdruk geen eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -827,7 +827,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -852,8 +852,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>rioolvrijverval-eigenaar-z15-16-geen-extrageometrie-onder</Name>
-                    <Title>Riool vrijverval (VV) eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <Name>rioolvrijverval-geen-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Riool vrijverval (VV) geen eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -862,7 +862,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -887,8 +887,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>rioolvrijverval-eigenaar-z14-geen-extrageometrie-onder</Name>
-                    <Title>Riool vrijverval (VV) eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <Name>rioolvrijverval-geen-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Riool vrijverval (VV) geen eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -897,7 +897,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -922,8 +922,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>wees-eigenaar-z15-16-geen-extrageometrie-onder</Name>
-                    <Title>Wees eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <Name>wees-geen-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Wees geen eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -932,7 +932,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -957,8 +957,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>wees-eigenaar-z14-geen-extrageometrie-onder</Name>
-                    <Title>Wees eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <Name>wees-geen-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Wees geen eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -967,7 +967,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -992,8 +992,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>overig-eigenaar-z15-16-geen-extrageometrie-onder</Name>
-                    <Title>Overig eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
+                    <Name>overig-geen-eigenaar-z15-16-geen-extrageometrie-onder</Name>
+                    <Title>Overig geen eigenaar op zoomniveau 15 en 16 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1002,7 +1002,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -1027,8 +1027,8 @@
                     </LineSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>overig-eigenaar-z14-geen-extrageometrie-onder</Name>
-                    <Title>Overig eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
+                    <Name>overig-geen-eigenaar-z14-geen-extrageometrie-onder</Name>
+                    <Title>Overig geen eigenaar op zoomniveau 14 zonder ExtraGeometrie - onder</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1037,7 +1037,7 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>eigenaar</ogc:PropertyName>
-                                <ogc:Literal>ja</ogc:Literal>
+                                <ogc:Literal>Nee</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
